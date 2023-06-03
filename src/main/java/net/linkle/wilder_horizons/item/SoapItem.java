@@ -14,8 +14,8 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class SLSoapItem extends SLFoodItem {
-    public SLSoapItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
+public class SoapItem extends SLFoodItem {
+    public SoapItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
         super(settings, hunger, satMod, isMeat, new FoodStatusEffect(new StatusEffectInstance(effect, 45 * 20, 0, true, false))); // 30 seconds
     }
 

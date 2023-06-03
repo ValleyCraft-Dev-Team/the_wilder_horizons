@@ -12,48 +12,48 @@ public class WHMedicines {
     /**bolus base - beetroot**/
 
     public static final Item BOLUS_POISON = registerItem("poison_bolus",
-            new SLBolusItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.SOULSLIKEGRIT), 0,0, true, StatusEffects.NAUSEA));
+            new BolusItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.WH_MEDICINAL), 0,0, true, StatusEffects.NAUSEA));
 
     /**salve base - dried kelp**/
 
     public static final Item SALVE_HEALING = registerItem("healing_salve",
-            new SLSalveItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.SOULSLIKEGRIT), 0, 0,
+            new SalveItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.WH_MEDICINAL), 0, 0,
                     true, StatusEffects.REGENERATION));
 
     /**tea base - glow berries**/
 
     public static final Item TEA_MUG = registerItem("tea_mug",
-            new SLModItem(new FabricItemSettings().maxCount(64).group(WHItemGroups.SOULSLIKEGRIT)));
+            new WHModItem(new FabricItemSettings().maxCount(64).group(WHItemGroups.WH_MISCELLANEOUS)));
 
     public static final Item TEA_HEALING = registerItem("tea_healing",
-            new SLBrothItem(new FabricItemSettings().maxCount(1).group(WHItemGroups.SOULSLIKEGRIT), 2, 0.8f,
+            new BrothItem(new FabricItemSettings().maxCount(1).group(WHItemGroups.WH_FOOD), 2, 0.8f,
                     false, StatusEffects.STRENGTH));
 
     public static final Item TEA_NIGHT_VISION = registerItem("tea_night_vision",
-            new SLBrothItem(new FabricItemSettings().maxCount(1).group(WHItemGroups.SOULSLIKEGRIT), 2, 0.8f,
+            new BrothItem(new FabricItemSettings().maxCount(1).group(WHItemGroups.WH_FOOD), 2, 0.8f,
                     false, StatusEffects.NIGHT_VISION));
 
     public static final Item TEA_HASTE = registerItem("tea_strength",
-            new SLBrothItem(new FabricItemSettings().maxCount(1).group(WHItemGroups.SOULSLIKEGRIT), 2, 0.8f,
+            new BrothItem(new FabricItemSettings().maxCount(1).group(WHItemGroups.WH_FOOD), 2, 0.8f,
                     false, StatusEffects.HASTE));
 
     /**ointment base - slime**/
     public static final Item OINTMENT_EXTINGUISHING = registerItem("extinguishing_ointment",
-            new SLSalveItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.SOULSLIKEGRIT), 0, 0,
+            new SalveItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.WH_MEDICINAL), 0, 0,
                     true, StatusEffects.FIRE_RESISTANCE));
 
     public static final Item OINTMENT_PROTECTING = registerItem("warding_ointment",
-            new SLOintmentItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.SOULSLIKEGRIT), 0, 0,
+            new OintmentItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.WH_MEDICINAL), 0, 0,
                     true, StatusEffects.RESISTANCE));
 
     public static final Item OINTMENT_CONCEALING = registerItem("concealing_ointment",
-            new SLOintmentItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.SOULSLIKEGRIT), 0, 0,
+            new OintmentItem(new FabricItemSettings().maxCount(16).group(WHItemGroups.WH_MEDICINAL), 0, 0,
                     true, StatusEffects.INVISIBILITY));
 
     /**soap base - clay**/
 
     public static final Item SOAP = registerItem("soap",
-            new SLSoapItem(new FabricItemSettings().maxCount(64).group(WHItemGroups.SOULSLIKEGRIT), 0, 0, true,
+            new SoapItem(new FabricItemSettings().maxCount(64).group(WHItemGroups.WH_MEDICINAL), 0, 0, true,
                     WHEffects.CLEANSED));
 
     private static Item registerItem(String name, Item item) {

@@ -13,7 +13,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class SLFoodItem extends SLModItem {
+public class SLFoodItem extends WHModItem {
     protected boolean hideTooltip;
 
     /** @param satMod = saturationModifier */

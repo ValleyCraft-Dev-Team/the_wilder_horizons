@@ -10,8 +10,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
-public class SLBrothExtendedItem extends SLFoodItem {
-    public SLBrothExtendedItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
+public class BrothExtendedItem extends SLFoodItem {
+    public BrothExtendedItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
         super(settings, hunger, satMod, isMeat, new FoodStatusEffect(new StatusEffectInstance(effect, 78 * 20, 0,
                 true, false))); // 30 seconds
     }

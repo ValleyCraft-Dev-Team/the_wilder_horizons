@@ -22,9 +22,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class SLBolusItem extends SLFoodItem {
+public class BolusItem extends SLFoodItem {
 
-    public SLBolusItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
+    public BolusItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
         super(settings, hunger, satMod, isMeat, new FoodStatusEffect(new StatusEffectInstance(effect, 5 * 20, 0,
                 true, false))); // 30 seconds
     }

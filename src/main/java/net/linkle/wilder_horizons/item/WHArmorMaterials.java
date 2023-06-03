@@ -1,6 +1,5 @@
 package net.linkle.wilder_horizons.item;
 
-import net.linkle.wilder_horizons.init.WHMedicines;
 import net.linkle.wilder_horizons.init.WHMiscItems;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
@@ -14,7 +13,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum SLArmorMaterials implements ArmorMaterial {
+public enum WHArmorMaterials implements ArmorMaterial {
     LEATHER_TUNIC("plain_cloak", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SHROOMLEATHER});
     }),
@@ -59,7 +58,7 @@ public enum SLArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private SLArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+    private WHArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
