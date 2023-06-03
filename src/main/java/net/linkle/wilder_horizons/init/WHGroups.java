@@ -6,7 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
-public class WHItemGroups {
+public class WHGroups {
     public static final ItemGroup WH_NATURE = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_nature"), () -> new ItemStack(WHNature.));
     public static final ItemGroup WH_FOOD = FabricItemGroupBuilder.build

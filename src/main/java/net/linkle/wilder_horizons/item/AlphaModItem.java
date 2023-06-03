@@ -2,8 +2,8 @@ package net.linkle.wilder_horizons.item;
 
 import net.minecraft.item.Item;
 
-public class WHModItem extends Item {
-    public WHModItem(Settings settings) {
+public class AlphaModItem extends Item {
+    public AlphaModItem(Settings settings) {
         super(settings);
     }
 }

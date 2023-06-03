@@ -8,7 +8,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.UseAction;
 
-public class BandageItem extends SLFoodItem {
+public class BandageItem extends FoodItem {
     public BandageItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
         super(settings, hunger, satMod, isMeat, new FoodStatusEffect(new StatusEffectInstance(effect, 5 * 20, 0,
                 true, false))); // 30 seconds

@@ -13,20 +13,20 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class SLFoodItem extends WHModItem {
+public class FoodItem extends AlphaModItem {
     protected boolean hideTooltip;
 
     /** @param satMod = saturationModifier */
-    public SLFoodItem(Settings settings, int hunger, float satMod, boolean isMeat) {
+    public FoodItem(Settings settings, int hunger, float satMod, boolean isMeat) {
         this(settings, hunger, satMod, isMeat, null);
     }
 
     /** @param satMod = saturationModifier */
-    public SLFoodItem(Settings settings, int hunger, float satMod, boolean isMeat, @Nullable FoodStatusEffect effects) {
+    public FoodItem(Settings settings, int hunger, float satMod, boolean isMeat, @Nullable FoodStatusEffect effects) {
         super(settings.food(newFoodComponent(hunger, satMod, isMeat, effects)));
     }
 
-    public SLFoodItem hideTooltip() {
+    public FoodItem hideTooltip() {
         hideTooltip = true;
         return this;
     }

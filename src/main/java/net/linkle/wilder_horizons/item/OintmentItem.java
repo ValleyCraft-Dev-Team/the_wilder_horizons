@@ -8,7 +8,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.UseAction;
 
-public class OintmentItem extends SLFoodItem {
+public class OintmentItem extends FoodItem {
     public OintmentItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
         super(settings, hunger, satMod, isMeat, new FoodStatusEffect(new StatusEffectInstance(effect, 78 * 20, 0,
                 true, true))); // 30 seconds
