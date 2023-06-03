@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "valleycraft:scalding_sandstone",
+    "valleycraft:scalding_red_sandstone",
+    "valleycraft:scalding_deepslate",
+    "valleycraft:loose_rocks",
+    "valleycraft:erdstone",
+    "valleycraft:carmine",
+    "valleycraft:shale",
+    "valleycraft:mossy_stone",
+    "valleycraft:serpentinite",
+    "valleycraft:marble",
+    "valleycraft:rough_sandstone",
+    "valleycraft:rough_red_sandstone",
+    "valleycraft:stratified_sandstone",
+    "valleycraft:stratified_red_sandstone"
+  ]
+}

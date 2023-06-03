@@ -1,0 +1,34 @@
+{
+  "parent": "wilder_horizons:survival/primitivetechnology",
+  "display": {
+    "title": {
+      "text": "Knot What I Was Roping For"
+    },
+    "icon": {
+      "item": "wilder_horizons:rope"
+    },
+    "description": {
+      "text": "Craft Rope from Plant Fiber"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "rope": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:rope"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rope"
+    ]
+  ]
+}

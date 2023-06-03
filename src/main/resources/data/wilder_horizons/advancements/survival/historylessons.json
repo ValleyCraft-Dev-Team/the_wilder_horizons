@@ -1,0 +1,58 @@
+{
+  "parent": "wilder_horizons:survival/entrylog",
+  "display": {
+    "title": {
+      "text": "Introductory Anthropology"
+    },
+    "icon": {
+      "item": "wilder_horizons:rounded_clay_pot"
+    },
+    "description": {
+      "text": "Discover your first artifact."
+    },
+    "frame": "task",
+    "hidden": "false"
+  },
+  "criteria": {
+    "artifact": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:daerdri_skull",
+              "wilder_horizons:rounded_clay_pot",
+              "wilder_horizons:rounded_blue_clay_pot",
+              "wilder_horizons:erdstone_cave_painting_portrait",
+              "wilder_horizons:erdstone_cave_painting_zombies",
+              "wilder_horizons:erdstone_cave_painting_home",
+              "wilder_horizons:erdstone_cave_painting_family",
+              "wilder_horizons:deepslate_urn_soul",
+              "wilder_horizons:deepslate_urn_angry",
+              "wilder_horizons:deepslate_urn_plain",
+              "wilder_horizons:brown_clay_pot",
+              "wilder_horizons:blue_clay_pot",
+              "wilder_horizons:green_clay_pot",
+              "wilder_horizons:defective_spawner",
+              "minecraft:trident",
+              "wilder_horizons:lich_hood_keepsake",
+              "wilder_horizons:lich_cloak_keepsake",
+              "wilder_horizons:rusted_sword",
+              "wilder_horizons:rusted_axe",
+              "wilder_horizons:rusted_hoe",
+              "wilder_horizons:rusted_pickaxe",
+              "wilder_horizons:rusted_shovel",
+              "wilder_horizons:ancient_iron_debris",
+              "wilder_horizons:ancient_gold_debris"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "artifact"
+    ]
+  ]
+}

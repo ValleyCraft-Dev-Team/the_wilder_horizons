@@ -1,0 +1,36 @@
+{
+  "parent": "wilder_horizons:survival/hollow",
+  "display": {
+    "title": {
+      "text": "Season of the Lich"
+    },
+    "icon": {
+      "item": "wilder_horizons:scythe_iron"
+    },
+    "description": {
+      "text": "Kill a Lich"
+    },
+    "frame": "goal",
+    "hidden": "false"
+  },
+  "criteria": {
+    "lich": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:lich_hood_keepsake",
+              "wilder_horizons:lich_cloak_keepsake"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lich"
+    ]
+  ]
+}

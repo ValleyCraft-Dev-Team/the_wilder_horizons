@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_forest",
+    "minecraft:flower_forest",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:forest",
+    "minecraft:swamp",
+    "minecraft:jungle",
+    "minecraft:meadow",
+    "minecraft:windswept_savanna",
+    "minecraft:wooded_badlands",
+    "minecraft:river",
+    "minecraft:dark_forest"
+  ]
+}

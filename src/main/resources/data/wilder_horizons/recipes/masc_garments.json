@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "wilder_horizons:shroomleather"
+    }
+  },
+  "pattern": [
+    "XXX"
+  ],
+  "result": {
+    "item": "wilder_horizons:masc_garments"
+  }
+}

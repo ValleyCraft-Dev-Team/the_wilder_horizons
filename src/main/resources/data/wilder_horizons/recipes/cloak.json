@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "wilder_horizons:shroomleather"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "XGX",
+    "XXX",
+    " X "
+  ],
+  "result": {
+    "item": "wilder_horizons:tunic"
+  }
+}

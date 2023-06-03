@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:iron_hoe"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:iron_helmet"
+    },
+    {
+      "item": "minecraft:iron_chestplate"
+    },
+    {
+      "item": "minecraft:iron_leggings"
+    },
+    {
+      "item": "minecraft:iron_boots"
+    },
+    {
+      "item": "minecraft:iron_horse_armor"
+    },
+    {
+      "item": "minecraft:chainmail_helmet"
+    },
+    {
+      "item": "minecraft:chainmail_chestplate"
+    },
+    {
+      "item": "minecraft:chainmail_leggings"
+    },
+    {
+      "item": "minecraft:chainmail_boots"
+    },
+    {
+      "item": "valleycraft:knife_iron"
+    },
+    {
+      "item": "valleycraft:woodcutter_axe_iron"
+    },
+    {
+      "item": "valleycraft:hatchet_iron"
+    },
+    {
+      "item": "valleycraft:scythe_iron"
+    },
+    {
+      "item": "valleycraft:dagger_iron"
+    },
+    {
+      "item": "valleycraft:traveler_iron"
+    },
+    {
+      "item": "valleycraft:iron_greatsword"
+    },
+    {
+      "item": "valleycraft:reinforced_iron_helmet"
+    },
+    {
+      "item": "valleycraft:iron_breastplate"
+    },
+    {
+      "item": "valleycraft:iron_sandals"
+    },
+    {
+      "item": "valleycraft:iron_hauberk"
+    },
+    {
+      "item": "valleycraft:iron_thigh_guards"
+    },
+    {
+      "item": "valleycraft:metal_feather"
+    },
+    {
+      "item": "valleycraft:rusted_pickaxe"
+    },
+    {
+      "item": "valleycraft:rusted_sword"
+    },
+    {
+      "item": "valleycraft:rusted_shovel"
+    },
+    {
+      "item": "valleycraft:rusted_axe"
+    },
+    {
+      "item": "valleycraft:rusted_hoe"
+    },
+    {
+      "item": "valleycraft:fireguard"
+    },
+    {
+      "item": "valleycraft:large_chain"
+    },
+    {
+      "item": "valleycraft:large_iron_chain"
+    },
+    {
+      "item": "valleycraft:iron_ladder"
+    },
+    {
+      "item": "minecraft:rail"
+    },
+    {
+      "item": "minecraft:detector_rail"
+    },
+    {
+      "item": "minecraft:activator_rail"
+    }
+  ],
+  "result": "valleycraft:iron_scrap"
+}

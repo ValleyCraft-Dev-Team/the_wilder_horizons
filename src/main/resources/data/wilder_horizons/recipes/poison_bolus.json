@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B",
+    "R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beetroot"
+    },
+    "R": {
+      "item": "minecraft:dried_kelp"
+    },
+    "B": {
+      "item": "minecraft:brown_mushroom"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:poison_bolus",
+    "count": 1
+  }
+}

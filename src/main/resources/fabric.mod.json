@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "wilder_horizons",
+  "version": "1.0",
+
+  "name": "Wilder Horizons: Core",
+  "description": "",
+  "authors": [
+    "GoblinGrowl",
+    "AndEditor7",
+    "SaltySeaDoggo"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ValleyCraft-Dev-Team"
+  },
+
+  "license": "CC BY-NC-SA",
+  "icon": "assets/wilder_horizons/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.linkle.wilder_horizons.Main"
+    ],
+    "client": [
+      "net.linkle.wilder_horizons.client.Client"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/kfpmJ5PtnF"
+      }
+    }
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

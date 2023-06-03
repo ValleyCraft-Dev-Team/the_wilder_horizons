@@ -1,0 +1,49 @@
+{
+  "parent": "wilder_horizons:survival/cavecooking",
+  "display": {
+    "title": {
+      "text": "Le Festin"
+    },
+    "icon": {
+      "item": "wilder_horizons:brick_stove"
+    },
+    "description": {
+      "text": "Craft a stove and keg for cooking"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "stove": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:brick_stove"
+            ]
+          }
+        ]
+      }
+    },
+    "keg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:keg"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stove"
+    ],
+    [
+      "keg"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "wilder_horizons:survival/craftingmat",
+  "display": {
+    "title": {
+      "text": "Waste Not, Want Not"
+    },
+    "icon": {
+      "item": "wilder_horizons:water_strainer"
+    },
+    "description": {
+      "text": "Craft a Water Strainer"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "water_strainer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:water_strainer"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "water_strainer"
+    ]
+  ]
+}

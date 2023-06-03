@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "X": {
+      "tag": "c:plank_items"
+    }
+  },
+  "pattern": [
+    " S ",
+    "XBX",
+    " S "
+  ],
+  "result": {
+    "item": "minecraft:lectern"
+  }
+}

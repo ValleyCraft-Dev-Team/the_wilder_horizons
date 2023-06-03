@@ -1,0 +1,34 @@
+{
+  "parent": "wilder_horizons:survival/dontstarve",
+  "display": {
+    "title": {
+      "text": "Drink Up"
+    },
+    "icon": {
+      "item": "wilder_horizons:purified_water"
+    },
+    "description": {
+      "text": "Purify water to drink or cook with."
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "water": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:purified_water"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "water"
+    ]
+  ]
+}

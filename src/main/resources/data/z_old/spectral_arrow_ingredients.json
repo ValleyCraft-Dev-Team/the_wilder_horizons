@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glowstone_dust",
+    "minecraft:glow_berries",
+    "minecraft:glow_lichen",
+    "minecraft:glow_ink_sac",
+    "valleycraft:glow_kelp",
+    "valleycraft:glow_seagrass",
+    "valleycraft:raw_glowsquid_tentacle"
+  ]
+}

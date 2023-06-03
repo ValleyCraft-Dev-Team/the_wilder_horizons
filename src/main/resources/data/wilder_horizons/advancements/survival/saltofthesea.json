@@ -1,0 +1,34 @@
+{
+  "parent": "wilder_horizons:survival/aquaticforager",
+  "display": {
+    "title": {
+      "text": "Salt Of The Sea"
+    },
+    "icon": {
+      "item": "wilder_horizons:brine"
+    },
+    "description": {
+      "text": "Cook up some Brine from Kelp"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "brine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:brine"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brine"
+    ]
+  ]
+}

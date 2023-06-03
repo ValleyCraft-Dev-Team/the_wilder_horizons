@@ -1,0 +1,38 @@
+{
+  "parent": "wilder_horizons:survival/scraping_by",
+  "display": {
+    "title": {
+      "text": "Primitive Technology"
+    },
+    "icon": {
+      "item": "wilder_horizons:makeshift_axe"
+    },
+    "description": {
+      "text": "Craft a makeshift tool"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "makeshift": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:makeshift_knife",
+              "wilder_horizons:makeshift_axe",
+              "wilder_horizons:makeshift_pickaxe",
+              "wilder_horizons:makeshift_shovel",
+              "wilder_horizons:makeshift_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "makeshift"
+    ]
+  ]
+}

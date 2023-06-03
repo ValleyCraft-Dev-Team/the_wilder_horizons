@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "tag": "c:plank_items"
+    },
+    "o": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "oWo",
+    "oWo",
+    "oWo"
+  ],
+  "result": {
+    "item": "minecraft:shield"
+  }
+}

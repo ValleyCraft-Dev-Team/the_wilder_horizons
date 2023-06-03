@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/translator",
+  "display": {
+    "title": {
+      "text": "The Enchanted Scribe"
+    },
+    "icon": {
+      "item": "wilder_horizons:rune_etching_blade"
+    },
+    "description": {
+      "text": "Acquire a Rune Etching Quill"
+    },
+    "frame": "task",
+    "hidden": "false"
+  },
+  "criteria": {
+    "rune_etching_blade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:rune_etching_blade"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rune_etching_blade"
+    ]
+  ]
+}

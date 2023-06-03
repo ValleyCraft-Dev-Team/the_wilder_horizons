@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#V"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "V": {
+      "item": "valleycraft:handle"
+    }
+  },
+  "result": {
+    "item": "valleycraft:hatchet_iron",
+    "count": 1
+  }
+}

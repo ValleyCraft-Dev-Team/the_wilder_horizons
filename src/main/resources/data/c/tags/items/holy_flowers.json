@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dandelion",
+    "wilder_horizons:lily_of_the_mountains",
+    "wilder_horizons:glittering_graces",
+    "wilder_horizons:vibranthia",
+    "#c:large_holy_flowers"
+  ]
+}

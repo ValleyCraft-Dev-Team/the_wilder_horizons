@@ -1,0 +1,36 @@
+{
+  "parent": "wilder_horizons:survival/solveetcoagula",
+  "display": {
+    "title": {
+      "text": "Ouroboric"
+    },
+    "icon": {
+      "item": "wilder_horizons:infected_monster_heart"
+    },
+    "description": {
+      "text": "Extract Blight Essence"
+    },
+    "frame": "goal",
+    "hidden": "false"
+  },
+  "criteria": {
+    "blight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "potion": "wilder_horizons:rot_blight_potion"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blight"
+    ]
+  ]
+}

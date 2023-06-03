@@ -1,0 +1,157 @@
+{
+  "parent": "wilder_horizons:survival/tstststs",
+  "display": {
+    "title": {
+      "text": "Lumberjack"
+    },
+    "icon": {
+      "item": "wilder_horizons:oak_seed"
+    },
+    "description": {
+      "text": "Cut down every tree type and gather their seeds"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:apple_seed"
+            ]
+          }
+        ]
+      }
+    },
+    "amberblossom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:amberblossom_seed"
+            ]
+          }
+        ]
+      }
+    },
+    "warm_birch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:warm_birch_seed"
+            ]
+          }
+        ]
+      }
+    },
+    "oak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:oak_seed"
+            ]
+          }
+        ]
+      }
+    },
+    "birch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:birch_seed"
+            ]
+          }
+        ]
+      }
+    },
+    "spruce": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:spruce_seed"
+            ]
+          }
+        ]
+      }
+    },
+    "jungle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:jungle_seed"
+            ]
+          }
+        ]
+      }
+    },
+    "acacia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:acacia_seed"
+            ]
+          }
+        ]
+      }
+    },
+    "dark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:dark_oak_seed"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "apple"
+    ],
+    [
+      "oak"
+    ],
+    [
+      "birch"
+    ],
+    [
+      "warm_birch"
+    ],
+    [
+      "spruce"
+    ],
+    [
+      "jungle"
+    ],
+    [
+      "acacia"
+    ],
+    [
+      "dark"
+    ],
+    [
+      "amberblossom"
+    ]
+  ]
+}

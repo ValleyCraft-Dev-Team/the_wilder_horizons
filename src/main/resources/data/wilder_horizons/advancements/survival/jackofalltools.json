@@ -1,0 +1,286 @@
+{
+  "parent": "wilder_horizons:survival/nowthatsanaxe",
+  "display": {
+    "title": {
+      "text": "Jack-Of-All-Tools"
+    },
+    "icon": {
+      "item": "wilder_horizons:hatchet_iron"
+    },
+    "description": {
+      "text": "Create one of every basic tool and weapon type"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "criteria": {
+    "knife": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:knife_wooden",
+              "wilder_horizons:knife_stone",
+              "wilder_horizons:knife_golden",
+              "wilder_horizons:knife_primsteel",
+              "wilder_horizons:knife_iron",
+              "wilder_horizons:knife_rosegold",
+              "wilder_horizons:knife_diamond",
+              "wilder_horizons:knife_netherite"
+            ]
+          }
+        ]
+      }
+    },
+    "hatchet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:hatchet_wooden",
+              "wilder_horizons:hatchet_stone",
+              "wilder_horizons:hatchet_golden",
+              "wilder_horizons:hatchet_primsteel",
+              "wilder_horizons:hatchet_iron",
+              "wilder_horizons:hatchet_rosegold",
+              "wilder_horizons:hatchet_diamond",
+              "wilder_horizons:hatchet_netherite"
+            ]
+          }
+        ]
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:rosegold_axe",
+              "wilder_horizons:primsteel_axe",
+              "minecraft:wooden_axe",
+              "minecraft:stone_axe",
+              "minecraft:golden_axe",
+              "minecraft:iron_axe",
+              "minecraft:diamond_axe",
+              "minecraft:netherite_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "woodcutter_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:woodcutter_axe_wooden",
+              "wilder_horizons:woodcutter_axe_stone",
+              "wilder_horizons:woodcutter_axe_golden",
+              "wilder_horizons:woodcutter_axe_primsteel",
+              "wilder_horizons:woodcutter_axe_iron",
+              "wilder_horizons:woodcutter_axe_rosegold",
+              "wilder_horizons:woodcutter_axe_diamond",
+              "wilder_horizons:woodcutter_axe_netherite"
+            ]
+          }
+        ]
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:rosegold_hoe",
+              "wilder_horizons:primsteel_hoe",
+              "minecraft:wooden_hoe",
+              "minecraft:stone_hoe",
+              "minecraft:golden_hoe",
+              "minecraft:iron_hoe",
+              "minecraft:diamond_hoe",
+              "minecraft:netherite_hoe"
+            ]
+          }
+        ]
+      }
+    },
+    "scythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:scythe_wooden",
+              "wilder_horizons:scythe_stone",
+              "wilder_horizons:scythe_golden",
+              "wilder_horizons:scythe_primsteel",
+              "wilder_horizons:scythe_iron",
+              "wilder_horizons:scythe_rosegold",
+              "wilder_horizons:scythe_diamond",
+              "wilder_horizons:scythe_netherite"
+            ]
+          }
+        ]
+      }
+    },
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:rosegold_sword",
+              "wilder_horizons:primsteel_sword",
+              "minecraft:wooden_sword",
+              "minecraft:stone_sword",
+              "minecraft:golden_sword",
+              "minecraft:iron_sword",
+              "minecraft:diamond_sword",
+              "minecraft:netherite_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "travelers_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:traveler_wooden",
+              "wilder_horizons:traveler_stone",
+              "wilder_horizons:traveler_golden",
+              "wilder_horizons:traveler_primsteel",
+              "wilder_horizons:traveler_iron",
+              "wilder_horizons:traveler_rosegold",
+              "wilder_horizons:traveler_diamond",
+              "wilder_horizons:traveler_netherite"
+            ]
+          }
+        ]
+      }
+    },
+    "dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:dagger_wooden",
+              "wilder_horizons:dagger_stone",
+              "wilder_horizons:dagger_golden",
+              "wilder_horizons:dagger_primsteel",
+              "wilder_horizons:dagger_iron",
+              "wilder_horizons:dagger_rosegold",
+              "wilder_horizons:dagger_diamond",
+              "wilder_horizons:dagger_netherite"
+            ]
+          }
+        ]
+      }
+    },
+    "greatsword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:wooden_greatsword",
+              "wilder_horizons:stone_greatsword",
+              "wilder_horizons:golden_greatsword",
+              "wilder_horizons:primsteel_greatsword",
+              "wilder_horizons:iron_greatsword",
+              "wilder_horizons:rosegold_greatsword",
+              "wilder_horizons:diamond_greatsword",
+              "wilder_horizons:netherite_greatsword"
+            ]
+          }
+        ]
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:rosegold_pickaxe",
+              "wilder_horizons:primsteel_pickaxe",
+              "minecraft:wooden_pickaxe",
+              "minecraft:stone_pickaxe",
+              "minecraft:golden_pickaxe",
+              "minecraft:iron_pickaxe",
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:rosegold_shovel",
+              "wilder_horizons:primsteel_shovel",
+              "minecraft:wooden_shovel",
+              "minecraft:stone_shovel",
+              "minecraft:golden_shovel",
+              "minecraft:iron_shovel",
+              "minecraft:diamond_shovel",
+              "minecraft:netherite_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shovel"
+    ],
+    [
+      "pickaxe"
+    ],
+    [
+      "hoe"
+    ],
+    [
+      "sword"
+    ],
+    [
+      "axe"
+    ],
+    [
+      "hatchet"
+    ],
+    [
+      "greatsword"
+    ],
+    [
+      "travelers_sword"
+    ],
+    [
+      "dagger"
+    ],
+    [
+      "scythe"
+    ],
+    [
+      "knife"
+    ],
+    [
+      "woodcutter_axe"
+    ]
+  ]
+}

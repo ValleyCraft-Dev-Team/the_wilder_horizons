@@ -1,0 +1,40 @@
+{
+  "parent": "wilder_horizons:survival/entrylog",
+  "display": {
+    "title": {
+      "text": "Brasiumpunker"
+    },
+    "icon": {
+      "item": "wilder_horizons:brasium_compound_bow"
+    },
+    "description": {
+      "text": "Use Brasium to create or upgrade a specialized tool."
+    },
+    "frame": "task",
+    "hidden": "false"
+  },
+  "criteria": {
+    "brasium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:brasium_compound_bow",
+              "wilder_horizons:ice_tongs",
+              "wilder_horizons:climbing_axe",
+              "minecraft:spyglass",
+              "wilder_horizons:amethyst_goggles",
+              "wilder_horizons:nightvision_goggles"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brasium"
+    ]
+  ]
+}

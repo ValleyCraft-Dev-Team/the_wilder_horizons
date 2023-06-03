@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "valleycraft:boulders_small",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    // Make sure this is unique and does not match any other structure set's salt
+    "salt": 1666000004,
+
+    "spacing": 10,
+
+    "separation": 5,
+
+    "type": "minecraft:random_spread"
+  }
+}

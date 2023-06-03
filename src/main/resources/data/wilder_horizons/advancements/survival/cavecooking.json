@@ -1,0 +1,40 @@
+{
+  "parent": "wilder_horizons:survival/dontstarve",
+  "display": {
+    "title": {
+      "text": "Caveman Culinaire"
+    },
+    "icon": {
+      "item": "wilder_horizons:cooked_tripe"
+    },
+    "description": {
+      "text": "Cook food on a campfire."
+    },
+    "frame": "task",
+    "hidden": "false"
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "criteria": {
+    "cavecooking": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:campfires"
+          }
+        },
+        "item": {
+          "items": [
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cavecooking"
+    ]
+  ]
+}

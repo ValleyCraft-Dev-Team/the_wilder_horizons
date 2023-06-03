@@ -1,0 +1,174 @@
+{
+  "parent": "wilder_horizons:survival/tstststs",
+  "display": {
+    "title": {
+      "text": "A Study in Mycology"
+    },
+    "icon": {
+      "item": "wilder_horizons:stalwart_shroom"
+    },
+    "description": {
+      "text": "Collect every known mushroom, fungus, and mold type"
+    },
+    "frame": "goal",
+    "hidden": "false"
+  },
+  "criteria": {
+    "shivercap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:shivercap"
+            ]
+          }
+        ]
+      }
+    },
+    "stalwart_shroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:stalwart_shroom"
+            ]
+          }
+        ]
+      }
+    },
+    "glow_cap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:glow_cap",
+              "wilder_horizons:glow_cap_cluster"
+            ]
+          }
+        ]
+      }
+    },
+    "jungle_cap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:jungle_cap",
+              "wilder_horizons:jungle_cap_cluster"
+            ]
+          }
+        ]
+      }
+    },
+    "brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_mushroom",
+              "wilder_horizons:brown_cluster"
+            ]
+          }
+        ]
+      }
+    },
+    "red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_mushroom",
+              "wilder_horizons:red_cluster"
+            ]
+          }
+        ]
+      }
+    },
+    "fan_mold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:fan_mold"
+            ]
+          }
+        ]
+      }
+    },
+    "morel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:morel"
+            ]
+          }
+        ]
+      }
+    },
+    "crimson_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_fungus"
+            ]
+          }
+        ]
+      }
+    },
+    "warped_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shivercap"
+    ],
+    [
+      "stalwart_shroom"
+    ],
+    [
+      "glow_cap"
+    ],
+    [
+      "jungle_cap"
+    ],
+    [
+      "brown_mushroom"
+    ],
+    [
+      "red_mushroom"
+    ],
+    [
+      "fan_mold"
+    ],
+    [
+      "morel"
+    ],
+    [
+      "crimson_fungus"
+    ],
+    [
+      "warped_fungus"
+    ]
+  ]
+}

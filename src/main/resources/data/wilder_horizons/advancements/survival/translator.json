@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/entrylog",
+  "display": {
+    "title": {
+      "text": "\"Can I copy off your notes?\""
+    },
+    "icon": {
+      "item": "wilder_horizons:book_runecalling"
+    },
+    "description": {
+      "text": "Make a Grimoire of Runecalling"
+    },
+    "frame": "task",
+    "hidden": "false"
+  },
+  "criteria": {
+    "book_runecalling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:book_runecalling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "book_runecalling"
+    ]
+  ]
+}

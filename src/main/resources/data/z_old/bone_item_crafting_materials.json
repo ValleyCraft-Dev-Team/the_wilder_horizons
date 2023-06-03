@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#c:dragon_bones",
+    "#c:skull_shards",
+    "valleycraft:beast_bone",
+    "valleycraft:bonefin",
+    "minecraft:bone"
+  ]
+}

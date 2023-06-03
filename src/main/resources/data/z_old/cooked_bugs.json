@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "valleycraft:cooked_silverfish",
+    "valleycraft:cooked_tripe",
+    "valleycraft:cooked_worm",
+    "valleycraft:cooked_cave_maggot"
+  ]
+}

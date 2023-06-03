@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "X X"
+  ],
+  "result": {
+    "item": "wilder_horizons:gaiters"
+  }
+}

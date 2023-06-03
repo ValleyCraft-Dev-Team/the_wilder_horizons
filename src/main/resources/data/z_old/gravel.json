@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "valleycraft:shell_gravel",
+    "valleycraft:sandy_gravel",
+    "minecraft:gravel"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B",
+    "D "
+  ],
+  "key": {
+    "#": {
+      "tag": "c:holy_flowers"
+    },
+    "B": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:healing_salve",
+    "count": 1
+  }
+}

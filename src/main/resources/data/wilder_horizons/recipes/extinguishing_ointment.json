@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R",
+    "GH"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+    "G": {
+      "item": "minecraft:glow_berries"
+    },
+    "H": {
+      "item": "minecraft:honeycomb"
+    },
+    "R": {
+      "item": "minecraft:red_mushroom"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:extinguishing_ointment",
+    "count": 1
+  }
+}

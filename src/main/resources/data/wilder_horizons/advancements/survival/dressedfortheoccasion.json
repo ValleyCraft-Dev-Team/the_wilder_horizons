@@ -1,0 +1,101 @@
+{
+  "parent": "wilder_horizons:survival/fixerupper",
+  "display": {
+    "title": {
+      "text": "Dressed for the Occasion"
+    },
+    "icon": {
+      "item": "wilder_horizons:feather"
+    },
+    "description": {
+      "text": "Craft a Chef's Toque & Apron, Straw Hat, Hunting Hat, and Cowpoke Hat"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "criteria": {
+    "toque": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:chef_hat"
+            ]
+          }
+        ]
+      }
+    },
+    "apron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:chef_apron"
+            ]
+          }
+        ]
+      }
+    },
+    "straw_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:straw_hat"
+            ]
+          }
+        ]
+      }
+    },
+    "cowpoke_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:cowpoke_hat"
+            ]
+          }
+        ]
+      }
+    },
+    "hunters_cap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:seagull_feather",
+              "wilder_horizons:duck_feather",
+              "wilder_horizons:crow_feather",
+              "wilder_horizons:feather",
+              "wilder_horizons:hunters_hat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "toque"
+    ],
+    [
+      "apron"
+    ],
+    [
+      "straw_hat"
+    ],
+    [
+      "cowpoke_hat"
+    ],
+    [
+      "hunters_cap"
+    ]
+  ]
+}

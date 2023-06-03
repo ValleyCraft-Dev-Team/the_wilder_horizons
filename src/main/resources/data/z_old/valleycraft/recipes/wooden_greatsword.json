@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:wooden_sword"
+  },
+  "addition": {
+    "tag": "c:plank_items"
+  },
+  "result": {
+    "item": "valleycraft:wooden_greatsword"
+  }
+}

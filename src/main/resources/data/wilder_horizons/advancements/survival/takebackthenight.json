@@ -1,0 +1,36 @@
+{
+  "parent": "wilder_horizons:survival/solveetcoagula",
+  "display": {
+    "title": {
+      "text": "Take Back the Night"
+    },
+    "icon": {
+      "item": "wilder_horizons:dragon_tooth"
+    },
+    "description": {
+      "text": "Brew a Potion of the Dragonhearted"
+    },
+    "frame": "goal",
+    "hidden": "false"
+  },
+  "criteria": {
+    "dragonhearted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "potion": "wilder_horizons:dragonhearted_potion"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dragonhearted"
+    ]
+  ]
+}

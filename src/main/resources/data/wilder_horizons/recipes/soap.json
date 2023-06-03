@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B",
+    "CL"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:honeycomb"
+    },
+    "B": {
+      "tag": "c:holy_flowers"
+    },
+    "C": {
+      "item": "minecraft:charcoal"
+    },
+    "L": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:soap",
+    "count": 1
+  }
+}

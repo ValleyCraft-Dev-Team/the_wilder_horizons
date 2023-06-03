@@ -1,0 +1,38 @@
+{
+  "parent": "wilder_horizons:survival/primitivetechnology",
+  "display": {
+    "title": {
+      "text": "A Bone To Pick(axe)"
+    },
+    "icon": {
+      "item": "wilder_horizons:bone_pickaxe"
+    },
+    "description": {
+      "text": "Craft a tool from bones"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:bone_shovel",
+              "wilder_horizons:bone_pickaxe",
+              "wilder_horizons:bone_axe",
+              "wilder_horizons:bone_hoe",
+              "wilder_horizons:knife_bone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bone"
+    ]
+  ]
+}

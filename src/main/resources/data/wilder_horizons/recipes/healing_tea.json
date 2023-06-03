@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "BD"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:holy_flowers"
+    },
+    "B": {
+      "item": "minecraft:glow_berries"
+    },
+    "D": {
+      "item": "wilder_horizons:mug"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:healing_broth",
+    "count": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "itemGroup.wilder_horizons.wh_nature": "Flora & Fauna",
+  "itemGroup.wilder_horizons.wh_food": "Ingredients & Dishes",
+  "itemGroup.wilder_horizons.wh_food_special": "Special Dishes",
+  "itemGroup.wilder_horizons.wh_medicinal": "Healing",
+  "itemGroup.wilder_horizons.wh_miscellaneous": "Misc Stuff",
+  "itemGroup.wilder_horizons.wh_armors": "Attire & Armor",
+  "itemGroup.wilder_horizons.wh_tools": "Tools & Weapons",
+  "itemGroup.wilder_horizons.wh_blocks": "Blocks & Decor",
+
+  "effect.wilder_horizons.cleansed": "Holy Cleansing",
+  "effect.wilder_horizons.rot_blight": "Rot Blighted",
+  "effect.wilder_horizons.soul_fading": "Slow Soul-Fading",
+
+  "item.wilder_horizons.healing_salve": "Healing Poultice",
+
+  "item.wilder_horizons.extinguishing_ointment": "Extinguishing Salve",
+  "item.wilder_horizons.invigorating_ointment": "Invigorating Salve",
+  "item.wilder_horizons.warding_ointment": "Warding Salve",
+
+  "item.wilder_horizons.poison_bolus": "Curing Bolus",
+  "item.soulslikegrit.poison_bolus.tooltip_0": "Removes all effects but",
+  "item.soulslikegrit.poison_bolus.tooltip_1": "tastes revolting.",
+
+  "item.wilder_horizons.soap": "Revitalizing Soap",
+  "item.soulslikegrit.soap.tooltip_0": "Removes stuck arrows, grit,",
+  "item.soulslikegrit.soap.tooltip_1": "and slowly heals the body.",
+  "item.soulslikegrit.soap.tooltip": "You must be submerged in",
+  "item.soulslikegrit.soap.tooltip_2": "water to use this properly.",
+
+  "item.wilder_horizons.healing_broth": "Bolstering Tea",
+  "item.wilder_horizons.strength_broth": "Invigorating Tea",
+  "item.wilder_horizons.night_vision_broth": "Elucidating Tea",
+  "item.wilder_horizons.mug": "Mug",
+
+  "item.wilder_horizons.shroomleather": "Soft Shroomleather",
+  "item.wilder_horizons.dried_shroomleather": "Dried Shroomleather",
+  "item.wilder_horizons.treated_shroomleather": "Treated Shroomleather",
+  "item.wilder_horizons.treated_leather": "Treated Leather",
+  "item.wilder_horizons.treated_leather_strap": "Treated Leather Strap",
+
+  "item.wilder_horizons.neutral_garments": "Soft Shroomleather Garments",
+  "item.wilder_horizons.femme_garments": "Soft Shroomleather Garments",
+  "item.wilder_horizons.masc_garments": "Soft Shroomleather Garments",
+
+
+  "item.wilder_horizons.hood": "Soft Shroomleather Hood",
+  "item.wilder_horizons.cloak": "Soft Shroomleather Cloak",
+  "item.wilder_horizons.sandals": "Soft Shroomleather Sandals",
+
+  "item.wilder_horizons.lily_pad_hat": "Lily Pad Hat",
+  "item.wilder_horizons.dripleaf_hat": "Dripleaf Hat",
+  "item.wilder_horizons.azalea_crown": "Azalea Flower Crown",
+  "item.wilder_horizons.vine_crown": "Vine Laurel",
+  "item.wilder_horizons.grass_dress": "Grass Dress"
+
+}

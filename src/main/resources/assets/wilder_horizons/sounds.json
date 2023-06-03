@@ -1,0 +1,54 @@
+{
+  "sprinkler": {
+    "subtitle": "subtitle.wilder_horizons:sprinkler",
+    "sounds": [
+      "wilder_horizons:block/sprinkler"
+    ]
+  },
+  
+  "curtain_open": {
+    "subtitle": "subtitle.wilder_horizons:curtain_open",
+    "sounds": [
+      "wilder_horizons:block/curtain_open"
+    ]
+  },
+  
+  "curtain_close": {
+    "subtitle": "subtitle.wilder_horizons:curtain_close",
+    "sounds": [
+      "wilder_horizons:block/curtain_close"
+    ]
+  },
+  
+  "duck_quack": {
+    "subtitle": "subtitle.wilder_horizons:duck_quack",
+    "sounds": [
+      "wilder_horizons:duck_quack"
+    ]
+  },
+  
+  "pot_break": {
+    "sounds": [
+      "wilder_horizons:block/claypot1",
+      "wilder_horizons:block/claypot2",
+      "wilder_horizons:block/claypot3"
+    ]
+  },
+
+  "ancient": {
+    "sounds": [
+      {
+        "name": "wilder_horizons:ancient",
+        "stream": true
+      }
+    ]
+  },
+  "wilder_mountains": {
+    "sounds": [
+      {
+        "name": "wilder_horizons:ofthewildermountains",
+        "stream": true
+      }
+    ]
+  }
+}

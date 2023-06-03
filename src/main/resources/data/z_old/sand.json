@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "valleycraft:quicksand",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "#c:nether_sand"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "wilder_horizons:survival/nowthatsanaxe",
+  "display": {
+    "title": {
+      "text": "Trapper"
+    },
+    "icon": {
+      "item": "wilder_horizons:spike_trap"
+    },
+    "description": {
+      "text": "Craft a Spike Trap"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "spike_trap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:spike_trap"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spike_trap"
+    ]
+  ]
+}

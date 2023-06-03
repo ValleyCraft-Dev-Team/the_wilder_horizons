@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/cavecooking",
+  "display": {
+    "title": {
+      "text": "Cook Up Me Hearties, Yo Ho!"
+    },
+    "icon": {
+      "item": "wilder_horizons:water_filled_clay_pot"
+    },
+    "description": {
+      "text": "Make a clay pot for drinking or cooking"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "pot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:clay_pot",
+              "wilder_horizons:water_filled_clay_pot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pot"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "wilder_horizons:survival/historylessons",
+  "display": {
+    "title": {
+      "text": "Ancient Invaders"
+    },
+    "icon": {
+      "item": "wilder_horizons:ancient_iron_debris"
+    },
+    "description": {
+      "text": "How did they discover this dimension?"
+    },
+    "frame": "challenge",
+    "hidden": "true"
+  },
+  "criteria": {
+    "artifact_piglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:piglin_skull",
+              "wilder_horizons:piglin_skeletal_remains",
+              "wilder_horizons:ancient_iron_debris",
+              "wilder_horizons:ancient_gold_debris"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "artifact_piglin"
+    ]
+  ]
+}

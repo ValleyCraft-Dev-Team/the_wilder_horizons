@@ -1,0 +1,58 @@
+{
+  "parent": "wilder_horizons:survival/craftingmat",
+  "display": {
+    "title": {
+      "text": "Travel Guide"
+    },
+    "icon": {
+      "item": "wilder_horizons:guidestone_campsite"
+    },
+    "description": {
+      "text": "Craft and Chisel some Guidestones for navigation."
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "guidestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:guidestone_back",
+              "wilder_horizons:guidestone_forward",
+              "wilder_horizons:guidestone_here",
+              "wilder_horizons:guidestone_left",
+              "wilder_horizons:guidestone_right",
+              "wilder_horizons:guidestone_campsite",
+              "wilder_horizons:guidestone_dungeon",
+              "wilder_horizons:guidestone_homestead",
+              "wilder_horizons:guidestone_port",
+              "wilder_horizons:guidestone_portal",
+              "wilder_horizons:guidestone_stables",
+              "wilder_horizons:guidestone_tower",
+              "wilder_horizons:guidestone_trade",
+              "wilder_horizons:guidestone_village",
+              "wilder_horizons:guidestone_tool_axe",
+              "wilder_horizons:guidestone_tool_bow",
+              "wilder_horizons:guidestone_tool_fishing_rod",
+              "wilder_horizons:guidestone_tool_hoe",
+              "wilder_horizons:guidestone_tool_pickaxe",
+              "wilder_horizons:guidestone_tool_potion",
+              "wilder_horizons:guidestone_tool_shovel",
+              "wilder_horizons:guidestone_tool_sword",
+              "wilder_horizons:guidestone_symbol_death",
+              "wilder_horizons:guidestone_symbol_heart",
+              "wilder_horizons:guidestone_symbol_hunger"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "guidestone"
+    ]
+  ]
+}

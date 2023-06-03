@@ -1,0 +1,80 @@
+{
+  "parent": "wilder_horizons:survival/entrylog",
+  "display": {
+    "title": {
+      "text": "Metallurgic Maniac"
+    },
+    "icon": {
+      "item": "wilder_horizons:rosegold_ingot"
+    },
+    "description": {
+      "text": "Craft the four known alloys"
+    },
+    "frame": "task",
+    "hidden": "false"
+  },
+  "criteria": {
+    "brasium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:brasium_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "rosegold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:rosegold_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "echochalcum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:echochalcum_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brasium"
+    ],
+    [
+      "rosegold"
+    ],
+    [
+      "echochalcum"
+    ],
+    [
+      "netherite"
+    ]
+  ]
+}

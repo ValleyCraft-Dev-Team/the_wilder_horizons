@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "valleycraft:salt"
+    },
+    {
+      "item": "valleycraft:salt"
+    }
+  ],
+  "result": {
+    "item": "valleycraft:butter",
+    "count": 2
+  }
+}

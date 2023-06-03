@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "VTV",
+    "i i"
+  ],
+  "key": {
+    "#": {
+      "item": "valleycraft:treated_leather"
+    },
+    "V": {
+      "item": "valleycraft:leather_strap"
+    },
+    "T": {
+      "item": "valleycraft:cloth"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:saddle",
+    "count": 1
+  }
+}

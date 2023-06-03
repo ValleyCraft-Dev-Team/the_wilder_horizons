@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#W#",
+    "/#/"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
+    "W": {
+      "tag": "c:purified_water"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "valleycraft:keg",
+    "count": 1
+  }
+}

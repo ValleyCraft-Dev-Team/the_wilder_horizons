@@ -1,0 +1,37 @@
+{
+  "parent": "wilder_horizons:survival/historylessons",
+  "display": {
+    "title": {
+      "text": "\"-and in a single day and night...\""
+    },
+    "icon": {
+      "item": "wilder_horizons:flower_crown"
+    },
+    "description": {
+      "text": "Where did they go?"
+    },
+    "frame": "challenge",
+    "hidden": "true"
+  },
+  "criteria": {
+    "daerdrin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:daerdri_skull",
+              "wilder_horizons:rounded_clay_pot",
+              "wilder_horizons:rounded_blue_clay_pot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "daerdrin"
+    ]
+  ]
+}

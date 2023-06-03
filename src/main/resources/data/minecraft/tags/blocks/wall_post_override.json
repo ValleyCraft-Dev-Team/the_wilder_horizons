@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "valleycraft:scarecrow",
+    "valleycraft:scarecrow_target",
+    "valleycraft:scarecrow_glowing",
+    "valleycraft:scarecrow_hat",
+    "valleycraft:scarecrow_hat_glowing",
+
+    "valleycraft:stake",
+
+    "valleycraft:glowsquid_lantern",
+    "valleycraft:dead_lantern"
+  ]
+}

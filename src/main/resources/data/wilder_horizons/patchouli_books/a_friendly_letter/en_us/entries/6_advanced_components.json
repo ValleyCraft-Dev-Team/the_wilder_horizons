@@ -1,0 +1,84 @@
+{
+  "name": "Complex Materials",
+  "icon": "wilder_horizons:thermal_blaze_core",
+  "category": "wilder_horizons:letter",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These materials are less frequently used, but due to their complex nature I decide to include a chapter on making them, to save you the guess-work."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:rosegold_ingot",
+      "title": "Rose Gold Ingot",
+      "text": "A simple alloy of Copper and Gold."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:brasium_ingot",
+      "title": "Brasium Ingot",
+      "text": "An alloy of Copper, Gold and Primsteel."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:echochalcum_ingot",
+      "title": "Echochalcum Ingot",
+      "text": "An alloy used to enhance Diamond Tools and Armor."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:netherite_ingot",
+      "title": "Netherite Ingot",
+      "text": "Another alloy used to enhance Diamond Tools and Armor, however Netherite seems to be nonexistent now."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:spyglass_lense",
+      "title": "Amethyst Lens",
+      "text": "Useful for Spyglasses and Goggles."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:hot_plate",
+      "title": "Conductive Stone Plate",
+      "text": "Used for Sensors, Repeaters, Comparitors, and Brewing Stands."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:agitator",
+      "title": "Redstone Agitator",
+      "text": "A key Brewing Stand component."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:thermal_blaze_core",
+      "title": "Thermal Blaze Core",
+      "text": "A strange power source made from extra-dimensional resources used for several devices."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:rune_etching_blade",
+      "title": "Rune Etching Quill",
+      "text": "Used to carve Magic Runes into gear."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:book_of_runecalling",
+      "title": "Grimoire of Runecalling",
+      "text": "Very few have successfully translated the eldritch Runes. Can you?"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:book_of_runecalling_copy",
+      "title": "Grimoire of Runecalling",
+      "text": "If you happen to, I'd love if you could send one my way. Admittedly, I still haven't successfully translated it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "wilder_horizons:dragons_breath",
+      "title": "Dragon's Breath",
+      "text": "Used to create Lingering Potions, it's a lot safer to make it from dead Dragons than to try and find a living one to get it from."
+    }
+  ]
+}

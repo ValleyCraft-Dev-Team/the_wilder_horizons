@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/scraping_by",
+  "display": {
+    "title": {
+      "text": "We Have A Spy In Our Ranks"
+    },
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "description": {
+      "text": "Paul was right?"
+    },
+    "frame": "task",
+    "hidden": "true"
+  },
+  "criteria": {
+    "feather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:metal_feather"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "feather"
+    ]
+  ]
+}

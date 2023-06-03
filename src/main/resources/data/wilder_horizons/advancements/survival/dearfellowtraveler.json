@@ -1,0 +1,36 @@
+{
+  "parent": "wilder_horizons:survival/historylessons",
+  "display": {
+    "title": {
+      "text": "Dear Fellow Traveler"
+    },
+    "icon": {
+      "item": "wilder_horizons:totem_of_appreciation"
+    },
+    "description": {
+      "text": "Find another Midlander, or what's left of them."
+    },
+    "frame": "challenge",
+    "hidden": "true"
+  },
+  "criteria": {
+    "midlander": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:skeletal_remains",
+              "minecraft:skeleton_skull"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "midlander"
+    ]
+  ]
+}

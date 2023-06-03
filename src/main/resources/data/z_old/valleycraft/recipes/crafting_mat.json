@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting_mats",
+  "pattern": [
+    "#L",
+    "VF"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:string_spools"
+    },
+    "L": {
+      "tag": "c:leather_alternatives"
+    },
+    "V": {
+      "tag": "c:plank_items"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "valleycraft:crafting_mat",
+    "count": 1
+  }
+}

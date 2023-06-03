@@ -1,0 +1,36 @@
+{
+  "parent": "wilder_horizons:survival/seasonofthelich",
+  "display": {
+    "title": {
+      "text": "Twisted Reflections"
+    },
+    "icon": {
+      "item": "wilder_horizons:withered_skull_shard"
+    },
+    "description": {
+      "text": "Who- or what- are the Withered?"
+    },
+    "frame": "challenge",
+    "hidden": "true"
+  },
+  "criteria": {
+    "withered": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:withered_skull_shard",
+              "minecraft:wither_skeleton_skull"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "withered"
+    ]
+  ]
+}

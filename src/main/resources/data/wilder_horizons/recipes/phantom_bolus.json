@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P",
+    "Q#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beetroot"
+    },
+    "P": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:phantom_bolus",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:goldleaf_maple_log",
+    "wilder_horizons:goldleaf_maple_wood",
+    "wilder_horizons:stripped_goldleaf_maple_log",
+    "wilder_horizons:stripped_goldleaf_maple_wood"
+  ]
+}

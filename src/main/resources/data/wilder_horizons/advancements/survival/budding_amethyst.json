@@ -1,0 +1,39 @@
+{
+  "parent": "wilder_horizons:survival/core",
+  "display": {
+    "title": {
+      "text": "Why does this takes so blasted long?"
+    },
+    "icon": {
+      "item": "wilder_horizons:budding_geode_core_enriched"
+    },
+    "description": {
+      "text": "Enrich a Geode with a Blasting Furnace",
+      "color": "gold"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "wilder_horizons:budding_amethyst"
+    ]
+  },
+  "criteria": {
+    "enriched_geode": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:budding_geode_core_enriched"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enriched_geode"
+    ]
+  ]
+}

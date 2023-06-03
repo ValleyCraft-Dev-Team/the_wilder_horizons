@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#V"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "V": {
+      "tag": "c:handles"
+    }
+  },
+  "result": {
+    "item": "valleycraft:hatchet_stone",
+    "count": 1
+  }
+}

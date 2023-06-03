@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A",
+    "BD"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar_cane"
+    },
+    "B": {
+      "item": "minecraft:glow_berries"
+    },
+    "D": {
+      "item": "wilder_horizons:mug"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:strength_broth",
+    "count": 1
+  }
+}

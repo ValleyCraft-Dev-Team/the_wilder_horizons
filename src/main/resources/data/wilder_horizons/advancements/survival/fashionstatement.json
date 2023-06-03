@@ -1,0 +1,52 @@
+{
+  "parent": "wilder_horizons:survival/dressedfortheoccasion",
+  "display": {
+    "title": {
+      "text": "Magical Fashion Statement"
+    },
+    "icon": {
+      "item": "wilder_horizons:amethyst_talisman"
+    },
+    "description": {
+      "text": "Craft an Amulet, Talisman, or Keepsake"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "necklace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:amethyst_talisman",
+              "wilder_horizons:brimstone_necklace",
+              "wilder_horizons:diamond_talisman",
+              "wilder_horizons:echo_shard_talisman",
+              "wilder_horizons:emerald_talisman",
+              "wilder_horizons:ender_pearl_talisman",
+              "wilder_horizons:lapis_lazuli_talisman",
+              "wilder_horizons:nether_quartz_talisman",
+              "wilder_horizons:prismarine_talisman",
+              "wilder_horizons:crystallized_honey_necklace",
+              "wilder_horizons:scute_necklace",
+              "wilder_horizons:undying_necklace",
+              "wilder_horizons:guardian_spike_talisman",
+              "wilder_horizons:dragon_tooth_keepsake",
+              "wilder_horizons:elder_guardian_spike_keepsake",
+              "wilder_horizons:nether_star_keepsake",
+              "wilder_horizons:ender_dragon_talisman",
+              "wilder_horizons:warden_heart_keepsake",
+              "wilder_horizons:liches_lucky_bone_keepsake"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "necklace"
+    ]
+  ]
+}

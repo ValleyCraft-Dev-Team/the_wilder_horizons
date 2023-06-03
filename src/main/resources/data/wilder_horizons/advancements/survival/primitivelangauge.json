@@ -1,0 +1,37 @@
+{
+  "parent": "wilder_horizons:survival/historylessons",
+  "display": {
+    "title": {
+      "text": "The Writings On The Wall"
+    },
+    "icon": {
+      "item": "wilder_horizons:erdstone_cave_painting_portrait"
+    },
+    "description": {
+      "text": "Find Prehistoric Cave Art"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "erdstone_cave_painting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:erdstone_cave_painting_portrait",
+              "wilder_horizons:erdstone_cave_painting_zombies",
+              "wilder_horizons:erdstone_cave_painting_home",
+              "wilder_horizons:erdstone_cave_painting_family"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "erdstone_cave_painting"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/brassgoggles",
+  "display": {
+    "title": {
+      "text": "Who's Afraid of the Dark?"
+    },
+    "icon": {
+      "item": "wilder_horizons:nightvision_goggles"
+    },
+    "description": {
+      "text": "Craft a pair of Night Vision Goggles"
+    },
+    "frame": "goal",
+    "hidden": "false"
+  },
+  "criteria": {
+    "brasium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:nightvision_goggles"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brasium"
+    ]
+  ]
+}

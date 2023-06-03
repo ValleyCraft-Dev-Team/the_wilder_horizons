@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "valleycraft:plant_fiber_string"
+    },
+    {
+      "item": "valleycraft:plant_fiber_string"
+    },
+    {
+      "item": "valleycraft:plant_fiber_string"
+    }
+  ],
+  "result": {
+    "item": "valleycraft:string_spool",
+    "count": 1
+  }
+}

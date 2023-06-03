@@ -1,0 +1,65 @@
+{
+  "parent": "wilder_horizons:survival/entrylog",
+  "display": {
+    "title": {
+      "text": "Entropy In Action?"
+    },
+    "icon": {
+      "item": "wilder_horizons:monster_guts"
+    },
+    "description": {
+      "text": "I'm pretty sure these are inedible..."
+    },
+    "frame": "task",
+    "hidden": "false"
+  },
+  "criteria": {
+    "heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:monster_heart"
+            ]
+          }
+        ]
+      }
+    },
+    "liver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:monster_liver"
+            ]
+          }
+        ]
+      }
+    },
+    "guts": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:monster_guts"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "heart"
+    ],
+    [
+      "liver"
+    ],
+    [
+      "guts"
+    ]
+  ]
+}

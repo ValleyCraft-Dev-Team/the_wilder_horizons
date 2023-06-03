@@ -1,0 +1,38 @@
+{
+  "parent": "wilder_horizons:survival/tstststs",
+  "display": {
+    "title": {
+      "text": "Spooky Scary Scarecrows"
+    },
+    "icon": {
+      "item": "wilder_horizons:scarecrow_hat"
+    },
+    "description": {
+      "text": "Craft a Scarecrow to fend off Crows"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "scarecrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:scarecrow",
+              "wilder_horizons:scarecrow_glowing",
+              "wilder_horizons:scarecrow_target",
+              "wilder_horizons:scarecrow_hat",
+              "wilder_horizons:scarecrow_hat_glowing"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scarecrow"
+    ]
+  ]
+}

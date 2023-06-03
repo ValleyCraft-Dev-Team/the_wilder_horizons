@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/allisblight",
+  "display": {
+    "title": {
+      "text": "Friends 'til The End"
+    },
+    "icon": {
+      "item": "wilder_horizons:ender_dragon_talisman"
+    },
+    "description": {
+      "text": "Craft a Dragon Eye Keepsake"
+    },
+    "frame": "goal",
+    "hidden": "false"
+  },
+  "criteria": {
+    "ender_dragon_talisman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:ender_dragon_talisman"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ender_dragon_talisman"
+    ]
+  ]
+}

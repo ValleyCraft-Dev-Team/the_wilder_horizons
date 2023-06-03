@@ -1,0 +1,71 @@
+{
+  "parent": "wilder_horizons:survival/lefestin",
+  "display": {
+    "title": {
+      "text": "Be Our Guest!"
+    },
+    "icon": {
+      "item": "wilder_horizons:wattle_table_clothe"
+    },
+    "description": {
+      "text": "Craft a Plank Table, Tablecloth, Chair, and Large Candelabra"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "wattle_table_clothe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:wattle_table_clothe"
+            ]
+          }
+        ]
+      }
+    },
+    "wattle_chair": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:wattle_chair"
+            ]
+          }
+        ]
+      }
+    },
+    "candelabra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:large_candelabra",
+              "wilder_horizons:large_candelabra_exposed",
+              "wilder_horizons:large_candelabra_oxidized",
+              "wilder_horizons:large_candelabra_weathered",
+              "wilder_horizons:waxed_large_candelabra",
+              "wilder_horizons:waxed_large_candelabra_exposed",
+              "wilder_horizons:waxed_large_candelabra_oxidized",
+              "wilder_horizons:waxed_large_candelabra_weathered"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wattle_table_clothe"
+    ],
+    [
+      "wattle_chair"
+    ],
+    [
+      "candelabra"
+    ]
+  ]
+}

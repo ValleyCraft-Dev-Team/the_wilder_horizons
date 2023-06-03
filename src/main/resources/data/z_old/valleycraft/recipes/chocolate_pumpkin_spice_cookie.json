@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "valleycraft:chocolate"
+    },
+    {
+      "item": "valleycraft:pumpkin_spice_cookie"
+    },
+    {
+      "item": "valleycraft:pumpkin_spice_cookie"
+    },
+    {
+      "item": "valleycraft:pumpkin_spice_cookie"
+    },
+    {
+      "item": "valleycraft:pumpkin_spice_cookie"
+    }
+  ],
+  "result": {
+    "item": "valleycraft:chocolate_pumpkin_spice_cookie",
+    "count": 4
+  }
+}

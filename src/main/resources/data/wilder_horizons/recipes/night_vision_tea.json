@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "BD"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:poppy"
+    },
+    "B": {
+      "item": "minecraft:glow_berries"
+    },
+    "D": {
+      "item": "wilder_horizons:mug"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:night_vision_broth",
+    "count": 1
+  }
+}

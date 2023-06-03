@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "VQ"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:flint"
+    },
+    "V": {
+      "item": "valleycraft:fiber"
+    },
+    "Q": {
+      "tag": "c:plank_items"
+    }
+  },
+  "result": {
+    "item": "valleycraft:makeshift_pickaxe",
+    "count": 1
+  }
+}
+

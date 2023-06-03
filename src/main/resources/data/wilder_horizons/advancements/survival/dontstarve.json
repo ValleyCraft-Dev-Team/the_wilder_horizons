@@ -1,0 +1,25 @@
+{
+  "parent": "wilder_horizons:survival/scraping_by",
+  "display": {
+    "title": {
+      "text": "Don't Starve- Yet."
+    },
+    "icon": {
+      "item": "wilder_horizons:cave_root"
+    },
+    "description": {
+      "text": "Find or prepare some food"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "dontstarveyet": {
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    [
+      "dontstarveyet"
+    ]
+  ]
+}

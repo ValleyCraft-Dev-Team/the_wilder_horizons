@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#V"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:diamonds"
+    },
+    "V": {
+      "tag": "c:handles"
+    }
+  },
+  "result": {
+    "item": "valleycraft:hatchet_diamond",
+    "count": 1
+  }
+}

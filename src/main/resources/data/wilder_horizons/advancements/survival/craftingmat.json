@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/primitivetechnology",
+  "display": {
+    "title": {
+      "text": "A Crafty Survivalist"
+    },
+    "icon": {
+      "item": "wilder_horizons:crafting_mat"
+    },
+    "description": {
+      "text": "Make a Crafting Mat or Table for advanced crafting"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "craftingtools": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:crafting_mat",
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craftingtools"
+    ]
+  ]
+}

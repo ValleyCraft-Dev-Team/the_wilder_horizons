@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "valleycraft:stalwart_shroom"
+    },
+    {
+      "item": "minecraft:chain"
+    },
+    {
+      "item": "valleycraft:iron_chain"
+    }
+  ],
+  "result": "minecraft:iron_nugget"
+}

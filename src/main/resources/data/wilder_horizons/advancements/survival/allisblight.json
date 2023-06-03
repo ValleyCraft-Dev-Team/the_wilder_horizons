@@ -1,0 +1,65 @@
+{
+  "parent": "wilder_horizons:survival/allisrot",
+  "display": {
+    "title": {
+      "text": "A Primordial Hate"
+    },
+    "icon": {
+      "item": "wilder_horizons:infected_monster_guts"
+    },
+    "description": {
+      "text": "Smells like death, tastes even worse."
+    },
+    "frame": "task",
+    "hidden": "true"
+  },
+  "criteria": {
+    "heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:infected_monster_heart"
+            ]
+          }
+        ]
+      }
+    },
+    "liver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:infected_monster_liver"
+            ]
+          }
+        ]
+      }
+    },
+    "guts": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:infected_monster_guts"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "heart"
+    ],
+    [
+      "liver"
+    ],
+    [
+      "guts"
+    ]
+  ]
+}

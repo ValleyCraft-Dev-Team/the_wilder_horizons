@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "#H"
+  ],
+  "key": {
+    "#": {
+      "item": "valleycraft:brasium_ingot"
+    },
+    "H": {
+      "tag": "c:handles"
+    }
+  },
+  "result": {
+    "item": "valleycraft:ice_tongs",
+    "count": 1
+  }
+}

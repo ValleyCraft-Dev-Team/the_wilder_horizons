@@ -1,0 +1,34 @@
+{
+  "parent": "wilder_horizons:survival/craftingmat",
+  "display": {
+    "title": {
+      "text": "*Ts Ts Ts Ts*"
+    },
+    "icon": {
+      "item": "wilder_horizons:sprinkler"
+    },
+    "description": {
+      "text": "Craft a Sprinkler"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "sprinkler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:sprinkler"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sprinkler"
+    ]
+  ]
+}

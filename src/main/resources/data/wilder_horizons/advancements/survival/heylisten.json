@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/scraping_by",
+  "display": {
+    "title": {
+      "text": "Hey, Listen!"
+    },
+    "icon": {
+      "item": "wilder_horizons:allay_bottle"
+    },
+    "description": {
+      "text": "Rescue a bottle trapped Allay"
+    },
+    "frame": "challenge",
+    "hidden": "true"
+  },
+  "criteria": {
+    "allay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:allay_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "allay"
+    ]
+  ]
+}

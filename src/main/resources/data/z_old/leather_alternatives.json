@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "valleycraft:plant_fiber_canvas",
+    "#c:treated_leather",
+    "#c:leather"
+  ]
+}

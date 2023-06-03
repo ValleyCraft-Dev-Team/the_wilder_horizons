@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "MMM",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "valleycraft:salt"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "valleycraft:cheese",
+    "count": 1
+  }
+}

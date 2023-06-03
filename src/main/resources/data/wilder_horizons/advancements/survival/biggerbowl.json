@@ -1,0 +1,49 @@
+{
+  "parent": "wilder_horizons:survival/lefestin",
+  "display": {
+    "title": {
+      "text": "We're Gonna Need A Bigger Bowl"
+    },
+    "icon": {
+      "item": "minecraft:cauldron"
+    },
+    "description": {
+      "text": "Craft a cauldron and ladle"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "cauldron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cauldron"
+            ]
+          }
+        ]
+      }
+    },
+    "ladle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:witch_ladle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cauldron"
+    ],
+    [
+      "ladle"
+    ]
+  ]
+}

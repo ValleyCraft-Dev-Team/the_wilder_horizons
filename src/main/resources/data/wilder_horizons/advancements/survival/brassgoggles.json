@@ -1,0 +1,35 @@
+{
+  "parent": "wilder_horizons:survival/brasiumpunker",
+  "display": {
+    "title": {
+      "text": "Brasium Goggles La-Da-Da Da Da"
+    },
+    "icon": {
+      "item": "wilder_horizons:amethyst_goggles"
+    },
+    "description": {
+      "text": "Craft a pair of Brasium Goggles"
+    },
+    "frame": "task",
+    "hidden": "false"
+  },
+  "criteria": {
+    "amethyst_goggles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wilder_horizons:amethyst_goggles"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "amethyst_goggles"
+    ]
+  ]
+}
