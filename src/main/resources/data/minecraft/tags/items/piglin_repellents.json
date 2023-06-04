@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "minecraft:wither_rose",
-    "valleycraft:faded_soul_rose",
-    "valleycraft:soul_rose",
-    "valleycraft:blue_soul_rose"
+    "wilder_horizons:faded_soul_rose",
+    "wilder_horizons:soul_rose",
+    "wilder_horizons:blue_soul_rose"
   ]
 }

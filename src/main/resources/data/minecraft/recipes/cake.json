@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "valleycraft:vanilla_frosting"
+      "item": "wilder_horizons:vanilla_frosting"
     },
     "B": {
-      "item": "valleycraft:butter"
+      "item": "wilder_horizons:butter"
     },
     "V": {
       "tag": "c:milk_bottles"
@@ -26,7 +26,7 @@
     }
   },
   "result": {
-    "item": "valleycraft:cake_dough",
+    "item": "wilder_horizons:cake_dough",
     "count": 1
   }
 }

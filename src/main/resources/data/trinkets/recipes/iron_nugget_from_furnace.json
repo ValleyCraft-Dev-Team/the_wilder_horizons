@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:stalwart_shroom"
+    },
+    {
+      "item": "minecraft:chain"
+    },
+    {
+      "item": "wilder_horizons:iron_chain"
+    }
+  ],
+  "result": "minecraft:iron_nugget"
+}

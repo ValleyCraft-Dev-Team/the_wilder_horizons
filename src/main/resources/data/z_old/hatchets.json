@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:hatchet_wooden",
-    "valleycraft:hatchet_golden",
-    "valleycraft:hatchet_stone",
-    "valleycraft:hatchet_iron",
-    "valleycraft:hatchet_rosegold",
-    "valleycraft:hatchet_diamond",
-    "valleycraft:hatchet_netherite"
+    "wilder_horizons:hatchet_wooden",
+    "wilder_horizons:hatchet_golden",
+    "wilder_horizons:hatchet_stone",
+    "wilder_horizons:hatchet_iron",
+    "wilder_horizons:hatchet_rosegold",
+    "wilder_horizons:hatchet_diamond",
+    "wilder_horizons:hatchet_netherite"
   ]
 }

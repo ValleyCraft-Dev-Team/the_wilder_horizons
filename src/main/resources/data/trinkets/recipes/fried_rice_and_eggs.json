@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:cooked_rice"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "wilder_horizons:fried_egg"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:fried_rice_and_eggs",
+    "count": 1
+  }
+}

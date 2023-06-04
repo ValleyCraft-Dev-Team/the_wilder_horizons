@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:knife_diamond"
+  },
+  "addition": {
+    "item": "wilder_horizons:monster_claw"
+  },
+  "result": {
+    "item": "wilder_horizons:dagger_diamond"
+  }
+}

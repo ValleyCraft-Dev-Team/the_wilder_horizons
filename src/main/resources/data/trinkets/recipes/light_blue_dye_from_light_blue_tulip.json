@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "light_blue_dye",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:light_blue_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_blue_dye",
+    "count": 1
+  }
+}

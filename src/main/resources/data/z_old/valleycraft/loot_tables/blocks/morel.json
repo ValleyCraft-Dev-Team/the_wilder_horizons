@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:morel"
+          "name": "wilder_horizons:morel"
         }
       ],
       "conditions": [

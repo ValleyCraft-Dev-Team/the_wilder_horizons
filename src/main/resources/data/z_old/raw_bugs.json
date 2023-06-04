@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:raw_silverfish",
-    "valleycraft:raw_tripe",
+    "wilder_horizons:raw_silverfish",
+    "wilder_horizons:raw_tripe",
     "minecraft:spider_eye",
-    "valleycraft:raw_worm",
-    "valleycraft:raw_cave_maggot"
+    "wilder_horizons:raw_worm",
+    "wilder_horizons:raw_cave_maggot"
   ]
 }

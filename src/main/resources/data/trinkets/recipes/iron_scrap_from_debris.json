@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredient": {
+    "item": "wilder_horizons:ancient_iron_debris"
+  },
+  "result": "wilder_horizons:iron_scrap"
+}

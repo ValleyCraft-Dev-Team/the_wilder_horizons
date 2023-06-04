@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:weeping_ghost_willow"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:slime_blob",
+    "count": 2
+  }
+}

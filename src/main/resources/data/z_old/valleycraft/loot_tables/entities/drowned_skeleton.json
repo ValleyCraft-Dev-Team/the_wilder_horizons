@@ -190,7 +190,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:skull_shard",
+          "name": "wilder_horizons:skull_shard",
           "functions": [
             {
               "function": "minecraft:set_count",

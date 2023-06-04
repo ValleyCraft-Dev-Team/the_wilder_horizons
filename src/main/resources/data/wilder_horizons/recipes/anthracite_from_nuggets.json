@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:anthracite_nugget"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:anthracite",
+    "count": 1
+  }
+}

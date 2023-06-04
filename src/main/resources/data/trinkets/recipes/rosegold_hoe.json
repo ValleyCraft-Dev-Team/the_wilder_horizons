@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    " V",
+    " V"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:rose_gold_ingots"
+    },
+    "V": {
+      "item": "wilder_horizons:sturdy_handle"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:rosegold_hoe",
+    "count": 1
+  }
+}

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:honeycluster"
+          "name": "wilder_horizons:honeycluster"
         }
       ],
       "conditions": [

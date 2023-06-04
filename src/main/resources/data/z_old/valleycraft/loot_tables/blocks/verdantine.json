@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:verdantine"
+          "name": "wilder_horizons:verdantine"
         }
       ],
       "conditions": [

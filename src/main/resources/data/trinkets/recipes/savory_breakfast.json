@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "wilder_horizons:fried_egg"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "wilder_horizons:cooked_bacon"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:hearty_breakfast",
+    "count": 1
+  }
+}

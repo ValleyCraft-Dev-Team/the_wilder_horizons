@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:boatwreck/start_pool",
+ "name": "wilder_horizons:boatwreck/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 9,
       "element": {
-        "location": "valleycraft:ocean/boatwrecks/rightside_up_backhalf",
+        "location": "wilder_horizons:ocean/boatwrecks/rightside_up_backhalf",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "valleycraft:ocean/boatwrecks/with_mast",
+        "location": "wilder_horizons:ocean/boatwrecks/with_mast",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "valleycraft:ocean/boatwrecks/with_mast_degraded",
+        "location": "wilder_horizons:ocean/boatwrecks/with_mast_degraded",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 6,
       "element": {
-        "location": "valleycraft:ocean/boatwrecks/tiny_boat",
+        "location": "wilder_horizons:ocean/boatwrecks/tiny_boat",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "valleycraft:cave_magic",
+      "structure": "wilder_horizons:cave_magic",
       "weight": 1
     }
   ],

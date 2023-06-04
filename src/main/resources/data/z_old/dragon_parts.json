@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "#c:dragon_bones",
-    "valleycraft:ender_dragon_gland",
-    "valleycraft:ender_dragon_eye"
+    "wilder_horizons:ender_dragon_gland",
+    "wilder_horizons:ender_dragon_eye"
   ]
 }

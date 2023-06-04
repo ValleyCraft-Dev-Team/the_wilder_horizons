@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "yellow_dye",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:lily_of_the_mountains"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_dye",
+    "count": 1
+  }
+}

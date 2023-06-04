@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:coral_knife",
-    "valleycraft:coral_knife_guardian"
+    "wilder_horizons:coral_knife",
+    "wilder_horizons:coral_knife_guardian"
   ]
 }

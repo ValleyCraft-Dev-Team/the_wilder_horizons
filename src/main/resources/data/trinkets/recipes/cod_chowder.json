@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:stalwart_shroom"
+    },
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "wilder_horizons:onion"
+    },
+    {
+      "tag": "c:milk_bottles"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:cod_chowder",
+    "count": 1
+  }
+}

@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:carmine",
+              "name": "wilder_horizons:carmine",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:carmine_cobblestone",
+              "name": "wilder_horizons:carmine_cobblestone",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

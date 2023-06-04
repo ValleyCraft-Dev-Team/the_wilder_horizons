@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:apple_leaves_empty",
+              "name": "wilder_horizons:apple_leaves_empty",
               "conditions": [
                 {
                   "condition": "minecraft:alternative",
@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:apple_seed",
+              "name": "wilder_horizons:apple_seed",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"
@@ -137,7 +137,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:apple_sapling",
+          "name": "wilder_horizons:apple_sapling",
           "conditions": [
             {
               "condition": "minecraft:survives_explosion"
@@ -200,7 +200,7 @@
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "valleycraft:apple_leaves",
+          "block": "wilder_horizons:apple_leaves",
           "properties": {
             "apples": "true"
           }

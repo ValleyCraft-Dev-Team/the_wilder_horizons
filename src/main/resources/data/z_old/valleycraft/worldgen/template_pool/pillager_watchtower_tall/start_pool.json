@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:pillager_watchtower_tall/start_pool",
+ "name": "wilder_horizons:pillager_watchtower_tall/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "valleycraft:pillager_outpost/watchtower_tall",
+        "location": "wilder_horizons:pillager_outpost/watchtower_tall",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

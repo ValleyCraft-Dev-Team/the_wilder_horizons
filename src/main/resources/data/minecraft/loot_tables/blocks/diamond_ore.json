@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:diamond_fragments",
+              "name": "wilder_horizons:diamond_fragments",
               "functions": [
                 {
                   "function": "minecraft:set_count",

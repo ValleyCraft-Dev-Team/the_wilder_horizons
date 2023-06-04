@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:plant_fiber_string",
+          "name": "wilder_horizons:plant_fiber_string",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -51,7 +51,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:bow_string",
+          "name": "wilder_horizons:bow_string",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -104,7 +104,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "valleycraft:arrow_bundle",
+          "name": "wilder_horizons:arrow_bundle",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -212,7 +212,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:skull_shard",
+          "name": "wilder_horizons:skull_shard",
           "functions": [
             {
               "function": "minecraft:set_count",

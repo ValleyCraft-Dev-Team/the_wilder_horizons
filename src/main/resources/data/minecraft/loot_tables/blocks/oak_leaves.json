@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:oak_seed",
+              "name": "wilder_horizons:oak_seed",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

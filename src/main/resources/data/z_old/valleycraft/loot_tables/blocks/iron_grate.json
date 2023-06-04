@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:iron_grate"
+          "name": "wilder_horizons:iron_grate"
         }
       ],
       "conditions": [

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:raw_glowsquid_tentacle"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "wilder_horizons:baked_onion"
+    },
+    {
+      "tag": "c:milk_bottles"
+    },
+    {
+      "item": "wilder_horizons:butter"
+    },
+    {
+      "tag": "c:broths"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:glow_squid_soup",
+    "count": 1
+  }
+}

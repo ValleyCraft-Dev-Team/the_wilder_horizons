@@ -4,7 +4,7 @@
     "minecraft:honey_bottle",
     "minecraft:honeycomb",
     "minecraft:slime_ball",
-    "valleycraft:slime_blob",
-    "valleycraft:syrupy_honeycomb"
+    "wilder_horizons:slime_blob",
+    "wilder_horizons:syrupy_honeycomb"
   ]
 }

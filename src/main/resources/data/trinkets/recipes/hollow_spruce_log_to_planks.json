@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:hollow_spruce_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spruce_planks",
+    "count": 1
+  }
+}

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:moss_sproutlet"
+          "name": "wilder_horizons:moss_sproutlet"
         }
       ],
       "conditions": [

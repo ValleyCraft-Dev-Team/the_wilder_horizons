@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "A "
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:quill"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:rune_etching_blade",
+    "count": 1
+  }
+}

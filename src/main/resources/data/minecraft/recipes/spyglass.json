@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "valleycraft:leather_strap"
+      "item": "wilder_horizons:leather_strap"
     },
     "V": {
-      "item": "valleycraft:spyglass_lense"
+      "item": "wilder_horizons:spyglass_lense"
     },
     "J": {
-      "item": "valleycraft:brasium_ingot"
+      "item": "wilder_horizons:brasium_ingot"
     }
   },
   "result": {

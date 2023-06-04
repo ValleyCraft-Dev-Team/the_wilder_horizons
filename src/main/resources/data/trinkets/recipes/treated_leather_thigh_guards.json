@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:treated_leather"
+    },
+    "S": {
+      "item": "wilder_horizons:leather_strap"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:leather_thigh_guards",
+    "count": 1
+  }
+}

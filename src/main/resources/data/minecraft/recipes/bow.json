@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "X": {
-      "item": "valleycraft:bow_string"
+      "item": "wilder_horizons:bow_string"
     },
     "#": {
-      "item": "valleycraft:plank"
+      "item": "wilder_horizons:plank"
     },
     "G": {
       "tag": "c:handles"

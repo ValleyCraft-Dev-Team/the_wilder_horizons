@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:orange_kelp"
+          "name": "wilder_horizons:orange_kelp"
         }
       ],
       "conditions": [

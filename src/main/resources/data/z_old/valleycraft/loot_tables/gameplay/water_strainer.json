@@ -27,7 +27,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:orange_kelp",
+          "name": "wilder_horizons:orange_kelp",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -59,7 +59,7 @@
         {
           "type": "minecraft:item",
           "weight": 30,
-          "name": "valleycraft:orange_seagrass",
+          "name": "wilder_horizons:orange_seagrass",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -75,7 +75,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:algae",
+          "name": "wilder_horizons:algae",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -91,7 +91,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:beach_grass",
+          "name": "wilder_horizons:beach_grass",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -107,7 +107,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:iceplant",
+          "name": "wilder_horizons:iceplant",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -155,7 +155,7 @@
         {
           "type": "minecraft:item",
           "weight": 30,
-          "name": "valleycraft:plank",
+          "name": "wilder_horizons:plank",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -171,7 +171,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:clam_block",
+          "name": "wilder_horizons:clam_block",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -187,7 +187,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:guardian_spike",
+          "name": "wilder_horizons:guardian_spike",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -203,7 +203,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:quill",
+          "name": "wilder_horizons:quill",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -315,7 +315,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:plant_fiber_string",
+          "name": "wilder_horizons:plant_fiber_string",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -415,7 +415,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:cattails",
+          "name": "wilder_horizons:cattails",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -495,7 +495,7 @@
         {
           "type": "minecraft:item",
           "weight": 11,
-          "name": "valleycraft:leather_sandals",
+          "name": "wilder_horizons:leather_sandals",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -511,7 +511,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:bikini_repaired",
+          "name": "wilder_horizons:bikini_repaired",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -527,7 +527,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:bikini_masc_repaired",
+          "name": "wilder_horizons:bikini_masc_repaired",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -543,7 +543,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:bikini_neutral_repaired",
+          "name": "wilder_horizons:bikini_neutral_repaired",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -559,7 +559,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:straw_hat",
+          "name": "wilder_horizons:straw_hat",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -575,7 +575,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:leather_strap",
+          "name": "wilder_horizons:leather_strap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -607,7 +607,7 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "valleycraft:leather_necklace",
+          "name": "wilder_horizons:leather_necklace",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -639,7 +639,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:sheep_hide",
+          "name": "wilder_horizons:sheep_hide",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -655,7 +655,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:pig_hide",
+          "name": "wilder_horizons:pig_hide",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -671,7 +671,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:burnt_out_torch",
+          "name": "wilder_horizons:burnt_out_torch",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -687,7 +687,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:rope",
+          "name": "wilder_horizons:rope",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -703,7 +703,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:net",
+          "name": "wilder_horizons:net",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -719,7 +719,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:fiber",
+          "name": "wilder_horizons:fiber",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -735,7 +735,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:seagulls_feather",
+          "name": "wilder_horizons:seagulls_feather",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -751,7 +751,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:ducks_feather",
+          "name": "wilder_horizons:ducks_feather",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -767,7 +767,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:beast_bone",
+          "name": "wilder_horizons:beast_bone",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -799,7 +799,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "valleycraft:bonefin",
+          "name": "wilder_horizons:bonefin",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -943,7 +943,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:knife_wooden",
+          "name": "wilder_horizons:knife_wooden",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -959,7 +959,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:hatchet_wooden",
+          "name": "wilder_horizons:hatchet_wooden",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -975,7 +975,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:woodcutter_axe_wooden",
+          "name": "wilder_horizons:woodcutter_axe_wooden",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -991,7 +991,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:scythe_wooden",
+          "name": "wilder_horizons:scythe_wooden",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1007,7 +1007,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:wooden_oar",
+          "name": "wilder_horizons:wooden_oar",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1023,7 +1023,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:branch",
+          "name": "wilder_horizons:branch",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1039,7 +1039,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:makeshift_hoe",
+          "name": "wilder_horizons:makeshift_hoe",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1055,7 +1055,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:makeshift_shovel",
+          "name": "wilder_horizons:makeshift_shovel",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1071,7 +1071,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:wooden_greatsword",
+          "name": "wilder_horizons:wooden_greatsword",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1087,7 +1087,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:dagger_wooden",
+          "name": "wilder_horizons:dagger_wooden",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1103,7 +1103,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:traveler_wooden",
+          "name": "wilder_horizons:traveler_wooden",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1119,7 +1119,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:wooden_staff",
+          "name": "wilder_horizons:wooden_staff",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -1135,7 +1135,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:bamboo_staff",
+          "name": "wilder_horizons:bamboo_staff",
           "conditions": [
             {
               "condition": "minecraft:alternative",

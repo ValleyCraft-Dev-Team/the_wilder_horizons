@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:glow_berry_pie_dough"
+    }
+  ],
+  "result": "wilder_horizons:glow_berry_pie"
+}

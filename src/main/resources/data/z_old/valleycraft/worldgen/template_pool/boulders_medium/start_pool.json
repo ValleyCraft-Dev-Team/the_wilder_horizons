@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:boulders_medium/start_pool",
+ "name": "wilder_horizons:boulders_medium/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/boulders/medium/cobble_4",
+        "location": "wilder_horizons:environment/boulders/medium/cobble_4",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/boulders/medium/erd_cobble_4",
+        "location": "wilder_horizons:environment/boulders/medium/erd_cobble_4",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/boulders/medium/mossy_cobble_4",
+        "location": "wilder_horizons:environment/boulders/medium/mossy_cobble_4",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:stalwart_shroom"
+    }
+  ],
+  "result": "minecraft:iron_nugget"
+}

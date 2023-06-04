@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "valleycraft:tavern_snowy/start_pool",
+  "start_pool": "wilder_horizons:tavern_snowy/start_pool",
   "size": 2,
   "max_distance_from_center": 80,
-  "biomes": "#valleycraft:has_structure/tavern_old_growth",
+  "biomes": "#wilder_horizons:has_structure/tavern_old_growth",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "start_height": {

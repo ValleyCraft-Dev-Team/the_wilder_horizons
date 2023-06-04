@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Q",
+    "V#"
+  ],
+  "key": {
+    "V": {
+      "item": "wilder_horizons:rope"
+    },
+    "Q": {
+      "item": "minecraft:bone"
+    },
+    "#": {
+      "item": "wilder_horizons:beast_bone"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:bone_pickaxe",
+    "count": 1
+  }
+}
+

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:quill",
-    "valleycraft:rune_etching_blade"
+    "wilder_horizons:quill",
+    "wilder_horizons:rune_etching_blade"
   ]
 }

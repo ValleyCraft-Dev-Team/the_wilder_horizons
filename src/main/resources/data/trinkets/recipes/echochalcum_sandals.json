@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:diamond_sandals"
+  },
+  "addition": {
+    "item": "wilder_horizons:echochalcum_ingot"
+  },
+  "result": {
+    "item": "wilder_horizons:echochalcum_sandals"
+  }
+}

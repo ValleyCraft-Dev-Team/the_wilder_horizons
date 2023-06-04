@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "V_V",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
+    "C": {
+      "tag": "c:campfire_fuels"
+    },
+    "V": {
+      "item": "wilder_horizons:rope"
+    },
+    "_": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:brazier",
+    "count": 1
+  }
+}

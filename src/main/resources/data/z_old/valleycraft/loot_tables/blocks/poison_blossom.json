@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:poison_blossom"
+          "name": "wilder_horizons:poison_blossom"
         }
       ],
       "conditions": [

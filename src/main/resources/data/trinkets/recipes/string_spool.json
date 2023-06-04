@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "wilder_horizons:plant_fiber_string"
+    },
+    {
+      "item": "wilder_horizons:plant_fiber_string"
+    },
+    {
+      "item": "wilder_horizons:plant_fiber_string"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:string_spool",
+    "count": 1
+  }
+}

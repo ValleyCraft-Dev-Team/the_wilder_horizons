@@ -4,7 +4,7 @@
     "minecraft:cooked_beef",
     "minecraft:cooked_chicken",
     "minecraft:cooked_rabbit",
-    "valleycraft:cooked_bird",
-    "valleycraft:cooked_bat"
+    "wilder_horizons:cooked_bird",
+    "wilder_horizons:cooked_bat"
   ]
 }

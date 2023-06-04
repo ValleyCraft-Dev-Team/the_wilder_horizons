@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/ /",
+    " V ",
+    "/ /"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "V": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:block_wattle_and_glass",
+    "count": 1
+  }
+}

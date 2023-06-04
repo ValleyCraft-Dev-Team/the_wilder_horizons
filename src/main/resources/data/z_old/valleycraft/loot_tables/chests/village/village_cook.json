@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:vegetable_mix",
+          "name": "wilder_horizons:vegetable_mix",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -32,7 +32,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:cod_gefilte",
+          "name": "wilder_horizons:cod_gefilte",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -48,7 +48,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:flour",
+          "name": "wilder_horizons:flour",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -64,7 +64,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:grilled_cheese",
+          "name": "wilder_horizons:grilled_cheese",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -80,7 +80,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:clam_chowder",
+          "name": "wilder_horizons:clam_chowder",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -127,7 +127,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:bread_dough",
+          "name": "wilder_horizons:bread_dough",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -142,7 +142,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:cookie_dough",
+          "name": "wilder_horizons:cookie_dough",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -172,7 +172,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:beef_stew",
+          "name": "wilder_horizons:beef_stew",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -187,7 +187,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:butter",
+          "name": "wilder_horizons:butter",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -202,7 +202,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:morel_oil",
+          "name": "wilder_horizons:morel_oil",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -217,7 +217,7 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "valleycraft:milk",
+          "name": "wilder_horizons:milk",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -232,7 +232,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:chocolate",
+          "name": "wilder_horizons:chocolate",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -247,7 +247,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:sweet_berry_pie",
+          "name": "wilder_horizons:sweet_berry_pie",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -262,7 +262,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:toast",
+          "name": "wilder_horizons:toast",
           "functions": [
             {
               "function": "minecraft:set_count",

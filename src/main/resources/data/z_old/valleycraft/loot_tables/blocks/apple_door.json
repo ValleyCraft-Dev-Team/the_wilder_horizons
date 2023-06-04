@@ -7,11 +7,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:apple_door",
+          "name": "wilder_horizons:apple_door",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "valleycraft:apple_door",
+              "block": "wilder_horizons:apple_door",
               "properties": {
                 "half": "lower"
               }

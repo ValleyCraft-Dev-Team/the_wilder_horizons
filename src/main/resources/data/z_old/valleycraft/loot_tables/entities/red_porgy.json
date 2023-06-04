@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_red_porgy",
+          "name": "wilder_horizons:raw_red_porgy",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",

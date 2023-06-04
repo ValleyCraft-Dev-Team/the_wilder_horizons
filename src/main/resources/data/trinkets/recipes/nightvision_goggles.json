@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C# ",
+    "# V",
+    " V "
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:leather_strap"
+    },
+    "C": {
+      "item": "wilder_horizons:thermal_blaze_core"
+    },
+    "V": {
+      "item": "wilder_horizons:echo_shard_lense"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:nightvision_goggles",
+    "count": 1
+  }
+}

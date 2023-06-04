@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:mamon_leaves",
+              "name": "wilder_horizons:mamon_leaves",
               "conditions": [
                 {
                   "condition": "minecraft:alternative",
@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:amberblossom_seed",
+              "name": "wilder_horizons:amberblossom_seed",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"
@@ -137,7 +137,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:mamon_sapling",
+          "name": "wilder_horizons:mamon_sapling",
           "conditions": [
             {
               "condition": "minecraft:survives_explosion"

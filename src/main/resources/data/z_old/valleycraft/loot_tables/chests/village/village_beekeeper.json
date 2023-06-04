@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:syrupy_honeycomb",
+          "name": "wilder_horizons:syrupy_honeycomb",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -23,7 +23,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:crystallized_honeydrop",
+          "name": "wilder_horizons:crystallized_honeydrop",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -80,7 +80,7 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "valleycraft:lavender",
+          "name": "wilder_horizons:lavender",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:sugarcane_bale"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:sugar_cane"
+  }
+}

@@ -2,23 +2,23 @@
   "replace": false,
   "values": [
     "minecraft:vine",
-    "valleycraft:arid_vines",
+    "wilder_horizons:arid_vines",
     "minecraft:sugar_cane",
     "minecraft:kelp",
-    "valleycraft:rushes",
+    "wilder_horizons:rushes",
     "minecraft:grass",
     "minecraft:tall_grass",
     "minecraft:fern",
     "minecraft:large_fern",
     "minecraft:seagrass",
-    "valleycraft:moss_sproutlet",
-    "valleycraft:foxtail_fern",
-    "valleycraft:desert_shrub",
-    "valleycraft:leatherleaf_fern",
-    "valleycraft:beach_grass",
+    "wilder_horizons:moss_sproutlet",
+    "wilder_horizons:foxtail_fern",
+    "wilder_horizons:desert_shrub",
+    "wilder_horizons:leatherleaf_fern",
+    "wilder_horizons:beach_grass",
     "minecraft:hanging_roots",
     "minecraft:crimson_roots",
     "minecraft:warped_roots",
-    "valleycraft:cattails"
+    "wilder_horizons:cattails"
   ]
 }

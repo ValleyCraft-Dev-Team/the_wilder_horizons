@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:raw_squid_tentacle",
-    "valleycraft:raw_glowsquid_tentacle"
+    "wilder_horizons:raw_squid_tentacle",
+    "wilder_horizons:raw_glowsquid_tentacle"
   ]
 }

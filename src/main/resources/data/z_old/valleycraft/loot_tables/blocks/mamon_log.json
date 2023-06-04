@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:mamon_log"
+          "name": "wilder_horizons:mamon_log"
         }
       ],
       "conditions": [

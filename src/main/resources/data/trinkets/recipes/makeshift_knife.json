@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "V#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
+    "V": {
+      "item": "wilder_horizons:fiber"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:makeshift_knife",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:hollow_mamon_log"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:mamon_planks",
+    "count": 1
+  }
+}

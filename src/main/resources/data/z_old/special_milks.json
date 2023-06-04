@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:eggnog",
-    "valleycraft:atole_milk",
-    "valleycraft:chocolate_milk"
+    "wilder_horizons:eggnog",
+    "wilder_horizons:atole_milk",
+    "wilder_horizons:chocolate_milk"
   ]
 }

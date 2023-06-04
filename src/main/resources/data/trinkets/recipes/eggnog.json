@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:milk_bottles"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:eggnog",
+    "count": 1
+  }
+}

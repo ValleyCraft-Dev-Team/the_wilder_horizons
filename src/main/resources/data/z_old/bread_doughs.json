@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:bread_dough",
-    "valleycraft:corn_bread_dough"
+    "wilder_horizons:bread_dough",
+    "wilder_horizons:corn_bread_dough"
   ]
 }

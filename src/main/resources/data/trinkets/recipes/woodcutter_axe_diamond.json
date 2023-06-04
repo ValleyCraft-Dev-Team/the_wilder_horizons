@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "tag": "c:diamonds"
+  },
+  "result": {
+    "item": "wilder_horizons:woodcutter_axe_diamond"
+  }
+}

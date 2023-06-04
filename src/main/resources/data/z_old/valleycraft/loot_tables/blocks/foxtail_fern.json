@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:foxtail_fern"
+          "name": "wilder_horizons:foxtail_fern"
         }
       ],
       "conditions": [

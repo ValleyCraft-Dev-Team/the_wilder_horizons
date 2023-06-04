@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:tavern_mountains/start_pool",
+ "name": "wilder_horizons:tavern_mountains/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "valleycraft:homesteads/taverns/mountains_tavern",
+        "location": "wilder_horizons:homesteads/taverns/mountains_tavern",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

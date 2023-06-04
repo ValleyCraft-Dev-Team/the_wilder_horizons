@@ -1,15 +1,15 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:scarecrow",
-    "valleycraft:scarecrow_target",
-    "valleycraft:scarecrow_glowing",
-    "valleycraft:scarecrow_hat",
-    "valleycraft:scarecrow_hat_glowing",
+    "wilder_horizons:scarecrow",
+    "wilder_horizons:scarecrow_target",
+    "wilder_horizons:scarecrow_glowing",
+    "wilder_horizons:scarecrow_hat",
+    "wilder_horizons:scarecrow_hat_glowing",
 
-    "valleycraft:stake",
+    "wilder_horizons:stake",
 
-    "valleycraft:glowsquid_lantern",
-    "valleycraft:dead_lantern"
+    "wilder_horizons:glowsquid_lantern",
+    "wilder_horizons:dead_lantern"
   ]
 }

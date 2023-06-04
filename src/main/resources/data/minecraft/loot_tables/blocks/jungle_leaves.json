@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:jungle_seed",
+              "name": "wilder_horizons:jungle_seed",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

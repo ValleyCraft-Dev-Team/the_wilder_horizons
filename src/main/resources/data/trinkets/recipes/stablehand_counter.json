@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "LBG",
+    "CCC"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:plant_fiber_canvas"
+    },
+    "L": {
+      "item": "wilder_horizons:beast_bone"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    },
+    "G": {
+      "tag": "c:purified_water"
+    },
+    "C": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:stablehand_counter",
+    "count": 1
+  }
+}

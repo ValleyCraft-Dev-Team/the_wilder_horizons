@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#V"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
+    "V": {
+      "tag": "c:handles"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:hatchet_wooden",
+    "count": 1
+  }
+}

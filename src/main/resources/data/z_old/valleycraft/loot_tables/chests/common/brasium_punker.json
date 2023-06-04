@@ -17,7 +17,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:ice_tongs"
+          "name": "wilder_horizons:ice_tongs"
         },
         {
           "type": "minecraft:item",
@@ -32,17 +32,17 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:leather_helmet"
+          "name": "wilder_horizons:leather_helmet"
         },
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:iron_breastplate"
+          "name": "wilder_horizons:iron_breastplate"
         },
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:hatchet_iron"
+          "name": "wilder_horizons:hatchet_iron"
         },
         {
           "type": "minecraft:item",
@@ -67,7 +67,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:copper_scrap",
+          "name": "wilder_horizons:copper_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -83,7 +83,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "valleycraft:copper_nugget",
+          "name": "wilder_horizons:copper_nugget",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -99,7 +99,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:brasium_ingot",
+          "name": "wilder_horizons:brasium_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -115,12 +115,12 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:hardtack"
+          "name": "wilder_horizons:hardtack"
         },
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:plank",
+          "name": "wilder_horizons:plank",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -136,7 +136,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:agitator"
+          "name": "wilder_horizons:agitator"
         },
         {
           "type": "minecraft:item",
@@ -173,7 +173,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:plant_fiber_canvas",
+          "name": "wilder_horizons:plant_fiber_canvas",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -189,7 +189,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:hot_plate",
+          "name": "wilder_horizons:hot_plate",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -205,7 +205,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:thermal_blaze_core",
+          "name": "wilder_horizons:thermal_blaze_core",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -223,7 +223,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:bomb_bag",
+          "name": "wilder_horizons:bomb_bag",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -271,7 +271,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:leather_strap",
+          "name": "wilder_horizons:leather_strap",
           "functions": [
             {
               "function": "minecraft:set_count",

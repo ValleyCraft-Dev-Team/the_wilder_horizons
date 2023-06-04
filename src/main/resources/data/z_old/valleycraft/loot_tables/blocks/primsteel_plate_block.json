@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:primsteel_plate_block"
+          "name": "wilder_horizons:primsteel_plate_block"
         }
       ],
       "conditions": [

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "addition": {
+    "tag": "c:diamonds"
+  },
+  "result": {
+    "item": "wilder_horizons:scythe_diamond"
+  }
+}

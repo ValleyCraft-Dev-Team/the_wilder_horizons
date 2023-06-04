@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_miners_lettuce",
+              "name": "wilder_horizons:wild_miners_lettuce",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:miners_lettuce",
+              "name": "wilder_horizons:miners_lettuce",
               "functions": [
                 {
                   "function": "minecraft:set_count",

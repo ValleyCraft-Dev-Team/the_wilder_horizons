@@ -6,12 +6,12 @@
     "minecraft:melon_seeds",
     "minecraft:beetroot_seeds",
 
-    "valleycraft:puff_ball_seeds",
-    "valleycraft:onion_seeds",
-    "valleycraft:fire_pepper_seeds",
-    "valleycraft:cave_root_seeds",
-    "valleycraft:ancient_flower_seeds",
-    "valleycraft:amethystle_seeds",
-    "valleycraft:rice_seeds"
+    "wilder_horizons:puff_ball_seeds",
+    "wilder_horizons:onion_seeds",
+    "wilder_horizons:fire_pepper_seeds",
+    "wilder_horizons:cave_root_seeds",
+    "wilder_horizons:ancient_flower_seeds",
+    "wilder_horizons:amethystle_seeds",
+    "wilder_horizons:rice_seeds"
   ]
 }

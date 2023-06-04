@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:brine",
+    "count": 1
+  }
+}

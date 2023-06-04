@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:fiber",
+              "name": "wilder_horizons:fiber",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:fiber",
+              "name": "wilder_horizons:fiber",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -83,7 +83,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:fiber",
+              "name": "wilder_horizons:fiber",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",

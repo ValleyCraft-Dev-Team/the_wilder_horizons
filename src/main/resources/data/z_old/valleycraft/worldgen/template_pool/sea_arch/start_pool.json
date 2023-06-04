@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:sea_arch/start_pool",
+ "name": "wilder_horizons:sea_arch/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:ocean/sea_arches/arch_cold_ocean",
+        "location": "wilder_horizons:ocean/sea_arches/arch_cold_ocean",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:ocean/sea_arches/arch_warm_ocean",
+        "location": "wilder_horizons:ocean/sea_arches/arch_warm_ocean",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

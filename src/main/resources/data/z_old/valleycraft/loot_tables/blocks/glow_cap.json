@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:glow_cap"
+          "name": "wilder_horizons:glow_cap"
         }
       ],
       "conditions": [

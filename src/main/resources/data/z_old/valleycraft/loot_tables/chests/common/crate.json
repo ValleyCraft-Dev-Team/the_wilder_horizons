@@ -8,7 +8,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:plank",
+          "name": "wilder_horizons:plank",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -38,7 +38,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:fire_pepper",
+          "name": "wilder_horizons:fire_pepper",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -53,7 +53,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:onion",
+          "name": "wilder_horizons:onion",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -68,7 +68,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:cave_root",
+          "name": "wilder_horizons:cave_root",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -83,7 +83,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:staminella_berry",
+          "name": "wilder_horizons:staminella_berry",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -128,7 +128,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:iron_scrap",
+          "name": "wilder_horizons:iron_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -143,7 +143,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:primsteel_scrap",
+          "name": "wilder_horizons:primsteel_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -158,7 +158,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:gold_scrap",
+          "name": "wilder_horizons:gold_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -173,7 +173,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:copper_scrap",
+          "name": "wilder_horizons:copper_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -231,7 +231,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:flour",
+          "name": "wilder_horizons:flour",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -279,7 +279,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:oak_seed",
+          "name": "wilder_horizons:oak_seed",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -294,7 +294,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:birch_seed",
+          "name": "wilder_horizons:birch_seed",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -309,7 +309,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:spruce_seed",
+          "name": "wilder_horizons:spruce_seed",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -324,7 +324,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:apple_seed",
+          "name": "wilder_horizons:apple_seed",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -339,7 +339,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:warm_birch_seed",
+          "name": "wilder_horizons:warm_birch_seed",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -354,7 +354,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:onion_seeds",
+          "name": "wilder_horizons:onion_seeds",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -369,7 +369,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:fire_pepper_seeds",
+          "name": "wilder_horizons:fire_pepper_seeds",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -384,7 +384,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:cave_root_seeds",
+          "name": "wilder_horizons:cave_root_seeds",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -437,7 +437,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:totem_of_trade",
+          "name": "wilder_horizons:totem_of_trade",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -448,7 +448,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:cloth",
+          "name": "wilder_horizons:cloth",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -464,7 +464,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:salt",
+          "name": "wilder_horizons:salt",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -480,7 +480,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:rope",
+          "name": "wilder_horizons:rope",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "valleycraft:anchor/start_pool",
+  "start_pool": "wilder_horizons:anchor/start_pool",
   "size": 2,
   "max_distance_from_center": 80,
-  "biomes": "#valleycraft:has_structure/overworld_oceans",
+  "biomes": "#wilder_horizons:has_structure/overworld_oceans",
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "start_height": {

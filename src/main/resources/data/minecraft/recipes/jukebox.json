@@ -13,10 +13,10 @@
       "item": "minecraft:iron_ingot"
     },
     "V": {
-      "item": "valleycraft:plant_fiber_canvas"
+      "item": "wilder_horizons:plant_fiber_canvas"
     },
     "D": {
-      "item": "valleycraft:diamond_fragments"
+      "item": "wilder_horizons:diamond_fragments"
     }
   },
   "result": {

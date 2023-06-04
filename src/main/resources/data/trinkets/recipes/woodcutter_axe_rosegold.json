@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:rosegold_axe"
+  },
+  "addition": {
+    "tag": "c:rose_gold_ingots"
+  },
+  "result": {
+    "item": "wilder_horizons:woodcutter_axe_rosegold"
+  }
+}

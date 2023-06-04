@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "valleycraft:plank"
+      "item": "wilder_horizons:plank"
     },
     "V": {
       "tag": "c:string_spools"
     },
     "B": {
-      "item": "valleycraft:empty_bookshelf"
+      "item": "wilder_horizons:empty_bookshelf"
     }
   },
   "result": {

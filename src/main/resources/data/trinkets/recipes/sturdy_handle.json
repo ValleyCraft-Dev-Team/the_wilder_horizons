@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#V"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:handle"
+    },
+    "V": {
+      "item": "wilder_horizons:leather_strap"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:sturdy_handle",
+    "count": 1
+  }
+}

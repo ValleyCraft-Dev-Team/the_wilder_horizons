@@ -1,14 +1,14 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:cooked_tropical_fish",
-    "valleycraft:cooked_squid",
-    "valleycraft:cooked_abysswatcher",
-    "valleycraft:cooked_stoneroller_minnow",
-    "valleycraft:cooked_red_porgy",
-    "valleycraft:cooked_perch",
+    "wilder_horizons:cooked_tropical_fish",
+    "wilder_horizons:cooked_squid",
+    "wilder_horizons:cooked_abysswatcher",
+    "wilder_horizons:cooked_stoneroller_minnow",
+    "wilder_horizons:cooked_red_porgy",
+    "wilder_horizons:cooked_perch",
     "minecraft:cooked_salmon",
     "minecraft:cooked_cod",
-    "valleycraft:cooked_sardine"
+    "wilder_horizons:cooked_sardine"
   ]
 }

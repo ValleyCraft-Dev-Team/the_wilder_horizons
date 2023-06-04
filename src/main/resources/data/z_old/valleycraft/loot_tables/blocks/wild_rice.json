@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_rice",
+              "name": "wilder_horizons:wild_rice",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:raw_rice",
+              "name": "wilder_horizons:raw_rice",
               "functions": [
                 {
                   "function": "minecraft:set_count",

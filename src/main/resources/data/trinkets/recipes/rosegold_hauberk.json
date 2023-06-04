@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:rosegold_ingot"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:rosegold_hauberk",
+    "count": 1
+  }
+}

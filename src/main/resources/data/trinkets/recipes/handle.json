@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#V#"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:plant_fiber_string"
+    },
+    "V": {
+      "tag": "c:plank_items"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:handle",
+    "count": 1
+  }
+}

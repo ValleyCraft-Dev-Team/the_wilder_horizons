@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "C": {
+      "item": "wilder_horizons:maize"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:golden_ancient_maize",
+    "count": 1
+  }
+}

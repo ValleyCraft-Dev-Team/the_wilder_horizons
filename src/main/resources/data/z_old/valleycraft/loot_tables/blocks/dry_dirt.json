@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:dry_dirt"
+          "name": "wilder_horizons:dry_dirt"
         }
       ],
       "conditions": [

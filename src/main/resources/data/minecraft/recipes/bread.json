@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "valleycraft:flour"
+      "item": "wilder_horizons:flour"
     },
     {
-      "item": "valleycraft:salt"
+      "item": "wilder_horizons:salt"
     },
     {
       "tag": "c:water_holding_items"
     }
   ],
   "result": {
-    "item": "valleycraft:bread_dough",
+    "item": "wilder_horizons:bread_dough",
     "count": 1
   }
 }

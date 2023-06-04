@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "wilder_horizons:guidestone_blank"
+  },
+  "result": "wilder_horizons:guidestone_tool_bow",
+  "count": 1
+}

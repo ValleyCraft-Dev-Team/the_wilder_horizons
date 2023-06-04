@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_puff_ball",
+              "name": "wilder_horizons:wild_puff_ball",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:puff_ball",
+              "name": "wilder_horizons:puff_ball",
               "functions": [
                 {
                   "function": "minecraft:set_count",

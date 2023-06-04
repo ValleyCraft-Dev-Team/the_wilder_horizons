@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:slime_blob"
+    },
+    {
+      "item": "minecraft:glow_lichen"
+    },
+    {
+      "item": "wilder_horizons:algae"
+    }
+  ],
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 1
+  }
+}

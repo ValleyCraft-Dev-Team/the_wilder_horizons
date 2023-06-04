@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_amethystle",
+              "name": "wilder_horizons:wild_amethystle",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:amethystle",
+              "name": "wilder_horizons:amethystle",
               "functions": [
                 {
                   "function": "minecraft:set_count",

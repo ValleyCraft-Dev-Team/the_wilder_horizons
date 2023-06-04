@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_beet",
+              "name": "wilder_horizons:wild_beet",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

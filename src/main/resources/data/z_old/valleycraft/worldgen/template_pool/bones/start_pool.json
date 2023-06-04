@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:bones/start_pool",
+ "name": "wilder_horizons:bones/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "valleycraft:ocean/bones/underwater_ribs",
+        "location": "wilder_horizons:ocean/bones/underwater_ribs",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "valleycraft:ocean/bones/underwater_ribs_mossy",
+        "location": "wilder_horizons:ocean/bones/underwater_ribs_mossy",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

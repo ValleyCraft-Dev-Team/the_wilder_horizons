@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:amethystle"
+    },
+    {
+      "item": "wilder_horizons:miners_lettuce"
+    },
+    {
+      "item": "wilder_horizons:morel_oil"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:amethystle_salad",
+    "count": 1
+  }
+}

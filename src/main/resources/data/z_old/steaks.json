@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:cooked_canid",
+    "wilder_horizons:cooked_canid",
     "minecraft:cooked_beef"
   ]
 }

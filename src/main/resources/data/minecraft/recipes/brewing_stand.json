@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "valleycraft:agitator"
+      "item": "wilder_horizons:agitator"
     },
     "V": {
-      "item": "valleycraft:thermal_blaze_core"
+      "item": "wilder_horizons:thermal_blaze_core"
     },
     "U": {
-      "item": "valleycraft:hot_plate"
+      "item": "wilder_horizons:hot_plate"
     }
   },
   "result": {

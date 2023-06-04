@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:morel_oil",
+    "wilder_horizons:morel_oil",
     "#c:butter"
   ]
 }

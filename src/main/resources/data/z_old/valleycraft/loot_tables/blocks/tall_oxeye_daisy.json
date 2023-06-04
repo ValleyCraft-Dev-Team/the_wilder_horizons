@@ -7,11 +7,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:tall_oxeye_daisy",
+          "name": "wilder_horizons:tall_oxeye_daisy",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "valleycraft:tall_oxeye_daisy",
+              "block": "wilder_horizons:tall_oxeye_daisy",
               "properties": {
                 "half": "lower"
               }

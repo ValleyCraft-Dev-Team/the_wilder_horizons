@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:fire_pepper",
-    "valleycraft:glow_cap"
+    "wilder_horizons:fire_pepper",
+    "wilder_horizons:glow_cap"
   ]
 }

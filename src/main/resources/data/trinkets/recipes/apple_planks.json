@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:apple_log"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:apple_planks",
+    "count": 4
+  }
+}

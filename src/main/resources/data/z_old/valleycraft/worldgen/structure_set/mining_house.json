@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "valleycraft:mining_house",
+      "structure": "wilder_horizons:mining_house",
       "weight": 1
     }
   ],

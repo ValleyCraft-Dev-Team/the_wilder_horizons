@@ -1,14 +1,14 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:maize",
-    "valleycraft:onion",
-    "valleycraft:cave_root",
-    "valleycraft:pumpkin_slice",
-    "valleycraft:ancient_flower",
-    "valleycraft:endura_carrot",
-    "valleycraft:hearty_beetroot",
-    "valleycraft:fire_pepper",
+    "wilder_horizons:maize",
+    "wilder_horizons:onion",
+    "wilder_horizons:cave_root",
+    "wilder_horizons:pumpkin_slice",
+    "wilder_horizons:ancient_flower",
+    "wilder_horizons:endura_carrot",
+    "wilder_horizons:hearty_beetroot",
+    "wilder_horizons:fire_pepper",
     "minecraft:carrot",
     "minecraft:beetroot"
   ]

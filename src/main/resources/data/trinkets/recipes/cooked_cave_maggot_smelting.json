@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:raw_cave_maggot"
+    }
+  ],
+  "result": "wilder_horizons:cooked_cave_maggot"
+}

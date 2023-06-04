@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:nether_coal_ore",
+              "name": "wilder_horizons:nether_coal_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:anthracite",
+              "name": "wilder_horizons:anthracite",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",

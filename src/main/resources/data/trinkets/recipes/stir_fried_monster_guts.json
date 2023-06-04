@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:monster_guts"
+    },
+    {
+      "tag": "c:monster_eyes"
+    },
+    {
+      "item": "wilder_horizons:cured_flesh"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:stir_fried_monster_guts",
+    "count": 1
+  }
+}

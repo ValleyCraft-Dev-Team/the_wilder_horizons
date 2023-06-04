@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:pillager_fortress/start_pool",
+ "name": "wilder_horizons:pillager_fortress/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "valleycraft:pillager_outpost/fortress",
+        "location": "wilder_horizons:pillager_outpost/fortress",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

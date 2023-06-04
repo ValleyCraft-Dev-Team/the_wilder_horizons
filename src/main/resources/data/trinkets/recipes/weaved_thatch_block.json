@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "wilder_horizons:thatch_block"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "wilder_horizons:weaved_thatch_block",
+    "count": 4
+  }
+}

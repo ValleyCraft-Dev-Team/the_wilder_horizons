@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_onion",
+              "name": "wilder_horizons:wild_onion",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:onion",
+              "name": "wilder_horizons:onion",
               "functions": [
                 {
                   "function": "minecraft:set_count",

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:shiverstone"
+          "name": "wilder_horizons:shiverstone"
         }
       ],
       "conditions": [

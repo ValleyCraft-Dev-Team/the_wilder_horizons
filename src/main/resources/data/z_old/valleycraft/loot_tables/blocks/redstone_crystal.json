@@ -10,13 +10,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:redstone_crystal",
+              "name": "wilder_horizons:redstone_crystal",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
-                      "valleycraft:anthropologists_rock_pick"
+                      "wilder_horizons:anthropologists_rock_pick"
                     ]
                   }
                 }
@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:redstone_crystal",
+              "name": "wilder_horizons:redstone_crystal",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

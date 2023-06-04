@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:block_daub"
+          "name": "wilder_horizons:block_daub"
         }
       ],
       "conditions": [

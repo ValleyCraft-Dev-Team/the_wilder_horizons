@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:ancient_flower"
+    },
+    {
+      "tag": "c:fruits"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:fruit_and_veggie_mix",
+    "count": 1
+  }
+}

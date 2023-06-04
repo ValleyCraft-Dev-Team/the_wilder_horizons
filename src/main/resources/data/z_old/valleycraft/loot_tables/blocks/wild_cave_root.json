@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_cave_root",
+              "name": "wilder_horizons:wild_cave_root",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:cave_root",
+              "name": "wilder_horizons:cave_root",
               "functions": [
                 {
                   "function": "minecraft:set_count",

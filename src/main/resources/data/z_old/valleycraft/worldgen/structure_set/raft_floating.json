@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "valleycraft:raft_floating",
+      "structure": "wilder_horizons:raft_floating",
       "weight": 1
     }
   ],

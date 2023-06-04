@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:erdcobblestone"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:erdcobblestone_rock_item",
+    "count": 4
+  }
+}

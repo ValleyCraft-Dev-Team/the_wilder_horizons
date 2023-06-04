@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:glowsquid_lantern"
+          "name": "wilder_horizons:glowsquid_lantern"
         }
       ],
       "conditions": [

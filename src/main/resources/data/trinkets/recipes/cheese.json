@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "MMM",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:salt"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:cheese",
+    "count": 1
+  }
+}

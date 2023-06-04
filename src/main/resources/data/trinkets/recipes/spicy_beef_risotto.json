@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:amethystle"
+    },
+    {
+      "item": "wilder_horizons:cooked_rice"
+    },
+    {
+      "tag": "c:steaks"
+    },
+    {
+      "item": "wilder_horizons:baked_fire_pepper"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "tag": "c:olive_oils"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:spicy_beef_risotto",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:cobbled_shale"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:shale_rock_item",
+    "count": 4
+  }
+}

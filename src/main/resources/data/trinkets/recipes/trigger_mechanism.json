@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "i "
+  ],
+  "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:trigger_mechanism",
+    "count": 1
+  }
+}

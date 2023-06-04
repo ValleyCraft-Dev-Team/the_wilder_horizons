@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:netherack_rock_item",
+    "count": 4
+  }
+}

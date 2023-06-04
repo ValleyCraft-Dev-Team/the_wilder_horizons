@@ -5,10 +5,10 @@
     "minecraft:cooked_chicken",
     "minecraft:cooked_rabbit",
     "minecraft:cooked_mutton",
-    "valleycraft:cooked_silverfish",
-    "valleycraft:cooked_tripe",
-    "valleycraft:cooked_beast_heart",
-    "valleycraft:cooked_beast_liver",
-    "valleycraft:cured_flesh"
+    "wilder_horizons:cooked_silverfish",
+    "wilder_horizons:cooked_tripe",
+    "wilder_horizons:cooked_beast_heart",
+    "wilder_horizons:cooked_beast_liver",
+    "wilder_horizons:cured_flesh"
   ]
 }

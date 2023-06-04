@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_carrot",
+              "name": "wilder_horizons:wild_carrot",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

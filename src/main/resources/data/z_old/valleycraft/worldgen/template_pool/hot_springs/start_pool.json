@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:hot_springs/start_pool",
+ "name": "wilder_horizons:hot_springs/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "valleycraft:environment/hotsprings/small",
+        "location": "wilder_horizons:environment/hotsprings/small",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "valleycraft:environment/hotsprings/medium",
+        "location": "wilder_horizons:environment/hotsprings/medium",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

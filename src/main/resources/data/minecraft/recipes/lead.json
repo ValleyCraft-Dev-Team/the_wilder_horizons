@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "valleycraft:rope"
+      "item": "wilder_horizons:rope"
     },
     {
-      "item": "valleycraft:rope"
+      "item": "wilder_horizons:rope"
     },
     {
-      "item": "valleycraft:rope"
+      "item": "wilder_horizons:rope"
     }
   ],
   "result": {

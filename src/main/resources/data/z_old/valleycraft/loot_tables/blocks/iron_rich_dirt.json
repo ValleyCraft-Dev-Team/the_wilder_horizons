@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:iron_rich_dirt",
+              "name": "wilder_horizons:iron_rich_dirt",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:primsteel_nugget",
+              "name": "wilder_horizons:primsteel_nugget",
               "functions": [
                 {
                   "function": "minecraft:set_count",

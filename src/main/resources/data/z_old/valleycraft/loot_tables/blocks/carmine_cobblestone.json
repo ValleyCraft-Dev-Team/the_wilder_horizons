@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:carmine_cobblestone"
+          "name": "wilder_horizons:carmine_cobblestone"
         }
       ],
       "conditions": [

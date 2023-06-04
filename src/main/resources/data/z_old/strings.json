@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:string",
-    "valleycraft:plant_fiber_string",
-    "valleycraft:bow_string"
+    "wilder_horizons:plant_fiber_string",
+    "wilder_horizons:bow_string"
   ]
 }

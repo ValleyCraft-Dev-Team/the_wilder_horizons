@@ -8,17 +8,17 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:raw_beast_heart"
+          "name": "wilder_horizons:raw_beast_heart"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:raw_beast_liver"
+          "name": "wilder_horizons:raw_beast_liver"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:beast_bone",
+          "name": "wilder_horizons:beast_bone",
           "functions": [
             {
               "function": "minecraft:set_count",

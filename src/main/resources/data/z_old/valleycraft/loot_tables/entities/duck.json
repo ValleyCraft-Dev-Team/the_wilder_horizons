@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:ducks_feather",
+          "name": "wilder_horizons:ducks_feather",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -36,7 +36,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_bird_thigh",
+          "name": "wilder_horizons:raw_bird_thigh",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -78,7 +78,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_beast_liver",
+          "name": "wilder_horizons:raw_beast_liver",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",

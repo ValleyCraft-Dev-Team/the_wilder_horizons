@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:leather_necklace"
+  },
+  "addition": {
+    "item": "wilder_horizons:ender_dragon_eye"
+  },
+  "result": {
+    "item": "wilder_horizons:ender_dragon_talisman"
+  }
+}

@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:plant_fiber_canvas",
+          "name": "wilder_horizons:plant_fiber_canvas",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -148,7 +148,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:amethyst_talisman",
+          "name": "wilder_horizons:amethyst_talisman",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -182,7 +182,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:skull_shard",
+          "name": "wilder_horizons:skull_shard",
           "functions": [
             {
               "function": "minecraft:set_count",

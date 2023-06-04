@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:sheep_hide"
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather",
+    "count": 1
+  }
+}

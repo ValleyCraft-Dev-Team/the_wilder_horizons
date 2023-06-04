@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "orange_dye",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:dried_glow_kelp"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  }
+}

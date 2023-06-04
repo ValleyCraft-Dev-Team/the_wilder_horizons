@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "V#"
+  ],
+  "key": {
+    "V": {
+      "item": "wilder_horizons:rope"
+    },
+    "#": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:bone_shovel",
+    "count": 1
+  }
+}
+

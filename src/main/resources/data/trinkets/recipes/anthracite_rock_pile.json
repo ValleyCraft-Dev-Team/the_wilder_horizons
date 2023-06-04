@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:anthracite"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:anthracite_ore_rocks",
+    "count": 1
+  }
+}

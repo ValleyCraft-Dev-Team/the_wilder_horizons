@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:giant_tower_fallen/start_pool",
+ "name": "wilder_horizons:giant_tower_fallen/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:giant_towers/tower_fallen",
+        "location": "wilder_horizons:giant_towers/tower_fallen",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

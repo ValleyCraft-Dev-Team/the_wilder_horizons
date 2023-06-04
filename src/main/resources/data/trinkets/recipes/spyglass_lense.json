@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A#",
+    "AGA",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:spyglass_lense",
+    "count": 1
+  }
+}

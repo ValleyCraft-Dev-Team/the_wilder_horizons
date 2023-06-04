@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:apple_pressure_plate",
-    "valleycraft:mamon_pressure_plate"
+    "wilder_horizons:apple_pressure_plate",
+    "wilder_horizons:mamon_pressure_plate"
   ]
 }

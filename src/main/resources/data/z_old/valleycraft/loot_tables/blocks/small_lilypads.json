@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:small_lilypads"
+          "name": "wilder_horizons:small_lilypads"
         }
       ],
       "conditions": [

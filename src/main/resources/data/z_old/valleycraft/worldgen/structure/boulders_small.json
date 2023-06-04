@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "valleycraft:boulders_small/start_pool",
+  "start_pool": "wilder_horizons:boulders_small/start_pool",
   "size": 2,
   "max_distance_from_center": 80,
-  "biomes": "#valleycraft:has_structure/overworld_no_desert_or_badlands",
+  "biomes": "#wilder_horizons:has_structure/overworld_no_desert_or_badlands",
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "start_height": {

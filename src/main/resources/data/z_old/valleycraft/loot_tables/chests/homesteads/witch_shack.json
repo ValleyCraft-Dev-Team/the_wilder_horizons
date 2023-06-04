@@ -255,7 +255,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:monster_claw",
+          "name": "wilder_horizons:monster_claw",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -269,7 +269,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:slime_blob",
+          "name": "wilder_horizons:slime_blob",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -297,7 +297,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:totem_of_trade",
+          "name": "wilder_horizons:totem_of_trade",
           "functions": [
             {
               "function": "minecraft:set_count",

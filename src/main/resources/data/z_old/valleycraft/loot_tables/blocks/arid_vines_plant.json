@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:arid_vines"
+          "name": "wilder_horizons:arid_vines"
         }
       ],
       "conditions": [

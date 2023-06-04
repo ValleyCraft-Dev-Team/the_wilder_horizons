@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:tall_cornflower",
-    "valleycraft:tall_oxeye_daisy",
-    "valleycraft:tall_allium",
-    "valleycraft:tall_lavender",
-    "valleycraft:tall_azure_bluet"
+    "wilder_horizons:tall_cornflower",
+    "wilder_horizons:tall_oxeye_daisy",
+    "wilder_horizons:tall_allium",
+    "wilder_horizons:tall_lavender",
+    "wilder_horizons:tall_azure_bluet"
   ]
 }

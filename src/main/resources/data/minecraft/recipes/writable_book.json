@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "valleycraft:ink_bottle"
+      "item": "wilder_horizons:ink_bottle"
     },
     {
       "item": "minecraft:book"
     },
     {
-      "item": "valleycraft:quill"
+      "item": "wilder_horizons:quill"
     }
   ],
   "result": {

@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:brick_stove",
-    "valleycraft:spike_trap",
-    "valleycraft:mimic_flower",
-    "valleycraft:brazier",
-    "valleycraft:soul_brazier",
-    "valleycraft:iron_brazier",
-    "valleycraft:campfire_pot",
-    "valleycraft:soul_campfire_pot"
+    "wilder_horizons:brick_stove",
+    "wilder_horizons:spike_trap",
+    "wilder_horizons:mimic_flower",
+    "wilder_horizons:brazier",
+    "wilder_horizons:soul_brazier",
+    "wilder_horizons:iron_brazier",
+    "wilder_horizons:campfire_pot",
+    "wilder_horizons:soul_campfire_pot"
   ]
 }

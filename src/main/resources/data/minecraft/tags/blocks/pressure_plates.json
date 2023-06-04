@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:deepslate_pressure_plate",
-    "valleycraft:shale_pressure_plate"
+    "wilder_horizons:deepslate_pressure_plate",
+    "wilder_horizons:shale_pressure_plate"
   ]
 }

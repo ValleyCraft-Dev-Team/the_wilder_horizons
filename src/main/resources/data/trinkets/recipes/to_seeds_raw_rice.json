@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:raw_rice"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:rice_seeds",
+    "count": 1
+  }
+}

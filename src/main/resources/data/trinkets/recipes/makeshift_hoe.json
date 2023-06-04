@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QQ",
+    "VQ"
+  ],
+  "key": {
+    "V": {
+      "item": "wilder_horizons:fiber"
+    },
+    "Q": {
+      "tag": "c:plank_items"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:makeshift_hoe",
+    "count": 1
+  }
+}
+

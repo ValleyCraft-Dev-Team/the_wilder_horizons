@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:zod",
+          "name": "wilder_horizons:zod",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#V#"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:clam_block"
+    },
+    "V": {
+      "item": "wilder_horizons:string_spool"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:clam_breastplate",
+    "count": 1
+  }
+}

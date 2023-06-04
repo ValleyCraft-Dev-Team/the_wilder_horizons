@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "VVV"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:rope"
+    },
+    "V": {
+      "item": "wilder_horizons:plank"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:rope_bridge",
+    "count": 4
+  }
+}

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:salt_ore",
-    "valleycraft:nether_salt_ore",
-    "valleycraft:salt_ore"
+    "wilder_horizons:salt_ore",
+    "wilder_horizons:nether_salt_ore",
+    "wilder_horizons:salt_ore"
   ]
 }

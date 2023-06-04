@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:polished_erdstone"
+          "name": "wilder_horizons:polished_erdstone"
         }
       ],
       "conditions": [

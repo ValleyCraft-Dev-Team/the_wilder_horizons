@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C#B"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:handle"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "C": {
+      "item": "wilder_horizons:cloth"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:reinforced_handle",
+    "count": 1
+  }
+}

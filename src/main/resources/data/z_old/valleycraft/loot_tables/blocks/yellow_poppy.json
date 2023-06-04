@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:white_poppy"
+          "name": "wilder_horizons:white_poppy"
         }
       ],
       "conditions": [

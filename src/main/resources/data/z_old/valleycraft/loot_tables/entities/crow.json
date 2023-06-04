@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:crows_feather",
+          "name": "wilder_horizons:crows_feather",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -36,7 +36,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_bird_thigh",
+          "name": "wilder_horizons:raw_bird_thigh",
           "functions": [
             {
               "function": "minecraft:set_count",

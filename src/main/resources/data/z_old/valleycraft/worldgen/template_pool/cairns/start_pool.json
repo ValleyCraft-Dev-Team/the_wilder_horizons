@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:cairns/start_pool",
+ "name": "wilder_horizons:cairns/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/cairns/short_cairn",
+        "location": "wilder_horizons:environment/cairns/short_cairn",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/cairns/tall_cairn",
+        "location": "wilder_horizons:environment/cairns/tall_cairn",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

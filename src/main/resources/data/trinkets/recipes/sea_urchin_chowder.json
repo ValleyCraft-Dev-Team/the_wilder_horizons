@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:cooked_clam"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "wilder_horizons:onion"
+    },
+    {
+      "tag": "c:milk_bottles"
+    },
+    {
+      "item": "wilder_horizons:cooked_sea_urchin"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:sea_urchin_chowder",
+    "count": 1
+  }
+}

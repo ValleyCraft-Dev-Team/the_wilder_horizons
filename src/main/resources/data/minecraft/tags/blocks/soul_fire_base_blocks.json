@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:nether_coal_ore",
-    "valleycraft:anthracite_block",
-    "valleycraft:rotten_flesh_block"
+    "wilder_horizons:nether_coal_ore",
+    "wilder_horizons:anthracite_block",
+    "wilder_horizons:rotten_flesh_block"
   ]
 }

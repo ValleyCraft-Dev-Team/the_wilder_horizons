@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "BVB",
+    "ZEZ"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:chocolate"
+    },
+    "B": {
+      "item": "wilder_horizons:butter"
+    },
+    "V": {
+      "tag": "c:milk_bottles"
+    },
+    "Z": {
+      "tag": "c:flour"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:chocolate_cake_dough",
+    "count": 1
+  }
+}

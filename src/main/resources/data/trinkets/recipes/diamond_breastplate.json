@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "wilder_horizons:leather_strap"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:diamond_breastplate",
+    "count": 1
+  }
+}

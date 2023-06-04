@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:egg_bucket"
+    }
+  ],
+  "result": "wilder_horizons:hard_boiled_egg"
+}

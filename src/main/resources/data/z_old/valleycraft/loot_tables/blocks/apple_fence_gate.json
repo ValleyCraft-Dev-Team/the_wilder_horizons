@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:apple_fence_gate"
+          "name": "wilder_horizons:apple_fence_gate"
         }
       ],
       "conditions": [

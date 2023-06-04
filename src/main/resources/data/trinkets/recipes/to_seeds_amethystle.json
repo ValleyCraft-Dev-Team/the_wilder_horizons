@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:amethystle"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:amethystle_seeds",
+    "count": 1
+  }
+}

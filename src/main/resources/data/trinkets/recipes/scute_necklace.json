@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:leather_necklace"
+  },
+  "addition": {
+    "item": "minecraft:scute"
+  },
+  "result": {
+    "item": "wilder_horizons:scute_necklace"
+  }
+}

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:fiber_bale"
+          "name": "wilder_horizons:fiber_bale"
         }
       ],
       "conditions": [

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "wilder_horizons:leather_strap"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:iron_thigh_guards",
+    "count": 1
+  }
+}

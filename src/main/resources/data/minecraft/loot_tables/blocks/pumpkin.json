@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:pumpkin_slice",
+              "name": "wilder_horizons:pumpkin_slice",
               "functions": [
                 {
                   "function": "minecraft:set_count",

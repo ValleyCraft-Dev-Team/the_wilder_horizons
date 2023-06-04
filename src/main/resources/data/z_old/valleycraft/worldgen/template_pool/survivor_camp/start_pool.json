@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:survivor_camp/start_pool",
+ "name": "wilder_horizons:survivor_camp/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:survivor_camps/oak_camp_alive",
+        "location": "wilder_horizons:survivor_camps/oak_camp_alive",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:survivor_camps/oak_camp_dead",
+        "location": "wilder_horizons:survivor_camps/oak_camp_dead",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:apple_sapling",
-    "valleycraft:mamon_sapling",
-    "valleycraft:warm_birch_sapling"
+    "wilder_horizons:apple_sapling",
+    "wilder_horizons:mamon_sapling",
+    "wilder_horizons:warm_birch_sapling"
   ]
 }

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:jungle_cap"
+          "name": "wilder_horizons:jungle_cap"
         }
       ],
       "conditions": [

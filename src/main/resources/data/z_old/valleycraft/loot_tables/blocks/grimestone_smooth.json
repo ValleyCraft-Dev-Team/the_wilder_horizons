@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:grimestone_smooth"
+          "name": "wilder_horizons:grimestone_smooth"
         }
       ],
       "conditions": [

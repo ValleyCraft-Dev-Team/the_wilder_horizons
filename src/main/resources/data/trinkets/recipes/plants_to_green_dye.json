@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:small_cactus"
+    },
+    {
+      "item": "wilder_horizons:flowering_cactus"
+    },
+    {
+      "item": "wilder_horizons:knapweed"
+    },
+    {
+      "item": "wilder_horizons:rushes"
+    }
+  ],
+  "result": "minecraft:green_dye"
+}

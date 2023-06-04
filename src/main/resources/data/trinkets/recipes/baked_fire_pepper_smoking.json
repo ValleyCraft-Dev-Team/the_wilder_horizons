@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:fire_pepper"
+    }
+  ],
+  "result": "wilder_horizons:baked_fire_pepper"
+}

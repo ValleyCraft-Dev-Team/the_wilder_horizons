@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:stalwart_shroom"
+    },
+    {
+      "item": "wilder_horizons:baked_pumpkin_slice"
+    },
+    {
+      "item": "wilder_horizons:baked_onion"
+    },
+    {
+      "item": "wilder_horizons:butter"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:stuffed_onion",
+    "count": 1
+  }
+}

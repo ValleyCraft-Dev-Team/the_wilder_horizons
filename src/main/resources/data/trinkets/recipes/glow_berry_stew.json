@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:glow_berry_juice"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "wilder_horizons:cooked_cave_root"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "tag": "c:broths"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:glow_berry_stew",
+    "count": 1
+  }
+}

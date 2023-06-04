@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:chorus_fruit_juice",
+    "count": 1
+  }
+}

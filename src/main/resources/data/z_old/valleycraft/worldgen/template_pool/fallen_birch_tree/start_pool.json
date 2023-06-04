@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:fallen_birch_tree/start_pool",
+ "name": "wilder_horizons:fallen_birch_tree/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/logs/fallen_logs/birch_hollow",
+        "location": "wilder_horizons:environment/logs/fallen_logs/birch_hollow",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/logs/fallen_logs/birch_small",
+        "location": "wilder_horizons:environment/logs/fallen_logs/birch_small",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/logs/fallen_logs/birch_stump_small",
+        "location": "wilder_horizons:environment/logs/fallen_logs/birch_stump_small",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:environment/logs/fallen_logs/birch_with_stump",
+        "location": "wilder_horizons:environment/logs/fallen_logs/birch_with_stump",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

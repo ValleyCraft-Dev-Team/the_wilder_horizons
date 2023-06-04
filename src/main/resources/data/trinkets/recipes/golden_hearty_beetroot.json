@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "C": {
+      "item": "wilder_horizons:hearty_beetroot"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:golden_hearty_beetroot",
+    "count": 1
+  }
+}

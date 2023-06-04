@@ -3,8 +3,8 @@
   "values": [
     "#c:dragon_bones",
     "#c:skull_shards",
-    "valleycraft:beast_bone",
-    "valleycraft:bonefin",
+    "wilder_horizons:beast_bone",
+    "wilder_horizons:bonefin",
     "minecraft:bone"
   ]
 }

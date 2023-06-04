@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:shivercap"
+          "name": "wilder_horizons:shivercap"
         }
       ],
       "conditions": [

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cVc",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "V": {
+      "item": "wilder_horizons:sludge_bucket"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:wastebin",
+    "count": 1
+  }
+}

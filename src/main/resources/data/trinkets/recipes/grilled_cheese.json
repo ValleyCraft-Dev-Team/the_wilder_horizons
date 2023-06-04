@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:toast"
+    },
+    {
+      "item": "wilder_horizons:cheese_slice"
+    },
+    {
+      "item": "wilder_horizons:toast"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:grilled_cheese",
+    "count": 1
+  }
+}

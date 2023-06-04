@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:milk_bottles"
+    },
+    {
+      "item": "wilder_horizons:butter"
+    },
+    {
+      "item": "wilder_horizons:butter"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:vanilla_frosting",
+    "count": 1
+  }
+}

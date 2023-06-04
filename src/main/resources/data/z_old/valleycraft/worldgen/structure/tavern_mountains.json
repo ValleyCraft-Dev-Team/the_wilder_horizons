@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "valleycraft:tavern_mountains/start_pool",
+  "start_pool": "wilder_horizons:tavern_mountains/start_pool",
   "size": 2,
   "max_distance_from_center": 80,
-  "biomes": "#valleycraft:has_structure/tavern_mountains",
+  "biomes": "#wilder_horizons:has_structure/tavern_mountains",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "start_height": {

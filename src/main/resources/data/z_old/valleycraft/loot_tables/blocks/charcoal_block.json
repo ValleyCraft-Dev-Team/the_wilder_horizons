@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:charcoal_block"
+          "name": "wilder_horizons:charcoal_block"
         }
       ],
       "conditions": [

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#V#",
+    "VVV",
+    "#V#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
+    "V": {
+      "item": "wilder_horizons:net"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:water_strainer",
+    "count": 1
+  }
+}

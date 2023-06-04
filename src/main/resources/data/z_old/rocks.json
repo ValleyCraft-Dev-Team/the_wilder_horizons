@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:rock_item",
-    "valleycraft:shale_rock_item",
-    "valleycraft:deepslate_rock_item",
-    "valleycraft:dripstone_rock_item",
-    "valleycraft:erdcobblestone_rock_item"
+    "wilder_horizons:rock_item",
+    "wilder_horizons:shale_rock_item",
+    "wilder_horizons:deepslate_rock_item",
+    "wilder_horizons:dripstone_rock_item",
+    "wilder_horizons:erdcobblestone_rock_item"
   ]
 }

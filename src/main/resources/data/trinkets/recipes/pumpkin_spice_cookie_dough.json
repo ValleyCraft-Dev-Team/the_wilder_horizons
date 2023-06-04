@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:pumpkin_slice"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:purified_water"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:pumpkin_spice_cookie_dough",
+    "count": 1
+  }
+}

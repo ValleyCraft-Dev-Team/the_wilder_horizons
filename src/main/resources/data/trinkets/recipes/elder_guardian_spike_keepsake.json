@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:leather_necklace"
+  },
+  "addition": {
+    "item": "wilder_horizons:elder_guardian_spike"
+  },
+  "result": {
+    "item": "wilder_horizons:elder_guardian_spike_keepsake"
+  }
+}

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:pink_lupine"
+          "name": "wilder_horizons:pink_lupine"
         }
       ],
       "conditions": [

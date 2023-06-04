@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:terrarium_glass",
-    "valleycraft:brimstone_glass",
-    "valleycraft:block_wattle_and_glass_cross",
-    "valleycraft:block_wattle_and_glass_plus",
-    "valleycraft:beveled_glass",
-    "valleycraft:beveled_brimstone_glass",
-    "valleycraft:beveled_tinted_glass"
+    "wilder_horizons:terrarium_glass",
+    "wilder_horizons:brimstone_glass",
+    "wilder_horizons:block_wattle_and_glass_cross",
+    "wilder_horizons:block_wattle_and_glass_plus",
+    "wilder_horizons:beveled_glass",
+    "wilder_horizons:beveled_brimstone_glass",
+    "wilder_horizons:beveled_tinted_glass"
   ]
 }

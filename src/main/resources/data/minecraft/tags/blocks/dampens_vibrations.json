@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:canvas_block",
-    "valleycraft:canvas_carpet",
-    "valleycraft:crafting_mat"
+    "wilder_horizons:canvas_block",
+    "wilder_horizons:canvas_carpet",
+    "wilder_horizons:crafting_mat"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:plant_fiber_canvas",
+    "wilder_horizons:plant_fiber_canvas",
     "#c:treated_leather",
     "#c:leather"
   ]

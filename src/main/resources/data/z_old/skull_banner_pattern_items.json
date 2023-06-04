@@ -3,9 +3,9 @@
   "values": [
     "minecraft:skeleton_skull",
     "minecraft:wither_skeleton_skull",
-    "valleycraft:piglin_skull",
-    "valleycraft:daerdri_skull",
-    "valleycraft:villager_skull",
-    "valleycraft:enderman_skull"
+    "wilder_horizons:piglin_skull",
+    "wilder_horizons:daerdri_skull",
+    "wilder_horizons:villager_skull",
+    "wilder_horizons:enderman_skull"
   ]
 }

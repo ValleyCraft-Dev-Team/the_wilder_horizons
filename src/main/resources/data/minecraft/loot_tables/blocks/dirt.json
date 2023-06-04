@@ -34,7 +34,7 @@
                 {
                   "type": "minecraft:item",
                   "weight": 1,
-                  "name": "valleycraft:raw_worm",
+                  "name": "wilder_horizons:raw_worm",
                   "conditions": [
                     {
                       "condition": "minecraft:table_bonus",
@@ -51,7 +51,7 @@
                 {
                   "type": "minecraft:item",
                   "weight": 1,
-                  "name": "valleycraft:rocks",
+                  "name": "wilder_horizons:rocks",
                   "conditions": [
                     {
                       "condition": "minecraft:table_bonus",

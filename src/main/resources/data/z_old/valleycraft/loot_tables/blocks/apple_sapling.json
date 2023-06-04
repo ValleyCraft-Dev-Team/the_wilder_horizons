@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:apple_sapling"
+          "name": "wilder_horizons:apple_sapling"
         }
       ],
       "conditions": [

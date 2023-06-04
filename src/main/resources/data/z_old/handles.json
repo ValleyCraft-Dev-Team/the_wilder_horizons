@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:handle",
-    "valleycraft:sturdy_handle",
-    "valleycraft:reinforced_handle"
+    "wilder_horizons:handle",
+    "wilder_horizons:sturdy_handle",
+    "wilder_horizons:reinforced_handle"
   ]
 }

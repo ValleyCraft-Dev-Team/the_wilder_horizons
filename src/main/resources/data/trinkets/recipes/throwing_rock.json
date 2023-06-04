@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:rocks"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:throwing_rock",
+    "count": 1
+  }
+}

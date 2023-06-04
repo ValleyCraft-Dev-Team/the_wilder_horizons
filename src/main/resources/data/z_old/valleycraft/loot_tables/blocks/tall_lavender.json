@@ -7,11 +7,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:tall_lavender",
+          "name": "wilder_horizons:tall_lavender",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "valleycraft:tall_lavender",
+              "block": "wilder_horizons:tall_lavender",
               "properties": {
                 "half": "lower"
               }

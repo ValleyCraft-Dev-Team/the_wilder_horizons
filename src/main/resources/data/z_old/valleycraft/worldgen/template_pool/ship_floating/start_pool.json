@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:ship_floating/start_pool",
+ "name": "wilder_horizons:ship_floating/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "valleycraft:ocean/floating/ship_with_sails",
+        "location": "wilder_horizons:ocean/floating/ship_with_sails",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

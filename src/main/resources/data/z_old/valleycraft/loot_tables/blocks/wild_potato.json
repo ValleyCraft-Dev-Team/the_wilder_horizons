@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_potato",
+              "name": "wilder_horizons:wild_potato",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

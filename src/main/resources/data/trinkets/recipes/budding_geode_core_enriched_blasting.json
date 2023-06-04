@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wilder_horizons:budding_geode_core"
+  },
+  "result": "wilder_horizons:budding_geode_core_enriched",
+  "experience": 20,
+  "cookingtime": 20000
+}

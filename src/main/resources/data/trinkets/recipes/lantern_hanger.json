@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/",
+    " I"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:rock_item"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:lantern_hanger",
+    "count": 1
+  }
+}

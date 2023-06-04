@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:glow_berry_juice"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:milk_bottles"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:glow_berry_egg_pudding",
+    "count": 1
+  }
+}

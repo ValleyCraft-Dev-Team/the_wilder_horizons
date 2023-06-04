@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:stoneroller_minnow",
-    "valleycraft:abysswatcher",
-    "valleycraft:sardine",
-    "valleycraft:red_porgy",
-    "valleycraft:perch"
+    "wilder_horizons:stoneroller_minnow",
+    "wilder_horizons:abysswatcher",
+    "wilder_horizons:sardine",
+    "wilder_horizons:red_porgy",
+    "wilder_horizons:perch"
   ]
 }

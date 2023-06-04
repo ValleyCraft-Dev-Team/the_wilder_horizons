@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "wilder_horizons:slime_blob"
+    },
+    {
+      "item": "wilder_horizons:brimstone_shard"
+    },
+    {
+      "tag": "c:dragon_parts"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dragon_breath",
+    "count": 1
+  }
+}

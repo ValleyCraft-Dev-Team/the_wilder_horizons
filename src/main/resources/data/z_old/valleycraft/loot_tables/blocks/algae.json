@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:algae"
+          "name": "wilder_horizons:algae"
         }
       ],
       "conditions": [

@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:scythe_wooden",
-    "valleycraft:scythe_golden",
-    "valleycraft:scythe_stone",
-    "valleycraft:scythe_iron",
-    "valleycraft:scythe_rosegold",
-    "valleycraft:scythe_diamond",
-    "valleycraft:scythe_netherite",
-    "valleycraft:scythe_echochalcum"
+    "wilder_horizons:scythe_wooden",
+    "wilder_horizons:scythe_golden",
+    "wilder_horizons:scythe_stone",
+    "wilder_horizons:scythe_iron",
+    "wilder_horizons:scythe_rosegold",
+    "wilder_horizons:scythe_diamond",
+    "wilder_horizons:scythe_netherite",
+    "wilder_horizons:scythe_echochalcum"
   ]
 }

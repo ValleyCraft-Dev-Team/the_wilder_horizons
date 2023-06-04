@@ -32,7 +32,7 @@
               "children": [
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:raw_worm",
+                  "name": "wilder_horizons:raw_worm",
                   "conditions": [
                     {
                       "condition": "minecraft:table_bonus",

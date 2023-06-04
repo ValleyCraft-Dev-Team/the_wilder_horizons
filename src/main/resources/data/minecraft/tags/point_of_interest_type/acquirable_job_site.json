@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:stablehand_poi",
-    "valleycraft:innkeeper_poi"
+    "wilder_horizons:stablehand_poi",
+    "wilder_horizons:innkeeper_poi"
   ]
 }

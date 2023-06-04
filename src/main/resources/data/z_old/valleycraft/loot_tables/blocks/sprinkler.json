@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:sprinkler"
+          "name": "wilder_horizons:sprinkler"
         }
       ],
       "conditions": [

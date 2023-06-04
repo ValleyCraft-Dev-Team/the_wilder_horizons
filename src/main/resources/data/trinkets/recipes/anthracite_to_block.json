@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:anthracite"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:anthracite_block",
+    "count": 1
+  }
+}

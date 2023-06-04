@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:empty_bookshelf"
+    },
+    {
+      "item": "minecraft:map"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:candle"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:cartography_bookshelf",
+    "count": 1
+  }
+}

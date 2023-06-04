@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:cheese"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:cheese_slice",
+    "count": 8
+  }
+}

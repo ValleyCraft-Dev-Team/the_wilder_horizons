@@ -1,0 +1,15 @@
+  {
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "LLL"
+  ],
+  "result": {
+    "item": "wilder_horizons:log_pile",
+    "count": 6
+  }
+}

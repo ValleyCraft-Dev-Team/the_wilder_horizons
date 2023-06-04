@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:apple_trapdoor",
-    "valleycraft:mamon_trapdoor"
+    "wilder_horizons:apple_trapdoor",
+    "wilder_horizons:mamon_trapdoor"
   ]
 }

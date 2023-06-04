@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_stoneroller_minnow",
+          "name": "wilder_horizons:raw_stoneroller_minnow",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",

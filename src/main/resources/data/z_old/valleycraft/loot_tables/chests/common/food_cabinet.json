@@ -87,7 +87,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "valleycraft:flour",
+          "name": "wilder_horizons:flour",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -102,7 +102,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "valleycraft:onion",
+          "name": "wilder_horizons:onion",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -117,7 +117,7 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "valleycraft:fire_pepper",
+          "name": "wilder_horizons:fire_pepper",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -132,7 +132,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:amethystle",
+          "name": "wilder_horizons:amethystle",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -147,7 +147,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:miners_lettuce",
+          "name": "wilder_horizons:miners_lettuce",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -192,7 +192,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "valleycraft:flour",
+          "name": "wilder_horizons:flour",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -207,7 +207,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:butter",
+          "name": "wilder_horizons:butter",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -222,7 +222,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:milk",
+          "name": "wilder_horizons:milk",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -237,7 +237,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:salt",
+          "name": "wilder_horizons:salt",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -252,7 +252,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:morel_oil",
+          "name": "wilder_horizons:morel_oil",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -263,7 +263,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:hearty_beetroot",
+          "name": "wilder_horizons:hearty_beetroot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -278,7 +278,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:endura_carrot",
+          "name": "wilder_horizons:endura_carrot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -293,7 +293,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:staminella_berry",
+          "name": "wilder_horizons:staminella_berry",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -308,7 +308,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:raw_rice",
+          "name": "wilder_horizons:raw_rice",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -323,7 +323,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:cooked_clam",
+          "name": "wilder_horizons:cooked_clam",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -338,7 +338,7 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "valleycraft:hardtack",
+          "name": "wilder_horizons:hardtack",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -353,7 +353,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:fried_egg",
+          "name": "wilder_horizons:fried_egg",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -368,7 +368,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:baked_apple",
+          "name": "wilder_horizons:baked_apple",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -383,7 +383,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:cheese",
+          "name": "wilder_horizons:cheese",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -394,7 +394,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:dog_biscuit",
+          "name": "wilder_horizons:dog_biscuit",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -424,7 +424,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:eggnog",
+          "name": "wilder_horizons:eggnog",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -439,7 +439,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:cod_gefilte",
+          "name": "wilder_horizons:cod_gefilte",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -454,7 +454,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:kelp_salad",
+          "name": "wilder_horizons:kelp_salad",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -469,7 +469,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:eggs_on_toast",
+          "name": "wilder_horizons:eggs_on_toast",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -484,7 +484,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:beef_stew",
+          "name": "wilder_horizons:beef_stew",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -499,7 +499,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:squid_soup",
+          "name": "wilder_horizons:squid_soup",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -514,7 +514,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:clam_chowder",
+          "name": "wilder_horizons:clam_chowder",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -529,7 +529,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:fish_platter",
+          "name": "wilder_horizons:fish_platter",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -544,7 +544,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:toast",
+          "name": "wilder_horizons:toast",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -559,7 +559,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:apple_pie",
+          "name": "wilder_horizons:apple_pie",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -574,7 +574,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:sandwich_mutton",
+          "name": "wilder_horizons:sandwich_mutton",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -589,7 +589,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:grilled_cheese",
+          "name": "wilder_horizons:grilled_cheese",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -604,7 +604,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:water_filled_clay_pot",
+          "name": "wilder_horizons:water_filled_clay_pot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -619,7 +619,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:clay_pot",
+          "name": "wilder_horizons:clay_pot",
           "functions": [
             {
               "function": "minecraft:set_count",

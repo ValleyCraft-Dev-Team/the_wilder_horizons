@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "_",
+    "_",
+    "_"
+  ],
+  "key": {
+    "_": {
+      "item": "wilder_horizons:erdcobblestone"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:guidestone_blank",
+    "count": 3
+  }
+}

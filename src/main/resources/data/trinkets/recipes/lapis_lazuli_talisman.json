@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:iron_necklace"
+  },
+  "addition": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "result": {
+    "item": "wilder_horizons:lapis_lazuli_talisman"
+  }
+}

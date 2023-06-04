@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "__",
+    "VV"
+  ],
+  "key": {
+    "_": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "V": {
+      "item": "wilder_horizons:plank"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:wattle_stool",
+    "count": 2
+  }
+}

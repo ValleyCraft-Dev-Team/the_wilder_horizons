@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:echochalcum_ingot"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:sculkerite_block",
+    "count": 1
+  }
+}

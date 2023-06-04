@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "valleycraft:cave_root"
+          "name": "wilder_horizons:cave_root"
         },
         {
           "type": "minecraft:item",
@@ -32,7 +32,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:handle",
+          "name": "wilder_horizons:handle",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -47,7 +47,7 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "valleycraft:rope",
+          "name": "wilder_horizons:rope",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -62,7 +62,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:salt",
+          "name": "wilder_horizons:salt",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -77,7 +77,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:totem_of_trade",
+          "name": "wilder_horizons:totem_of_trade",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -103,7 +103,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:primsteel_ingot",
+          "name": "wilder_horizons:primsteel_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -117,7 +117,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:diamond_fragments",
+          "name": "wilder_horizons:diamond_fragments",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -164,7 +164,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "valleycraft:hardtack",
+          "name": "wilder_horizons:hardtack",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -201,7 +201,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:plank",
+          "name": "wilder_horizons:plank",
           "functions": [
             {
               "function": "minecraft:set_count",

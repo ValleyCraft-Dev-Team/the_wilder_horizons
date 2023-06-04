@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "#H"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:brasium_ingot"
+    },
+    "H": {
+      "tag": "c:handles"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:ice_tongs",
+    "count": 1
+  }
+}

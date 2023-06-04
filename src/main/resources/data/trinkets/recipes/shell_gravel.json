@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:clam_block"
+    },
+    {
+      "item": "wilder_horizons:urchin_block"
+    },
+    {
+      "item": "wilder_horizons:tube_worms_block"
+    },
+    {
+      "item": "wilder_horizons:barnacle_block"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:shell_gravel",
+    "count": 1
+  }
+}

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:scorchstone"
+          "name": "wilder_horizons:scorchstone"
         }
       ],
       "conditions": [

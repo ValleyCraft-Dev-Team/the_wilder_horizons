@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:diabase_smooth"
+          "name": "wilder_horizons:diabase_smooth"
         }
       ],
       "conditions": [

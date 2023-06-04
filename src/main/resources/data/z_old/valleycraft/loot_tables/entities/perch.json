@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_perch",
+          "name": "wilder_horizons:raw_perch",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",

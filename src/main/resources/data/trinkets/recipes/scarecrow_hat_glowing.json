@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:scarecrow_glowing"
+    },
+    {
+      "item": "wilder_horizons:straw_hat"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:scarecrow_hat_glowing",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:butter"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:purified_water"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:sugar_cookie_dough",
+    "count": 1
+  }
+}

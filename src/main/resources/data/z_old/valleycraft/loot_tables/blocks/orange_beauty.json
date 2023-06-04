@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:orange_beauty"
+          "name": "wilder_horizons:orange_beauty"
         }
       ],
       "conditions": [

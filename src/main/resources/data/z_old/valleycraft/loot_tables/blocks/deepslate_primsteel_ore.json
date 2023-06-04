@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:deepslate_primsteel_ore",
+              "name": "wilder_horizons:deepslate_primsteel_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:primsteel_raw",
+              "name": "wilder_horizons:primsteel_raw",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",

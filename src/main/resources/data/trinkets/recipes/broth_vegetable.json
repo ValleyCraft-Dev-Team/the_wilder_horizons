@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:vege_broth_bases"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "c:purified_water"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:broth_vegetable",
+    "count": 1
+  }
+}

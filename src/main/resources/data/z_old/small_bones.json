@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:beast_bone",
-    "valleycraft:bonefin",
-    "valleycraft:skull_shard",
-    "valleycraft:dragon_tooth"
+    "wilder_horizons:beast_bone",
+    "wilder_horizons:bonefin",
+    "wilder_horizons:skull_shard",
+    "wilder_horizons:dragon_tooth"
   ]
 }

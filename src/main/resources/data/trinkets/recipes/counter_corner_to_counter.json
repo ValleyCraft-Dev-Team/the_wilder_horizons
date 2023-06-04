@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:counter_corner"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:counter",
+    "count": 1
+  }
+}

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:urchin_block",
-    "valleycraft:clam_block"
+    "wilder_horizons:urchin_block",
+    "wilder_horizons:clam_block"
   ]
 }

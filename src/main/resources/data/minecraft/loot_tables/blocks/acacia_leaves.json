@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:acacia_seed",
+              "name": "wilder_horizons:acacia_seed",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

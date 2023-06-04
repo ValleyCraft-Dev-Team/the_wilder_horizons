@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:chocolate"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:purified_water"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:flour"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:chocolate_pie_dough",
+    "count": 1
+  }
+}

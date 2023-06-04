@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "GLG",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "L": {
+      "item": "wilder_horizons:redstone_lantern"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:redstone_lamptern",
+    "count": 1
+  }
+}

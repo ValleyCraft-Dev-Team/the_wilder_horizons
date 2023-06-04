@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#F#"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:rock_item"
+    },
+    "F": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:dirt_rocks",
+    "count": 1
+  }
+}

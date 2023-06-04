@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:butter",
+    "count": 2
+  }
+}

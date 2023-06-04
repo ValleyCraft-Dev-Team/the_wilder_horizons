@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:sprout"
+          "name": "wilder_horizons:sprout"
         }
       ],
       "conditions": [

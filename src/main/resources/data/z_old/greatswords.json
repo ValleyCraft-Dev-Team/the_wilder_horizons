@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:wooden_greatsword",
-    "valleycraft:golden_greatsword",
-    "valleycraft:stone_greatsword",
-    "valleycraft:iron_greatsword",
-    "valleycraft:rosegold_greatsword",
-    "valleycraft:diamond_greatsword",
-    "valleycraft:netherite_greatsword"
+    "wilder_horizons:wooden_greatsword",
+    "wilder_horizons:golden_greatsword",
+    "wilder_horizons:stone_greatsword",
+    "wilder_horizons:iron_greatsword",
+    "wilder_horizons:rosegold_greatsword",
+    "wilder_horizons:diamond_greatsword",
+    "wilder_horizons:netherite_greatsword"
   ]
 }

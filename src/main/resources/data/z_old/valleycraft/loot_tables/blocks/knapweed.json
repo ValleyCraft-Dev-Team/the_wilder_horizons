@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:knapweed"
+          "name": "wilder_horizons:knapweed"
         }
       ],
       "conditions": [

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:sandy_gravel"
+          "name": "wilder_horizons:sandy_gravel"
         }
       ],
       "conditions": [

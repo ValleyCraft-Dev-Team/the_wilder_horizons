@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "VQ"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:rocks"
+    },
+    "V": {
+      "item": "wilder_horizons:fiber"
+    },
+    "Q": {
+      "tag": "c:plank_items"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:makeshift_axe",
+    "count": 1
+  }
+}
+

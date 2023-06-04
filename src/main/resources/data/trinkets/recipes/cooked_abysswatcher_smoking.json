@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:raw_abysswatcher"
+    }
+  ],
+  "result": "wilder_horizons:cooked_abysswatcher"
+}

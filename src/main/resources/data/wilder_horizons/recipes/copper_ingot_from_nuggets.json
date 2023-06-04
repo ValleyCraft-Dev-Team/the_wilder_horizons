@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:raw_copper",
+    "count": 1
+  }
+}

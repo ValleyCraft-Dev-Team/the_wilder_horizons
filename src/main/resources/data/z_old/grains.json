@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:raw_rice",
+    "wilder_horizons:raw_rice",
     "minecraft:wheat"
   ]
 }

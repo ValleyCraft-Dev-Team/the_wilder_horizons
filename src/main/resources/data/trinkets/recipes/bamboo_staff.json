@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "V",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    },
+    "V": {
+      "item": "wilder_horizons:handle"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:bamboo_staff",
+    "count": 1
+  }
+}

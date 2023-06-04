@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:traveler_primsteel",
+          "name": "wilder_horizons:traveler_primsteel",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -23,7 +23,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:traveler_primsteel",
+          "name": "wilder_horizons:traveler_primsteel",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -34,7 +34,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "valleycraft:scythe_primsteel",
+          "name": "wilder_horizons:scythe_primsteel",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -46,7 +46,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:amethystle"
+          "name": "wilder_horizons:amethystle"
         },
         {
           "type": "minecraft:item",
@@ -77,7 +77,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:cave_root",
+          "name": "wilder_horizons:cave_root",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -108,7 +108,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:vegetable_mix",
+          "name": "wilder_horizons:vegetable_mix",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -124,7 +124,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:fruit_mix",
+          "name": "wilder_horizons:fruit_mix",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -181,7 +181,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:plank",
+          "name": "wilder_horizons:plank",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -196,7 +196,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:totem_of_trade",
+          "name": "wilder_horizons:totem_of_trade",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -207,7 +207,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:daub",
+          "name": "wilder_horizons:daub",
           "functions": [
             {
               "function": "minecraft:set_count",

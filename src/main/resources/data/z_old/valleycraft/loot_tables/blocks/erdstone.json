@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:erdstone",
+              "name": "wilder_horizons:erdstone",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:erdcobblestone",
+              "name": "wilder_horizons:erdcobblestone",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

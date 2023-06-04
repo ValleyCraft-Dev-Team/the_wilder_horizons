@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:broth_bases"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "tag": "c:purified_water"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:broth",
+    "count": 1
+  }
+}

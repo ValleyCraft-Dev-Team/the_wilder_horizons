@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:cake_dough",
-    "valleycraft:chocolate_cake_dough"
+    "wilder_horizons:cake_dough",
+    "wilder_horizons:chocolate_cake_dough"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:chocolate_cake_dough"
+    }
+  ],
+  "result": "wilder_horizons:chocolate_cake",
+  "count": 1
+}

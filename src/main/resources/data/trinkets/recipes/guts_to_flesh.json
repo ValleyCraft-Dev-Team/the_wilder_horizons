@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#V"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:monster_guts"
+    },
+    "V": {
+      "item": "wilder_horizons:salt"
+    }
+  },
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 3
+  }
+}

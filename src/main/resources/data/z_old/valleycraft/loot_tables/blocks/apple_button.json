@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:apple_button"
+          "name": "wilder_horizons:apple_button"
         }
       ],
       "conditions": [

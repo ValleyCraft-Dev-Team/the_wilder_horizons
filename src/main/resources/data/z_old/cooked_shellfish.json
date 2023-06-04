@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:cooked_sea_urchin",
-    "valleycraft:cooked_clam"
+    "wilder_horizons:cooked_sea_urchin",
+    "wilder_horizons:cooked_clam"
   ]
 }

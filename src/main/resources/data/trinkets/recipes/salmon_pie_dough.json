@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "tag": "c:purified_water"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:flour"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:salmon_pie_dough",
+    "count": 1
+  }
+}

@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:lumberjack_cabin/start_pool",
+ "name": "wilder_horizons:lumberjack_cabin/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 6,
       "element": {
-        "location": "valleycraft:homesteads/lumberjack_cabins/abandoned_cabin",
+        "location": "wilder_horizons:homesteads/lumberjack_cabins/abandoned_cabin",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 3,
       "element": {
-        "location": "valleycraft:homesteads/lumberjack_cabins/friendly_cabin",
+        "location": "wilder_horizons:homesteads/lumberjack_cabins/friendly_cabin",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 9,
       "element": {
-        "location": "valleycraft:homesteads/lumberjack_cabins/pillager_cabin",
+        "location": "wilder_horizons:homesteads/lumberjack_cabins/pillager_cabin",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

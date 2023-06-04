@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:skull_shard"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:villager_skull",
+    "count": 1
+  }
+}

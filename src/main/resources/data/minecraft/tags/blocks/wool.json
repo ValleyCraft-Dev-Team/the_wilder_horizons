@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:canvas_block",
-    "valleycraft:canvas_slab",
-    "valleycraft:canvas_stairs"
+    "wilder_horizons:canvas_block",
+    "wilder_horizons:canvas_slab",
+    "wilder_horizons:canvas_stairs"
   ]
 }

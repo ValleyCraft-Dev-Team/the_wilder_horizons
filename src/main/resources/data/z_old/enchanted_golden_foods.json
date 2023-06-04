@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:enchanted_chorus_fruit",
+    "wilder_horizons:enchanted_chorus_fruit",
     "minecraft:enchanted_golden_apple",
-    "valleycraft:enchanted_apple_pie",
-    "valleycraft:enchanted_apple_pie_slice"
+    "wilder_horizons:enchanted_apple_pie",
+    "wilder_horizons:enchanted_apple_pie_slice"
   ]
 }

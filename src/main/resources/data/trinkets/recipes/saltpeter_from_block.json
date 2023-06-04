@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:saltpeter_block"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:saltpeter",
+    "count": 9
+  }
+}

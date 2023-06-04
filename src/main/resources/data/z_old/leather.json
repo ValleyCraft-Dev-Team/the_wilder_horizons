@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:sheep_hide",
-    "valleycraft:pig_hide",
+    "wilder_horizons:sheep_hide",
+    "wilder_horizons:pig_hide",
     "minecraft:leather"
   ]
 }

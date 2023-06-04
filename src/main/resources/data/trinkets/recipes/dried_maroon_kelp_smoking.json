@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "wilder_horizons:orange_kelp"
+  },
+  "result": "wilder_horizons:dried_orange_kelp"
+}

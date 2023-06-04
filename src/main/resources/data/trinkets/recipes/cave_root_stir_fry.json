@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:cave_root"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "tag": "c:olive_oils"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:cave_root_stir_fry",
+    "count": 1
+  }
+}

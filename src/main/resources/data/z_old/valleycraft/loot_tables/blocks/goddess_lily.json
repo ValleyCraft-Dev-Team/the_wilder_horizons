@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:goddess_lily"
+          "name": "wilder_horizons:goddess_lily"
         }
       ],
       "conditions": [

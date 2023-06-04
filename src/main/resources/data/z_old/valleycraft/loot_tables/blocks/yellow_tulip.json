@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:yellow_tulip"
+          "name": "wilder_horizons:yellow_tulip"
         }
       ],
       "conditions": [

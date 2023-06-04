@@ -10,13 +10,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:brimstone_crystal",
+              "name": "wilder_horizons:brimstone_crystal",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
-                      "valleycraft:anthropologists_rock_pick"
+                      "wilder_horizons:anthropologists_rock_pick"
                     ]
                   }
                 }
@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:brimstone_crystal",
+              "name": "wilder_horizons:brimstone_crystal",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -46,7 +46,7 @@
               "children": [
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:brimstone_shard",
+                  "name": "wilder_horizons:brimstone_shard",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -70,7 +70,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:brimstone_shard",
+                  "name": "wilder_horizons:brimstone_shard",
                   "functions": [
                     {
                       "function": "minecraft:set_count",

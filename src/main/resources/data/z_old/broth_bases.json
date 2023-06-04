@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:bone",
-    "valleycraft:bonefin",
-    "valleycraft:beast_bone"
+    "wilder_horizons:bonefin",
+    "wilder_horizons:beast_bone"
   ]
 }

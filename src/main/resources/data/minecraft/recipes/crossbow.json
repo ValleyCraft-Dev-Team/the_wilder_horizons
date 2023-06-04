@@ -5,13 +5,13 @@
       "tag": "c:plank_items"
     },
     "$": {
-      "item": "valleycraft:trigger_mechanism"
+      "item": "wilder_horizons:trigger_mechanism"
     },
     "&": {
       "item": "minecraft:iron_ingot"
     },
     "~": {
-      "item": "valleycraft:bow_string"
+      "item": "wilder_horizons:bow_string"
     },
     "G": {
       "tag": "c:handles"

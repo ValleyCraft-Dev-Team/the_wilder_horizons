@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:empty_bookshelf"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:beekeeping_bookshelf",
+    "count": 1
+  }
+}

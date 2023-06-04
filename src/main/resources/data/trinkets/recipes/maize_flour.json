@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "wilder_horizons:maize"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "wilder_horizons:maize_flour"
+  }
+}

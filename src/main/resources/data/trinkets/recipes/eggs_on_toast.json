@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:toast"
+    },
+    {
+      "item": "wilder_horizons:fried_egg"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:eggs_on_toast",
+    "count": 1
+  }
+}

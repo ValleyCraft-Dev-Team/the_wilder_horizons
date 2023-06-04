@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:outpost/start_pool",
+ "name": "wilder_horizons:outpost/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:outposts/crafting_spot",
+        "location": "wilder_horizons:outposts/crafting_spot",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:outposts/crossroads",
+        "location": "wilder_horizons:outposts/crossroads",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:outposts/fallen_trees",
+        "location": "wilder_horizons:outposts/fallen_trees",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:outposts/farmer",
+        "location": "wilder_horizons:outposts/farmer",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -41,7 +41,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:outposts/logger_campfire",
+        "location": "wilder_horizons:outposts/logger_campfire",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -50,7 +50,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:outposts/miners_campfire",
+        "location": "wilder_horizons:outposts/miners_campfire",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -59,7 +59,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:outposts/mossy_campfire",
+        "location": "wilder_horizons:outposts/mossy_campfire",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -68,7 +68,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:outposts/oak_campfire_small",
+        "location": "wilder_horizons:outposts/oak_campfire_small",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -77,7 +77,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:outposts/ruins_campfire",
+        "location": "wilder_horizons:outposts/ruins_campfire",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -86,7 +86,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:outposts/ruins",
+        "location": "wilder_horizons:outposts/ruins",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -95,7 +95,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:outposts/shovel_crate",
+        "location": "wilder_horizons:outposts/shovel_crate",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -104,7 +104,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:outposts/tent_bed",
+        "location": "wilder_horizons:outposts/tent_bed",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -113,7 +113,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:outposts/tent_cartographer",
+        "location": "wilder_horizons:outposts/tent_cartographer",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

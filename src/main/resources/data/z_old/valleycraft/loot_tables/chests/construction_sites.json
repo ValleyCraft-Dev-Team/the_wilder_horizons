@@ -123,7 +123,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:counter",
+          "name": "wilder_horizons:counter",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -139,7 +139,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:canvas_block",
+          "name": "wilder_horizons:canvas_block",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -187,7 +187,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:net",
+          "name": "wilder_horizons:net",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -202,7 +202,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:wattle_door",
+          "name": "wilder_horizons:wattle_door",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -218,7 +218,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:spruce_lattice",
+          "name": "wilder_horizons:spruce_lattice",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -248,7 +248,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:small_candelabra",
+          "name": "wilder_horizons:small_candelabra",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -263,7 +263,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "valleycraft:large_candelabra",
+          "name": "wilder_horizons:large_candelabra",
           "functions": [
             {
               "function": "minecraft:set_count",

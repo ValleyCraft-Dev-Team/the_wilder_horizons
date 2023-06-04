@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "V"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:elder_guardian_spike"
+    },
+    "V": {
+      "tag": "c:handles"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:coral_knife_guardian",
+    "count": 1
+  }
+}

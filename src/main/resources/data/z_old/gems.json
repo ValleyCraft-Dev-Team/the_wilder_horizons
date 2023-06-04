@@ -1,14 +1,14 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:brimstone_shard",
+    "wilder_horizons:brimstone_shard",
     "minecraft:nether_star",
     "minecraft:diamond",
     "minecraft:emerald",
     "minecraft:prismarine_crystals",
     "minecraft:prismarine_shard",
     "minecraft:amethyst_shard",
-    "valleycraft:diamond_fragments",
+    "wilder_horizons:diamond_fragments",
     "minecraft:ender_pearl",
     "minecraft:lapis_lazuli",
     "minecraft:quartz",

@@ -46,70 +46,70 @@
       "item": "minecraft:chainmail_boots"
     },
     {
-      "item": "valleycraft:knife_iron"
+      "item": "wilder_horizons:knife_iron"
     },
     {
-      "item": "valleycraft:woodcutter_axe_iron"
+      "item": "wilder_horizons:woodcutter_axe_iron"
     },
     {
-      "item": "valleycraft:hatchet_iron"
+      "item": "wilder_horizons:hatchet_iron"
     },
     {
-      "item": "valleycraft:scythe_iron"
+      "item": "wilder_horizons:scythe_iron"
     },
     {
-      "item": "valleycraft:dagger_iron"
+      "item": "wilder_horizons:dagger_iron"
     },
     {
-      "item": "valleycraft:traveler_iron"
+      "item": "wilder_horizons:traveler_iron"
     },
     {
-      "item": "valleycraft:iron_greatsword"
+      "item": "wilder_horizons:iron_greatsword"
     },
     {
-      "item": "valleycraft:reinforced_iron_helmet"
+      "item": "wilder_horizons:reinforced_iron_helmet"
     },
     {
-      "item": "valleycraft:iron_breastplate"
+      "item": "wilder_horizons:iron_breastplate"
     },
     {
-      "item": "valleycraft:iron_sandals"
+      "item": "wilder_horizons:iron_sandals"
     },
     {
-      "item": "valleycraft:iron_hauberk"
+      "item": "wilder_horizons:iron_hauberk"
     },
     {
-      "item": "valleycraft:iron_thigh_guards"
+      "item": "wilder_horizons:iron_thigh_guards"
     },
     {
-      "item": "valleycraft:metal_feather"
+      "item": "wilder_horizons:metal_feather"
     },
     {
-      "item": "valleycraft:rusted_pickaxe"
+      "item": "wilder_horizons:rusted_pickaxe"
     },
     {
-      "item": "valleycraft:rusted_sword"
+      "item": "wilder_horizons:rusted_sword"
     },
     {
-      "item": "valleycraft:rusted_shovel"
+      "item": "wilder_horizons:rusted_shovel"
     },
     {
-      "item": "valleycraft:rusted_axe"
+      "item": "wilder_horizons:rusted_axe"
     },
     {
-      "item": "valleycraft:rusted_hoe"
+      "item": "wilder_horizons:rusted_hoe"
     },
     {
-      "item": "valleycraft:fireguard"
+      "item": "wilder_horizons:fireguard"
     },
     {
-      "item": "valleycraft:large_chain"
+      "item": "wilder_horizons:large_chain"
     },
     {
-      "item": "valleycraft:large_iron_chain"
+      "item": "wilder_horizons:large_iron_chain"
     },
     {
-      "item": "valleycraft:iron_ladder"
+      "item": "wilder_horizons:iron_ladder"
     },
     {
       "item": "minecraft:rail"
@@ -121,5 +121,5 @@
       "item": "minecraft:activator_rail"
     }
   ],
-  "result": "valleycraft:iron_scrap"
+  "result": "wilder_horizons:iron_scrap"
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:crafting_mat",
+    "wilder_horizons:crafting_mat",
     "#c:leather_alternatives"
   ]
 }

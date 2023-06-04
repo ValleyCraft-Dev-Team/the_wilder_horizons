@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "I "
+  ],
+  "key": {
+    "#": {
+      "tag": "c:feathers"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:quill",
+    "count": 1
+  }
+}

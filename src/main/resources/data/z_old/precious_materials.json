@@ -2,10 +2,10 @@
   "replace": false,
   "values": [
     "#c:gems",
-    "valleycraft:crystallized_honeydrop",
-    "valleycraft:guardian_spike",
-    "valleycraft:elder_guardian_spike",
-    "valleycraft:dragon_tooth",
+    "wilder_horizons:crystallized_honeydrop",
+    "wilder_horizons:guardian_spike",
+    "wilder_horizons:elder_guardian_spike",
+    "wilder_horizons:dragon_tooth",
     "minecraft:scute"
   ]
 }

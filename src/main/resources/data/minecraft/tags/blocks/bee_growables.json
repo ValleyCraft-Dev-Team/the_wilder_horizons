@@ -1,15 +1,15 @@
 {
   "replace": false,
   "values": [
-  	"valleycraft:maize",
-  	"valleycraft:rices",
-    "valleycraft:puff_ball",
-    "valleycraft:onions",
-    "valleycraft:miners_lettuces",
-    "valleycraft:fire_peppers",
-    "valleycraft:cave_root_crop",
-    "valleycraft:ancient_flowers",
-    "valleycraft:amethystles",
-    "valleycraft:aloe_veras"
+  	"wilder_horizons:maize",
+  	"wilder_horizons:rices",
+    "wilder_horizons:puff_ball",
+    "wilder_horizons:onions",
+    "wilder_horizons:miners_lettuces",
+    "wilder_horizons:fire_peppers",
+    "wilder_horizons:cave_root_crop",
+    "wilder_horizons:ancient_flowers",
+    "wilder_horizons:amethystles",
+    "wilder_horizons:aloe_veras"
   ]
 }

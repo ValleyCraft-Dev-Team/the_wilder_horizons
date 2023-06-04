@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:apple_fence_gate",
-    "valleycraft:mamon_fence_gate"
+    "wilder_horizons:apple_fence_gate",
+    "wilder_horizons:mamon_fence_gate"
   ]
 }

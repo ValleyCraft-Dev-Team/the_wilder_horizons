@@ -7,32 +7,32 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:infected_monster_liver"
+          "name": "wilder_horizons:infected_monster_liver"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:infected_monster_guts"
+          "name": "wilder_horizons:infected_monster_guts"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:infected_monster_heart"
+          "name": "wilder_horizons:infected_monster_heart"
         },
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:monster_heart"
+          "name": "wilder_horizons:monster_heart"
         },
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:monster_liver"
+          "name": "wilder_horizons:monster_liver"
         },
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:monster_guts"
+          "name": "wilder_horizons:monster_guts"
         },
         {
           "type": "minecraft:item",
@@ -60,7 +60,7 @@
         {
           "type": "minecraft:item",
           "weight": 7,
-          "name": "valleycraft:beast_bone",
+          "name": "wilder_horizons:beast_bone",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -109,7 +109,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:monster_claw",
+          "name": "wilder_horizons:monster_claw",
           "functions": [
             {
               "function": "minecraft:set_count",

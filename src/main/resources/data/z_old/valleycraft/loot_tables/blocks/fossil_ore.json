@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:fossil_ore",
+              "name": "wilder_horizons:fossil_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -57,7 +57,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:bonefin",
+                  "name": "wilder_horizons:bonefin",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -82,7 +82,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:dragon_tooth",
+                  "name": "wilder_horizons:dragon_tooth",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -107,7 +107,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:monster_claw",
+                  "name": "wilder_horizons:monster_claw",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -132,7 +132,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:skull_shard",
+                  "name": "wilder_horizons:skull_shard",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -157,7 +157,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:beast_bone",
+                  "name": "wilder_horizons:beast_bone",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -232,7 +232,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:villager_skeletal_remains",
+                  "name": "wilder_horizons:villager_skeletal_remains",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -257,7 +257,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:villager_skull",
+                  "name": "wilder_horizons:villager_skull",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -282,7 +282,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:skeletal_remains",
+                  "name": "wilder_horizons:skeletal_remains",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -307,7 +307,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "valleycraft:daerdri_skull",
+                  "name": "wilder_horizons:daerdri_skull",
                   "functions": [
                     {
                       "function": "minecraft:set_count",

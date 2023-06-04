@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:black_dahlia"
+          "name": "wilder_horizons:black_dahlia"
         }
       ],
       "conditions": [

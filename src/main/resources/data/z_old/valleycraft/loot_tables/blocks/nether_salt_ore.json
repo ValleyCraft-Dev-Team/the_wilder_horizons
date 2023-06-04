@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:nether_salt_ore",
+              "name": "wilder_horizons:nether_salt_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:salt",
+              "name": "wilder_horizons:salt",
               "functions": [
                 {
                   "function": "minecraft:set_count",

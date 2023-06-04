@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:baked_endura_carrot"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "wilder_horizons:cooked_cave_root"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "tag": "c:broths"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:carrot_stew",
+    "count": 1
+  }
+}

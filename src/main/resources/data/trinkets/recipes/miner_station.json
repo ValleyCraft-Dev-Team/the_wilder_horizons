@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iOi",
+    "iOi"
+  ],
+  "key": {
+    "i": {
+      "item": "wilder_horizons:primsteel_ingot"
+    },
+    "O": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:miner_station",
+    "count": 1
+  }
+}

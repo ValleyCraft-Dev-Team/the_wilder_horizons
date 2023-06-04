@@ -78,7 +78,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:woodcutter_axe_iron"
+          "name": "wilder_horizons:woodcutter_axe_iron"
         },
         {
           "type": "minecraft:item",

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:flowering_cactus"
+          "name": "wilder_horizons:flowering_cactus"
         }
       ],
       "conditions": [

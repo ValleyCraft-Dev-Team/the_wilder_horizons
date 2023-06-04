@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "valleycraft:pillager_fortress/start_pool",
+  "start_pool": "wilder_horizons:pillager_fortress/start_pool",
   "size": 2,
   "max_distance_from_center": 80,
-  "biomes": "#valleycraft:has_structure/overworld_pillager_fortresses",
+  "biomes": "#wilder_horizons:has_structure/overworld_pillager_fortresses",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "start_height": {

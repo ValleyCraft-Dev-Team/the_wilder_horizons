@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:spyglass_lense"
+  },
+  "addition": {
+    "item": "minecraft:echo_shard"
+  },
+  "result": {
+    "item": "wilder_horizons:echo_shard_lense"
+  }
+}

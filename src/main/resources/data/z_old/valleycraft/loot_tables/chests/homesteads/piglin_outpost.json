@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:golden_greatsword",
+          "name": "wilder_horizons:golden_greatsword",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -187,7 +187,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:bow_string",
+          "name": "wilder_horizons:bow_string",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -266,7 +266,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_bacon",
+          "name": "wilder_horizons:raw_bacon",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -280,7 +280,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:cooked_bacon",
+          "name": "wilder_horizons:cooked_bacon",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -294,7 +294,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:magma_creme_soup",
+          "name": "wilder_horizons:magma_creme_soup",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -308,7 +308,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:brown_mushroom_skewer",
+          "name": "wilder_horizons:brown_mushroom_skewer",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -420,17 +420,17 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:leather_sandals"
+          "name": "wilder_horizons:leather_sandals"
         },
         {
           "type": "minecraft:item",
           "weight": 16,
-          "name": "valleycraft:golden_sandals"
+          "name": "wilder_horizons:golden_sandals"
         },
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:golden_thigh_guards"
+          "name": "wilder_horizons:golden_thigh_guards"
         }
       ]
     }

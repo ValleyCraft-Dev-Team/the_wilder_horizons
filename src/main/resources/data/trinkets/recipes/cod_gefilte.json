@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "wilder_horizons:onion"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:cod_gefilte",
+    "count": 2
+  }
+}

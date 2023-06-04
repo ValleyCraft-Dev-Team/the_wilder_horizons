@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-  	"valleycraft:apple_door",
-  	"valleycraft:mamon_door"
+  	"wilder_horizons:apple_door",
+  	"wilder_horizons:mamon_door"
   ]
 }

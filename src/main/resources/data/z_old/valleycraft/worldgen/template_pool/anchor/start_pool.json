@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:anchor/start_pool",
+ "name": "wilder_horizons:anchor/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "valleycraft:ocean/anchors/small_anchor",
+        "location": "wilder_horizons:ocean/anchors/small_anchor",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

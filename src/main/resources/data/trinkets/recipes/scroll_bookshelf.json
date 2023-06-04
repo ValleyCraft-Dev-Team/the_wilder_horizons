@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:empty_bookshelf"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:scroll_bookshelf",
+    "count": 1
+  }
+}

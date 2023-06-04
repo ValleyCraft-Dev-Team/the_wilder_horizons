@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VVV",
+    "BBB"
+  ],
+  "key": {
+    "V": {
+      "item": "wilder_horizons:plant_fiber_string"
+    },
+    "B": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:spike_trap_extension",
+    "count": 3
+  }
+}

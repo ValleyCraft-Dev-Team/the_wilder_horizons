@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:mossy_erdstone_bricks"
+          "name": "wilder_horizons:mossy_erdstone_bricks"
         }
       ],
       "conditions": [

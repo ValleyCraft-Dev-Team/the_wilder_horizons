@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:scarecrow"
+    },
+    {
+      "item": "minecraft:target"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:scarecrow_target",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:ancient_flower"
+    },
+    {
+      "item": "wilder_horizons:baked_apple"
+    },
+    {
+      "tag": "c:milk_bottles"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "tag": "c:broths"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:ancient_flower_soup",
+    "count": 1
+  }
+}

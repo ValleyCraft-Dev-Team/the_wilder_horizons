@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:erdcobblestone"
+          "name": "wilder_horizons:erdcobblestone"
         }
       ],
       "conditions": [

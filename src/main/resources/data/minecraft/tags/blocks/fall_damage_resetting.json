@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-  	"valleycraft:net",
-    "valleycraft:thorny_bush",
-    "valleycraft:large_bush",
-    "valleycraft:bush",
-    "valleycraft:lush_bush",
-    "valleycraft:big_fern"
+  	"wilder_horizons:net",
+    "wilder_horizons:thorny_bush",
+    "wilder_horizons:large_bush",
+    "wilder_horizons:bush",
+    "wilder_horizons:lush_bush",
+    "wilder_horizons:big_fern"
   ]
 }

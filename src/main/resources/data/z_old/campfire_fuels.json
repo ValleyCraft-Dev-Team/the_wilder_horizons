@@ -4,7 +4,7 @@
     "minecraft:coal",
     "minecraft:charcoal",
     "minecraft:torch",
-    "valleycraft:fiber",
-    "valleycraft:dried_fiber"
+    "wilder_horizons:fiber",
+    "wilder_horizons:dried_fiber"
   ]
 }

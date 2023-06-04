@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "valleycraft:book_runecalling"
+      "item": "wilder_horizons:book_runecalling"
     },
     {
-      "item": "valleycraft:rune_etching_blade"
+      "item": "wilder_horizons:rune_etching_blade"
     },
     {
-      "item": "valleycraft:clothed_ornate_obsidian_table"
+      "item": "wilder_horizons:clothed_ornate_obsidian_table"
     }
   ],
   "result": {

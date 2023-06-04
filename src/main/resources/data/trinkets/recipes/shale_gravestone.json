@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " _ ",
+    "___",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "wilder_horizons:polished_shale_slab"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:shale_gravestone",
+    "count": 3
+  }
+}

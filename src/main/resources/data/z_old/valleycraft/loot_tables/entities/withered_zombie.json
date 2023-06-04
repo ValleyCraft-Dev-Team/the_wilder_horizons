@@ -77,7 +77,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "valleycraft:withered_skull_shard",
+          "name": "wilder_horizons:withered_skull_shard",
           "functions": [
             {
               "function": "minecraft:set_count",

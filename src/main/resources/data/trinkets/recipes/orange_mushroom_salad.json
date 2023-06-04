@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:jungle_cap"
+    },
+    {
+      "item": "wilder_horizons:miners_lettuce"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:orange_mushroom_salad",
+    "count": 1
+  }
+}

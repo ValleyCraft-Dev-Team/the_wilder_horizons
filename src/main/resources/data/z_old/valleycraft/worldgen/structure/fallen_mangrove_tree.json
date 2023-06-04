@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "valleycraft:fallen_mangrove_tree/start_pool",
+  "start_pool": "wilder_horizons:fallen_mangrove_tree/start_pool",
   "size": 2,
   "max_distance_from_center": 80,
-  "biomes": "#valleycraft:has_structure/tree_mangrove_containing_biomes",
+  "biomes": "#wilder_horizons:has_structure/tree_mangrove_containing_biomes",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "start_height": {

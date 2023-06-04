@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "start_pool": "valleycraft:lumberjack_cabin/start_pool",
+  "start_pool": "wilder_horizons:lumberjack_cabin/start_pool",
   "size": 2,
   "max_distance_from_center": 80,
-  "biomes": "#valleycraft:has_structure/lumberjack_safe",
+  "biomes": "#wilder_horizons:has_structure/lumberjack_safe",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "start_height": {

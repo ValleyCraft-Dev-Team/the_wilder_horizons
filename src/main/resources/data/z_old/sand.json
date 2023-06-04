@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:quicksand",
+    "wilder_horizons:quicksand",
     "minecraft:sand",
     "minecraft:red_sand",
     "#c:nether_sand"

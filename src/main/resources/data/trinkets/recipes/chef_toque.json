@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#V#",
+    "WVW"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:string_spool_normal"
+    },
+    "V": {
+      "item": "wilder_horizons:cloth"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:chef_hat",
+    "count": 1
+  }
+}

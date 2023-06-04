@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "valleycraft:ship_floating",
+      "structure": "wilder_horizons:ship_floating",
       "weight": 1
     }
   ],

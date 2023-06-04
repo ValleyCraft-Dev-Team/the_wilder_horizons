@@ -42,7 +42,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "valleycraft:birch_seed",
+              "name": "wilder_horizons:birch_seed",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

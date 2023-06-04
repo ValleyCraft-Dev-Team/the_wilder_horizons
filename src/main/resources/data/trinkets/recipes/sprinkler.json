@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#c#",
+    "cAc",
+    "#c#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:sprinkler",
+    "count": 1
+  }
+}

@@ -21,17 +21,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_bird_thigh",
+          "name": "wilder_horizons:raw_bird_thigh",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_bat_wing",
+          "name": "wilder_horizons:raw_bat_wing",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_phantom_eye",
+          "name": "wilder_horizons:raw_phantom_eye",
           "weight": 2
         },
         {
@@ -41,17 +41,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:seagulls_feather",
+          "name": "wilder_horizons:seagulls_feather",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:crows_feather",
+          "name": "wilder_horizons:crows_feather",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:ducks_feather",
+          "name": "wilder_horizons:ducks_feather",
           "weight": 10
         },
         {
@@ -66,17 +66,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:bow_string",
+          "name": "wilder_horizons:bow_string",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:leather_strap",
+          "name": "wilder_horizons:leather_strap",
           "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "valleycraft:plant_fiber_string",
+          "name": "wilder_horizons:plant_fiber_string",
           "weight": 4
         },
         {

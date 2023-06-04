@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:yellow_lupine"
+          "name": "wilder_horizons:yellow_lupine"
         }
       ],
       "conditions": [

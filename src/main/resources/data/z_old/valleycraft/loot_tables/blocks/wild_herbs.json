@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "valleycraft:wild_herbs",
+              "name": "wilder_horizons:wild_herbs",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

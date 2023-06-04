@@ -31,7 +31,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "valleycraft:metal_feather",
+          "name": "wilder_horizons:metal_feather",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -99,7 +99,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_beast_liver",
+          "name": "wilder_horizons:raw_beast_liver",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",

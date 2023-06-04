@@ -87,7 +87,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "valleycraft:hardtack",
+          "name": "wilder_horizons:hardtack",
           "functions": [
             {
               "function": "minecraft:set_count",

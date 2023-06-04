@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "#V"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "V": {
+      "item": "wilder_horizons:handle"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:hatchet_golden",
+    "count": 1
+  }
+}

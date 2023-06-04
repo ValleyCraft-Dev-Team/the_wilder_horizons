@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:raw_sardine",
+          "name": "wilder_horizons:raw_sardine",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",

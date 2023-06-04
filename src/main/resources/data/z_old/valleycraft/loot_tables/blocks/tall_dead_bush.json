@@ -7,11 +7,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:tall_dead_bush",
+          "name": "wilder_horizons:tall_dead_bush",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "valleycraft:tall_dead_bush",
+              "block": "wilder_horizons:tall_dead_bush",
               "properties": {
                 "half": "lower"
               }

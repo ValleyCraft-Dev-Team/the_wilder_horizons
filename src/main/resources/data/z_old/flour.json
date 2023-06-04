@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:flour",
-    "valleycraft:maize_flour"
+    "wilder_horizons:flour",
+    "wilder_horizons:maize_flour"
   ]
 }

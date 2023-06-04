@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-  	"valleycraft:mamon_leaves",
-  	"valleycraft:warm_birch_leaves",
-    "valleycraft:apple_leaves",
-    "valleycraft:apple_leaves_empty"
+  	"wilder_horizons:mamon_leaves",
+  	"wilder_horizons:warm_birch_leaves",
+    "wilder_horizons:apple_leaves",
+    "wilder_horizons:apple_leaves_empty"
   ]
 }

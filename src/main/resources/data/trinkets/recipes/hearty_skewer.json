@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " O ",
+    "/  "
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:baked_hearty_beetroot"
+    },
+    "O": {
+      "item": "wilder_horizons:baked_onion"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:hearty_skewer",
+    "count": 1
+  }
+}

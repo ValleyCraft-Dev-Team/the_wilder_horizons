@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-  	"valleycraft:packed_snow",
-  	"valleycraft:packed_snow_polished",
-    "valleycraft:packed_snow_bricks_small",
-    "valleycraft:packed_snow_bricks_large",
-    "valleycraft:packed_snow_bricks_chiseled"
+  	"wilder_horizons:packed_snow",
+  	"wilder_horizons:packed_snow_polished",
+    "wilder_horizons:packed_snow_bricks_small",
+    "wilder_horizons:packed_snow_bricks_large",
+    "wilder_horizons:packed_snow_bricks_chiseled"
   ]
 }

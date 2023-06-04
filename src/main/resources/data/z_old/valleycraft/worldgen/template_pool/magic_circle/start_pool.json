@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:magic_circle/start_pool",
+ "name": "wilder_horizons:magic_circle/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:magic/birch_circle",
+        "location": "wilder_horizons:magic/birch_circle",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "valleycraft:magic/candle_rock_1",
+        "location": "wilder_horizons:magic/candle_rock_1",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "valleycraft:magic/candle_rock_2",
+        "location": "wilder_horizons:magic/candle_rock_2",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:magic/circle_flowers",
+        "location": "wilder_horizons:magic/circle_flowers",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -41,7 +41,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:magic/circle_mushrooms",
+        "location": "wilder_horizons:magic/circle_mushrooms",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -50,7 +50,7 @@
     {
       "weight": 7,
       "element": {
-        "location": "valleycraft:magic/goddess_statue_altar",
+        "location": "wilder_horizons:magic/goddess_statue_altar",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -59,7 +59,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "valleycraft:magic/goddess_statue_destroyed",
+        "location": "wilder_horizons:magic/goddess_statue_destroyed",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -68,7 +68,7 @@
     {
       "weight": 15,
       "element": {
-        "location": "valleycraft:magic/goddess_statue",
+        "location": "wilder_horizons:magic/goddess_statue",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -77,7 +77,7 @@
     {
       "weight": 7,
       "element": {
-        "location": "valleycraft:magic/grave_circle",
+        "location": "wilder_horizons:magic/grave_circle",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -86,7 +86,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:magic/lily_circle",
+        "location": "wilder_horizons:magic/lily_circle",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
@@ -95,7 +95,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:magic/skeleton_circle",
+        "location": "wilder_horizons:magic/skeleton_circle",
         "processors": "minecraft:empty",
         "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"

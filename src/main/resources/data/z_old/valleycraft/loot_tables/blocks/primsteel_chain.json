@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:primsteel_chain"
+          "name": "wilder_horizons:primsteel_chain"
         }
       ],
       "conditions": [

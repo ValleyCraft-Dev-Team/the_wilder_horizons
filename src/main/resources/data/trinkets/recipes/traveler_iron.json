@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:knife_iron"
+  },
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "wilder_horizons:traveler_iron"
+  }
+}

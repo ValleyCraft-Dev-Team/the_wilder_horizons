@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:orange_seagrass"
+          "name": "wilder_horizons:orange_seagrass"
         }
       ],
       "conditions": [

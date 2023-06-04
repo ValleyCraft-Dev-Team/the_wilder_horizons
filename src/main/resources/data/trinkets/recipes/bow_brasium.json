@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "item": "wilder_horizons:brasium_ingot"
+  },
+  "result": {
+    "item": "wilder_horizons:brasium_compound_bow"
+  }
+}

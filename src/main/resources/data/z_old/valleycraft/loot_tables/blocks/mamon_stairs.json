@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:mamon_stairs"
+          "name": "wilder_horizons:mamon_stairs"
         }
       ],
       "conditions": [

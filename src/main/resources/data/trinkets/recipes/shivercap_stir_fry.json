@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:shivercap"
+    },
+    {
+      "item": "wilder_horizons:jungle_cap"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "c:olive_oils"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:shivercap_stir_fry",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:maize_flour"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "tag": "c:purified_water"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:corn_bread_dough",
+    "count": 1
+  }
+}

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:mossy_stone"
+          "name": "wilder_horizons:mossy_stone"
         }
       ],
       "conditions": [

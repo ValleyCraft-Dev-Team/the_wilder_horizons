@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#O#",
+    "OOO",
+    "#O#"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:diamond_fragments"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:ornate_obsidian_table",
+    "count": 1
+  }
+}

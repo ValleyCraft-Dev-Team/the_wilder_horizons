@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:cooked_phantom",
+    "wilder_horizons:cooked_phantom",
     "minecraft:fermented_spider_eye"
   ]
 }

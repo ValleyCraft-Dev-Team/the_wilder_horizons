@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:apple_planks",
-    "valleycraft:mamon_planks"
+    "wilder_horizons:apple_planks",
+    "wilder_horizons:mamon_planks"
   ]
 }

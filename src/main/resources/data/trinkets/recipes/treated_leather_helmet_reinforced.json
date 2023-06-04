@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:treated_leather"
+    },
+    "S": {
+      "item": "wilder_horizons:leather_strap"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:reinforced_leather_helmet",
+    "count": 1
+  }
+}

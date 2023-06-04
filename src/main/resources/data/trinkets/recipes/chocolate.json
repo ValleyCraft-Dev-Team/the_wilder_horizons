@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "wilder_horizons:butter"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:chocolate",
+    "count": 2
+  }
+}

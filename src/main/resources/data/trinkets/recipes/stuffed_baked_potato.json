@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:hearty_beetroot"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "wilder_horizons:baked_onion"
+    },
+    {
+      "item": "wilder_horizons:butter"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:stuffed_baked_potato",
+    "count": 1
+  }
+}

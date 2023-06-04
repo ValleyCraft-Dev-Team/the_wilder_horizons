@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:classic_dungeon/start_pool",
+ "name": "wilder_horizons:classic_dungeon/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 15,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/goddess_fountain_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/goddess_fountain_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/cave_spider_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/cave_spider_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/chicken_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/chicken_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 15,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/creeper_nest",
+        "location": "wilder_horizons:underground/classic_dungeons/creeper_nest",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -41,7 +41,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/conquered_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/conquered_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -50,7 +50,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/conquered_dungeon_2",
+        "location": "wilder_horizons:underground/classic_dungeons/conquered_dungeon_2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -59,7 +59,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/creeper_summoning_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/creeper_summoning_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -68,7 +68,7 @@
     {
       "weight": 15,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/flooded_small_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/flooded_small_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -77,7 +77,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/herobrine_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/herobrine_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -86,7 +86,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/hotsprings",
+        "location": "wilder_horizons:underground/classic_dungeons/hotsprings",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -95,7 +95,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/magic_circle",
+        "location": "wilder_horizons:underground/classic_dungeons/magic_circle",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -104,7 +104,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/quad_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/quad_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -113,7 +113,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/rot_leaching_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/rot_leaching_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -122,7 +122,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/the_lovers",
+        "location": "wilder_horizons:underground/classic_dungeons/the_lovers",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -131,7 +131,7 @@
     {
       "weight": 20,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/trapped_dungeon_1",
+        "location": "wilder_horizons:underground/classic_dungeons/trapped_dungeon_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -140,7 +140,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/witchs_lab",
+        "location": "wilder_horizons:underground/classic_dungeons/witchs_lab",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -149,7 +149,7 @@
     {
       "weight": 15,
       "element": {
-        "location": "valleycraft:underground/classic_dungeons/wither_dungeon",
+        "location": "wilder_horizons:underground/classic_dungeons/wither_dungeon",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

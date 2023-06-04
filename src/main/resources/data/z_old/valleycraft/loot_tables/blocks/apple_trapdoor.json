@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:apple_trapdoor"
+          "name": "wilder_horizons:apple_trapdoor"
         }
       ],
       "conditions": [

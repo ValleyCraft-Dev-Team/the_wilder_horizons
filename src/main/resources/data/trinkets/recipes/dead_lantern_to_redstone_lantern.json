@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:dead_lantern"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "minecraft:lever"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:redstone_lantern",
+    "count": 1
+  }
+}

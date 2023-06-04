@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:sweet_berry_pie"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:sweet_berry_pie_slice",
+    "count": 8
+  }
+}

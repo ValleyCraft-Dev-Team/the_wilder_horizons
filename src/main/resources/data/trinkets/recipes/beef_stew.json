@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:broths"
+    },
+    {
+      "tag": "c:steaks"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "wilder_horizons:onion"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:beef_stew",
+    "count": 1
+  }
+}

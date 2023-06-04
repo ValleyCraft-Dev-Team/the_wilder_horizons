@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:leather_block"
+          "name": "wilder_horizons:leather_block"
         }
       ],
       "conditions": [

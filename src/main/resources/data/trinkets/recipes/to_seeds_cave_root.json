@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:cave_root"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:cave_root_seeds",
+    "count": 1
+  }
+}

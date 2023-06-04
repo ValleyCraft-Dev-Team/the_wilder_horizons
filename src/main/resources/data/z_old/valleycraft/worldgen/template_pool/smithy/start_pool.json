@@ -1,11 +1,11 @@
 {
- "name": "valleycraft:smithy/start_pool",
+ "name": "wilder_horizons:smithy/start_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 7,
       "element": {
-        "location": "valleycraft:homesteads/smithys/smithy_short_dead",
+        "location": "wilder_horizons:homesteads/smithys/smithy_short_dead",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:homesteads/smithys/smithy_short",
+        "location": "wilder_horizons:homesteads/smithys/smithy_short",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 5,
       "element": {
-        "location": "valleycraft:homesteads/smithys/smithy_tall_abandoned",
+        "location": "wilder_horizons:homesteads/smithys/smithy_tall_abandoned",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -32,7 +32,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "valleycraft:homesteads/smithys/smithy_tall",
+        "location": "wilder_horizons:homesteads/smithys/smithy_tall",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

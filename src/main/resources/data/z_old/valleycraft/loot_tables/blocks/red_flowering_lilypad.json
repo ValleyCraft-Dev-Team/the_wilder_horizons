@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:red_flowering_lilypad"
+          "name": "wilder_horizons:red_flowering_lilypad"
         }
       ],
       "conditions": [

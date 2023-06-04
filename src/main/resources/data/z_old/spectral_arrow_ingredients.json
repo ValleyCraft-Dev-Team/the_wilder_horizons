@@ -5,8 +5,8 @@
     "minecraft:glow_berries",
     "minecraft:glow_lichen",
     "minecraft:glow_ink_sac",
-    "valleycraft:glow_kelp",
-    "valleycraft:glow_seagrass",
-    "valleycraft:raw_glowsquid_tentacle"
+    "wilder_horizons:glow_kelp",
+    "wilder_horizons:glow_seagrass",
+    "wilder_horizons:raw_glowsquid_tentacle"
   ]
 }

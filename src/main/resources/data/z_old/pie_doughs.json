@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:chocolate_pie_dough",
-    "valleycraft:pumpkin_pie_dough",
-    "valleycraft:apple_pie_dough",
-    "valleycraft:sweet_berry_pie_dough",
-    "valleycraft:glow_berry_pie_dough",
-    "valleycraft:chorus_fruit_pie_dough",
-    "valleycraft:enchanted_apple_pie_dough"
+    "wilder_horizons:chocolate_pie_dough",
+    "wilder_horizons:pumpkin_pie_dough",
+    "wilder_horizons:apple_pie_dough",
+    "wilder_horizons:sweet_berry_pie_dough",
+    "wilder_horizons:glow_berry_pie_dough",
+    "wilder_horizons:chorus_fruit_pie_dough",
+    "wilder_horizons:enchanted_apple_pie_dough"
   ]
 }

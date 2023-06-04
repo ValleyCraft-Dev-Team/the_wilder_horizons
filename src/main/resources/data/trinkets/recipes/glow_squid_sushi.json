@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:raw_glowsquid_tentacle"
+    },
+    {
+      "item": "wilder_horizons:cooked_rice"
+    },
+    {
+      "item": "wilder_horizons:cooked_rice"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:glow_squid_sushi",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#_#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "_": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:hot_plate",
+    "count": 3
+  }
+}

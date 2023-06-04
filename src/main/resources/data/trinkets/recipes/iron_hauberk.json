@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:iron_hauberk",
+    "count": 1
+  }
+}

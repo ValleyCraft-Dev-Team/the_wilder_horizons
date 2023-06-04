@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:monster_guts",
-    "valleycraft:monster_liver",
-    "valleycraft:monster_heart",
-    "valleycraft:raw_tripe",
-    "valleycraft:ender_dragon_gland"
+    "wilder_horizons:monster_guts",
+    "wilder_horizons:monster_liver",
+    "wilder_horizons:monster_heart",
+    "wilder_horizons:raw_tripe",
+    "wilder_horizons:ender_dragon_gland"
   ]
 }

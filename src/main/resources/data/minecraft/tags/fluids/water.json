@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:sludge_still",
-    "valleycraft:sludge_flowing"
+    "wilder_horizons:sludge_still",
+    "wilder_horizons:sludge_flowing"
   ]
 }

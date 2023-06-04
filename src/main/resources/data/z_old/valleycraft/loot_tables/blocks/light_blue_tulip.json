@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:light_blue_tulip"
+          "name": "wilder_horizons:light_blue_tulip"
         }
       ],
       "conditions": [

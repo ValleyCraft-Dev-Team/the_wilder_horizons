@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "valleycraft:guidestone_blank"
-  },
-  "result": "valleycraft:guidestone_symbol_hunger",
-  "count": 1
-}

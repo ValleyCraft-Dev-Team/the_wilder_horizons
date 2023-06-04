@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:cured_flesh",
+    "count": 1
+  }
+}

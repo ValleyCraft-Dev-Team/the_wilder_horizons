@@ -63,6 +63,13 @@ public class WHMiscItems {
     public static final Item SHEEPSKIN = registerItem("sheepskin",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
 
+    public static final Item CLAY_JAR = registerItem("clay_jar",
+            new ClayPotItem(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item WATER_FILLED_CLAY_JAR = registerItem("water_clay_jar",
+            new WaterClayPotItem(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item PURIFIED_WATER_FILLED_CLAY_JAR = registerItem("purified_water_clay_jar",
+            new PurifiedWaterClayPotItem(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS)));
+
     public static final Item BEAST_CLAW = registerItem("beast_claw",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item BONEFIN_SKELETON = registerItem("bonefin_skeleton",
@@ -70,6 +77,8 @@ public class WHMiscItems {
     public static final Item LIFE_GEM = registerItem("life_gem",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item BRIMSTONE_CRYSTAL = registerItem("brimstone_crystal",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item CHARCOAL_NUGGET = registerItem("charcoal_nugget",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item COAL_NUGGET = registerItem("coal_nugget",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));

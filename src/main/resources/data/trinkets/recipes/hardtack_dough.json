@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:hardtack_dough",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:empty_bookshelf"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "tag": "c:plank_items"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:tool_bookshelf",
+    "count": 1
+  }
+}

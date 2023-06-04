@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:glow_kelp_block"
+          "name": "wilder_horizons:glow_kelp_block"
         }
       ],
       "conditions": [

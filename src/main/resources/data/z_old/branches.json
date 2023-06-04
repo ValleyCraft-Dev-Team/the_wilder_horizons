@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:driftwood_branch",
-    "valleycraft:branch"
+    "wilder_horizons:driftwood_branch",
+    "wilder_horizons:branch"
   ]
 }

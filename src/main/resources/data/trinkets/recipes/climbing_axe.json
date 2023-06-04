@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "VD ",
+    " D "
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:brasium_ingot"
+    },
+    "V": {
+      "item": "wilder_horizons:monster_claw"
+    },
+    "D": {
+      "item": "wilder_horizons:reinforced_handle"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:climbing_axe",
+    "count": 1
+  }
+}

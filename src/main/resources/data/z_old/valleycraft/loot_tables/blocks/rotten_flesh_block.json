@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "valleycraft:rotten_flesh_block"
+          "name": "wilder_horizons:rotten_flesh_block"
         }
       ],
       "conditions": [

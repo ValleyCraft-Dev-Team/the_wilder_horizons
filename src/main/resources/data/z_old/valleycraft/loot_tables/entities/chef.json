@@ -8,7 +8,7 @@
         {
           "type": "minecraft:item",
           "weight": 19,
-          "name": "valleycraft:carrot_stew",
+          "name": "wilder_horizons:carrot_stew",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -22,7 +22,7 @@
         {
           "type": "minecraft:item",
           "weight": 14,
-          "name": "valleycraft:stuffed_baked_potato",
+          "name": "wilder_horizons:stuffed_baked_potato",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -69,7 +69,7 @@
         {
           "type": "minecraft:item",
           "weight": 11,
-          "name": "valleycraft:knife_iron"
+          "name": "wilder_horizons:knife_iron"
         }
       ]
     },
@@ -80,7 +80,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:salt",
+          "name": "wilder_horizons:salt",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -94,7 +94,7 @@
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "valleycraft:onion",
+          "name": "wilder_horizons:onion",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -108,7 +108,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "valleycraft:pumpkin_slice",
+          "name": "wilder_horizons:pumpkin_slice",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -150,7 +150,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "valleycraft:bread_dough",
+          "name": "wilder_horizons:bread_dough",
           "functions": [
             {
               "function": "minecraft:set_count",

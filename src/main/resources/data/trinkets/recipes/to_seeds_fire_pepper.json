@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:fire_pepper"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:fire_pepper_seeds",
+    "count": 1
+  }
+}

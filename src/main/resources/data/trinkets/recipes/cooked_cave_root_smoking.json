@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:cave_root"
+    }
+  ],
+  "result": "wilder_horizons:cooked_cave_root"
+}

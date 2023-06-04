@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "valleycraft:cooked_silverfish",
-    "valleycraft:cooked_tripe",
-    "valleycraft:cooked_worm",
-    "valleycraft:cooked_cave_maggot"
+    "wilder_horizons:cooked_silverfish",
+    "wilder_horizons:cooked_tripe",
+    "wilder_horizons:cooked_worm",
+    "wilder_horizons:cooked_cave_maggot"
   ]
 }

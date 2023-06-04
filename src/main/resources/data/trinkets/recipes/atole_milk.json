@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:milk_bottles"
+    },
+    {
+      "item": "wilder_horizons:maize_flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:atole_milk",
+    "count": 1
+  }
+}
