@@ -16,9 +16,9 @@ import net.minecraft.world.RaycastContext;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 
-public class ClayPotItem extends GlassBottleItem {
+public class ClayJarItemEmpty extends GlassBottleItem {
 
-    public ClayPotItem(Settings settings) {
+    public ClayJarItemEmpty(Settings settings) {
         super(settings);
     }
 

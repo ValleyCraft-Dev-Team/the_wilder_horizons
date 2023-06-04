@@ -1,0 +1,28 @@
+package net.linkle.wilder_horizons.block;
+
+import net.minecraft.block.BlockState;
+import net.minecraft.block.FallingBlock;
+import net.minecraft.block.ShapeContext;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
+import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
+
+public class QuicksandBlock extends FallingBlock {
+    public QuicksandBlock(Settings settings) {
+        super(settings);
+    }
+
+    public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+        entity.slowMovement(state, new Vec3d(0.25D, 0.05000000074505806D, 0.25D));
+        entity.damage(DamageSource.IN_WALL, 1.0F);
+    }
+
+    public VoxelShape getCameraCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        return VoxelShapes.empty();
+    }
+}

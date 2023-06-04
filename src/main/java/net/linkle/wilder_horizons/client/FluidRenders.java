@@ -9,7 +9,7 @@ import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
 import net.linkle.wilder_horizons.Main;
-import net.linkle.wilder_horizons.init.Fluids;
+import net.linkle.wilder_horizons.init.WHFluids;
 import net.minecraft.client.texture.SpriteAtlasTexture;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.util.Identifier;
@@ -24,11 +24,11 @@ class FluidRenders {
         ClientSpriteRegistryCallback.event(SpriteAtlasTexture.BLOCK_ATLAS_TEXTURE).register((atlas, registry) -> TEXS.forEach(registry::register));
         
         var sludge_tex = new SimpleFluidRenderHandler(tex("block/sludge_still"), tex("block/sludge_flowing"), tex("overlay/sludge_overlay"));
-        register(Fluids.SLUDGE_STILL, sludge_tex);
-        register(Fluids.SLUDGE_FLOWING, sludge_tex);
+        register(WHFluids.SLUDGE_STILL, sludge_tex);
+        register(WHFluids.SLUDGE_FLOWING, sludge_tex);
     }
     
-    private static void register(Fluids fluid, FluidRenderHandler renderer) {
+    private static void register(WHFluids fluid, FluidRenderHandler renderer) {
         register(fluid.fluid, renderer);
     }
     

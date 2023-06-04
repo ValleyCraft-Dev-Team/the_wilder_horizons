@@ -3,7 +3,9 @@ package net.linkle.wilder_horizons.init;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.item.*;
+import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -64,11 +66,11 @@ public class WHMiscItems {
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
 
     public static final Item CLAY_JAR = registerItem("clay_jar",
-            new ClayPotItem(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS)));
+            new ClayJarItemEmpty(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item WATER_FILLED_CLAY_JAR = registerItem("water_clay_jar",
-            new WaterClayPotItem(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS)));
+            new ClayJarItemWater(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS), 0,0));
     public static final Item PURIFIED_WATER_FILLED_CLAY_JAR = registerItem("purified_water_clay_jar",
-            new PurifiedWaterClayPotItem(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS)));
+            new ClayJarItemPurifiedWater(new FabricItemSettings().maxCount(8).group(WHGroups.WH_MISCELLANEOUS), 0,0));
 
     public static final Item BEAST_CLAW = registerItem("beast_claw",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
@@ -165,6 +167,9 @@ public class WHMiscItems {
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item TOTEM_OF_PACIFISM = registerItem("totem_of_pacifism",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+
+    public static final Item SLUDGE_BUCKET = registerItem("bucket_of_sludge",
+            new BucketItem(WHFluids.SLUDGE_STILL.fluid, new FabricItemSettings().maxCount(1).recipeRemainder(Items.BUCKET).group(WHGroups.WH_MISCELLANEOUS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

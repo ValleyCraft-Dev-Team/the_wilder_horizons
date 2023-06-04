@@ -1,23 +1,4 @@
-package net.linkle.valleycraft.init;
-
-import static net.linkle.valleycraft.init.Groups.*;
-import static net.minecraft.util.Rarity.EPIC;
-import static net.minecraft.util.Rarity.RARE;
-import static net.minecraft.util.Rarity.UNCOMMON;
-
-import net.linkle.valleycraft.Main;
-import net.linkle.valleycraft.enums.ItemEnum;
-import net.linkle.valleycraft.item.*;
-import net.linkle.valleycraft.item.clay_pot.ClayPotItem;
-import net.linkle.valleycraft.item.clay_pot.WaterClayPotItem;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.*;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
-import net.minecraft.util.registry.Registry;
-
-public enum ItemsModded implements ItemEnum {
+/**public enum ItemsModded implements ItemEnum {
     CLAY_POT(new ClayPotItem(itemSettings().maxCount(8).group(VC_ITEMS))),
     WATER_FILLED_CLAY_POT(new WaterClayPotItem(itemSettings().maxCount(4).group(VC_ITEMS).recipeRemainder(ItemsModded.CLAY_POT.item), 0, 0.0f)),
 
@@ -199,3 +180,4 @@ public enum ItemsModded implements ItemEnum {
         return id;
     }
 }
+**/

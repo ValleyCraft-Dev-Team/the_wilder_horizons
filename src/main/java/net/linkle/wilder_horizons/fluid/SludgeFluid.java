@@ -8,7 +8,7 @@ import net.linkle.wilder_horizons.init.WHParticles;
 import net.minecraft.sound.SoundCategory;
 import org.jetbrains.annotations.Nullable;
 
-import net.linkle.wilder_horizons.init.Fluids;
+import net.linkle.wilder_horizons.init.WHFluids;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.FluidBlock;
@@ -35,17 +35,17 @@ public abstract class SludgeFluid extends FlowableFluid {
 
     @Override
     public Fluid getFlowing() {
-        return Fluids.SLUDGE_FLOWING.fluid;
+        return WHFluids.SLUDGE_FLOWING.fluid;
     }
 
     @Override
     public Fluid getStill() {
-        return Fluids.SLUDGE_STILL.fluid;
+        return WHFluids.SLUDGE_STILL.fluid;
     }
 
     @Override
     public Item getBucketItem() {
-        return ItemsModded.SLUDGE_BUCKET.item;
+        return WHMiscItems.SLUDGE_BUCKET;
     }
 
     @Override
@@ -63,7 +63,7 @@ public abstract class SludgeFluid extends FlowableFluid {
     @Override
     @Nullable
     public ParticleEffect getParticle() {
-        return Particles.DRIPPING_SLUDGE;
+        return WHParticles.DRIPPING_SLUDGE;
     }
 
     @Override
@@ -89,12 +89,12 @@ public abstract class SludgeFluid extends FlowableFluid {
 
     @Override
     public BlockState toBlockState(FluidState state) {
-        return BlocksNatural.SLUDGE_FLUID.getState().with(FluidBlock.LEVEL, getBlockStateLevel(state));
+        return WHNature.SLUDGE_FLUID.getState().with(FluidBlock.LEVEL, getBlockStateLevel(state));
     }
 
     @Override
     public boolean matchesType(Fluid fluid) {
-        return fluid == Fluids.SLUDGE_STILL.fluid || fluid == Fluids.SLUDGE_FLOWING.fluid;
+        return fluid == WHFluids.SLUDGE_STILL.fluid || fluid == WHFluids.SLUDGE_FLOWING.fluid;
     }
 
     @Override

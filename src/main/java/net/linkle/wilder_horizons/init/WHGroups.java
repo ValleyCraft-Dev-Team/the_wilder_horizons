@@ -18,7 +18,7 @@ public class WHGroups {
     public static final ItemGroup WH_MISCELLANEOUS = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_miscellaneous"), () -> new ItemStack(WHMiscItems.JELLY_BLOB));
     public static final ItemGroup WH_ARMORS = FabricItemGroupBuilder.build
-            (new Identifier(Main.ID,"wh_armors"), () -> new ItemStack(WHArmors.));
+            (new Identifier(Main.ID,"wh_armors"), () -> new ItemStack(WHArmors.STRAW_HAT));
     public static final ItemGroup WH_TOOLS = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_tools"), () -> new ItemStack(WHTools.));
     public static final ItemGroup WH_BLOCKS = FabricItemGroupBuilder.build

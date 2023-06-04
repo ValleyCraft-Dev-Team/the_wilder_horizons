@@ -23,6 +23,9 @@ public class WHArmors {
     public static final Item AZAELEA_CROWN = registerItem("azalea_crown",
             new ArmorItem(WHArmorMaterials.AZALEA_CROWN, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
+    public static final Item STRAW_HAT = registerItem("straw_hat",
+            new ArmorItem(WHArmorMaterials.STRAW_HAT, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+
     /**shroomleather items**/
     public static final Item HOOD = registerItem("hood",
             new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
@@ -38,6 +41,10 @@ public class WHArmors {
 
     public static final Item SANDALS = registerItem("sandals",
             new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+
+    /**leather items**/
+    public static final Item COWPOKE_HAT = registerItem("cowpoke_hat",
+            new ArmorItem(WHArmorMaterials.COWPOKE_HAT, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

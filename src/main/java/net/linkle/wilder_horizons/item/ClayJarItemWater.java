@@ -1,7 +1,6 @@
 package net.linkle.wilder_horizons.item;
 
 import net.linkle.wilder_horizons.init.WHMiscItems;
-import net.linkle.wilder_horizons.item.FoodItem;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -14,11 +13,11 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
-public class WaterClayPotItem extends FoodItem {
+public class ClayJarItemWater extends FoodItem {
 
     private boolean isMilk;
 
-    public WaterClayPotItem(Settings settings, int hunger, float satMod) {
+    public ClayJarItemWater(Settings settings, int hunger, float satMod) {
         super(settings, hunger, satMod);
     }
 
@@ -58,7 +57,7 @@ public class WaterClayPotItem extends FoodItem {
     //}
     
     /** Make this item clear effects when consumed like bucket of milk. */
-    public WaterClayPotItem setMilk() {
+    public ClayJarItemWater setMilk() {
         isMilk = true;
         return this;
     }

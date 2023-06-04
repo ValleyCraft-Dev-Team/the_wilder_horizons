@@ -1,0 +1,32 @@
+package net.linkle.wilder_horizons.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
+import net.minecraft.world.BlockView;
+
+import java.util.List;
+
+public class StalwartBlock extends ModMushroomBlockDaySafe {
+    public StalwartBlock() {
+        this(Settings.copy(Blocks.RED_MUSHROOM).ticksRandomly());
+    }
+
+    public StalwartBlock(Settings settings) {
+        super(settings);
+    }
+    
+    public StalwartBlock large() {
+        shape = Block.createCuboidShape(4, 0, 4, 12, 9, 12);
+        return this;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack itemStack, BlockView world, List<Text> tooltip, TooltipContext tooltipContext) {
+        tooltip.add( Text.translatable("block.wilder_horizons.dishes.tooltip").formatted(Formatting.GRAY) );
+        tooltip.add( Text.translatable("block.wilder_horizons.dishes.tooltip_3").formatted(Formatting.GRAY) );
+    }
+}
