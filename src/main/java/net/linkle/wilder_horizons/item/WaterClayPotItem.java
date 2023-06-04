@@ -33,10 +33,10 @@ public class WaterClayPotItem extends FoodItem {
             user.clearStatusEffects();
         }
         if (stack.isEmpty()) {
-            return new ItemStack(WHMiscItems.CLAY_POT);
+            return new ItemStack(WHMiscItems.CLAY_JAR);
         }
         if (user instanceof PlayerEntity player && !player.getAbilities().creativeMode) {
-            var bowl = new ItemStack(WHMiscItems.CLAY_POT);
+            var bowl = new ItemStack(WHMiscItems.CLAY_JAR);
             if (!player.getInventory().insertStack(bowl)) {
                 player.dropItem(bowl, false);
             }
