@@ -2,7 +2,7 @@ package net.linkle.wilder_horizons.init;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.Main;
-import net.linkle.wilder_horizons.item.*;
+import net.linkle.wilder_horizons.item.armor.WHArmorMaterials;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
@@ -25,9 +25,9 @@ public class WHArmors {
 
     /**shroomleather items**/
     public static final Item HOOD = registerItem("hood",
-            new ArmorItem(WHArmorMaterials.LEATHER_TUNIC, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
     public static final Item CLOAK = registerItem("cloak",
-            new ArmorItem(WHArmorMaterials.LEATHER_TUNIC, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
     public static final Item NEUTRAL_GARMENTS = registerItem("neutral_garments",
             new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_NEUTRAL, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
@@ -37,7 +37,7 @@ public class WHArmors {
             new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_MASC, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
     public static final Item SANDALS = registerItem("sandals",
-            new ArmorItem(WHArmorMaterials.LEATHER_TUNIC, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);

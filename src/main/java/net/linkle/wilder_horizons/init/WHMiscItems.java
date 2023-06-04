@@ -147,8 +147,6 @@ public class WHMiscItems {
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item DRIED_SHROOMLEATHER = registerItem("dried_shroomleather",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
-    public static final Item TREATED_SHROOMLEATHER = registerItem("treated_shroomleather",
-            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item TREATED_LEATHER = registerItem("treated_leather",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item TREATED_LEATHER_STRAP = registerItem("treated_leather_strap",

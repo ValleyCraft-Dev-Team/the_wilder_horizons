@@ -13,34 +13,34 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class FoodItem extends AlphaModItem {
+public class FastFoodItem extends AlphaModItem {
     protected boolean hideTooltip;
 
-    public FoodItem(Settings settings) {
+    public FastFoodItem(Settings settings) {
         super(settings);
     }
 
     /** @param satMod = saturationModifier */
-    public FoodItem(Settings settings, int hunger, float satMod) {
+    public FastFoodItem(Settings settings, int hunger, float satMod) {
         this(settings, hunger, satMod, false);
     }
 
     /** @param satMod = saturationModifier */
-    public FoodItem(Settings settings, int hunger, float satMod, boolean isMeat) {
+    public FastFoodItem(Settings settings, int hunger, float satMod, boolean isMeat) {
         this(settings, hunger, satMod, isMeat, null);
     }
 
     /** @param satMod = saturationModifier */
-    public FoodItem(Settings settings, int hunger, float satMod, @Nullable FoodStatusEffect effects) {
+    public FastFoodItem(Settings settings, int hunger, float satMod, @Nullable FoodStatusEffect effects) {
         this(settings, hunger, satMod, false, effects);
     }
 
     /** @param satMod = saturationModifier */
-    public FoodItem(Settings settings, int hunger, float satMod, boolean isMeat, @Nullable FoodStatusEffect effects) {
+    public FastFoodItem(Settings settings, int hunger, float satMod, boolean isMeat, @Nullable FoodStatusEffect effects) {
         super(settings.food(newFoodComponent(hunger, satMod, isMeat, effects)));
     }
 
-    public FoodItem hideTooltip() {
+    public FastFoodItem hideTooltip() {
         hideTooltip = true;
         return this;
     }
@@ -90,6 +90,12 @@ public class FoodItem extends AlphaModItem {
         }
 
         super.appendTooltip(stack, world, tooltip, context);
+        tooltip.add( Text.translatable("item.wilder_horizons.fastfood.tooltip").formatted(Formatting.GRAY));
+        tooltip.add( Text.translatable("item.wilder_horizons.fastfood.tooltip_2").formatted(Formatting.GRAY));
+    }
+
+    @Override
+    public int getMaxUseTime(ItemStack stack) {
+        return 10;
     }
 }
-
