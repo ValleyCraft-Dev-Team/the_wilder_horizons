@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.tool.rusty;
+package net.linkle.wilder_horizons.item.tools.rusty;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

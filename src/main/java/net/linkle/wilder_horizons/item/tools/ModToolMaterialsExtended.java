@@ -1,6 +1,5 @@
-package net.linkle.wilder_horizons.tool;
+package net.linkle.wilder_horizons.item.tools;
 
-import net.linkle.wilder_horizons.init.ItemsModded;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;

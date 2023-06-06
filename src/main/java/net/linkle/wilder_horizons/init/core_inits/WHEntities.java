@@ -1,7 +1,5 @@
 package net.linkle.wilder_horizons.init.core_inits;
 
-import static net.linkle.wilder_horizons.enums.EntityEnum.*;
-
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
@@ -17,6 +15,7 @@ import net.linkle.wilder_horizons.client.entity.renderer.pupkins.PupkinEntityRen
 import net.linkle.wilder_horizons.client.entity.renderer.snails.SnailEntityRenderer;
 import net.linkle.wilder_horizons.entity.*;
 import net.linkle.wilder_horizons.entity.fish.*;
+import net.linkle.wilder_horizons.entity.projectiles.ThrownRockEntity;
 import net.linkle.wilder_horizons.entity.pupkins.PupkinEntity;
 import net.linkle.wilder_horizons.entity.snails.CaveSnailEntity;
 import net.linkle.wilder_horizons.entity.snails.SnailEntity;
@@ -30,6 +29,8 @@ import net.minecraft.entity.passive.FishEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.Heightmap;
+
+import static net.linkle.wilder_horizons.enums.EntityEnum.*;
 
 /**
  * See {@link EntityType} for vanilla entities as a reference to determine the

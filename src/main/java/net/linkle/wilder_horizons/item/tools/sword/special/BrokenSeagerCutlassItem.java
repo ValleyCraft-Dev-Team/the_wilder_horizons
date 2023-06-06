@@ -1,9 +1,9 @@
-package net.linkle.wilder_horizons.tool.sword.special;
+package net.linkle.wilder_horizons.item.tools.sword.special;
 
 import java.util.List;
 
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
-import net.linkle.wilder_horizons.init.Groups;
+import net.linkle.wilder_horizons.init.WHGroups;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
@@ -18,7 +18,7 @@ public class BrokenSeagerCutlassItem
 extends SwordItem
 implements EnchantmentHandler {
     public BrokenSeagerCutlassItem(ToolMaterial material, int attackDamage, float attackSpeed) {
-        super(material, attackDamage, attackSpeed, new Settings().group(Groups.VC_TOOLS));
+        super(material, attackDamage, attackSpeed, new Settings().group(WHGroups.WH_TOOLS));
     }
 
     @Override

@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.tool.knife.special;
+package net.linkle.wilder_horizons.item.tools.knife.special;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

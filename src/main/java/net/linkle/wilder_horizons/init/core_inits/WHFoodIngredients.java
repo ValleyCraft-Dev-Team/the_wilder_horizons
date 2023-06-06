@@ -122,7 +122,7 @@ public enum WHFoodIngredients implements ItemEnum {
 
     /** Called from {@link WHMiscItems} */
 
-    static void initialize() {
+    public static void initialize() {
         
     }
 

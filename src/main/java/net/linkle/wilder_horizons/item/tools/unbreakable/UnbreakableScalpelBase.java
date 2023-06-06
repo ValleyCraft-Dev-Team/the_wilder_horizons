@@ -1,10 +1,8 @@
-package net.linkle.wilder_horizons.tool.unbreakable;
-
-import java.util.List;
+package net.linkle.wilder_horizons.item.tools.unbreakable;
 
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
 import net.linkle.wilder_horizons.interfaces.PreventDestroy;
-import net.linkle.wilder_horizons.tool.WeaponItem;
+import net.linkle.wilder_horizons.item.tools.WeaponItem;
 import net.linkle.wilder_horizons.util.WHItemUsageContext;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.item.TooltipContext;
@@ -20,6 +18,8 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 import static net.minecraft.item.Items.BONE_MEAL;
 

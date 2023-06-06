@@ -149,8 +149,7 @@ public enum WHFoods implements ItemEnum {
 
     /**list new items below here, move above after adding a recipe for them**/
 
-    /** Called from {@link ItemsModded} */
-    static void initialize() {
+    public static void initialize() {
         
     }
 

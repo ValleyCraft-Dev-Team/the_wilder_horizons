@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.tool.sword.special;
+package net.linkle.wilder_horizons.item.tools.sword.special;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;

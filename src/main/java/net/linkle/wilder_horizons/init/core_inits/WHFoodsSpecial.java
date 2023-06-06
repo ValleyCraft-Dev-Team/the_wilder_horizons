@@ -52,7 +52,7 @@ public enum WHFoodsSpecial implements ItemEnum {
     /**list new items below here, move above after adding a recipe for them**/
 
     /** Called from {@link WHMiscItems} */
-    static void initialize() {
+    public static void initialize() {
     }
     
     private static Item.Settings settings() {

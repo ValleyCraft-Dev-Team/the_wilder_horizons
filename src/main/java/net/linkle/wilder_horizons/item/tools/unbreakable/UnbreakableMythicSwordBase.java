@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.tool.unbreakable;
+package net.linkle.wilder_horizons.item.tools.unbreakable;
 
 import java.util.List;
 
