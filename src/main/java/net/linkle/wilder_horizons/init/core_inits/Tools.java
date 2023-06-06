@@ -1,35 +1,14 @@
-package net.linkle.wilder_horizons.init;
+package net.linkle.wilder_horizons.init.core_inits;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.linkle.wilder_horizons.tool.ModToolMaterials;
-import net.linkle.wilder_horizons.tool.ModToolMaterialsExtended;
-import net.linkle.wilder_horizons.tool.Scalpel;
-import net.linkle.wilder_horizons.tool.anthro.AnthroPickaxeItem;
-import net.linkle.wilder_horizons.tool.anthro.AnthroPickaxeMaterial;
-import net.linkle.wilder_horizons.tool.bows.ModBowItem;
-import net.linkle.wilder_horizons.tool.environmental.*;
-import net.linkle.wilder_horizons.tool.greatsword.GreatswordBase;
-import net.linkle.wilder_horizons.tool.hatchet.HatchetAxeBase;
-import net.linkle.wilder_horizons.tool.knife.DaggerBase;
-import net.linkle.wilder_horizons.tool.knife.KnifeBase;
-import net.linkle.wilder_horizons.tool.rusty.*;
-import net.linkle.wilder_horizons.tool.scythe.ScytheBase;
-import net.linkle.wilder_horizons.tool.staff.StaffBase;
-import net.linkle.wilder_horizons.tool.throwing.RockItem;
-import net.linkle.wilder_horizons.tool.travelers_sword.TravelerBase;
-import net.linkle.wilder_horizons.tool.unbreakable.UnbreakableScalpelBase;
-import net.linkle.wilder_horizons.tool.woodcutter_axe.WoodcutterAxeBase;
+import net.linkle.wilder_horizons.interfaces.PreventDestroy;
+import net.linkle.wilder_horizons.item.ClimbingAxeItem;
+import net.linkle.wilder_horizons.item.ModHoeItem;
 import net.linkle.wilder_horizons.util.Reg;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
-
-import static net.linkle.wilder_horizons.init.Groups.VC_TOOLS;
-
-import net.linkle.wilder_horizons.interfaces.PreventDestroy;
-import net.linkle.wilder_horizons.item.ClimbingAxeItem;
-import net.linkle.wilder_horizons.item.ModHoeItem;
 
 public class Tools {
     //When we need to access a tool or weapon elsewhere in the codebase, such as to inject them into loot tables, we need them stored in variables.

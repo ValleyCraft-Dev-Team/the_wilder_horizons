@@ -1,7 +1,6 @@
 package net.linkle.wilder_horizons.item;
 
-import net.linkle.wilder_horizons.init.ItemsModded;
-import net.linkle.wilder_horizons.init.Tools;
+import net.linkle.wilder_horizons.init.core_inits.WHMiscItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -13,7 +12,6 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
-import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
 public class StringSpoolItem extends Item {
@@ -32,11 +30,11 @@ public class StringSpoolItem extends Item {
             var inventory = player.getInventory();
 
             if (stack.isEmpty()) {
-                inventory.insertStack(new ItemStack(ItemsModded.PLANT_FIBER_STRING, 3));
+                inventory.insertStack(new ItemStack(WHMiscItems.PLANT_FIBER_STRING, 3));
                 return new ItemStack(Items.STICK, 1);
             }
 
-            inventory.insertStack(new ItemStack(ItemsModded.PLANT_FIBER_STRING, 3));
+            inventory.insertStack(new ItemStack(WHMiscItems.PLANT_FIBER_STRING, 3));
             inventory.insertStack(new ItemStack(Items.STICK, 1));
             return stack;
         }

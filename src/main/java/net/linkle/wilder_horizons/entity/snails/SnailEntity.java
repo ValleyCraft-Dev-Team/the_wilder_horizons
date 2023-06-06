@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.snails;
 
-import net.linkle.wilder_horizons.init.Entities;
+import net.linkle.wilder_horizons.init.core_inits.WHEntities;
 import net.linkle.wilder_horizons.init.core_inits.WHFoodIngredients;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
@@ -46,7 +46,7 @@ public class SnailEntity extends AnimalEntity {
 
     @Override
     public PassiveEntity createChild(ServerWorld world, PassiveEntity entity) {
-        return Entities.SNAIL.create(world);
+        return WHEntities.SNAIL.create(world);
     }
 
     public static DefaultAttributeContainer.Builder createSnailAttributes() {

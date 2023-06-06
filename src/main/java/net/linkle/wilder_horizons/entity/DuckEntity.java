@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity;
 
-import net.linkle.wilder_horizons.init.Entities;
+import net.linkle.wilder_horizons.init.core_inits.WHEntities;
 import net.linkle.wilder_horizons.sounds.WHSounds;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
@@ -58,7 +58,7 @@ public class DuckEntity extends AnimalEntity {
 
     @Override
     public ChickenEntity createChild(ServerWorld serverWorld, PassiveEntity passiveEntity) {
-        return Entities.DUCK.create(serverWorld);
+        return WHEntities.DUCK.create(serverWorld);
     }
     
     @Override

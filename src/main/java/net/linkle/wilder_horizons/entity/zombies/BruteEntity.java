@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.zombies;
 
-import net.linkle.wilder_horizons.effect.ModEffects;
+import net.linkle.wilder_horizons.init.core_inits.WHEffects;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -24,7 +24,7 @@ public class BruteEntity extends ZombieEntity {
             return false;
         } else {
             if (target instanceof LivingEntity) {
-                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(ModEffects.ROT_BLIGHT, 100), this);
+                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT, 100), this);
             }
             return true;
         }

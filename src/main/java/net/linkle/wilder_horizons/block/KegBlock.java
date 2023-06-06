@@ -1,9 +1,9 @@
 package net.linkle.wilder_horizons.block;
 
-import java.util.List;
-
-import net.linkle.wilder_horizons.init.ItemsModded;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Material;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.entity.player.PlayerEntity;
@@ -30,6 +30,8 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class KegBlock extends BlockWithWater {
     
@@ -94,8 +96,6 @@ public class KegBlock extends BlockWithWater {
             if (stack.isOf(net.minecraft.item.Items.GLASS_BOTTLE)) {
                 hasFill = true;
                 player.setStackInHand(hand, ItemUsage.exchangeStack(stack, player, PotionUtil.setPotion(new ItemStack(net.minecraft.item.Items.POTION), Potions.WATER)));
-            } else if (stack.isOf(ItemsModded.CLAY_POT.item)) {
-                player.setStackInHand(hand, ItemUsage.exchangeStack(stack, player, (new ItemStack(ItemsModded.WATER_FILLED_CLAY_POT.item))));
             }
 
             if (hasFill) {

@@ -1,17 +1,14 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.effect.ModEffects;
+import net.linkle.wilder_horizons.init.core_inits.WHEffects;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.world.ClientWorld;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.World;
@@ -25,7 +22,7 @@ public class PoisonPlantBlock extends ModPlantBlock {
     @Override
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
         if (entity instanceof LivingEntity living) {
-            living.addStatusEffect(new StatusEffectInstance(ModEffects.ROT_BLIGHT, 3*20));
+            living.addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT, 3*20));
         }
     }
     
@@ -39,7 +36,7 @@ public class PoisonPlantBlock extends ModPlantBlock {
             if (!random.nextBoolean()) continue;
             var pm = MinecraftClient.getInstance().particleManager;
             var p = pm.addParticle(ParticleTypes.EFFECT, x + random.nextDouble() / 5.0, (double)pos.getY() + (0.5 - random.nextDouble()), z + random.nextDouble() / 5.0, 0, 0, 0);
-            var c = ModEffects.ROT_BLIGHT.getColor();
+            var c = WHEffects.ROT_BLIGHT.getColor();
             var r = (float)(c >> 16 & 0xFF) / 255.0f;
             var g = (float)(c >> 8 & 0xFF) / 255.0f;
             var b = (float)(c >> 0 & 0xFF) / 255.0f;

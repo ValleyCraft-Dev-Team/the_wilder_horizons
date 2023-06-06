@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity;
 
-import net.linkle.wilder_horizons.init.Entities;
+import net.linkle.wilder_horizons.init.core_inits.WHEntities;
 import org.jetbrains.annotations.Nullable;
 
 import net.minecraft.entity.EntityData;
@@ -29,7 +29,7 @@ public class ChickenVariant extends ChickenEntity {
 
     @Override
     public ChickenVariant createChild(ServerWorld serverWorld, PassiveEntity entity) {
-        ChickenVariant child = Entities.CHICKEN.create(serverWorld);
+        ChickenVariant child = WHEntities.CHICKEN.create(serverWorld);
         int type = getChickenType();
         if (random.nextBoolean() && entity instanceof ChickenVariant chicken) {
             type = chicken.getChickenType();

@@ -5,6 +5,7 @@ import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.init.core_inits.*;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 public class WHGroups {
@@ -21,7 +22,7 @@ public class WHGroups {
     public static final ItemGroup WH_ARMORS = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_armors"), () -> new ItemStack(WHArmors.STRAW_HAT));
     public static final ItemGroup WH_TOOLS = FabricItemGroupBuilder.build
-            (new Identifier(Main.ID,"wh_tools"), () -> new ItemStack(WHTools.));
+            (new Identifier(Main.ID,"wh_tools"), () -> new ItemStack(Items.IRON_PICKAXE));
     public static final ItemGroup WH_BLOCKS = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_blocks"), () -> new ItemStack(WHBlocks.APPLE_DOOR));
 }

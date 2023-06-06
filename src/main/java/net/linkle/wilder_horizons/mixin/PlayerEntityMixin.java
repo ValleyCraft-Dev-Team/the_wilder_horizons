@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.mixin;
 
+import net.linkle.wilder_horizons.item.armor.WHArmorMaterials;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -29,7 +30,7 @@ abstract class PlayerEntityMixin extends LivingEntity {
             for (var slot : EquipmentSlot.values()) {
                 if (slot.getType() != EquipmentSlot.Type.ARMOR) continue;
                 var stack = getEquippedStack(slot);
-                if (stack.getItem() instanceof ArmorItem armor && armor.getMaterial() == ArmorMats.DIVING) {
+                if (stack.getItem() instanceof ArmorItem armor && armor.getMaterial() == WHArmorMaterials.DIVING) {
                     continue;
                 }
                 return;

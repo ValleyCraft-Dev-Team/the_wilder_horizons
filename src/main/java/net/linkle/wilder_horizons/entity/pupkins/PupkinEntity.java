@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.pupkins;
 
-import net.linkle.wilder_horizons.init.Entities;
+import net.linkle.wilder_horizons.init.core_inits.WHEntities;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -47,7 +47,7 @@ public class PupkinEntity extends AnimalEntity {
 
     @Override
     public PassiveEntity createChild(ServerWorld world, PassiveEntity entity) {
-        return Entities.PUPKIN.create(world);
+        return WHEntities.PUPKIN.create(world);
     }
     
     public static DefaultAttributeContainer.Builder createPupkinAttributes() {

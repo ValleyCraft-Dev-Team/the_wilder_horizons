@@ -1,7 +1,5 @@
 package net.linkle.wilder_horizons.tool.environmental;
 
-import static net.linkle.wilder_horizons.init.Groups.VC_TOOLS;
-
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
 import net.minecraft.enchantment.*;
 import net.minecraft.item.*;

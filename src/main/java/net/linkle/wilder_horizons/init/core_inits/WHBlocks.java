@@ -7,6 +7,7 @@ import java.util.function.ToIntFunction;
 
 import net.linkle.wilder_horizons.block.materials.BlockMats;
 import net.linkle.wilder_horizons.init.WHGroups;
+import net.linkle.wilder_horizons.sounds.BlockSounds;
 import org.jetbrains.annotations.Nullable;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

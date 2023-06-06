@@ -1,14 +1,12 @@
 package net.linkle.wilder_horizons.entity.skeletons;
 
-import net.linkle.wilder_horizons.init.Armors;
-import net.linkle.wilder_horizons.init.Tools;
+import net.linkle.wilder_horizons.init.core_inits.Tools;
 import net.minecraft.entity.EntityData;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.mob.SkeletonEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.world.LocalDifficulty;
 import net.minecraft.world.ServerWorldAccess;

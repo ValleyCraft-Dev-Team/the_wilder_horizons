@@ -17,11 +17,8 @@ import net.linkle.wilder_horizons.client.entity.renderer.pupkins.PupkinEntityRen
 import net.linkle.wilder_horizons.client.entity.renderer.snails.SnailEntityRenderer;
 import net.linkle.wilder_horizons.entity.*;
 import net.linkle.wilder_horizons.entity.fish.*;
-import net.linkle.wilder_horizons.entity.projectiles.thrown_items.GlowBallEntity;
-import net.linkle.wilder_horizons.entity.projectiles.thrown_items.ThrownRockEntity;
 import net.linkle.wilder_horizons.entity.pupkins.PupkinEntity;
 import net.linkle.wilder_horizons.entity.snails.CaveSnailEntity;
-import net.linkle.wilder_horizons.entity.snails.SculkSnailEntity;
 import net.linkle.wilder_horizons.entity.snails.SnailEntity;
 import net.linkle.wilder_horizons.enums.EntityEnum;
 import net.minecraft.block.Blocks;
@@ -93,8 +90,8 @@ public enum WHEntities implements EntityEnum {
             .spawnRestriction(SpawnRestriction.Location.IN_WATER, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, PerchEntity::canSpawn)),
     
     // Misc
-    THROWN_ROCK(createEntity(SpawnGroup.MISC, ThrownRockEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10)),
-    GLOW_BALL(createEntity(SpawnGroup.MISC, GlowBallEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10));
+    THROWN_ROCK(createEntity(SpawnGroup.MISC, ThrownRockEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10));
+    //GLOW_BALL(createEntity(SpawnGroup.MISC, GlowBallEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10));
     
     public static void initialize() {
         registerAttribute(SNAIL, SnailEntity.createSnailAttributes());
@@ -148,7 +145,7 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(SARDINE, CodEntityRenderer.create("sardine"));
         
         registerRenderer(THROWN_ROCK, FlyingItemEntityRenderer::new);
-        registerRenderer(GLOW_BALL, FlyingItemEntityRenderer::new);
+        //registerRenderer(GLOW_BALL, FlyingItemEntityRenderer::new);
     }
     
     private final EntityType<?> type;

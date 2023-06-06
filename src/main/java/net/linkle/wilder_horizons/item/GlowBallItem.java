@@ -1,6 +1,5 @@
 package net.linkle.wilder_horizons.item;
 
-import net.linkle.wilder_horizons.entity.projectiles.thrown_items.GlowBallEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.world.World;

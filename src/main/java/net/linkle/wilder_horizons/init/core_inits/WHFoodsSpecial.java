@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.init.core_inits;
 
+import net.linkle.wilder_horizons.init.WHGroups;
 import net.linkle.wilder_horizons.interfaces.Nourishment;
 import net.linkle.wilder_horizons.item.*;
 import net.minecraft.entity.effect.StatusEffects;
@@ -50,12 +51,12 @@ public enum WHFoodsSpecial implements ItemEnum {
 
     /**list new items below here, move above after adding a recipe for them**/
 
-    /** Called from {@link ItemsModded} */
+    /** Called from {@link WHMiscItems} */
     static void initialize() {
     }
     
     private static Item.Settings settings() {
-        return new Item.Settings().group(TIERED_DISHES);
+        return new Item.Settings().group(WHGroups.WH_FOOD_SPECIAL);
     }
     
     // ### The Enum Class Itself ###

@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity;
 
-import net.linkle.wilder_horizons.init.Entities;
+import net.linkle.wilder_horizons.init.core_inits.WHEntities;
 import net.minecraft.entity.passive.CowEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.server.world.ServerWorld;
@@ -14,6 +14,6 @@ public class DairyCowEntity extends CowEntity {
 
     @Override
     public DairyCowEntity createChild(ServerWorld world, PassiveEntity entity) {
-        return Entities.DAIRY_COW.create(world);
+        return WHEntities.DAIRY_COW.create(world);
     }
 }

@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.effect.ModEffects;
+import net.linkle.wilder_horizons.init.core_inits.WHEffects;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -23,7 +23,7 @@ public class FadedSoulRoseBlock extends SoulPlantBlock {
         if (!world.isClient && world.getDifficulty() != Difficulty.PEACEFUL) {
             if (entity instanceof LivingEntity living) {
                 if (!living.isInvulnerableTo(DamageSource.MAGIC)) {
-                    living.addStatusEffect(new StatusEffectInstance(ModEffects.SOUL_FADING, 40));
+                    living.addStatusEffect(new StatusEffectInstance(WHEffects.SOUL_FADING, 40));
                 }
             }
         }

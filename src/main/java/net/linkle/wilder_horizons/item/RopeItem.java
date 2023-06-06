@@ -1,13 +1,8 @@
 package net.linkle.wilder_horizons.item;
 
-import java.util.Map;
-import java.util.function.Supplier;
-
-import org.jetbrains.annotations.Nullable;
-
 import net.linkle.wilder_horizons.block.RopeBlockExt;
 import net.linkle.wilder_horizons.enums.BlockEnum;
-import net.linkle.wilder_horizons.init.BlocksModded;
+import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -16,6 +11,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.Map;
+import java.util.function.Supplier;
 
 public class RopeItem extends AliasedBlockItem {
 
@@ -24,8 +23,8 @@ public class RopeItem extends AliasedBlockItem {
     
     public RopeItem(Settings settings) {
         super(Blocks.AIR, settings);
-        this.verticalBlock = () -> BlocksModded.ROPE_VERTICAL;
-        this.horizontalBlock = () -> BlocksModded.ROPE_HORIZONTAL;
+        this.verticalBlock = () -> WHBlocks.ROPE_VERTICAL;
+        this.horizontalBlock = () -> WHBlocks.ROPE_HORIZONTAL;
     }
     
     @Override

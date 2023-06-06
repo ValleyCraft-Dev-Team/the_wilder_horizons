@@ -3,6 +3,10 @@ package net.linkle.wilder_horizons.entity.skeletons;
 import net.linkle.wilder_horizons.effect.ModEffects;
 import net.linkle.wilder_horizons.init.Armors;
 import net.linkle.wilder_horizons.init.Tools;
+import net.linkle.wilder_horizons.init.core_inits.Tools;
+import net.linkle.wilder_horizons.init.core_inits.WHArmors;
+import net.linkle.wilder_horizons.init.core_inits.WHEffects;
+import net.linkle.wilder_horizons.init.core_inits.WHTools;
 import net.minecraft.entity.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -46,10 +50,10 @@ public class LichEntity extends SkeletonEntity {
     }
 
     private ItemStack makeHeadGear() {
-        return new ItemStack(Armors.LICH_HOOD_KEEPSAKE);
+        return new ItemStack(WHArmors.LICH_HOOD_KEEPSAKE);
     }
     private ItemStack makeCloak() {
-        return new ItemStack(Armors.LICH_CLOAK_KEEPSAKE);
+        return new ItemStack(WHArmors.LICH_CLOAK_KEEPSAKE);
     }
 
     protected void updateEnchantments(Random random, LocalDifficulty localDifficulty) {
@@ -65,7 +69,7 @@ public class LichEntity extends SkeletonEntity {
             return false;
         } else {
             if (target instanceof LivingEntity) {
-                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(ModEffects.SOUL_FADING, 100), this);
+                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(WHEffects.SOUL_FADING, 100), this);
             }
             return true;
         }
