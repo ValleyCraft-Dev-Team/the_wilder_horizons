@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.tool.bows;
+package net.linkle.wilder_horizons.item.tools.bows;
 
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;

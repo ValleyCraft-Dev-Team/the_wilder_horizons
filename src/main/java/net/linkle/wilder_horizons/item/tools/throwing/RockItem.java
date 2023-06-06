@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.tool.throwing;
+package net.linkle.wilder_horizons.item.tools.throwing;
 
 import net.linkle.wilder_horizons.item.ThrowableItem;
 import net.minecraft.entity.player.PlayerEntity;

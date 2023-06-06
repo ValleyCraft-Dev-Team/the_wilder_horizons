@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.skeletons;
 
-import net.linkle.wilder_horizons.init.core_inits.Tools;
+import net.linkle.wilder_horizons.init.core_inits.WHTools;
 import net.minecraft.entity.EntityData;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
@@ -25,6 +25,6 @@ public class WandererEntity extends SkeletonEntity {
     }
 
     private ItemStack makeInitialWeapon() {
-        return (double)this.random.nextFloat() < 0.5D ? new ItemStack(Tools.DAGGER_IRON) : new ItemStack(Tools.WOODEN_STAFF);
+        return (double)this.random.nextFloat() < 0.5D ? new ItemStack(WHTools.DAGGER_IRON) : new ItemStack(WHTools.WOODEN_STAFF);
     }
 }

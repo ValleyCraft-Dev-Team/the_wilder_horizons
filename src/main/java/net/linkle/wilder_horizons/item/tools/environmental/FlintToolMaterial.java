@@ -1,6 +1,5 @@
-package net.linkle.wilder_horizons.tool.environmental;
+package net.linkle.wilder_horizons.item.tools.environmental;
 
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 

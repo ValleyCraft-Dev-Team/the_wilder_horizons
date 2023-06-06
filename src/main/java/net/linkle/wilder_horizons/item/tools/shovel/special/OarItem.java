@@ -6,8 +6,7 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ToolMaterial;
 
-import static net.linkle.wilder_horizons.init.Groups.VC_TOOLS;
-
+import static net.linkle.wilder_horizons.init.WHGroups.WH_TOOLS;
 public class OarItem
 extends ShovelItem
 implements EnchantmentHandler {

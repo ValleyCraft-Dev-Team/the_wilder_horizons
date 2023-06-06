@@ -3,25 +3,18 @@ package net.linkle.wilder_horizons.entity.skeletons;
 import net.linkle.wilder_horizons.effect.ModEffects;
 import net.linkle.wilder_horizons.init.Armors;
 import net.linkle.wilder_horizons.init.Tools;
-import net.linkle.wilder_horizons.init.core_inits.Tools;
+import net.linkle.wilder_horizons.init.core_inits.WHTools;
 import net.linkle.wilder_horizons.init.core_inits.WHArmors;
 import net.linkle.wilder_horizons.init.core_inits.WHEffects;
-import net.linkle.wilder_horizons.init.core_inits.WHTools;
 import net.minecraft.entity.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
-import net.minecraft.entity.boss.BossBar;
-import net.minecraft.entity.boss.ServerBossBar;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.mob.MobEntity;
-import net.minecraft.entity.mob.PiglinBrain;
 import net.minecraft.entity.mob.SkeletonEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
-import net.minecraft.text.Text;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.LocalDifficulty;
 import net.minecraft.world.ServerWorldAccess;
@@ -42,7 +35,7 @@ public class LichEntity extends SkeletonEntity {
     }
 
     private ItemStack makeInitialWeapon() {
-        return new ItemStack(Tools.SCYTHE_IRON);
+        return new ItemStack(WHTools.SCYTHE_IRON);
     }
 
     public static DefaultAttributeContainer.Builder createHostileAttributes() {

@@ -4,26 +4,27 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.interfaces.PreventDestroy;
 import net.linkle.wilder_horizons.item.ClimbingAxeItem;
 import net.linkle.wilder_horizons.item.ModHoeItem;
+import net.linkle.wilder_horizons.item.tools.WHToolMaterials;
+import net.linkle.wilder_horizons.item.tools.environmental.*;
 import net.linkle.wilder_horizons.util.Reg;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
-public class Tools {
+public class WHTools {
     //When we need to access a tool or weapon elsewhere in the codebase, such as to inject them into loot tables, we need them stored in variables.
 
     //environmental tools
     public static final Item BRANCH = new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f);
     public static final Item DRIFTWOOD_BRANCH = new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f);
 
-    //public static final Item MAKESHIFT_SPEAR = new BranchSpearItem(ModToolMaterials.MAKESHIFT_WOOD, 4, -2.8f);
-    public static final Item MAKESHIFT_PICKAXE = new BranchPickaxeItem(ModToolMaterials.MAKESHIFT_FLINT, 3, -3.0f);
-    public static final Item MAKESHIFT_AXE = new BranchAxeItem(ModToolMaterials.MAKESHIFT_STONE, 3, -3.0f);
-    public static final Item MAKESHIFT_SHOVEL = new BranchShovelItem(ModToolMaterials.MAKESHIFT_WOOD, 1, -3.0f);
-    public static final Item MAKESHIFT_HOE = new BranchHoeItem(ModToolMaterials.MAKESHIFT_WOOD, 0, -3.0f);
-    //public static final Item FLINT_AND_PRIMSTEEL = new FlintAndSteelItem((new Item.Settings()).maxDamage(4).group(VC_TOOLS));
-    //public static final Item MAKESHIFT_SHEARS = new ShearsItem((new Item.Settings()).maxDamage(4).group(VC_TOOLS));
+    public static final Item THROWING_ROCK = new RockItem(new Item.Settings().maxCount(64).group(VC_TOOLS));
+
+    public static final Item MAKESHIFT_PICKAXE = new BranchPickaxeItem(WHToolMaterials.MAKESHIFT_FLINT, 3, -3.0f);
+    public static final Item MAKESHIFT_AXE = new BranchAxeItem(WHToolMaterials.MAKESHIFT_STONE, 3, -3.0f);
+    public static final Item MAKESHIFT_SHOVEL = new BranchShovelItem(WHToolMaterials.MAKESHIFT_WOOD, 1, -3.0f);
+    public static final Item MAKESHIFT_HOE = new BranchHoeItem(WHToolMaterials.MAKESHIFT_WOOD, 0, -3.0f);
 
     public static final Item RUSTY_SWORD = new RustySwordItem(new RustyMaterial(),4, -2.4f);
     public static final Item RUSTY_PICKAXE = new RustyPickaxeItem(new RustyMaterial(),2, -2.8f);
@@ -31,7 +32,6 @@ public class Tools {
     public static final Item RUSTY_HOE = new RustyHoeItem(new RustyMaterial(),0, -1.0f);
     public static final Item RUSTY_SHOVEL = new RustyShovelItem(new RustyMaterial(),2, -3.0f);
 
-    public static final Item THROWING_ROCK = new RockItem(new Item.Settings().maxCount(64).group(VC_TOOLS));
     //public static final Item ANTHROPOLOGISTS_ROCK_PICK = new AnthroPickaxeItem(new AnthroPickaxeMaterial());
 
     //public static final Item ANCIENT_CLIMBING_AXE = new ClimbingAxeItem(ModToolMaterials.STRONG_IRON, new Item.Settings().group(BOOKS).rarity(Rarity.EPIC));
