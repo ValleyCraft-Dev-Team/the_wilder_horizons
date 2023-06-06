@@ -9,7 +9,7 @@ import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
 import net.linkle.wilder_horizons.Main;
-import net.linkle.wilder_horizons.init.WHFluids;
+import net.linkle.wilder_horizons.init.core_inits.WHFluids;
 import net.minecraft.client.texture.SpriteAtlasTexture;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.util.Identifier;

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
+    "G": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "X#X",
+    "CGC",
+    "X#X"
+  ],
+  "result": {
+    "count": 8,
+    "item": "wilder_horizons:glowing_rail"
+  }
+}

@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.util;
 
-import net.linkle.wilder_horizons.init.WHTools;
+import net.linkle.wilder_horizons.init.core_inits.WHTools;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;

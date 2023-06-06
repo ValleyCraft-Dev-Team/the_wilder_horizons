@@ -1,6 +1,7 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.init.ModDamageSources;
+import net.linkle.wilder_horizons.effect.WHDamageSources;
+import net.linkle.wilder_horizons.init.core_inits.WHEntities;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -65,13 +66,13 @@ public class OceanMushroomBlock extends ModPlantBlock implements FluidFillable {
 
     @Override
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-        if (entity instanceof LivingEntity && entity.getType() != EntityType.TROPICAL_FISH && entity.getType() != net.linkle.wilder_horizons.init.WHEntities.BONEFIN.type() && entity.getType() != EntityType.PUFFERFISH && entity.getType() != EntityType.ELDER_GUARDIAN && entity.getType() != EntityType.GUARDIAN) {
+        if (entity instanceof LivingEntity && entity.getType() != EntityType.TROPICAL_FISH && entity.getType() != WHEntities.BONEFIN.type() && entity.getType() != EntityType.PUFFERFISH && entity.getType() != EntityType.ELDER_GUARDIAN && entity.getType() != EntityType.GUARDIAN) {
             entity.slowMovement(state, new Vec3d(0.800000011920929D, 0.75D, 0.800000011920929D));
             if (!world.isClient && (entity.lastRenderX != entity.getX() || entity.lastRenderZ != entity.getZ())) {
                 double d = Math.abs(entity.getX() - entity.lastRenderX);
                 double e = Math.abs(entity.getZ() - entity.lastRenderZ);
                 if (d >= 0.003000000026077032D || e >= 0.003000000026077032D) {
-                    entity.damage(ModDamageSources.JELLYCAP, 1.0F);
+                    entity.damage(WHDamageSources.JELLYCAP, 1.0F);
                 }
             }
 

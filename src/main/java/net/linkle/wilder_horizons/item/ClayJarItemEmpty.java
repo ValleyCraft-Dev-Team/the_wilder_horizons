@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.item;
 
-import net.linkle.wilder_horizons.init.WHMiscItems;
+import net.linkle.wilder_horizons.init.core_inits.WHMiscItems;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.GlassBottleItem;
 import net.minecraft.item.ItemStack;

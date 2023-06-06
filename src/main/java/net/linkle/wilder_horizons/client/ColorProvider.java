@@ -5,8 +5,8 @@ import java.util.stream.Stream;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
-import net.linkle.wilder_horizons.init.BlocksModded;
-import net.linkle.wilder_horizons.init.BlocksNatural;
+import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
+import net.linkle.wilder_horizons.init.core_inits.WHNature;
 import net.linkle.wilder_horizons.util.BlockConvertible;
 import net.minecraft.block.Block;
 import net.minecraft.client.color.block.BlockColorProvider;
@@ -26,12 +26,12 @@ class ColorProvider {
         blockColor((state, world, pos, tintIndex) -> {
             if (world == null || pos == null) return -1;
             return BiomeColors.getGrassColor(world, pos);
-        }, BlocksNatural.SHORT_GRASS);
+        }, WHNature.SHORT_GRASS);
         
         blockColor((state, world, pos, tintIndex) -> {
             if (world == null || pos == null) return -1;
             return BiomeColors.getWaterColor(world, pos);
-        }, BlocksModded.LEVELED_RAIN_COLLECTOR);
+        }, WHBlocks.LEVELED_RAIN_COLLECTOR);
         
         /*
         blockColor((state, world, pos, tintIndex) -> {
@@ -42,16 +42,16 @@ class ColorProvider {
             return j << 16 | k << 8 | l;
         }, ModNaturalBlocks.GHOST_PUMPKIN_STEM); */
         
-        blockColor((state, view, pos, tintIndex) -> tintIndex == 0 ? BiomeColors.getFoliageColor(view, pos) : -1, BlocksNatural.APPLE_LEAVES);
-        itemColor((stack, tintIndex) -> tintIndex == 0 ? 4764952 : -1, BlocksNatural.APPLE_LEAVES);
-        blockColor((state, view, pos, tintIndex) -> tintIndex == 0 ? BiomeColors.getFoliageColor(view, pos) : -1, BlocksNatural.APPLE_LEAVES_EMPTY);
-        itemColor((stack, tintIndex) -> tintIndex == 0 ? 4764952 : -1, BlocksNatural.APPLE_LEAVES_EMPTY);
-        blockColor((state, view, pos, tintIndex) -> tintIndex == 0 ? BiomeColors.getFoliageColor(view, pos) : -1, BlocksNatural.BUSH);
-        itemColor((stack, tintIndex) -> tintIndex == 0 ? 4764952 : -1, BlocksNatural.BUSH);
-        blockColor((state, view, pos, tintIndex) -> tintIndex == 0 ? BiomeColors.getFoliageColor(view, pos) : -1, BlocksNatural.LARGE_BUSH);
-        itemColor((stack, tintIndex) -> tintIndex == 0 ? 4764952 : -1, BlocksNatural.LARGE_BUSH);
+        blockColor((state, view, pos, tintIndex) -> tintIndex == 0 ? BiomeColors.getFoliageColor(view, pos) : -1, WHNature.APPLE_LEAVES);
+        itemColor((stack, tintIndex) -> tintIndex == 0 ? 4764952 : -1, WHNature.APPLE_LEAVES);
+        blockColor((state, view, pos, tintIndex) -> tintIndex == 0 ? BiomeColors.getFoliageColor(view, pos) : -1, WHNature.APPLE_LEAVES_EMPTY);
+        itemColor((stack, tintIndex) -> tintIndex == 0 ? 4764952 : -1, WHNature.APPLE_LEAVES_EMPTY);
+        blockColor((state, view, pos, tintIndex) -> tintIndex == 0 ? BiomeColors.getFoliageColor(view, pos) : -1, WHNature.BUSH);
+        itemColor((stack, tintIndex) -> tintIndex == 0 ? 4764952 : -1, WHNature.BUSH);
+        blockColor((state, view, pos, tintIndex) -> tintIndex == 0 ? BiomeColors.getFoliageColor(view, pos) : -1, WHNature.LARGE_BUSH);
+        itemColor((stack, tintIndex) -> tintIndex == 0 ? 4764952 : -1, WHNature.LARGE_BUSH);
         
-        itemColor((stack, tintIndex) -> tintIndex == 0 ? GrassColors.getColor(0.5, 1.0) : -1, BlocksNatural.SHORT_GRASS);
+        itemColor((stack, tintIndex) -> tintIndex == 0 ? GrassColors.getColor(0.5, 1.0) : -1, WHNature.SHORT_GRASS);
     }
     
     private static void blockColor(BlockColorProvider provider, BlockConvertible... blocks) {

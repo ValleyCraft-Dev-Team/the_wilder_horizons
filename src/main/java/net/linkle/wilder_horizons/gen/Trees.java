@@ -5,7 +5,7 @@ import java.util.OptionalInt;
 import com.google.common.collect.ImmutableList;
 
 import net.linkle.wilder_horizons.gen.feature.TreeConfigs;
-import net.linkle.wilder_horizons.init.BlocksNatural;
+import net.linkle.wilder_horizons.init.core_inits.WHNature;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.collection.DataPool;
@@ -28,10 +28,10 @@ public class Trees {
     
     public static TreeFeatureConfig appleTree() {
         var dataPool = new DataPool.Builder<BlockState>();
-        dataPool.add(BlocksNatural.APPLE_LEAVES_EMPTY.getState(), 4);
-        dataPool.add(BlocksNatural.APPLE_LEAVES.getState(), 1);
+        dataPool.add(WHNature.APPLE_LEAVES_EMPTY.getState(), 4);
+        dataPool.add(WHNature.APPLE_LEAVES.getState(), 1);
         var foliageProvider = new WeightedBlockStateProvider(dataPool);
-        var trunkProvider = BlockStateProvider.of(BlocksNatural.APPLE_LOG.getState());
+        var trunkProvider = BlockStateProvider.of(WHNature.APPLE_LOG.getState());
         var foliagePlacer = new LargeOakFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(4), 4);
         var trunkPlacer = new LargeOakTrunkPlacer(5, 9, 0);
         var minimumSize = new TwoLayersFeatureSize(0, 0, 0, OptionalInt.of(4));
@@ -40,7 +40,7 @@ public class Trees {
     }
 
     public static TreeFeatureConfig warmBirchTree() {
-        var foliageProvider = BlockStateProvider.of(BlocksNatural.WARM_BIRCH_LEAVES.getState());
+        var foliageProvider = BlockStateProvider.of(WHNature.WARM_BIRCH_LEAVES.getState());
         var trunkProvider = BlockStateProvider.of(Blocks.BIRCH_LOG.getDefaultState());
         var foliagePlacer = new LargeOakFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(4), 4);
         var trunkPlacer = new LargeOakTrunkPlacer(5, 9, 0);
@@ -50,7 +50,7 @@ public class Trees {
     }
 
     public static TreeFeatureConfig warmBirchTreeSuper() {
-        var foliageProvider = BlockStateProvider.of(BlocksNatural.WARM_BIRCH_LEAVES.getState());
+        var foliageProvider = BlockStateProvider.of(WHNature.WARM_BIRCH_LEAVES.getState());
         var trunkProvider = BlockStateProvider.of(Blocks.BIRCH_LOG.getDefaultState());
         var foliagePlacer = new LargeOakFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(4), 4);
         var trunkPlacer = new LargeOakTrunkPlacer(5, 9, 0);
@@ -59,10 +59,10 @@ public class Trees {
         return builder.ignoreVines().build();
     }
     
-    /** AKA The Mamon. */
+    /** AKA The GOLD_LEAF_MAPLE. */
     public static TreeFeatureConfig amberTree() {
-        var foliageProvider = BlockStateProvider.of(BlocksNatural.MAMON_LEAVES.getState());
-        var trunkProvider = BlockStateProvider.of(BlocksNatural.MAMON_LOG.getState());
+        var foliageProvider = BlockStateProvider.of(WHNature.GOLD_LEAF_MAPLE_LEAVES.getState());
+        var trunkProvider = BlockStateProvider.of(WHNature.GOLD_LEAF_MAPLE_LOG.getState());
         var foliagePlacer = new DarkOakFoliagePlacer(ConstantIntProvider.create(0), ConstantIntProvider.create(0));
         var trunkPlacer = new DarkOakTrunkPlacer(9, 3, 1);
         var minimumSize = new ThreeLayersFeatureSize(1, 1, 0, 1, 2, OptionalInt.empty());

@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons;
 
-import net.linkle.wilder_horizons.init.*;
+import net.linkle.wilder_horizons.init.core_inits.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,14 +16,14 @@ public class Main implements ModInitializer {
         Config.initialize();
         WHEffects.initialize();
         WHMiscItems.registerItems();
-        WHFoodIngredients.registerItems();
-        WHFoods.registerItems();
-        WHFoodsSpecial.registerItems();
+        WHFoodIngredients.initialize();
+        WHFoods.initialize();
+        WHFoodsSpecial.initialize();
         WHTools.registerItems();
         WHArmors.registerItems();
         WHMedicines.registerItems();
-        WHNature.registerBlocks();
-        WHBlocks.registerBlocks();
+        WHNature.initialize();
+        WHBlocks.initialize();
     }
 
     public static Identifier makeId(String id) {

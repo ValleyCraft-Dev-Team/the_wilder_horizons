@@ -1,9 +1,9 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.init.BlocksNatural;
+import net.linkle.wilder_horizons.init.core_inits.WHNature;
 import org.jetbrains.annotations.Nullable;
 
-import net.linkle.wilder_horizons.init.FoodIngredients;
+import net.linkle.wilder_horizons.init.core_inits.WHFoodIngredients;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -37,7 +37,7 @@ public class MaizeBlock extends ModCropBlock {
     
     @Override
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
-        if (world.getBlockState(pos.up()).isOf(BlocksNatural.MAIZE_BOX.block)) {
+        if (world.getBlockState(pos.up()).isOf(WHNature.MAIZE_BOX.block)) {
             return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
         }
         return Blocks.AIR.getDefaultState();
@@ -45,7 +45,7 @@ public class MaizeBlock extends ModCropBlock {
     
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack) {
-        world.setBlockState(pos.up(), BlocksNatural.MAIZE_BOX.getState(), Block.NOTIFY_ALL);
+        world.setBlockState(pos.up(), WHNature.MAIZE_BOX.getState(), Block.NOTIFY_ALL);
     }
     
     @Override
@@ -86,12 +86,12 @@ public class MaizeBlock extends ModCropBlock {
 
     @Override
     protected ItemConvertible getSeedsItem() {
-        return FoodIngredients.MAIZE;
+        return WHFoodIngredients.MAIZE;
     }
 
     @Override
     protected ItemStack getPickItem(Random random) {
-        return new ItemStack(FoodIngredients.MAIZE, MathHelper.nextInt(random, 2, 4));
+        return new ItemStack(WHFoodIngredients.MAIZE, MathHelper.nextInt(random, 2, 4));
     }
 
     @Override

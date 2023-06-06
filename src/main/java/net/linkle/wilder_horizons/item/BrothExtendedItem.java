@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.item;
 
-import net.linkle.wilder_horizons.init.WHMedicines;
+import net.linkle.wilder_horizons.init.core_inits.WHMedicines;
 import net.linkle.wilder_horizons.util.FoodStatusEffect;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;

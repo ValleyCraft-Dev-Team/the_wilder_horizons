@@ -13,7 +13,7 @@
     JUNGLE_SEED(new AliasedBlockItem(BlocksNatural.JUNGLE_SEED.block, itemSettings())),
     ACACIA_SEED(new AliasedBlockItem(BlocksNatural.ACACIA_SEED.block, itemSettings())),
     APPLE_SEED(new AliasedBlockItem(BlocksNatural.APPLE_SEED.block, itemSettings())),
-    AMBERBLOSSOM_SEED(new AliasedBlockItem(BlocksNatural.AMBERBLOSSOM_SEED.block, itemSettings())),
+    GOLD_LEAF_MAPLE_SEED(new AliasedBlockItem(BlocksNatural.GOLD_LEAF_MAPLE_SEED.block, itemSettings())),
     WARM_BIRCH_SEED(new AliasedBlockItem(BlocksNatural.WARM_BIRCH_SEED.block, itemSettings())),
 
     // crops

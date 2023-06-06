@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.mixin;
 
-import net.linkle.wilder_horizons.init.BlocksModded;
+import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -27,7 +27,7 @@ abstract class CraftingScreenHandlerMixin extends AbstractRecipeScreenHandler<Cr
 
     @Inject(method = "canUse", at = @At("HEAD"), cancellable = true)
     void canUse(PlayerEntity player, CallbackInfoReturnable<Boolean> info) {
-        if (CraftingScreenHandler.canUse(context, player, BlocksModded.CRAFTING_MAT.block)) {
+        if (CraftingScreenHandler.canUse(context, player, WHBlocks.CRAFTING_MAT.block)) {
             info.setReturnValue(true);
         }
     }

@@ -2,13 +2,13 @@ package net.linkle.wilder_horizons.fluid;
 
 import java.util.Optional;
 
-import net.linkle.wilder_horizons.init.WHNature;
-import net.linkle.wilder_horizons.init.WHMiscItems;
+import net.linkle.wilder_horizons.init.core_inits.WHMiscItems;
+import net.linkle.wilder_horizons.init.core_inits.WHNature;
 import net.linkle.wilder_horizons.init.WHParticles;
 import net.minecraft.sound.SoundCategory;
 import org.jetbrains.annotations.Nullable;
 
-import net.linkle.wilder_horizons.init.WHFluids;
+import net.linkle.wilder_horizons.init.core_inits.WHFluids;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.FluidBlock;

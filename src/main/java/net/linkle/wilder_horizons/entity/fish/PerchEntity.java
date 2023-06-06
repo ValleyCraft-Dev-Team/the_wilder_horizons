@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.fish;
 
-import net.linkle.wilder_horizons.init.Fishing;
+import net.linkle.wilder_horizons.init.core_inits.WHFishItems;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.passive.SchoolingFishEntity;
@@ -17,7 +17,7 @@ public class PerchEntity extends SchoolingFishEntity {
 
     @Override
     public ItemStack getBucketItem() {
-        return new ItemStack(Fishing.PERCH_BUCKET);
+        return new ItemStack(WHFishItems.PERCH_BUCKET);
     }
 
     @Override

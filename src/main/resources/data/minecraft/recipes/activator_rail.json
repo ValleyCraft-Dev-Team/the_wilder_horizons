@@ -8,15 +8,12 @@
       "tag": "c:plank_items"
     },
     "X": {
-      "item": "minecraft:iron_ingot"
-    },
-    "V": {
-      "item": "minecraft:redstone"
+      "tag": "c:iron_rail_segment"
     }
   },
   "pattern": [
     "XSX",
-    "V#V",
+    "X#X",
     "XSX"
   ],
   "result": {

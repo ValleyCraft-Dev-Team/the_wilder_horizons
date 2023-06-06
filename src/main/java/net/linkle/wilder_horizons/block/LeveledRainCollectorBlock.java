@@ -2,7 +2,7 @@ package net.linkle.wilder_horizons.block;
 
 import java.util.Map;
 
-import net.linkle.wilder_horizons.init.BlocksModded;
+import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LeveledCauldronBlock;
 import net.minecraft.block.ShapeContext;
@@ -39,7 +39,7 @@ public class LeveledRainCollectorBlock extends LeveledCauldronBlock {
     
     public static void decrementFluidLevel(BlockState state, World world, BlockPos pos) {
         int level = state.get(LEVEL) - 1;
-        var newState = level == 0 ? BlocksModded.RAIN_COLLECTOR.getState() : state.with(LEVEL, level);
+        var newState = level == 0 ? WHBlocks.RAIN_COLLECTOR.getState() : state.with(LEVEL, level);
         world.setBlockState(pos, newState);
         world.emitGameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Emitter.of(newState));
     }
@@ -56,7 +56,7 @@ public class LeveledRainCollectorBlock extends LeveledCauldronBlock {
                 player.setStackInHand(hand, ItemUsage.exchangeStack(stack, player, new ItemStack(Items.WATER_BUCKET)));
                 //player.incrementStat(Stats.USE_CAULDRON);
                 player.incrementStat(Stats.USED.getOrCreateStat(item));
-                world.setBlockState(pos, BlocksModded.RAIN_COLLECTOR.getState());
+                world.setBlockState(pos, WHBlocks.RAIN_COLLECTOR.getState());
                 world.playSound(null, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 world.emitGameEvent(null, GameEvent.FLUID_PICKUP, pos);
             }

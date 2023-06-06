@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.projectiles.thrown_items;
 
-import net.linkle.wilder_horizons.init.BlocksModded;
+import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
 import net.linkle.wilder_horizons.init.Entities;
 import net.linkle.wilder_horizons.init.ItemsModded;
 import net.minecraft.block.MultifaceGrowthBlock;
@@ -76,11 +76,11 @@ public class GlowBallEntity extends ThrownItemEntity {
         var sidePos = result.getBlockPos().offset(result.getSide());
         var state = world.getBlockState(sidePos);
         if (state.getMaterial().isReplaceable()) {
-            var newState = BlocksModded.GLOW_SPLATTER.getState().with(MultifaceGrowthBlock.getProperty(result.getSide().getOpposite()), true);
+            var newState = WHBlocks.GLOW_SPLATTER.getState().with(MultifaceGrowthBlock.getProperty(result.getSide().getOpposite()), true);
             if (newState.canPlaceAt(world, sidePos)) {
                 world.setBlockState(sidePos, newState);
             }
-        } else if (state.isOf(BlocksModded.GLOW_SPLATTER.block)) {
+        } else if (state.isOf(WHBlocks.GLOW_SPLATTER.block)) {
             var newState = state.with(MultifaceGrowthBlock.getProperty(result.getSide().getOpposite()), true);
             if (newState.canPlaceAt(world, sidePos)) {
                 world.setBlockState(sidePos, newState);

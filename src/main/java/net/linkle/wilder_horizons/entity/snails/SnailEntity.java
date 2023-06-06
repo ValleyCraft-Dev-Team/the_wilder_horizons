@@ -1,7 +1,7 @@
 package net.linkle.wilder_horizons.entity.snails;
 
 import net.linkle.wilder_horizons.init.Entities;
-import net.linkle.wilder_horizons.init.FoodIngredients;
+import net.linkle.wilder_horizons.init.core_inits.WHFoodIngredients;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.ai.pathing.PathNodeType;
@@ -12,7 +12,6 @@ import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
@@ -82,6 +81,6 @@ public class SnailEntity extends AnimalEntity {
 
     static {
         BREEDING_INGREDIENT = Ingredient.ofItems(Items.BEETROOT,
-                FoodIngredients.HEARTY_BEETROOT, FoodIngredients.CAVE_ROOT, FoodIngredients.ONION);
+                WHFoodIngredients.HEARTY_BEETROOT, WHFoodIngredients.CAVE_ROOT, WHFoodIngredients.ONION);
     }
 }

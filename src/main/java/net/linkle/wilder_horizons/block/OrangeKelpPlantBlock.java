@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.init.BlocksNatural;
+import net.linkle.wilder_horizons.init.core_inits.WHNature;
 import net.minecraft.block.AbstractPlantStemBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.KelpPlantBlock;
@@ -13,7 +13,7 @@ public class OrangeKelpPlantBlock extends KelpPlantBlock {
 
     @Override
     protected AbstractPlantStemBlock getStem() {
-        return (AbstractPlantStemBlock) BlocksNatural.ORANGE_KELP.block;
+        return (AbstractPlantStemBlock) WHNature.ORANGE_KELP.block;
     }
 
 }

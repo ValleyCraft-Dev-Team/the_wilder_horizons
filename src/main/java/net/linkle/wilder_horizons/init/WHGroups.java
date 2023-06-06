@@ -2,17 +2,18 @@ package net.linkle.wilder_horizons.init;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.linkle.wilder_horizons.Main;
+import net.linkle.wilder_horizons.init.core_inits.*;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class WHGroups {
     public static final ItemGroup WH_NATURE = FabricItemGroupBuilder.build
-            (new Identifier(Main.ID,"wh_nature"), () -> new ItemStack(WHNature.));
+            (new Identifier(Main.ID,"wh_nature"), () -> new ItemStack(WHNature.ANCIENT_FLOWER_BLOCK));
     public static final ItemGroup WH_FOOD = FabricItemGroupBuilder.build
-            (new Identifier(Main.ID,"wh_food"), () -> new ItemStack(WHFoods.COD_CHOWDER));
+            (new Identifier(Main.ID,"wh_food"), () -> new ItemStack(WHFoods.VEGETABLE_MIX));
     public static final ItemGroup WH_FOOD_SPECIAL = FabricItemGroupBuilder.build
-            (new Identifier(Main.ID,"wh_food_special"), () -> new ItemStack(WHFoodsSpecial.));
+            (new Identifier(Main.ID,"wh_food_special"), () -> new ItemStack(WHFoodsSpecial.COD_CHOWDER));
     public static final ItemGroup WH_MEDICINAL = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_medicinal"), () -> new ItemStack(WHMedicines.SOAP));
     public static final ItemGroup WH_MISCELLANEOUS = FabricItemGroupBuilder.build
@@ -22,5 +23,5 @@ public class WHGroups {
     public static final ItemGroup WH_TOOLS = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_tools"), () -> new ItemStack(WHTools.));
     public static final ItemGroup WH_BLOCKS = FabricItemGroupBuilder.build
-            (new Identifier(Main.ID,"wh_blocks"), () -> new ItemStack(WHBlocks.));
+            (new Identifier(Main.ID,"wh_blocks"), () -> new ItemStack(WHBlocks.APPLE_DOOR));
 }

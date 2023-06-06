@@ -6,8 +6,9 @@ import net.fabricmc.api.Environment;
 import net.linkle.wilder_horizons.client.armor.ArmorRenderers;
 import net.linkle.wilder_horizons.client.trinket.TrinketRenderers;
 import net.linkle.wilder_horizons.init.WHBlockEntities;
-import net.linkle.wilder_horizons.init.WHEntities;
+import net.linkle.wilder_horizons.init.core_inits.WHEntities;
 import net.linkle.wilder_horizons.init.WHParticles;
+import net.linkle.wilder_horizons.network.ClientNetwork;
 import net.linkle.wilder_horizons.util.ModModelPredicateProvider;
 
 @Environment(EnvType.CLIENT)

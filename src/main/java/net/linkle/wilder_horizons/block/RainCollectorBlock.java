@@ -2,7 +2,7 @@ package net.linkle.wilder_horizons.block;
 
 import java.util.Map;
 
-import net.linkle.wilder_horizons.init.BlocksModded;
+import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
 import net.minecraft.block.*;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.Fluid;
@@ -53,7 +53,7 @@ public class RainCollectorBlock extends AbstractCauldronBlock {
                 player.setStackInHand(hand, ItemUsage.exchangeStack(stack, player, new ItemStack(Items.BUCKET)));
                 //player.incrementStat(Stats.FILL_CAULDRON);
                 player.incrementStat(Stats.USED.getOrCreateStat(item));
-                world.setBlockState(pos, BlocksModded.LEVELED_RAIN_COLLECTOR.getState().with(LeveledCauldronBlock.LEVEL, 3));
+                world.setBlockState(pos, WHBlocks.LEVELED_RAIN_COLLECTOR.getState().with(LeveledCauldronBlock.LEVEL, 3));
                 world.playSound(null, pos, SoundEvents.ITEM_BUCKET_EMPTY, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 world.emitGameEvent(null, GameEvent.FLUID_PLACE, pos);
             }
@@ -68,7 +68,7 @@ public class RainCollectorBlock extends AbstractCauldronBlock {
                 player.setStackInHand(hand, ItemUsage.exchangeStack(stack, player, new ItemStack(Items.GLASS_BOTTLE)));
                 //player.incrementStat(Stats.USE_CAULDRON);
                 player.incrementStat(Stats.USED.getOrCreateStat(item));
-                world.setBlockState(pos, BlocksModded.LEVELED_RAIN_COLLECTOR.getState());
+                world.setBlockState(pos, WHBlocks.LEVELED_RAIN_COLLECTOR.getState());
                 world.playSound(null, pos, SoundEvents.ITEM_BOTTLE_EMPTY, SoundCategory.BLOCKS, 1.0f, 1.0f);
                 world.emitGameEvent(null, GameEvent.FLUID_PLACE, pos);
             }
@@ -95,7 +95,7 @@ public class RainCollectorBlock extends AbstractCauldronBlock {
     @Override
     public void precipitationTick(BlockState state, World world, BlockPos pos, Biome.Precipitation precipitation) {
         if (precipitation == Biome.Precipitation.RAIN && canFill(world)) {
-            world.setBlockState(pos, BlocksModded.LEVELED_RAIN_COLLECTOR.getState());
+            world.setBlockState(pos, WHBlocks.LEVELED_RAIN_COLLECTOR.getState());
             world.emitGameEvent(null, GameEvent.BLOCK_CHANGE, pos);
         }
     }

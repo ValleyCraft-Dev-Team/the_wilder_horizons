@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.init.Sounds;
+import net.linkle.wilder_horizons.sounds.WHSounds;
 import net.minecraft.block.*;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.BlockSoundGroup;
@@ -66,7 +66,7 @@ public class SprinklerBlock extends Block {
             double y = pos.getY()+0.75;
             double z = pos.getZ()+0.5;
             if (random.nextFloat() < 0.1f) {
-                world.playSound(x, y, z, Sounds.SPRINKLER.sound, SoundCategory.BLOCKS, 0.4f, 1.0f, false);
+                world.playSound(x, y, z, WHSounds.SPRINKLER.sound, SoundCategory.BLOCKS, 0.4f, 1.0f, false);
             }
             for (int i = 0; i < 6; i++) {
                 double speed = MathHelper.nextDouble(random, 0.2, 0.5);

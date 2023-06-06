@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.gen.feature;
 
+import net.linkle.wilder_horizons.init.core_inits.WHEntities;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.world.biome.SpawnSettings;
@@ -111,7 +112,7 @@ public class ModBiomeFeatures extends DefaultBiomeFeatures {
     /**individual mob spawns**/
 
     public static void addPupkins(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.PUPKIN.type(), 5, 1, 3));
+        builder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(WHEntities.PUPKIN.type(), 5, 1, 3));
     }
 
     public static void addVanillaRabbits(net.minecraft.world.biome.SpawnSettings.Builder builder) {
@@ -136,11 +137,11 @@ public class ModBiomeFeatures extends DefaultBiomeFeatures {
 
     /** snails **/
     public static void addSnails(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.AMBIENT, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.SNAIL.type(), 10, 8, 8));
+        builder.spawn(SpawnGroup.AMBIENT, new SpawnSettings.SpawnEntry(WHEntities.SNAIL.type(), 10, 8, 8));
     }
 
     public static void addCaveSnails(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.AMBIENT, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.CAVE_SNAIL.type(), 10, 8, 8));
+        builder.spawn(SpawnGroup.AMBIENT, new SpawnSettings.SpawnEntry(WHEntities.CAVE_SNAIL.type(), 10, 8, 8));
     }
 
     //public static void addSculkSnails(net.minecraft.world.biome.SpawnSettings.Builder builder) {
@@ -149,23 +150,23 @@ public class ModBiomeFeatures extends DefaultBiomeFeatures {
 
     /** fish **/
     public static void addSardines(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.SARDINE.type(), 25, 5, 10));
+        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(WHEntities.SARDINE.type(), 25, 5, 10));
     }
 
     public static void addPorgyLukewarm(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.RED_PORGY.type(), 15, 3, 6));
+        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(WHEntities.RED_PORGY.type(), 15, 3, 6));
     }
 
     public static void addPorgyJungle(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.PERCH.type(), 5, 3, 6));
+        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(WHEntities.PERCH.type(), 5, 3, 6));
     }
 
     public static void addStonerollerRiver(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.STONEROLLER_MINNOW.type(), 8, 3, 8));
+        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(WHEntities.STONEROLLER_MINNOW.type(), 8, 3, 8));
     }
 
     public static void addPerchRiver(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.PERCH.type(), 16, 3, 8));
+        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(WHEntities.PERCH.type(), 16, 3, 8));
     }
 
     public static void addSalmonRiver(SpawnSettings.Builder builder) {
@@ -173,16 +174,16 @@ public class ModBiomeFeatures extends DefaultBiomeFeatures {
     }
 
     public static void addPerchForest(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.PERCH.type(), 5, 3, 6));
+        builder.spawn(SpawnGroup.WATER_CREATURE, new SpawnSettings.SpawnEntry(WHEntities.PERCH.type(), 5, 3, 6));
     }
 
     public static void addAbyssWatchers(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.UNDERGROUND_WATER_CREATURE, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.ABYSSWATCHER.type(), 10, 1, 1));
+        builder.spawn(SpawnGroup.UNDERGROUND_WATER_CREATURE, new SpawnSettings.SpawnEntry(WHEntities.ABYSSWATCHER.type(), 10, 1, 1));
     }
 
     /** hostile fish **/
     public static void addBoneFins(net.minecraft.world.biome.SpawnSettings.Builder builder) {
-        builder.spawn(SpawnGroup.MONSTER, new SpawnSettings.SpawnEntry(net.linkle.wilder_horizons.init.WHEntities.BONEFIN.type(), 100, 4, 4));
+        builder.spawn(SpawnGroup.MONSTER, new SpawnSettings.SpawnEntry(WHEntities.BONEFIN.type(), 100, 4, 4));
     }
 
     //public static void addZods(net.minecraft.world.biome.SpawnSettings.Builder builder) {

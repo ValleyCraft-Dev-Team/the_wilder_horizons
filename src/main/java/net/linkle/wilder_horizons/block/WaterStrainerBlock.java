@@ -2,7 +2,7 @@ package net.linkle.wilder_horizons.block;
 
 import java.util.List;
 
-import net.linkle.wilder_horizons.init.ModLootTables;
+import net.linkle.wilder_horizons.init.WHLootTables;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Material;
@@ -78,7 +78,7 @@ public class WaterStrainerBlock extends BlockWithWater {
     
     protected List<ItemStack> getLoots(ServerWorld world) {
         var builder = new LootContext.Builder(world);
-        var lootTable = world.getServer().getLootManager().getTable(ModLootTables.WATER_STRAINER);
+        var lootTable = world.getServer().getLootManager().getTable(WHLootTables.WATER_STRAINER);
         return lootTable.generateLoot(builder.build(LootContextTypes.EMPTY));
     }
     

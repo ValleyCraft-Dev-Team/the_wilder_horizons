@@ -1,7 +1,7 @@
 package net.linkle.wilder_horizons.entity;
 
 import net.linkle.wilder_horizons.init.Entities;
-import net.linkle.wilder_horizons.init.Sounds;
+import net.linkle.wilder_horizons.sounds.WHSounds;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.ai.pathing.EntityNavigation;
@@ -109,17 +109,17 @@ public class DuckEntity extends AnimalEntity {
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return Sounds.DUCK_QUACK.sound;
+        return WHSounds.DUCK_QUACK.sound;
     }
 
     @Override
     protected SoundEvent getHurtSound(DamageSource source) {
-        return Sounds.DUCK_QUACK.sound;
+        return WHSounds.DUCK_QUACK.sound;
     }
 
     @Override
     protected SoundEvent getDeathSound() {
-        return Sounds.DUCK_QUACK.sound;
+        return WHSounds.DUCK_QUACK.sound;
     }
 
     @Override

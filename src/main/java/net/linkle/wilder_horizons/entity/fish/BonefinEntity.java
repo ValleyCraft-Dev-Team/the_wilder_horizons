@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.fish;
 
-import net.linkle.wilder_horizons.init.Fishing;
+import net.linkle.wilder_horizons.init.core_inits.WHFishItems;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.ActiveTargetGoal;
 import net.minecraft.entity.ai.goal.RevengeGoal;
@@ -25,6 +25,6 @@ public class BonefinEntity extends UndeadFishEntity implements Monster {
     
     @Override
     public ItemStack getBucketItem() {
-        return new ItemStack(Fishing.BONEFIN_BUCKET);
+        return new ItemStack(WHFishItems.BONEFIN_BUCKET);
     }
 }

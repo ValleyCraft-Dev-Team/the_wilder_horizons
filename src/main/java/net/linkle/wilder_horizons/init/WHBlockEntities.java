@@ -9,6 +9,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityT
 import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.block.entity.*;
 import net.linkle.wilder_horizons.enums.BlockEntityEnum;
+import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
 import net.linkle.wilder_horizons.util.BlockConvertible;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
@@ -18,13 +19,13 @@ import net.minecraft.util.registry.Registry;
 
 public enum WHBlockEntities implements BlockEntityEnum {
 
-    CRATE(CrateBlockEntity::new, BlocksModded.CRATE),
-    DEEPSLATE_CHEST(DeepslateChestBlockEntity::new, BlocksModded.DEEPSLATE_CHEST),
+    CRATE(CrateBlockEntity::new, WHBlocks.CRATE),
+    DEEPSLATE_CHEST(DeepslateChestBlockEntity::new, WHBlocks.DEEPSLATE_CHEST),
     //COFFIN(CoffinBlockEntity::new, BlocksModded.COFFIN),
 
-    COUNTER(CounterBlockEntity::new, BlocksModded.COUNTER),
-    CABINET(CabinetBlockEntity::new, BlocksModded.CABINET),
-    STOVE(StoveBlockEntity::new, BlocksModded.BRICK_STOVE);
+    COUNTER(CounterBlockEntity::new, WHBlocks.COUNTER),
+    CABINET(CabinetBlockEntity::new, WHBlocks.CABINET),
+    STOVE(StoveBlockEntity::new, WHBlocks.BRICK_STOVE);
     //MEMORYBOX(MemoryBoxEntity::new, BlocksModded.MEMORY_BOX);
 
     public static void initialize() {
