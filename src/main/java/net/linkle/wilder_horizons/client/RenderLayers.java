@@ -120,8 +120,8 @@ public class RenderLayers {
         put(POTTED_LIGHT_BLUE_TULIP, cullout);
         put(BLACK_TULIP, cullout);
         put(POTTED_BLACK_TULIP, cullout);
-        put(GODDESS_LILY, cullout);
-        put(POTTED_GODDESS_LILY, cullout);
+        put(LILY_OF_THE_OCEANS, cullout);
+        put(POTTED_LILY_OF_THE_OCEANS, cullout);
         put(RED_LUPINE, cullout);
         put(POTTED_RED_LUPINE, cullout);
         put(YELLOW_LUPINE, cullout);

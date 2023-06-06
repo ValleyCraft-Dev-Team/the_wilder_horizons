@@ -11,6 +11,11 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class WHMiscItems {
+    public static final Item FLOUR = registerItem("flour",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_FOOD)));
+    public static final Item MAIZE_FLOUR = registerItem("maize_flour",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_FOOD)));
+
     public static final Item PLANT_FIBER = registerItem("plant_fiber",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item PLANT_FIBER_STRING = registerItem("plant_fiber_string",

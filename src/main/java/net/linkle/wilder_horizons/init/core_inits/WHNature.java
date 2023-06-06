@@ -35,13 +35,13 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     BLACK_DAHLIA(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     FLOWERING_CACTUS(new ModCactusBlock(FLOWERING_CACTUS_SHAPE), itemSettings()),
-    SMALL_CACTUS(new ModCactusBlock(CACTUS_SHAPE), itemSettings()),
-    TUMBLEWEED(new ModPlantBlock(TUMBLEWEED_SHAPE, FLOWER).ground(ARID_DESERT_PLANT), itemSettings()),
+    //SMALL_CACTUS(new ModCactusBlock(CACTUS_SHAPE), itemSettings()),
+    //TUMBLEWEED(new ModPlantBlock(TUMBLEWEED_SHAPE, FLOWER).ground(ARID_DESERT_PLANT), itemSettings()),
     THORNY_BUSH(new ThornyBushBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER).ground(ARID_DESERT_PLANT), itemSettings()),
     FLUFFY_DANDELION(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     FOXTAIL_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
     JUNGLE_BUSH(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
-    PANFLOWERS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    //PANFLOWERS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     CLOVER(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
 
     HONEYCLUSTER(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
@@ -59,15 +59,15 @@ public enum WHNature implements ItemEnum, BlockEnum {
     //FROSTFERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
     FIREFERN(new SparkFernBlock(), itemSettings()),
     LILY_OF_THE_MOUNTAINS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    POISON_BLOSSOM(new PoisonPlantBlock(FLOWER_SHAPE, OFFSET_FLOWER), itemSettings()),
+    //POISON_BLOSSOM(new PoisonPlantBlock(FLOWER_SHAPE, OFFSET_FLOWER), itemSettings()),
     //NIGHT_LILY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings().rarity(Rarity.RARE)),
-    GODDESS_LILY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    LILY_OF_THE_OCEANS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
 
     KNAPWEED(new ModFlowerBlock(Blocks.OXEYE_DAISY, OFFSET_FLOWER), itemSettings()),
     
-    RED_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    YELLOW_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    PINK_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    //RED_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    //YELLOW_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    //PINK_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     
     ORANGE_POPPY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     YELLOW_POPPY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
