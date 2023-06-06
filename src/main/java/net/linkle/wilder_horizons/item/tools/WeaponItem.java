@@ -1,8 +1,7 @@
-package net.linkle.wilder_horizons.tool;
+package net.linkle.wilder_horizons.item.tools;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
-
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;

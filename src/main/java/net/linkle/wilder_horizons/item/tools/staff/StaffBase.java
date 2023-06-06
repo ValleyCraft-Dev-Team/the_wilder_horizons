@@ -1,9 +1,9 @@
-package net.linkle.wilder_horizons.tool.staff;
+package net.linkle.wilder_horizons.item.tools.staff;
 
 import java.util.List;
 
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
-import net.linkle.wilder_horizons.tool.WeaponItem;
+import net.linkle.wilder_horizons.item.tools.WeaponItem;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.enchantment.Enchantments;

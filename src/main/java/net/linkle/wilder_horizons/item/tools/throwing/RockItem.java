@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.item.tools.throwing;
 
+import net.linkle.wilder_horizons.entity.projectiles.ThrownRockEntity;
 import net.linkle.wilder_horizons.item.ThrowableItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;

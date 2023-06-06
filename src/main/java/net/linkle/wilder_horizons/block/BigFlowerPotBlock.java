@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.block;
 
+import net.linkle.wilder_horizons.tags.ModBlockTags;
 import net.minecraft.block.*;
 import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.item.ItemPlacementContext;

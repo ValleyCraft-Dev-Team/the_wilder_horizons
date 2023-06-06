@@ -1,11 +1,26 @@
 package net.linkle.wilder_horizons.init.core_inits;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.linkle.wilder_horizons.init.WHGroups;
 import net.linkle.wilder_horizons.interfaces.PreventDestroy;
 import net.linkle.wilder_horizons.item.ClimbingAxeItem;
 import net.linkle.wilder_horizons.item.ModHoeItem;
+import net.linkle.wilder_horizons.item.tools.ModToolMaterialsExtended;
+import net.linkle.wilder_horizons.item.tools.Scalpel;
 import net.linkle.wilder_horizons.item.tools.WHToolMaterials;
+import net.linkle.wilder_horizons.item.tools.bows.ModBowItem;
 import net.linkle.wilder_horizons.item.tools.environmental.*;
+import net.linkle.wilder_horizons.item.tools.greatsword.GreatswordBase;
+import net.linkle.wilder_horizons.item.tools.hatchet.HatchetAxeBase;
+import net.linkle.wilder_horizons.item.tools.knife.DaggerBase;
+import net.linkle.wilder_horizons.item.tools.knife.KnifeBase;
+import net.linkle.wilder_horizons.item.tools.rusty.*;
+import net.linkle.wilder_horizons.item.tools.scythe.ScytheBase;
+import net.linkle.wilder_horizons.item.tools.staff.StaffBase;
+import net.linkle.wilder_horizons.item.tools.throwing.RockItem;
+import net.linkle.wilder_horizons.item.tools.travelers_sword.TravelerBase;
+import net.linkle.wilder_horizons.item.tools.unbreakable.UnbreakableScalpelBase;
+import net.linkle.wilder_horizons.tool.woodcutter_axe.WoodcutterAxeBase;
 import net.linkle.wilder_horizons.util.Reg;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.*;
@@ -19,7 +34,7 @@ public class WHTools {
     public static final Item BRANCH = new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f);
     public static final Item DRIFTWOOD_BRANCH = new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f);
 
-    public static final Item THROWING_ROCK = new RockItem(new Item.Settings().maxCount(64).group(VC_TOOLS));
+    public static final Item THROWING_ROCK = new RockItem(new Item.Settings().maxCount(64).group(WHGroups.WH_TOOLS));
 
     public static final Item MAKESHIFT_PICKAXE = new BranchPickaxeItem(WHToolMaterials.MAKESHIFT_FLINT, 3, -3.0f);
     public static final Item MAKESHIFT_AXE = new BranchAxeItem(WHToolMaterials.MAKESHIFT_STONE, 3, -3.0f);
@@ -29,7 +44,7 @@ public class WHTools {
     public static final Item RUSTY_SWORD = new RustySwordItem(new RustyMaterial(),4, -2.4f);
     public static final Item RUSTY_PICKAXE = new RustyPickaxeItem(new RustyMaterial(),2, -2.8f);
     public static final Item RUSTY_AXE = new RustyAxeItem(new RustyMaterial(),7, -3.0f);
-    public static final Item RUSTY_HOE = new RustyHoeItem(new RustyMaterial(),0, -1.0f);
+    public static final Item RUSTY_HOE = new RustyAxeItem(new RustyMaterial(),0, -1.0f);
     public static final Item RUSTY_SHOVEL = new RustyShovelItem(new RustyMaterial(),2, -3.0f);
 
     //public static final Item ANTHROPOLOGISTS_ROCK_PICK = new AnthroPickaxeItem(new AnthroPickaxeMaterial());
@@ -37,7 +52,7 @@ public class WHTools {
     //public static final Item ANCIENT_CLIMBING_AXE = new ClimbingAxeItem(ModToolMaterials.STRONG_IRON, new Item.Settings().group(BOOKS).rarity(Rarity.EPIC));
     //public static final Item CORAL_KNIFE = new CoralDaggerItem(new CoralDaggerToolMaterial(), 3, -1.4f);
     //public static final Item CAVE_FISHERS_RAPIER = new CaveFisherSwordItem(new CaveFisherToolMaterial(), 4, -2.4f);
-    public static final Item CLIMBING_AXE = new ClimbingAxeItem(ModToolMaterials.BRASIUM, new Item.Settings().group(VC_TOOLS));
+    public static final Item CLIMBING_AXE = new ClimbingAxeItem(ModToolMaterials.BRASIUM, new Item.Settings().group(WHGroups.WH_TOOLS));
 
     //The base attack damage of each tool type.
     //These values are added to the attack stats of their materials when they're registered.
@@ -81,9 +96,9 @@ public class WHTools {
     public static final Integer HOE_BASE_DAMAGE = 0;
     public static final Float HOE_BASE_SPEED = -3.0f;
     //The item settings for knives made of 'basic' materials- wood, gold, stone, iron, rose gold, diamond, netherite
-    public static final Item.Settings BASIC_SETTINGS = new Item.Settings().group(VC_TOOLS);
-    public static final Item.Settings BASIC_SETTINGS_RARE = new Item.Settings().group(VC_TOOLS).rarity(Rarity.RARE);
-    public static final Item.Settings BASIC_SETTINGS_UNCOMMON = new Item.Settings().group(VC_TOOLS).rarity(Rarity.UNCOMMON);
+    public static final Item.Settings BASIC_SETTINGS = new Item.Settings().group(WHGroups.WH_TOOLS);
+    public static final Item.Settings BASIC_SETTINGS_RARE = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.RARE);
+    public static final Item.Settings BASIC_SETTINGS_UNCOMMON = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.UNCOMMON);
     //public static final Item.Settings BASIC_ARTIFACT_SETTINGS_RARE = new Item.Settings().group(BOOKS).rarity(Rarity.RARE);
     //public static final Item.Settings BASIC_ARTIFACT_SETTINGS_EPIC = new Item.Settings().group(BOOKS).rarity(Rarity.EPIC);
     //public static final Item.Settings BASIC_ARTIFACT_SETTINGS_UNCOMMON = new Item.Settings().group(BOOKS).rarity(Rarity.UNCOMMON);
@@ -91,7 +106,7 @@ public class WHTools {
     //public static final Item.Settings UNBREAKABLE_ARTIFACT_SETTINGS_EPIC_780 = new Item.Settings().maxDamage(780).fireproof().group(BOOKS).rarity(Rarity.EPIC);
 
     //bow reg
-    public static final Item BRASIUM_COMPOUND = new ModBowItem(new FabricItemSettings().group(VC_TOOLS).maxDamage(770));
+    public static final Item BRASIUM_COMPOUND = new ModBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770));
 
     //wooden tools
     public static final Item KNIFE_WOODEN = new KnifeBase(ToolMaterials.WOOD, KNIFE_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS);
