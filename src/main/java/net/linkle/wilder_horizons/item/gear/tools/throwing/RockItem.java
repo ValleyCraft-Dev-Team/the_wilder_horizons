@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.item.tools.throwing;
+package net.linkle.wilder_horizons.item.gear.tools.throwing;
 
 import net.linkle.wilder_horizons.entity.projectiles.ThrownRockEntity;
 import net.linkle.wilder_horizons.item.ThrowableItem;

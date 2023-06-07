@@ -3,7 +3,6 @@ package net.linkle.wilder_horizons.mixin;
 import dev.emi.trinkets.api.TrinketsApi;
 import net.linkle.wilder_horizons.Debugs;
 import net.linkle.wilder_horizons.extension.LivingEntityExt;
-import net.linkle.wilder_horizons.init.init_core.Baubles;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityStatuses;

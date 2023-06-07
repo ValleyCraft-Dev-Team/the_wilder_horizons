@@ -2,8 +2,8 @@ package net.linkle.wilder_horizons.init.init_core;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.Main;
-import net.linkle.wilder_horizons.init.WHGroups;
-import net.linkle.wilder_horizons.item.armor.WHArmorMaterials;
+import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
+import net.linkle.wilder_horizons.item.gear.armor.WHArmorMaterials;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;

@@ -106,13 +106,14 @@ public class Contents {
         putCompost(WHMiscItems.AMBERBLOSSOM_SEED, levelLow);
         putCompost(WHMiscItems.WARM_BIRCH_SEED, levelLow);
 
-        putCompost(WHArmors.DRIPLEAF_HAT, levelHigh);
-        putCompost(WHArmors.FLOWER_CROWN, levelHigh);
-        putCompost(WHArmors.DIERDRA_LAUREL, levelHigh);
-        putCompost(WHArmors.CLAM_BREASTPLATE, levelMed);
+        putCompost(WHArmors.DRIPLEAF_HAT, levelMed);
+        putCompost(WHArmors.AZAELEA_CROWN, levelMed);
+        putCompost(WHArmors.VINE_CROWN, levelMed);
+        putCompost(WHArmors.BLUE_SHELL_BREASTPLATE, levelHigh);
+        putCompost(WHArmors.LILY_PAD_HAT, levelMed);
 
-        putCompost(WHWHFoodIngredients.RAW_WORM, levelHigher);
-        putCompost(WHMiscItems.SNAIL_SHELL, levelHigher);
+        putCompost(WHFoodIngredients.RAW_WORM, levelHigher);
+        putCompost(WHMiscItems.OVER_SNAIL_SHELL, levelHigher);
         putCompost(WHMiscItems.CAVE_SNAIL_SHELL, levelHigher);
         //putCompost(WHMiscItems.SCULK_SNAIL_SHELL, levelHigher);
         putCompost(WHNature.CLAM_BLOCK, levelHigh);
@@ -143,8 +144,7 @@ public class Contents {
         putCompost(WHMiscItems.MAIZE_FLOUR, levelVeryHigh);
 
         putCompost(WHMiscItems.SALTPETER, levelHigh);
-        putCompost(WHMiscItems.DRIED_FIBER, levelMed);
-        putCompost(WHMiscItems.FIBER, levelLow);
+        putCompost(WHMiscItems.PLANT_FIBER, levelLow);
 
         putCompost(WHFoodIngredients.STAMINELLA_BERRY, levelVeryHigh);
         putCompost(WHFoodIngredients.ALOE_VERA, levelHigh);
@@ -214,8 +214,8 @@ public class Contents {
         putCompost(WHNature.APPLE_LEAVES, levelLow);
         putCompost(WHNature.APPLE_SAPLING, levelLow);
         putCompost(WHNature.APPLE_LEAVES_EMPTY, levelLow);
-        putCompost(WHNature.MAMON_LEAVES, levelLow);
-        putCompost(WHNature.MAMON_SAPLING, levelLow);
+        putCompost(WHNature.GOLD_LEAF_MAPLE_LEAVES, levelLow);
+        putCompost(WHNature.GOLD_LEAF_MAPLE_SAPLING, levelLow);
         putCompost(WHNature.ALGAE, levelVeryLow);
         putCompost(WHNature.SMALLEST_LILYPADS, levelMed);
         putCompost(WHNature.SMALL_LILYPAD, levelLow);
@@ -235,7 +235,6 @@ public class Contents {
         putCompost(WHNature.PURPLE_FLOWERING_LILYPAD, levelHigh);
         putCompost(WHNature.PINK_FLOWERING_LILYPAD, levelHigh);
         putCompost(WHNature.BLUE_FLOWERING_LILYPAD, levelHigh);
-        putCompost(WHNature.RUSHES, levelLow);
         putCompost(WHNature.CATTAILS, levelMed);
         putCompost(WHNature.DESERT_SHRUB, levelLow);
         putCompost(WHNature.BUSH, levelLow);
@@ -282,12 +281,8 @@ public class Contents {
         putCompost(WHNature.YELLOW_POPPY, levelHigh);
         putCompost(WHNature.ORANGE_POPPY, levelHigh);
         putCompost(WHNature.LILY_OF_THE_MOUNTAINS, levelHigh);
-        putCompost(WHNature.POISON_BLOSSOM, levelHigh);
-        putCompost(WHNature.GODDESS_LILY, levelHigh);
+        putCompost(WHNature.LILY_OF_THE_OCEANS, levelHigh);
         putCompost(WHNature.KNAPWEED, levelHigh);
-        putCompost(WHNature.PINK_LUPINE, levelHigh);
-        putCompost(WHNature.RED_LUPINE, levelHigh);
-        putCompost(WHNature.YELLOW_LUPINE, levelHigh);
         putCompost(WHNature.PURPLE_TULIP, levelHigh);
         putCompost(WHNature.YELLOW_TULIP, levelHigh);
         putCompost(WHNature.LIGHT_BLUE_TULIP, levelHigh);
@@ -298,13 +293,10 @@ public class Contents {
         putCompost(WHNature.HONEYCLUSTER, levelHigh);
         putCompost(WHNature.CLOVER, levelHigh);
         putCompost(WHNature.BLACK_DAHLIA, levelHigh);
-        putCompost(WHNature.PANFLOWERS, levelHigh);
         putCompost(WHNature.JUNGLE_BUSH, levelHigh);
         putCompost(WHNature.FOXTAIL_FERN, levelHigh);
         putCompost(WHNature.FLUFFY_DANDELION, levelHigh);
         putCompost(WHNature.THORNY_BUSH, levelHigh);
-        putCompost(WHNature.TUMBLEWEED, levelHigh);
-        putCompost(WHNature.SMALL_CACTUS, levelHigh);
         putCompost(WHNature.FLOWERING_CACTUS, levelHigh);
 
         putCompost(WHBlocks.FIBER_BALE, levelHigh);
@@ -324,22 +316,22 @@ public class Contents {
         putFuels(WHNature.CATTAILS, 100);
         putFuels(WHMiscItems.PUFF_BALL, 100);
         putFuels(WHMiscItems.CLOTH, 100);
-        putFuels(WHMiscItems.PLANT_FIBER_CANVAS, 100);
+        putFuels(WHMiscItems.PLANT_FIBER_CANVAS, 200);
         putFuels(WHMiscItems.PLANT_FIBER_STRING, 100);
-        putFuels(WHMiscItems.FIBER, 100);
-        putFuels(WHMiscItems.DRIED_FIBER, 100);
-        putFuels(WHMiscItems.PLANK, 150);
+        putFuels(WHMiscItems.SPOOL_OF_PLANT_FIBER_STRING, 300);
+        putFuels(WHMiscItems.PLANT_FIBER, 100);
+        putFuels(WHMiscItems.PLANK_ITEM, 150);
         putFuels(WHFoodIngredients.FIRE_PEPPER, 50);
         putFuels(WHMiscItems.HANDLE, 250);
         putFuels(WHMiscItems.REINFORCED_HANDLE, 250);
-        putFuels(WHMiscItems.STURDY_HANDLE, 250);
+        putFuels(WHMiscItems.SPECIALIZED_HANDLE, 250);
         putFuels(WHMiscItems.COAL_NUGGET, 400);
         putFuels(WHMiscItems.ANTHRACITE, 1600);
         putFuels(WHBlocks.ANTHRACITE_BLOCK, 16000);
-        putFuels(WHMiscItems.BRIMSTONE_SHARD, 800);
+        putFuels(WHMiscItems.BRIMSTONE_CRYSTAL, 800);
         putFuels(Items.BLAZE_POWDER, 1200);
         putFuels(Items.NETHER_STAR, 32000);
-        putFuels(WHMiscItems.STRANGE_CATALYST, 32000);
+        putFuels(WHMiscItems.NETHER_CORE, 32000);
         putFuels(WHMiscItems.THERMAL_BLAZE_CORE, 4000);
 
         putFuels(WHTools.KNIFE_WOODEN, 200);
@@ -362,7 +354,7 @@ public class Contents {
         putFuels(WHNature.DARK_OAK_SEED, 100);
         putFuels(WHNature.JUNGLE_SEED, 100);
         putFuels(WHNature.APPLE_SEED, 100);
-        putFuels(WHNature.AMBERBLOSSOM_SEED, 100);
+        putFuels(WHNature.GOLD_LEAF_MAPLE_SEED, 100);
         putFuels(WHNature.WARM_BIRCH_SEED, 100);
     }
     

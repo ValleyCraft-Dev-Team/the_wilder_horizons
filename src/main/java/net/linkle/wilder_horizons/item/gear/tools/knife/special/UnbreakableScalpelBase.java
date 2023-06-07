@@ -1,8 +1,8 @@
-package net.linkle.wilder_horizons.item.tools.unbreakable;
+package net.linkle.wilder_horizons.item.gear.tools.knife.special;
 
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
 import net.linkle.wilder_horizons.interfaces.PreventDestroy;
-import net.linkle.wilder_horizons.item.tools.WeaponItem;
+import net.linkle.wilder_horizons.item.gear.tools.WeaponItem;
 import net.linkle.wilder_horizons.util.WHItemUsageContext;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.item.TooltipContext;

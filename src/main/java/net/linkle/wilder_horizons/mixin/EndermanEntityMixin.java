@@ -1,7 +1,6 @@
 package net.linkle.wilder_horizons.mixin;
 
 import dev.emi.trinkets.api.TrinketsApi;
-import net.linkle.wilder_horizons.init.init_core.Baubles;
 import net.minecraft.entity.mob.EndermanEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;

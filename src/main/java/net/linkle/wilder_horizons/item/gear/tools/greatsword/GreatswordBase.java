@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.item.tools.greatsword;
+package net.linkle.wilder_horizons.item.gear.tools.greatsword;
 
 import java.util.List;
 

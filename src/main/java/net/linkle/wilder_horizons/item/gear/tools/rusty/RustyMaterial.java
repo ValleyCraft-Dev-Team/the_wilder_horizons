@@ -1,9 +1,7 @@
-package net.linkle.wilder_horizons.item.tools.rusty;
+package net.linkle.wilder_horizons.item.gear.tools.rusty;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-
-import static net.minecraft.item.Items.IRON_INGOT;
 
 public class RustyMaterial implements ToolMaterial {
     @Override
@@ -69,6 +67,6 @@ public class RustyMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(IRON_INGOT);
+        return Ingredient.ofItems();
     }
 }

@@ -1,21 +1,25 @@
-package net.linkle.wilder_horizons.item.tools.sword.special;
+package net.linkle.wilder_horizons.item.gear.tools.knife.special;
 
-import net.minecraft.item.Items;
+import net.linkle.wilder_horizons.init.init_core.WHMiscItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class BrokenSeagerToolMaterial implements ToolMaterial {
+public class BlueCoralDaggerToolMaterial implements ToolMaterial {
     @Override
     public int getDurability() {
-        //Broken: 59
+        //Golden: 32
         //Wood: 59
         //Flint: 95
         //Stone: 131
+        //Copper: 131
+        //Rose Gold: 163
         //Iron: 250
-        //Golden: 32
+        //Trident/Prismarine: 250
+        //Golemite: 521
+        //Primsteel 781
         //Diamond: 1561
         //Netherite: 2031
-        return 59;
+        return 250;
     }
 
     @Override
@@ -28,7 +32,7 @@ public class BrokenSeagerToolMaterial implements ToolMaterial {
         //Diamond: 8.0f
         //Netherite: 10.0f
         //Gold: 12.0f
-        return 7.0f;
+        return 6.0f;
     }
 
     @Override
@@ -61,16 +65,15 @@ public class BrokenSeagerToolMaterial implements ToolMaterial {
         //Flint: 10
         //Stone: 5
         //Iron: 14
+        //Prismarine: 18
         //Diamond: 10
         //Gold: 22
-        //Golemite: 5
-        //Primsteel: 18
-        //Netherite: 15
-        return 5;
+        //Netherite: ??
+        return 18;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems();
+        return Ingredient.ofItems(WHMiscItems.ELDER_GUARDIAN_SPIKE);
     }
 }

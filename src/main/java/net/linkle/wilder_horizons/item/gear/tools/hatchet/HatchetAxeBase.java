@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.item.tools.hatchet;
+package net.linkle.wilder_horizons.item.gear.tools.hatchet;
 
 import java.util.List;
 

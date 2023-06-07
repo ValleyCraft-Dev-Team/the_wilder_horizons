@@ -1,7 +1,7 @@
-package net.linkle.wilder_horizons.item.tools.rusty;
+package net.linkle.wilder_horizons.item.gear.tools.rusty;
 
+import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
-import net.linkle.wilder_horizons.init.WHGroups;
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.ToolMaterial;
 

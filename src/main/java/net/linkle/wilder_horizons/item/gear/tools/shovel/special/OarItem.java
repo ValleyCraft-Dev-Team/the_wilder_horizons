@@ -1,7 +1,7 @@
-package net.linkle.wilder_horizons.item.tools.shovel.special;
+package net.linkle.wilder_horizons.item.gear.tools.shovel.special;
 
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
-import net.linkle.wilder_horizons.init.WHGroups;
+import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.ShovelItem;

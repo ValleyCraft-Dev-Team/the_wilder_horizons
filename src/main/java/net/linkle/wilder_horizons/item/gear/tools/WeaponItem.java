@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.item.tools;
+package net.linkle.wilder_horizons.item.gear.tools;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;

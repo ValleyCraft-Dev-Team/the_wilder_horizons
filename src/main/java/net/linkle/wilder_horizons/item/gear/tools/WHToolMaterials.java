@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.item.tools;
+package net.linkle.wilder_horizons.item.gear.tools;
 
 import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;
@@ -10,6 +10,7 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.tag.ItemTags;
 
 public enum WHToolMaterials implements ToolMaterial {
 
@@ -75,6 +76,30 @@ public enum WHToolMaterials implements ToolMaterial {
     }),
     AMETHYST(2, 190, 5.0F, 1.5F, 18, () -> {
         return Ingredient.ofItems(Items.AMETHYST_SHARD);
+    }),
+    WOOD_EXTENDED(0, 89, 2.0F, 0.0F, 15, () -> {
+        return Ingredient.fromTag(ItemTags.PLANKS);
+    }),
+    STONE_EXTENDED(1, 197, 4.0F, 1.0F, 5, () -> {
+        return Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS);
+    }),
+    IRON_EXTENDED(2, 375, 6.0F, 2.0F, 14, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
+    }),
+    DIAMOND_EXTENDED(3, 2342, 8.0F, 3.0F, 10, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
+    }),
+    GOLD_EXTENDED(0, 48, 12.0F, 0.0F, 22, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
+    }),
+    NETHERITE_EXTENDED(4, 3047, 9.0F, 4.0F, 15, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
+    }),
+    ECHOCHALCUM_EXTENDED(4, 3047, 9.0F, 4.0F, 22, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM});
+    }),
+    BRASIUM_EXTENDED(1, 660, 7.0F, 2.0F, 15, () -> {
+        return Ingredient.ofItems(WHMiscItems.BRASIUM_ALLOY);
     });
 
     private final int miningLevel;

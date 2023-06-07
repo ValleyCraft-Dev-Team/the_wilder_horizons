@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.tool.woodcutter_axe;
+package net.linkle.wilder_horizons.item.gear.tools.woodcutter_axe;
 
 import java.util.List;
 import java.util.Optional;

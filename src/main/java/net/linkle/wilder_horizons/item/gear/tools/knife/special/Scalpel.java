@@ -1,6 +1,6 @@
-package net.linkle.wilder_horizons.item.tools;
+package net.linkle.wilder_horizons.item.gear.tools.knife.special;
 
-import net.linkle.wilder_horizons.item.tools.travelers_sword.TravelerBase;
+import net.linkle.wilder_horizons.item.gear.tools.travelers_sword.TravelerBase;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ToolMaterial;

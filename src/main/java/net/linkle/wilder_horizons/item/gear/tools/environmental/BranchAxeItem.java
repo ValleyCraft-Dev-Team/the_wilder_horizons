@@ -1,7 +1,7 @@
-package net.linkle.wilder_horizons.item.tools.environmental;
+package net.linkle.wilder_horizons.item.gear.tools.environmental;
 
+import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
-import net.linkle.wilder_horizons.init.WHGroups;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;
 

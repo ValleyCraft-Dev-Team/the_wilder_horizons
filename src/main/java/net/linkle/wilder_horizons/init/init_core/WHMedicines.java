@@ -2,7 +2,7 @@ package net.linkle.wilder_horizons.init.init_core;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.Main;
-import net.linkle.wilder_horizons.init.WHGroups;
+import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.linkle.wilder_horizons.item.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;

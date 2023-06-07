@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.item.tools.shovel.special;
+package net.linkle.wilder_horizons.item.gear.tools.shovel.special;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

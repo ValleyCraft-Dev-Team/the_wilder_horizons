@@ -1,7 +1,7 @@
-package net.linkle.wilder_horizons.item.tools.knife.special;
+package net.linkle.wilder_horizons.item.gear.tools.knife.special;
 
-import net.linkle.wilder_horizons.init.WHGroups;
-import net.linkle.wilder_horizons.item.tools.knife.KnifeBase;
+import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
+import net.linkle.wilder_horizons.item.gear.tools.knife.KnifeBase;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;

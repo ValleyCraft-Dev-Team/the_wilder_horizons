@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.item.tools.travelers_sword;
+package net.linkle.wilder_horizons.item.gear.tools.travelers_sword;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;
