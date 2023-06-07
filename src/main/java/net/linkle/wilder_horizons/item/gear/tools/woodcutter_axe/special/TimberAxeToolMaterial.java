@@ -1,4 +1,4 @@
-package net.linkle.wilder_horizons.tool.woodcutter_axe.special;
+package net.linkle.wilder_horizons.item.gear.tools.woodcutter_axe.special;
 
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
@@ -68,6 +68,6 @@ public class TimberAxeToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.IRON_INGOT);
+        return Ingredient.ofItems();
     }
 }

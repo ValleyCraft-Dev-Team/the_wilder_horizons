@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.interfaces;
 
-import net.linkle.wilder_horizons.init.Events;
+import net.linkle.wilder_horizons.init.init_exterior.Events;
 import net.minecraft.item.ItemStack;
 
 /**

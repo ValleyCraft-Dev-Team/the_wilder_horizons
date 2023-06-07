@@ -10,8 +10,8 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.HashSet;
 
-import static net.linkle.wilder_horizons.init.init_core.init_core.WHBlocks.*;
-import static net.linkle.wilder_horizons.init.init_core.init_core.WHNature.*;
+import static net.linkle.wilder_horizons.init.init_core.WHBlocks.*;
+import static net.linkle.wilder_horizons.init.init_core.WHNature.*;
 
 @Environment(EnvType.CLIENT)
 public class RenderLayers {
@@ -110,8 +110,7 @@ public class RenderLayers {
         put(POTTED_LAVENDER, cullout);
         put(ORANGE_BEAUTY, cullout);
         put(POTTED_ORANGE_BEAUTY, cullout);
-        put(POISON_BLOSSOM, cullout);
-        put(POTTED_POISON_BLOSSOM, cullout);
+
         put(PURPLE_TULIP, cullout);
         put(POTTED_PURPLE_TULIP, cullout);
         put(YELLOW_TULIP, cullout);
@@ -122,12 +121,8 @@ public class RenderLayers {
         put(POTTED_BLACK_TULIP, cullout);
         put(LILY_OF_THE_OCEANS, cullout);
         put(POTTED_LILY_OF_THE_OCEANS, cullout);
-        put(RED_LUPINE, cullout);
-        put(POTTED_RED_LUPINE, cullout);
-        put(YELLOW_LUPINE, cullout);
-        put(POTTED_YELLOW_LUPINE, cullout);
-        put(PINK_LUPINE, cullout);
-        put(POTTED_PINK_LUPINE, cullout);
+        put(LILY_OF_THE_MOUNTAINS, cullout);
+        put(POTTED_LILY_OF_THE_MOUNTAINS, cullout);
         put(ORANGE_POPPY, cullout);
         put(POTTED_ORANGE_POPPY, cullout);
         put(YELLOW_POPPY, cullout);
@@ -174,15 +169,10 @@ public class RenderLayers {
         put(POTTED_FLOWERING_CACTUS, cullout);
         put(JUNGLE_BUSH, cullout);
         put(POTTED_JUNGLE_BUSH, cullout);
-        put(PANFLOWERS, cullout);
-        put(POTTED_PANFLOWERS, cullout);
-        //put(FROSTFERN, cullout);
         put(FIREFERN, cullout);
         put(POTTED_FIREFERN, cullout);
         put(WEEPING_GHOST_WILLOW, cullout);
         put(POTTED_WEEPING_GHOST_WILLOW, cullout);
-        //put(FIDDLEHEAD_FERN, cullout);
-        //put(POTTED_FIDDLEHEAD_FERN, cullout);
         put(POTTED_ANCIENT_FLOWER, cullout);
         put(ANCIENT_FLOWER_BLOCK, cullout);
         put(STAMINELLA_BERRY_PLANT, cullout);
@@ -401,8 +391,6 @@ public class RenderLayers {
         put(HEAD_ROTTEN_STEVE, cullout);
         put(ENDERMAN_SKULL, cullout);
 
-        //put(COFFIN, translucent);
-
         put(DEEPSLATE_CHEST, cullout);
         put(DEEPSLATE_CHEST, translucent);
 
@@ -411,19 +399,15 @@ public class RenderLayers {
         put(PICKAXE_BLOCK, cullout);
         put(DEAD_LANTERN, cullout);
         put(STAKE, cullout);
-        //put(LUMBERJACK_STATION, cullout);
         put(LANTERN_HANGER, cullout);
         put(LOG_PILE, cullout);
         put(KEG, cullout);
-        put(SMALL_CACTUS, cullout);
-        //put(PRIMSTEEL_BARS, cullout);
         put(BLOCK_WATTLE_AND_GLASS, cullout);
         put(BLOCK_WATTLE_AND_GLASS_PLUS, cullout);
         put(BLOCK_WATTLE_AND_GLASS_CROSS, cullout);
         put(BLOCK_WATTLE_AND_GLASS_PANE, cullout);
         put(BLOCK_WATTLE_AND_GLASS_PLUS_PANE, cullout);
         put(BLOCK_WATTLE_AND_GLASS_CROSS_PANE, cullout);
-        put(TUMBLEWEED, cullout);
         put(NET, cullout);
         put(ROPE_BRIDGE, cullout);
         put(ROPE_BRIDGE_ANCHOR, cullout);

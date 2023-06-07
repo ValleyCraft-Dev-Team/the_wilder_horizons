@@ -1,6 +1,7 @@
 package net.linkle.wilder_horizons.init.init_core;
 
 import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_FOOD;
+import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_NATURE;
 import static net.linkle.wilder_horizons.util.PlantBlockSettings.*;
 import static net.linkle.wilder_horizons.util.PlantGroundPredicates.*;
 import static net.linkle.wilder_horizons.util.PlantVoxelShapes.*;

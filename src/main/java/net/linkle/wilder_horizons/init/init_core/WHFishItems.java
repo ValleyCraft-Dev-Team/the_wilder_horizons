@@ -9,7 +9,7 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static net.linkle.wilder_horizons.init.WHGroups.WH_MISCELLANEOUS;
+import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_MISCELLANEOUS;
 
 public enum WHFishItems implements ItemEnum {
     STONEROLLER_MINNOW_BUCKET(new EntityBucketItem(WHEntities.STONEROLLER_MINNOW.type(), Fluids.WATER, SoundEvents.ITEM_BUCKET_EMPTY_FISH, new Item.Settings().group(WH_MISCELLANEOUS).maxCount(1))),
