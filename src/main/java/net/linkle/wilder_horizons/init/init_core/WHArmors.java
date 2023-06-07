@@ -43,6 +43,8 @@ public class WHArmors {
             new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
     public static final Item CLOAK = registerItem("cloak",
             new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    public static final Item TUNIC = registerItem("tunic",
+            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_TUNIC, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
     public static final Item NEUTRAL_GARMENTS = registerItem("neutral_garments",
             new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_NEUTRAL, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));

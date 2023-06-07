@@ -17,6 +17,9 @@ public enum WHArmorMaterials implements ArmorMaterial {
     SHROOMLEATHER_CLOAK("plain_cloak", 10, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SHROOMLEATHER});
     }),
+    SHROOMLEATHER_TUNIC("shroomleather_tunic", 10, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SHROOMLEATHER});
+    }),
     //WRAITH_CLOAK("wraith_cloak", 10, new int[]{2, 3, 4, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
     //    return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
     //}),
