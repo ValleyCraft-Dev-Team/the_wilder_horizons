@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons;
 
-import net.linkle.wilder_horizons.init.core_inits.*;
+import net.linkle.wilder_horizons.init.init_core.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

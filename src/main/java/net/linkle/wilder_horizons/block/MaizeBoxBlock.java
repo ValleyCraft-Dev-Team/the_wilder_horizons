@@ -1,9 +1,9 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.init.core_inits.WHNature;
+import net.linkle.wilder_horizons.init.init_core.WHNature;
 import org.jetbrains.annotations.Nullable;
 
-import net.linkle.wilder_horizons.init.core_inits.WHFoodIngredients;
+import net.linkle.wilder_horizons.init.init_core.WHFoodIngredients;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;

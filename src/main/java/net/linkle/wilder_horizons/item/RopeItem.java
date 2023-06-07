@@ -2,7 +2,7 @@ package net.linkle.wilder_horizons.item;
 
 import net.linkle.wilder_horizons.block.RopeBlockExt;
 import net.linkle.wilder_horizons.enums.BlockEnum;
-import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
+import net.linkle.wilder_horizons.init.init_core.WHBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

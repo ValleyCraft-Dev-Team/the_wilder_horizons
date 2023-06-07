@@ -6,7 +6,6 @@ import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.entity.BearEntity;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
-import net.minecraft.client.render.entity.model.EntityModelLayers;
 import net.minecraft.client.render.entity.model.EntityModelPartNames;
 import net.minecraft.client.render.entity.model.QuadrupedEntityModel;
 import net.minecraft.util.math.MathHelper;

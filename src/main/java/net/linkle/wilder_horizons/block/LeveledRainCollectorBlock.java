@@ -2,7 +2,7 @@ package net.linkle.wilder_horizons.block;
 
 import java.util.Map;
 
-import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
+import net.linkle.wilder_horizons.init.init_core.WHBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.LeveledCauldronBlock;
 import net.minecraft.block.ShapeContext;

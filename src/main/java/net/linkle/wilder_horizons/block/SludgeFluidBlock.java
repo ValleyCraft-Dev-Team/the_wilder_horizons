@@ -5,8 +5,8 @@ import java.util.function.Supplier;
 import com.google.common.collect.ImmutableMap;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricMaterialBuilder;
-import net.linkle.wilder_horizons.init.core_inits.WHEffects;
-import net.linkle.wilder_horizons.init.core_inits.WHNature;
+import net.linkle.wilder_horizons.init.init_core.WHEffects;
+import net.linkle.wilder_horizons.init.init_core.WHNature;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.init.core_inits.WHEffects;
+import net.linkle.wilder_horizons.init.init_core.WHEffects;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.client.MinecraftClient;

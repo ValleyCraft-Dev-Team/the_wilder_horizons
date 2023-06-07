@@ -1,10 +1,10 @@
 package net.linkle.wilder_horizons.villager;
 
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
-import net.linkle.wilder_horizons.init.core_inits.WHFoodIngredients;
-import net.linkle.wilder_horizons.init.core_inits.WHFoods;
-import net.linkle.wilder_horizons.init.core_inits.WHMiscItems;
-import net.linkle.wilder_horizons.init.core_inits.WHTools;
+import net.linkle.wilder_horizons.init.init_core.WHFoodIngredients;
+import net.linkle.wilder_horizons.init.init_core.WHFoods;
+import net.linkle.wilder_horizons.init.init_core.WHMiscItems;
+import net.linkle.wilder_horizons.init.init_core.WHTools;
 import net.minecraft.item.ItemStack;
 import net.minecraft.village.TradeOffer;
 

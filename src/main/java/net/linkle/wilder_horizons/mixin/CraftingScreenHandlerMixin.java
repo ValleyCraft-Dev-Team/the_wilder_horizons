@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.mixin;
 
-import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
+import net.linkle.wilder_horizons.init.init_core.WHBlocks;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

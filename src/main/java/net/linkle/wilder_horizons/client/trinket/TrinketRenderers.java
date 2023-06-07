@@ -3,7 +3,7 @@ package net.linkle.wilder_horizons.client.trinket;
 import dev.emi.trinkets.api.client.TrinketRenderer;
 import dev.emi.trinkets.api.client.TrinketRendererRegistry;
 import net.linkle.wilder_horizons.client.trinket.renderer.BodyRenderer;
-import net.linkle.wilder_horizons.init.core_inits.Baubles;
+import net.linkle.wilder_horizons.init.init_core.init_core.Baubles;
 import net.minecraft.item.ItemConvertible;
 
 // Trinket

@@ -1,7 +1,7 @@
 package net.linkle.wilder_horizons.villager;
 
 import net.fabricmc.fabric.api.object.builder.v1.villager.VillagerProfessionBuilder;
-import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
+import net.linkle.wilder_horizons.init.init_core.WHBlocks;
 import net.minecraft.util.Identifier;
 
 import com.google.common.collect.ImmutableSet;

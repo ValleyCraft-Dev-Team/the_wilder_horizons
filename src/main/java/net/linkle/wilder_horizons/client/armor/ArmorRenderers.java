@@ -5,7 +5,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.ArmorRenderer;
 import net.linkle.wilder_horizons.client.armor.renderer.CowPokeHatRenderer;
 import net.linkle.wilder_horizons.client.armor.renderer.StrawHatRenderer;
-import net.linkle.wilder_horizons.init.core_inits.WHArmors;
+import net.linkle.wilder_horizons.init.init_core.init_core.WHArmors;
 import net.minecraft.item.ItemConvertible;
 
 /** Armor Renderers */

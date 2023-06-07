@@ -1,7 +1,7 @@
 package net.linkle.wilder_horizons.util;
 
 import net.linkle.wilder_horizons.block.materials.BlockMats;
-import net.linkle.wilder_horizons.sounds.BlockSounds;
+import net.linkle.wilder_horizons.environment.sounds.BlockSounds;
 import net.minecraft.block.AbstractBlock.Settings;
 
 public class BlockSettings {

@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.item;
 
-import net.linkle.wilder_horizons.init.core_inits.WHMiscItems;
+import net.linkle.wilder_horizons.init.init_core.WHMiscItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;

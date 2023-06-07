@@ -10,8 +10,8 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.HashSet;
 
-import static net.linkle.wilder_horizons.init.core_inits.WHBlocks.*;
-import static net.linkle.wilder_horizons.init.core_inits.WHNature.*;
+import static net.linkle.wilder_horizons.init.init_core.init_core.WHBlocks.*;
+import static net.linkle.wilder_horizons.init.init_core.init_core.WHNature.*;
 
 @Environment(EnvType.CLIENT)
 public class RenderLayers {

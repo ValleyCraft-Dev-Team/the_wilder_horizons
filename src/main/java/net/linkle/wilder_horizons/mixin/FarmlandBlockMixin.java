@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import net.linkle.wilder_horizons.block.SprinklerBlock;
-import net.linkle.wilder_horizons.init.core_inits.WHBlocks;
+import net.linkle.wilder_horizons.init.init_core.WHBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.FarmlandBlock;
 import net.minecraft.util.math.BlockPos;

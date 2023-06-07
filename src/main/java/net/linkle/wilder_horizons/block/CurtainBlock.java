@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.block;
 
-import net.linkle.wilder_horizons.sounds.WHSounds;
+import net.linkle.wilder_horizons.environment.sounds.WHSounds;
 import net.minecraft.block.*;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
