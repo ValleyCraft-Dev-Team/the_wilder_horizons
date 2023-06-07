@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.block.entity;
 
+import net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.SmokerBlockEntity;
@@ -18,6 +19,6 @@ public class StoveBlockEntity extends SmokerBlockEntity {
 
     @Override
     public BlockEntityType<?> getType() {
-        return net.linkle.wilder_horizons.init.WHBlockEntities.STOVE.type();
+        return WHBlockEntities.STOVE.type();
     }
 }

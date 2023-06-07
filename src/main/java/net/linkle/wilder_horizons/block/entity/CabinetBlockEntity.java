@@ -2,6 +2,7 @@ package net.linkle.wilder_horizons.block.entity;
 
 import net.linkle.wilder_horizons.block.CabinetBlock;
 import net.linkle.wilder_horizons.block.CounterDrawerBlock;
+import net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerInventory;
@@ -17,7 +18,7 @@ import net.minecraft.util.math.BlockPos;
 public class CabinetBlockEntity extends ContainerBlockEntity {
     
     public CabinetBlockEntity(BlockPos pos, BlockState state) {
-        super(net.linkle.wilder_horizons.init.WHBlockEntities.CABINET.type(), pos, state);
+        super(WHBlockEntities.CABINET.type(), pos, state);
     }
 
     @Override

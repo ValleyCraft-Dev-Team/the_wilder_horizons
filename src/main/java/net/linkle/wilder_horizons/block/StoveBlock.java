@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.block;
 
+import net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities;
 import org.jetbrains.annotations.Nullable;
 
 import net.linkle.wilder_horizons.block.entity.StoveBlockEntity;
@@ -31,7 +32,7 @@ public class StoveBlock extends SmokerBlock {
     @Override
     @Nullable
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return SmokerBlock.checkType(world, type, net.linkle.wilder_horizons.init.WHBlockEntities.STOVE.type());
+        return SmokerBlock.checkType(world, type, WHBlockEntities.STOVE.type());
     }
     
     @Override

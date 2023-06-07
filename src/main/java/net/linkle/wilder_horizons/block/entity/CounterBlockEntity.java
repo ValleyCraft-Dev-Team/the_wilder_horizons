@@ -1,6 +1,7 @@
 package net.linkle.wilder_horizons.block.entity;
 
 import net.linkle.wilder_horizons.block.CounterDrawerBlock;
+import net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerInventory;
@@ -16,7 +17,7 @@ import net.minecraft.util.math.BlockPos;
 public class CounterBlockEntity extends ContainerBlockEntity {
     
     public CounterBlockEntity(BlockPos pos, BlockState state) {
-        super(net.linkle.wilder_horizons.init.WHBlockEntities.COUNTER.type(), pos, state);
+        super(WHBlockEntities.COUNTER.type(), pos, state);
     }
 
     @Override
