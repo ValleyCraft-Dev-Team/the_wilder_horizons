@@ -1,8 +1,0 @@
-{
-  "icon": "wilder_horizons:gui/slots/necklace",
-  "order": 2,
-  "drop_rule": "default",
-  "validator_predicates": ["trinkets:tag"],
-  "tooltip_predicates": ["trinkets:none"],
-  "amount": 1
-}

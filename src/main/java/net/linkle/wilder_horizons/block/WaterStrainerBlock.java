@@ -2,7 +2,7 @@ package net.linkle.wilder_horizons.block;
 
 import java.util.List;
 
-import net.linkle.wilder_horizons.init.WHLootTables;
+import net.linkle.wilder_horizons.init.init_exterior.WHLootTables;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Material;
