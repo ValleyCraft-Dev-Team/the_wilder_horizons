@@ -1,5 +1,7 @@
 package net.linkle.wilder_horizons.block;
 
+import java.util.List;
+
 import net.linkle.wilder_horizons.init.init_exterior.WHLootTables;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -21,8 +23,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
-
-import java.util.List;
 
 public class WaterStrainerBlock extends BlockWithWater {
     
