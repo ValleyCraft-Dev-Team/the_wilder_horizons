@@ -58,6 +58,12 @@ public class WHArmors {
     public static final Item COWPOKE_HAT = registerItem("cowpoke_hat",
             new ArmorItem(WHArmorMaterials.COWPOKE_HAT, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
+    public static final Item UNDYING_TALISMAN = registerItem("totem_of_undying_necklace",
+            new ArmorItem(WHArmorMaterials.UNDYING_TALISMAN, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+
+    public static final Item LUCKY_FISHING_HOOK_TALISMAN = registerItem("fish_hook_necklace",
+            new ArmorItem(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+
     public static final Item WARM_BOOTS = registerItem("warm_boots",
             new ArmorItem(WHArmorMaterials.WARM_BOOTS, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 

@@ -32,6 +32,12 @@ public enum WHArmorMaterials implements ArmorMaterial {
     TURTLE("turtle", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.SCUTE});
     }),
+    UNDYING_TALISMAN("undying_talisman", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.TOTEM_OF_UNDYING});
+    }),
+    LUCKY_FISHING_HOOK_TALISMAN("lucky_fishing_hook_talisman", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.LUCKY_HOOK});
+    }),
     BLUE_CLAM_SHELL_BREASTPLATE("blue_breastplate", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.SCUTE});
     }),

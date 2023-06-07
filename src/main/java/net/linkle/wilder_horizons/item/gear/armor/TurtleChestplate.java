@@ -24,8 +24,8 @@ public class TurtleChestplate extends ArmorItem {
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         if (slot == EquipmentSlot.CHEST.getEntitySlotId() && entity instanceof LivingEntity living) {
-            living.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 15 * 20, 1, true, false, true));
-            living.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 15 * 20, 1, true, false, true));
+            living.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 3 * 20, 1, true, false, true));
+            living.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 3 * 20, 1, true, false, true));
         }
     }
 

@@ -84,6 +84,8 @@ public class WHMiscItems {
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item LIFE_GEM = registerItem("life_gem",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item LUCKY_HOOK = registerItem("lucky_hook",
+            new AlphaModItem(new FabricItemSettings().maxCount(1).group(WHGroups.WH_MISCELLANEOUS)));
 
     public static final Item GEODE_CORE_CRACKED = registerItem("geode_core_cracked",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
