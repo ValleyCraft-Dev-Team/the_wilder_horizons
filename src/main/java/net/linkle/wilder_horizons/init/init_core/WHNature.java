@@ -37,13 +37,11 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     BLACK_DAHLIA(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     FLOWERING_CACTUS(new ModCactusBlock(FLOWERING_CACTUS_SHAPE), itemSettings()),
-    //SMALL_CACTUS(new ModCactusBlock(CACTUS_SHAPE), itemSettings()),
     //TUMBLEWEED(new ModPlantBlock(TUMBLEWEED_SHAPE, FLOWER).ground(ARID_DESERT_PLANT), itemSettings()),
     THORNY_BUSH(new ThornyBushBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER).ground(ARID_DESERT_PLANT), itemSettings()),
     FLUFFY_DANDELION(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     FOXTAIL_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
     JUNGLE_BUSH(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
-    //PANFLOWERS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     CLOVER(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
 
     HONEYCLUSTER(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
@@ -56,8 +54,6 @@ public enum WHNature implements ItemEnum, BlockEnum {
     BLACK_TULIP(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     BIG_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
     LEATHERLEAF_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
-    //FIDDLEHEAD_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
-    //ORANGE_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
     //FROSTFERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
     FIREFERN(new SparkFernBlock(), itemSettings()),
     LILY_OF_THE_MOUNTAINS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
@@ -66,11 +62,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     LILY_OF_THE_OCEANS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
 
     KNAPWEED(new ModFlowerBlock(Blocks.OXEYE_DAISY, OFFSET_FLOWER), itemSettings()),
-    
-    //RED_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    //YELLOW_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    //PINK_LUPINE(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    
+
     ORANGE_POPPY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     YELLOW_POPPY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     WHITE_POPPY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
@@ -83,21 +75,14 @@ public enum WHNature implements ItemEnum, BlockEnum {
     TALL_LAVENDER(new ModTallFlowerBlock(), itemSettings(), TallBlockItem::new),
     TALL_AZURE_BLUET(new ModTallFlowerBlock(), itemSettings(), TallBlockItem::new),
 
-    //BEE_NEST_WALL(new Block(Block.Settings.copy(Blocks.BEE_NEST)), itemSettings()),
-
     //mushrooms
-    RED_CLUSTER(new ModMushroomBlock(Block.Settings.copy(Blocks.RED_MUSHROOM)).large(), itemSettings()),
-    BROWN_CLUSTER(new ModMushroomBlock(Block.Settings.copy(Blocks.BROWN_MUSHROOM)).large(), itemSettings()),
+    PURPLE_MUSHROOM(new ModMushroomBlockDaySafe(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
     SPORE_SPREADER(new ModSporeSpreaderBlock().large(), itemSettings()),
     GLOW_CAP(new ModGlowingMushroomBlock(), itemSettings()),
-    GLOW_CAP_CLUSTER(new ModGlowingMushroomBlock().large(), itemSettings()),
     FAN_MOLD(new FanMoldBlock(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
-    JUNGLE_CAP(new ModMushroomBlockDaySafe(), itemSettings()),
-    JUNGLE_CAP_CLUSTER(new ModMushroomBlockDaySafe().large(), itemSettings()),
-
-    MOREL(new ModMushroomBlockDaySafe(), itemSettings()),
-    SHIVERCAP(new ShivercapBlock(), itemSettings().group(WH_FOOD)),
-    STALWART_SHROOM(new StalwartBlock(), itemSettings().group(WH_FOOD)),
+    //SHIVERCAP(new ShivercapBlock(), itemSettings().group(WH_FOOD)),
+    //MOREL(new ModMushroomBlockDaySafe(), itemSettings()),
+    //STALWART_SHROOM(new StalwartBlock(), itemSettings().group(WH_FOOD)),
 
     SHORT_GRASS(new GrowablePlantBlock(OFFSET_REPLACEABLE, new Identifier("grass")), itemSettings()),
     SNOWFLOWER(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
@@ -134,7 +119,6 @@ public enum WHNature implements ItemEnum, BlockEnum {
     ALOE_VERAS(new BushBlock(Block.Settings.copy(Blocks.SWEET_BERRY_BUSH)).ground(ARID_DESERT_CROP).AloeShape()),
 
     MIMIC_FLOWER(new MimicFlowerBlock(MimicFlowerBlock.settings(0).ticksRandomly()), itemSettings()),
-    //CAVE_ROOTS(new HangingPlant(Block.Settings.copy(Blocks.HANGING_ROOTS)), itemSettings()),
     DESERT_SHRUB(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
     BUSH(new GrowablePlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER, "large_bush"), itemSettings()),
     LARGE_BUSH(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
@@ -180,13 +164,6 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     SHELL_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
 
-    /**saving for 1.1**/
-    //DEEP_SEA_SAND(new FallingBlock(Block.Settings.copy(Blocks.SAND)), itemSettings()),
-    //ABYSSAL_SAND(new FallingBlock(Block.Settings.copy(Blocks.SAND)), itemSettings()),
-    //VOLCANIC_STONE(new Block(Block.Settings.copy(Blocks.TUFF)), itemSettings()),
-    //VOLCANIC_MAGMA_STONE(new Block(Block.Settings.copy(Blocks.MAGMA_BLOCK).sounds(BlockSoundGroup.TUFF)), itemSettings()),
-    //VOLCANIC_ASH(new FallingBlock(Block.Settings.copy(Blocks.SAND)), itemSettings()),
-
     GOLD_LEAF_MAPLE_LOG(new PillarBlock(Block.Settings.copy(Blocks.OAK_LOG)), itemSettings()),
     GOLD_LEAF_MAPLE_LEAVES(new LeavesBlock(Block.Settings.copy(Blocks.OAK_LEAVES)), itemSettings()),
     GOLD_LEAF_MAPLE_SAPLING(new SaplingBlock(new AmberSaplingGen(), Block.Settings.copy(Blocks.OAK_SAPLING)), itemSettings()),
@@ -214,47 +191,32 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     ARID_VINES(new VineHeadBlock(), itemSettings()),
     ARID_VINES_PLANT(new VineBodyBlock()),
-    //CAVE_MOSS(new CaveMossBlock(), itemSettings()),
-    //CRYSTAL_CAVE_MOSS(new CaveMossBlock(), itemSettings()),
-    //GNARLED_ROOTS(new GlowLichenBlock(Block.Settings.copy(Blocks.GLOW_LICHEN).luminance(s -> 0)), itemSettings()),
 
     SLUDGE_FLUID(new SludgeFluidBlock(WHFluids.SLUDGE_STILL.flowable())),
 
     SHALE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
     CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.STONE).resistance(1200).hardness(52f)), itemSettings()),
 
-    //STONE_CAVE_GRASS(new CaveGrassStoneBlock(Blocks.STONE, ModBlockSoundGroup.MOSS_STONE.sound), itemSettings()),
-    //SHALE_CAVE_GRASS(new CaveGrassStoneBlock(SHALE.block, ModBlockSoundGroup.MOSS_SHALE.sound), itemSettings()),
-    //DEEPSLATE_CAVE_GRASS(new CaveGrassStoneBlock(Blocks.DEEPSLATE, ModBlockSoundGroup.MOSS_DEEPSLATE.sound), itemSettings()),
-
     DRY_DIRT(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
-    //IRON_RICH_DIRT(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
     FINE_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     SANDY_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     MOSSY_STONE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
     CARMINE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
     CARMINE_COBBLESTONE(new Block(Block.Settings.copy(Blocks.COBBLESTONE)), itemSettings()),
-    //DIABASE(new Block(Block.Settings.copy(Blocks.SMOOTH_STONE)), itemSettings()),
     SERPENTINITE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
-    //GRIMESTONE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
-    //SHIVERSTONE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
-    //VERDANTINE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
     MARBLE(new Block(Block.Settings.copy(Blocks.CALCITE)), itemSettings()),
-    //JASPER(new WarmBlock(Block.Settings.copy(Blocks.DIORITE).ticksRandomly().slipperiness(0.6f)), itemSettings()),
 
     DIRT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     FLINT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
 
     ERDCOBBLESTONE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
-    //DRIPSTONE_FLINT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     SHALE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     DRIPSTONE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     DEEPSLATE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
 
     SALT_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     COAL_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
-    //RAW_PRIMSTEEL_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     RAW_COPPER_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     RAW_IRON_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     RAW_GOLD_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
@@ -271,8 +233,6 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     LOOSE_ROCKS(new FallingRockBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.NETHER_BRICKS)), itemSettings()),
 
-    //AMBER_ORE(new OreBlock(Block.Settings.copy(Blocks.IRON_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
-    //PRIMSTEEL_ORE(new OreBlock(Block.Settings.copy(Blocks.IRON_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
     SALT_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
     MIXED_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
     SALTPETER_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
@@ -292,11 +252,8 @@ public enum WHNature implements ItemEnum, BlockEnum {
     SCALDING_RED_SANDSTONE(new ScaldingBlock(Block.Settings.copy(Blocks.RED_SANDSTONE).ticksRandomly().luminance(s ->3)), itemSettings()),
     STRATIFIED_RED_SANDSTONE(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings()),
 
-    //SCORCHSTONE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings().fireproof()),
-    //SCALDING_SCORCHSTONE(new ScaldingBlock(Block.Settings.copy(Blocks.STONE).ticksRandomly().luminance(s ->3)), itemSettings().fireproof()),
     SCALDING_DEEPSLATE(new ScaldingBlock(Block.Settings.copy(Blocks.DEEPSLATE).ticksRandomly().luminance(s ->3)), itemSettings()),
 
-    //DEEPSLATE_PRIMSTEEL_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_ICE_ORE(new IceOreBlock(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE).sounds(BlockSoundGroup.GLASS).nonOpaque().slipperiness(0.98f), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_MIXED_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_SALTPETER_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
@@ -311,20 +268,10 @@ public enum WHNature implements ItemEnum, BlockEnum {
     NETHER_SALT_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_COAL_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_NETHERITE_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
-    //NETHER_PIG_IRON_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
-    //NETHER_GARNET_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
-
     //soul blocks
-    //BLIGHTED_SOUL_ROSE(new PoisonPlantBlock(FLOWER_SHAPE, OFFSET_FLOWER), itemSettings()),
     FADED_SOUL_ROSE(new FadedSoulRoseBlock(SoulPlantBlock.settings(0)), itemSettings()),
     SOUL_ROSE(new SoulPlantBlock(WHParticles.GREEN_EXP_ORB, SoulPlantBlock.settings(3), UniformIntProvider.create(6, 12)), itemSettings().rarity(Rarity.UNCOMMON)),
     BLUE_SOUL_ROSE(new SoulPlantBlock(WHParticles.BLUE_EXP_ORB, SoulPlantBlock.settings(6), UniformIntProvider.create(12, 24)), itemSettings().rarity(Rarity.RARE)),
-    //FADED_SOULSPORE_SINGLE(new FadedSoulRoseBlock(SoulPlantBlock.settings(0).emissiveLighting((blockState, pos, view) -> true).sounds(BlockSoundGroup.SOUL_SAND)).smallShape(), itemSettings()),
-    //FADED_SOULSPORE(new FadedSoulRoseBlock(SoulPlantBlock.settings(0).emissiveLighting((blockState, pos, view) -> true).sounds(BlockSoundGroup.SOUL_SAND)).largeShape(), itemSettings()),
-    //SOULSPORE_SINGLE(new SoulPlantBlock(ModParticles.GREEN_EXP_ORB, SoulPlantBlock.settings(3).emissiveLighting((blockState, pos, view) -> true).sounds(BlockSoundGroup.SOUL_SAND), UniformIntProvider.create(6, 12)).smallShape(), itemSettings().rarity(Rarity.UNCOMMON)),
-    //SOULSPORE(new SoulPlantBlock(ModParticles.GREEN_EXP_ORB, SoulPlantBlock.settings(3).emissiveLighting((blockState, pos, view) -> true).sounds(BlockSoundGroup.SOUL_SAND), UniformIntProvider.create(12, 24)).largeShape(), itemSettings().rarity(Rarity.UNCOMMON)),
-    //BLUE_SOULSPORE_SINGLE(new SoulPlantBlock(ModParticles.BLUE_EXP_ORB, SoulPlantBlock.settings(6).emissiveLighting((blockState, pos, view) -> true).sounds(BlockSoundGroup.SOUL_SAND), UniformIntProvider.create(12, 24)).smallShape(), itemSettings().rarity(Rarity.RARE)),
-    //BLUE_SOULSPORE(new SoulPlantBlock(ModParticles.BLUE_EXP_ORB, SoulPlantBlock.settings(6).emissiveLighting((blockState, pos, view) -> true).sounds(BlockSoundGroup.SOUL_SAND), UniformIntProvider.create(24, 36)).largeShape(), itemSettings().rarity(Rarity.RARE)),
 
     FOSSIL_ORE(new OreBlock(Block.Settings.copy(Blocks.IRON_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_FOSSIL_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
@@ -335,17 +282,11 @@ public enum WHNature implements ItemEnum, BlockEnum {
     HEADLESS_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     VILLAGER_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     VILLAGER_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    //MOBLIN_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.BONE)), itemSettings().group(BOOKS).rarity(Rarity.UNCOMMON)),
-    //MOBLIN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.BONE)), itemSettings().group(BOOKS).rarity(Rarity.UNCOMMON)),
     PIGLIN_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     PIGLIN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     ENDERMAN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    //SKELETAL_REMAINS_SLUMPED(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.BONE)), itemSettings().group(BOOKS).rarity(Rarity.UNCOMMON)),
-    //SKELETAL_MINING_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.BONE)), itemSettings().group(BOOKS).rarity(Rarity.RARE)),
-    //SKELETAL_BEST_FRIEND_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.BONE)), itemSettings().group(BOOKS).rarity(Rarity.EPIC)),
     DAERDRI_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.RARE)),
-    //SNIFFER_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().group(BOOKS).rarity(Rarity.EPIC)),
 
     //heads
     HEAD_ZOMBIE_ALEX(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
