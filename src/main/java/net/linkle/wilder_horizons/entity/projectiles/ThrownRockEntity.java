@@ -1,7 +1,7 @@
 package net.linkle.wilder_horizons.entity.projectiles;
 
-import net.linkle.wilder_horizons.init.core_inits.WHEntities;
-import net.linkle.wilder_horizons.init.core_inits.WHTools;
+import net.linkle.wilder_horizons.init.init_core.WHEntities;
+import net.linkle.wilder_horizons.init.init_core.WHTools;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;

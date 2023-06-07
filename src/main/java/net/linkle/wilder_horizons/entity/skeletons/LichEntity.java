@@ -1,11 +1,8 @@
 package net.linkle.wilder_horizons.entity.skeletons;
 
-import net.linkle.wilder_horizons.effect.ModEffects;
-import net.linkle.wilder_horizons.init.Armors;
-import net.linkle.wilder_horizons.init.Tools;
-import net.linkle.wilder_horizons.init.core_inits.WHTools;
-import net.linkle.wilder_horizons.init.core_inits.WHArmors;
-import net.linkle.wilder_horizons.init.core_inits.WHEffects;
+import net.linkle.wilder_horizons.init.init_core.WHArmors;
+import net.linkle.wilder_horizons.init.init_core.WHEffects;
+import net.linkle.wilder_horizons.init.init_core.WHTools;
 import net.minecraft.entity.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;

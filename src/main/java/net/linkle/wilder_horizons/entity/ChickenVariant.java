@@ -1,8 +1,6 @@
 package net.linkle.wilder_horizons.entity;
 
-import net.linkle.wilder_horizons.init.core_inits.WHEntities;
-import org.jetbrains.annotations.Nullable;
-
+import net.linkle.wilder_horizons.init.init_core.WHEntities;
 import net.minecraft.entity.EntityData;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.data.DataTracker;
@@ -16,6 +14,7 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.world.LocalDifficulty;
 import net.minecraft.world.ServerWorldAccess;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
 
 public class ChickenVariant extends ChickenEntity {
     
