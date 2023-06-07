@@ -1,7 +1,7 @@
 package net.linkle.wilder_horizons.entity;
 
-import net.linkle.wilder_horizons.init.core_inits.WHEntities;
-import net.linkle.wilder_horizons.sounds.WHSounds;
+import net.linkle.wilder_horizons.environment.sounds.WHSounds;
+import net.linkle.wilder_horizons.init.init_core.WHEntities;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.ai.pathing.EntityNavigation;

@@ -1,6 +1,7 @@
 package net.linkle.wilder_horizons.block;
 
 import net.linkle.wilder_horizons.environment.sounds.WHSounds;
+import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
 import net.minecraft.block.*;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.BlockSoundGroup;
@@ -73,7 +74,7 @@ public class SprinklerBlock extends Block {
                 double angle = random.nextDouble() * Math.PI*2.0;
                 double sin = Math.sin(angle);
                 double cos = Math.cos(angle);
-                world.addParticle(net.linkle.wilder_horizons.init.WHParticles.SPRINKLE, x+(sin*0.2), y, z+(cos*0.2), sin*speed, 0.2, cos*speed);
+                world.addParticle(WHParticles.SPRINKLE, x+(sin*0.2), y, z+(cos*0.2), sin*speed, 0.2, cos*speed);
             }
         }
     }

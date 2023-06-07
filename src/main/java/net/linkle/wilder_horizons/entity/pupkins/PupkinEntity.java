@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.pupkins;
 
-import net.linkle.wilder_horizons.init.core_inits.WHEntities;
+import net.linkle.wilder_horizons.init.init_core.WHEntities;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;

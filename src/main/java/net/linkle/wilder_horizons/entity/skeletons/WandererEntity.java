@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.skeletons;
 
-import net.linkle.wilder_horizons.init.core_inits.WHTools;
+import net.linkle.wilder_horizons.init.init_core.WHTools;
 import net.minecraft.entity.EntityData;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;

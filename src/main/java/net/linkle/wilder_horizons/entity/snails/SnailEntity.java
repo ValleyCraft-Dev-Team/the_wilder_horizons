@@ -1,7 +1,7 @@
 package net.linkle.wilder_horizons.entity.snails;
 
-import net.linkle.wilder_horizons.init.core_inits.WHEntities;
-import net.linkle.wilder_horizons.init.core_inits.WHFoodIngredients;
+import net.linkle.wilder_horizons.init.init_core.WHEntities;
+import net.linkle.wilder_horizons.init.init_core.WHFoodIngredients;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.ai.pathing.PathNodeType;

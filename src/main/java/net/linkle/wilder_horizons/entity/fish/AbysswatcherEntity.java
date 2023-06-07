@@ -1,6 +1,6 @@
 package net.linkle.wilder_horizons.entity.fish;
 
-import net.linkle.wilder_horizons.init.core_inits.WHFishItems;
+import net.linkle.wilder_horizons.init.init_core.WHFishItems;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.passive.FishEntity;

@@ -4,7 +4,6 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.linkle.wilder_horizons.client.armor.ArmorRenderers;
-import net.linkle.wilder_horizons.client.trinket.TrinketRenderers;
 import net.linkle.wilder_horizons.init.init_core.WHEntities;
 import net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities;
 import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
@@ -24,7 +23,6 @@ public class Client implements ClientModInitializer {
         FluidRenders.initialize();
         WHBlockEntities.initializeClient();
         ArmorRenderers.initialize();
-        TrinketRenderers.initialize();
         ClientNetwork.initialize();
 
         ModModelPredicateProvider.registerModModels();
