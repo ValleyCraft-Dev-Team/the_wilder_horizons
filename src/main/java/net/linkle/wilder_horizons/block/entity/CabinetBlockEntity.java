@@ -17,7 +17,7 @@ import net.minecraft.util.math.BlockPos;
 public class CabinetBlockEntity extends ContainerBlockEntity {
     
     public CabinetBlockEntity(BlockPos pos, BlockState state) {
-        super(net.linkle.wilder_horizons.init.WHBlockEntities.CABINET.type(), pos, state);
+        super(net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities.CABINET.type(), pos, state);
     }
 
     @Override

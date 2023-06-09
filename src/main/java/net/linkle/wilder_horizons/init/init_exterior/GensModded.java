@@ -45,9 +45,6 @@ public class GensModded {
         placed = registerPlant(createConfig("flowering_cactus", 60, WHNature.FLOWERING_CACTUS), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.tag(ConventionalBiomeTags.DESERT), vegetal, placed.getKey().get());
         
-        placed = registerPlant(createConfig("tumbleweed", 60, WHNature.TUMBLEWEED), 20);
-        BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.DESERT, ConventionalBiomeTags.BADLANDS), vegetal, placed.getKey().get());
-        
         placed = registerPlant(createConfig("thorny_bush", 60, WHNature.THORNY_BUSH), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.tag(ConventionalBiomeTags.BADLANDS), vegetal, placed.getKey().get());
         
@@ -59,9 +56,6 @@ public class GensModded {
         
         placed = registerPlant(createConfig("jungle_bush", 60, WHNature.JUNGLE_BUSH), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.JUNGLE), vegetal, placed.getKey().get());
-        
-        placed = registerPlant(createConfig("panflowers", 60, WHNature.PANFLOWERS), 20);
-        BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.FLOWER_FORESTS), vegetal, placed.getKey().get());
         
         placed = registerPlant(createConfig("clover", 60, WHNature.CLOVER), 20);
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_PINE_TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA), vegetal, placed.getKey().get());
@@ -89,19 +83,13 @@ public class GensModded {
         
         placed = registerPlant(createConfig("lily_of_the_mountains", 60, WHNature.LILY_OF_THE_MOUNTAINS), 20);
         BiomeModifications.addFeature(BiomeSelectors.tag(ConventionalBiomeTags.MOUNTAIN), vegetal, placed.getKey().get());
-        
-        placed = registerPlant(createConfig("lily_of_the_blight", 60, WHNature.POISON_BLOSSOM), 20);
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), vegetal, placed.getKey().get());
-        
-        placed = registerPlant(createConfig("lily_of_the_sea", 60, WHNature.GODDESS_LILY), 20);
+
+        placed = registerPlant(createConfig("lily_of_the_oceans", 60, WHNature.LILY_OF_THE_OCEANS), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.OCEAN, ConventionalBiomeTags.BEACH), vegetal, placed.getKey().get());
         
         placed = registerPlant(createConfig("knapweed_forest", 60, WHNature.KNAPWEED), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.FOREST, ConventionalBiomeTags.FLOWER_FORESTS), vegetal, placed.getKey().get());
-        
-        placed = registerPlant(createConfig("lupine", 60, WHNature.PINK_LUPINE, WHNature.RED_LUPINE, WHNature.YELLOW_LUPINE), 20);
-        BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.TAIGA).or(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA)), vegetal, placed.getKey().get());
-    
+
         placed = registerPlant(createConfig("poppy_forest", 60, WHNature.ORANGE_POPPY, WHNature.YELLOW_POPPY, WHNature.WHITE_POPPY), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.FOREST, ConventionalBiomeTags.FLOWER_FORESTS), vegetal, placed.getKey().get());
     

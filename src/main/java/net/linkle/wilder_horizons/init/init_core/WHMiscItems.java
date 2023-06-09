@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.linkle.wilder_horizons.item.*;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
@@ -11,6 +12,41 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class WHMiscItems {
+
+    public static final Item OAK_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item APPLE_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item DARK_OAK_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item GOLD_LEAF_MAPLE_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item SPRUCE_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item BIRCH_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item WARM_BIRCH_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item ACACIA_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item JUNGLE_SEED = registerItem("oak_seed",
+            new AliasedBlockItem(WHNature.OAK_SEED.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+
+    public static final Item AMETHYSTLE_SEEDS = registerItem("amethystle_seeds",
+            new AliasedBlockItem(WHNature.AMETHYSTLES.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item VIBRANTHIA_SEED_BULBS = registerItem("vibranthia_seed_bulbs",
+            new AliasedBlockItem(WHNature.ANCIENT_FLOWERS.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item CAVE_ROOT_SEEDS = registerItem("cave_root_seeds",
+            new AliasedBlockItem(WHNature.CAVE_ROOT_CROP.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item FIRE_PEPPER_SEEDS = registerItem("fire_pepper_seeds",
+            new AliasedBlockItem(WHNature.FIRE_PEPPERS.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item ONION_SEEDS = registerItem("onion_seeds",
+            new AliasedBlockItem(WHNature.CAVE_ROOT_CROP.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item PUFF_BALL_SEEDS = registerItem("puff_ball_seeds",
+            new AliasedBlockItem(WHNature.PUFF_BALL.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+    public static final Item RICE_SEEDLINGS = registerItem("rice_seedlings",
+            new AliasedBlockItem(WHNature.RICES.block, new FabricItemSettings().group(WHGroups.WH_NATURE)));
+
     public static final Item FLOUR = registerItem("flour",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_FOOD)));
     public static final Item MAIZE_FLOUR = registerItem("maize_flour",
@@ -30,6 +66,8 @@ public class WHMiscItems {
 
     public static final Item PLANK_ITEM = registerItem("plank_item",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item WOODEN_DOWEL = registerItem("wooden_dowel",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item HANDLE = registerItem("handle",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item REINFORCED_HANDLE = registerItem("reinforced_handle",
@@ -46,10 +84,19 @@ public class WHMiscItems {
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item SKULL_SHARD = registerItem("skull_shard",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item SMALL_WITHER_BONE = registerItem("small_wither_bone",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item WITHER_BONE = registerItem("wither_bone",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item WITHER_SKULL_SHARD = registerItem("wither_skull_shard",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item JELLY_BLOB = registerItem("jelly_blob",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item SLIME_SPORE = registerItem("slime_spore",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item GLOW_BALL = registerItem("glow_ball",
+            new GlowBallItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_TOOLS)));
+
     public static final Item OVER_SNAIL_SHELL = registerItem("over_snail_shell",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item CAVE_SNAIL_SHELL = registerItem("cave_snail_shell",
@@ -119,6 +166,8 @@ public class WHMiscItems {
     //        new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item BRASIUM_ALLOY = registerItem("brasium_alloy",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item EMERALD_FRAGMENTS = registerItem("emerald_fragments",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item DIAMOND_FRAGMENTS = registerItem("diamond_fragments",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item ECHOCHALCUM = registerItem("echochalcum",
@@ -139,6 +188,8 @@ public class WHMiscItems {
     public static final Item BOMB_BAG = registerItem("bomb_bag",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item BOTTLE_OF_GHAST_TEARS = registerItem("bottle_of_ghast_tears",
+            new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
+    public static final Item BOTTLE_OF_LIVING_SLIME = registerItem("bottle_of_living_slime",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));
     public static final Item BOTTLE_OF_ALLAY = registerItem("bottle_of_allay",
             new AlphaModItem(new FabricItemSettings().maxCount(64).group(WHGroups.WH_MISCELLANEOUS)));

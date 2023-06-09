@@ -90,12 +90,12 @@ public class Contents {
         putCompost(Items.BAMBOO, levelUltraLow);
 
         putCompost(WHMiscItems.AMETHYSTLE_SEEDS, levelLow);
-        putCompost(WHMiscItems.RICE_SEEDS, levelLow);
+        putCompost(WHMiscItems.RICE_SEEDLINGS, levelLow);
         putCompost(WHMiscItems.PUFF_BALL_SEEDS, levelLow);
         putCompost(WHMiscItems.ONION_SEEDS, levelLow);
         putCompost(WHMiscItems.FIRE_PEPPER_SEEDS, levelLow);
         putCompost(WHMiscItems.CAVE_ROOT_SEEDS, levelLow);
-        putCompost(WHMiscItems.ANCIENT_FLOWER_SEEDS, levelLow);
+        putCompost(WHMiscItems.VIBRANTHIA_SEED_BULBS, levelLow);
         putCompost(WHMiscItems.OAK_SEED, levelLow);
         putCompost(WHMiscItems.DARK_OAK_SEED, levelLow);
         putCompost(WHMiscItems.SPRUCE_SEED, levelLow);
@@ -103,7 +103,7 @@ public class Contents {
         putCompost(WHMiscItems.JUNGLE_SEED, levelLow);
         putCompost(WHMiscItems.ACACIA_SEED, levelLow);
         putCompost(WHMiscItems.APPLE_SEED, levelLow);
-        putCompost(WHMiscItems.AMBERBLOSSOM_SEED, levelLow);
+        putCompost(WHMiscItems.GOLD_LEAF_MAPLE_SEED, levelLow);
         putCompost(WHMiscItems.WARM_BIRCH_SEED, levelLow);
 
         putCompost(WHArmors.DRIPLEAF_HAT, levelMed);
@@ -163,8 +163,6 @@ public class Contents {
         putCompost(WHFoodIngredients.RAW_SILVERFISH, levelLow);
         putCompost(WHFoodIngredients.RAW_ENDERMITE, levelLow);
         //putCompost(WHFoodIngredients.ZOD, levelLow);
-        putCompost(WHNature.STALWART_SHROOM, levelVeryHigh);
-        putCompost(WHNature.SHIVERCAP, levelVeryHigh);
 
         putCompost(WHFoods.BAKED_APPLE, levelVeryHigh);
         putCompost(WHFoods.BAKED_BEETROOT, levelVeryHigh);
@@ -262,18 +260,13 @@ public class Contents {
         putCompost(WHNature.MOSS_SPROUTLET, levelLow);
         putCompost(WHNature.SHORT_GRASS, levelLow);
         putCompost(WHNature.SNOWFLOWER, levelHigh);
-        putCompost(WHNature.MOREL, levelHigh);
-        putCompost(WHNature.JUNGLE_CAP, levelHigh);
-        putCompost(WHNature.JUNGLE_CAP_CLUSTER, levelUltra);
+        putCompost(WHNature.PURPLE_MUSHROOM, levelHigh);
         putCompost(WHNature.TALL_LAVENDER, levelHigh);
-        putCompost(WHNature.RED_CLUSTER, levelUltra);
-        putCompost(WHNature.BROWN_CLUSTER, levelUltra);
         putCompost(WHNature.TALL_ALLIUM, levelHigh);
         putCompost(WHNature.TALL_AZURE_BLUET, levelHigh);
         putCompost(WHNature.SPORE_SPREADER, levelHigh);
         putCompost(WHNature.LAVENDER, levelHigh);
-        putCompost(WHNature.GLOW_CAP, levelHigh);
-        putCompost(WHNature.GLOW_CAP_CLUSTER, levelUltra);
+        putCompost(WHNature.GLOW_MUSHROOM, levelHigh);
         putCompost(WHNature.FAN_MOLD, levelMed);
         putCompost(WHNature.WHITE_POPPY, levelHigh);
         putCompost(WHNature.TALL_CORNFLOWER, levelHigh);
@@ -311,8 +304,7 @@ public class Contents {
     
     private static void fuels() {
         putFuels(WHBlocks.CHARCOAL_BLOCK, 16000);
-        putFuels(WHNature.GLOW_CAP, 800);
-        putFuels(WHNature.GLOW_CAP_CLUSTER, 2400);
+        putFuels(WHNature.GLOW_MUSHROOM, 800);
         putFuels(WHNature.CATTAILS, 100);
         putFuels(WHMiscItems.PUFF_BALL, 100);
         putFuels(WHMiscItems.CLOTH, 100);
@@ -335,9 +327,7 @@ public class Contents {
         putFuels(WHMiscItems.THERMAL_BLAZE_CORE, 4000);
 
         putFuels(WHTools.KNIFE_WOODEN, 200);
-        putFuels(WHTools.GREATSWORD_WOODEN, 200);
         putFuels(WHTools.TRAVELER_WOODEN, 200);
-        putFuels(WHTools.DAGGER_WOODEN, 200);
         putFuels(WHTools.SCYTHE_WOODEN, 200);
         putFuels(WHTools.WOODCUTTER_AXE_WOODEN, 200);
         putFuels(WHTools.HATCHET_WOODEN, 200);

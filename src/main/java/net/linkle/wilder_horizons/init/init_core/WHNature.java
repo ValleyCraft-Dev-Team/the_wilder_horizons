@@ -77,8 +77,8 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     //mushrooms
     PURPLE_MUSHROOM(new ModMushroomBlockDaySafe(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
+    GLOW_MUSHROOM(new ModGlowingMushroomBlock(), itemSettings()),
     SPORE_SPREADER(new ModSporeSpreaderBlock().large(), itemSettings()),
-    GLOW_CAP(new ModGlowingMushroomBlock(), itemSettings()),
     FAN_MOLD(new FanMoldBlock(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
     //SHIVERCAP(new ShivercapBlock(), itemSettings().group(WH_FOOD)),
     //MOREL(new ModMushroomBlockDaySafe(), itemSettings()),

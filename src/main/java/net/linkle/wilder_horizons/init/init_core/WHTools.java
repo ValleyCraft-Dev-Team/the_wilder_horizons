@@ -103,7 +103,7 @@ public class WHTools {
     //public static final Item.Settings UNBREAKABLE_ARTIFACT_SETTINGS_EPIC_780 = new Item.Settings().maxDamage(780).fireproof().group(BOOKS).rarity(Rarity.EPIC);
 
     //bow reg
-    public static final Item BRASIUM_COMPOUND = new ModBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770));
+    public static final Item BRASIUM_COMPOUND_BOW = new ModBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770));
 
     //wooden tools
     public static final Item KNIFE_WOODEN = new KnifeBase(ToolMaterials.WOOD, KNIFE_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS);
@@ -147,7 +147,7 @@ public class WHTools {
         Reg.register("wooden_oar", WOODEN_OAR);
         Reg.register("climbing_axe", CLIMBING_AXE);
         Reg.register("ice_tongs", ICE_TONGS);
-        Reg.register("brasium_compound_bow", BRASIUM_COMPOUND);
+        Reg.register("brasium_compound_bow", BRASIUM_COMPOUND_BOW);
         Reg.register("coral_knife", new Scalpel(WHToolMaterials.GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_UNCOMMON));
         Item knifeElder = Reg.register("coral_knife_guardian", new UnbreakableScalpelBase(WHToolMaterials.ELDER_GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_RARE));
         ModelPredicateProviderRegistry.register(knifeElder, new Identifier("broken"), (stack, world, entity, seed) -> PreventDestroy.isUsable(stack) ? 0.0f : 1.0f);

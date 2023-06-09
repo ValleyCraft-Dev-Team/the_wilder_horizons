@@ -31,7 +31,7 @@ public class StoveBlock extends SmokerBlock {
     @Override
     @Nullable
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-        return SmokerBlock.checkType(world, type, net.linkle.wilder_horizons.init.WHBlockEntities.STOVE.type());
+        return SmokerBlock.checkType(world, type, net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities.STOVE.type());
     }
     
     @Override

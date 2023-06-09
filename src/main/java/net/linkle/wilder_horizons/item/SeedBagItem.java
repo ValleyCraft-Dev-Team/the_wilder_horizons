@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.item;
 
+import net.linkle.wilder_horizons.init.init_core.WHMiscItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -37,10 +38,11 @@ public class SeedBagItem extends Item {
             inventory.insertStack(new ItemStack(net.minecraft.item.Items.MELON_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
             inventory.insertStack(new ItemStack(net.minecraft.item.Items.BEETROOT_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
             inventory.insertStack(new ItemStack(net.minecraft.item.Items.PUMPKIN_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
-            inventory.insertStack(new ItemStack(ItemsModded.CAVE_ROOT_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
-            inventory.insertStack(new ItemStack(ItemsModded.PUFF_BALL_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
-            inventory.insertStack(new ItemStack(ItemsModded.FIRE_PEPPER_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
-            inventory.insertStack(new ItemStack(ItemsModded.ONION_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
+            inventory.insertStack(new ItemStack(WHMiscItems.CAVE_ROOT_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
+            inventory.insertStack(new ItemStack(WHMiscItems.PUFF_BALL_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
+            inventory.insertStack(new ItemStack(WHMiscItems.FIRE_PEPPER_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
+            inventory.insertStack(new ItemStack(WHMiscItems.ONION_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
+            inventory.insertStack(new ItemStack(WHMiscItems.AMETHYSTLE_SEEDS, MathHelper.nextInt(world.random, 0, 1)));
             return stack;
         }
 

@@ -16,7 +16,7 @@ import net.minecraft.util.math.BlockPos;
 
 public class CrateBlockEntity extends ContainerBlockEntity {
     public CrateBlockEntity(BlockPos pos, BlockState state) {
-        super(net.linkle.wilder_horizons.init.WHBlockEntities.CRATE.type(), pos, state);
+        super(net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities.CRATE.type(), pos, state);
     }
 
     @Override

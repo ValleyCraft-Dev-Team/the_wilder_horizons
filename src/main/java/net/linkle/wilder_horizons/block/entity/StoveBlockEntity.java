@@ -18,6 +18,6 @@ public class StoveBlockEntity extends SmokerBlockEntity {
 
     @Override
     public BlockEntityType<?> getType() {
-        return net.linkle.wilder_horizons.init.WHBlockEntities.STOVE.type();
+        return net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities.STOVE.type();
     }
 }

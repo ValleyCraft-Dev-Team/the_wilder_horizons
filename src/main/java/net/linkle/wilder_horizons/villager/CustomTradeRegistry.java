@@ -86,7 +86,12 @@ public class CustomTradeRegistry {
                             1, 20, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(net.minecraft.item.Items.EMERALD, 12),
-                            new ItemStack(WHMiscItems.SHEEP_HIDE, 5),
+                            new ItemStack(WHMiscItems.SHEEPSKIN, 5),
+                            new ItemStack(net.minecraft.item.Items.LEATHER_HORSE_ARMOR, 1),
+                            1, 20, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(net.minecraft.item.Items.EMERALD, 12),
+                            new ItemStack(WHMiscItems.PIG_HIDE, 5),
                             new ItemStack(net.minecraft.item.Items.LEATHER_HORSE_ARMOR, 1),
                             1, 20, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(

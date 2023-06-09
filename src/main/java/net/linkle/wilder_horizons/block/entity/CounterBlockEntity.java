@@ -16,7 +16,7 @@ import net.minecraft.util.math.BlockPos;
 public class CounterBlockEntity extends ContainerBlockEntity {
     
     public CounterBlockEntity(BlockPos pos, BlockState state) {
-        super(net.linkle.wilder_horizons.init.WHBlockEntities.COUNTER.type(), pos, state);
+        super(net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities.COUNTER.type(), pos, state);
     }
 
     @Override

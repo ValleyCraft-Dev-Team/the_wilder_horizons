@@ -16,7 +16,7 @@ import net.minecraft.util.math.BlockPos;
 
 public class DeepslateChestBlockEntity extends ContainerBlockEntity {
     public DeepslateChestBlockEntity(BlockPos pos, BlockState state) {
-        super(net.linkle.wilder_horizons.init.WHBlockEntities.DEEPSLATE_CHEST.type(), pos, state);
+        super(net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities.DEEPSLATE_CHEST.type(), pos, state);
     }
 
     @Override

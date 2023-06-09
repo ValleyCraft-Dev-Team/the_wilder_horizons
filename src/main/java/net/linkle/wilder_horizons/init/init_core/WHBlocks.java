@@ -408,10 +408,9 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     POTTED_SNOWFLOWER(new PotBlock(WHNature.SNOWFLOWER)),
 
     // Potted mushrooms
-    POTTED_GLOW_CAP(new PotBlock(WHNature.GLOW_CAP)),
-    POTTED_JUNGLE_CAP(new PotBlock(WHNature.JUNGLE_CAP)),
+    POTTED_GLOW_MUSHROOM(new PotBlock(WHNature.GLOW_MUSHROOM)),
+    POTTED_PURPLE_MUSHROOM(new PotBlock(WHNature.PURPLE_MUSHROOM)),
     //POTTED_SOULSPORE(new PotBlock(ModNaturalBlocks.SOULSPORE_SINGLE)),
-    POTTED_MOREL(new PotBlock(WHNature.MOREL)),
     //POTTED_GOOP_CAP(new PotBlock(ModNaturalBlocks.GOOP_CAP)),
 
     // Potted saplings
