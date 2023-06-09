@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 public class ModModelPredicateProvider {
 
     public static void registerModModels() {
-        registerBow(WHTools.BRASIUM_COMPOUND_BOW);
+        //registerBow(WHTools.BRASIUM_COMPOUND_BOW);
     }
 
     private static void registerBow(Item bow) {

@@ -25,6 +25,6 @@ public class WandererEntity extends SkeletonEntity {
     }
 
     private ItemStack makeInitialWeapon() {
-        return (double)this.random.nextFloat() < 0.5D ? new ItemStack(WHTools.DAGGER_IRON) : new ItemStack(WHTools.WOODEN_STAFF);
+        return new ItemStack(WHTools.WOODEN_STAFF);
     }
 }

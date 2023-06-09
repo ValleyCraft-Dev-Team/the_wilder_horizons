@@ -25,25 +25,14 @@ public class LichEntity extends SkeletonEntity {
 
     @Nullable
     public EntityData initialize(ServerWorldAccess world, LocalDifficulty difficulty, SpawnReason spawnReason, @Nullable EntityData entityData, @Nullable NbtCompound entityNbt) {
-        this.equipStack(EquipmentSlot.HEAD, this.makeHeadGear());
-        this.equipStack(EquipmentSlot.CHEST, this.makeCloak());
-        this.equipStack(EquipmentSlot.MAINHAND, this.makeInitialWeapon());
+        //equipStack(EquipmentSlot.HEAD, new ItemStack(WHArmors.LICH_HOOD_KEEPSAKE));
+        //equipStack(EquipmentSlot.CHEST, new ItemStack(WHArmors.LICH_CLOAK_KEEPSAKE));
+        equipStack(EquipmentSlot.MAINHAND, new ItemStack(WHTools.SCYTHE_IRON));
         return super.initialize(world, difficulty, spawnReason, entityData, entityNbt);
-    }
-
-    private ItemStack makeInitialWeapon() {
-        return new ItemStack(WHTools.SCYTHE_IRON);
     }
 
     public static DefaultAttributeContainer.Builder createHostileAttributes() {
         return MobEntity.createMobAttributes().add(EntityAttributes.GENERIC_MAX_HEALTH, 100.0D).add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 7.0);
-    }
-
-    private ItemStack makeHeadGear() {
-        return new ItemStack(WHArmors.LICH_HOOD_KEEPSAKE);
-    }
-    private ItemStack makeCloak() {
-        return new ItemStack(WHArmors.LICH_CLOAK_KEEPSAKE);
     }
 
     protected void updateEnchantments(Random random, LocalDifficulty localDifficulty) {

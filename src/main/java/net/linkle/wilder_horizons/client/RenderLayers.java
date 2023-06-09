@@ -135,9 +135,9 @@ public class RenderLayers {
         // Fungi and Potted Fungi
         put(GLOW_CAP, cullout);
         put(POTTED_GLOW_CAP, cullout);
-        put(JUNGLE_CAP, cullout);
+        //put(JUNGLE_CAP, cullout);
         put(POTTED_JUNGLE_CAP, cullout);
-        put(MOREL, cullout);
+        //put(MOREL, cullout);
         put(POTTED_MOREL, cullout);
         put(LILY_OF_THE_MOUNTAINS, cullout);
 
@@ -179,9 +179,9 @@ public class RenderLayers {
 
         //Other Plants without potted versions
         put(THORNY_BUSH, cullout);
-        put(STALWART_SHROOM, cullout);
+        //put(STALWART_SHROOM, cullout);
         put(SHORT_GRASS, cullout);
-        put(SHIVERCAP, cullout);
+        //put(SHIVERCAP, cullout);
         put(WILD_BEET, cullout);
         put(WILD_CARROT, cullout);
         put(WILD_POTATO, cullout);
@@ -346,8 +346,8 @@ public class RenderLayers {
 
         put(SLUDGE_FLUID, translucent);
 
-        put(BROWN_CLUSTER, cullout);
-        put(RED_CLUSTER, cullout);
+        //put(BROWN_CLUSTER, cullout);
+        //put(RED_CLUSTER, cullout);
         put(MEADOW_FLOWERS, cullout);
         put(BARNACLE_BLOCK, translucent);
         put(CLAM_BLOCK, cullout);
@@ -369,8 +369,8 @@ public class RenderLayers {
         put(HOLLOW_SPRUCE_LOG, cullout);
         put(CHEESE, cullout);
 
-        put(GLOW_CAP_CLUSTER, cullout);
-        put(JUNGLE_CAP_CLUSTER, cullout);
+        //put(GLOW_CAP_CLUSTER, cullout);
+        //put(JUNGLE_CAP_CLUSTER, cullout);
         put(BURNT_OUT_TORCH, cullout);
         put(BURNT_OUT_CANDLE, cullout);
         put(HEADLESS_SKELETAL_REMAINS, cullout);
