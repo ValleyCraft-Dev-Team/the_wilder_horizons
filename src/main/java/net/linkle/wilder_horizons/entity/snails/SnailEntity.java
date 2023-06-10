@@ -55,6 +55,11 @@ public class SnailEntity extends AnimalEntity {
     }
 
     @Override
+    public boolean handleFallDamage(float fallDistance, float damageMultiplier, DamageSource damageSource) {
+        return false;
+    }
+
+    @Override
     public boolean canBeLeashedBy(PlayerEntity player) {
         return true;
     }
