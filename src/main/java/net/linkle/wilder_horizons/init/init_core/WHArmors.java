@@ -30,6 +30,9 @@ public class WHArmors {
     public static final Item BLUE_SHELL_BREASTPLATE = registerItem("blue_clam_shell_breastplate",
             new ArmorItem(WHArmorMaterials.BLUE_CLAM_SHELL_BREASTPLATE, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
+    public static final Item TURTLE_CHESTPLATE = registerItem("turtle_chestplate_shell",
+            new ArmorItem(WHArmorMaterials.TURTLE, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+
     public static final Item STRAW_HAT = registerItem("straw_hat",
             new ArmorItem(WHArmorMaterials.STRAW_HAT, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
 
