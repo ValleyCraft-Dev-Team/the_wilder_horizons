@@ -45,7 +45,7 @@ public abstract class SludgeFluid extends FlowableFluid {
 
     @Override
     public Item getBucketItem() {
-        return WHMiscItems.SLUDGE_BUCKET;
+        return WHMiscItems.SLUDGE_BUCKET.item;
     }
 
     @Override

@@ -56,13 +56,13 @@ public class WHPotions {
 
         registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GOAT_HORN, net.minecraft.potion.Potions.STRENGTH);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.BEAST_CLAW, WHPotions.FERAL_STRENGTH);
+        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.BEAST_CLAW.item, WHPotions.FERAL_STRENGTH);
         registerRecipe(WHPotions.FERAL_STRENGTH, Items.GLOWSTONE_DUST, WHPotions.FERAL_STRENGTH_LONG);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.JELLY_BLOB, net.minecraft.potion.Potions.LEAPING);
+        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.JELLY_BLOB.item, net.minecraft.potion.Potions.LEAPING);
         registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.CRYSTALLIZED_HONEYDROP.item, net.minecraft.potion.Potions.REGENERATION);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.DRAGON_TOOTH, WHPotions.DRAGONHEARTED);
+        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.DRAGON_TOOTH.item, WHPotions.DRAGONHEARTED);
     }
     
     private static Potion registerPotion(String name, Potion potion) {
@@ -92,12 +92,12 @@ public class WHPotions {
 
         BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GOAT_HORN, net.minecraft.potion.Potions.STRENGTH);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.BEAST_CLAW, WHPotions.FERAL_STRENGTH);
+        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.BEAST_CLAW.item, WHPotions.FERAL_STRENGTH);
         BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.FERAL_STRENGTH, Items.GLOWSTONE_DUST, WHPotions.FERAL_STRENGTH_LONG);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.JELLY_BLOB, net.minecraft.potion.Potions.LEAPING);
+        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.JELLY_BLOB.item, net.minecraft.potion.Potions.LEAPING);
         BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.CRYSTALLIZED_HONEYDROP.item, net.minecraft.potion.Potions.REGENERATION);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.DRAGON_TOOTH, WHPotions.DRAGONHEARTED);
+        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.DRAGON_TOOTH.item, WHPotions.DRAGONHEARTED);
     }
 }
