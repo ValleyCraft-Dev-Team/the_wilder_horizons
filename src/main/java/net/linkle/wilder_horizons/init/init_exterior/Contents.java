@@ -149,8 +149,6 @@ public class Contents {
         putCompost(WHFoodIngredients.STAMINELLA_BERRY, levelVeryHigh);
         putCompost(WHFoodIngredients.ALOE_VERA, levelHigh);
         putCompost(WHFoodIngredients.AMETHYSTLE, levelHigh);
-        putCompost(WHFoodIngredients.ENDURA_CARROT, levelVeryHigh);
-        putCompost(WHFoodIngredients.HEARTY_BEETROOT, levelVeryHigh);
         putCompost(WHFoodIngredients.ONION, levelHigh);
         putCompost(WHFoodIngredients.FIRE_PEPPER, levelHigh);
         putCompost(WHFoodIngredients.MAIZE, levelHigh);

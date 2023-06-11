@@ -85,7 +85,6 @@ public class SnailEntity extends AnimalEntity {
     }
 
     static {
-        BREEDING_INGREDIENT = Ingredient.ofItems(Items.BEETROOT,
-                WHFoodIngredients.HEARTY_BEETROOT, WHFoodIngredients.CAVE_ROOT, WHFoodIngredients.ONION);
+        BREEDING_INGREDIENT = Ingredient.ofItems(Items.BEETROOT, WHFoodIngredients.CAVE_ROOT, WHFoodIngredients.ONION);
     }
 }

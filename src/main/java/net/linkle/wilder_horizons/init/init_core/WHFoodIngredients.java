@@ -24,7 +24,7 @@ public enum WHFoodIngredients implements ItemEnum {
     PURIFIED_WATER(new BottleItem(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 2, Nourishment.NORMAL).hideTooltip()),
     BRINE(new Tier1Bottle(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 1, Nourishment.POOR, StatusEffects.NAUSEA).hideTooltip()),
     MILK(new BottleItem(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 1, Nourishment.EXCELLENT).setMilk()),
-    MOREL_OIL(new Tier1Bottle(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 2, Nourishment.POOR, StatusEffects.SLOWNESS).hideTooltip()),
+    PURPLE_MUSHROOM_OIL(new Tier1Bottle(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 2, Nourishment.POOR, StatusEffects.SLOWNESS).hideTooltip()),
     BUTTER(new FoodItem(settings(), 0, Nourishment.POOR)),
 
     GLOW_BERRY_JUICE(new GlintBottleItem(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 4, Nourishment.LOW, new FoodStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 5 * 20)))
@@ -35,10 +35,10 @@ public enum WHFoodIngredients implements ItemEnum {
     AMETHYSTLE(new FoodItem(settings(), 2, Nourishment.LOW, new FoodStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 5 * 20)))
             .addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_10")),
 
-    ENDURA_CARROT(new FoodItem(settings(), 5, Nourishment.NORMAL,  new FoodStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 5 * 20)))
-            .addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_9")),
-    HEARTY_BEETROOT(new FoodItem(settings(), 4, Nourishment.NORMAL,  new FoodStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 5 * 20)))
-            .addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_6")),
+    //ENDURA_CARROT(new FoodItem(settings(), 5, Nourishment.NORMAL,  new FoodStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 5 * 20)))
+    //        .addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_9")),
+    //HEARTY_BEETROOT(new FoodItem(settings(), 4, Nourishment.NORMAL,  new FoodStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 5 * 20)))
+    //        .addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_6")),
     ONION(new FoodItem(settings(), 3, Nourishment.LOW)),
 
     //dropped by husk
@@ -58,8 +58,8 @@ public enum WHFoodIngredients implements ItemEnum {
     //jungle temple
     RAW_RICE(new FoodItem(settings(), 2, Nourishment.POOR)),
     
-    SYRUPY_HONEYCOMB(new FoodItem(settings(), 3, Nourishment.LOW, new FoodStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 5 * 20)))
-    .addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_5")),
+    //SYRUPY_HONEYCOMB(new FoodItem(settings(), 3, Nourishment.LOW, new FoodStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 5 * 20)))
+    //.addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_5")),
     
     PUMPKIN_SLICE(new FoodItem(settings(), 2, Nourishment.LOW)),
     //SUNFLOWER_SEEDS(new FoodItem(settings(), 1, Nourishment.NORMAL)),
