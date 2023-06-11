@@ -37,7 +37,7 @@ public enum WHMedicines implements ItemEnum {
     OINTMENT_CONCEALING(new OintmentItem(settings().maxCount(16), 0, 0, true, StatusEffects.INVISIBILITY)),
 
     // soap base - clay
-    SOAP(new SoapItem(settings(), 0, 0, true, WHEffects.CLEANSED));
+    SOAP(new SoapItem(settings(), 0, 0, true, WHEffects.CLEANSED.effect));
 
     private static FabricItemSettings settings() {
         return new FabricItemSettings().group(WHGroups.WH_MEDICINAL);

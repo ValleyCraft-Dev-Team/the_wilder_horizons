@@ -6,6 +6,7 @@ import static net.linkle.wilder_horizons.util.PlantBlockSettings.*;
 import static net.linkle.wilder_horizons.util.PlantGroundPredicates.*;
 import static net.linkle.wilder_horizons.util.PlantVoxelShapes.*;
 
+import java.util.Locale;
 import java.util.function.BiFunction;
 
 import net.linkle.wilder_horizons.block.SkullBlock;
@@ -333,7 +334,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
         return new FabricItemSettings().group(WH_FOOD);
     }
 
-    // ### The Enum Class Itself ###
+    // ### Enum Codes ###
     
     public final Block block;
     
@@ -364,7 +365,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     }
     
     private Identifier id() {
-        return Main.makeId(name().toLowerCase());
+        return Main.makeId(name().toLowerCase(Locale.ROOT));
     }
 
     @Override

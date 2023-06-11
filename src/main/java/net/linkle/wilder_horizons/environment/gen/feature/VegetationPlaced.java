@@ -1,6 +1,7 @@
 package net.linkle.wilder_horizons.environment.gen.feature;
 
 import java.util.List;
+import java.util.Locale;
 
 import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.init.init_core.WHNature;
@@ -33,6 +34,6 @@ public enum VegetationPlaced {
     }
     
     private VegetationPlaced(ConfigFeature config, List<PlacementModifier> modifiers) {
-        entry = PlacedFeatures.register(Main.toId(name().toLowerCase()), config.getEntry(), modifiers);
+        entry = PlacedFeatures.register(Main.toId(name().toLowerCase(Locale.ROOT)), config.getEntry(), modifiers);
     }
 }

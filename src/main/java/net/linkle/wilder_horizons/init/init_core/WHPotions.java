@@ -1,6 +1,7 @@
 package net.linkle.wilder_horizons.init.init_core;
 
 import net.linkle.wilder_horizons.Main;
+import net.linkle.wilder_horizons.util.IdProvider;
 import net.linkle.wilder_horizons.widener.BrewingRecipeRegistryWidener;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -8,220 +9,150 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class WHPotions {
-    
-    public static Potion ROT_BLIGHT_POTION = registerPotion("rot_blight_potion", new Potion(new StatusEffectInstance(WHEffects.ROT_BLIGHT, 45 * 20)));
+import java.util.Locale;
 
-    public static Potion LEVITATION_POTION = registerPotion("levitation_potion", new Potion(new StatusEffectInstance(StatusEffects.LEVITATION, 45 * 20)));
-    public static Potion LEVITATION_POTION_LONG = registerPotion("levitation_potion_long", new Potion(new StatusEffectInstance(StatusEffects.LEVITATION, 90 * 20)));
-    public static Potion LEVITATION_POTION_FAST = registerPotion("levitation_potion_fast", new Potion(new StatusEffectInstance(StatusEffects.LEVITATION, 21 * 20, 1)));
+public enum WHPotions implements IdProvider {
 
-    public static Potion ABSORPTION_POTION = registerPotion("absorption_potion", new Potion(new StatusEffectInstance(StatusEffects.ABSORPTION, 60 * 20)));
-    public static Potion ABSORPTION_POTION_LONG = registerPotion("absorption_potion_long", new Potion(new StatusEffectInstance(StatusEffects.ABSORPTION, 120 * 20)));
-    public static Potion ABSORPTION_POTION_FAST = registerPotion("absorption_potion_fast", new Potion(new StatusEffectInstance(StatusEffects.ABSORPTION, 30 * 20, 1)));
+    ROT_BLIGHT_POTION(new StatusEffectInstance(WHEffects.ROT_BLIGHT.effect, 45 * 20)),
 
-    public static Potion LUCK_LONG = registerPotion("luck_potion_long", new Potion(new StatusEffectInstance(StatusEffects.LUCK, 480 * 20)));
-    public static Potion LUCK_FAST = registerPotion("luck_potion_fast", new Potion(new StatusEffectInstance(StatusEffects.LUCK, 150 * 20, 1)));
+    LEVITATION_POTION(new StatusEffectInstance(StatusEffects.LEVITATION, 45 * 20)),
+    LEVITATION_POTION_LONG(new StatusEffectInstance(StatusEffects.LEVITATION, 90 * 20)),
+    LEVITATION_POTION_FAST(new StatusEffectInstance(StatusEffects.LEVITATION, 21 * 20, 1)),
 
-    public static Potion HASTE_POTION = registerPotion("haste_potion", new Potion(new StatusEffectInstance(StatusEffects.HASTE, 180 * 20)));
-    public static Potion HASTE_POTION_LONG = registerPotion("haste_potion_long", new Potion(new StatusEffectInstance(StatusEffects.HASTE, 480 * 20)));
-    public static Potion HASTE_POTION_FAST = registerPotion("haste_potion_fast", new Potion(new StatusEffectInstance(StatusEffects.HASTE, 90 * 20, 1)));
+    ABSORPTION_POTION(new StatusEffectInstance(StatusEffects.ABSORPTION, 60 * 20)),
+    ABSORPTION_POTION_LONG(new StatusEffectInstance(StatusEffects.ABSORPTION, 120 * 20)),
+    ABSORPTION_POTION_FAST(new StatusEffectInstance(StatusEffects.ABSORPTION, 30 * 20, 1)),
 
-    public static Potion FERAL_STRENGTH = registerPotion("feral_strength_potion", new Potion(new StatusEffectInstance(StatusEffects.STRENGTH, 45 * 20, 2), new StatusEffectInstance(StatusEffects.NAUSEA, 45 *20, 2)));
-    public static Potion FERAL_STRENGTH_LONG = registerPotion("feral_strength_potion_long", new Potion(new StatusEffectInstance(StatusEffects.STRENGTH, 90 * 20, 2), new StatusEffectInstance(StatusEffects.NAUSEA, 90 *20, 2)));
+    LUCK_LONG(new StatusEffectInstance(StatusEffects.LUCK, 480 * 20)),
+    LUCK_FAST(new StatusEffectInstance(StatusEffects.LUCK, 150 * 20, 1)),
 
-    public static Potion DRAGONHEARTED = registerPotion("dragonhearted_potion", new Potion(new StatusEffectInstance(StatusEffects.STRENGTH, 45 * 20, 3), new StatusEffectInstance(StatusEffects.POISON, 21 *20, 1)));
+    HASTE_POTION(new StatusEffectInstance(StatusEffects.HASTE, 180 * 20)),
+    HASTE_POTION_LONG(new StatusEffectInstance(StatusEffects.HASTE, 480 * 20)),
+    HASTE_POTION_FAST(new StatusEffectInstance(StatusEffects.HASTE, 90 * 20, 1)),
 
-    public static Potion GLOWING = registerPotion("glowing_potion", new Potion(new StatusEffectInstance(StatusEffects.GLOWING, 30 * 20)));
-    public static Potion SOUL_FADING = registerPotion("soul_fading_potion", new Potion(new StatusEffectInstance(WHEffects.SOUL_FADING, 10 * 20)));
+    FERAL_STRENGTH(new StatusEffectInstance(StatusEffects.STRENGTH, 45 * 20, 2), new StatusEffectInstance(StatusEffects.NAUSEA, 45 *20, 2)),
+    FERAL_STRENGTH_LONG(new StatusEffectInstance(StatusEffects.STRENGTH, 90 * 20, 2), new StatusEffectInstance(StatusEffects.NAUSEA, 90 *20, 2)),
 
-    public static Potion HASTE_WEAK = registerPotion("weak_haste_potion", new Potion(new StatusEffectInstance(StatusEffects.HASTE, 45 * 20)));
-    public static Potion WITHER_WEAK = registerPotion("weak_wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 5 * 20)));
-    public static Potion WITHER_STRONG = registerPotion("strong_wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 15 * 20)));
-    public static Potion WITHER_VERY_STRONG = registerPotion("very_strong_wither_potion", new Potion(new StatusEffectInstance(StatusEffects.WITHER, 30 * 20)));
-    public static Potion BLINDNESS_WEAK = registerPotion("weak_blindness_potion", new Potion(new StatusEffectInstance(StatusEffects.BLINDNESS, 5 * 20)));
-    public static Potion BLINDNESS = registerPotion("blindness_potion", new Potion(new StatusEffectInstance(StatusEffects.BLINDNESS, 15 * 20)));
-    public static Potion SLOW_FALLING_WEAK = registerPotion("weak_slow_falling_potion", new Potion(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 30 * 20)));
-    public static Potion NAUSEA_WEAK = registerPotion("weak_nausea_potion", new Potion(new StatusEffectInstance(StatusEffects.NAUSEA, 15 * 20)));
-    public static Potion WATER_BREATHING_WEAK = registerPotion("weak_water_breathing_potion", new Potion(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 30 * 20)));
+    DRAGONHEARTED(new StatusEffectInstance(StatusEffects.STRENGTH, 45 * 20, 3), new StatusEffectInstance(StatusEffects.POISON, 21 *20, 1)),
+
+    GLOWING(new StatusEffectInstance(StatusEffects.GLOWING, 30 * 20)),
+    SOUL_FADING(new StatusEffectInstance(WHEffects.SOUL_FADING.effect, 10 * 20)),
+
+    HASTE_WEAK(new StatusEffectInstance(StatusEffects.HASTE, 45 * 20)),
+    WITHER_WEAK(new StatusEffectInstance(StatusEffects.WITHER, 5 * 20)),
+    WITHER_STRONG(new StatusEffectInstance(StatusEffects.WITHER, 15 * 20)),
+    WITHER_VERY_STRONG(new StatusEffectInstance(StatusEffects.WITHER, 30 * 20)),
+    BLINDNESS_WEAK(new StatusEffectInstance(StatusEffects.BLINDNESS, 5 * 20)),
+    BLINDNESS(new StatusEffectInstance(StatusEffects.BLINDNESS, 15 * 20)),
+    SLOW_FALLING_WEAK(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 30 * 20)),
+    NAUSEA_WEAK(new StatusEffectInstance(StatusEffects.NAUSEA, 15 * 20)),
+    WATER_BREATHING_WEAK(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 30 * 20));
 
     public static void initialize() {
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.MONSTER_HEART.item, WHPotions.ROT_BLIGHT_POTION);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.MONSTER_HEART.item, ROT_BLIGHT_POTION.potion);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.SCUTE, net.minecraft.potion.Potions.TURTLE_MASTER);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHArmors.TURTLE_CHESTPLATE, net.minecraft.potion.Potions.TURTLE_MASTER);
+        registerRecipe(Potions.AWKWARD, Items.SCUTE, Potions.TURTLE_MASTER);
+        registerRecipe(Potions.AWKWARD, WHArmors.TURTLE_CHESTPLATE.item, Potions.TURTLE_MASTER);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.RAW_BAT_WING.item, LEVITATION_POTION);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.LEVITATION_POTION, Items.GLOWSTONE_DUST, WHPotions.LEVITATION_POTION_LONG);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.LEVITATION_POTION, Items.REDSTONE, WHPotions.LEVITATION_POTION_FAST);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_BAT_WING.item, LEVITATION_POTION.potion);
+        registerRecipe(LEVITATION_POTION.potion, Items.GLOWSTONE_DUST, LEVITATION_POTION_LONG.potion);
+        registerRecipe(LEVITATION_POTION.potion, Items.REDSTONE, LEVITATION_POTION_FAST.potion);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHNature.CLAM_BLOCK.item, ABSORPTION_POTION);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.ABSORPTION_POTION, Items.REDSTONE, WHPotions.ABSORPTION_POTION_LONG);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.ABSORPTION_POTION, Items.GLOWSTONE_DUST, WHPotions.ABSORPTION_POTION_FAST);
+        registerRecipe(Potions.AWKWARD, WHNature.CLAM_BLOCK.item, ABSORPTION_POTION.potion);
+        registerRecipe(ABSORPTION_POTION.potion, Items.REDSTONE, ABSORPTION_POTION_LONG.potion);
+        registerRecipe(ABSORPTION_POTION.potion, Items.GLOWSTONE_DUST, ABSORPTION_POTION_FAST.potion);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.NAUTILUS_SHELL, Potions.STRENGTH);
+        registerRecipe(Potions.AWKWARD, Items.NAUTILUS_SHELL, Potions.STRENGTH);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.AMETHYST_SHARD, WHPotions.HASTE_POTION);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.HASTE_POTION, Items.REDSTONE, WHPotions.HASTE_POTION_LONG);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.HASTE_POTION, Items.GLOWSTONE_DUST, WHPotions.HASTE_POTION_FAST);
+        registerRecipe(Potions.AWKWARD, Items.AMETHYST_SHARD, HASTE_POTION.potion);
+        registerRecipe(HASTE_POTION.potion, Items.REDSTONE, HASTE_POTION_LONG.potion);
+        registerRecipe(HASTE_POTION.potion, Items.GLOWSTONE_DUST, HASTE_POTION_FAST.potion);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GOAT_HORN, net.minecraft.potion.Potions.STRENGTH);
+        registerRecipe(Potions.AWKWARD, Items.GOAT_HORN, Potions.STRENGTH);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.BEAST_CLAW.item, WHPotions.FERAL_STRENGTH);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.FERAL_STRENGTH, Items.REDSTONE, WHPotions.FERAL_STRENGTH_LONG);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.BEAST_CLAW.item, FERAL_STRENGTH.potion);
+        registerRecipe(FERAL_STRENGTH.potion, Items.REDSTONE, FERAL_STRENGTH_LONG.potion);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.JELLY_BLOB.item, net.minecraft.potion.Potions.LEAPING);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.CRYSTALLIZED_HONEYDROP.item, net.minecraft.potion.Potions.REGENERATION);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.JELLY_BLOB.item, Potions.LEAPING);
+        registerRecipe(Potions.AWKWARD, WHFoods.CRYSTALLIZED_HONEYDROP.item, Potions.REGENERATION);
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.DRAGON_TOOTH.item, WHPotions.DRAGONHEARTED);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.DRAGON_TOOTH.item, DRAGONHEARTED.potion);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.PHANTOM_MEMBRANE, Potions.SLOW_FALLING);
-        registerRecipe(net.minecraft.potion.Potions.LUCK, Items.GLOWSTONE_DUST, Potions.LONG_SLOW_FALLING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.FEATHER, WHPotions.SLOW_FALLING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.CROW_FEATHER.item, WHPotions.SLOW_FALLING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.DUCK_FEATHER.item, WHPotions.SLOW_FALLING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SEAGULL_FEATHER.item, WHPotions.SLOW_FALLING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.IRON_FEATHER.item, Potions.INVISIBILITY);
+        registerRecipe(Potions.AWKWARD, Items.PHANTOM_MEMBRANE, Potions.SLOW_FALLING);
+        registerRecipe(Potions.LUCK, Items.GLOWSTONE_DUST, Potions.LONG_SLOW_FALLING);
+        registerRecipe(Potions.AWKWARD, Items.FEATHER, SLOW_FALLING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.CROW_FEATHER.item, SLOW_FALLING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.DUCK_FEATHER.item, SLOW_FALLING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.SEAGULL_FEATHER.item, SLOW_FALLING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.IRON_FEATHER.item, Potions.INVISIBILITY);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.SLIME_BALL, Potions.LEAPING);
+        registerRecipe(Potions.AWKWARD, Items.SLIME_BALL, Potions.LEAPING);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.HEART_OF_THE_SEA, Potions.LONG_WATER_BREATHING);
+        registerRecipe(Potions.AWKWARD, Items.HEART_OF_THE_SEA, Potions.LONG_WATER_BREATHING);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.LIFE_GEM.item, WHPotions.ABSORPTION_POTION_FAST);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.LIFE_GEM.item, ABSORPTION_POTION_FAST.potion);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.MONSTER_HEART.item, WHPotions.ROT_BLIGHT_POTION);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.MONSTER_HEART.item, ROT_BLIGHT_POTION.potion);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GLOW_BERRIES, WHPotions.GLOWING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GLOW_INK_SAC, WHPotions.GLOWING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GLOW_LICHEN, WHPotions.GLOWING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.RAW_GLOWSQUID_TENTACLE.item, WHPotions.GLOWING);
+        registerRecipe(Potions.AWKWARD, Items.GLOW_BERRIES, GLOWING.potion);
+        registerRecipe(Potions.AWKWARD, Items.GLOW_INK_SAC, GLOWING.potion);
+        registerRecipe(Potions.AWKWARD, Items.GLOW_LICHEN, GLOWING.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_GLOWSQUID_TENTACLE.item, GLOWING.potion);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.INK_SAC, WHPotions.BLINDNESS_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.RAW_SQUID_TENTACLE.item, WHPotions.BLINDNESS);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.FLINT, WHPotions.BLINDNESS_WEAK);
+        registerRecipe(Potions.AWKWARD, Items.INK_SAC, BLINDNESS_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_SQUID_TENTACLE.item, BLINDNESS.potion);
+        registerRecipe(Potions.AWKWARD, Items.FLINT, BLINDNESS_WEAK.potion);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.AMETHYST_SHARD, WHPotions.HASTE_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.LAPIS_LAZULI, WHPotions.SOUL_FADING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.QUARTZ, WHPotions.ABSORPTION_POTION);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.PRISMARINE_CRYSTALS, Potions.SWIFTNESS);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.PRISMARINE_SHARD, Potions.MUNDANE);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SALTPETER.item, WHPotions.NAUSEA_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SALT.item, WHPotions.NAUSEA_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.ENDER_EYE, Potions.NIGHT_VISION);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.ENDER_PEARL, Potions.MUNDANE);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.KELP, WHPotions.WATER_BREATHING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHNature.GLOW_KELP.asItem(), WHPotions.WATER_BREATHING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHNature.ORANGE_KELP.asItem(), WHPotions.WATER_BREATHING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.DRIED_GLOW_KELP.item, Potions.MUNDANE);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.DRIED_ORANGE_KELP.item, Potions.MUNDANE);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.DRIED_KELP, Potions.MUNDANE);
+        registerRecipe(Potions.AWKWARD, Items.AMETHYST_SHARD, HASTE_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, Items.LAPIS_LAZULI, SOUL_FADING.potion);
+        registerRecipe(Potions.AWKWARD, Items.QUARTZ, ABSORPTION_POTION.potion);
+        registerRecipe(Potions.AWKWARD, Items.PRISMARINE_CRYSTALS, Potions.SWIFTNESS);
+        registerRecipe(Potions.AWKWARD, Items.PRISMARINE_SHARD, Potions.MUNDANE);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.SALTPETER.item, NAUSEA_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.SALT.item, NAUSEA_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, Items.ENDER_EYE, Potions.NIGHT_VISION);
+        registerRecipe(Potions.AWKWARD, Items.ENDER_PEARL, Potions.MUNDANE);
+        registerRecipe(Potions.AWKWARD, Items.KELP, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHNature.GLOW_KELP.item, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHNature.ORANGE_KELP.item, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoods.DRIED_GLOW_KELP.item, Potions.MUNDANE);
+        registerRecipe(Potions.AWKWARD, WHFoods.DRIED_ORANGE_KELP.item, Potions.MUNDANE);
+        registerRecipe(Potions.AWKWARD, Items.DRIED_KELP, Potions.MUNDANE);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.BONE, Potions.HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.BONE_MEAL, Potions.HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SMALL_BONE.item, Potions.HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.BONEFIN_SKELETON.item, Potions.STRONG_HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SKULL_SHARD.item, Potions.STRONG_HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.WITHER_BONE.item, WHPotions.WITHER_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SMALL_WITHER_BONE.item, WHPotions.WITHER_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.WITHER_SKULL_SHARD.item, WHPotions.WITHER_STRONG);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.SKELETON_SKULL, Potions.STRONG_HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.WITHER_SKELETON_SKULL, WHPotions.WITHER_VERY_STRONG);
+        registerRecipe(Potions.AWKWARD, Items.BONE, Potions.HARMING);
+        registerRecipe(Potions.AWKWARD, Items.BONE_MEAL, Potions.HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.SMALL_BONE.item, Potions.HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.BONEFIN_SKELETON.item, Potions.STRONG_HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.SKULL_SHARD.item, Potions.STRONG_HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.WITHER_BONE.item, WITHER_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.SMALL_WITHER_BONE.item, WITHER_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.WITHER_SKULL_SHARD.item, WITHER_STRONG.potion);
+        registerRecipe(Potions.AWKWARD, Items.SKELETON_SKULL, Potions.STRONG_HARMING);
+        registerRecipe(Potions.AWKWARD, Items.WITHER_SKELETON_SKULL, WITHER_VERY_STRONG.potion);
 
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.GOLDEN_PUMPKIN_SLICE.item, Potions.STRENGTH);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.SWEET_BERRIES, Potions.MUNDANE);
+        registerRecipe(Potions.AWKWARD, WHFoods.GOLDEN_PUMPKIN_SLICE.item, Potions.STRENGTH);
+        registerRecipe(Potions.AWKWARD, Items.SWEET_BERRIES, Potions.MUNDANE);
     }
-    
-    private static Potion registerPotion(String name, Potion potion) {
-        return Registry.register(Registry.POTION, Main.makeId(name), potion);
-    }
-    
+
     private static void registerRecipe(Potion input, Item item, Potion output) {
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.MONSTER_HEART.item, WHPotions.ROT_BLIGHT_POTION);
+        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(input, item, output);
+    }
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.SCUTE, net.minecraft.potion.Potions.TURTLE_MASTER);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHArmors.TURTLE_CHESTPLATE, net.minecraft.potion.Potions.TURTLE_MASTER);
+    // ### Enum Codes ##
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.RAW_BAT_WING.item, LEVITATION_POTION);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.LEVITATION_POTION, Items.GLOWSTONE_DUST, WHPotions.LEVITATION_POTION_LONG);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.LEVITATION_POTION, Items.REDSTONE, WHPotions.LEVITATION_POTION_FAST);
+    public final Potion potion;
+    public final Identifier id;
 
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHNature.CLAM_BLOCK.item, ABSORPTION_POTION);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.ABSORPTION_POTION, Items.REDSTONE, WHPotions.ABSORPTION_POTION_LONG);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.ABSORPTION_POTION, Items.GLOWSTONE_DUST, WHPotions.ABSORPTION_POTION_FAST);
-
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.NAUTILUS_SHELL, Potions.STRENGTH);
-
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.AMETHYST_SHARD, WHPotions.HASTE_POTION);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.HASTE_POTION, Items.REDSTONE, WHPotions.HASTE_POTION_LONG);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.HASTE_POTION, Items.GLOWSTONE_DUST, WHPotions.HASTE_POTION_FAST);
-
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GOAT_HORN, net.minecraft.potion.Potions.STRENGTH);
-
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.BEAST_CLAW.item, WHPotions.FERAL_STRENGTH);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(WHPotions.FERAL_STRENGTH, Items.REDSTONE, WHPotions.FERAL_STRENGTH_LONG);
-
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.JELLY_BLOB.item, net.minecraft.potion.Potions.LEAPING);
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.CRYSTALLIZED_HONEYDROP.item, net.minecraft.potion.Potions.REGENERATION);
-
-        BrewingRecipeRegistryWidener.invokeRegisterPotionRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.DRAGON_TOOTH.item, WHPotions.DRAGONHEARTED);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.PHANTOM_MEMBRANE, Potions.SLOW_FALLING);
-        registerRecipe(net.minecraft.potion.Potions.LUCK, Items.GLOWSTONE_DUST, Potions.LONG_SLOW_FALLING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.FEATHER, WHPotions.SLOW_FALLING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.CROW_FEATHER.item, WHPotions.SLOW_FALLING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.DUCK_FEATHER.item, WHPotions.SLOW_FALLING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SEAGULL_FEATHER.item, WHPotions.SLOW_FALLING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.IRON_FEATHER.item, Potions.INVISIBILITY);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.SLIME_BALL, Potions.LEAPING);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.HEART_OF_THE_SEA, Potions.LONG_WATER_BREATHING);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.LIFE_GEM.item, WHPotions.ABSORPTION_POTION_FAST);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.MONSTER_HEART.item, WHPotions.ROT_BLIGHT_POTION);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GLOW_BERRIES, WHPotions.GLOWING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GLOW_INK_SAC, WHPotions.GLOWING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.GLOW_LICHEN, WHPotions.GLOWING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.RAW_GLOWSQUID_TENTACLE.item, WHPotions.GLOWING);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.INK_SAC, WHPotions.BLINDNESS_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoodIngredients.RAW_SQUID_TENTACLE.item, WHPotions.BLINDNESS);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.FLINT, WHPotions.BLINDNESS_WEAK);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.AMETHYST_SHARD, WHPotions.HASTE_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.LAPIS_LAZULI, WHPotions.SOUL_FADING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.QUARTZ, WHPotions.ABSORPTION_POTION);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.PRISMARINE_CRYSTALS, Potions.SWIFTNESS);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.PRISMARINE_SHARD, Potions.MUNDANE);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SALTPETER.item, WHPotions.NAUSEA_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SALT.item, WHPotions.NAUSEA_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.ENDER_EYE, Potions.NIGHT_VISION);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.ENDER_PEARL, Potions.MUNDANE);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.KELP, WHPotions.WATER_BREATHING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHNature.GLOW_KELP.asItem(), WHPotions.WATER_BREATHING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHNature.ORANGE_KELP.asItem(), WHPotions.WATER_BREATHING_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.DRIED_GLOW_KELP.item, Potions.MUNDANE);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.DRIED_ORANGE_KELP.item, Potions.MUNDANE);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.DRIED_KELP, Potions.MUNDANE);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.BONE, Potions.HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.BONE_MEAL, Potions.HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SMALL_BONE.item, Potions.HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.BONEFIN_SKELETON.item, Potions.STRONG_HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SKULL_SHARD.item, Potions.STRONG_HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.WITHER_BONE.item, WHPotions.WITHER_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.SMALL_WITHER_BONE.item, WHPotions.WITHER_WEAK);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHMiscItems.WITHER_SKULL_SHARD.item, WHPotions.WITHER_STRONG);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.SKELETON_SKULL, Potions.STRONG_HARMING);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.WITHER_SKELETON_SKULL, WHPotions.WITHER_VERY_STRONG);
-
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, WHFoods.GOLDEN_PUMPKIN_SLICE.item, Potions.STRENGTH);
-        registerRecipe(net.minecraft.potion.Potions.AWKWARD, Items.SWEET_BERRIES, Potions.MUNDANE);
-
-
+    WHPotions(StatusEffectInstance... instances) {
+        this.id = Main.makeId(name().toLowerCase(Locale.ROOT));
+        this.potion = Registry.register(Registry.POTION, id, new Potion(instances));
+    }
+    
+    @Override
+    public Identifier getId() {
+        return id;
     }
 }

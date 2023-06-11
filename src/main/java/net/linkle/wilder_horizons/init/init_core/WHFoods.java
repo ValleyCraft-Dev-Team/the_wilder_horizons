@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
+import java.util.Locale;
+
 public enum WHFoods implements ItemEnum {
 
     /**recipes done**/
@@ -158,13 +160,14 @@ public enum WHFoods implements ItemEnum {
     }
     
     
-    // ### The Enum Class Itself ###
+    // ### Enum Codes ###
     
     public final Item item;
     public final Identifier id;
     
     WHFoods(Item item) {
-        this.item = Registry.register(Registry.ITEM, id = Main.makeId(name().toLowerCase()), item);
+        this.id = Main.makeId(name().toLowerCase(Locale.ROOT));
+        this.item = Registry.register(Registry.ITEM, id, item);
     }
     
     @Override

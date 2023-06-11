@@ -2,6 +2,7 @@ package net.linkle.wilder_horizons.init.init_core;
 
 import static net.linkle.wilder_horizons.util.BookStackVoxelShapes.*;
 
+import java.util.Locale;
 import java.util.function.BiFunction;
 import java.util.function.ToIntFunction;
 
@@ -1118,7 +1119,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
         return state -> state.get(Properties.LIT) ? litLevel : 0;
     }
     
-    // ### The Enum Class Itself ###
+    // ### Enum Codes ###
     
     public final Block block;
     
@@ -1149,7 +1150,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     }
     
     private Identifier id() {
-        return Main.makeId(name().toLowerCase());
+        return Main.makeId(name().toLowerCase(Locale.ROOT));
     }
     
     @Override

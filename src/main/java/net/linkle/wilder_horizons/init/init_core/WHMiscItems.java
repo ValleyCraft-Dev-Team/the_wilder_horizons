@@ -84,7 +84,7 @@ public enum WHMiscItems implements ItemEnum {
 
     GEODE_CORE_CRACKED(new AlphaModItem(settings())),
     GEODE_CORE_ENRICHED(new AlphaModItem(settings())),
-    BRIMSTONE_CRYSTAL(new AlphaModItem(settings())),
+    BRIMSTONE_CRYSTAL_ITEM(new AlphaModItem(settings())),
     SALT(new AlphaModItem(settings())),
     SALTPETER(new AlphaModItem(settings())),
     CHARCOAL_NUGGET(new AlphaModItem(settings())),

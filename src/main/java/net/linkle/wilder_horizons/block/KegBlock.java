@@ -32,6 +32,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 import java.util.List;
+import java.util.Locale;
 
 public class KegBlock extends BlockWithWater {
     
@@ -121,7 +122,7 @@ public class KegBlock extends BlockWithWater {
         private final String name;
 
         private Attachment() {
-            this.name = name().toLowerCase();
+            this.name = name().toLowerCase(Locale.ROOT);
         }
 
         @Override

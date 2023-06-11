@@ -320,7 +320,7 @@ public class Contents {
         putFuels(WHMiscItems.COAL_NUGGET, 400);
         putFuels(WHMiscItems.ANTHRACITE, 1600);
         putFuels(WHBlocks.ANTHRACITE_BLOCK, 16000);
-        putFuels(WHMiscItems.BRIMSTONE_CRYSTAL, 800);
+        putFuels(WHMiscItems.BRIMSTONE_CRYSTAL_ITEM, 800);
         putFuels(Items.BLAZE_POWDER, 1200);
         putFuels(Items.NETHER_STAR, 32000);
         putFuels(WHMiscItems.NETHER_CORE, 32000);

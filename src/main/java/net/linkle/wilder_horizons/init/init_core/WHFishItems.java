@@ -9,6 +9,8 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+import java.util.Locale;
+
 import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_MISCELLANEOUS;
 
 public enum WHFishItems implements ItemEnum {
@@ -24,13 +26,13 @@ public enum WHFishItems implements ItemEnum {
         //cooked items are fully registered in RegularFoodItems or TieredFoodItems
     }
     
-    // ### The Enum Class Itself ###
+    // ### Enum Codes ###
     public final Item item;
     public final Identifier id;
     
     // @param register the item
     WHFishItems(Item item) {
-        this.item = Registry.register(Registry.ITEM, id = Main.makeId(name().toLowerCase()), item);
+        this.item = Registry.register(Registry.ITEM, id = Main.makeId(name().toLowerCase(Locale.ROOT)), item);
     }
     
     @Override

@@ -13,6 +13,8 @@ import net.minecraft.world.gen.blockpredicate.BlockPredicate;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 
+import java.util.Locale;
+
 /** Known as {@link VegetationConfiguredFeatures} */
 public enum VegetationConfigs implements ConfigFeature {
     
@@ -43,7 +45,7 @@ public enum VegetationConfigs implements ConfigFeature {
 
     <T extends FeatureConfig> VegetationConfigs(Feature<T> feature, T config) {
         this.config = new ConfiguredFeature<T, Feature<T>>(feature, config);
-        entry = BuiltinRegistries.add(BuiltinRegistries.CONFIGURED_FEATURE, id = Main.makeId(name().toLowerCase()), this.config);
+        entry = BuiltinRegistries.add(BuiltinRegistries.CONFIGURED_FEATURE, id = Main.makeId(name().toLowerCase(Locale.ROOT)), this.config);
     }
 
     @Override

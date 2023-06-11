@@ -6,6 +6,8 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+import java.util.Locale;
+
 public enum WHSounds implements IdProvider {
     
     SPRINKLER,
@@ -25,7 +27,7 @@ public enum WHSounds implements IdProvider {
     public final SoundEvent sound;
     
     private WHSounds() {
-        sound = new SoundEvent(Main.makeId(name().toLowerCase()));
+        sound = new SoundEvent(Main.makeId(name().toLowerCase(Locale.ROOT)));
         Registry.register(Registry.SOUND_EVENT, sound.getId(), sound);
     }
     

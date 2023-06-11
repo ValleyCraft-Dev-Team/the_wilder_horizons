@@ -10,6 +10,8 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.TreeConfiguredFeatures;
 import net.minecraft.world.gen.feature.TreeFeatureConfig;
 
+import java.util.Locale;
+
 /** Known as {@link TreeConfiguredFeatures} */
 public enum TreeConfigs implements ConfigFeature {
 
@@ -33,7 +35,7 @@ public enum TreeConfigs implements ConfigFeature {
     
     TreeConfigs(TreeFeatureConfig config) {
         this.config = new ConfiguredFeature<TreeFeatureConfig, Feature<TreeFeatureConfig>>(Feature.TREE, config);
-        entry = BuiltinRegistries.add(BuiltinRegistries.CONFIGURED_FEATURE, id = Main.makeId(name().toLowerCase()), this.config);
+        entry = BuiltinRegistries.add(BuiltinRegistries.CONFIGURED_FEATURE, id = Main.makeId(name().toLowerCase(Locale.ROOT)), this.config);
     }
 
     @Override

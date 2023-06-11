@@ -2,18 +2,35 @@ package net.linkle.wilder_horizons.init.init_core;
 
 import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.effect.*;
+import net.linkle.wilder_horizons.util.IdProvider;
 import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class WHEffects {
+import java.util.Locale;
+
+public enum WHEffects implements IdProvider {
+
+    CLEANSED(new Cleansed()),
+    ROT_BLIGHT(new RotBlight()),
+    SOUL_FADING(new SoulFading());
+
     public static void initialize() {
+
     }
 
-    public static StatusEffect CLEANSED = register("cleansed", new Cleansed());
-    public static StatusEffect ROT_BLIGHT = register("rot_blight", new RotBlight());
-    public static StatusEffect SOUL_FADING = register("soul_fading", new SoulFading());
+    // ### Enum Codes ###
 
-    public static StatusEffect register(String name, StatusEffect effect) {
-        return Registry.register(Registry.STATUS_EFFECT, Main.makeId(name), effect);
+    public final StatusEffect effect;
+    public final Identifier id;
+
+    WHEffects(StatusEffect effect) {
+        this.id = Main.makeId(name().toLowerCase(Locale.ROOT));
+        this.effect = Registry.register(Registry.STATUS_EFFECT, id, effect);
+    }
+
+    @Override
+    public Identifier getId() {
+        return id;
     }
 }

@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 abstract class EndermanEntityMixin {
     @Inject(method = "isPlayerStaring", at = @At("HEAD"), cancellable = true)
     void isPlayerStaring(PlayerEntity player, CallbackInfoReturnable<Boolean> info) {
-        if (player.getEquippedStack(EquipmentSlot.HEAD).isOf(WHArmors.FRIENDLY_MASK)) {
+        if (player.getEquippedStack(EquipmentSlot.HEAD).isOf(WHArmors.FRIENDLY_MASK.item)) {
             info.setReturnValue(false);
         }
     }

@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.init.init_exterior;
 
+import java.util.Locale;
 import java.util.stream.Stream;
 
 import net.fabricmc.api.EnvType;
@@ -46,7 +47,7 @@ public enum WHBlockEntities implements BlockEntityEnum {
     
     private <T extends BlockEntity> WHBlockEntities(Factory<T> factory, Block... blocks) {
         var entity = FabricBlockEntityTypeBuilder.create(factory, blocks).build();
-        type = Registry.register(Registry.BLOCK_ENTITY_TYPE, id = Main.makeId(name().toLowerCase()), entity);
+        type = Registry.register(Registry.BLOCK_ENTITY_TYPE, id = Main.makeId(name().toLowerCase(Locale.ROOT)), entity);
     }
 
     @Override

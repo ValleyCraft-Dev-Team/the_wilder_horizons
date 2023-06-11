@@ -51,7 +51,7 @@ public class SludgeFluidBlock extends FluidBlock {
         if ((pos.getY() + state.getFluidState().getHeight(world, pos)) >= entity.getBoundingBox().minY) {
             entity.setVelocity(entity.getVelocity().multiply(0.9, 0.9, 0.9));
             if (entity instanceof LivingEntity living) {
-                living.addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT, 7 * 20));
+                living.addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT.effect, 7 * 20));
             }
         }
     }

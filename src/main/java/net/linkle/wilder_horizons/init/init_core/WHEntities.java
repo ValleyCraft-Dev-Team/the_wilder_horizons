@@ -31,6 +31,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.Heightmap;
 
+import java.util.Locale;
+
 import static net.linkle.wilder_horizons.enums.EntityEnum.*;
 
 /**
@@ -149,17 +151,18 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(THROWN_ROCK, FlyingItemEntityRenderer::new);
         registerRenderer(GLOW_BALL, FlyingItemEntityRenderer::new);
     }
-    
+
+    // ### Enum Codes ###
+
     private final EntityType<?> type;
-    
     public final Identifier id;
     
-    private WHEntities(FabricEntityTypeBuilder<?> builder) {
+    WHEntities(FabricEntityTypeBuilder<?> builder) {
         this(builder.build());
     }
     
-    private WHEntities(EntityType<?> type) {
-        this.type = Registry.register(Registry.ENTITY_TYPE, id = Main.makeId(name().toLowerCase()), type);
+    WHEntities(EntityType<?> type) {
+        this.type = Registry.register(Registry.ENTITY_TYPE, id = Main.makeId(name().toLowerCase(Locale.ROOT)), type);
     }
     
     @Override

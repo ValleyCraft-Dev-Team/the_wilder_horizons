@@ -11,6 +11,8 @@ import net.minecraft.util.registry.Registry;
 import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.enums.ItemEnum;
 
+import java.util.Locale;
+
 public enum WHFoodsSpecial implements ItemEnum {
 
     /**recipes done**/
@@ -57,13 +59,14 @@ public enum WHFoodsSpecial implements ItemEnum {
         return new Item.Settings().group(WHGroups.WH_FOOD_SPECIAL);
     }
     
-    // ### The Enum Class Itself ###
+    // ### Enum Codes ###
     
     public final Item item;
     public final Identifier id;
     
     WHFoodsSpecial(Item item) {
-        this.item = Registry.register(Registry.ITEM, id = Main.makeId(name().toLowerCase()), item);
+        this.id = Main.makeId(name().toLowerCase(Locale.ROOT));
+        this.item = Registry.register(Registry.ITEM, id, item);
     }
 
     @Override

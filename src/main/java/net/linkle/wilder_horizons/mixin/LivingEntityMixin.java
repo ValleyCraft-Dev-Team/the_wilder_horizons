@@ -84,7 +84,7 @@ abstract class LivingEntityMixin extends Entity implements LivingEntityExt {
     	if (comp.isEmpty()) return;
 
         var stack = living.getEquippedStack(EquipmentSlot.CHEST);
-		if (stack.isOf(WHArmors.FRIENDLY_MASK)) {
+		if (stack.isOf(WHArmors.FRIENDLY_MASK.item)) {
             if (living instanceof ServerPlayerEntity sPlayer) {
                 sPlayer.incrementStat(Stats.USED.getOrCreateStat(Items.TOTEM_OF_UNDYING));
                 Criteria.USED_TOTEM.trigger(sPlayer, stack);

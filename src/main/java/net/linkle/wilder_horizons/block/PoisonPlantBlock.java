@@ -22,7 +22,7 @@ public class PoisonPlantBlock extends ModPlantBlock {
     @Override
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
         if (entity instanceof LivingEntity living) {
-            living.addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT, 3*20));
+            living.addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT.effect, 3*20));
         }
     }
     
@@ -36,7 +36,7 @@ public class PoisonPlantBlock extends ModPlantBlock {
             if (!random.nextBoolean()) continue;
             var pm = MinecraftClient.getInstance().particleManager;
             var p = pm.addParticle(ParticleTypes.EFFECT, x + random.nextDouble() / 5.0, (double)pos.getY() + (0.5 - random.nextDouble()), z + random.nextDouble() / 5.0, 0, 0, 0);
-            var c = WHEffects.ROT_BLIGHT.getColor();
+            var c = WHEffects.ROT_BLIGHT.effect.getColor();
             var r = (float)(c >> 16 & 0xFF) / 255.0f;
             var g = (float)(c >> 8 & 0xFF) / 255.0f;
             var b = (float)(c >> 0 & 0xFF) / 255.0f;

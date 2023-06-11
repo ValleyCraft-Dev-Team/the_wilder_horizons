@@ -27,7 +27,7 @@ public class ThrownRockEntity extends ThrownItemEntity {
 
     @Override
     protected Item getDefaultItem() {
-        return WHTools.THROWING_ROCK;
+        return WHTools.THROWING_ROCK.item;
     }
 
     @Override

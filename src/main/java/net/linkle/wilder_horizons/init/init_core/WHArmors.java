@@ -2,6 +2,7 @@ package net.linkle.wilder_horizons.init.init_core;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.Main;
+import net.linkle.wilder_horizons.enums.ItemEnum;
 import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.linkle.wilder_horizons.item.gear.armor.WHArmorMaterials;
 import net.minecraft.entity.EquipmentSlot;
@@ -10,159 +11,127 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class WHArmors {
-    /**plant clothing**/
-    public static final Item FRIENDLY_MASK = registerItem("friendly_mask",
-            new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+import java.util.Locale;
 
-    public static final Item VINE_CROWN = registerItem("vine_crown",
-            new ArmorItem(WHArmorMaterials.VINE_CROWN, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+public enum WHArmors implements ItemEnum {
+    // plant clothing
+    FRIENDLY_MASK(new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, settings())),
 
-    public static final Item DRIPLEAF_HAT = registerItem("dripleaf_hat",
-            new ArmorItem(WHArmorMaterials.DRIPLEAF_HAT, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    VINE_CROWN(new ArmorItem(WHArmorMaterials.VINE_CROWN, EquipmentSlot.HEAD, settings())),
 
-    public static final Item AZAELEA_CROWN = registerItem("azalea_crown",
-            new ArmorItem(WHArmorMaterials.AZALEA_CROWN, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    DRIPLEAF_HAT(new ArmorItem(WHArmorMaterials.DRIPLEAF_HAT, EquipmentSlot.HEAD, settings())),
 
-    public static final Item LILY_PAD_HAT = registerItem("lily_pad_hat",
-            new ArmorItem(WHArmorMaterials.LILY_PAD_HAT, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    AZAELEA_CROWN(new ArmorItem(WHArmorMaterials.AZALEA_CROWN, EquipmentSlot.HEAD, settings())),
 
-    public static final Item BLUE_SHELL_BREASTPLATE = registerItem("blue_clam_shell_breastplate",
-            new ArmorItem(WHArmorMaterials.BLUE_CLAM_SHELL_BREASTPLATE, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    LILY_PAD_HAT(new ArmorItem(WHArmorMaterials.LILY_PAD_HAT, EquipmentSlot.HEAD, settings())),
 
-    public static final Item TURTLE_CHESTPLATE = registerItem("turtle_chestplate_shell",
-            new ArmorItem(WHArmorMaterials.TURTLE, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    BLUE_SHELL_BREASTPLATE(new ArmorItem(WHArmorMaterials.BLUE_CLAM_SHELL_BREASTPLATE, EquipmentSlot.CHEST, settings())),
 
-    public static final Item STRAW_HAT = registerItem("straw_hat",
-            new ArmorItem(WHArmorMaterials.STRAW_HAT, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    TURTLE_CHESTPLATE(new ArmorItem(WHArmorMaterials.TURTLE, EquipmentSlot.CHEST, settings())),
 
-    public static final Item CHEF_HAT = registerItem("chef_hat",
-            new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item CHEF_APRON = registerItem("chef_apron",
-            new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    STRAW_HAT(new ArmorItem(WHArmorMaterials.STRAW_HAT, EquipmentSlot.HEAD, settings())),
 
-    /**shroomleather items**/
-    public static final Item HOOD = registerItem("hood",
-            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item CLOAK = registerItem("cloak",
-            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item TUNIC = registerItem("tunic",
-            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_TUNIC, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    CHEF_HAT(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.HEAD, settings())),
+    CHEF_APRON(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.LEGS, settings())),
 
-    public static final Item NEUTRAL_GARMENTS = registerItem("neutral_garments",
-            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_NEUTRAL, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item FEMME_GARMENTS = registerItem("femme_garments",
-            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_FEMME, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item MASC_GARMENTS = registerItem("masc_garments",
-            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_MASC, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // shroomleather items
+    HOOD(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, settings())),
+    CLOAK(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.CHEST, settings())),
+    TUNIC(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_TUNIC, EquipmentSlot.LEGS, settings())),
 
-    public static final Item SANDALS = registerItem("sandals",
-            new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    NEUTRAL_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_NEUTRAL, EquipmentSlot.LEGS, settings())),
+    FEMME_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_FEMME, EquipmentSlot.LEGS, settings())),
+    MASC_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_MASC, EquipmentSlot.LEGS, settings())),
 
-    /**leather items**/
-    public static final Item COWPOKE_HAT = registerItem("cowpoke_hat",
-            new ArmorItem(WHArmorMaterials.COWPOKE_HAT, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    SANDALS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.FEET, settings())),
 
-    public static final Item UNDYING_TALISMAN = registerItem("totem_of_undying_necklace",
-            new ArmorItem(WHArmorMaterials.UNDYING_TALISMAN, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // leather items
+    COWPOKE_HAT(new ArmorItem(WHArmorMaterials.COWPOKE_HAT, EquipmentSlot.HEAD, settings())),
 
-    public static final Item LUCKY_FISHING_HOOK_TALISMAN = registerItem("fish_hook_necklace",
-            new ArmorItem(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    UNDYING_TALISMAN(new ArmorItem(WHArmorMaterials.UNDYING_TALISMAN, EquipmentSlot.CHEST, settings())),
 
-    public static final Item WARM_BOOTS = registerItem("warm_boots",
-            new ArmorItem(WHArmorMaterials.WARM_BOOTS, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    LUCKY_FISHING_HOOK_TALISMAN(new ArmorItem(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, settings())),
 
-    /**brasium**/
-    public static final Item NIGHT_VISION_GOGGLES = registerItem("night_vision_goggles",
-            new ArmorItem(WHArmorMaterials.NIGHT_VISION_GOGGLES, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    WARM_BOOTS(new ArmorItem(WHArmorMaterials.WARM_BOOTS, EquipmentSlot.FEET, settings())),
 
-    /**canvas**/
-    public static final Item CANVAS_HELMET = registerItem("CANVAS_helmet",
-            new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item CANVAS_CHESTPLATE = registerItem("CANVAS_chestplate",
-            new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item CANVAS_LEGGINGS = registerItem("CANVAS_leggings",
-            new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item CANVAS_BOOTS = registerItem("CANVAS_boots",
-            new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // brasium
+    NIGHT_VISION_GOGGLES(new ArmorItem(WHArmorMaterials.NIGHT_VISION_GOGGLES, EquipmentSlot.HEAD, settings())),
 
-    /**plank**/
-    public static final Item PLANK_HELMET = registerItem("plank_helmet",
-            new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item PLANK_CHESTPLATE = registerItem("plank_chestplate",
-            new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item PLANK_LEGGINGS = registerItem("plank_leggings",
-            new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item PLANK_BOOTS = registerItem("plank_boots",
-            new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // canvas
+    CANVAS_HELMET(new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.HEAD, settings())),
+    CANVAS_CHESTPLATE(new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.CHEST, settings())),
+    CANVAS_LEGGINGS(new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.LEGS, settings())),
+    CANVAS_BOOTS(new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.FEET, settings())),
 
-    /**gold**/
-    public static final Item GOLD_HAUBERK = registerItem("gold_hauberk",
-            new ArmorItem(WHArmorMaterials.GOLD_HAUBERK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item GOLD_THIGH_GUARDS = registerItem("gold_thigh_guards",
-            new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item GOLD_SANDALS = registerItem("gold_sandals",
-            new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // plank
+    PLANK_HELMET(new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.HEAD, settings())),
+    PLANK_CHESTPLATE(new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.CHEST, settings())),
+    PLANK_LEGGINGS(new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.LEGS, settings())),
+    PLANK_BOOTS(new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.FEET, settings())),
 
-    /**iron**/
-    public static final Item IRON_HAUBERK = registerItem("iron_hauberk",
-            new ArmorItem(WHArmorMaterials.IRON_HAUBERK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item IRON_THIGH_GUARDS = registerItem("iron_thigh_guards",
-            new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item IRON_SANDALS = registerItem("iron_sandals",
-            new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // gold
+    GOLD_HAUBERK(new ArmorItem(WHArmorMaterials.GOLD_HAUBERK, EquipmentSlot.FEET, settings())),
+    GOLD_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.FEET, settings())),
+    GOLD_SANDALS(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.FEET, settings())),
 
-    /**brasium**/
-    public static final Item BRASIUM_HELMET = registerItem("brasium_helmet",
-            new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item BRASIUM_CHESTPLATE = registerItem("brasium_chestplate",
-            new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item BRASIUM_LEGGINGS = registerItem("brasium_leggings",
-            new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item BRASIUM_HAUBERK = registerItem("brasium_hauberk",
-            new ArmorItem(WHArmorMaterials.BRASIUM_HAUBERK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item BRASIUM_THIGH_GUARDS = registerItem("brasium_thigh_guards",
-            new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item BRASIUM_BOOTS = registerItem("brasium_boots",
-            new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item BRASIUM_SANDALS = registerItem("brasium_sandals",
-            new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // iron
+    IRON_HAUBERK(new ArmorItem(WHArmorMaterials.IRON_HAUBERK, EquipmentSlot.FEET, settings())),
+    IRON_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.FEET, settings())),
+    IRON_SANDALS(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.FEET, settings())),
 
-    /**diamond**/
-    public static final Item DIAMOND_HAUBERK = registerItem("diamond_hauberk",
-            new ArmorItem(WHArmorMaterials.DIAMOND_HAUBERK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item DIAMOND_THIGH_GUARDS = registerItem("diamond_thigh_guards",
-            new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item DIAMOND_SANDALS = registerItem("diamond_sandals",
-            new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // brasium
+    BRASIUM_HELMET(new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.HEAD, settings())),
+    BRASIUM_CHESTPLATE(new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.CHEST, settings())),
+    BRASIUM_LEGGINGS(new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.LEGS, settings())),
+    BRASIUM_HAUBERK(new ArmorItem(WHArmorMaterials.BRASIUM_HAUBERK, EquipmentSlot.FEET, settings())),
+    BRASIUM_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.FEET, settings())),
+    BRASIUM_BOOTS(new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.FEET, settings())),
+    BRASIUM_SANDALS(new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.FEET, settings())),
 
-    /**echochalcum**/
-    public static final Item ECHOCHALCUM_HELMET = registerItem("echochalcum_helmet",
-            new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.HEAD, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item ECHOCHALCUM_CHESTPLATE = registerItem("echochalcum_chestplate",
-            new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.CHEST, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item ECHOCHALCUM_LEGGINGS = registerItem("echochalcum_leggings",
-            new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.LEGS, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item ECHOCHALCUM_HAUBERK = registerItem("echochalcum_hauberk",
-            new ArmorItem(WHArmorMaterials.ECHOCHALCUM_HAUBERK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item ECHOCHALCUM_THIGH_GUARDS = registerItem("echochalcum_thigh_guards",
-            new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item ECHOCHALCUM_BOOTS = registerItem("echochalcum_boots",
-            new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item ECHOCHALCUM_SANDALS = registerItem("echochalcum_sandals",
-            new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // diamond
+    DIAMOND_HAUBERK(new ArmorItem(WHArmorMaterials.DIAMOND_HAUBERK, EquipmentSlot.FEET, settings())),
+    DIAMOND_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.FEET, settings())),
+    DIAMOND_SANDALS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.FEET, settings())),
 
-    /**netherite**/
-    public static final Item NETHERITE_HAUBERK = registerItem("netherite_hauberk",
-            new ArmorItem(WHArmorMaterials.NETHERITE_HAUBERK, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item NETHERITE_THIGH_GUARDS = registerItem("netherite_thigh_guards",
-            new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
-    public static final Item NETHERITE_SANDALS = registerItem("netherite_sandals",
-            new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.FEET, new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS)));
+    // echochalcum
+    ECHOCHALCUM_HELMET(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.HEAD, settings())),
+    ECHOCHALCUM_CHESTPLATE(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.CHEST, settings())),
+    ECHOCHALCUM_LEGGINGS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.LEGS, settings())),
+    ECHOCHALCUM_HAUBERK(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_HAUBERK, EquipmentSlot.FEET, settings())),
+    ECHOCHALCUM_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.FEET, settings())),
+    ECHOCHALCUM_BOOTS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.FEET, settings())),
+    ECHOCHALCUM_SANDALS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.FEET, settings())),
 
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(Main.ID, name), item);
+    // netherite
+    NETHERITE_HAUBERK(new ArmorItem(WHArmorMaterials.NETHERITE_HAUBERK, EquipmentSlot.FEET, settings())),
+    NETHERITE_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.FEET, settings())),
+    NETHERITE_SANDALS(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.FEET, settings()));
+
+    public static FabricItemSettings settings() {
+        return new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS);
     }
-    public static void registerItems() {
+    
+    public static void initialize() {
+        
+    }
+
+    // ### Enum Codes ###
+    
+    public final Item item;
+    public final Identifier id;
+    
+    WHArmors(Item item) {
+        this.id = Main.makeId(name().toLowerCase(Locale.ROOT));
+        this.item = Registry.register(Registry.ITEM, id, item);
+    }
+    
+    @Override
+    public Identifier getId() {
+        return id;
+    }
+
+    @Override
+    public Item asItem() {
+        return item;
     }
 }

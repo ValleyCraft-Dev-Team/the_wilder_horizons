@@ -24,7 +24,7 @@ public class BruteEntity extends ZombieEntity {
             return false;
         } else {
             if (target instanceof LivingEntity) {
-                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT, 100), this);
+                ((LivingEntity)target).addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT.effect, 100), this);
             }
             return true;
         }

@@ -14,6 +14,8 @@ import net.minecraft.util.registry.Registry;
 
 import net.linkle.wilder_horizons.Main;
 
+import java.util.Locale;
+
 import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_FOOD;
 
 public enum WHFoodIngredients implements ItemEnum {
@@ -95,7 +97,7 @@ public enum WHFoodIngredients implements ItemEnum {
     //INFECTED_MONSTER_LIVER(new NegativeFoodItem_3_Effects(settings(), 3, Nourishment.LOW, StatusEffects.NAUSEA, StatusEffects.HUNGER, ModEffects.ROT_BLIGHT).hideTooltip()),
     //ZOD(new NegativeFoodItem_3_Effects(settings().group(Groups.INGREDIENTS), 5, Nourishment.POOR, StatusEffects.HUNGER, ModEffects.ROT_BLIGHT, StatusEffects.NAUSEA).hideTooltip()),
     RAW_ENDERMAN_EYE(new Tier1NormalNoText(settings(), 3, Nourishment.LOW, StatusEffects.WEAKNESS).hideTooltip()),
-    ENDER_DRAGON_EYE(new EnderDragonEyeFoodItem(settings().rarity(Rarity.EPIC).fireproof(), 3, Nourishment.LOW, StatusEffects.POISON, StatusEffects.BLINDNESS, WHEffects.ROT_BLIGHT).hideTooltip()),
+    ENDER_DRAGON_EYE(new EnderDragonEyeFoodItem(settings().rarity(Rarity.EPIC).fireproof(), 3, Nourishment.LOW, StatusEffects.POISON, StatusEffects.BLINDNESS, WHEffects.ROT_BLIGHT.effect).hideTooltip()),
     ENDER_DRAGON_GLAND(new NegativeFoodItem_3_Effects(settings().rarity(Rarity.EPIC).fireproof(), 6, Nourishment.LOW, StatusEffects.BLINDNESS, StatusEffects.HUNGER, StatusEffects.NAUSEA).hideTooltip()),
     RAW_ENDERMITE(new EndermiteFoodItem(settings(), 3, Nourishment.POOR, StatusEffects.POISON, StatusEffects.BLINDNESS, StatusEffects.NAUSEA).hideTooltip()),
 
@@ -130,13 +132,13 @@ public enum WHFoodIngredients implements ItemEnum {
         return new Item.Settings().group(WH_FOOD);
     }
 
-    // ### The Enum Class Itself ###
+    // ### Enum Codes ###
     
     public final Item item;
     public final Identifier id;
     
     private WHFoodIngredients(Item item) {
-        this.item = Registry.register(Registry.ITEM, id = Main.makeId(name().toLowerCase()), item);
+        this.item = Registry.register(Registry.ITEM, id = Main.makeId(name().toLowerCase(Locale.ROOT)), item);
     }
     
     @Override
