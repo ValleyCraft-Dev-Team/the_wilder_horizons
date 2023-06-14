@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "wilder_horizons:block/erdstone_dispenser_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "wilder_horizons:block/erdstone_dispenser",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wilder_horizons:block/erdstone_dispenser"
+    },
+    "facing=south": {
+      "model": "wilder_horizons:block/erdstone_dispenser",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "wilder_horizons:block/erdstone_dispenser_vertical"
+    },
+    "facing=west": {
+      "model": "wilder_horizons:block/erdstone_dispenser",
+      "y": 270
+    }
+  }
+}

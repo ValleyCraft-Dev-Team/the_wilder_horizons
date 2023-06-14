@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "wilder_horizons:block/brimstone_lantern"
+    },
+    "hanging=true": {
+      "model": "wilder_horizons:block/brimstone_lantern_hanging"
+    }
+  }
+}

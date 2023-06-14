@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "wilder_horizons:block/medium_candelabra"
+    },
+    "lit=true": {
+      "model": "wilder_horizons:block/medium_candelabra_lit"
+    }
+  }
+}

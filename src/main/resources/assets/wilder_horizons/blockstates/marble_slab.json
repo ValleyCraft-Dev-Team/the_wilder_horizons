@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/marble_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/marble"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/marble_slab_top"
+    }
+  }
+}

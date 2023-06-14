@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wilder_horizons:block/translation_canvas",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wilder_horizons:block/translation_canvas"
+    },
+    "facing=south": {
+      "model": "wilder_horizons:block/translation_canvas",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wilder_horizons:block/translation_canvas",
+      "y": 270
+    }
+  }
+}

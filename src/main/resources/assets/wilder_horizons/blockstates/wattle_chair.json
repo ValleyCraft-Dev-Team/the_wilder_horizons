@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wilder_horizons:block/wattle_chair"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "wilder_horizons:block/wattle_chair"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "wilder_horizons:block/wattle_chair"
+    },
+    "facing=west": {
+      "y": 270,
+      "model": "wilder_horizons:block/wattle_chair"
+    }
+  }
+}

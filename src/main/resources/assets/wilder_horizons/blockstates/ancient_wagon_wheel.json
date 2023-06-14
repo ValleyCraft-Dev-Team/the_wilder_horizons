@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wilder_horizons:block/ancient_wagon_wheel"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "wilder_horizons:block/ancient_wagon_wheel"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "wilder_horizons:block/ancient_wagon_wheel"
+    },
+    "facing=west": {
+      "y": 270,
+      "model": "wilder_horizons:block/ancient_wagon_wheel"
+    },
+    "facing=up": {
+      "x": 270,
+      "y": 90,
+      "model": "wilder_horizons:block/ancient_wagon_wheel"
+    },
+    "facing=down": {
+      "x": 90,
+      "y": 90,
+      "model": "wilder_horizons:block/ancient_wagon_wheel"
+    }
+  }
+}

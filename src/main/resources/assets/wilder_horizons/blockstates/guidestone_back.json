@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wilder_horizons:block/guidestone_back",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wilder_horizons:block/guidestone_back"
+    },
+    "facing=south": {
+      "model": "wilder_horizons:block/guidestone_back",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wilder_horizons:block/guidestone_back",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wilder_horizons:item/special/jungles_blessing"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "wilder_horizons:item/jungles_blessing_broken"
+    }
+  ]
+}

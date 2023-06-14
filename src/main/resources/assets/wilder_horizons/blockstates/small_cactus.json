@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "wilder_horizons:block/small_cactus"
+      },
+      {
+        "model": "wilder_horizons:block/small_cactus",
+        "y": 90
+      },
+      {
+        "model": "wilder_horizons:block/small_cactus",
+        "y": 180
+      },
+      {
+        "model": "wilder_horizons:block/small_cactus",
+        "y": 270
+      }
+    ]
+  }
+}

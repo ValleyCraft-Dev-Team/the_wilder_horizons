@@ -1,0 +1,7 @@
+{
+    "parent": "block/chain",
+    "textures": {
+        "particle": "wilder_horizons:block/golemite_chain",
+        "all": "wilder_horizons:block/golemite_chain"
+    }
+}

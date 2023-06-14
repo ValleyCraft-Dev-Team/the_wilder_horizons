@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wilder_horizons:item/special/goddess_blade"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "wilder_horizons:item/goddess_blade_broken"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/shale_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/shale"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/shale_slab_top"
+    }
+  }
+}

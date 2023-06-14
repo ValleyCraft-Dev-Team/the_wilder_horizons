@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "full=true": {
+      "model": "wilder_horizons:block/water_strainer_full"
+    },
+    "full=false": {
+      "model": "wilder_horizons:block/water_strainer_empty"
+    }
+  }
+}

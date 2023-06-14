@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "wilder_horizons:block/salt_bricks",
+    "side": "wilder_horizons:block/salt_bricks",
+    "top": "wilder_horizons:block/salt_bricks"
+  }
+}

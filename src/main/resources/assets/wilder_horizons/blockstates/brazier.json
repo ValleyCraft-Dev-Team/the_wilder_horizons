@@ -1,0 +1,10 @@
+{
+  "variants": {
+	"lit=true": {
+	  "model": "wilder_horizons:block/brazier_fire"
+	},
+	"lit=false": {
+	  "model": "wilder_horizons:block/brazier_fire_off"
+	}
+  }
+}

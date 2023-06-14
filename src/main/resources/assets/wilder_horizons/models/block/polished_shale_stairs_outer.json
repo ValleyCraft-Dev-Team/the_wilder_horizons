@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "wilder_horizons:block/polished_shale",
+    "side": "wilder_horizons:block/polished_shale",
+    "top": "wilder_horizons:block/polished_shale"
+  }
+}

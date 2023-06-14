@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wilder_horizons:block/guidestone_campsite",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wilder_horizons:block/guidestone_campsite"
+    },
+    "facing=south": {
+      "model": "wilder_horizons:block/guidestone_campsite",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wilder_horizons:block/guidestone_campsite",
+      "y": 270
+    }
+  }
+}

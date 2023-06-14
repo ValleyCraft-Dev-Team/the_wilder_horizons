@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/sandstone_top",
+    "side": "wilder_horizons:block/chiseled_sandstone_pyramid"
+  }
+}

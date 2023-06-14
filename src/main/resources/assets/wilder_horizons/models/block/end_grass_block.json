@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "wilder_horizons:block/end_grass_top",
+        "bottom": "minecraft:block/end_stone",
+        "side": "wilder_horizons:block/end_grass_side"
+    }
+}

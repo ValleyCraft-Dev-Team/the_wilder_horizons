@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/iron_bars_cap",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "wilder_horizons:block/golemite_bars",
+        "bars": "wilder_horizons:block/golemite_bars",
+        "edge": "wilder_horizons:block/golemite_bars"
+    }
+}

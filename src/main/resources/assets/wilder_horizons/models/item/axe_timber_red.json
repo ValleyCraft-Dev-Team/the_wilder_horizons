@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wilder_horizons:item/tools/mob_unique_weapons/misc/timbercutter_red"
+  }
+}

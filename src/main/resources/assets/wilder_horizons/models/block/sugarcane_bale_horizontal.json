@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "wilder_horizons:block/sugarcane_bale_top",
+    "side": "wilder_horizons:block/sugarcane_bale_side"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "wilder_horizons:block/candle_bottle_lit"
+    },
+    "lit=false": {
+      "model": "wilder_horizons:block/candle_bottle"
+    }
+  }
+}

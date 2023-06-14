@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "wilder_horizons:block/beveled_tinted_glass"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:block/sprinkler",
+  "textures": {
+    "head": "wilder_horizons:block/sprinkler_head_on"
+  }
+}

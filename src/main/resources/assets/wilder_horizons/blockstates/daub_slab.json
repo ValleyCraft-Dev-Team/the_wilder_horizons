@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/daub_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/block_daub"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/daub_slab_top"
+    }
+  }
+}

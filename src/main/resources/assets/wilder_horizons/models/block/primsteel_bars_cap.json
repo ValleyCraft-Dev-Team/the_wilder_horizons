@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/iron_bars_cap",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "wilder_horizons:block/primsteel_bars",
+        "bars": "wilder_horizons:block/primsteel_bars",
+        "edge": "wilder_horizons:block/primsteel_bars"
+    }
+}

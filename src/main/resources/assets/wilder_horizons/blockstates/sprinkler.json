@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=true": {
+      "model": "wilder_horizons:block/sprinkler"
+    },
+    "powered=false": {
+      "model": "wilder_horizons:block/sprinkler"
+    }
+  }
+}

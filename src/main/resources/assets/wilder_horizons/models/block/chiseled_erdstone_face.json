@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "wilder_horizons:block/polished_erdstone",
+    "side": "wilder_horizons:block/erdstone_chiseled_four"
+  }
+}

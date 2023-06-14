@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "wilder_horizons:block/tinted_glass_door_bottom",
+    "top": "wilder_horizons:block/tinted_glass_door_top"
+  }
+}

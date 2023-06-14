@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "wilder_horizons:block/acacia_lattice_top",
+    "pane": "wilder_horizons:block/acacia_lattice"
+  }
+}

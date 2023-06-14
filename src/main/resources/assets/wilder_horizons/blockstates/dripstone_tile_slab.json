@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/dripstone_tile_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/dripstone_tiles"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/dripstone_tile_slab_top"
+    }
+  }
+}

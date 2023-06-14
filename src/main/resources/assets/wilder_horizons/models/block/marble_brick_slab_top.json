@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "wilder_horizons:block/marble_bricks",
+    "side": "wilder_horizons:block/marble_bricks",
+    "top": "wilder_horizons:block/marble_bricks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "wilder_horizons:block/miners_lettuce_stage1"
+  }
+}

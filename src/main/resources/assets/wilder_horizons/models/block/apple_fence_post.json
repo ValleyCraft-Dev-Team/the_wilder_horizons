@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "wilder_horizons:block/apple_fence_planks"
+  }
+}

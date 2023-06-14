@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "wilder_horizons:block/cattails_bottom"
+    },
+    "half=upper": {
+      "model": "wilder_horizons:block/cattails_top"
+    }
+  }
+}

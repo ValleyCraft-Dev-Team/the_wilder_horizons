@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "berries=false": {
+      "model": "wilder_horizons:block/gloom_berry_stem"
+    },
+    "berries=true": {
+      "model": "wilder_horizons:block/gloom_berry_stem_berries"
+    }
+  }
+}

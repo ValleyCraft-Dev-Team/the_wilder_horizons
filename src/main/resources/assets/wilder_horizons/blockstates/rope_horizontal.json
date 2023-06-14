@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wilder_horizons:block/climbable_rope",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "wilder_horizons:block/climbable_rope",
+      "x": 90
+    }
+  }
+}

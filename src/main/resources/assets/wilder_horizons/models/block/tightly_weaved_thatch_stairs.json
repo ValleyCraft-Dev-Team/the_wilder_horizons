@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wilder_horizons:block/patterned_thatch_small",
+    "side": "wilder_horizons:block/patterned_thatch_small",
+    "top": "wilder_horizons:block/patterned_thatch_small"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "wilder_horizons:block/polished_prismarine",
+    "side": "wilder_horizons:block/polished_prismarine",
+    "top": "wilder_horizons:block/polished_prismarine"
+  }
+}

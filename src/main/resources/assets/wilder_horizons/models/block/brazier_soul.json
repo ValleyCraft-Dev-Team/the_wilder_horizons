@@ -1,0 +1,7 @@
+{
+	"parent": "wilder_horizons:block/brazier",
+	"textures": {
+		"fire": "wilder_horizons:block/campfire_pot_fire_alt_soul",
+		"pot": "minecraft:block/polished_andesite"
+	}
+}

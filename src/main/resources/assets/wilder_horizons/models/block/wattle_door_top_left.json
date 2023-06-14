@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "wilder_horizons:block/wattle_door_bottom",
+    "top": "wilder_horizons:block/wattle_door_top"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "wilder_horizons:block/mamon_planks"
+  }
+}

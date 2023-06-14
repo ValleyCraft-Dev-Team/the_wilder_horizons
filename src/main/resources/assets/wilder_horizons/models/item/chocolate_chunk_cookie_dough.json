@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wilder_horizons:item/food/dough/chocolate_chunk_cookie_dough"
+  }
+}

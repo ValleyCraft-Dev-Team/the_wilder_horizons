@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wilder_horizons:block/deepslate_urn_angry",
+      "y": 90
+    },
+    "axis=z": {
+      "model": "wilder_horizons:block/deepslate_urn_angry"
+    }
+  }
+}

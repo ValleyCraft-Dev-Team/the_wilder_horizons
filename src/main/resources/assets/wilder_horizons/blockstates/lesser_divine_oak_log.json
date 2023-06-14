@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wilder_horizons:block/lesser_divine_oak_log",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "wilder_horizons:block/lesser_divine_oak_log",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "wilder_horizons:block/lesser_divine_oak_log"
+    },
+    "facing=west": {
+      "model": "wilder_horizons:block/lesser_divine_oak_log",
+      "y": 90
+    }
+  }
+}

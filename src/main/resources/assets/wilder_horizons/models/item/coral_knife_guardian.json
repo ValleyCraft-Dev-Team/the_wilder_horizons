@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wilder_horizons:item/diving_gear/coral_knife"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "wilder_horizons:item/coral_knife_broken"
+    }
+  ]
+}

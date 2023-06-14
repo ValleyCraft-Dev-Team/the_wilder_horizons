@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "wilder_horizons:block/mamon_planks"
+  }
+}

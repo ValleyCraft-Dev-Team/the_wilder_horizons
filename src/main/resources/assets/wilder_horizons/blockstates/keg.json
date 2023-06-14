@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "attachment=vertical,facing=north": {
+      "model": "wilder_horizons:block/keg_down"
+    },
+    "attachment=vertical,facing=south": {
+      "y": 180,
+      "model": "wilder_horizons:block/keg_down"
+    },
+    "attachment=vertical,facing=east": {
+      "y": 90,
+      "model": "wilder_horizons:block/keg_down"
+    },
+    "attachment=vertical,facing=west": {
+      "y": 270,
+      "model": "wilder_horizons:block/keg_down"
+    },
+    
+    "attachment=floor,facing=north": {
+      "model": "wilder_horizons:block/keg_horizontal"
+    },
+    "attachment=floor,facing=south": {
+      "y": 180,
+      "model": "wilder_horizons:block/keg_horizontal"
+    },
+    "attachment=floor,facing=east": {
+      "y": 90,
+      "model": "wilder_horizons:block/keg_horizontal"
+    },
+    "attachment=floor,facing=west": {
+      "y": 270,
+      "model": "wilder_horizons:block/keg_horizontal"
+    },
+    
+    "attachment=ceiling,facing=north": {
+      "model": "wilder_horizons:block/keg_up"
+    },
+    "attachment=ceiling,facing=south": {
+      "y": 180,
+      "model": "wilder_horizons:block/keg_up"
+    },
+    "attachment=ceiling,facing=east": {
+      "y": 90,
+      "model": "wilder_horizons:block/keg_up"
+    },
+    "attachment=ceiling,facing=west": {
+      "y": 270,
+      "model": "wilder_horizons:block/keg_up"
+    }
+  }
+}

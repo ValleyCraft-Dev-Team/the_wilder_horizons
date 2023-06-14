@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "wilder_horizons:block/stone_brick_pillar_top",
+    "side": "wilder_horizons:block/stone_brick_pillar_side"
+  }
+}

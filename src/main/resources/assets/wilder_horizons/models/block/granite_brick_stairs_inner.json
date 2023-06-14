@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "wilder_horizons:block/granite_bricks",
+    "side": "wilder_horizons:block/granite_bricks",
+    "top": "wilder_horizons:block/granite_bricks"
+  }
+}

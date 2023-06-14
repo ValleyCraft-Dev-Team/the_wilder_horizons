@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/carmine_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/carmine"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/carmine_slab_top"
+    }
+  }
+}

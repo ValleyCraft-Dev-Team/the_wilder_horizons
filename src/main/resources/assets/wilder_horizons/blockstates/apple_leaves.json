@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "apples=true": {
+      "model": "wilder_horizons:block/apple_leaves"
+    },
+    "apples=false": {
+      "model": "wilder_horizons:block/apple_leaves_empty"
+    }
+  }
+}

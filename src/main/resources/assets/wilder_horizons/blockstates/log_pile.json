@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/log_pile_bottom"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/log_pile_full"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/log_pile_top"
+    }
+  }
+}
