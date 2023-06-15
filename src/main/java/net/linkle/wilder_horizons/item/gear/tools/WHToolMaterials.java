@@ -47,6 +47,9 @@ public enum WHToolMaterials implements ToolMaterial {
     BROKEN(2, 195, 5.0F, 02.0F, 10, () -> {
         return Ingredient.ofItems(Items.IRON_INGOT);
     }),
+    GEM_CUTTING_TOOLS(0, 16, 0.0F, 0.0F, 0, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
+    }),
     //BRASIUM(2, 770, 6.0F, 2.0F, 14, () -> {
     //    return Ingredient.ofItems(ItemsModded.BRASIUM_INGOT);
     //}),

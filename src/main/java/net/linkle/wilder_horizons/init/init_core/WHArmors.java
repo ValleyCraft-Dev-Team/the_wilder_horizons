@@ -34,6 +34,10 @@ public enum WHArmors implements ItemEnum {
     CHEF_HAT(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.HEAD, settings())),
     CHEF_APRON(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.LEGS, settings())),
 
+    //wraith
+    WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, settings())),
+    WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, settings())),
+
     // shroomleather items
     HOOD(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, settings())),
     CLOAK(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.CHEST, settings())),

@@ -36,14 +36,14 @@ public class UnbreakableScalpelBase
         return PreventDestroy.isUsable(miner.getMainHandStack());
     }
 
-    @Override
-    public ActionResult useOnBlock(ItemUsageContext context) {
-        var result = BONE_MEAL.useOnBlock(new WHItemUsageContext(context, new ItemStack(this)));
-        if (result.isAccepted()) {
-            context.getStack().damage(1, context.getPlayer(), entity -> entity.sendToolBreakStatus(context.getHand()));
-        }
-        return result;
-    }
+    //@Override
+    //public ActionResult useOnBlock(ItemUsageContext context) {
+    //    var result = BONE_MEAL.useOnBlock(new WHItemUsageContext(context, new ItemStack(this)));
+    //    if (result.isAccepted()) {
+    //        context.getStack().damage(1, context.getPlayer(), entity -> entity.sendToolBreakStatus(context.getHand()));
+    //    }
+    //    return result;
+    //}
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {

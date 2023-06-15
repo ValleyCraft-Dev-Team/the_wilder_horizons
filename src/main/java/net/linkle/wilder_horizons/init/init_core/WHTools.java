@@ -12,6 +12,8 @@ import net.linkle.wilder_horizons.item.gear.tools.WHToolMaterials;
 import net.linkle.wilder_horizons.item.gear.tools.environmental.*;
 import net.linkle.wilder_horizons.item.gear.tools.hatchet.HatchetAxeBase;
 import net.linkle.wilder_horizons.item.gear.tools.knife.KnifeBase;
+import net.linkle.wilder_horizons.item.gear.tools.knife.special.GemCuttingTools;
+import net.linkle.wilder_horizons.item.gear.tools.knife.special.GemCuttingToolsMaterial;
 import net.linkle.wilder_horizons.item.gear.tools.knife.special.Scalpel;
 import net.linkle.wilder_horizons.item.gear.tools.rusty.*;
 import net.linkle.wilder_horizons.item.gear.tools.scythe.ScytheBase;
@@ -65,6 +67,7 @@ public enum WHTools implements ItemEnum, ToolConstants {
     BRASIUM_COMPOUND_BOW(new ModBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
     CORAL_KNIFE(new Scalpel(WHToolMaterials.GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_UNCOMMON)),
     CORAL_KNIFE_GUARDIAN(new UnbreakableScalpelBase(WHToolMaterials.ELDER_GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_RARE)),
+    GEM_CUTTING_TOOLS(new GemCuttingTools(new GemCuttingToolsMaterial(),0, 0.0f)),
 
     // Knives
     KNIFE_WOODEN(new KnifeBase(ToolMaterials.WOOD, KNIFE_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),

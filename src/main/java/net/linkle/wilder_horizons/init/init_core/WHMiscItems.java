@@ -14,6 +14,8 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
 
+import static net.linkle.wilder_horizons.init.init_core.WHTools.GEM_CUTTING_TOOLS;
+
 public enum WHMiscItems implements ItemEnum {
 
     OAK_SEED(new AliasedBlockItem(WHNature.OAK_SEED.block, settings().group(WHGroups.WH_NATURE))),
@@ -100,8 +102,8 @@ public enum WHMiscItems implements ItemEnum {
     //ROSEGOLD_ALLOY = registerItem("rosegold_alloy",
     //        new AlphaModItem(settings())),
     BRASIUM_ALLOY(new AlphaModItem(settings())),
-    EMERALD_FRAGMENTS(new AlphaModItem(settings())),
-    DIAMOND_FRAGMENTS(new AlphaModItem(settings())),
+    ROUGH_EMERALD(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
+    ROUGH_DIAMOND(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     ECHOCHALCUM(new AlphaModItem(settings())),
     RAW_NETHERITE_NUGGET(new AlphaModItem(settings())),
 
