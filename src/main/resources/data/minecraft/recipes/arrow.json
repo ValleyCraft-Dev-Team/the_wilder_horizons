@@ -8,13 +8,13 @@
       "item": "minecraft:flint"
     },
     "Y": {
-      "tag": "c:feathers"
+      "tag": "c:arrow_fletching"
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "Y"
+    "  X",
+    " # ",
+    "Y  "
   ],
   "result": {
     "count": 4,

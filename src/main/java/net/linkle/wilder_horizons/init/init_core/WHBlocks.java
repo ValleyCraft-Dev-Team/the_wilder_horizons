@@ -159,6 +159,9 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     
     GLOW_SPLATTER(new GlowSplatterBlock()),
 
+    //rails
+    //GLOWING_RAIL(new RailBlock(Block.Settings.copy(Blocks.RAIL)), itemSettings()),
+
     //rope and net blocks
     ROPE_VERTICAL(new RopeVerticalBlock(Block.Settings.of(BlockMats.ROPE).nonOpaque().noCollision().sounds(BlockSoundGroup.WOOL))),
     ROPE_HORIZONTAL(new RopeHorizontalBlock(Block.Settings.of(BlockMats.ROPE).nonOpaque().sounds(BlockSoundGroup.WOOL))),

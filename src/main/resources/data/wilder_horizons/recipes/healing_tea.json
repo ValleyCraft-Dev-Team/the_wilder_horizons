@@ -12,11 +12,11 @@
       "item": "minecraft:glow_berries"
     },
     "D": {
-      "item": "wilder_horizons:mug"
+      "item": "wilder_horizons:tea_mug"
     }
   },
   "result": {
-    "item": "wilder_horizons:healing_broth",
+    "item": "wilder_horizons:healing_tea",
     "count": 1
   }
 }

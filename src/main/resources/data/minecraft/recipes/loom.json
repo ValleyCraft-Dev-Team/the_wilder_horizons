@@ -6,7 +6,7 @@
   ],
   "key": {
     "#": {
-      "item": "wilder_horizons:plank"
+      "tag": "c:plank_items"
     },
     "V": {
       "tag": "c:string_spools"

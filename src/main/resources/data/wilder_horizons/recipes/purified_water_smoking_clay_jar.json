@@ -4,8 +4,8 @@
   "experience": 0.1,
   "ingredient": [
     {
-      "item": "wilder_horizons:water_clay_jar"
+      "item": "wilder_horizons:water_filled_clay_jar"
     }
   ],
-  "result": "wilder_horizons:purified_water_clay_jar"
+  "result": "wilder_horizons:purified_water_filled_clay_jar"
 }

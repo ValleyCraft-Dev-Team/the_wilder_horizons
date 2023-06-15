@@ -23,18 +23,18 @@ public enum WHMedicines implements ItemEnum {
     // tea base - glow berries
     TEA_MUG(new AlphaModItem(settings().group(WHGroups.WH_MISCELLANEOUS))),
 
-    TEA_HEALING(new BrothItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.STRENGTH)),
+    STRENGTH_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.STRENGTH)),
 
-    TEA_NIGHT_VISION(new BrothItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.NIGHT_VISION)),
+    HEALING_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, WHEffects.RADIANT_HEALING.effect)),
 
-    TEA_HASTE(new BrothItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.HASTE)),
+    NIGHT_VISION_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.NIGHT_VISION)),
 
     // ointment base - slime
-    OINTMENT_EXTINGUISHING(new SalveItem(settings().maxCount(16), 0, 0, true, StatusEffects.FIRE_RESISTANCE)),
+    EXTINGUISHING_OINTMENT(new SalveItem(settings().maxCount(16), 0, 0, true, StatusEffects.FIRE_RESISTANCE)),
 
-    OINTMENT_PROTECTING(new OintmentItem(settings().maxCount(16), 0, 0, true, StatusEffects.RESISTANCE)),
+    PROTECTING_OINTMENT(new OintmentItem(settings().maxCount(16), 0, 0, true, StatusEffects.RESISTANCE)),
 
-    OINTMENT_CONCEALING(new OintmentItem(settings().maxCount(16), 0, 0, true, StatusEffects.INVISIBILITY)),
+    CONCEALING_OINTMENT(new OintmentItem(settings().maxCount(16), 0, 0, true, StatusEffects.INVISIBILITY)),
 
     // soap base - clay
     SOAP(new SoapItem(settings(), 0, 0, true, WHEffects.CLEANSED.effect));

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:poison_bolus",
-    "wilder_horizons:healing_salve",
+    "wilder_horizons:bolus_poison",
+    "wilder_horizons:salve_healing",
     "#c:ointment",
     "#c:soap"
   ]

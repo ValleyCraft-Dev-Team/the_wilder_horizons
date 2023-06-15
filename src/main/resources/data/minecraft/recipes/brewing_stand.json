@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "wilder_horizons:agitator"
+      "item": "wilder_horizons:redstone_agitator"
     },
     "V": {
       "item": "wilder_horizons:thermal_blaze_core"
     },
     "U": {
-      "item": "wilder_horizons:hot_plate"
+      "item": "wilder_horizons:conductive_stone_plate"
     }
   },
   "result": {

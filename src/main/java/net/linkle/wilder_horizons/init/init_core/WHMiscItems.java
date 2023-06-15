@@ -42,6 +42,7 @@ public enum WHMiscItems implements ItemEnum {
     PLANT_FIBER(new AlphaModItem(settings())),
     PLANT_FIBER_STRING(new AlphaModItem(settings())),
     PLANT_FIBER_CANVAS(new AlphaModItem(settings())),
+    ARROW_FLETCHING(new AlphaModItem(settings())),
 
     PUFF_BALL(new AlphaModItem(settings())),
     CLOTH(new AlphaModItem(settings())),

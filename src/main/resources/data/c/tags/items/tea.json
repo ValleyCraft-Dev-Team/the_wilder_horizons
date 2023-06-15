@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:tea_healing",
-    "wilder_horizons:tea_strength",
-    "wilder_horizons:tea_night_vision"
+    "wilder_horizons:strength_tea",
+    "wilder_horizons:healing_tea",
+    "wilder_horizons:night_vision_tea"
   ]
 }

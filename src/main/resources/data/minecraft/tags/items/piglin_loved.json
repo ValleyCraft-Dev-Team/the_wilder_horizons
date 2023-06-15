@@ -3,9 +3,7 @@
   "values": [
     "wilder_horizons:golden_watermelon_juice",
     "wilder_horizons:golden_potato",
-    "wilder_horizons:golden_endura_carrot",
     "wilder_horizons:golden_beetroot",
-    "wilder_horizons:golden_hearty_beetroot",
     "wilder_horizons:golden_fire_pepper",
     "wilder_horizons:golden_ancient_maize",
     "wilder_horizons:golden_onion",
@@ -18,18 +16,20 @@
     "wilder_horizons:enchanted_chorus_fruit",
     "wilder_horizons:enchanted_apple_pie",
     "wilder_horizons:enchanted_apple_pie_slice",
-    "wilder_horizons:undying_necklace",
+    "wilder_horizons:undying_talisman",
     "minecraft:totem_of_undying",
-    "wilder_horizons:golden_sandals",
-    "wilder_horizons:golden_hauberk",
-    "wilder_horizons:golden_breastplate",
-    "wilder_horizons:golden_thigh_guards",
+    "wilder_horizons:gold_sandals",
+    "wilder_horizons:gold_hauberk",
+    "wilder_horizons:gold_breastplate",
+    "wilder_horizons:gold_thigh_guards",
+    "wilder_horizons:gold_masked_helmet",
     "wilder_horizons:knife_golden",
     "wilder_horizons:hatchet_golden",
     "wilder_horizons:scythe_golden",
     "wilder_horizons:traveler_golden",
     "wilder_horizons:gold_scrap",
     "wilder_horizons:woodcutter_axe_golden",
-    "wilder_horizons:totem_of_trade"
+    "wilder_horizons:totem_of_knowledge",
+    "wilder_horizons:totem_of_pacifism"
   ]
 }

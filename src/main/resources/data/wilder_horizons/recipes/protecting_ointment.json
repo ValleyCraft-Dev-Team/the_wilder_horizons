@@ -9,17 +9,17 @@
       "item": "minecraft:slime_ball"
     },
     "G": {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:glow_ink_sac"
     },
     "H": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:glowstone_dust"
     },
     "R": {
       "item": "minecraft:red_mushroom"
     }
   },
   "result": {
-    "item": "wilder_horizons:absorbing_ointment",
+    "item": "wilder_horizons:extinguishing_ointment",
     "count": 1
   }
 }

@@ -107,7 +107,7 @@ public class Contents {
         putCompost(WHMiscItems.WARM_BIRCH_SEED, levelLow);
 
         putCompost(WHArmors.DRIPLEAF_HAT, levelMed);
-        putCompost(WHArmors.AZAELEA_CROWN, levelMed);
+        putCompost(WHArmors.AZALEA_CROWN, levelMed);
         putCompost(WHArmors.VINE_CROWN, levelMed);
         putCompost(WHArmors.BLUE_SHELL_BREASTPLATE, levelHigh);
         putCompost(WHArmors.LILY_PAD_HAT, levelMed);

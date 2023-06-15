@@ -173,7 +173,7 @@ public class CustomTradeRegistry {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(net.minecraft.item.Items.EMERALD, 2),
-                            new ItemStack(WHMedicines.TEA_HASTE, 1),
+                            new ItemStack(WHMedicines.HEALING_TEA, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(net.minecraft.item.Items.EMERALD, 2),
@@ -205,7 +205,7 @@ public class CustomTradeRegistry {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(net.minecraft.item.Items.EMERALD, 2),
-                            new ItemStack(WHMedicines.TEA_NIGHT_VISION, 1),
+                            new ItemStack(WHMedicines.NIGHT_VISION_TEA, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(net.minecraft.item.Items.EMERALD, 3),
@@ -233,7 +233,7 @@ public class CustomTradeRegistry {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(net.minecraft.item.Items.EMERALD, 2),
-                            new ItemStack(WHMedicines.TEA_HEALING, 1),
+                            new ItemStack(WHMedicines.HEALING_TEA, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(net.minecraft.item.Items.EMERALD, 2),

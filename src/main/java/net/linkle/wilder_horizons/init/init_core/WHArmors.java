@@ -21,7 +21,7 @@ public enum WHArmors implements ItemEnum {
 
     DRIPLEAF_HAT(new ArmorItem(WHArmorMaterials.DRIPLEAF_HAT, EquipmentSlot.HEAD, settings())),
 
-    AZAELEA_CROWN(new ArmorItem(WHArmorMaterials.AZALEA_CROWN, EquipmentSlot.HEAD, settings())),
+    AZALEA_CROWN(new ArmorItem(WHArmorMaterials.AZALEA_CROWN, EquipmentSlot.HEAD, settings())),
 
     LILY_PAD_HAT(new ArmorItem(WHArmorMaterials.LILY_PAD_HAT, EquipmentSlot.HEAD, settings())),
 
@@ -74,39 +74,51 @@ public enum WHArmors implements ItemEnum {
     PLANK_BOOTS(new ArmorItem(WHArmorMaterials.PLANK, EquipmentSlot.FEET, settings())),
 
     // gold
+    GOLD_MASKED_HELMET(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.HEAD, settings())),
+    GOLD_BREASTPLATE(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.CHEST, settings())),
     GOLD_HAUBERK(new ArmorItem(WHArmorMaterials.GOLD_HAUBERK, EquipmentSlot.FEET, settings())),
     GOLD_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.FEET, settings())),
     GOLD_SANDALS(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.FEET, settings())),
 
     // iron
-    IRON_HAUBERK(new ArmorItem(WHArmorMaterials.IRON_HAUBERK, EquipmentSlot.FEET, settings())),
-    IRON_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.FEET, settings())),
+    IRON_MASKED_HELMET(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.HEAD, settings())),
+    IRON_BREASTPLATE(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.CHEST, settings())),
+    IRON_HAUBERK(new ArmorItem(WHArmorMaterials.IRON_HAUBERK, EquipmentSlot.LEGS, settings())),
+    IRON_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.LEGS, settings())),
     IRON_SANDALS(new ArmorItem(WHArmorMaterials.IRON_REINFORCED, EquipmentSlot.FEET, settings())),
 
     // brasium
     BRASIUM_HELMET(new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.HEAD, settings())),
+    BRASIUM_MASKED_HELMET(new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.HEAD, settings())),
     BRASIUM_CHESTPLATE(new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.CHEST, settings())),
+    BRASIUM_BREASTPLATE(new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.CHEST, settings())),
     BRASIUM_LEGGINGS(new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.LEGS, settings())),
-    BRASIUM_HAUBERK(new ArmorItem(WHArmorMaterials.BRASIUM_HAUBERK, EquipmentSlot.FEET, settings())),
-    BRASIUM_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.FEET, settings())),
+    BRASIUM_HAUBERK(new ArmorItem(WHArmorMaterials.BRASIUM_HAUBERK, EquipmentSlot.LEGS, settings())),
+    BRASIUM_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.LEGS, settings())),
     BRASIUM_BOOTS(new ArmorItem(WHArmorMaterials.BRASIUM, EquipmentSlot.FEET, settings())),
     BRASIUM_SANDALS(new ArmorItem(WHArmorMaterials.BRASIUM_REINFORCED, EquipmentSlot.FEET, settings())),
 
     // diamond
-    DIAMOND_HAUBERK(new ArmorItem(WHArmorMaterials.DIAMOND_HAUBERK, EquipmentSlot.FEET, settings())),
-    DIAMOND_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.FEET, settings())),
+    DIAMOND_MASKED_HELMET(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.HEAD, settings())),
+    DIAMOND_BREASTPLATE(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.CHEST, settings())),
+    DIAMOND_HAUBERK(new ArmorItem(WHArmorMaterials.DIAMOND_HAUBERK, EquipmentSlot.LEGS, settings())),
+    DIAMOND_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.LEGS, settings())),
     DIAMOND_SANDALS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.FEET, settings())),
 
     // echochalcum
     ECHOCHALCUM_HELMET(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.HEAD, settings())),
+    ECHOCHALCUM_MASKED_HELMET(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.HEAD, settings())),
     ECHOCHALCUM_CHESTPLATE(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.CHEST, settings())),
+    ECHOCHALCUM_BREASTPLATE(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.CHEST, settings())),
     ECHOCHALCUM_LEGGINGS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.LEGS, settings())),
-    ECHOCHALCUM_HAUBERK(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_HAUBERK, EquipmentSlot.FEET, settings())),
-    ECHOCHALCUM_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.FEET, settings())),
+    ECHOCHALCUM_HAUBERK(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_HAUBERK, EquipmentSlot.LEGS, settings())),
+    ECHOCHALCUM_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.LEGS, settings())),
     ECHOCHALCUM_BOOTS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.FEET, settings())),
     ECHOCHALCUM_SANDALS(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.FEET, settings())),
 
     // netherite
+    NETHERITE_MASKED_HELMET(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.HEAD, settings())),
+    NETHERITE_BREASTPLATE(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.CHEST, settings())),
     NETHERITE_HAUBERK(new ArmorItem(WHArmorMaterials.NETHERITE_HAUBERK, EquipmentSlot.FEET, settings())),
     NETHERITE_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.FEET, settings())),
     NETHERITE_SANDALS(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.FEET, settings()));

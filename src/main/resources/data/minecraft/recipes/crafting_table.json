@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "wilder_horizons:plank"
+      "tag": "c:plank_items"
     },
     "V": {
       "tag": "c:crafting_table_key_ingredients"

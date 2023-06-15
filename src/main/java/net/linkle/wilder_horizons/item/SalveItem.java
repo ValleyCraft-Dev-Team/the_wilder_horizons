@@ -11,7 +11,7 @@ import net.minecraft.util.UseAction;
 public class SalveItem extends FoodItem {
     public SalveItem(Settings settings, int hunger, float satMod, boolean isMeat, StatusEffect effect) {
         super(settings, hunger, satMod, isMeat, new FoodStatusEffect(new StatusEffectInstance(effect, 11 * 20, 0,
-                true, false))); // 30 seconds
+                true, false)));
     }
 
     @Override

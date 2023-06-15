@@ -18,10 +18,10 @@ public class Main implements ModInitializer {
         WHMiscItems.registerItems();
         WHFoodIngredients.initialize();
         WHFoods.initialize();
+        WHMedicines.registerItems();
         WHFoodsSpecial.initialize();
         WHTools.initialize();
         WHArmors.initialize();
-        WHMedicines.registerItems();
         WHNature.initialize();
         WHBlocks.initialize();
     }
