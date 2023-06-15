@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wilder_horizons:stripped_mamon_log"
+      "item": "wilder_horizons:stripped_gold_leaf_maple_log"
     },
     {
       "item": "minecraft:iron_ingot"

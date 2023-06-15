@@ -1122,8 +1122,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     // ### Enum Codes ###
     
     public final Block block;
-    
-    @Nullable
+
     public final Item item;
     
     public final Identifier id;
@@ -1131,7 +1130,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     /** Register the block without the item. */
     WHBlocks(Block block) {
         this.block = block;
-        this.item = null;
+        this.item = Items.AIR;
         Registry.register(Registry.BLOCK, id = id(), block);
     }
     
@@ -1155,7 +1154,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     
     @Override
     public Item asItem() {
-        return item == null ? Items.AIR : item;
+        return item;
     }
 
     @Override

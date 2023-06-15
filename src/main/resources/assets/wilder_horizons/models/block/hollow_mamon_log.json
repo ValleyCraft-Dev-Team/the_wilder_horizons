@@ -1,8 +1,0 @@
-{
-  "parent": "wilder_horizons:block/hollow_log",
-  "textures": {
-    "log_top": "wilder_horizons:block/mamon_log_top",
-    "log": "wilder_horizons:block/mamon_log_side",
-    "stripped_log": "wilder_horizons:block/mamon_stripped_log_side"
-  }
-}

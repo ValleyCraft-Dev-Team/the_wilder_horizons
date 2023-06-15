@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate_wall",
+  "textures": {
+    "texture": "wilder_horizons:block/gold_leaf_maple_planks"
+  }
+}

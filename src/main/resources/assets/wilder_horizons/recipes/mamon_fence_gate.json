@@ -9,11 +9,11 @@
       "item": "minecraft:stick"
     },
     "#":{
-       "item":"wilder_horizons:mamon_planks"
+       "item":"wilder_horizons:gold_leaf_maple_planks"
     }
   },
   "result": {
-    "item": "wilder_horizons:mamon_fence_gate",
+    "item": "wilder_horizons:gold_leaf_maple_fence_gate",
     "count": 1
   }
 }
