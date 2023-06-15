@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "wilder_horizons:block/dripstone_mosaic",
+    "side": "wilder_horizons:block/dripstone_mosaic",
+    "top": "wilder_horizons:block/dripstone_mosaic"
+  }
+}

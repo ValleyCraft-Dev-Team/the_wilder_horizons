@@ -156,11 +156,11 @@ public enum WHTools implements ItemEnum, ToolConstants {
 
     @Override
     public Identifier getId() {
-        return null;
+        return id;
     }
 
     @Override
     public Item asItem() {
-        return null;
+        return item;
     }
 }

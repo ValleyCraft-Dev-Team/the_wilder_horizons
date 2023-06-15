@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "wilder_horizons:block/miner_station_bottom",
+    "east": "wilder_horizons:block/miner_station_side_2",
+    "north": "wilder_horizons:block/miner_station_side_1",
+    "particle": "wilder_horizons:block/miner_station_side_1",
+    "south": "wilder_horizons:block/miner_station_side_2",
+    "up": "wilder_horizons:block/miner_station_top",
+    "west": "wilder_horizons:block/miner_station_side_1"
+  }
+}

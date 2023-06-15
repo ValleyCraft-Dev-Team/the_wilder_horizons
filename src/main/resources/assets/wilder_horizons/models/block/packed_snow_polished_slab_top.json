@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "wilder_horizons:block/packed_snow_polished",
+    "side": "wilder_horizons:block/packed_snow_polished",
+    "top": "wilder_horizons:block/packed_snow_polished"
+  }
+}

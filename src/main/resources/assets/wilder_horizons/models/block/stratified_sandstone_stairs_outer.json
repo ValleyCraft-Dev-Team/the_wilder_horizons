@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "wilder_horizons:block/stratified_sandstone_top",
+    "side": "wilder_horizons:block/stratified_sandstone_side",
+    "top": "wilder_horizons:block/stratified_sandstone_top"
+  }
+}

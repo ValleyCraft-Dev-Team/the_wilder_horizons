@@ -1,0 +1,9 @@
+{
+	"parent": "wilder_horizons:block/slice0",
+	"textures": {
+		"bottom": "wilder_horizons:block/chocolate_cake_top",
+		"particle": "wilder_horizons:block/chocolate_cake_top",
+		"top": "wilder_horizons:block/chocolate_cake_top",
+		"side": "wilder_horizons:block/chocolate_cake_side"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+	"lit=true": {
+	  "model": "wilder_horizons:block/brazier_soul"
+	},
+	"lit=false": {
+	  "model": "wilder_horizons:block/brazier_soul_off"
+	}
+  }
+}

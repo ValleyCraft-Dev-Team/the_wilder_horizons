@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/mosaic_brick_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/mosaic_brick"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/mosaic_brick_slab_top"
+    }
+  }
+}

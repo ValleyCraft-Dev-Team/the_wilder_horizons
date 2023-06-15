@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/apple_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/apple_planks"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/apple_slab_top"
+    }
+  }
+}

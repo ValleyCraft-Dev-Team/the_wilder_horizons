@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wilder_horizons:item/diving_gear/diving_suit_2"
+  }
+}

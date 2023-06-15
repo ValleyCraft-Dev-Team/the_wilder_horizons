@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wilder_horizons:block/polished_salt_block",
+    "side": "wilder_horizons:block/polished_salt_block",
+    "top": "wilder_horizons:block/polished_salt_block"
+  }
+}

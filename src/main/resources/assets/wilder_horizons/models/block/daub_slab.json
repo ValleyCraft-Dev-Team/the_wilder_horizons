@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "wilder_horizons:block/block_daub",
+    "side": "wilder_horizons:block/block_daub",
+    "top": "wilder_horizons:block/block_daub"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/polished_basalt_patterned_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/polished_basalt_patterned"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/polished_basalt_patterned_slab_top"
+    }
+  }
+}

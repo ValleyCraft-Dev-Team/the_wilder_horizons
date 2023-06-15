@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "wilder_horizons:block/starfish"
+      },
+      {
+        "model": "wilder_horizons:block/starfish",
+        "y": 90
+      },
+      {
+        "model": "wilder_horizons:block/starfish",
+        "y": 180
+      },
+      {
+        "model": "wilder_horizons:block/starfish",
+        "y": 270
+      }
+    ]
+  }
+}

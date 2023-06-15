@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:makeshift_knife",
+
+    "wilder_horizons:knife_wooden",
+    "wilder_horizons:knife_bone",
+    "wilder_horizons:knife_golden",
+    "wilder_horizons:knife_stone",
+    "wilder_horizons:knife_iron",
+    "wilder_horizons:knife_rosegold",
+    "wilder_horizons:knife_diamond",
+    "wilder_horizons:knife_netherite",
+    "wilder_horizons:knife_echochalcum"
+  ]
+}

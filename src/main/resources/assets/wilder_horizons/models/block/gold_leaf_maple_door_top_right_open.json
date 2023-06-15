@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "wilder_horizons:block/gold_leaf_maple_door_bottom",
+    "top": "wilder_horizons:block/gold_leaf_maple_door_top"
+  }
+}

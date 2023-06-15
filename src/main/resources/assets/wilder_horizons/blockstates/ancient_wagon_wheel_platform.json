@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wilder_horizons:block/ancient_wagon_wheel_platform"
+    },
+    "facing=south": {
+      "model": "wilder_horizons:block/ancient_wagon_wheel_platform_south"
+    },
+    "facing=east": {
+      "model": "wilder_horizons:block/ancient_wagon_wheel_platform_east"
+    },
+    "facing=west": {
+      "model": "wilder_horizons:block/ancient_wagon_wheel_platform_west"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/ /",
+    " / ",
+    "/ /"
+  ],
+  "key": {
+    "/": {
+      "item": "wilder_horizons:gold_leaf_maple_planks"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:amberblossom_lattice",
+    "count": 16
+  }
+}

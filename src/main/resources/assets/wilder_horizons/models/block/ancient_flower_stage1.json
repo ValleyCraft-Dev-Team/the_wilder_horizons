@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:block/crop_cross",
+  "textures": {
+    "cross": "wilder_horizons:block/ancient_flower_stage1"
+  }
+}

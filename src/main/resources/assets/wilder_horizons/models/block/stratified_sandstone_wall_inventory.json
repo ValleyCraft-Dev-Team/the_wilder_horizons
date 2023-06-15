@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "wilder_horizons:block/stratified_sandstone_side"
+  }
+}

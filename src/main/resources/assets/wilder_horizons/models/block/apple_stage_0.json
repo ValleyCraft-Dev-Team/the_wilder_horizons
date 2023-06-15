@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "wilder_horizons:block/apple_stage_0"
+  }
+}

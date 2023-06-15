@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "wilder_horizons:block/birch_stage_1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:item/jungles_blessing",
+  "textures": {
+    "layer0": "wilder_horizons:item/special/jungles_blessing_broken"
+  }
+}

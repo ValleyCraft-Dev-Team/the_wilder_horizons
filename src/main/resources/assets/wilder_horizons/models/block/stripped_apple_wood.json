@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "wilder_horizons:block/apple_stripped_log_side",
+    "side": "wilder_horizons:block/apple_stripped_log_side"
+  }
+}

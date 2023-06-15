@@ -1,0 +1,8 @@
+{
+	"parent": "wilder_horizons:block/small_candelabra",
+	"textures": {
+		"candle": "block/candle_lit",
+		"base": "block/copper_block",
+		"particle": "#base"
+	}
+}

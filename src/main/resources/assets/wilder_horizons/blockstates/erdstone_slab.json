@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/erdstone_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/erdstone"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/erdstone_slab_top"
+    }
+  }
+}

@@ -4,7 +4,6 @@
     "wilder_horizons:snowflower",
     "wilder_horizons:black_dahlia",
     "wilder_horizons:fluffy_dandelion",
-    "wilder_horizons:panflowers",
     "wilder_horizons:honeycluster",
     "wilder_horizons:lavender",
     "wilder_horizons:orange_beauty",
@@ -13,9 +12,6 @@
     "wilder_horizons:light_blue_tulip",
     "wilder_horizons:black_tulip",
     "wilder_horizons:knapweed",
-    "wilder_horizons:red_lupine",
-    "wilder_horizons:pink_lupine",
-    "wilder_horizons:yellow_lupine",
     "wilder_horizons:orange_poppy",
     "wilder_horizons:yellow_poppy",
     "wilder_horizons:white_poppy",
@@ -40,8 +36,6 @@
     "wilder_horizons:wild_herbs",
     "wilder_horizons:wild_puff_ball",
     "wilder_horizons:jungle_bush",
-    "wilder_horizons:lily_of_the_mountains",
-    "wilder_horizons:goddess_lily",
-    "wilder_horizons:poison_blossom"
+    "wilder_horizons:lily_of_the_mountains"
   ]
 }

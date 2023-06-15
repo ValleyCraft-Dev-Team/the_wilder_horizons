@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "knot=true": {
+      "model": "wilder_horizons:block/climbable_rope_knot"
+    },
+    "knot=false": {
+      "model": "wilder_horizons:block/climbable_rope"
+    }
+  }
+}

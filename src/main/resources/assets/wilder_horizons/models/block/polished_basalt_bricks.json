@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "wilder_horizons:block/polished_basalt_bricks"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "wilder_horizons:block/red_flowering_lilypad"
+      },
+      {
+        "model": "wilder_horizons:block/red_flowering_lilypad",
+        "y": 90
+      },
+      {
+        "model": "wilder_horizons:block/red_flowering_lilypad",
+        "y": 180
+      },
+      {
+        "model": "wilder_horizons:block/red_flowering_lilypad",
+        "y": 270
+      }
+    ]
+  }
+}

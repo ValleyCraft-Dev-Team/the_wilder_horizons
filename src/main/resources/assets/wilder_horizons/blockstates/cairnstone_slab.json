@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/cairnstone_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/cairnstone"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/cairnstone_slab_top"
+    }
+  }
+}

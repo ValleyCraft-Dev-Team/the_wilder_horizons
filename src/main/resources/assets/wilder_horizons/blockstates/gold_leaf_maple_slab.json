@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/gold_leaf_maple_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/gold_leaf_maple_planks"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/gold_leaf_maple_slab_top"
+    }
+  }
+}

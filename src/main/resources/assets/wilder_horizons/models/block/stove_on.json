@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "wilder_horizons:block/cobble_stove_top_on",
+    "bottom": "wilder_horizons:block/cobble_stove_side",
+    "side": "wilder_horizons:block/cobble_stove_side",
+    "front": "wilder_horizons:block/cobble_stove_front"
+  }
+}

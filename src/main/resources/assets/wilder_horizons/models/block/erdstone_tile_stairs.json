@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wilder_horizons:block/erdstone_tiles",
+    "side": "wilder_horizons:block/erdstone_tiles",
+    "top": "wilder_horizons:block/erdstone_tiles"
+  }
+}

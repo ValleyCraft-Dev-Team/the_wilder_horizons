@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/packed_snow_bricks_small_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/packed_snow_bricks_small"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/packed_snow_bricks_small_slab_top"
+    }
+  }
+}

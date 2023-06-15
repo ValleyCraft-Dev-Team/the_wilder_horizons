@@ -1,0 +1,8 @@
+{
+  "parent": "wilder_horizons:block/hollow_log_horizontal",
+  "textures": {
+    "log_top": "wilder_horizons:block/gold_leaf_maple_log_top",
+    "log": "wilder_horizons:block/gold_leaf_maple_log_side",
+    "stripped_log": "wilder_horizons:block/gold_leaf_maple_stripped_log_side"
+  }
+}

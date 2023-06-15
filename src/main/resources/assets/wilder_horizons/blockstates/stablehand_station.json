@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wilder_horizons:block/stablehand_station",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wilder_horizons:block/stablehand_station"
+    },
+    "facing=south": {
+      "model": "wilder_horizons:block/stablehand_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wilder_horizons:block/stablehand_station",
+      "y": 270
+    }
+  }
+}

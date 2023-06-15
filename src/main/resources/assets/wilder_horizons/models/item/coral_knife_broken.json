@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:item/coral_knife_guardian",
+  "textures": {
+    "layer0": "wilder_horizons:item/diving_gear/coral_knife_broken"
+  }
+}

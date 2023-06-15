@@ -168,44 +168,6 @@
         ]
       }
     },
-    "dagger": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "wilder_horizons:dagger_wooden",
-              "wilder_horizons:dagger_stone",
-              "wilder_horizons:dagger_golden",
-              "wilder_horizons:dagger_primsteel",
-              "wilder_horizons:dagger_iron",
-              "wilder_horizons:dagger_rosegold",
-              "wilder_horizons:dagger_diamond",
-              "wilder_horizons:dagger_netherite"
-            ]
-          }
-        ]
-      }
-    },
-    "greatsword": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "wilder_horizons:wooden_greatsword",
-              "wilder_horizons:stone_greatsword",
-              "wilder_horizons:golden_greatsword",
-              "wilder_horizons:primsteel_greatsword",
-              "wilder_horizons:iron_greatsword",
-              "wilder_horizons:rosegold_greatsword",
-              "wilder_horizons:diamond_greatsword",
-              "wilder_horizons:netherite_greatsword"
-            ]
-          }
-        ]
-      }
-    },
     "pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -265,13 +227,7 @@
       "hatchet"
     ],
     [
-      "greatsword"
-    ],
-    [
       "travelers_sword"
-    ],
-    [
-      "dagger"
     ],
     [
       "scythe"

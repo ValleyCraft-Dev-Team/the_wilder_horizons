@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wilder_horizons:item/food/cooked_items/cooked_stonetosser_minnow"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wilder_horizons:item/tools/travelers_swords/primsteel_travelers_sword"
+  }
+}

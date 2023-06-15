@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "y": 0,
+      "model": "wilder_horizons:block/geitlin_skull"
+    },
+    "facing=south": {
+      "y": 180,
+      "model": "wilder_horizons:block/geitlin_skull"
+    },
+    "facing=east": {
+      "y": 90,
+      "model": "wilder_horizons:block/geitlin_skull"
+    },
+    "facing=west": {
+      "y": 270,
+      "model": "wilder_horizons:block/geitlin_skull"
+    }
+  }
+}

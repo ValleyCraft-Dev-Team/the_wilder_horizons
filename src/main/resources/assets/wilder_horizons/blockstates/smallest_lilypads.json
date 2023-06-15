@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "wilder_horizons:block/smallest_lilypads"
+      },
+      {
+        "model": "wilder_horizons:block/smallest_lilypads",
+        "y": 90
+      },
+      {
+        "model": "wilder_horizons:block/smallest_lilypads",
+        "y": 180
+      },
+      {
+        "model": "wilder_horizons:block/smallest_lilypads",
+        "y": 270
+      }
+    ]
+  }
+}

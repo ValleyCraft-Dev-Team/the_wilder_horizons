@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:block/template_lilypad",
+  "textures": {
+    "texture": "wilder_horizons:block/small_lilypad"
+  }
+}

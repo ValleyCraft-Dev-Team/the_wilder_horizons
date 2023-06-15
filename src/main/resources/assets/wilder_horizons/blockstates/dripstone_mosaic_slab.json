@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/dripstone_mosaic_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/dripstone_mosaic"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/dripstone_mosaic_slab_top"
+    }
+  }
+}

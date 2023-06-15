@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"bottom": "wilder_horizons:block/sandstone_pot_bottom",
+		"side": "wilder_horizons:block/sandstone_pot_side",
+		"top": "wilder_horizons:block/sandstone_pot_top"
+	}
+}

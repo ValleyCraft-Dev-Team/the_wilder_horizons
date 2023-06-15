@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable_vertical",
+  "textures": {
+    "top": "wilder_horizons:block/polished_erdstone",
+    "front": "wilder_horizons:block/erdstone_dispenser",
+    "side": "wilder_horizons:block/polished_erdstone"
+  }
+}

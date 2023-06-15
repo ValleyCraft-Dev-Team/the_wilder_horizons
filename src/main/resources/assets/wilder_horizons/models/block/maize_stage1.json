@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:block/maize",
+  "textures": {
+    "texture": "wilder_horizons:block/maize_stage_1"
+  }
+}

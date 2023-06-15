@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:block/crop_cross",
+  "textures": {
+    "cross": "wilder_horizons:block/puff_ball_stage3"
+  }
+}

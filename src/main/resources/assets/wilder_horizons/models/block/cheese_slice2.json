@@ -1,0 +1,10 @@
+{
+	"parent": "wilder_horizons:block/slice2",
+	"textures": {
+		"bottom": "wilder_horizons:block/cheese_bottom",
+		"particle": "wilder_horizons:block/cheese_bottom",
+		"top": "wilder_horizons:block/cheese_top",
+		"side": "wilder_horizons:block/cheese_side",
+		"inside": "wilder_horizons:block/cheese_side"
+	}
+}

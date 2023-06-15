@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:block/template_wall_plane",
+  "textures": {
+    "texture": "wilder_horizons:block/cave_moss"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilder_horizons:block/serpentinite_smooth_slab"
+    },
+    "type=double": {
+      "model": "wilder_horizons:block/serpentinite_smooth"
+    },
+    "type=top": {
+      "model": "wilder_horizons:block/serpentinite_smooth_slab_top"
+    }
+  }
+}

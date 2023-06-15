@@ -1,0 +1,8 @@
+{
+  "parent": "wilder_horizons:block/hollow_log_horizontal",
+  "textures": {
+    "log_top": "minecraft:block/spruce_log_top",
+    "log": "minecraft:block/spruce_log",
+    "stripped_log": "minecraft:block/stripped_spruce_log"
+  }
+}

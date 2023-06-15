@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "wilder_horizons:block/polished_basalt",
+    "side": "wilder_horizons:block/polished_basalt",
+    "top": "wilder_horizons:block/polished_basalt"
+  }
+}

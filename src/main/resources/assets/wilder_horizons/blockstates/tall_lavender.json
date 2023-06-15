@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "wilder_horizons:block/tall_lavender_bottom"
+    },
+    "half=upper": {
+      "model": "wilder_horizons:block/tall_lavender_top"
+    }
+  }
+}

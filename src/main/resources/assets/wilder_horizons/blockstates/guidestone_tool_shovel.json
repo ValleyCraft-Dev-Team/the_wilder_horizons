@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wilder_horizons:block/guidestone_tool_shovel",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wilder_horizons:block/guidestone_tool_shovel"
+    },
+    "facing=south": {
+      "model": "wilder_horizons:block/guidestone_tool_shovel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wilder_horizons:block/guidestone_tool_shovel",
+      "y": 270
+    }
+  }
+}

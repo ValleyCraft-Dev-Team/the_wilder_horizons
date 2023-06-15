@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "wilder_horizons:block/gold_leaf_maple_planks"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "wilder_horizons:block/staminella_stage0"
+    },
+    "age=1": {
+      "model": "wilder_horizons:block/staminella_stage1"
+    },
+    "age=2": {
+      "model": "wilder_horizons:block/staminella_stage1"
+    },
+    "age=3": {
+      "model": "wilder_horizons:block/staminella_stage2"
+    }
+  }
+}

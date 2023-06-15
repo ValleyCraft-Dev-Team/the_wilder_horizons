@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "wilder_horizons:block/tall_oxeye_daisy_bottom"
+    },
+    "half=upper": {
+      "model": "wilder_horizons:block/tall_oxeye_daisy_top"
+    }
+  }
+}

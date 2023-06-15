@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "level=1": {
+      "model": "wilder_horizons:block/rain_collector_1"
+    },
+    "level=2": {
+      "model": "wilder_horizons:block/rain_collector_2"
+    },
+    "level=3": {
+      "model": "wilder_horizons:block/rain_collector_full"
+    }
+  }
+}
