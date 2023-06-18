@@ -35,6 +35,8 @@ public enum WHArmors implements ItemEnum {
     CHEF_APRON(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.LEGS, settings())),
 
     //wraith
+    RIBCAGE(new ArmorItem(WHArmorMaterials.RIBCAGE, EquipmentSlot.CHEST, settings())),
+    WITHER_RIBCAGE(new ArmorItem(WHArmorMaterials.WITHER_RIBCAGE, EquipmentSlot.CHEST, settings())),
     WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, settings())),
     WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, settings())),
 
@@ -42,6 +44,7 @@ public enum WHArmors implements ItemEnum {
     HOOD(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, settings())),
     CLOAK(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.CHEST, settings())),
     TUNIC(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_TUNIC, EquipmentSlot.LEGS, settings())),
+    BELT(new ArmorItem(WHArmorMaterials.BELT, EquipmentSlot.CHEST, settings())),
 
     NEUTRAL_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_NEUTRAL, EquipmentSlot.LEGS, settings())),
     FEMME_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_FEMME, EquipmentSlot.LEGS, settings())),

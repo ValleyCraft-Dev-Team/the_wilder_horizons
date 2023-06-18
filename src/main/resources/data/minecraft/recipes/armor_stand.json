@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "/": {
+      "tag": "c:dowel_items"
+    },
+    "_": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "X": {
+      "tag": "c:rope_items"
+    }
+  },
+  "pattern": [
+    "///",
+    "X/X",
+    "/_/"
+  ],
+  "result": {
+    "item": "minecraft:armor_stand"
+  }
+}

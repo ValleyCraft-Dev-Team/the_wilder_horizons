@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:stablehand_station",
-    "wilder_horizons:keg"
+    "wilder_horizons:stablehand",
+    "wilder_horizons:innkeeper"
   ]
 }

@@ -1,20 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#V#",
     "###",
-    "#V#"
+    "XVX",
+    "i i"
   ],
   "key": {
     "#": {
       "tag": "c:leathers"
     },
     "V": {
+      "item": "wilder_horizons:cloth"
+    },
+    "X": {
       "item": "wilder_horizons:treated_leather_strap"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
-    "item": "minecraft:leather_horse_armor",
+    "item": "minecraft:saddle",
     "count": 1
   }
 }

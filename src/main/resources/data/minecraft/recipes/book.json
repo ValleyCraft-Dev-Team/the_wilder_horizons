@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:leather_alternatives"
+      "tag": "c:leathers"
     },
     {
       "item": "minecraft:paper"
@@ -26,7 +26,7 @@
       "item": "minecraft:paper"
     },
     {
-      "tag": "c:leather_alternatives"
+      "tag": "c:leathers"
     }
   ],
   "result": {

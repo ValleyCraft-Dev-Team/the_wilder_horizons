@@ -20,6 +20,9 @@ public enum WHArmorMaterials implements ArmorMaterial {
     SHROOMLEATHER_TUNIC("shroomleather_tunic", 10, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SHROOMLEATHER});
     }),
+    BELT("belt", 10, new int[]{2, 2, 2, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.TREATED_LEATHER_STRAP});
+    }),
     WRAITH_CLOAK("wraith_cloak", 10, new int[]{2, 3, 4, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.PHANTOM_MEMBRANE});
     }),
@@ -91,6 +94,12 @@ public enum WHArmorMaterials implements ArmorMaterial {
     }),
     PLANK("plank", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.PLANK_ITEM});
+    }),
+    RIBCAGE("ribcage", 5, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.3F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SMALL_BONE});
+    }),
+    WITHER_RIBCAGE("wither_ribcage", 5, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.3F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SMALL_WITHER_BONE});
     }),
     ECHOCHALCUM("sculkerite", 37, new int[]{3, 6, 8, 3}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 3.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM});

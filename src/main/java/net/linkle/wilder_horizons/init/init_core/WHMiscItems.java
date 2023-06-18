@@ -75,6 +75,7 @@ public enum WHMiscItems implements ItemEnum {
     ELDER_GUARDIAN_SPIKE(new AlphaModItem(settings())),
     PIG_HIDE(new AlphaModItem(settings())),
     SHEEPSKIN(new AlphaModItem(settings())),
+    ROTTEN_LEATHER(new AlphaModItem(settings())),
 
     CLAY_JAR(new ClayJarItemEmpty(settings().maxCount(8))),
     WATER_FILLED_CLAY_JAR(new ClayJarItemWater(settings().maxCount(8), 0,0)),
