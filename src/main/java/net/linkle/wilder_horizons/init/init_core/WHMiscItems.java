@@ -18,6 +18,7 @@ import static net.linkle.wilder_horizons.init.init_core.WHTools.GEM_CUTTING_TOOL
 
 public enum WHMiscItems implements ItemEnum {
 
+    ROPE(new RopeItem(settings().group(WHGroups.WH_BLOCKS))),
     OAK_SEED(new AliasedBlockItem(WHNature.OAK_SEED.block, settings().group(WHGroups.WH_NATURE))),
     APPLE_SEED(new AliasedBlockItem(WHNature.OAK_SEED.block, settings().group(WHGroups.WH_NATURE))),
     DARK_OAK_SEED(new AliasedBlockItem(WHNature.OAK_SEED.block, settings().group(WHGroups.WH_NATURE))),
@@ -101,6 +102,7 @@ public enum WHMiscItems implements ItemEnum {
     COPPER_SCRAP(new AlphaModItem(settings())),
     GOLD_SCRAP(new AlphaModItem(settings())),
     IRON_SCRAP(new AlphaModItem(settings())),
+    BRASIUM_INGOT(new AlphaModItem(settings())),
     BRASIUM_NUGGET(new AlphaModItem(settings())),
     BRASIUM_SCRAP(new AlphaModItem(settings())),
     //ROSEGOLD_ALLOY = registerItem("rosegold_alloy",
@@ -108,6 +110,7 @@ public enum WHMiscItems implements ItemEnum {
     BRASIUM_ALLOY(new AlphaModItem(settings())),
     ROUGH_EMERALD(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     ROUGH_DIAMOND(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
+    DIAMOND_FRAGMENTS(new AlphaModItem(settings())),
     ECHOCHALCUM(new AlphaModItem(settings())),
     RAW_NETHERITE_NUGGET(new AlphaModItem(settings())),
 
