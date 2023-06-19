@@ -52,6 +52,8 @@ public enum WHMiscItems implements ItemEnum {
     HANDLE(new AlphaModItem(settings())),
     REINFORCED_HANDLE(new AlphaModItem(settings())),
     SPECIALIZED_HANDLE(new AlphaModItem(settings())),
+    CRAFTING_TOOLS(new AlphaModItem(settings())),
+    SMITHING_TOOLS(new AlphaModItem(settings())),
 
     DAUB(new AlphaModItem(settings())),
 
