@@ -134,11 +134,11 @@ public enum WHTools implements ItemEnum, ToolConstants {
     ECHOCHALCUM_HOE(new ModHoeItem(WHToolMaterials.ECHOCHALCUM, HOE_BASE_DAMAGE, HOE_BASE_SPEED, BASIC_SETTINGS)),
 
     // Rusty
-    RUSTY_SWORD(new RustySwordItem(new RustyMaterial(),4, -2.4f)),
-    RUSTY_PICKAXE(new RustyPickaxeItem(new RustyMaterial(),2, -2.8f)),
-    RUSTY_AXE(new RustyAxeItem(new RustyMaterial(),7, -3.0f)),
-    RUSTY_HOE(new RustyHoeItem(new RustyMaterial(),0, -1.0f)),
-    RUSTY_SHOVEL(new RustyShovelItem(new RustyMaterial(),2, -3.0f));
+    RUSTED_SWORD(new RustySwordItem(new RustyMaterial(),4, -2.4f)),
+    RUSTED_PICKAXE(new RustyPickaxeItem(new RustyMaterial(),2, -2.8f)),
+    RUSTED_AXE(new RustyAxeItem(new RustyMaterial(),7, -3.0f)),
+    RUSTED_HOE(new RustyHoeItem(new RustyMaterial(),0, -1.0f)),
+    RUSTED_SHOVEL(new RustyShovelItem(new RustyMaterial(),2, -3.0f));
 
     public static void initialize() {
         ModelPredicateProviderRegistry.register(CORAL_KNIFE_GUARDIAN.item, new Identifier("broken"), (stack, world, entity, seed) -> PreventDestroy.isUsable(stack) ? 0.0f : 1.0f);
