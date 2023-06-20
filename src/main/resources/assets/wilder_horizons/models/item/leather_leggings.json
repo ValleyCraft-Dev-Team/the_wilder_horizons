@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/armor_items/leather_leggings_no_overlay"
+    "layer0": "wilder_horizons:item/armor/leather_leggings_no_overlay"
   }
 }

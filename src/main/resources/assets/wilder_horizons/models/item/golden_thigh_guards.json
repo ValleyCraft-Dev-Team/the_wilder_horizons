@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/armor_items/golden_thigh_guards"
+    "layer0": "wilder_horizons:item/armor/golden_thigh_guards"
   }
 }

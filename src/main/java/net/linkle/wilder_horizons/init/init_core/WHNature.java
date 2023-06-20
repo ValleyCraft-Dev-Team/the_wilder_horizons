@@ -33,6 +33,9 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public enum WHNature implements ItemEnum, BlockEnum {
+
+    PURPLE_MUSHROOM_BLOCK(new MushroomBlock(Block.Settings.copy(Blocks.RED_MUSHROOM_BLOCK).mapColor(MapColor.PURPLE)), itemSettings()),
+
     CHOCOLATE_CAKE(new ModCakeBlock(Block.Settings.copy(Blocks.CAKE)), foodBlockSettings()),
     CHEESE(new ModCakeBlock(Block.Settings.copy(Blocks.CAKE)), foodBlockSettings()),
 

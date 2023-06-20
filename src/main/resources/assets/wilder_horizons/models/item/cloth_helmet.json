@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/armor_items/cloth_hood",
+    "layer0": "wilder_horizons:item/armor/cloth_hood",
     "layer1": "item/cloth_hood_overlay"
   }
 }

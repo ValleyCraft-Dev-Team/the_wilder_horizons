@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/armor_items/treated_leather_hauberk"
+    "layer0": "wilder_horizons:item/armor/treated_leather_hauberk"
   }
 }

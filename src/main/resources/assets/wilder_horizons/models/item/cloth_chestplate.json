@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/armor_items/cloth_chestplate",
+    "layer0": "wilder_horizons:item/armor/cloth_chestplate",
     "layer1": "item/null_overlay"
   }
 }

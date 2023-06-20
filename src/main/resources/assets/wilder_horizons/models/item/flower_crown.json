@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/armor_items/flower_crown"
+    "layer0": "wilder_horizons:item/armor/flower_crown"
   }
 }

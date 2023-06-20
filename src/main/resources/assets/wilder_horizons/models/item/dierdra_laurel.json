@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "wilder_horizons:item/armor_items/dierdra_laurel"
+    "layer0": "wilder_horizons:item/armor/dierdra_laurel"
   }
 }

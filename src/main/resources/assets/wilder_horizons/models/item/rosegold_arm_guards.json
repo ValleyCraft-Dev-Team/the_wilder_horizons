@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/armor_items/rosegold_arm_guards"
+    "layer0": "wilder_horizons:item/armor/rosegold_arm_guards"
   }
 }
