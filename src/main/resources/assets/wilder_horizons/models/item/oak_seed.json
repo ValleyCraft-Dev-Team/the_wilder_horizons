@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/tree_seeds/oak_seed"
+    "layer0": "wilder_horizons:item/seeds/oak_seed"
   }
 }

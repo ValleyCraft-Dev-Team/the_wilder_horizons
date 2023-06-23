@@ -71,6 +71,9 @@ public enum WHToolMaterials implements ToolMaterial {
     OBSIDIAN(2, 440, 7.0F, 2.0F, 18, () -> {
         return Ingredient.ofItems(Blocks.OBSIDIAN);
     }),
+    DRAGON_TOOTH(3, 2342, 8.0F, 3.0F, 22, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.DRAGON_TOOTH});
+    }),
     WEAK_IRON(1, 131, 4.0F, 1.0F, 14, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     }),
@@ -85,6 +88,9 @@ public enum WHToolMaterials implements ToolMaterial {
     }),
     STONE_EXTENDED(1, 197, 4.0F, 1.0F, 5, () -> {
         return Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS);
+    }),
+    BLAZE(1, 197, 4.0F, 2.5F, 5, () -> {
+        return Ingredient.ofItems(Items.BLAZE_ROD);
     }),
     IRON_EXTENDED(2, 375, 6.0F, 2.0F, 14, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});

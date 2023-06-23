@@ -44,6 +44,8 @@ public enum WHMiscItems implements ItemEnum {
     PLANT_FIBER_STRING(new AlphaModItem(settings())),
     PLANT_FIBER_CANVAS(new AlphaModItem(settings())),
     ARROW_FLETCHING(new AlphaModItem(settings())),
+    ARROW_BUNDLE(new AlphaModItem(settings())),
+    BOMB_BAG(new AlphaModItem(settings())),
 
     PUFF_BALL(new AlphaModItem(settings())),
     CLOTH(new AlphaModItem(settings())),
@@ -66,6 +68,7 @@ public enum WHMiscItems implements ItemEnum {
     WITHER_SKULL_SHARD(new AlphaModItem(settings())),
     JELLY_BLOB(new AlphaModItem(settings())),
     SLIME_SPORE(new AlphaModItem(settings())),
+    PINK_SLIME_BALL(new AlphaModItem(settings())),
     GLOW_BALL(new GlowBallItem(settings().group(WHGroups.WH_TOOLS))),
 
     OVER_SNAIL_SHELL(new AlphaModItem(settings())),
@@ -79,6 +82,7 @@ public enum WHMiscItems implements ItemEnum {
     PIG_HIDE(new AlphaModItem(settings())),
     SHEEPSKIN(new AlphaModItem(settings())),
     ROTTEN_LEATHER(new AlphaModItem(settings())),
+    SCARAB_BEETLE_CARAPACE(new AlphaModItem(settings())),
 
     CLAY_JAR(new ClayJarItemEmpty(settings().maxCount(8))),
     WATER_FILLED_CLAY_JAR(new ClayJarItemWater(settings().maxCount(8), 0,0)),
@@ -103,8 +107,10 @@ public enum WHMiscItems implements ItemEnum {
     GOLD_SCRAP(new AlphaModItem(settings())),
     IRON_SCRAP(new AlphaModItem(settings())),
     BRASIUM_INGOT(new AlphaModItem(settings())),
-    BRASIUM_NUGGET(new AlphaModItem(settings())),
     BRASIUM_SCRAP(new AlphaModItem(settings())),
+    BRASIUM_NUGGET(new AlphaModItem(settings())),
+    RAW_BRASIUM(new AlphaModItem(settings())),
+
     //ROSEGOLD_ALLOY = registerItem("rosegold_alloy",
     //        new AlphaModItem(settings())),
     BRASIUM_ALLOY(new AlphaModItem(settings())),
@@ -118,8 +124,7 @@ public enum WHMiscItems implements ItemEnum {
     SPOOL_OF_PLANT_FIBER_STRING(new AlphaModItem(settings())),
     SPOOL_OF_STRING(new AlphaModItem(settings())),
     SPOOL_OF_BOW_STRING(new AlphaModItem(settings())),
-    ARROW_BUNDLE(new AlphaModItem(settings())),
-    BOMB_BAG(new AlphaModItem(settings())),
+
     BOTTLE_OF_GHAST_TEARS(new AlphaModItem(settings())),
     BOTTLE_OF_LIVING_SLIME(new AlphaModItem(settings())),
     BOTTLE_OF_ALLAY(new AlphaModItem(settings())),

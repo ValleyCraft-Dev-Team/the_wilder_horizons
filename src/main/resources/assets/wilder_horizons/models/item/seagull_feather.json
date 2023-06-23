@@ -1,6 +1,10 @@
 {
   "parent": "item/generated",
   "textures": {
+<<<<<<< Updated upstream
     "layer0": "wilder_horizons:item/armor/seagull_feather"
+=======
+    "layer0": "wilder_horizons:item/misc/seagulls_feather"
+>>>>>>> Stashed changes
   }
 }

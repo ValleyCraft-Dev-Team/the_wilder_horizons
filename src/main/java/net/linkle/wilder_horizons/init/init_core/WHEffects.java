@@ -13,7 +13,6 @@ public enum WHEffects implements IdProvider {
 
     CLEANSED(new Cleansed()),
     ROT_BLIGHT(new RotBlight()),
-    BLOOD_LOSS(new BloodLoss()),
     SOUL_FADING(new SoulFading()),
     RADIANT_HEALING(new RadiantHealing());
 

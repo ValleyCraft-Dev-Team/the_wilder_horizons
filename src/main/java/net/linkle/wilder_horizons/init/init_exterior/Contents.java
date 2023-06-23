@@ -164,9 +164,7 @@ public class Contents {
 
         putCompost(WHFoods.BAKED_APPLE, levelVeryHigh);
         putCompost(WHFoods.BAKED_BEETROOT, levelVeryHigh);
-        putCompost(WHFoods.BAKED_HEARTY_BEETROOT, levelVeryHigh);
         putCompost(WHFoods.BAKED_CARROT, levelVeryHigh);
-        putCompost(WHFoods.BAKED_ENDURA_CARROT, levelVeryHigh);
         putCompost(WHFoods.BAKED_FIRE_PEPPER, levelVeryHigh);
         putCompost(WHFoods.BAKED_PUMPKIN_SLICE, levelVeryHigh);
         putCompost(WHFoods.BAKED_MELON_SLICE, levelVeryHigh);

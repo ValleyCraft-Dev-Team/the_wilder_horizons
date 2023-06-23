@@ -18,6 +18,7 @@ import net.linkle.wilder_horizons.entity.fish.*;
 import net.linkle.wilder_horizons.entity.projectiles.GlowBallEntity;
 import net.linkle.wilder_horizons.entity.projectiles.ThrownRockEntity;
 import net.linkle.wilder_horizons.entity.pupkins.PupkinEntity;
+import net.linkle.wilder_horizons.entity.slimes.TameableSlimeEntity;
 import net.linkle.wilder_horizons.entity.snails.CaveSnailEntity;
 import net.linkle.wilder_horizons.entity.snails.SnailEntity;
 import net.linkle.wilder_horizons.enums.EntityEnum;
@@ -43,6 +44,9 @@ import static net.linkle.wilder_horizons.enums.EntityEnum.*;
 public enum WHEntities implements EntityEnum {
     
     // Others
+    FRIENDLY_SLIME(createMob(SpawnGroup.CREATURE, TameableSlimeEntity::new).dimensions(new EntityDimensions(2.04F, 0.8F, false)).trackRangeChunks(6)
+            .spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, TameableSlimeEntity::canMobSpawn)),
+
     PUPKIN(createMob(SpawnGroup.CREATURE, PupkinEntity::new).dimensions(new EntityDimensions(0.6F, 0.8F, false)).trackRangeChunks(6)
             .spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, AnimalEntity::isValidNaturalSpawn)),
     
@@ -119,6 +123,8 @@ public enum WHEntities implements EntityEnum {
         registerAttribute(SARDINE, FishEntity.createFishAttributes());
         registerAttribute(RED_PORGY, FishEntity.createFishAttributes());
         registerAttribute(PERCH, FishEntity.createFishAttributes());
+        registerAttribute(FRIENDLY_SLIME, TameableSlimeEntity.createMobAttributes());
+
     }
 
     @Environment(EnvType.CLIENT)
@@ -130,7 +136,10 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(SNAIL, SnailEntityRenderer.create("snail"));
         registerRenderer(CAVE_SNAIL, SnailEntityRenderer.create("cave_snail"));
         //registerRenderer(SCULK_SNAIL, SnailEntityRenderer.create("sculk_snail"));
-        
+
+        /**Friendly Slime WIP**/
+        //registerRenderer(FRIENDLY_SLIME, TameableSlimeEntityRenderer.create("friendly_slime"));
+
         registerRenderer(PUPKIN, PupkinEntityRenderer::new);
         registerRenderer(DAIRY_COW, CowRenderer.create("dairy_cow"));
         registerRenderer(CHICKEN, ChickenVariantRenderer::new);
