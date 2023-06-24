@@ -179,6 +179,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     NAUTILUS_SHELL_BLOCK(new NautilusShellBlock(), itemSettings()),
 
+    PINK_SLIME_BLOCK(new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)), itemSettings()),
+
     //guidestones
     GUIDESTONE_BLANK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
 

@@ -43,7 +43,6 @@
   "item.wilder_horizons.femme_garments": "Soft Shroomleather Garments",
   "item.wilder_horizons.masc_garments": "Soft Shroomleather Garments",
 
-
   "item.wilder_horizons.hood": "Soft Shroomleather Hood",
   "item.wilder_horizons.cloak": "Soft Shroomleather Cloak",
   "item.wilder_horizons.sandals": "Soft Shroomleather Sandals",
@@ -52,6 +51,10 @@
   "item.wilder_horizons.dripleaf_hat": "Dripleaf Hat",
   "item.wilder_horizons.azalea_crown": "Azalea Flower Crown",
   "item.wilder_horizons.vine_crown": "Vine Laurel",
-  "item.wilder_horizons.grass_dress": "Grass Dress"
+  "item.wilder_horizons.grass_dress": "Grass Dress",
+
+  "block.wilder_horizons.warm_birch_sapling": "Elder Birch Sapling",
+  "block.wilder_horizons.warm_birch_leaves": "Elder Birch Leaves",
+  "block.wilder_horizons.warm_birch_seed": "Elder Birch Seed"
 
 }

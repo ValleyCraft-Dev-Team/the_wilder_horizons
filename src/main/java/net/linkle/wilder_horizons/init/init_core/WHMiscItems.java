@@ -91,6 +91,8 @@ public enum WHMiscItems implements ItemEnum {
     BEAST_CLAW(new AlphaModItem(settings())),
     BONEFIN_SKELETON(new AlphaModItem(settings())),
     LIFE_GEM(new AlphaModItem(settings())),
+    SOUL_GEM(new AlphaModItem(settings())),
+    //STRONG_SOUL_GEM(new AlphaModItem(settings())),
     LUCKY_HOOK(new AlphaModItem(settings().maxCount(1))),
 
     GEODE_CORE_CRACKED(new AlphaModItem(settings())),
