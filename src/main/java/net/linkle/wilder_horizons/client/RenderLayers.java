@@ -31,8 +31,13 @@ public class RenderLayers {
         put(WATTLE_TRAPDOOR, cullout);
         put(GLASS_DOOR, cullout);
         put(GLASS_TRAPDOOR, cullout);
+        put(SLIME_LANTERN, cullout);
+        put(LAVA_LANTERN, cullout);
+        put(PINK_SLIME_LANTERN, cullout);
+        put(GLOW_BERRY_LANTERN, cullout);
         put(TINTED_GLASS_DOOR, translucent);
         put(TINTED_GLASS_TRAPDOOR, translucent);
+        put(PINK_SLIME_BLOCK, translucent);
         //put(PRIMSTEEL_DOOR, cullout);
         //put(PRIMSTEEL_TRAPDOOR, cullout);
         put(SCULK_BLOSSOM, cullout);

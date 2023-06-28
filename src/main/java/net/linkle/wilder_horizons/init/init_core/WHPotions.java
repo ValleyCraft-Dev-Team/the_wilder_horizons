@@ -154,8 +154,8 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, Items.CHICKEN, NAUSEA_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.RABBIT, NAUSEA_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.MUTTON, NAUSEA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.ENDER_DRAGON_GLAND.item, DRAGONHEARTED.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.ENDER_DRAGON_EYE.item, DRAGONHEARTED.potion);
+        //registerRecipe(Potions.AWKWARD, WHFoodIngredients.ENDER_DRAGON_GLAND.item, DRAGONHEARTED.potion);
+        //registerRecipe(Potions.AWKWARD, WHFoodIngredients.ENDER_DRAGON_EYE.item, DRAGONHEARTED.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.PURPLE_MUSHROOM_OIL.item, SLOWNESS_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.PUMPKIN_SLICE.item, Potions.MUNDANE);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.APPLE_PIE_DOUGH.item, Potions.MUNDANE);

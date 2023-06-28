@@ -1139,6 +1139,7 @@ public class WHLootTables {
         );
         
         // ender dragon
+        /*
         LootTableHelper.appendLoot(EntityType.ENDER_DRAGON.getLootTableId(), builder);
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHFoodIngredients.ENDER_DRAGON_EYE)
@@ -1148,7 +1149,7 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHFoodIngredients.ENDER_DRAGON_GLAND)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
-        );
+        ); */
         LootTableHelper.appendLoot(EntityType.ENDER_DRAGON.getLootTableId(), builder);
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_ENDERMITE)

@@ -37,6 +37,16 @@ import net.minecraft.world.BlockView;
 
 public enum WHBlocks implements ItemEnum, BlockEnum {
 
+    // The new blocks I don't know where to put
+    SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
+    LAVA_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
+    PINK_SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
+    GLOW_BERRY_LANTERN(new LanternBlock(Block.Settings.of(Material.WOOD).strength(1.5f).sounds(BlockSoundGroup.WOOD).luminance(state -> 15).nonOpaque()), itemSettings()),
+    RAW_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK)), itemSettings()),
+    RAW_ORANGE_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK)), itemSettings()),
+    RAW_GLOW_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK).luminance(s->15)), itemSettings()),
+
+
     CRAFTING_MAT(new CraftingMatBlock(Block.Settings.of(Material.DECORATION).sounds(BlockSoundGroup.WOOL).breakInstantly().noCollision().nonOpaque()), toolItemSettings()),
     CRATE(new CrateBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     //MEMORY_BOX(new MemoryBoxBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),

@@ -1,0 +1,25 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "particle": "wilder_horizons:block/raw_kelp_block_side",
+        "down": "wilder_horizons:block/raw_kelp_block_bottom",
+        "up": "wilder_horizons:block/raw_kelp_block_top",
+        "north": "wilder_horizons:block/raw_kelp_block_side",
+        "east": "wilder_horizons:block/raw_kelp_block_side",
+        "south": "wilder_horizons:block/raw_kelp_block_side",
+        "west": "wilder_horizons:block/raw_kelp_block_side"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down", "cullface": "down" },
+                "up":    { "texture": "#up", "cullface": "up" },
+                "north": { "texture": "#north", "cullface": "north" },
+                "south": { "uv": [16, 0, 0, 16], "texture": "#south", "cullface": "south" },
+                "west":  { "texture": "#west", "cullface": "west" },
+                "east":  { "uv": [16, 0, 0, 16], "texture": "#east", "cullface": "east" }
+            }
+        }
+    ]
+}
