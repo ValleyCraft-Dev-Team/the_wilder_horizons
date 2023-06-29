@@ -1,6 +1,5 @@
 package net.linkle.wilder_horizons.mixin;
 
-import dev.emi.trinkets.api.TrinketsApi;
 import net.linkle.wilder_horizons.init.init_core.WHArmors;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.mob.EndermanEntity;

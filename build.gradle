@@ -37,7 +37,7 @@ dependencies {
 	modImplementation "vazkii.patchouli:Patchouli:${minecraft_version}-${project.patchouli_version}"
 
 	// Trinkets API
-	modImplementation "dev.emi:trinkets:${trinkets_version}"
+	//modImplementation "dev.emi:trinkets:${trinkets_version}"
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.

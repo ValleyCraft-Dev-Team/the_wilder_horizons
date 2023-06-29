@@ -1,6 +1,5 @@
 package net.linkle.wilder_horizons.mixin;
 
-import dev.emi.trinkets.api.TrinketsApi;
 import net.linkle.wilder_horizons.Debugs;
 import net.linkle.wilder_horizons.extension.LivingEntityExt;
 import net.linkle.wilder_horizons.init.init_core.WHArmors;
@@ -80,8 +79,6 @@ abstract class LivingEntityMixin extends Entity implements LivingEntityExt {
     void tryUseTotem(DamageSource source, CallbackInfoReturnable<Boolean> info) {
     	if (source.isOutOfWorld()) return;
     	var living = (LivingEntity)(Object)this;
-    	var comp = TrinketsApi.getTrinketComponent(living);
-    	if (comp.isEmpty()) return;
 
         var stack = living.getEquippedStack(EquipmentSlot.CHEST);
 		if (stack.isOf(WHArmors.FRIENDLY_MASK.item)) {

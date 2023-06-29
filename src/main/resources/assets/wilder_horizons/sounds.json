@@ -26,6 +26,13 @@
       "wilder_horizons:duck_quack"
     ]
   },
+
+  "crow": {
+    "subtitle": "subtitle.wilder_horizons:crow",
+    "sounds": [
+      "wilder_horizons:crow"
+    ]
+  },
   
   "pot_break": {
     "sounds": [

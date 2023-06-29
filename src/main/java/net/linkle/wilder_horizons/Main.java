@@ -1,5 +1,9 @@
 package net.linkle.wilder_horizons;
 
+import net.linkle.wilder_horizons.environment.gen.feature.TreeConfigs;
+import net.linkle.wilder_horizons.environment.gen.feature.VegetationConfigs;
+import net.linkle.wilder_horizons.environment.gen.feature.VegetationPlaced;
+import net.linkle.wilder_horizons.environment.sounds.WHSounds;
 import net.linkle.wilder_horizons.init.init_core.*;
 import net.linkle.wilder_horizons.villager.ModVillagers;
 import org.slf4j.Logger;
@@ -26,6 +30,10 @@ public class Main implements ModInitializer {
         WHNature.initialize();
         WHBlocks.initialize();
         ModVillagers.registerVillagers();
+        WHEntities.initialize();
+        WHSounds.initialize();
+        TreeConfigs.initialize();
+        VegetationPlaced.initialize();
     }
 
     public static Identifier makeId(String id) {

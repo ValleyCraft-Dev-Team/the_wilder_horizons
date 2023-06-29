@@ -28,6 +28,7 @@ import net.minecraft.entity.*;
 import net.minecraft.entity.SpawnRestriction.Location;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.FishEntity;
+import net.minecraft.entity.passive.ParrotEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.Heightmap;
@@ -99,8 +100,10 @@ public enum WHEntities implements EntityEnum {
     
     // Misc
     THROWN_ROCK(createEntity(SpawnGroup.MISC, ThrownRockEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10)),
-    GLOW_BALL(createEntity(SpawnGroup.MISC, GlowBallEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10));
-    
+    GLOW_BALL(createEntity(SpawnGroup.MISC, GlowBallEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10)),
+
+    CROW(createMob(SpawnGroup.CREATURE, CrowEntity::new).dimensions(EntityDimensions.fixed(0.5f, 0.9f)).trackRangeChunks(8).spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, CrowEntity::canSpawn));
+
     public static void initialize() {
         registerAttribute(SNAIL, SnailEntity.createSnailAttributes());
         registerAttribute(CAVE_SNAIL, CaveSnailEntity.createSnailAttributes());
@@ -125,6 +128,7 @@ public enum WHEntities implements EntityEnum {
         registerAttribute(PERCH, FishEntity.createFishAttributes());
         registerAttribute(FRIENDLY_SLIME, TameableSlimeEntity.createMobAttributes());
 
+        registerAttribute(CROW, CrowEntity.createCrowAttributes());
     }
 
     @Environment(EnvType.CLIENT)
@@ -137,7 +141,7 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(CAVE_SNAIL, SnailEntityRenderer.create("cave_snail"));
         //registerRenderer(SCULK_SNAIL, SnailEntityRenderer.create("sculk_snail"));
 
-        /**Friendly Slime WIP**/
+        // Friendly Slime WIP
         //registerRenderer(FRIENDLY_SLIME, TameableSlimeEntityRenderer.create("friendly_slime"));
 
         registerRenderer(PUPKIN, PupkinEntityRenderer::new);
@@ -159,6 +163,8 @@ public enum WHEntities implements EntityEnum {
         
         registerRenderer(THROWN_ROCK, FlyingItemEntityRenderer::new);
         registerRenderer(GLOW_BALL, FlyingItemEntityRenderer::new);
+
+        registerRenderer(CROW, CrowRenderer::new);
     }
 
     // ### Enum Codes ###

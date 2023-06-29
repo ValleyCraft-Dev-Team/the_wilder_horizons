@@ -27,6 +27,8 @@
     ]
   },
   "mixins": [
+    "wilder_horizons.mixins.json",
+    "wilder_horizons.wideners.json"
   ],
 
   "custom": {

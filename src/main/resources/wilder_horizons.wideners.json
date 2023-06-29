@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.linkle.wilder_horizons.widener",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BrewingRecipeRegistryWidener",
+    "OverworldBiomeWidener",
+    "FoliagePlacerTypeWidener",
+    "ItemUsageContextWidener",
+    "LootBuilderWidener"
+  ],
+  "client": [
+    
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

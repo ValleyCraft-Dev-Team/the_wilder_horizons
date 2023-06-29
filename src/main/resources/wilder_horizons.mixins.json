@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.linkle.wilder_horizons.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FallingBlockEntityMixin",
+    "FarmlandBlockMixin",
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "ItemEntityMixin",
+    "EnchantmentHelperMixin",
+    "CraftingScreenHandlerMixin",
+    "EndermanEntityMixin"
+  ],
+  "client": [
+    "ContinuousFallingParticleMixin",
+    "DrippingParticleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

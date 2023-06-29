@@ -11,6 +11,8 @@ import java.util.Locale;
 public enum WHSounds implements IdProvider {
     
     SPRINKLER,
+
+    CROW,
     
     CURTAIN_OPEN,
     CURTAIN_CLOSE,
@@ -22,16 +24,16 @@ public enum WHSounds implements IdProvider {
     }
     
     
-    // ### The Enum Class Itself ###
+    // ### Enum Codes ###
     
     public final SoundEvent sound;
     
-    private WHSounds() {
+    WHSounds() {
         sound = new SoundEvent(Main.makeId(name().toLowerCase(Locale.ROOT)));
         Registry.register(Registry.SOUND_EVENT, sound.getId(), sound);
     }
     
-    private WHSounds(String path) {
+    WHSounds(String path) {
         sound = new SoundEvent(Main.makeId(path));
         Registry.register(Registry.SOUND_EVENT, sound.getId(), sound);
     }
