@@ -329,7 +329,6 @@ public class Contents {
         putFuels(WHTools.HATCHET_WOODEN, 200);
         putFuels(WHTools.WOODEN_OAR, 200);
         putFuels(WHTools.BRANCH, 400);
-        putFuels(WHTools.DRIFTWOOD_BRANCH, 400);
         putFuels(WHTools.WOODEN_STAFF, 300);
         putFuels(WHTools.BAMBOO_STAFF, 300);
 

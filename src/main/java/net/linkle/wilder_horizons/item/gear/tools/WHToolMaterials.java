@@ -80,7 +80,7 @@ public enum WHToolMaterials implements ToolMaterial {
     ECHOCHALCUM(4, 2031, 9.0F, 4.0F, 22, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM});
     }),
-    AMETHYST(2, 190, 5.0F, 1.5F, 18, () -> {
+    AMETHYST(2, 190, 5.0F, 2.0F, 22, () -> {
         return Ingredient.ofItems(Items.AMETHYST_SHARD);
     }),
     WOOD_EXTENDED(0, 89, 2.0F, 0.0F, 15, () -> {

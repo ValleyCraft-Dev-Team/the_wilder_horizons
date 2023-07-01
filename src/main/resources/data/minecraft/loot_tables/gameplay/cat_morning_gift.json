@@ -41,17 +41,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "wilder_horizons:seagulls_feather",
+          "name": "wilder_horizons:seagull_feather",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "wilder_horizons:crows_feather",
+          "name": "wilder_horizons:crow_feather",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "wilder_horizons:ducks_feather",
+          "name": "wilder_horizons:duck_feather",
           "weight": 10
         },
         {

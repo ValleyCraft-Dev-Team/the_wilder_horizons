@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "wilder_horizons:textures/block/iron_golem_dead",
+		"0": "wilder_horizons:block/iron_golem_dead",
 		"particle": "block/iron_block"
 	},
 	"elements": [

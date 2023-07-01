@@ -9,6 +9,10 @@ import net.linkle.wilder_horizons.interfaces.ToolConstants;
 import net.linkle.wilder_horizons.item.ClimbingAxeItem;
 import net.linkle.wilder_horizons.item.ModHoeItem;
 import net.linkle.wilder_horizons.item.gear.tools.WHToolMaterials;
+import net.linkle.wilder_horizons.item.gear.tools.bows.AmethystLeveledBowItem;
+import net.linkle.wilder_horizons.item.gear.tools.bows.BrasiumBowItem;
+import net.linkle.wilder_horizons.item.gear.tools.bows.ChampionsBowItem;
+import net.linkle.wilder_horizons.item.gear.tools.bows.LongBowItem;
 import net.linkle.wilder_horizons.item.gear.tools.environmental.*;
 import net.linkle.wilder_horizons.item.gear.tools.hatchet.HatchetAxeBase;
 import net.linkle.wilder_horizons.item.gear.tools.knife.KnifeBase;
@@ -21,24 +25,19 @@ import net.linkle.wilder_horizons.item.gear.tools.staff.StaffBase;
 import net.linkle.wilder_horizons.item.gear.tools.throwing.RockItem;
 import net.linkle.wilder_horizons.item.gear.tools.travelers_sword.TravelerBase;
 import net.linkle.wilder_horizons.item.gear.tools.woodcutter_axe.WoodcutterAxeBase;
-import net.linkle.wilder_horizons.item.tools.bows.ModBowItem;
 import net.linkle.wilder_horizons.item.gear.tools.knife.special.UnbreakableScalpelBase;
-import net.linkle.wilder_horizons.util.Reg;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
-
-import static net.linkle.wilder_horizons.Main.makeId;
 
 public enum WHTools implements ItemEnum, ToolConstants {
 
     // Environmental Tools
     BRANCH(new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f)),
-    DRIFTWOOD_BRANCH(new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f)),
+    //DRIFTWOOD_BRANCH(new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f)),
 
     THROWING_ROCK(new RockItem(new Item.Settings().maxCount(64).group(WHGroups.WH_TOOLS))),
 
@@ -49,9 +48,11 @@ public enum WHTools implements ItemEnum, ToolConstants {
     MAKESHIFT_SHOVEL(new BranchShovelItem(WHToolMaterials.MAKESHIFT_WOOD, 1, -3.0f)),
     MAKESHIFT_HOE(new BranchHoeItem(WHToolMaterials.MAKESHIFT_WOOD, 0, -3.0f)),
     MAKESHIFT_CLUB(new KnifeBase(WHToolMaterials.MAKESHIFT_WOOD, MAKESHIFT_BASED_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),
+    FIRE_PLOUGH(new FlintAndSteelItem(new Item.Settings().maxCount(1).group(WHGroups.WH_TOOLS).maxDamage(1))),
 
     // Staffs
     WOODEN_STAFF(new StaffBase(WHToolMaterials.PLANK, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
+    AMETHYST_SPEAR(new StaffBase(WHToolMaterials.AMETHYST, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
     BAMBOO_STAFF(new StaffBase(WHToolMaterials.BAMBOO, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
 
     //ANTHROPOLOGISTS_ROCK_PICK(new AnthroPickaxeItem(new AnthroPickaxeMaterial())),
@@ -64,12 +65,19 @@ public enum WHTools implements ItemEnum, ToolConstants {
     WOODEN_OAR(new StaffBase(WHToolMaterials.PLANK, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
     CLIMBING_AXE(new ClimbingAxeItem(WHToolMaterials.BRASIUM, new Item.Settings().group(WHGroups.WH_TOOLS))),
     ICE_TONGS(new PickaxeItem(WHToolMaterials.BRASIUM, PICKAXE_BASE_DAMAGE, PICKAXE_BASE_SPEED, BASIC_SETTINGS)),
-    BRASIUM_COMPOUND_BOW(new ModBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
+    BRASIUM_HAMMER(new PickaxeItem(WHToolMaterials.BRASIUM, PICKAXE_BASE_DAMAGE, PICKAXE_BASE_SPEED, BASIC_SETTINGS)),
+
     CORAL_KNIFE(new Scalpel(WHToolMaterials.GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_UNCOMMON)),
     CORAL_KNIFE_GUARDIAN(new UnbreakableScalpelBase(WHToolMaterials.ELDER_GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_RARE)),
     GEM_CUTTING_TOOLS(new GemCuttingTools(new GemCuttingToolsMaterial(),0, 0.0f)),
     MISERICORDE_DRAGON_TOOTH(new KnifeBase(WHToolMaterials.DRAGON_TOOTH, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),
     BLAZE_SWORD(new SwordItem(WHToolMaterials.BLAZE, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),
+
+    // Bows
+    LONGBOW(new LongBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(385))),
+    CHAMPIONS_BOW(new ChampionsBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(578))),
+    AMETHYST_LEVELED_BOW(new AmethystLeveledBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(578))),
+    BRASIUM_COMPOUND_BOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
 
     // Knives
     KNIFE_WOODEN(new KnifeBase(ToolMaterials.WOOD, KNIFE_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),

@@ -5,6 +5,8 @@ import net.linkle.wilder_horizons.environment.gen.feature.VegetationConfigs;
 import net.linkle.wilder_horizons.environment.gen.feature.VegetationPlaced;
 import net.linkle.wilder_horizons.environment.sounds.WHSounds;
 import net.linkle.wilder_horizons.init.init_core.*;
+import net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities;
+import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
 import net.linkle.wilder_horizons.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,13 +22,17 @@ public class Main implements ModInitializer {
     public void onInitialize() {
         Config.initialize();
         WHEffects.initialize();
+        WHEntities.initialize();
         WHMiscItems.registerItems();
+        WHFishItems.initialize();
         WHFoodIngredients.initialize();
         WHFoods.initialize();
         WHMedicines.registerItems();
         WHFoodsSpecial.initialize();
         WHTools.initialize();
         WHArmors.initialize();
+        WHParticles.initialize();
+        WHFluids.initialize();
         WHNature.initialize();
         WHBlocks.initialize();
         ModVillagers.registerVillagers();

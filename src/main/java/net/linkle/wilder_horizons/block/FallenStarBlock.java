@@ -29,9 +29,9 @@ public class FallenStarBlock extends FallingBlock {
             mutable.set(i + MathHelper.nextInt(random, -10, 10), j + random.nextInt(10), k + MathHelper.nextInt(random, -10, 10));
             BlockState blockState = world.getBlockState(mutable);
             if (random.nextInt(16) == 0) {
-                world.addParticle(ParticleTypes.ELECTRIC_SPARK, (double)mutable.getX() + random.nextDouble(), (double)mutable.getY() + random.nextDouble(), (double)mutable.getZ() + random.nextDouble(), 0.0D, 0.0D, 0.0D);
-                world.addParticle(ParticleTypes.ELECTRIC_SPARK, (double)mutable.getX() + random.nextDouble(), (double)mutable.getY() + random.nextDouble(), (double)mutable.getZ() + random.nextDouble(), 0.0D, 0.0D, 0.0D);
-                world.addParticle(ParticleTypes.ELECTRIC_SPARK, (double)mutable.getX() + random.nextDouble(), (double)mutable.getY() + random.nextDouble(), (double)mutable.getZ() + random.nextDouble(), 0.0D, 0.0D, 0.0D);
+                world.addParticle(ParticleTypes.WAX_OFF, (double)mutable.getX() + random.nextDouble(), (double)mutable.getY() + random.nextDouble(), (double)mutable.getZ() + random.nextDouble(), 0.0D, 0.0D, 0.0D);
+                world.addParticle(ParticleTypes.WAX_OFF, (double)mutable.getX() + random.nextDouble(), (double)mutable.getY() + random.nextDouble(), (double)mutable.getZ() + random.nextDouble(), 0.0D, 0.0D, 0.0D);
+                world.addParticle(ParticleTypes.WAX_OFF, (double)mutable.getX() + random.nextDouble(), (double)mutable.getY() + random.nextDouble(), (double)mutable.getZ() + random.nextDouble(), 0.0D, 0.0D, 0.0D);
             }
         }
 

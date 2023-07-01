@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "wilder_horizons:item/special/rusted_iron_sword",
-		"particle": "wilder_horizons:item/special/rusted_iron_sword"
+		"0": "wilder_horizons:item/tools/rusted/rusted_iron_sword",
+		"particle": "wilder_horizons:item/tools/rusted/rusted_iron_sword"
 	},
 	"elements": [
 		{

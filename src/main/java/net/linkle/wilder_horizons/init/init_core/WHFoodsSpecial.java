@@ -28,26 +28,26 @@ public enum WHFoodsSpecial implements ItemEnum {
     SPICY_CALAMARI_SKEWER(new Tier1Normal(settings(), 6, Nourishment.NORMAL, StatusEffects.WATER_BREATHING)),
     
     // tier 2
-    SPICY_GRILLED_LAMB(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.HASTE)),
-    SPICY_SALMON_AND_CARROTS(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.SPEED)),
-    GLOW_BERRY_EGG_PUDDING(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.NIGHT_VISION)),
-    STEAMED_VEGETABLES(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.HEALTH_BOOST)),
-    STUFFED_BAKED_POTATO(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.STRENGTH)),
-    HONEY_GLAZED_CREPE(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.REGENERATION)),
-    STUFFED_ONION(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.RESISTANCE)),
-    SWEET_RABBIT_STEAK(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.FIRE_RESISTANCE)),
-    GLOW_SQUID_SUSHI(new Tier2Bowl(settings().maxCount(32), 8, Nourishment.GOOD, StatusEffects.WATER_BREATHING)),
+    SPICY_BEEF_RISOTTO(new Tier2Bowl(settings().maxCount(32), 10, Nourishment.GOOD, StatusEffects.HASTE)),
+    CARROT_STEW(new Tier2Bowl(settings().maxCount(32), 10, Nourishment.GOOD, StatusEffects.SPEED)),
+    GLOW_BERRY_STEW(new Tier2Bowl(settings().maxCount(32), 10, Nourishment.GOOD, StatusEffects.NIGHT_VISION)),
+    ANCIENT_FLOWER_SOUP(new Tier2Bowl(settings().maxCount(32), 10, Nourishment.GOOD, StatusEffects.HEALTH_BOOST)),
+    CREAMY_HEART_STEW(new Tier2Bowl(settings().maxCount(32), 10, Nourishment.GOOD, StatusEffects.STRENGTH)),
+    SWEET_CHICKEN_RISOTTO(new Tier2Bowl(settings().maxCount(32), 10, Nourishment.GOOD, StatusEffects.REGENERATION)),
+    COD_CHOWDER(new Tier2Bowl(settings().maxCount(32), 10, 2, StatusEffects.RESISTANCE)),
+    SHIVERCAP_STIR_FRY(new Tier2Bowl(settings().maxCount(32), 10, Nourishment.GOOD, StatusEffects.FIRE_RESISTANCE)),
+    GLOW_SQUID_SOUP(new Tier2Bowl(settings().maxCount(32), 10, Nourishment.GOOD, StatusEffects.WATER_BREATHING)),
 
     // tier 3
-    SPICY_BEEF_RISOTTO(new Tier3Bowl(settings().maxCount(16), 10, Nourishment.GOOD, StatusEffects.HASTE)),
-    CARROT_STEW(new Tier3Bowl(settings().maxCount(16), 10, Nourishment.GOOD, StatusEffects.SPEED)),
-    GLOW_BERRY_STEW(new Tier3Bowl(settings().maxCount(16), 10, Nourishment.GOOD, StatusEffects.NIGHT_VISION)),
-    ANCIENT_FLOWER_SOUP(new Tier3Bowl(settings().maxCount(16), 10, Nourishment.GOOD, StatusEffects.HEALTH_BOOST)),
-    CREAMY_HEART_STEW(new Tier3Bowl(settings().maxCount(16), 10, Nourishment.GOOD, StatusEffects.STRENGTH)),
-    SWEET_CHICKEN_RISOTTO(new Tier3Bowl(settings().maxCount(16), 10, Nourishment.GOOD, StatusEffects.REGENERATION)),
-    COD_CHOWDER(new Tier3Bowl(settings().maxCount(16), 10, 2, StatusEffects.RESISTANCE)),
-    SHIVERCAP_STIR_FRY(new Tier3Bowl(settings().maxCount(16), 10, Nourishment.GOOD, StatusEffects.FIRE_RESISTANCE)),
-    GLOW_SQUID_SOUP(new Tier3Bowl(settings().maxCount(16), 10, Nourishment.GOOD, StatusEffects.WATER_BREATHING));
+    SPICY_GRILLED_LAMB(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.HASTE)),
+    SPICY_SALMON_AND_CARROTS(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.SPEED)),
+    GLOW_BERRY_EGG_PUDDING(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.NIGHT_VISION)),
+    STEAMED_VEGETABLES(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.HEALTH_BOOST)),
+    STUFFED_BAKED_POTATO(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.STRENGTH)),
+    HONEY_GLAZED_CREPE(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.REGENERATION)),
+    STUFFED_ONION(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.RESISTANCE)),
+    SWEET_RABBIT_STEAK(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.FIRE_RESISTANCE)),
+    GLOW_SQUID_SUSHI(new Tier3Bowl(settings().maxCount(16), 8, Nourishment.GOOD, StatusEffects.WATER_BREATHING));
 
     /**list new items below here, move above after adding a recipe for them**/
 

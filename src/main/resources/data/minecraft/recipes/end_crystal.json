@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "minecraft:barrier"
+    }
+  },
+  "pattern": [
+    "E E",
+    " E ",
+    "E E"
+  ],
+  "result": {
+    "item": "minecraft:end_crystal"
+  }
+}
