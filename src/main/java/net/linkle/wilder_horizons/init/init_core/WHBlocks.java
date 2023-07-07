@@ -61,16 +61,40 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     /**stablehand_poi**/
     STABLEHAND_STATION(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     STABLEHAND_COUNTER(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
-    /**miner_poi**/
-    //MINER_STATION(new HorizontalBlock(Block.Settings.copy(Blocks.OAK_PLANKS)), itemSettings()),
-    /**beekeeper_poi**/
-    //BEEKEEPER_STATION(new HorizontalBlock(Block.Settings.copy(Blocks.OAK_PLANKS)), itemSettings()),
-    /**lumberjack_poi**/
-    //LUMBERJACK_STATION(new WoodCutterBlock(Block.Settings.copy(Blocks.STONECUTTER).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
-    /**storekeeper_poi**/
-    //STOREKEEPS_COUNTER(new HorizontalBlock(Block.Settings.copy(Blocks.OAK_PLANKS)), itemSettings()),
-    /**gardener_poi**/
-    //GARDENER_STATION(new HorizontalBlock(Block.Settings.copy(Blocks.OAK_PLANKS)), itemSettings()),
+    /**hunter poi**/
+    HUNTING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+
+    /**desert **/
+    DESERT_EMPEROR_THRONE(new CushionBlock((DyeColor.YELLOW)), itemSettings()),
+    /**armorer**/
+    DESERT_BLAST_FURNACE(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
+    /**weaponsmith**/
+    DESERT_WEAPONSMITHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
+    /**chef**/
+    DESERT_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
+    /**clothier**/
+    DESERT_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
+
+    /**snow weaponsmith**/
+    SNOW_WEAPONSMITHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**savanna chef**/
+    SAVANNA_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**snow chef**/
+    SNOW_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**taiga chef**/
+    TAIGA_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**beekeeper poi**/
+    BEEKEEPER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**lumberjack poi**/
+    LUMBERJACK_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**gardener poi**/
+    GARDENER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**architect poi**/
+    ARCHITECT_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    PLAINS_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    SAVANNA_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    SNOW_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    TAIGA_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
 
     //BARREL_PLANTER(new Block(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     RAIN_COLLECTOR(new RainCollectorBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque()), itemSettings()),
@@ -933,10 +957,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     MOSAIC_BRICK(new Block(Block.Settings.copy(Blocks.BRICKS)), itemSettings()),
     MOSAIC_BRICK_STAIRS(new StairsBlock(MOSAIC_BRICK.getState(), Block.Settings.copy(Blocks.BRICKS)), itemSettings()),
     MOSAIC_BRICK_SLAB(new SlabBlock(Block.Settings.copy(Blocks.BRICKS)), itemSettings()),
-
-    MOSSY_STONE_STAIRS(new StairsBlock(WHNature.MOSSY_STONE.getState(), Block.Settings.copy(Blocks.STONE)), itemSettings()),
-    MOSSY_STONE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE)), itemSettings()),
-    MOSSY_STONE_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE)), itemSettings()),
 
     //cobblestone bricks
     //POLISHED_COBBLESTONE(new Block(Block.Settings.copy(Blocks.COBBLESTONE)), itemSettings()),

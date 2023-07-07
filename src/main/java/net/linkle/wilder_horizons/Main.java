@@ -1,12 +1,12 @@
 package net.linkle.wilder_horizons;
 
 import net.linkle.wilder_horizons.environment.gen.feature.TreeConfigs;
-import net.linkle.wilder_horizons.environment.gen.feature.VegetationConfigs;
 import net.linkle.wilder_horizons.environment.gen.feature.VegetationPlaced;
 import net.linkle.wilder_horizons.environment.sounds.WHSounds;
 import net.linkle.wilder_horizons.init.init_core.*;
-import net.linkle.wilder_horizons.init.init_exterior.WHBlockEntities;
 import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
+import net.linkle.wilder_horizons.villager.CustomTradeRegistryModdedVillagers;
+import net.linkle.wilder_horizons.villager.CustomTradeRegistryWanderingTrader;
 import net.linkle.wilder_horizons.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,6 +36,8 @@ public class Main implements ModInitializer {
         WHNature.initialize();
         WHBlocks.initialize();
         ModVillagers.registerVillagers();
+        CustomTradeRegistryModdedVillagers.setupTrades();
+        CustomTradeRegistryWanderingTrader.setupTrades();
         WHEntities.initialize();
         WHSounds.initialize();
         TreeConfigs.initialize();

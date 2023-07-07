@@ -877,7 +877,7 @@ public class WHLootTables {
         
         // wither
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(WHMiscItems.LIFE_GEM)
+        builder.with(ItemEntry.builder(WHMiscItems.SOUL_GEM)
             .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(3)))
         );
         LootTableHelper.appendLoot(EntityType.WITHER.getLootTableId(), builder);
@@ -1128,7 +1128,7 @@ public class WHLootTables {
         // warden
         LootTableHelper.appendLoot(EntityType.WARDEN.getLootTableId(), builder);
         builder = LootBuilder.create().rolls(1);
-        builder.rolls(1).with(ItemEntry.builder(WHMiscItems.LIFE_GEM)
+        builder.rolls(1).with(ItemEntry.builder(WHMiscItems.SOUL_GEM)
             .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(3)))
         );
         LootTableHelper.appendLoot(EntityType.WARDEN.getLootTableId(), builder);
@@ -1162,7 +1162,7 @@ public class WHLootTables {
         //);
         LootTableHelper.appendLoot(EntityType.ENDER_DRAGON.getLootTableId(), builder);
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(WHMiscItems.LIFE_GEM)
+        builder.with(ItemEntry.builder(WHMiscItems.SOUL_GEM)
             .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(6)))
         );
         LootTableHelper.appendLoot(EntityType.ENDER_DRAGON.getLootTableId(), builder);
@@ -1369,7 +1369,7 @@ public class WHLootTables {
     // common loots start
     
     private static void lifeGem(LootBuilder builder, float chance) {
-        builder.with(ItemEntry.builder(WHMiscItems.LIFE_GEM)
+        builder.with(ItemEntry.builder(WHMiscItems.SOUL_GEM)
             .conditionally(RandomChanceLootCondition.builder(chance))
         );
     }

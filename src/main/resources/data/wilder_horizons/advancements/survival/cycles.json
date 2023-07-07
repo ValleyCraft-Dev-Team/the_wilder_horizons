@@ -5,7 +5,7 @@
       "text": "Cycles"
     },
     "icon": {
-      "item": "wilder_horizons:life_gem"
+      "item": "wilder_horizons:SOUL_GEM"
     },
     "description": {
       "text": "\"Don't think on it too much, eh?\""
@@ -14,13 +14,13 @@
     "hidden": "true"
   },
   "criteria": {
-    "life_gem": {
+    "SOUL_GEM": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "wilder_horizons:life_gem"
+              "wilder_horizons:SOUL_GEM"
             ]
           }
         ]
@@ -29,7 +29,7 @@
   },
   "requirements": [
     [
-      "life_gem"
+      "SOUL_GEM"
     ]
   ]
 }

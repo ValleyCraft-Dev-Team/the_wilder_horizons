@@ -107,7 +107,7 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, WHMiscItems.IRON_FEATHER.item, SLOW_FALLING_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.SLIME_BALL, Potions.LEAPING);
         registerRecipe(Potions.AWKWARD, Items.HEART_OF_THE_SEA, Potions.LONG_WATER_BREATHING);
-        registerRecipe(Potions.AWKWARD, WHMiscItems.LIFE_GEM.item, RADIANT_HEALING.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.SOUL_GEM.item, RADIANT_HEALING.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.MONSTER_GUTS.item, HUNGER.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.MONSTER_LIVER.item, BLINDNESS.potion);
         registerRecipe(Potions.AWKWARD, Items.GLOW_BERRIES, GLOWING.potion);

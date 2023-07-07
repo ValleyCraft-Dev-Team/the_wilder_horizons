@@ -10,6 +10,7 @@ import net.minecraft.item.BucketItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
@@ -90,8 +91,8 @@ public enum WHMiscItems implements ItemEnum {
 
     BEAST_CLAW(new AlphaModItem(settings())),
     BONEFIN_SKELETON(new AlphaModItem(settings())),
-    LIFE_GEM(new AlphaModItem(settings())),
-    SOUL_GEM(new AlphaModItem(settings())),
+    //SOUL_GEM(new LifeGemItem(settings())),
+    SOUL_GEM(new LifeGemItem(settings())),
     //STRONG_SOUL_GEM(new AlphaModItem(settings())),
     LUCKY_HOOK(new AlphaModItem(settings().maxCount(1))),
 
@@ -117,8 +118,9 @@ public enum WHMiscItems implements ItemEnum {
     //        new AlphaModItem(settings())),
     BRASIUM_ALLOY(new AlphaModItem(settings())),
     ROUGH_EMERALD(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
+    ENCHANTED_EMERALD(new EnchantedEmeraldItem(settings().rarity(Rarity.UNCOMMON))),
     ROUGH_DIAMOND(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
-    DIAMOND_FRAGMENTS(new AlphaModItem(settings())),
+    //DIAMOND_FRAGMENTS(new AlphaModItem(settings())),
     ECHOCHALCUM(new AlphaModItem(settings())),
     RAW_NETHERITE_NUGGET(new AlphaModItem(settings())),
 
@@ -151,7 +153,7 @@ public enum WHMiscItems implements ItemEnum {
     //        new AlphaModItem(settings())),
     TREATED_LEATHER_STRAP(new AlphaModItem(settings())),
 
-    TOTEM_OF_KNOWLEDGE(new AlphaModItem(settings())),
+    TOTEM_OF_KNOWLEDGE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     TOTEM_OF_PACIFISM(new AlphaModItem(settings())),
 
     SLUDGE_BUCKET(new BucketItem(WHFluids.SLUDGE_STILL.fluid, settings().maxCount(1).recipeRemainder(Items.BUCKET)));

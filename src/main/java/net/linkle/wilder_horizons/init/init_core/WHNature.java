@@ -33,9 +33,6 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public enum WHNature implements ItemEnum, BlockEnum {
-
-    PURPLE_MUSHROOM_BLOCK(new MushroomBlock(Block.Settings.copy(Blocks.RED_MUSHROOM_BLOCK).mapColor(MapColor.PURPLE)), itemSettings()),
-
     CHOCOLATE_CAKE(new ModCakeBlock(Block.Settings.copy(Blocks.CAKE)), foodBlockSettings()),
     CHEESE(new ModCakeBlock(Block.Settings.copy(Blocks.CAKE)), foodBlockSettings()),
 
@@ -84,6 +81,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     //mushrooms
     PURPLE_MUSHROOM(new ModMushroomBlockDaySafe(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
+    PURPLE_MUSHROOM_BLOCK(new MushroomBlock(Block.Settings.copy(Blocks.RED_MUSHROOM_BLOCK).mapColor(MapColor.PURPLE)), itemSettings()),
     GLOW_MUSHROOM(new ModGlowingMushroomBlock(), itemSettings()),
     SPORE_SPREADER(new ModSporeSpreaderBlock().large(), itemSettings()),
     FAN_MOLD(new FanMoldBlock(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
@@ -209,7 +207,6 @@ public enum WHNature implements ItemEnum, BlockEnum {
     DRY_DIRT(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
     FINE_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     SANDY_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
-    MOSSY_STONE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
     CARMINE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
     CARMINE_COBBLESTONE(new Block(Block.Settings.copy(Blocks.COBBLESTONE)), itemSettings()),
     SERPENTINITE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),

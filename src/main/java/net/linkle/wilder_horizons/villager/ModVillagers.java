@@ -26,7 +26,10 @@ public class ModVillagers {
     public static final PointOfInterestType INNKEEPER_POI = registerPOI("innkeeper_poi", WHBlocks.KEG.block);
     public static final VillagerProfession INNKEEPER = registerPro("innkeeper", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "innkeeper_poi")));
 
-    ////can generate alone
+    //can generate alone
+    public static final PointOfInterestType HUNTER_POI = registerPOI("hunter_poi", WHBlocks.HUNTING_STATION.block);
+    public static final VillagerProfession HUNTER = registerPro("hunter", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "hunter_poi")));
+
     //public static final PointOfInterestType LUMBERJACK_POI = registerPOI("lumberjack_poi", BlocksModded.LUMBERJACK_STATION.block);
     //public static final VillagerProfession LUMBERJACK = registerPro("lumberjack", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "lumberjack_poi")));
 //

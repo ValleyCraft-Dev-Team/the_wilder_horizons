@@ -65,7 +65,7 @@ public enum WHTools implements ItemEnum, ToolConstants {
     WOODEN_OAR(new StaffBase(WHToolMaterials.PLANK, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
     CLIMBING_AXE(new ClimbingAxeItem(WHToolMaterials.BRASIUM, new Item.Settings().group(WHGroups.WH_TOOLS))),
     ICE_TONGS(new PickaxeItem(WHToolMaterials.BRASIUM, PICKAXE_BASE_DAMAGE, PICKAXE_BASE_SPEED, BASIC_SETTINGS)),
-    BRASIUM_HAMMER(new PickaxeItem(WHToolMaterials.BRASIUM, PICKAXE_BASE_DAMAGE, PICKAXE_BASE_SPEED, BASIC_SETTINGS)),
+    //BRASIUM_HAMMER(new PickaxeItem(WHToolMaterials.BRASIUM, PICKAXE_BASE_DAMAGE, PICKAXE_BASE_SPEED, BASIC_SETTINGS)),
 
     CORAL_KNIFE(new Scalpel(WHToolMaterials.GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_UNCOMMON)),
     CORAL_KNIFE_GUARDIAN(new UnbreakableScalpelBase(WHToolMaterials.ELDER_GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_RARE)),
@@ -78,6 +78,7 @@ public enum WHTools implements ItemEnum, ToolConstants {
     CHAMPIONS_BOW(new ChampionsBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(578))),
     AMETHYST_LEVELED_BOW(new AmethystLeveledBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(578))),
     BRASIUM_COMPOUND_BOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
+    BRASIUM_CROSSBOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
 
     // Knives
     KNIFE_WOODEN(new KnifeBase(ToolMaterials.WOOD, KNIFE_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),

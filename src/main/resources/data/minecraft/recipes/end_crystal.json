@@ -1,16 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "ECE",
+    "#E#"
+  ],
   "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
     "E": {
-      "item": "minecraft:barrier"
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "item": "minecraft:chorus_plant"
     }
   },
-  "pattern": [
-    "E E",
-    " E ",
-    "E E"
-  ],
   "result": {
-    "item": "minecraft:end_crystal"
+    "item": "minecraft:end_crystal",
+    "count": 1
   }
 }

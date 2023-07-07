@@ -168,12 +168,6 @@ public class GensModded {
         //placed = registerOre(config, modifiersWithCount(14, HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.getTop())));
         //BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), ores, placed.getKey().get());
         
-        config = createOreConfig("mossy stone", BASE_STONE_OVERWORLD, 33, WHNature.MOSSY_STONE.getState());
-        placed = registerOre(config, modifiersWithCount(7, HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.getTop())));
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld().and(BiomeSelectors.tag(ConventionalBiomeTags.CLIMATE_DRY).negate()), ores, placed.getKey().get());
-        placed = registerOre("mossy stone_rich", config, modifiersWithCount(3, HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.getTop())));
-        BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.JUNGLE, ConventionalBiomeTags.SWAMP), ores, placed.getKey().get());
-        
         config = createOreConfig("arid_dirt", DIRT_STONE, 33, WHNature.DRY_DIRT.getState());
         placed = registerOre(config, modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.getTop())));
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld().and(BiomeSelectors.tag(ConventionalBiomeTags.CLIMATE_DRY).negate()), ores, placed.getKey().get());
