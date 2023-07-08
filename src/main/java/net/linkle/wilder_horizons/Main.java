@@ -38,7 +38,6 @@ public class Main implements ModInitializer {
         ModVillagers.registerVillagers();
         CustomTradeRegistryModdedVillagers.setupTrades();
         CustomTradeRegistryWanderingTrader.setupTrades();
-        WHEntities.initialize();
         WHSounds.initialize();
         TreeConfigs.initialize();
         VegetationPlaced.initialize();
