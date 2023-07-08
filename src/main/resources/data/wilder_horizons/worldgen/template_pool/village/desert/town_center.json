@@ -1,11 +1,11 @@
 {
-  "name": "wilder_horizons:village/desert/temples",
+  "name": "wilder_horizons:village/desert/town_center",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "wilder_horizons:village/desert/temples/temple_1",
+        "location": "wilder_horizons:village/desert/town_center/town_center_part_2",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

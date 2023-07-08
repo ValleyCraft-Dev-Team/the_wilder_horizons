@@ -1,5 +1,5 @@
 {
-  "name": "wilder_horizons:village/desert/small_decor",
+  "name": "wilder_horizons:village/desert/decor",
   "fallback": "minecraft:empty",
   "elements": [
     {
