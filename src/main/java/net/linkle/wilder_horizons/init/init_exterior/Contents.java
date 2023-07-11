@@ -281,7 +281,6 @@ public class Contents {
         putCompost(WHNature.ORANGE_BEAUTY, levelHigh);
         putCompost(WHNature.HONEYCLUSTER, levelHigh);
         putCompost(WHNature.CLOVER, levelHigh);
-        putCompost(WHNature.BLACK_DAHLIA, levelHigh);
         putCompost(WHNature.JUNGLE_BUSH, levelHigh);
         putCompost(WHNature.FOXTAIL_FERN, levelHigh);
         putCompost(WHNature.FLUFFY_DANDELION, levelHigh);
@@ -319,7 +318,6 @@ public class Contents {
         putFuels(WHMiscItems.BRIMSTONE_CRYSTAL_ITEM, 800);
         putFuels(Items.BLAZE_POWDER, 1200);
         putFuels(Items.NETHER_STAR, 32000);
-        putFuels(WHMiscItems.NETHER_CORE, 32000);
         putFuels(WHMiscItems.THERMAL_BLAZE_CORE, 4000);
 
         putFuels(WHTools.KNIFE_WOODEN, 200);

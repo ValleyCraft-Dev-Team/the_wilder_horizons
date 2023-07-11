@@ -21,13 +21,13 @@ public enum WHMedicines implements ItemEnum {
     SALVE_HEALING(new SalveItem(settings().maxCount(16), 0, 0, true, StatusEffects.REGENERATION)),
 
     // tea base - glow berries
-    TEA_MUG(new AlphaModItem(settings().group(WHGroups.WH_MISCELLANEOUS))),
+    //TEA_MUG(new AlphaModItem(settings().group(WHGroups.WH_MISCELLANEOUS))),
 
-    STRENGTH_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.STRENGTH)),
+    //STRENGTH_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.STRENGTH)),
 
-    HEALING_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, WHEffects.RADIANT_HEALING.effect)),
+    //HEALING_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, WHEffects.RADIANT_HEALING.effect)),
 
-    NIGHT_VISION_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.NIGHT_VISION)),
+    //NIGHT_VISION_TEA(new TeaItem(settings().maxCount(1).group(WHGroups.WH_FOOD), 2, 0.8f, false, StatusEffects.NIGHT_VISION)),
 
     // ointment base - slime
     EXTINGUISHING_OINTMENT(new SalveItem(settings().maxCount(16), 0, 0, true, StatusEffects.FIRE_RESISTANCE)),

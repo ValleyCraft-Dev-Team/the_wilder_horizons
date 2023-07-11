@@ -36,7 +36,9 @@ public enum WHNature implements ItemEnum, BlockEnum {
     CHOCOLATE_CAKE(new ModCakeBlock(Block.Settings.copy(Blocks.CAKE)), foodBlockSettings()),
     CHEESE(new ModCakeBlock(Block.Settings.copy(Blocks.CAKE)), foodBlockSettings()),
 
-    BLACK_DAHLIA(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    LAVENDER(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    FIREFERN(new SparkFernBlock(), itemSettings()),
+    //BLACK_DAHLIA(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     FLOWERING_CACTUS(new ModCactusBlock(FLOWERING_CACTUS_SHAPE), itemSettings()),
     //TUMBLEWEED(new ModPlantBlock(TUMBLEWEED_SHAPE, FLOWER).ground(ARID_DESERT_PLANT), itemSettings()),
     THORNY_BUSH(new ThornyBushBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER).ground(ARID_DESERT_PLANT), itemSettings()),
@@ -46,7 +48,6 @@ public enum WHNature implements ItemEnum, BlockEnum {
     CLOVER(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
 
     HONEYCLUSTER(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    LAVENDER(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     MOSS_SPROUTLET(new ModMushroomBlockDaySafe(), itemSettings()),
     ORANGE_BEAUTY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     PURPLE_TULIP(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
@@ -56,14 +57,13 @@ public enum WHNature implements ItemEnum, BlockEnum {
     BIG_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
     LEATHERLEAF_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
     //FROSTFERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
-    FIREFERN(new SparkFernBlock(), itemSettings()),
     SCALDERA_CANE(new ScalderaCaneBlock(), itemSettings()),
 
     LILY_OF_THE_MOUNTAINS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     //POISON_BLOSSOM(new PoisonPlantBlock(FLOWER_SHAPE, OFFSET_FLOWER), itemSettings()),
     //NIGHT_LILY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings().rarity(Rarity.RARE)),
     LILY_OF_THE_OCEANS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    LILY_OF_THE_SKIES(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    //LILY_OF_THE_SKIES(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
 
     KNAPWEED(new ModFlowerBlock(Blocks.OXEYE_DAISY, OFFSET_FLOWER), itemSettings()),
 
@@ -199,7 +199,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     SLUDGE_FLUID(new SludgeFluidBlock(WHFluids.SLUDGE_STILL.flowable())),
 
-    FALLEN_STAR_FRAGMENT(new FallenStarBlock(Block.Settings.copy(Blocks.AMETHYST_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK).resistance(1200).hardness(52f).luminance(s -> 15).ticksRandomly()), itemSettings()),
+    FALLEN_STAR_FRAGMENT(new FallenStarBlock(Block.Settings.copy(Blocks.AMETHYST_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK).resistance(1200).hardness(52f).luminance(s -> 15).ticksRandomly()), itemSettings().rarity(Rarity.UNCOMMON)),
 
     SHALE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
     CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.STONE).resistance(1200).hardness(52f)), itemSettings()),
@@ -293,7 +293,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     ENDERMAN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     DAERDRI_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.RARE)),
-    DEAD_IRON_GOLEM(new Block(Block.Settings.copy(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)), itemSettings().rarity(Rarity.UNCOMMON)),
+    DEAD_IRON_GOLEM(new HorizontalBlock(Block.Settings.copy(Blocks.IRON_BLOCK)), itemSettings().rarity(Rarity.RARE)),
 
     //heads
     HEAD_ZOMBIE_ALEX(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
@@ -309,10 +309,10 @@ public enum WHNature implements ItemEnum, BlockEnum {
     HEAD_ROTTEN_STEVE(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
 
     //cave paintings
-    ERDSTONE_CAVE_PAINTING_PORTRAIT(new CavePainting(Block.Settings.copy(Blocks.STONE), "portrait"), itemSettings()),
-    ERDSTONE_CAVE_PAINTING_ZOMBIES(new CavePainting(Block.Settings.copy(Blocks.STONE), "zombie"), itemSettings()),
-    ERDSTONE_CAVE_PAINTING_HOME(new CavePainting(Block.Settings.copy(Blocks.STONE), "home"), itemSettings()),
-    ERDSTONE_CAVE_PAINTING_FAMILY(new CavePainting(Block.Settings.copy(Blocks.STONE), "family"), itemSettings()),
+    ERDSTONE_CAVE_PAINTING_PORTRAIT(new CavePainting(Block.Settings.copy(Blocks.STONE), "portrait"), itemSettings().rarity(Rarity.EPIC)),
+    ERDSTONE_CAVE_PAINTING_ZOMBIES(new CavePainting(Block.Settings.copy(Blocks.STONE), "zombie"), itemSettings().rarity(Rarity.EPIC)),
+    ERDSTONE_CAVE_PAINTING_HOME(new CavePainting(Block.Settings.copy(Blocks.STONE), "home"), itemSettings().rarity(Rarity.EPIC)),
+    ERDSTONE_CAVE_PAINTING_FAMILY(new CavePainting(Block.Settings.copy(Blocks.STONE), "family"), itemSettings().rarity(Rarity.EPIC)),
 
     // Tree Seeds
     //DIVINE_ACORN(new SeedBlock(Blocks.OAK_SAPLING)),

@@ -291,7 +291,6 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.THICK, WHNature.APPLE_SAPLING.asItem(), REGENERATION_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.GOLD_LEAF_MAPLE_SAPLING.asItem(), REGENERATION_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.WARM_BIRCH_SAPLING.asItem(), REGENERATION_WEAK.potion);
-        registerRecipe(Potions.THICK, WHNature.BLACK_DAHLIA.asItem(), NAUSEA_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.FLOWERING_CACTUS.asItem(), REGENERATION_WEAK.potion);
         registerRecipe(Potions.THICK, Blocks.CACTUS.asItem(), Potions.MUNDANE);
         registerRecipe(Potions.THICK, WHNature.THORNY_BUSH.asItem(), Potions.HARMING);
@@ -304,7 +303,7 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.THICK, WHNature.HONEYCLUSTER.asItem(), REGENERATION_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.LAVENDER.asItem(), REGENERATION_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.TALL_LAVENDER.asItem(), REGENERATION_WEAK.potion);
-        registerRecipe(Potions.THICK, WHNature.MOSS_SPROUTLET.asItem(), Potions.MUNDANE);
+        registerRecipe(Potions.THICK, WHNature.MOSS_SPROUTLET.asItem(), NAUSEA_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.ORANGE_BEAUTY.asItem(), NIGHT_VISION_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.BIG_FERN.asItem(), STRENGTH_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.LEATHERLEAF_FERN.asItem(), STRENGTH_WEAK.potion);

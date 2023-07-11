@@ -102,12 +102,14 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     //WATER_SHOWERER(new ShowerBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque().ticksRandomly()), itemSettings()),
     SPRINKLER(new SprinklerBlock(), itemSettings()),
     WATER_STRAINER(new WaterStrainerBlock(), itemSettings()),
+
     //WITCH_LADLE(new LadleBlock(Block.Settings.copy(Blocks.OAK_PLANKS).breakInstantly().noCollision().nonOpaque()), itemSettings()),
+    DEPLETED_CONDUIT(new DeadConduit(Block.Settings.copy(Blocks.CONDUIT)), itemSettings().rarity(Rarity.UNCOMMON)),
+    NETHER_CONDUIT(new NetherConduit(Block.Settings.copy(Blocks.CONDUIT)), itemSettings().rarity(Rarity.RARE)),
 
     COUNTER_DRAWER(new CounterDrawerBlock(Block.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()), itemSettings()),
     COUNTER(new CounterBlock(Block.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()), itemSettings()),
     COUNTER_CORNER(new CounterCornerBlock(Block.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()), itemSettings()),
-
     CABINET(new CabinetBlock(Block.Settings.copy(Blocks.BARREL).nonOpaque()), itemSettings()),
     EMPTY_BOOKSHELF(new Block(Block.Settings.copy(Blocks.BOOKSHELF)), itemSettings()),
     ANTHRO_BOOKSHELF(new Block(Block.Settings.copy(Blocks.BOOKSHELF)), itemSettings()),
@@ -430,9 +432,11 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     // Potted flowers
     POTTED_ANCIENT_FLOWER(new GlowingPotBlock(WHNature.ANCIENT_FLOWER_BLOCK)),
-    POTTED_BLACK_DAHLIA(new PotBlock(WHNature.BLACK_DAHLIA)),
+    //POTTED_BLACK_DAHLIA(new PotBlock(WHNature.BLACK_DAHLIA)),
     POTTED_FLUFFY_DANDELION(new PotBlock(WHNature.FLUFFY_DANDELION)),
     POTTED_FADED_SOUL_ROSE(new PotBlock(WHNature.FADED_SOUL_ROSE)),
+    POTTED_SOUL_ROSE(new PotBlock(WHNature.SOUL_ROSE)),
+    POTTED_BLUE_SOUL_ROSE(new PotBlock(WHNature.BLUE_SOUL_ROSE)),
     POTTED_HONEYCLUSTER(new PotBlock(WHNature.HONEYCLUSTER)),
     POTTED_LAVENDER(new PotBlock(WHNature.LAVENDER)),
     POTTED_ORANGE_BEAUTY(new PotBlock(WHNature.ORANGE_BEAUTY)),
@@ -447,12 +451,28 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     POTTED_YELLOW_POPPY(new PotBlock(WHNature.YELLOW_POPPY)),
     POTTED_WHITE_POPPY(new PotBlock(WHNature.WHITE_POPPY)),
     POTTED_SNOWFLOWER(new PotBlock(WHNature.SNOWFLOWER)),
+    POTTED_FIREFERN(new PotBlock(WHNature.FIREFERN)),
+    POTTED_WILD_FIRE_PEPPERS(new PotBlock(WHNature.WILD_FIRE_PEPPER)),
+    POTTED_WILD_BEET(new PotBlock(WHNature.WILD_BEET)),
+    POTTED_WILD_POTATO(new PotBlock(WHNature.WILD_POTATO)),
+    POTTED_WILD_CARROT(new PotBlock(WHNature.WILD_CARROT)),
+    POTTED_WILD_CAVE_ROOT(new PotBlock(WHNature.WILD_CAVE_ROOT)),
+    POTTED_WILD_AMETHYSTLE(new PotBlock(WHNature.WILD_AMETHYSTLE)),
+    POTTED_WILD_HERBS(new PotBlock(WHNature.WILD_HERBS)),
+    POTTED_WILD_MINERS_LETTUCE(new PotBlock(WHNature.WILD_MINERS_LETTUCE)),
+    POTTED_WILD_ONION(new PotBlock(WHNature.WILD_ONION)),
+    POTTED_WILD_PUFF_BALL(new PotBlock(WHNature.WILD_PUFF_BALL)),
+    POTTED_WILD_RICE(new PotBlock(WHNature.WILD_RICE)),
+    POTTED_WILD_WHEAT(new PotBlock(WHNature.WILD_WHEAT)),
+    POTTED_MOSS_SPROUTLET(new PotBlock(WHNature.MOSS_SPROUTLET)),
 
     // Potted mushrooms
     POTTED_GLOW_MUSHROOM(new PotBlock(WHNature.GLOW_MUSHROOM)),
     POTTED_PURPLE_MUSHROOM(new PotBlock(WHNature.PURPLE_MUSHROOM)),
     //POTTED_SOULSPORE(new PotBlock(ModNaturalBlocks.SOULSPORE_SINGLE)),
     //POTTED_GOOP_CAP(new PotBlock(ModNaturalBlocks.GOOP_CAP)),
+    POTTED_SPORE_SPREADER(new PotBlock(WHNature.SPORE_SPREADER)),
+    POTTED_FAN_MOLD(new PotBlock(WHNature.FAN_MOLD)),
 
     // Potted saplings
     POTTED_GOLD_LEAF_MAPLE_SAPLING(new PotBlock(WHNature.GOLD_LEAF_MAPLE_SAPLING)),
@@ -462,7 +482,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     // Other potted plants
     POTTED_FOXTAIL_FERN(new PotBlock(WHNature.FOXTAIL_FERN)),
     POTTED_LEATHERLEAF_FERN(new PotBlock(WHNature.LEATHERLEAF_FERN)),
-    POTTED_MOSS_SPROUTLET(new PotBlock(WHNature.MOSS_SPROUTLET)),
     //POTTED_ORANGE_FERN(new PotBlock(ModNaturalBlocks.ORANGE_FERN)),
     POTTED_SPROUT(new PotBlock(WHNature.SPROUT)),
     POTTED_DESERT_SHRUB(new PotBlock(WHNature.DESERT_SHRUB)),
@@ -472,7 +491,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     POTTED_FLOWERING_CACTUS(new PotBlock(WHNature.FLOWERING_CACTUS)),
     POTTED_JUNGLE_BUSH(new PotBlock(WHNature.JUNGLE_BUSH)),
     //POTTED_PANFLOWERS(new PotBlock(WHNature.PANFLOWERS)),
-    POTTED_FIREFERN(new PotBlock(WHNature.FIREFERN)),
     POTTED_WEEPING_GHOST_WILLOW(new WillowPotBlock(WHNature.WEEPING_GHOST_WILLOW)),
     //POTTED_FIDDLEHEAD_FERN(new PotBlock(ModNaturalBlocks.FIDDLEHEAD_FERN)),
 
@@ -1104,9 +1122,9 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     PICKAXE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
     AXE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
     HOE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
+    CHAINED_CHEST(new RustedChestBlock(Block.Settings.copy(Blocks.OAK_WOOD).sounds(BlockSoundGroup.CHAIN)), itemSettings().rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
 
     //RUSTED_CHEST(new RustedChestBlock(Block.Settings.copy(Blocks.OAK_WOOD)), itemSettings().group(BOOKS).rarity(Rarity.RARE)),
-    //CHAINED_RUSTED_CHEST(new RustedChestBlock(Block.Settings.copy(Blocks.OAK_WOOD)), itemSettings().group(BOOKS).rarity(Rarity.RARE)),
     //BONFIRE(new ModCampfireBlock(true, 1, Block.Settings.copy(Blocks.CAMPFIRE)), itemSettings().rarity(Rarity.RARE)),
 
     //rare sandstone temple blocks go here

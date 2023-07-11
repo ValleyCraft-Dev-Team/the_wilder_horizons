@@ -41,7 +41,10 @@ public class RenderLayers {
         //put(PRIMSTEEL_DOOR, cullout);
         //put(PRIMSTEEL_TRAPDOOR, cullout);
         put(SCULK_BLOSSOM, cullout);
-        //put(CHAINED_RUSTED_CHEST, cullout);
+        put(CHAINED_CHEST, cullout);
+        put(DEAD_IRON_GOLEM, cullout);
+        put(DEPLETED_CONDUIT, cullout);
+        put(NETHER_CONDUIT, cullout);
         put(CRAFTING_MAT, cullout);
         //put(WITCH_LADLE, cullout);
         put(FIREGUARD, cullout);
@@ -99,10 +102,11 @@ public class RenderLayers {
         put(YELLOW_CUSHION, cullout);
         put(WHITE_CUSHION, cullout);
         put(RED_CUSHION, cullout);
+        put(DESERT_EMPEROR_THRONE, cullout);
 
         // Flowers and Potted Flowers
-        put(BLACK_DAHLIA, cullout);
-        put(POTTED_BLACK_DAHLIA, cullout);
+        //put(BLACK_DAHLIA, cullout);
+        //put(POTTED_BLACK_DAHLIA, cullout);
         put(FLUFFY_DANDELION, cullout);
         put(POTTED_FLUFFY_DANDELION, cullout);
         put(FADED_SOUL_ROSE, cullout);
@@ -142,6 +146,10 @@ public class RenderLayers {
         put(POTTED_GLOW_MUSHROOM, cullout);
         put(PURPLE_MUSHROOM, cullout);
         put(POTTED_PURPLE_MUSHROOM, cullout);
+        put(POTTED_FAN_MOLD, translucent);
+        put(POTTED_SPORE_SPREADER, cullout);
+        put(POTTED_SOUL_ROSE, cullout);
+        put(POTTED_BLUE_SOUL_ROSE, cullout);
 
         put(LILY_OF_THE_MOUNTAINS, cullout);
         put(POTTED_LILY_OF_THE_MOUNTAINS, cullout);

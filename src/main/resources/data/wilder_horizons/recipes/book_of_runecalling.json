@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " g ",
+        "EWE",
+        " g "
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "E": {
+            "item": "minecraft:enchanted_book"
+        },
+        "W": {
+            "item": "minecraft:writable_book"
+        }
+    },
+    "result": {
+        "item": "wilder_horizons:book_of_runecalling",
+        "count": 1
+    }
+}

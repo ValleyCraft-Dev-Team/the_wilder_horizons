@@ -76,6 +76,6 @@ public class OrangeCoralDaggerToolMaterial implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(WHMiscItems.GUARDIAN_SPIKE);
+        return Ingredient.ofItems();
     }
 }

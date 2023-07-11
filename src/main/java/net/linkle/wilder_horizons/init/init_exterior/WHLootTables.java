@@ -742,7 +742,7 @@ public class WHLootTables {
             .conditionally(RandomChanceLootCondition.builder(0.8f)
                     )
         );
-        builder.with(ItemEntry.builder(WHMiscItems.TOTEM_OF_PACIFISM)
+        builder.with(ItemEntry.builder(WHMiscItems.TOTEM_OF_PEACE)
             .conditionally(RandomChanceLootCondition.builder(0.5f))
         );
         LootTableHelper.appendLoot(EntityType.VILLAGER.getLootTableId(), builder);
@@ -809,7 +809,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(Items.EMERALD)
             .conditionally(RandomChanceLootCondition.builder(0.8f))
         );
-        builder.with(ItemEntry.builder(WHMiscItems.TOTEM_OF_PACIFISM)
+        builder.with(ItemEntry.builder(WHMiscItems.TOTEM_OF_PEACE)
             .conditionally(RandomChanceLootCondition.builder(0.25f))
         );
         LootTableHelper.appendLoot(EntityType.WANDERING_TRADER.getLootTableId(), builder);
@@ -818,7 +818,6 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         lifeGem(builder, 0.35f);
         LootTableHelper.appendLoot(EntityType.WITCH.getLootTableId(), builder);
-        
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
@@ -838,6 +837,9 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(Items.EMERALD)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1), false))
             .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.TOTEM_OF_PEACE)
+                .conditionally(RandomChanceLootCondition.builder(0.05f))
         );
         builder.conditionally(KilledByPlayerLootCondition.builder());
         LootTableHelper.appendLoot(EntityType.WITCH.getLootTableId(), builder);

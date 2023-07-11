@@ -1,19 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#O#",
+    "OEO",
+    "#O#"
+  ],
   "key": {
     "#": {
       "item": "minecraft:crying_obsidian"
     },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
     "E": {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:ender_pearl"
     }
   },
-  "pattern": [
-    "###",
-    "#E#",
-    "###"
-  ],
   "result": {
-    "item": "minecraft:ender_chest"
+    "item": "minecraft:ender_chest",
+    "count": 1
   }
 }

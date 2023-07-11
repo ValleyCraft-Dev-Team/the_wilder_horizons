@@ -19,6 +19,6 @@ public class RockItem extends ThrowableItem {
     
     @Override
     protected int getCooldownTick() {
-        return 1 * 10;
+        return 30;
     }
 }

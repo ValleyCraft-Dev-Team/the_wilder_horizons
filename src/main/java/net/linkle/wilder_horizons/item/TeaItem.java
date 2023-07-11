@@ -21,8 +21,8 @@ public class TeaItem extends FoodItem {
         return UseAction.DRINK;
     }
 
-    public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
-        ItemStack itemStack = super.finishUsing(stack, world, user);
-        return user instanceof PlayerEntity && ((PlayerEntity)user).getAbilities().creativeMode ? itemStack : new ItemStack(WHMedicines.TEA_MUG);
-    }
+    //public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
+    //    ItemStack itemStack = super.finishUsing(stack, world, user);
+    //    return user instanceof PlayerEntity && ((PlayerEntity)user).getAbilities().creativeMode ? itemStack : new ItemStack(WHMedicines.TEA_MUG);
+    //}
 }

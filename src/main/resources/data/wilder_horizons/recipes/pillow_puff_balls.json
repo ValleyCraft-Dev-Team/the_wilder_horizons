@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:puff_ball"
+        },
+        {
+            "item": "minecraft:puff_ball"
+        },
+        {
+            "item": "wilder_horizons:cloth"
+        }
+    ],
+    "result": {
+        "item": "wilder_horizons:pillow",
+        "count": 1
+    }
+}

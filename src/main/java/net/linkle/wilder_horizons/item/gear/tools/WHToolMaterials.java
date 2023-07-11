@@ -53,10 +53,10 @@ public enum WHToolMaterials implements ToolMaterial {
     //BRASIUM(2, 770, 6.0F, 2.0F, 14, () -> {
     //    return Ingredient.ofItems(ItemsModded.BRASIUM_INGOT);
     //}),
-    ELDER_GUARDIAN(2, 780, 6.0F, 2.0F, 14, () -> {
-        return Ingredient.ofItems(WHMiscItems.GUARDIAN_SPIKE);
-    }),
-    GUARDIAN(2, 1561, 6.0F, 4.0F, 14, () -> {
+    //GUARDIAN(2, 780, 6.0F, 2.0F, 14, () -> {
+    //    return Ingredient.ofItems(WHMiscItems.GUARDIAN_SPIKE);
+    //}),
+    ELDER_GUARDIAN(2, 1561, 6.0F, 4.0F, 14, () -> {
         return Ingredient.ofItems(WHMiscItems.ELDER_GUARDIAN_SPIKE);
     }),
     BAMBOO(2, 220, 7.0F, 1.0F, 15, () -> {

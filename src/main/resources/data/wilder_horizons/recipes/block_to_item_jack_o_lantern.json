@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:jack_o_lantern"
+        }
+    ],
+    "result": {
+        "item": "wilder_horizons:baked_pumpkin_slice",
+        "count": 4
+    }
+}

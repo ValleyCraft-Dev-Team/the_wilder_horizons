@@ -9,13 +9,14 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
 
 public enum WHArmors implements ItemEnum {
     // plant clothing
-    FRIENDLY_MASK(new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, settings())),
+    FRIENDLY_MASK(new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
 
     VINE_CROWN(new ArmorItem(WHArmorMaterials.VINE_CROWN, EquipmentSlot.HEAD, settings())),
 
@@ -37,8 +38,8 @@ public enum WHArmors implements ItemEnum {
     //wraith
     RIBCAGE(new ArmorItem(WHArmorMaterials.RIBCAGE, EquipmentSlot.CHEST, settings())),
     WITHER_RIBCAGE(new ArmorItem(WHArmorMaterials.WITHER_RIBCAGE, EquipmentSlot.CHEST, settings())),
-    WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, settings())),
-    WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, settings())),
+    WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
+    WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
 
     // shroomleather items
     HOOD(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, settings())),
@@ -55,14 +56,14 @@ public enum WHArmors implements ItemEnum {
     // leather items
     COWPOKE_HAT(new ArmorItem(WHArmorMaterials.COWPOKE_HAT, EquipmentSlot.HEAD, settings())),
 
-    UNDYING_TALISMAN(new ArmorItem(WHArmorMaterials.UNDYING_TALISMAN, EquipmentSlot.CHEST, settings())),
+    UNDYING_TALISMAN(new ArmorItem(WHArmorMaterials.UNDYING_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
 
-    LUCKY_FISHING_HOOK_TALISMAN(new ArmorItem(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, settings())),
+    LUCKY_FISHING_HOOK_TALISMAN(new ArmorItem(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
 
     WARM_BOOTS(new ArmorItem(WHArmorMaterials.WARM_BOOTS, EquipmentSlot.FEET, settings())),
 
     // brasium
-    NIGHT_VISION_GOGGLES(new ArmorItem(WHArmorMaterials.NIGHT_VISION_GOGGLES, EquipmentSlot.HEAD, settings())),
+    NIGHT_VISION_GOGGLES(new ArmorItem(WHArmorMaterials.NIGHT_VISION_GOGGLES, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
 
     // canvas
     CANVAS_HELMET(new ArmorItem(WHArmorMaterials.CANVAS, EquipmentSlot.HEAD, settings())),

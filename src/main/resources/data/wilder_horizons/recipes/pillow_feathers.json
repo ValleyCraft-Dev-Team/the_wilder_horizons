@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:feathers"
+        },
+        {
+            "item": "wilder_horizons:cloth"
+        }
+    ],
+    "result": {
+        "item": "wilder_horizons:pillow",
+        "count": 1
+    }
+}

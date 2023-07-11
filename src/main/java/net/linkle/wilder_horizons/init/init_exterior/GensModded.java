@@ -39,8 +39,8 @@ public class GensModded {
         List<PlacementModifier> list;
         var vegetal = GenerationStep.Feature.VEGETAL_DECORATION;
         
-        placed = registerPlant(createConfig("black_dahlia", 60, WHNature.BLACK_DAHLIA), 20);
-        BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.FLOWER_FORESTS), vegetal, placed.getKey().get());
+        //placed = registerPlant(createConfig("black_dahlia", 60, WHNature.BLACK_DAHLIA), 20);
+        //BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.FLOWER_FORESTS), vegetal, placed.getKey().get());
         
         placed = registerPlant(createConfig("flowering_cactus", 60, WHNature.FLOWERING_CACTUS), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.tag(ConventionalBiomeTags.DESERT), vegetal, placed.getKey().get());
