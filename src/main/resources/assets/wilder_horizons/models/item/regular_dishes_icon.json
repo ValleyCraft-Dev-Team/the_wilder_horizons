@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "wilder_horizons:item/food/no_tier/sauteed_eyes_and_mushrooms"
-  }
-}

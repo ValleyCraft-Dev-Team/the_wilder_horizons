@@ -47,7 +47,6 @@ public enum WHFoodIngredients implements ItemEnum {
 
     //desert temple
     MAIZE(new AliasedBlockItem(WHNature.MAIZE.block, settings().rarity(Rarity.RARE).food(Foods.create(3, Nourishment.LOW)))),
-    STAMINELLA_BERRY(new AliasedBlockItem(WHNature.STAMINELLA_BERRY_PLANT.block, settings().food(Foods.create(4, Nourishment.POOR)))),
     ANCIENT_FLOWER(new AncientFlowerAliasedBlock(WHNature.ANCIENT_FLOWER_BLOCK.block, settings().rarity(Rarity.RARE).food(Foods.create(4, Nourishment.GOOD)))),
     //ANCIENT_FLOWER(new FoodItem(settings(), 6, 0.7f, new FoodStatusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 5 * 20)))
     //        .addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_7")),

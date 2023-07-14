@@ -1,6 +1,0 @@
-{
-  "parent": "wilder_horizons:item/ancient_bamboo_staff",
-  "textures": {
-    "layer0": "wilder_horizons:item/tools/overrides/ancient_bamboo_staff"
-  }
-}

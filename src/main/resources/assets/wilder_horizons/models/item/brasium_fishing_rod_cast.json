@@ -1,6 +1,0 @@
-{
-  "parent": "item/fishing_rod",
-  "textures": {
-    "layer0": "wilder_horizons:item/tools/fishing_rods/brasium_fishing_rod_cast"
-  }
-}

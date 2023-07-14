@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "wilder_horizons:item/bug_items/big_bottle_sculk_snail"
-  }
-}

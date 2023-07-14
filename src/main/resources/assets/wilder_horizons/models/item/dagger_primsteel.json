@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "wilder_horizons:item/tools/daggers/primsteel_dagger"
-  }
-}

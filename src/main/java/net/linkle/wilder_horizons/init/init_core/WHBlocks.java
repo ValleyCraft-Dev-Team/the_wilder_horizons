@@ -159,8 +159,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     CANVAS_CARPET(new CarpetBlock(Block.Settings.copy(net.minecraft.block.Blocks.BROWN_CARPET).sounds(BlockSoundGroup.MOSS_CARPET)), itemSettings()),
     LEATHER_BLOCK(new Block(Block.Settings.copy(Blocks.BROWN_WOOL).strength(0.8f)), itemSettings()),
     LEATHER_CARPET(new CarpetBlock(Block.Settings.copy(Blocks.BROWN_CARPET).strength(0.8f)), itemSettings()),
-    TREATED_LEATHER_BLOCK(new Block(Block.Settings.copy(Blocks.BROWN_WOOL).strength(0.8f)), itemSettings()),
-    TREATED_LEATHER_CARPET(new CarpetBlock(Block.Settings.copy(Blocks.BROWN_CARPET).strength(0.8f)), itemSettings()),
+    SHROOMLEATHER_BLOCK(new Block(Block.Settings.copy(Blocks.BROWN_WOOL).strength(0.8f)), itemSettings()),
+    SHROOMLEATHER_CARPET(new CarpetBlock(Block.Settings.copy(Blocks.BROWN_CARPET).strength(0.8f)), itemSettings()),
     //MEMBRANE_BLOCK(new MembraneBlock(Block.Settings.copy(Blocks.GLASS).sounds(net.minecraft.sound.BlockSoundGroup.WOOL).strength(0.8f).breakInstantly()), itemSettings()),
     /**Membrane Carpet -> 1.1?**/
 

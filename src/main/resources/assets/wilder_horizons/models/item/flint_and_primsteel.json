@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "wilder_horizons:item/special/flint_and_primsteel_single_use"
-  }
-}

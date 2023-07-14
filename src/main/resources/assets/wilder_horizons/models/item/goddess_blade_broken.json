@@ -1,6 +1,0 @@
-{
-  "parent": "wilder_horizons:item/goddess_blade",
-  "textures": {
-    "layer0": "wilder_horizons:item/special/goddess_blade_broken"
-  }
-}
