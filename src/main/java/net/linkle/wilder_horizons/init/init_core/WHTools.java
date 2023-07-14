@@ -80,6 +80,9 @@ public enum WHTools implements ItemEnum, ToolConstants {
     BRASIUM_COMPOUND_BOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
     BRASIUM_CROSSBOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
 
+    //wardens roar
+    //WARDENS_ROAR(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
+
     // Knives
     KNIFE_WOODEN(new KnifeBase(ToolMaterials.WOOD, KNIFE_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),
     KNIFE_STONE(new KnifeBase(ToolMaterials.STONE, KNIFE_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),

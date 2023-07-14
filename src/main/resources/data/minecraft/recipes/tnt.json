@@ -1,20 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#P#",
-    "P#P",
-    "#P#"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:gunpowder"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "GSG",
+        "#G#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:paper"
+        },
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "S": {
+            "tag": "c:string_items"
+        }
     },
-    "P": {
-      "item": "minecraft:paper"
+    "result": {
+        "item": "minecraft:tnt",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "minecraft:tnt",
-    "count": 1
-  }
 }

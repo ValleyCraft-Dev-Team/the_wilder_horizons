@@ -24,7 +24,7 @@ public enum WHFoodsSpecial implements ItemEnum {
     HEARTY_SKEWER(new Tier1Normal(settings(), 6, Nourishment.NORMAL, StatusEffects.STRENGTH)),
     HONEYED_APPLE(new Tier1Normal(settings(), 6, Nourishment.NORMAL, StatusEffects.REGENERATION)),
     SAVORY_SHROOM_SKEWER(new Tier1Normal(settings(), 6, Nourishment.NORMAL, StatusEffects.RESISTANCE)),
-    SHIVERCAP_SKEWER(new Tier1Normal(settings(), 6, Nourishment.NORMAL, StatusEffects.FIRE_RESISTANCE)),
+    GLITTERING_WISP_KIN_BREAD(new Tier1Normal(settings(), 6, Nourishment.NORMAL, StatusEffects.FIRE_RESISTANCE)),
     SPICY_CALAMARI_SKEWER(new Tier1Normal(settings(), 6, Nourishment.NORMAL, StatusEffects.WATER_BREATHING)),
     
     // tier 2

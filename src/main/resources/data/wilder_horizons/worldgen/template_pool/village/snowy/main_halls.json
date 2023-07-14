@@ -1,0 +1,15 @@
+{
+  "name": "wilder_horizons:village/snowy/main_halls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wilder_horizons:village/snowy/main_halls/main_hall_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

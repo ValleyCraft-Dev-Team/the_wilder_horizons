@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/misc/purified_water_new"
+    "layer0": "wilder_horizons:item/food/water/purified_water"
   }
 }

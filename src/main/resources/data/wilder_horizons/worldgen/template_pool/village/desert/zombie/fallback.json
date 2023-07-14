@@ -1,0 +1,15 @@
+{
+  "name": "wilder_horizons:village/desert/zombie/fallback",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wilder_horizons:village/desert/zombie/fallback/fallback_house_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

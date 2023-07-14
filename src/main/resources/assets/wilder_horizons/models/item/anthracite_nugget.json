@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/misc/anthracite_nugget"
+    "layer0": "wilder_horizons:item/misc/coal_nugget"
   }
 }

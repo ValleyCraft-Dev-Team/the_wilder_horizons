@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/soap_regular"
+    "layer0": "wilder_horizons:item/food/medicinal/soap_regular"
   }
 }

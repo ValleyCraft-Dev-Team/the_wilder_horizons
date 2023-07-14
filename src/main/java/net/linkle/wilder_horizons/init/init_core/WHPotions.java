@@ -237,7 +237,11 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, Items.BONE_MEAL, Potions.HARMING);
         registerRecipe(Potions.AWKWARD, WHMiscItems.SMALL_BONE.item, Potions.HARMING);
         registerRecipe(Potions.AWKWARD, WHMiscItems.BONEFIN_SKELETON.item, Potions.HARMING);
-        registerRecipe(Potions.AWKWARD, WHMiscItems.SKULL_SHARD.item, Potions.STRONG_HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.ALLAGER_SKULL_SHARD.item, Potions.STRONG_HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.MIDLANDER_SKULL_SHARD.item, Potions.STRONG_HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.PIGLIN_SKULL_SHARD.item, Potions.STRONG_HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.ENDERMAN_SKULL_SHARD.item, Potions.STRONG_HARMING);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.DAERDRIN_SKULL_SHARD.item, Potions.STRONG_HARMING);
         registerRecipe(Potions.AWKWARD, WHMiscItems.WITHER_BONE.item, WITHER_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHMiscItems.SMALL_WITHER_BONE.item, WITHER_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHMiscItems.WITHER_SKULL_SHARD.item, WITHER_STRONG.potion);

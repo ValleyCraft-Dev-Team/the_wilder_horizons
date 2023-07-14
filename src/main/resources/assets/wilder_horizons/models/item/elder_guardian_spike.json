@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/misc/elder_guardian_spike"
+    "layer0": "wilder_horizons:item/boss_loot/elder_guardian_spike"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/misc/toxic_sludge_bucket"
+    "layer0": "wilder_horizons:item/buckets/toxic_sludge_bucket"
   }
 }

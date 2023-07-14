@@ -63,7 +63,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     STABLEHAND_COUNTER(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     /**hunter poi**/
     HUNTING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-
     /**desert **/
     DESERT_EMPEROR_THRONE(new CushionBlock((DyeColor.YELLOW)), itemSettings()),
     /**armorer**/
@@ -72,25 +71,11 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     DESERT_WEAPONSMITHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
     /**chef**/
     DESERT_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
+    SAVANNA_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    SNOW_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    TAIGA_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
     /**clothier**/
     DESERT_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
-
-    /**snow weaponsmith**/
-    SNOW_WEAPONSMITHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**savanna chef**/
-    SAVANNA_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**snow chef**/
-    SNOW_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**taiga chef**/
-    TAIGA_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**beekeeper poi**/
-    BEEKEEPER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**lumberjack poi**/
-    LUMBERJACK_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**gardener poi**/
-    GARDENER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**architect poi**/
-    ARCHITECT_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
     PLAINS_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
     SAVANNA_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
     SNOW_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
@@ -184,8 +169,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     BRAZIER(new BrazierBlock(15, 2), itemSettings()),
     SOUL_BRAZIER(new BrazierBlock(10, 2), itemSettings()),
-    IRON_BRAZIER(new IronBrazierBlock(true, 1, Block.Settings.copy(Blocks.IRON_BLOCK).strength(4f, 5f).luminance(lightFromLit(15)).nonOpaque().ticksRandomly()), itemSettings()),
-    IRON_SOUL_BRAZIER(new IronBrazierBlock(false, 2, Block.Settings.copy(Blocks.IRON_BLOCK).strength(4f, 5f).luminance(lightFromLit(10)).nonOpaque().ticksRandomly()), itemSettings()),
+    //IRON_BRAZIER(new IronBrazierBlock(true, 1, Block.Settings.copy(Blocks.IRON_BLOCK).strength(4f, 5f).luminance(lightFromLit(15)).nonOpaque().ticksRandomly()), itemSettings()),
+    //IRON_SOUL_BRAZIER(new IronBrazierBlock(false, 2, Block.Settings.copy(Blocks.IRON_BLOCK).strength(4f, 5f).luminance(lightFromLit(10)).nonOpaque().ticksRandomly()), itemSettings()),
 
     CAMPFIRE_POT(new CampfirePotBlock(true, 1, Block.Settings.copy(Blocks.CAULDRON).luminance(lightFromLit(15)).ticksRandomly()), itemSettings()),
     SOUL_CAMPFIRE_POT(new CampfirePotBlock(false, 2, Block.Settings.copy(Blocks.CAULDRON).luminance(lightFromLit(10)).ticksRandomly()), itemSettings()),
@@ -330,7 +315,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     TINTED_GLASS_TRAPDOOR(new TrapdoorBlock(Block.Settings.of(Material.GLASS, Blocks.TINTED_GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
 
     REDSTONE_LANTERN(new RedstoneLanternBlock(), itemSettings()),
-    REDSTONE_LAMPTERN(new RedstoneLampternBlock(), itemSettings()),
+    //REDSTONE_LAMPTERN(new RedstoneLampternBlock(), itemSettings()),
     GLOWSQUID_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 8)), itemSettings()),
     //BRIMSTONE_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
     //AMBER_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
@@ -535,7 +520,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     // raw blocks of "_____"
     //RAW_GOLEMITE_BLOCK(new Block(Block.Settings.copy(Blocks.IRON_BLOCK).strength(4.1f, 5.0f)), itemSettings()),
-    RAW_PRIMSTEEL_BLOCK(new Block(Block.Settings.copy(Blocks.IRON_BLOCK).strength(4.1f, 5.0f)), itemSettings()),
     CHARCOAL_BLOCK(new Block(Block.Settings.copy(Blocks.COAL_BLOCK)), itemSettings()),
     
     // not strictly either
@@ -543,7 +527,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     SALTPETER_BLOCK(new Block(Block.Settings.copy(Blocks.CALCITE).strength(4.1f, 5.0f)), itemSettings()),
 
     // refined blocks of "___"
-    ROSEGOLD_BLOCK(new Block(Block.Settings.copy(Blocks.GOLD_BLOCK).strength(4.1f, 5.0f)), itemSettings()),
+    RAW_BRASIUM_BLOCK(new Block(Block.Settings.copy(Blocks.GOLD_BLOCK).strength(4.1f, 5.0f)), itemSettings()),
+    BRASIUM_BLOCK(new Block(Block.Settings.copy(Blocks.GOLD_BLOCK).strength(4.1f, 5.0f)), itemSettings()),
     SCULKERITE_BLOCK(new Block(Block.Settings.copy(Blocks.NETHERITE_BLOCK)), itemSettings()),
 
     //PRIMSTEEL_PLATE_BLOCK(new Block(Block.Settings.copy(Blocks.IRON_BLOCK)), itemSettings()),
@@ -1046,7 +1031,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     SANDSTONE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
     RED_SANDSTONE_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.RED_SANDSTONE).nonOpaque()), itemSettings()),
     RED_SANDSTONE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
-    SCORCHSTONE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
+    //SCORCHSTONE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
     SALT_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
     CARMINE_COBBLESTONE_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.COBBLESTONE).nonOpaque()), itemSettings()),
     CARMINE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
@@ -1059,7 +1044,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     BASALT_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
     MARBLE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
     SHALE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE).nonOpaque()), itemSettings()),
-    ADVENTURINE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
+    //ADVENTURINE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.STONE_BRICKS).nonOpaque()), itemSettings()),
     DEEPSLATE_TILE_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.DEEPSLATE).nonOpaque()), itemSettings()),
     DEEPSLATE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.DEEPSLATE).nonOpaque()), itemSettings()),
     NETHER_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.NETHER_BRICKS).nonOpaque()), itemSettings()),

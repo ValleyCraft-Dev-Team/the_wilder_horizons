@@ -33,7 +33,7 @@ public enum WHToolMaterials implements ToolMaterial {
     //    return Ingredient.ofItems(ItemsModded.ROSEGOLD_INGOT);
     //}),
     BRASIUM(1, 440, 7.0F, 2.0F, 15, () -> {
-        return Ingredient.ofItems(WHMiscItems.BRASIUM_ALLOY);
+        return Ingredient.ofItems(WHMiscItems.BRASIUM_INGOT);
     }),
     COPPER(1, 250, 6.0F, 2.0F, 15, () -> {
         return Ingredient.ofItems(Items.COPPER_INGOT);
@@ -78,7 +78,7 @@ public enum WHToolMaterials implements ToolMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     }),
     ECHOCHALCUM(4, 2031, 9.0F, 4.0F, 22, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM});
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM_INGOT});
     }),
     AMETHYST(2, 190, 5.0F, 2.0F, 22, () -> {
         return Ingredient.ofItems(Items.AMETHYST_SHARD);
@@ -105,10 +105,10 @@ public enum WHToolMaterials implements ToolMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     }),
     ECHOCHALCUM_EXTENDED(4, 3047, 9.0F, 4.0F, 22, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM});
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM_INGOT});
     }),
     BRASIUM_EXTENDED(1, 660, 7.0F, 2.0F, 15, () -> {
-        return Ingredient.ofItems(WHMiscItems.BRASIUM_ALLOY);
+        return Ingredient.ofItems(WHMiscItems.BRASIUM_INGOT);
     });
 
     private final int miningLevel;

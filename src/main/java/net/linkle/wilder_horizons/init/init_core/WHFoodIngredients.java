@@ -24,6 +24,7 @@ public enum WHFoodIngredients implements ItemEnum {
     PURIFIED_WATER(new BottleItem(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 2, Nourishment.NORMAL).hideTooltip()),
     BRINE(new Tier1Bottle(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 1, Nourishment.POOR, StatusEffects.NAUSEA).hideTooltip()),
     MILK(new BottleItem(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 1, Nourishment.EXCELLENT).setMilk()),
+    BUCKET_OF_EGG(new AlphaModItem(settings().recipeRemainder(Items.BUCKET).maxCount(1))),
     PURPLE_MUSHROOM_OIL(new Tier1Bottle(settings().recipeRemainder(net.minecraft.item.Items.GLASS_BOTTLE).maxCount(16), 2, Nourishment.POOR, StatusEffects.SLOWNESS).hideTooltip()),
     BUTTER(new FoodItem(settings(), 0, Nourishment.POOR)),
 

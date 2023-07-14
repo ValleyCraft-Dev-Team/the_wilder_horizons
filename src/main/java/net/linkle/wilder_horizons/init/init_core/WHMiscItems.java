@@ -64,7 +64,12 @@ public enum WHMiscItems implements ItemEnum {
 
     SMALL_BONE(new AlphaModItem(settings())),
     DRAGON_TOOTH(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
-    SKULL_SHARD(new AlphaModItem(settings())),
+    MIDLANDER_SKULL_SHARD(new AlphaModItem(settings())),
+    ALLAGER_SKULL_SHARD(new AlphaModItem(settings())),
+    PIGLIN_SKULL_SHARD(new AlphaModItem(settings())),
+    ENDERMAN_SKULL_SHARD(new AlphaModItem(settings())),
+    DAERDRIN_SKULL_SHARD(new AlphaModItem(settings())),
+
     SMALL_WITHER_BONE(new AlphaModItem(settings())),
     WITHER_BONE(new AlphaModItem(settings())),
     WITHER_SKULL_SHARD(new AlphaModItem(settings())),
@@ -84,7 +89,7 @@ public enum WHMiscItems implements ItemEnum {
     PIG_HIDE(new AlphaModItem(settings())),
     SHEEPSKIN(new AlphaModItem(settings())),
     ROTTEN_LEATHER(new AlphaModItem(settings())),
-    BEETLE_CARAPACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    //BEETLE_CARAPACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
 
     CLAY_JAR(new ClayJarItemEmpty(settings().maxCount(8))),
     WATER_FILLED_CLAY_JAR(new ClayJarItemWater(settings().maxCount(8), 0,0)),
@@ -93,12 +98,14 @@ public enum WHMiscItems implements ItemEnum {
     BEAST_CLAW(new AlphaModItem(settings())),
     BONEFIN_SKELETON(new AlphaModItem(settings())),
     //SOUL_GEM(new LifeGemItem(settings())),
+    CRACKING_SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
     SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
     SOUL_POWDER(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
     SOUL_OF_AN_ELDER_GUARDIAN(new LifeGemItem(settings().rarity(Rarity.EPIC))),
     SOUL_OF_A_WARDEN(new LifeGemItem(settings().rarity(Rarity.EPIC))),
     SOUL_OF_A_WITHER(new LifeGemItem(settings().rarity(Rarity.EPIC))),
-    SOUL_OF_A_NECROMANCER(new LifeGemItem(settings().rarity(Rarity.EPIC))),
+    SOUL_OF_AN_ENDER_DRAGON(new LifeGemItem(settings().rarity(Rarity.EPIC))),
+    //SOUL_OF_A_NECROMANCER(new LifeGemItem(settings().rarity(Rarity.EPIC))),
 
     //STRONG_SOUL_GEM(new AlphaModItem(settings())),
     LUCKY_HOOK(new AlphaModItem(settings().maxCount(1).rarity(Rarity.UNCOMMON))),
@@ -123,12 +130,12 @@ public enum WHMiscItems implements ItemEnum {
 
     //ROSEGOLD_ALLOY = registerItem("rosegold_alloy",
     //        new AlphaModItem(settings())),
-    BRASIUM_ALLOY(new AlphaModItem(settings())),
+    //BRASIUM_ALLOY(new AlphaModItem(settings())),
     ROUGH_EMERALD(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     ENCHANTED_EMERALD(new EnchantedEmeraldItem(settings().rarity(Rarity.UNCOMMON))),
     ROUGH_DIAMOND(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     //DIAMOND_FRAGMENTS(new AlphaModItem(settings())),
-    ECHOCHALCUM(new AlphaModItem(settings())),
+    ECHOCHALCUM_INGOT(new AlphaModItem(settings())),
     RAW_NETHERITE_NUGGET(new AlphaModItem(settings())),
 
     SEED_BAG(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
@@ -137,7 +144,7 @@ public enum WHMiscItems implements ItemEnum {
     SPOOL_OF_BOW_STRING(new AlphaModItem(settings())),
 
     BOTTLE_OF_GHAST_TEARS(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
-    BOTTLE_OF_LIVING_SLIME(new AlphaModItem(settings().rarity(Rarity.EPIC))),
+    //BOTTLE_OF_LIVING_SLIME(new AlphaModItem(settings().rarity(Rarity.EPIC))),
     BOTTLE_OF_ALLAY(new AlphaModItem(settings().rarity(Rarity.EPIC))),
     BOTTLE_OF_INK(new AlphaModItem(settings())),
     QUILL(new AlphaModItem(settings())),
@@ -163,8 +170,9 @@ public enum WHMiscItems implements ItemEnum {
     TOTEM_OF_KNOWLEDGE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     TOTEM_OF_PEACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
 
-    SLUDGE_BUCKET(new BucketItem(WHFluids.SLUDGE_STILL.fluid, settings().maxCount(1).recipeRemainder(Items.BUCKET)));
-    
+    SLUDGE_BUCKET(new BucketItem(WHFluids.SLUDGE_STILL.fluid, settings().maxCount(1).recipeRemainder(Items.BUCKET))),
+    CLOTH_DYE_REMOVER(new AlphaModItem(settings().maxCount(1).recipeRemainder(Items.BUCKET)));
+
     private static FabricItemSettings settings() {
         return new FabricItemSettings().group(WHGroups.WH_MISCELLANEOUS);
     }

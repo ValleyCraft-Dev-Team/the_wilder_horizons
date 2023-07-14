@@ -193,7 +193,7 @@ public class WHLootTables {
         lifeGem(builder, 0.35f);
         LootTableHelper.appendLoot(EntityType.ENDERMAN.getLootTableId(), builder);
         
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.ENDERMAN_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         bones(builder);
@@ -224,7 +224,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.ALLAGER_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5));
@@ -355,7 +355,7 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         bones(builder);
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.ALLAGER_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         LootTableHelper.appendLoot(EntityType.ILLUSIONER.getLootTableId(), builder);
@@ -466,7 +466,7 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         bones(builder);
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.PIGLIN_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         LootTableHelper.appendLoot(EntityType.PIGLIN_BRUTE.getLootTableId(), builder);
@@ -491,7 +491,7 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         bones(builder);
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.PIGLIN_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         LootTableHelper.appendLoot(EntityType.PIGLIN.getLootTableId(), builder);
@@ -523,7 +523,7 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         bones(builder);
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.ALLAGER_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         LootTableHelper.appendLoot(EntityType.PILLAGER.getLootTableId(), builder);
@@ -559,7 +559,7 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         bones(builder);
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.MIDLANDER_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         LootTableHelper.appendLoot(EntityType.PLAYER.getLootTableId(), builder);
@@ -629,7 +629,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(10)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(4)
+        builder.with(ItemEntry.builder(WHMiscItems.MIDLANDER_SKULL_SHARD).weight(4)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
         );
         LootTableHelper.appendLoot(EntityType.SKELETON.getLootTableId(), builder);
@@ -682,7 +682,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(10)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(4)
+        builder.with(ItemEntry.builder(WHMiscItems.MIDLANDER_SKULL_SHARD).weight(4)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
         );
         LootTableHelper.appendLoot(EntityType.STRAY.getLootTableId(), builder);
@@ -751,7 +751,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(10)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(8)
+        builder.with(ItemEntry.builder(WHMiscItems.ALLAGER_SKULL_SHARD).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1)))   
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5)
@@ -767,7 +767,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.ALLAGER_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1)))   
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5)
@@ -784,7 +784,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.ALLAGER_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1)))   
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5)
@@ -822,7 +822,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.ALLAGER_SKULL_SHARD).weight(3)
                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5)
@@ -995,7 +995,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.ALLAGER_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5));
@@ -1048,7 +1048,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.MIDLANDER_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5));
@@ -1103,7 +1103,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+        builder.with(ItemEntry.builder(WHMiscItems.PIGLIN_SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5));

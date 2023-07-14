@@ -1,0 +1,15 @@
+{
+  "name": "wilder_horizons:village/desert/zombie/town_center",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wilder_horizons:village/desert/zombie/town_center/town_center_part_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}
