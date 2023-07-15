@@ -146,7 +146,6 @@ public class Contents {
         putCompost(WHMiscItems.SALTPETER, levelHigh);
         putCompost(WHMiscItems.PLANT_FIBER, levelLow);
 
-        putCompost(WHFoodIngredients.STAMINELLA_BERRY, levelVeryHigh);
         putCompost(WHFoodIngredients.ALOE_VERA, levelHigh);
         putCompost(WHFoodIngredients.AMETHYSTLE, levelHigh);
         putCompost(WHFoodIngredients.ONION, levelHigh);

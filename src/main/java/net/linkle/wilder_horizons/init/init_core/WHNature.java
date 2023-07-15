@@ -232,7 +232,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     ANTHRACITE_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     ENDSTONE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
 
-    ADVENTURINE(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(2).resistance(2500f).luminance(s ->5)), itemSettings()),
+    //ADVENTURINE(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(2).resistance(2500f).luminance(s ->5)), itemSettings()),
     ERDSTONE(new Block(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE).hardness(2)), itemSettings()),
     ERDCOBBLESTONE(new Block(Block.Settings.copy(Blocks.COBBLED_DEEPSLATE).hardness(2)), itemSettings()),
 

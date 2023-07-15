@@ -69,10 +69,13 @@ public enum WHFoodIngredients implements ItemEnum {
     RAW_SARDINE(new FoodItem(settings(), 1, Nourishment.POOR)),
     RAW_RED_PORGY(new FoodItem(settings(), 2, Nourishment.POOR)),
     RAW_PERCH(new FoodItem(settings(), 2, Nourishment.POOR)),
+    RAW_GOLDFIN(new FoodItem(settings(), 1, Nourishment.POOR)),
+    RAW_TRANSLUCENT_LIONFISH(new FoodItem(settings(), 3, Nourishment.POOR)),
 
     RAW_SQUID_TENTACLE(new FoodItem(settings(), 2, Nourishment.POOR)),
     RAW_GLOWSQUID_TENTACLE(new FoodItem(settings(), 2, Nourishment.POOR, new FoodStatusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 5 * 20)))
             .addText("item.wilder_horizons.dishes.tooltip").addText("item.wilder_horizons.dishes.tooltip_4")),
+    RAW_FROG_LEGS(new FoodItem(settings(), 2, Nourishment.POOR)),
 
     //RAW_LOBSTER(new NegativeFoodItem_3_Effects(settings(), 3, Nourishment.POOR, StatusEffects.HUNGER, StatusEffects.POISON, StatusEffects.NAUSEA).hideTooltip()),
     //RAW_MOSSY_CRAB(new NegativeFoodItem_3_Effects(settings(), 3, Nourishment.POOR, StatusEffects.HUNGER, StatusEffects.POISON, StatusEffects.NAUSEA).hideTooltip()),
@@ -82,8 +85,9 @@ public enum WHFoodIngredients implements ItemEnum {
     
     RAW_BIRD_THIGH(new FoodItem(settings(), 2, Nourishment.POOR, true)),
     RAW_BEAST_LIVER(new FoodItem(settings(), 4, Nourishment.LOW, true)),
-    RAW_BEAST_HEART(new FoodItem(settings(), 6, Nourishment.LOW, true)),
-    RAW_CANID(new FoodItem(settings(), 4, Nourishment.LOW, true)),
+    RAW_BEAST_HEART(new FoodItem(settings(), 4, Nourishment.LOW, true)),
+    RAW_CANID(new FoodItem(settings(), 3, Nourishment.LOW, true)),
+    RAW_TENDERLOIN(new FoodItem(settings(), 4, Nourishment.LOW, true)),
     RAW_BAT_WING(new FoodItem(settings(), 2, Nourishment.POOR, true)),
     RAW_CAVE_MAGGOT(new FoodItem(settings(), 1, Nourishment.POOR, true)),
     RAW_SILVERFISH(new FoodItem(settings(), 1, Nourishment.POOR, true)),

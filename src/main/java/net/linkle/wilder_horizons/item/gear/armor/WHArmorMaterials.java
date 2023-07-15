@@ -193,7 +193,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{Items.RABBIT_HIDE});
     }),
     FUR("fur", 15, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 3.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SHEEPSKIN});
+        return Ingredient.ofItems(new ItemConvertible[]{Items.RABBIT_HIDE});
     }),
     //TREATED_LEATHER_REINFORCED("reinforced_treated_leather", 25, new int[]{2, 3, 4, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
     //    return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.TREATED_LEATHER});

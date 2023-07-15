@@ -49,11 +49,8 @@ public class RenderLayers {
         //put(WITCH_LADLE, cullout);
         put(FIREGUARD, cullout);
         put(NEST, cullout);
-        put(IRON_BRAZIER, cullout);
-        put(IRON_SOUL_BRAZIER, cullout);
         put(SPIDER_EGG, cullout);
         put(REDSTONE_LANTERN, cullout);
-        put(REDSTONE_LAMPTERN, cullout);
         //put(BONFIRE, cullout);
         put(CAMPFIRE_POT, cullout);
         put(SOUL_CAMPFIRE_POT, cullout);
@@ -190,7 +187,6 @@ public class RenderLayers {
         put(POTTED_WEEPING_GHOST_WILLOW, cullout);
         put(POTTED_ANCIENT_FLOWER, cullout);
         put(ANCIENT_FLOWER_BLOCK, cullout);
-        put(STAMINELLA_BERRY_PLANT, cullout);
 
         //Other Plants without potted versions
         put(THORNY_BUSH, cullout);
@@ -442,11 +438,9 @@ public class RenderLayers {
         put(DAUB_CHIMNEY, cullout);
         put(SANDSTONE_BRICK_CHIMNEY, cullout);
         put(RED_SANDSTONE_BRICK_CHIMNEY, cullout);
-        put(SCORCHSTONE_BRICK_CHIMNEY, cullout);
         put(SALT_BRICK_CHIMNEY, cullout);
         put(SERPENTINITE_BRICK_CHIMNEY, cullout);
         put(BASALT_BRICK_CHIMNEY, cullout);
-        put(ADVENTURINE_BRICK_CHIMNEY, cullout);
         put(PURPUR_BLOCK_CHIMNEY, cullout);
         put(END_STONE_BRICK_CHIMNEY, cullout);
         put(MARBLE_BRICK_CHIMNEY, cullout);

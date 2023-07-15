@@ -54,7 +54,7 @@ public class CustomTradeRegistryWanderingTrader {
                     /**items for emeralds**/
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 2),
-                            new ItemStack(WHMiscItems.SHEEPSKIN, 3),
+                            new ItemStack(WHMiscItems.HIDE, 3),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 2),
@@ -63,6 +63,10 @@ public class CustomTradeRegistryWanderingTrader {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
                             new ItemStack(Items.LEAD, 2),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 2),
+                            new ItemStack(Items.RABBIT_HIDE, 5),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 8),
@@ -207,8 +211,16 @@ public class CustomTradeRegistryWanderingTrader {
                             new ItemStack(WHMiscItems.BOTTLE_OF_ALLAY, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 5),
-                            new ItemStack(WHMiscItems.BOTTLE_OF_LIVING_SLIME, 1),
+                            new ItemStack(Items.EMERALD, 2),
+                            new ItemStack(WHMiscItems.SPECIALIZED_HANDLE, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 2),
+                            new ItemStack(WHMiscItems.REINFORCED_HANDLE, 2),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 2),
+                            new ItemStack(Items.BOOK, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 2),

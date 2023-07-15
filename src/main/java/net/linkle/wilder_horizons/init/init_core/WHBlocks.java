@@ -117,6 +117,11 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     BOOK_STACK_6(new BookStackBlock(BLOCK_SHAPE_6), itemSettings()),
     BOOK_STACK_7(new BookStackBlock(BLOCK_SHAPE_7), itemSettings()),
     BOOK_STACK_8(new BookStackBlock(BLOCK_SHAPE_8), itemSettings()),
+
+    BOWL_BLOCK(new Block(Block.Settings.copy(Blocks.BOOKSHELF)), itemSettings()),
+    BOTTLE_BLOCK(new Block(Block.Settings.copy(Blocks.BOOKSHELF)), itemSettings()),
+    BOWL_AND_BOTTLE_BLOCK(new Block(Block.Settings.copy(Blocks.BOOKSHELF)), itemSettings()),
+
     //INK_WELL(new InkWellBlock(), itemSettings()),
     //PET_WATER_BOWL(new PetWaterBowlBlock(Block.Settings.copy(Blocks.TERRACOTTA).nonOpaque().breakInstantly()), itemSettings()),
     //EMPTY_BOTTLE_BLOCK(new BottleBlock(), itemSettings()),

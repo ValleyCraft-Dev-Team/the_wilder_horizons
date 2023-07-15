@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/books/book_of_runecalling"
+    "layer0": "wilder_horizons:item/misc/book_of_runecalling"
   }
 }

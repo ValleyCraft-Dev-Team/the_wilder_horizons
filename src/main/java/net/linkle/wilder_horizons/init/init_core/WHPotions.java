@@ -214,8 +214,8 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, Items.LEATHER, RESISTANCE.potion);
         registerRecipe(Potions.AWKWARD, WHMiscItems.SHROOMLEATHER.item, RESISTANCE.potion);
         registerRecipe(Potions.AWKWARD, Items.RABBIT_HIDE, RESISTANCE_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHMiscItems.PIG_HIDE.item, RESISTANCE.potion);
-        registerRecipe(Potions.AWKWARD, WHMiscItems.SHEEPSKIN.item, RESISTANCE.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.PIG_HIDE.item, RESISTANCE_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.HIDE.item, RESISTANCE.potion);
         registerRecipe(Potions.AWKWARD, WHMiscItems.TREATED_LEATHER_STRAP.item, Potions.MUNDANE);
         registerRecipe(Potions.AWKWARD, Items.CARROT, NIGHT_VISION_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.POTATO, RESISTANCE_WEAK.potion);
@@ -322,7 +322,6 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.MAIZE.asItem(), RESISTANCE_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.MINERS_LETTUCE.asItem(), SPEED_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.ONION.asItem(), STRENGTH_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.STAMINELLA_BERRY.asItem(), SPEED.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_RICE.asItem(), STRENGTH_WEAK.potion);
         registerRecipe(Potions.THICK, Blocks.LILY_OF_THE_VALLEY.asItem(), POISON_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.LILY_OF_THE_OCEANS.asItem(), POISON_WEAK.potion);

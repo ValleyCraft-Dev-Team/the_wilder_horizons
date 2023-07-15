@@ -1113,7 +1113,7 @@ public class WHLootTables {
         LootTableHelper.appendLoot(EntityType.ZOMBIFIED_PIGLIN.getLootTableId(), builder);
         
         builder.with(ItemEntry.builder(WHFoods.NETHER_WART_STIR_FRY));
-        builder.with(ItemEntry.builder(WHFoods.MAGMA_CREME_SOUP));
+        builder.with(ItemEntry.builder(WHFoods.MEAT_JERKY));
         builder.with(ItemEntry.builder(WHMiscItems.GOLD_SCRAP)
            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2), false))
            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))

@@ -15,7 +15,6 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
 
-import static net.linkle.wilder_horizons.init.init_core.WHTools.GEM_CUTTING_TOOLS;
 
 public enum WHMiscItems implements ItemEnum {
 
@@ -57,12 +56,15 @@ public enum WHMiscItems implements ItemEnum {
     HANDLE(new AlphaModItem(settings())),
     REINFORCED_HANDLE(new AlphaModItem(settings())),
     SPECIALIZED_HANDLE(new AlphaModItem(settings())),
+    PRISMARINE_HANDLE(new AlphaModItem(settings())),
     CRAFTING_TOOLS(new AlphaModItem(settings())),
     SMITHING_TOOLS(new AlphaModItem(settings())),
+    GEM_CUTTING_TOOLS(new AlphaModItem(settings())),
 
     DAUB(new AlphaModItem(settings())),
 
     SMALL_BONE(new AlphaModItem(settings())),
+    HOGLIN_TUSK(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     DRAGON_TOOTH(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     MIDLANDER_SKULL_SHARD(new AlphaModItem(settings())),
     ALLAGER_SKULL_SHARD(new AlphaModItem(settings())),
@@ -87,7 +89,7 @@ public enum WHMiscItems implements ItemEnum {
     //GUARDIAN_SPIKE(new AlphaModItem(settings())),
     ELDER_GUARDIAN_SPIKE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     PIG_HIDE(new AlphaModItem(settings())),
-    SHEEPSKIN(new AlphaModItem(settings())),
+    HIDE(new AlphaModItem(settings())),
     ROTTEN_LEATHER(new AlphaModItem(settings())),
     //BEETLE_CARAPACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
 
@@ -98,9 +100,9 @@ public enum WHMiscItems implements ItemEnum {
     BEAST_CLAW(new AlphaModItem(settings())),
     BONEFIN_SKELETON(new AlphaModItem(settings())),
     //SOUL_GEM(new LifeGemItem(settings())),
+    SOUL_POWDER(new LifeGemItem(settings().rarity(Rarity.COMMON))),
     CRACKING_SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
-    SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
-    SOUL_POWDER(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
+    SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.RARE))),
     SOUL_OF_AN_ELDER_GUARDIAN(new LifeGemItem(settings().rarity(Rarity.EPIC))),
     SOUL_OF_A_WARDEN(new LifeGemItem(settings().rarity(Rarity.EPIC))),
     SOUL_OF_A_WITHER(new LifeGemItem(settings().rarity(Rarity.EPIC))),
@@ -113,6 +115,7 @@ public enum WHMiscItems implements ItemEnum {
     GEODE_CORE_CRACKED(new AlphaModItem(settings())),
     GEODE_CORE_ENRICHED(new AlphaModItem(settings())),
     BRIMSTONE_CRYSTAL_ITEM(new AlphaModItem(settings())),
+    LUMEN_CRYSTAL_ITEM(new AlphaModItem(settings())),
     SALT(new AlphaModItem(settings())),
     SALTPETER(new AlphaModItem(settings())),
     CHARCOAL_NUGGET(new AlphaModItem(settings())),
@@ -148,6 +151,7 @@ public enum WHMiscItems implements ItemEnum {
     BOTTLE_OF_ALLAY(new AlphaModItem(settings().rarity(Rarity.EPIC))),
     BOTTLE_OF_INK(new AlphaModItem(settings())),
     QUILL(new AlphaModItem(settings())),
+    EMPTY_BOOK(new AlphaModItem(settings())),
     //RUNECASTING_QUILL(new AlphaModItem(settings())),
     BOOK_OF_RUNECALLING(new AlphaModItem(settings().rarity(Rarity.RARE))),
 
