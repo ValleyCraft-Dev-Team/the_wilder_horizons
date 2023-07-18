@@ -51,10 +51,13 @@
   "item.wilder_horizons.dripleaf_hat": "Dripleaf Hat",
   "item.wilder_horizons.azalea_crown": "Azalea Flower Crown",
   "item.wilder_horizons.vine_crown": "Vine Laurel",
-  "item.wilder_horizons.grass_dress": "Grass Dress",
 
   "block.wilder_horizons.warm_birch_sapling": "Elder Birch Sapling",
   "block.wilder_horizons.warm_birch_leaves": "Elder Birch Leaves",
-  "block.wilder_horizons.warm_birch_seed": "Elder Birch Seed"
+  "block.wilder_horizons.warm_birch_seed": "Elder Birch Seed",
+
+  "item.wilder_horizons.plant_fiber_string": "Plant Fiber Cordage",
+  "item.wilder_horizons.bow_string": "Bowstring",
+  "item.wilder_horizons.jelly_blob": "Sticky Jelly Blob"
 
 }

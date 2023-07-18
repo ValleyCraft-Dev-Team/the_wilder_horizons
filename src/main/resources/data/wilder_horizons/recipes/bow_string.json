@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#SS",
+        "SSS",
+        "SS "
+    ],
+    "key": {
+        "#": {
+            "tag": "c:glues"
+        },
+        "S": {
+            "tag": "c:string_items"
+        }
+    },
+    "result": {
+        "item": "wilder_horizons:bow_string",
+        "count": 3
+    }
+}

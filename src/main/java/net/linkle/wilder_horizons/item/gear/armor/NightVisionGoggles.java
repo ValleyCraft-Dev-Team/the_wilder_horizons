@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.item.gear.armor;
 
+import net.linkle.wilder_horizons.init.init_core.WHArmors;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;

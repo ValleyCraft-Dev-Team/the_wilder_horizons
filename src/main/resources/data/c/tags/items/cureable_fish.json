@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:cooked_abysswatcher",
+    "wilder_horizons:cooked_tropical_fish",
+    "wilder_horizons:cooked_stoneroller_minnow",
+    "wilder_horizons:cooked_sardine",
+    "wilder_horizons:cooked_perch",
+    "wilder_horizons:cooked_red_porgy",
+    "wilder_horizons:cooked_goldfin",
+    "wilder_horizons:cooked_translucent_lionfish",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_salmon"
+  ]
+}

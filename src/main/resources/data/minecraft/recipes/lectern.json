@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": {
-      "item": "minecraft:book"
+      "item": "wilder_horizons:empty_bookshelf"
     },
     "S": {
       "tag": "minecraft:wooden_slabs"
@@ -12,9 +12,9 @@
     }
   },
   "pattern": [
-    " S ",
+    "SSS",
     "XBX",
-    " S "
+    " SS"
   ],
   "result": {
     "item": "minecraft:lectern"

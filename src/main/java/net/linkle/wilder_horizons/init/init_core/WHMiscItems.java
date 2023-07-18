@@ -18,7 +18,6 @@ import java.util.Locale;
 
 public enum WHMiscItems implements ItemEnum {
 
-    ROPE(new RopeItem(settings().group(WHGroups.WH_BLOCKS))),
     OAK_SEED(new AliasedBlockItem(WHNature.OAK_SEED.block, settings().group(WHGroups.WH_NATURE))),
     APPLE_SEED(new AliasedBlockItem(WHNature.APPLE_SEED.block, settings().group(WHGroups.WH_NATURE))),
     DARK_OAK_SEED(new AliasedBlockItem(WHNature.DARK_OAK_SEED.block, settings().group(WHGroups.WH_NATURE))),
@@ -43,6 +42,7 @@ public enum WHMiscItems implements ItemEnum {
     PLANT_FIBER(new AlphaModItem(settings())),
     PLANT_FIBER_STRING(new AlphaModItem(settings())),
     PLANT_FIBER_CANVAS(new AlphaModItem(settings())),
+    ROPE(new RopeItem(settings())),
     ARROW_FLETCHING(new AlphaModItem(settings())),
     ARROW_BUNDLE(new AlphaModItem(settings())),
     BOMB_BAG(new AlphaModItem(settings())),

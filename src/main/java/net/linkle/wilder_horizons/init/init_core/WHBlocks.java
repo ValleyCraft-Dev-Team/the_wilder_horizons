@@ -38,10 +38,6 @@ import net.minecraft.world.BlockView;
 public enum WHBlocks implements ItemEnum, BlockEnum {
 
     // The new blocks I don't know where to put
-    SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
-    LAVA_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
-    PINK_SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
-    GLOW_BERRY_LANTERN(new LanternBlock(Block.Settings.of(Material.WOOD).strength(1.5f).sounds(BlockSoundGroup.WOOD).luminance(state -> 15).nonOpaque()), itemSettings()),
     RAW_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK)), itemSettings()),
     RAW_ORANGE_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK)), itemSettings()),
     RAW_GLOW_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK).luminance(s->15)), itemSettings()),
@@ -63,6 +59,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     STABLEHAND_COUNTER(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     /**hunter poi**/
     HUNTING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**marksmans poi**/
+    MARKSMANS_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
     /**desert **/
     DESERT_EMPEROR_THRONE(new CushionBlock((DyeColor.YELLOW)), itemSettings()),
     /**armorer**/
@@ -313,11 +311,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     TIGHTLY_WEAVED_THATCH_BLOCK(new Block(Block.Settings.copy(Blocks.HAY_BLOCK)), itemSettings()),
     TIGHTLY_WEAVED_THATCH_STAIRS(new StairsBlock(TIGHTLY_WEAVED_THATCH_BLOCK.getState(), Block.Settings.copy(Blocks.HAY_BLOCK)), itemSettings()),
     TIGHTLY_WEAVED_THATCH_SLAB(new SlabBlock(Block.Settings.copy(Blocks.HAY_BLOCK)), itemSettings()),
-    
-    GLASS_DOOR(new DoorBlock(Block.Settings.of(Material.GLASS, Blocks.GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
-    GLASS_TRAPDOOR(new TrapdoorBlock(Block.Settings.of(Material.GLASS, Blocks.GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
-    TINTED_GLASS_DOOR(new DoorBlock(Block.Settings.of(Material.GLASS, Blocks.TINTED_GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
-    TINTED_GLASS_TRAPDOOR(new TrapdoorBlock(Block.Settings.of(Material.GLASS, Blocks.TINTED_GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
 
     REDSTONE_LANTERN(new RedstoneLanternBlock(), itemSettings()),
     //REDSTONE_LAMPTERN(new RedstoneLampternBlock(), itemSettings()),
@@ -329,11 +322,21 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     //GARNET_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
     //EMERALD_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
     //QUARTZ_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
+    SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
+    LAVA_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
+    PINK_SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
+    GLOW_BERRY_LANTERN(new LanternBlock(Block.Settings.of(Material.WOOD).strength(1.5f).sounds(BlockSoundGroup.WOOD).luminance(state -> 15).nonOpaque()), itemSettings()),
 
     DEAD_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(s->0)), itemSettings()),
     BURNT_OUT_TORCH(new BurntTorchBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.WOOD)), itemSettings()),
     BURNT_OUT_CANDLE(new BurntTorchBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CANDLE)).shape(4, 12), itemSettings()),
     //ARROW_BLOCK(new ArrowBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.BAMBOO).noCollision()), itemSettings()),
+    SKY_LANTERN(new Block(Block.Settings.copy(Blocks.SEA_LANTERN).luminance(s->15)), itemSettings()),
+    PRISMARINE_ROD(new EndRodBlock(Block.Settings.copy(Blocks.END_ROD).luminance(s->14)), itemSettings()),
+    NETHER_ROD(new EndRodBlock(Block.Settings.copy(Blocks.END_ROD).luminance(s->14)), itemSettings()),
+    OETHER_ROD(new EndRodBlock(Block.Settings.copy(Blocks.END_ROD).luminance(s->14)), itemSettings()),
+    MIDLAND_ROD(new EndRodBlock(Block.Settings.copy(Blocks.END_ROD).luminance(s->14)), itemSettings()),
+
 
     GRAVE_MARKER(new GraveBlock(Block.Settings.copy(Blocks.OAK_WOOD).hardness(1).resistance(100).nonOpaque()), itemSettings().rarity(Rarity.UNCOMMON)),
     SHALE_GRAVESTONE(new ShaleGraveBlock(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.BASALT).resistance(666).hardness(2.25f).nonOpaque()), itemSettings()),
@@ -419,6 +422,12 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     BEVELED_BRIMSTONE_GLASS_PANE(new PaneBlock(Block.Settings.copy(Blocks.GLASS_PANE).luminance(s -> 8).resistance(30).hardness(2)), itemSettings()),
     BEVELED_TINTED_GLASS(new TintedGlassBlock(Block.Settings.copy(Blocks.TINTED_GLASS)), itemSettings()),
     BEVELED_TINTED_GLASS_PANE(new PaneBlock(Block.Settings.copy(Blocks.TINTED_GLASS)), itemSettings()),
+    GLASS_DOOR(new DoorBlock(Block.Settings.of(Material.GLASS, Blocks.GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
+    GLASS_TRAPDOOR(new TrapdoorBlock(Block.Settings.of(Material.GLASS, Blocks.GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
+    TINTED_GLASS_DOOR(new DoorBlock(Block.Settings.of(Material.GLASS, Blocks.TINTED_GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
+    TINTED_GLASS_TRAPDOOR(new TrapdoorBlock(Block.Settings.of(Material.GLASS, Blocks.TINTED_GLASS.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
+    BRIMSTONE_GLASS_DOOR(new DoorBlock(Block.Settings.of(Material.GLASS, WHBlocks.BRIMSTONE_GLASS.block.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
+    BRIMSTONE_GLASS_TRAPDOOR(new TrapdoorBlock(Block.Settings.of(Material.GLASS, WHBlocks.BRIMSTONE_GLASS.block.getDefaultMapColor()).hardness(0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), itemSettings()),
 
     // Potted flowers
     POTTED_ANCIENT_FLOWER(new GlowingPotBlock(WHNature.ANCIENT_FLOWER_BLOCK)),
@@ -566,6 +575,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     IRON_GRATE(new GrateBlock(Block.Settings.copy(Blocks.IRON_BLOCK).strength(4.1f, 5.0f).nonOpaque()), itemSettings()),
 
     LARGE_CHAIN(new LargeChainBlock(Block.Settings.copy(Blocks.CHAIN)), itemSettings()),
+    IRON_FENCE(new PaneBlock(Block.Settings.copy(Blocks.IRON_BARS).nonOpaque()), itemSettings()),
 
     DEEPSLATE_PRESSURE_PLATE(new PressurePlateBlock(ActivationRule.MOBS, Block.Settings.copy(Blocks.STONE_PRESSURE_PLATE)), itemSettings()),
     SHALE_PRESSURE_PLATE(new PressurePlateBlock(ActivationRule.MOBS, Block.Settings.copy(Blocks.STONE_PRESSURE_PLATE).strength(0.2f)), itemSettings()),

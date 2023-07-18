@@ -36,6 +36,8 @@ public class WeepingGhostWillowBlock extends ModPlantBlock{
                     double e = direction.getOffsetY() == 0 ? random.nextDouble() : 0.5D + (double)direction.getOffsetY() * 0.6D;
                     double f = direction.getOffsetZ() == 0 ? random.nextDouble() : 0.5D + (double)direction.getOffsetZ() * 0.6D;
                     world.addParticle(ParticleTypes.DRIPPING_WATER, (double)pos.getX() + d, (double)pos.getY() + e, (double)pos.getZ() + f, 0.0D, 0.0D, 0.0D);
+                    world.addParticle(ParticleTypes.DRIPPING_WATER, (double)pos.getX() + d, (double)pos.getY() + e, (double)pos.getZ() + f, 0.0D, 0.0D, 0.0D);
+                    world.addParticle(ParticleTypes.DRIPPING_WATER, (double)pos.getX() + d, (double)pos.getY() + e, (double)pos.getZ() + f, 0.0D, 0.0D, 0.0D);
                 }
             }
         }

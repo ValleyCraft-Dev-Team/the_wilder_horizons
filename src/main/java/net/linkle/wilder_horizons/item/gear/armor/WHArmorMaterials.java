@@ -15,22 +15,22 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum WHArmorMaterials implements ArmorMaterial {
-    RED_WARPAINT("red_warpaint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    RED_WARPAINT("red_war_paint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.SWEET_BERRIES});
     }),
-    BLUE_WARPAINT("blue_warpaint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    BLUE_WARPAINT("blue_war_paint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.LAPIS_LAZULI});
     }),
-    GREEN_WARPAINT("green_warpaint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    GREEN_WARPAINT("green_war_paint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.FERN});
     }),
-    YELLOW_WARPAINT("yellow_warpaint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    YELLOW_WARPAINT("yellow_war_paint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.SUNFLOWER});
     }),
-    WHITE_WARPAINT("white_warpaint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    WHITE_WARPAINT("white_war_paint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.BONE_MEAL});
     }),
-    BLACK_WARPAINT("black_warpaint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    BLACK_WARPAINT("black_war_paint", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.CHARCOAL});
     }),
     SHROOMLEATHER_CLOAK("plain_cloak", 10, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
@@ -58,6 +58,9 @@ public enum WHArmorMaterials implements ArmorMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{Items.LEATHER});
     }),
     ALLAGER_UNDER_TUNIC("allager_garments", 10, new int[]{1, 2, 3, 1}, 17, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
+    }),
+    HEADSCARF("headscarf", 10, new int[]{1, 2, 3, 1}, 17, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
     }),
     ILLAGER_TUNIC("pillager_tunic", 10, new int[]{1, 2, 3, 1}, 17, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
@@ -120,13 +123,16 @@ public enum WHArmorMaterials implements ArmorMaterial {
     TURTLE("turtle", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.SCUTE});
     }),
-    UNDYING_TALISMAN("undying_talisman", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
+    UNDYING_TALISMAN("undying_talisman", 25, new int[]{2, 5, 6, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.TOTEM_OF_UNDYING});
     }),
-    LUCKY_FISHING_HOOK_TALISMAN("lucky_fishing_hook_talisman", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
+    LUCKY_FISHING_HOOK_TALISMAN("lucky_fishing_hook_talisman", 25, new int[]{2, 5, 6, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.LUCKY_HOOK});
     }),
-    BLUE_CLAM_SHELL_BREASTPLATE("blue_breastplate", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
+    FROSTED_IRON_TALISMAN("frost_talisman", 25, new int[]{0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
+    }),
+    BLUE_CLAM_SHELL_BREASTPLATE("blue_breastplate", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.SCUTE});
     }),
     //GRASS_DRESS("grass_dress", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
@@ -147,17 +153,20 @@ public enum WHArmorMaterials implements ArmorMaterial {
     FRIENDLY_MASK("tree_god_mask", 15, new int[]{1, 2, 3, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.5F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Blocks.OAK_LOG});
     }),
-    NIGHT_VISION_GOGGLES("night_vision_goggles", 25, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    NIGHT_VISION_GOGGLES("night_vision_goggles", 25, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.ECHO_SHARD});
     }),
-    STRAW_HAT("straw_hat", 10, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{Items.WHEAT});
+    STRAW_HAT("straw_hat", 10, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.PLANT_FIBER_CANVAS});
     }),
-    COWPOKE_HAT("cowpoke_hat", 15, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.5F, 0.0F, () -> {
+    COWPOKE_HAT("cowpoke_hat", 15, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.5F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.LEATHER});
     }),
-    CHEF_UNIFORM("chef", 15, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    CHEF_UNIFORM("chef", 15, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
+    }),
+    FORGING_UNIFORM("golemage_apron", 15, new int[]{3, 3, 3, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.LEATHER});
     }),
     //ROSEGOLD("rosegold", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.75F, 0.0F, () -> {
     //    return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ROSEGOLD_ALLOY});
@@ -174,34 +183,34 @@ public enum WHArmorMaterials implements ArmorMaterial {
     //TREATED_LEATHER_MODIFIED("treated_leather", 25, new int[]{2, 3, 4, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
     //    return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.TREATED_LEATHER});
     //}),
-    CANVAS("canvas", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    CANVAS("canvas", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.PLANT_FIBER_CANVAS});
     }),
-    PLANK("plank", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.5F, () -> {
+    PLANK("plank", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.BLOCK_WOOD_BREAK, 0.0F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.PLANK_ITEM});
     }),
-    RIBCAGE("ribcage", 5, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.3F, 0.0F, () -> {
+    RIBCAGE("ribcage", 5, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.3F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SMALL_BONE});
     }),
-    WITHER_RIBCAGE("wither_ribcage", 5, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.3F, 0.0F, () -> {
+    WITHER_RIBCAGE("wither_ribcage", 5, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.3F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SMALL_WITHER_BONE});
     }),
     ECHOCHALCUM("sculkerite", 37, new int[]{3, 6, 8, 3}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 3.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM_INGOT});
     }),
-    WARM_BOOTS("warm_boots", 15, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 3.0F, () -> {
+    WARM_BOOTS("warm_boots", 15, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 3.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.RABBIT_HIDE});
     }),
-    FUR("fur", 15, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 3.0F, () -> {
+    FUR("fur", 15, new int[]{2, 3, 4, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 3.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.RABBIT_HIDE});
     }),
     //TREATED_LEATHER_REINFORCED("reinforced_treated_leather", 25, new int[]{2, 3, 4, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
     //    return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.TREATED_LEATHER});
     //}),
-    COPPER("copper_glasses", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    COPPER("copper_glasses", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.COPPER_INGOT});
     }),
-    ANCIENT_BOOTS("ancient_boots", 15, new int[]{2, 2, 2, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    ANCIENT_BOOTS("ancient_boots", 15, new int[]{2, 2, 2, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     }),
     IRON_REINFORCED("reinforced_iron", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
@@ -216,7 +225,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
     DIAMOND_REINFORCED("reinforced_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
     }),
-   BRASIUM_REINFORCED("reinforced_rosegold", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.75F, 0.0F, () -> {
+    BRASIUM_REINFORCED("reinforced_brasium", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.75F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.BRASIUM_INGOT});
     }),
     //ROSEGOLD_REINFORCED("reinforced_rosegold", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.75F, 0.0F, () -> {

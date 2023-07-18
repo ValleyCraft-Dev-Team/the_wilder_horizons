@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#X#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "wilder_horizons:salt"
+        },
+        "X": {
+            "tag": "c:red_jerky_meats"
+        }
+    },
+    "result": {
+        "item": "wilder_horizons:meat_jerky",
+        "count": 1
+    }
+}

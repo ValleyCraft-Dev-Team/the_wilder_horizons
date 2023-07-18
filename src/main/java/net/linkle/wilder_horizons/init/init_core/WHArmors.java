@@ -4,8 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.enums.ItemEnum;
 import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
-import net.linkle.wilder_horizons.item.gear.armor.NightVisionGoggles;
-import net.linkle.wilder_horizons.item.gear.armor.WHArmorMaterials;
+import net.linkle.wilder_horizons.item.gear.armor.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
@@ -35,23 +34,24 @@ public enum WHArmors implements ItemEnum {
     SAVANNA_LAUREL(new ArmorItem(WHArmorMaterials.ALLAGER_SAVANNA, EquipmentSlot.HEAD, settings().rarity(Rarity.UNCOMMON))),
 
     BLUE_CLAM_SHELL_BREASTPLATE(new ArmorItem(WHArmorMaterials.BLUE_CLAM_SHELL_BREASTPLATE, EquipmentSlot.CHEST, settings())),
-    TURTLE_CHESTPLATE(new ArmorItem(WHArmorMaterials.TURTLE, EquipmentSlot.CHEST, settings())),
+    TURTLE_CHESTPLATE(new TurtleChestplate(WHArmorMaterials.TURTLE, EquipmentSlot.CHEST, settings())),
 
     STRAW_HAT(new ArmorItem(WHArmorMaterials.STRAW_HAT, EquipmentSlot.HEAD, settings())),
     CHEF_HAT(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.HEAD, settings())),
     CHEF_APRON(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.LEGS, settings())),
+    FORGING_APRON(new ArmorItem(WHArmorMaterials.FORGING_UNIFORM, EquipmentSlot.LEGS, settings())),
     COWPOKE_HAT(new ArmorItem(WHArmorMaterials.COWPOKE_HAT, EquipmentSlot.HEAD, settings())),
     HUNTERS_CAP(new ArmorItem(WHArmorMaterials.HUNTERS_CAP, EquipmentSlot.HEAD, settings())),
-    HEALERS_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
-    HEALERS_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
+    HEALERS_HOOD(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
+    HEALERS_CLOAK(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
 
     // wraith
     RIBCAGE(new ArmorItem(WHArmorMaterials.RIBCAGE, EquipmentSlot.CHEST, settings())),
     WITHER_RIBCAGE(new ArmorItem(WHArmorMaterials.WITHER_RIBCAGE, EquipmentSlot.CHEST, settings())),
     WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
     WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
-    LICH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
-    LICH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
+    LICH_HOOD(new ArmorItem(WHArmorMaterials.LICH_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
+    LICH_CLOAK(new ArmorItem(WHArmorMaterials.LICH_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
     ANCIENT_BOOTS(new ArmorItem(WHArmorMaterials.ANCIENT_BOOTS, EquipmentSlot.FEET, settings().rarity(Rarity.UNCOMMON))),
 
     // shroomleather items
@@ -73,8 +73,9 @@ public enum WHArmors implements ItemEnum {
     // divine
     FRIENDLY_MASK(new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
     GOLDEN_CROWN(new ArmorItem(WHArmorMaterials.GOLDEN_CROWN, EquipmentSlot.HEAD, settings().rarity(Rarity.EPIC))),
-    BRASIUM_PAULDRONS(new ArmorItem(WHArmorMaterials.BRASIUM_PAULDRONS, EquipmentSlot.CHEST, settings())),
+    BRASIUM_PAULDRONS(new ArmorItem(WHArmorMaterials.BRASIUM_PAULDRONS, EquipmentSlot.CHEST, settings().rarity(Rarity.UNCOMMON))),
     MINING_HELMET(new ArmorItem(WHArmorMaterials.MINING_HELMET, EquipmentSlot.HEAD, settings().rarity(Rarity.UNCOMMON))),
+    HEADSCARF(new ArmorItem(WHArmorMaterials.HEADSCARF, EquipmentSlot.HEAD, settings().rarity(Rarity.UNCOMMON))),
 
     //garments
     NEUTRAL_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_NEUTRAL, EquipmentSlot.LEGS, settings())),
@@ -92,14 +93,15 @@ public enum WHArmors implements ItemEnum {
 
     // talismans
     UNDYING_TALISMAN(new ArmorItem(WHArmorMaterials.UNDYING_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
-    LUCKY_FISHING_HOOK_TALISMAN(new ArmorItem(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
+    LUCKY_FISHING_HOOK_TALISMAN(new FishingHookNecklace(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
+    FROSTED_IRON_TALISMAN(new FrostedIronTalisman(WHArmorMaterials.FROSTED_IRON_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
 
     // fur
     FUR_HOOD(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.HEAD, settings())),
     FUR_CLOAK(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.CHEST, settings())),
     FUR_KILT(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.LEGS, settings())),
 
-    WARM_BOOTS(new ArmorItem(WHArmorMaterials.WARM_BOOTS, EquipmentSlot.FEET, settings())),
+    WARM_BOOTS(new WarmBoots(WHArmorMaterials.WARM_BOOTS, EquipmentSlot.FEET, settings())),
 
     // glasses
     COPPER_GLASSES(new ArmorItem(WHArmorMaterials.COPPER, EquipmentSlot.HEAD, settings())),
@@ -120,8 +122,8 @@ public enum WHArmors implements ItemEnum {
     // gold
     GOLD_MASKED_HELMET(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.HEAD, settings())),
     GOLD_BREASTPLATE(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.CHEST, settings())),
-    GOLD_HAUBERK(new ArmorItem(WHArmorMaterials.GOLD_HAUBERK, EquipmentSlot.FEET, settings())),
-    GOLD_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.FEET, settings())),
+    GOLD_HAUBERK(new ArmorItem(WHArmorMaterials.GOLD_HAUBERK, EquipmentSlot.LEGS, settings())),
+    GOLD_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.LEGS, settings())),
     GOLD_SANDALS(new ArmorItem(WHArmorMaterials.GOLD_REINFORCED, EquipmentSlot.FEET, settings())),
 
     // iron
@@ -163,7 +165,7 @@ public enum WHArmors implements ItemEnum {
     // netherite
     NETHERITE_MASKED_HELMET(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.HEAD, settings())),
     NETHERITE_BREASTPLATE(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.CHEST, settings())),
-    NETHERITE_HAUBERK(new ArmorItem(WHArmorMaterials.NETHERITE_HAUBERK, EquipmentSlot.FEET, settings())),
+    NETHERITE_HAUBERK(new ArmorItem(WHArmorMaterials.NETHERITE_HAUBERK, EquipmentSlot.LEGS, settings())),
     NETHERITE_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.FEET, settings())),
     NETHERITE_SANDALS(new ArmorItem(WHArmorMaterials.NETHERITE_REINFORCED, EquipmentSlot.FEET, settings()));
 

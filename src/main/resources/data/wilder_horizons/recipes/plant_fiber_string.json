@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "wilder_horizons:plant_fiber"
+        },
+        {
+            "item": "wilder_horizons:plant_fiber"
+        }
+    ],
+    "result": {
+        "item": "wilder_horizons:plant_fiber_string",
+        "count": 3
+    }
+}

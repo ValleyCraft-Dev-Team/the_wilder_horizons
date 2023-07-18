@@ -6,8 +6,9 @@
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
     "item": "wilder_horizons:cloth"

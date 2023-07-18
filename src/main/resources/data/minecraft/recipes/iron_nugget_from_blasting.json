@@ -31,9 +31,6 @@
       "item": "minecraft:iron_boots"
     },
     {
-      "item": "minecraft:iron_horse_armor"
-    },
-    {
       "item": "minecraft:chainmail_helmet"
     },
     {
@@ -68,6 +65,9 @@
     },
     {
       "item": "wilder_horizons:iron_hauberk"
+    },
+    {
+      "item": "wilder_horizons:iron_masked_helmet"
     },
     {
       "item": "wilder_horizons:iron_thigh_guards"

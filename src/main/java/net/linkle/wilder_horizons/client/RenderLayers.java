@@ -42,7 +42,7 @@ public class RenderLayers {
         //put(PRIMSTEEL_TRAPDOOR, cullout);
         put(SCULK_BLOSSOM, cullout);
         put(CHAINED_CHEST, cullout);
-        put(DEAD_IRON_GOLEM, cullout);
+        //put(DEAD_IRON_GOLEM, cullout);
         put(DEPLETED_CONDUIT, cullout);
         put(NETHER_CONDUIT, cullout);
         put(CRAFTING_MAT, cullout);

@@ -19,7 +19,9 @@ import java.util.Locale;
 public enum WHFoods implements ItemEnum {
 
     /**recipes done**/
-    CHEESE_SLICE(new FoodItem(settings(), 2, Nourishment.POOR)),
+    MEAT_JERKY(new FoodItem(settings(), 4, Nourishment.GOOD, true)),
+    CURED_FISH(new FoodItem(settings(), 3, Nourishment.NORMAL, true)),
+
     BAKED_APPLE(new FoodItem(settings(), 6, Nourishment.NORMAL)),
     BAKED_BEETROOT(new FoodItem(settings(), 2, Nourishment.NORMAL)),
     BAKED_CARROT(new FoodItem(settings(), 5, Nourishment.NORMAL)),
@@ -100,7 +102,6 @@ public enum WHFoods implements ItemEnum {
     COD_GEFILTE(new BowlItem(settings(), 10, Nourishment.NORMAL)),
     SPICY_POTATOES_AND_BAT(new BowlItem(settings(), 9, Nourishment.NORMAL)),
     SPICY_POTATOES_AND_CARROTS(new BowlItem(settings(), 8, Nourishment.NORMAL)),
-    MEAT_JERKY(new FoodItem(settings(), 4, Nourishment.NORMAL, true)),
     BROTH(new BowlItem(settings().maxCount(1), 6, Nourishment.LOW)),
     BROTH_VEGETABLE(new BowlItem(settings().maxCount(1), 4, Nourishment.LOW)),
     STIR_FRIED_MONSTER_GUTS(new BowlItem(settings().maxCount(1), 8, Nourishment.NORMAL)),
@@ -111,6 +112,7 @@ public enum WHFoods implements ItemEnum {
     BEEF_STEW(new BowlItem(settings().maxCount(1), 10, Nourishment.NORMAL)),
     KELP_SALAD(new BowlItem(settings().maxCount(1), 5, Nourishment.LOW)),
     BEETROOT_REDUCTION(new FoodItem(settings(), 5, Nourishment.NORMAL)),
+    CHEESE_SLICE(new FoodItem(settings(), 2, Nourishment.POOR)),
     //BROWN_MUSHROOM_SALAD(new BowlItem(settings().maxCount(1), 4, Nourishment.NORMAL)),
     //ORANGE_MUSHROOM_SALAD(new BowlItem(settings().maxCount(1), 4, Nourishment.NORMAL)),
     //RED_MUSHROOM_SALAD(new BowlItem(settings().maxCount(1), 4, Nourishment.NORMAL)),
@@ -129,7 +131,7 @@ public enum WHFoods implements ItemEnum {
     SEA_URCHIN_CHOWDER(new FoodItem(settings().maxCount(1), 6, Nourishment.EXCELLENT)),
     CLAM_CHOWDER(new BowlItem(settings().maxCount(1), 6, Nourishment.NORMAL)),
     FISH_PLATTER(new BowlItem(settings().maxCount(1), 6, Nourishment.NORMAL)),
-    TOAST(new FastFoodItem(settings(), 1    , Nourishment.NORMAL)),
+    TOAST(new FastFoodItem(settings(), 1, Nourishment.NORMAL)),
     EGGS_ON_TOAST(new FoodItem(settings(), 5, Nourishment.EXCELLENT)),
     GRILLED_CHEESE(new FoodItem(settings(), 9, Nourishment.LOW)),
     SANDWICH_FISH(new FoodItem(settings(), 12, Nourishment.EXCELLENT)),

@@ -3,5 +3,7 @@
   "values": [
     "wilder_horizons:stablehand_poi",
     "wilder_horizons:innkeeper_poi"
+    "wilder_horizons:hunter_poi",
+    "wilder_horizons:marksman_poi"
   ]
 }

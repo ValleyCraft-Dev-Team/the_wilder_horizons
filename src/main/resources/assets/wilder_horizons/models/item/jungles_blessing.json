@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "wilder_horizons:item/special/jungles_blessing"
+    "layer0": "wilder_horizons:item/unique_loot/jungles_blessing"
   },
   "overrides": [
     {

@@ -165,6 +165,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     PURPLE_ANEMONE(new AnemoneBlock(Block.Settings.copy(Blocks.FIRE_CORAL).sounds(BlockSoundGroup.CORAL).nonOpaque()), itemSettings()),
     RED_ANEMONE(new AnemoneBlock(Block.Settings.copy(Blocks.FIRE_CORAL).sounds(BlockSoundGroup.CORAL).nonOpaque()), itemSettings()),
     YELLOW_ANEMONE(new AnemoneBlock(Block.Settings.copy(Blocks.FIRE_CORAL).sounds(BlockSoundGroup.CORAL).nonOpaque()), itemSettings()),
+    DEPTH_WATCHER(new AnemoneBlock(Block.Settings.copy(Blocks.FIRE_CORAL).sounds(BlockSoundGroup.CORAL).nonOpaque()), itemSettings()),
 
     SHELL_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
 
@@ -206,6 +207,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     DRY_DIRT(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
     FINE_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     SANDY_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
+    MINERAL_RICH_SAND(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     CARMINE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
     CARMINE_COBBLESTONE(new Block(Block.Settings.copy(Blocks.COBBLESTONE)), itemSettings()),
     SERPENTINITE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
@@ -262,17 +264,21 @@ public enum WHNature implements ItemEnum, BlockEnum {
     DEEPSLATE_ICE_ORE(new IceOreBlock(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE).sounds(BlockSoundGroup.GLASS).nonOpaque().slipperiness(0.98f), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_MIXED_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_SALTPETER_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
+    DEEPSLATE_GEODE_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE).luminance(s->3), UniformIntProvider.create(2, 6)), itemSettings()),
 
     SCULK_BLOSSOM(new SculkBlossomBlock(AbstractBlock.Settings.of(Material.PLANT).breakInstantly().noCollision().sounds(BlockSoundGroup.SPORE_BLOSSOM)), itemSettings()),
 
     SPIDER_EGG(new SpiderEggBlock(), itemSettings()),
-    
+    LUMEN_CRYSTAL(new BrimstoneCrystalClusterBlock(7,3, FabricBlockSettings.copyOf(Blocks.AMETHYST_CLUSTER).nonOpaque().luminance(s -> 12)), itemSettings()),
+
     //nether blocks
     NETHER_SAND(new FallingBlock(Block.Settings.copy(Blocks.SAND)), itemSettings()),
     BRIMSTONE_CRYSTAL(new BrimstoneCrystalClusterBlock(7,3, FabricBlockSettings.copyOf(Blocks.AMETHYST_CLUSTER).nonOpaque().luminance(s -> 8)), itemSettings()),
     NETHER_SALT_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_COAL_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_NETHERITE_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
+    INFECTED_NETHER_WART(new ModPlantBlock(SHORT_GRASS_SHAPE, OFFSET_REPLACEABLE), itemSettings()),
+
     //soul blocks
     FADED_SOUL_ROSE(new FadedSoulRoseBlock(SoulPlantBlock.settings(0)), itemSettings()),
     SOUL_ROSE(new SoulPlantBlock(WHParticles.GREEN_EXP_ORB, SoulPlantBlock.settings(3), UniformIntProvider.create(6, 12)), itemSettings().rarity(Rarity.UNCOMMON)),
@@ -281,6 +287,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     FOSSIL_ORE(new OreBlock(Block.Settings.copy(Blocks.IRON_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_FOSSIL_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_FOSSIL_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
+    NETHER_WITHERED_FOSSIL_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     //BONE_JOINT(new Block(Block.Settings.copy(Blocks.BONE_BLOCK)), itemSettings()),
 
     //skulls and skeletons go here
@@ -292,7 +299,9 @@ public enum WHNature implements ItemEnum, BlockEnum {
     SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     ENDERMAN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
     DAERDRI_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.RARE)),
-    DEAD_IRON_GOLEM(new HorizontalBlock(Block.Settings.copy(Blocks.IRON_BLOCK)), itemSettings().rarity(Rarity.RARE)),
+    //DEAD_IRON_GOLEM(new HorizontalBlock(Block.Settings.copy(Blocks.IRON_BLOCK)), itemSettings().rarity(Rarity.RARE)),
+    GIANT_SKULL(new HorizontalBlock(Block.Settings.copy(Blocks.BONE_BLOCK)), itemSettings()),
+    GIANT_SKULL_LANTERN(new HorizontalBlock(Block.Settings.copy(Blocks.BONE_BLOCK).luminance(s->10)), itemSettings()),
 
     //heads
     HEAD_ZOMBIE_ALEX(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),

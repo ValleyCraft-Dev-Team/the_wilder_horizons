@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "wilder_horizons:item/special/seaologer_token"
+    "layer0": "wilder_horizons:item/unique_loot/seaologer_token"
   }
 }

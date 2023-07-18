@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/special/black_feathered_hat"
+    "layer0": "wilder_horizons:item/unique_loot/black_feathered_hat"
   }
 }

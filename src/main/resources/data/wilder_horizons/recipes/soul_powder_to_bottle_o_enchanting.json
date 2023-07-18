@@ -5,7 +5,10 @@
             "item": "wilder_horizons:soul_powder",
         },
         {
-            "item": "minecraft:honey_bottle"
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "minecraft:lapis_lazuli"
         }
     ],
     "result": {

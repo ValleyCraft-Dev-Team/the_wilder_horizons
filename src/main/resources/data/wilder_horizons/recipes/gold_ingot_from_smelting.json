@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "minecraft:golden_horse_armor"
+    },
+    {
+      "item": "wilder_horizons:golden_crown"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+  ],
+  "result": "minecraft:gold_ingot"
+}

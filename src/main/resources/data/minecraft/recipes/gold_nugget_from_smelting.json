@@ -31,9 +31,6 @@
       "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:golden_horse_armor"
-    },
-    {
       "item": "wilder_horizons:knife_golden"
     },
     {
@@ -47,6 +44,9 @@
     },
     {
       "item": "wilder_horizons:traveler_golden"
+    },
+    {
+      "item": "wilder_horizons:gold_masked_helmet"
     },
     {
       "item": "wilder_horizons:gold_breastplate"

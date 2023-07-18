@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#c#",
+        "c_c",
+        "#c#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone"
+        },
+        "c": {
+            "item": "minecraft:copper_ingot"
+        },
+        "_": {
+            "item": "minecraft:smooth_stone_slab"
+        }
+    },
+    "result": {
+      "item": "wilder_horizons:conductive_stone_plate",
+      "count": 3
+    }
+}

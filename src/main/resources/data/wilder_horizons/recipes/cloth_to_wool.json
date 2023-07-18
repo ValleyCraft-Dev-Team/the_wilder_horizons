@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "wilder_horizons:cloth"
+        },
+        {
+            "item": "wilder_horizons:cloth"
+        },
+        {
+            "item": "wilder_horizons:cloth"
+        },
+        {
+            "item": "wilder_horizons:cloth"
+        }
+    ],
+    "result": {
+        "item": "minecraft:white_wool",
+        "count": 1
+    }
+}

@@ -69,8 +69,8 @@ public enum WHFoodIngredients implements ItemEnum {
     RAW_SARDINE(new FoodItem(settings(), 1, Nourishment.POOR)),
     RAW_RED_PORGY(new FoodItem(settings(), 2, Nourishment.POOR)),
     RAW_PERCH(new FoodItem(settings(), 2, Nourishment.POOR)),
-    RAW_GOLDFIN(new FoodItem(settings(), 1, Nourishment.POOR)),
-    RAW_TRANSLUCENT_LIONFISH(new FoodItem(settings(), 3, Nourishment.POOR)),
+    RAW_GOLDFIN(new FoodItem(settings().recipeRemainder(Items.GOLD_NUGGET), 1, Nourishment.POOR)),
+    RAW_TRANSLUCENT_LIONFISH(new FoodItem(settings().recipeRemainder(Items.PHANTOM_MEMBRANE), 3, Nourishment.POOR)),
 
     RAW_SQUID_TENTACLE(new FoodItem(settings(), 2, Nourishment.POOR)),
     RAW_GLOWSQUID_TENTACLE(new FoodItem(settings(), 2, Nourishment.POOR, new FoodStatusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 5 * 20)))

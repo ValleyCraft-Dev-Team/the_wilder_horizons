@@ -24,5 +24,5 @@ public class WHGroups {
     public static final ItemGroup WH_TOOLS = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_tools"), () -> new ItemStack(Items.IRON_PICKAXE));
     public static final ItemGroup WH_BLOCKS = FabricItemGroupBuilder.build
-            (new Identifier(Main.ID,"wh_blocks"), () -> new ItemStack(WHBlocks.APPLE_DOOR));
+            (new Identifier(Main.ID,"wh_blocks"), () -> new ItemStack(WHBlocks.GLOW_BERRY_LANTERN));
 }

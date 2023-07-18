@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#X#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "wilder_horizons:salt"
+        },
+        "X": {
+            "tag": "c:cureable_fish"
+        }
+    },
+    "result": {
+        "item": "wilder_horizons:cured_fish",
+        "count": 1
+    }
+}

@@ -14,6 +14,7 @@ import net.minecraft.block.FluidBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -50,7 +51,9 @@ public class SludgeFluidBlock extends FluidBlock {
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
         if ((pos.getY() + state.getFluidState().getHeight(world, pos)) >= entity.getBoundingBox().minY) {
             entity.setVelocity(entity.getVelocity().multiply(0.9, 0.9, 0.9));
-            if (entity instanceof LivingEntity living) {
+            if (entity instanceof LivingEntity living
+                    && entity.getType() != EntityType.CREEPER
+            ) {
                 living.addStatusEffect(new StatusEffectInstance(WHEffects.ROT_BLIGHT.effect, 7 * 20));
             }
         }
