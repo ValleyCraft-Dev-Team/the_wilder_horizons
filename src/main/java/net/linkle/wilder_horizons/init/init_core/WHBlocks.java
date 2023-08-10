@@ -78,6 +78,10 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     SAVANNA_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
     SNOW_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
     TAIGA_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**mages**/
+    SNOWY_MAGE_TABLE(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    /**fishing**/
+    //SNOWY_FISHING_TABLE(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
 
     //BARREL_PLANTER(new Block(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     RAIN_COLLECTOR(new RainCollectorBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque()), itemSettings()),
@@ -1117,6 +1121,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     //lodged and rusty blocks go here
     //GODDESS_BLADE_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().rarity(Rarity.EPIC).group(BOOKS)),
+    HEROES_BLADE_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.EPIC).group(WHGroups.WH_BLOCKS)),
     SWORD_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
     SHOVEL_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
     PICKAXE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),

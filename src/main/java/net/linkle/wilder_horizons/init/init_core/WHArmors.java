@@ -24,7 +24,7 @@ public enum WHArmors implements ItemEnum {
     WHITE_WARPAINT(new ArmorItem(WHArmorMaterials.WHITE_WARPAINT, EquipmentSlot.HEAD, settings())),
 
     // starter armor
-    BELT(new ArmorItem(WHArmorMaterials.BELT, EquipmentSlot.CHEST, settings())),
+    BELT(new ArmorItem(WHArmorMaterials.BELT, EquipmentSlot.LEGS, settings())),
 
     // plant clothing
     VINE_CROWN(new ArmorItem(WHArmorMaterials.VINE_CROWN, EquipmentSlot.HEAD, settings())),

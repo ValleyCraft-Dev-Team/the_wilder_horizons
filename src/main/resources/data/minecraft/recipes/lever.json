@@ -1,19 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#",
-    "C"
-  ],
-  "key": {
-    "#": {
-      "tag": "c:dowel_items"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "I",
+        "_"
+    ],
+    "key": {
+        "#": {
+            "tag": "c:dowel_items"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
+        },
+        "_": {
+            "item": "minecraft:cobblestone_slab"
+        }
     },
-    "C": {
-      "item": "minecraft:cobblestone"
-    }
-  },
-  "result": {
-    "item": "minecraft:lever",
-    "count": 1
-  }
+    "result": {
+            "item": "minecraft:lever",
+            "count": 1
+            }
 }

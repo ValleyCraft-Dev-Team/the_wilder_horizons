@@ -5,6 +5,15 @@
   "ingredient": [
     {
       "item": "minecraft:iron_horse_armor"
+    },
+    {
+      "item": "minecraft:minecart"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:cauldron"
     }
   ],
   "result": "minecraft:iron_ingot"

@@ -35,6 +35,8 @@ import java.util.Locale;
 
 public enum WHTools implements ItemEnum, ToolConstants {
 
+    BROKEN_HEROES_BLADE(new UnbreakableScalpelBase(WHToolMaterials.GODDESS_BLADE_BROKEN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_EPIC)),
+    HEROES_BLADE(new UnbreakableScalpelBase(WHToolMaterials.GODDESS_BLADE, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_EPIC)),
     // Environmental Tools
     BRANCH(new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f)),
     //DRIFTWOOD_BRANCH(new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f)),

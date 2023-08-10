@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:strings"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+        {
+            "tag": "c:worm_bait"
+        }
+        {
+            "item": "minecraft:red_dye"
+        }
+        {
+            "item": "minecraft:white_dye"
+        }
+    ],
+    "result": {
+        "item": "wilder_horizons:iron_fishing_hook",
+        "count": 1
+    }
+}

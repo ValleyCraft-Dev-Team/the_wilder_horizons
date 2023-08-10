@@ -5,6 +5,7 @@ import com.google.common.base.Suppliers;
 
 import net.linkle.wilder_horizons.init.init_core.WHMiscItems;
 import net.linkle.wilder_horizons.init.init_core.WHNature;
+import net.linkle.wilder_horizons.tags.ModItemTags;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
@@ -106,6 +107,12 @@ public enum WHToolMaterials implements ToolMaterial {
     }),
     ECHOCHALCUM_EXTENDED(4, 3047, 9.0F, 4.0F, 22, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM_INGOT});
+    }),
+    GODDESS_BLADE_BROKEN(4, 3047, 9.0F, 2.0F, 0, () -> {
+        return Ingredient.fromTag(ModItemTags.LARGE_SOULS);
+    }),
+    GODDESS_BLADE(4, 3047, 9.0F, 4.0F, 30, () -> {
+        return Ingredient.fromTag(ModItemTags.LARGE_SOULS);
     }),
     BRASIUM_EXTENDED(1, 660, 7.0F, 2.0F, 15, () -> {
         return Ingredient.ofItems(WHMiscItems.BRASIUM_INGOT);

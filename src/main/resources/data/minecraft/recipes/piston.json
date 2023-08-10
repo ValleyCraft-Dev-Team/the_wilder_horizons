@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i_i",
+        "CVC",
+        "CRC"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "_": {
+            "tag": "minecraft:wooden_slabs"
+        },
+        "C": {
+            "item": "minecraft:cobblestone"
+        },
+        "V": {
+            "item": "wilder_horizons:plank_item"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:piston",
+        "count": 1
+    }
+}

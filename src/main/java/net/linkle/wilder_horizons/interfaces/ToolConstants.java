@@ -49,6 +49,7 @@ public interface ToolConstants {
     //The item settings for knives made of 'basic' materials- wood, gold, stone, iron, rose gold, diamond, netherite
     Item.Settings BASIC_SETTINGS = new Item.Settings().group(WHGroups.WH_TOOLS);
     Item.Settings BASIC_SETTINGS_RARE = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.RARE);
+    Item.Settings BASIC_SETTINGS_EPIC = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.EPIC);
     Item.Settings BASIC_SETTINGS_UNCOMMON = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.UNCOMMON);
     //Item.Settings BASIC_ARTIFACT_SETTINGS_RARE = new Item.Settings().group(BOOKS).rarity(Rarity.RARE);
     //Item.Settings BASIC_ARTIFACT_SETTINGS_EPIC = new Item.Settings().group(BOOKS).rarity(Rarity.EPIC);

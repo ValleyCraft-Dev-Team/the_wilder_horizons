@@ -66,7 +66,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
     ILLAGER_TUNIC("pillager_tunic", 10, new int[]{1, 2, 3, 1}, 17, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.TREATED_LEATHER_STRAP});
     }),
-    BELT("belt", 14, new int[]{2, 2, 2, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    BELT("belt", 14, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.TREATED_LEATHER_STRAP});
     }),
     WRAITH_CLOAK("wraith_cloak", 15, new int[]{2, 3, 4, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {

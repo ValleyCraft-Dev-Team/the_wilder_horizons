@@ -1,22 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "tag": "c:handles"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        " #I",
+        "VW "
+    ],
+    "key": {
+        "#": {
+            "item": "wilder_horizons:plank_item"
+        },
+        "I": {
+            "tag": "c:fishing_hooks"
+        },
+        "V": {
+            "tag": "c:handles"
+        },
+        "W": {
+            "tag": "c:string_spools"
+        }
     },
-    "X": {
-      "tag": "c:strings"
-    },
-    "G": {
-      "item": "minecraft:iron_ingot"
+    "result": {
+        "item": "minecraft:fishing_rod",
+        "count": 1
     }
-  },
-  "pattern": [
-    "  #",
-    " #X",
-    "#GX"
-  ],
-  "result": {
-    "item": "minecraft:fishing_rod"
-  }
 }

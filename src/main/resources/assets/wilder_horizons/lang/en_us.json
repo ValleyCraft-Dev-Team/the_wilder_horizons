@@ -19,14 +19,14 @@
   "item.wilder_horizons.warding_ointment": "Warding Salve",
 
   "item.wilder_horizons.poison_bolus": "Curing Bolus",
-  "item.soulslikegrit.poison_bolus.tooltip_0": "Removes all effects but",
-  "item.soulslikegrit.poison_bolus.tooltip_1": "tastes revolting.",
+  "item.wilder_horizons.poison_bolus.tooltip_0": "Removes all effects but",
+  "item.wilder_horizons.poison_bolus.tooltip_1": "tastes revolting.",
 
   "item.wilder_horizons.soap": "Revitalizing Soap",
-  "item.soulslikegrit.soap.tooltip_0": "Removes stuck arrows, grit,",
-  "item.soulslikegrit.soap.tooltip_1": "and slowly heals the body.",
-  "item.soulslikegrit.soap.tooltip": "You must be submerged in",
-  "item.soulslikegrit.soap.tooltip_2": "water to use this properly.",
+  "item.wilder_horizons.soap.tooltip_0": "Removes stuck arrows, grit,",
+  "item.wilder_horizons.soap.tooltip_1": "and slowly heals the body.",
+  "item.wilder_horizons.soap.tooltip": "You must be submerged in",
+  "item.wilder_horizons.soap.tooltip_2": "water to use this properly.",
 
   "item.wilder_horizons.healing_broth": "Bolstering Tea",
   "item.wilder_horizons.strength_broth": "Invigorating Tea",
@@ -58,6 +58,14 @@
 
   "item.wilder_horizons.plant_fiber_string": "Plant Fiber Cordage",
   "item.wilder_horizons.bow_string": "Bowstring",
-  "item.wilder_horizons.jelly_blob": "Sticky Jelly Blob"
+  "item.wilder_horizons.jelly_blob": "Sticky Jelly Blob",
 
+  "item.wilder_horizons.soul_powder": "Crushed Soul Powder",
+  "item.wilder_horizons.soul_gem": "Soul",
+  "item.wilder_horizons.cracking_soul_gem": "Fading Soul",
+  "item.wilder_horizons.golem_soul_gem": "Soul-Core of a Golem",
+  "item.wilder_horizons.soul_of_an_elder_guardian": "Soul-Core of an Elder Guardian",
+  "item.wilder_horizons.soul_of_a_wither": "Amalgamated Soul of a Wither",
+  "item.wilder_horizons.soul_of_an_ender_dragon": "Soul of an Ender Dragon",
+  "item.wilder_horizons.soul_of_a_lich": "Soul of a Lich"
 }
