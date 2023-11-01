@@ -109,7 +109,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{Items.LEATHER});
     }),
     HUNTERS_CAP("hunters_cap", 10, new int[]{2, 2, 3, 2}, 22, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ROTTEN_LEATHER});
+        return Ingredient.ofItems(new ItemConvertible[]{Items.LEATHER});
     }),
     ALLAGER_GARMENTS("allager_garments", 10, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});

@@ -37,12 +37,6 @@ import net.minecraft.world.BlockView;
 
 public enum WHBlocks implements ItemEnum, BlockEnum {
 
-    // The new blocks I don't know where to put
-    RAW_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK)), itemSettings()),
-    RAW_ORANGE_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK)), itemSettings()),
-    RAW_GLOW_KELP_BLOCK(new Block(Block.Settings.copy(Blocks.DRIED_KELP_BLOCK).luminance(s->15)), itemSettings()),
-
-
     CRAFTING_MAT(new CraftingMatBlock(Block.Settings.of(Material.DECORATION).sounds(BlockSoundGroup.WOOL).breakInstantly().noCollision().nonOpaque()), toolItemSettings()),
     CRATE(new CrateBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     //MEMORY_BOX(new MemoryBoxBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
@@ -56,34 +50,11 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     KEG(new KegBlock(), itemSettings()),
     /**stablehand_poi**/
     STABLEHAND_STATION(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
-    STABLEHAND_COUNTER(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
+    //STABLEHAND_COUNTER(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     /**hunter poi**/
     HUNTING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**marksmans poi**/
-    MARKSMANS_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**desert **/
-    DESERT_EMPEROR_THRONE(new CushionBlock((DyeColor.YELLOW)), itemSettings()),
-    /**armorer**/
-    DESERT_BLAST_FURNACE(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
-    /**weaponsmith**/
-    DESERT_WEAPONSMITHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
-    /**chef**/
-    DESERT_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
-    SAVANNA_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    SNOW_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    TAIGA_COOKING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**clothier**/
-    DESERT_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.CUT_SANDSTONE)), itemSettings()),
-    PLAINS_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    SAVANNA_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    SNOW_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    TAIGA_CLOTHIER_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**mages**/
-    SNOWY_MAGE_TABLE(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
-    /**fishing**/
-    //SNOWY_FISHING_TABLE(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
 
-    //BARREL_PLANTER(new Block(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
+    PLANTER(new Block(Block.Settings.copy(Blocks.TERRACOTTA)), itemSettings()),
     RAIN_COLLECTOR(new RainCollectorBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque()), itemSettings()),
     LEVELED_RAIN_COLLECTOR(new LeveledRainCollectorBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque())),
     //WATER_SHOWERER(new ShowerBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque().ticksRandomly()), itemSettings()),
@@ -92,7 +63,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     //WITCH_LADLE(new LadleBlock(Block.Settings.copy(Blocks.OAK_PLANKS).breakInstantly().noCollision().nonOpaque()), itemSettings()),
     DEPLETED_CONDUIT(new DeadConduit(Block.Settings.copy(Blocks.CONDUIT)), itemSettings().rarity(Rarity.UNCOMMON)),
-    NETHER_CONDUIT(new NetherConduit(Block.Settings.copy(Blocks.CONDUIT)), itemSettings().rarity(Rarity.RARE)),
+    //NETHER_CONDUIT(new NetherConduit(Block.Settings.copy(Blocks.CONDUIT)), itemSettings().rarity(Rarity.RARE)),
 
     COUNTER_DRAWER(new CounterDrawerBlock(Block.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()), itemSettings()),
     COUNTER(new CounterBlock(Block.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()), itemSettings()),
@@ -211,36 +182,36 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     PINK_SLIME_BLOCK(new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)), itemSettings()),
 
     //guidestones
-    GUIDESTONE_BLANK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-
-    GUIDESTONE_BACK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_FORWARD(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_HERE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_LEFT(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_RIGHT(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-
-    GUIDESTONE_CAMPSITE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_DUNGEON(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_HOMESTEAD(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_PORT(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_PORTAL(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_STABLES(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TOWER(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TRADE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_VILLAGE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-
-    GUIDESTONE_TOOL_AXE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TOOL_BOW(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TOOL_FISHING_ROD(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TOOL_HOE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TOOL_PICKAXE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TOOL_POTION(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TOOL_SHOVEL(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_TOOL_SWORD(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-
-    GUIDESTONE_SYMBOL_DEATH(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_SYMBOL_HEART(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
-    GUIDESTONE_SYMBOL_HUNGER(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_BLANK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+//
+    //GUIDESTONE_BACK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_FORWARD(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_HERE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_LEFT(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_RIGHT(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+//
+    //GUIDESTONE_CAMPSITE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_DUNGEON(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_HOMESTEAD(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_PORT(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_PORTAL(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_STABLES(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TOWER(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TRADE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_VILLAGE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+//
+    //GUIDESTONE_TOOL_AXE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TOOL_BOW(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TOOL_FISHING_ROD(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TOOL_HOE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TOOL_PICKAXE(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TOOL_POTION(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TOOL_SHOVEL(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_TOOL_SWORD(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+//
+    //GUIDESTONE_SYMBOL_DEATH(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_SYMBOL_HEART(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
+    //GUIDESTONE_SYMBOL_HUNGER(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
 
     /**datagen recipes below this point - stairs/slabs/walls ONLY**/
     //wattle and daub
@@ -318,7 +289,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     REDSTONE_LANTERN(new RedstoneLanternBlock(), itemSettings()),
     //REDSTONE_LAMPTERN(new RedstoneLampternBlock(), itemSettings()),
-    GLOWSQUID_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 8)), itemSettings()),
+    GLOWSQUID_LANTERN(new GlowSquidLanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 8).ticksRandomly()), itemSettings()),
     //BRIMSTONE_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
     //AMBER_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
     //DIAMOND_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
@@ -336,11 +307,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     BURNT_OUT_CANDLE(new BurntTorchBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CANDLE)).shape(4, 12), itemSettings()),
     //ARROW_BLOCK(new ArrowBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.BAMBOO).noCollision()), itemSettings()),
     SKY_LANTERN(new Block(Block.Settings.copy(Blocks.SEA_LANTERN).luminance(s->15)), itemSettings()),
-    PRISMARINE_ROD(new EndRodBlock(Block.Settings.copy(Blocks.END_ROD).luminance(s->14)), itemSettings()),
-    NETHER_ROD(new EndRodBlock(Block.Settings.copy(Blocks.END_ROD).luminance(s->14)), itemSettings()),
-    OETHER_ROD(new EndRodBlock(Block.Settings.copy(Blocks.END_ROD).luminance(s->14)), itemSettings()),
-    MIDLAND_ROD(new EndRodBlock(Block.Settings.copy(Blocks.END_ROD).luminance(s->14)), itemSettings()),
-
 
     GRAVE_MARKER(new GraveBlock(Block.Settings.copy(Blocks.OAK_WOOD).hardness(1).resistance(100).nonOpaque()), itemSettings().rarity(Rarity.UNCOMMON)),
     SHALE_GRAVESTONE(new ShaleGraveBlock(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.BASALT).resistance(666).hardness(2.25f).nonOpaque()), itemSettings()),
@@ -416,8 +382,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     // glass blocks & windows
     TINTED_GLASS_PANE(new PaneBlock(Block.Settings.copy(Blocks.TINTED_GLASS)), itemSettings()),
-    TERRARIUM_GLASS(new GlassBlock(Block.Settings.copy(Blocks.GLASS)), itemSettings()),
-    TERRARIUM_GLASS_PANE(new PaneBlock(Block.Settings.copy(Blocks.GLASS_PANE)), itemSettings()),
+    //TERRARIUM_GLASS(new GlassBlock(Block.Settings.copy(Blocks.GLASS)), itemSettings()),
+    //TERRARIUM_GLASS_PANE(new PaneBlock(Block.Settings.copy(Blocks.GLASS_PANE)), itemSettings()),
     BRIMSTONE_GLASS(new GlassBlock(Block.Settings.copy(Blocks.GLASS).luminance(s -> 8).resistance(30).hardness(2)), itemSettings()),
     BRIMSTONE_GLASS_PANE(new PaneBlock(Block.Settings.copy(Blocks.GLASS_PANE).luminance(s -> 8).resistance(30).hardness(2)), itemSettings()),
     BEVELED_GLASS(new GlassBlock(Block.Settings.copy(Blocks.GLASS)), itemSettings()),
@@ -470,12 +436,11 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     POTTED_MOSS_SPROUTLET(new PotBlock(WHNature.MOSS_SPROUTLET)),
 
     // Potted mushrooms
-    POTTED_GLOW_MUSHROOM(new PotBlock(WHNature.GLOW_MUSHROOM)),
     POTTED_PURPLE_MUSHROOM(new PotBlock(WHNature.PURPLE_MUSHROOM)),
     //POTTED_SOULSPORE(new PotBlock(ModNaturalBlocks.SOULSPORE_SINGLE)),
     //POTTED_GOOP_CAP(new PotBlock(ModNaturalBlocks.GOOP_CAP)),
     POTTED_SPORE_SPREADER(new PotBlock(WHNature.SPORE_SPREADER)),
-    POTTED_FAN_MOLD(new PotBlock(WHNature.FAN_MOLD)),
+    //POTTED_FAN_MOLD(new PotBlock(WHNature.FAN_MOLD)),
 
     // Potted saplings
     POTTED_GOLD_LEAF_MAPLE_SAPLING(new PotBlock(WHNature.GOLD_LEAF_MAPLE_SAPLING)),
@@ -579,7 +544,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     IRON_GRATE(new GrateBlock(Block.Settings.copy(Blocks.IRON_BLOCK).strength(4.1f, 5.0f).nonOpaque()), itemSettings()),
 
     LARGE_CHAIN(new LargeChainBlock(Block.Settings.copy(Blocks.CHAIN)), itemSettings()),
-    IRON_FENCE(new PaneBlock(Block.Settings.copy(Blocks.IRON_BARS).nonOpaque()), itemSettings()),
+    IRON_CHAIN_LINK_FENCE(new PaneBlock(Block.Settings.copy(Blocks.IRON_BARS).nonOpaque()), itemSettings()),
 
     DEEPSLATE_PRESSURE_PLATE(new PressurePlateBlock(ActivationRule.MOBS, Block.Settings.copy(Blocks.STONE_PRESSURE_PLATE)), itemSettings()),
     SHALE_PRESSURE_PLATE(new PressurePlateBlock(ActivationRule.MOBS, Block.Settings.copy(Blocks.STONE_PRESSURE_PLATE).strength(0.2f)), itemSettings()),
@@ -1097,9 +1062,9 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     ROUNDED_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
     ROUNDED_BLUE_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
 
-    BROWN_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
-    BLUE_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).nonOpaque().breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
-    GREEN_CLAY_POT(new ExplosiveClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).nonOpaque().breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
+    //BROWN_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
+    //BLUE_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).nonOpaque().breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
+    //GREEN_CLAY_POT(new ExplosiveClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).nonOpaque().breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
     //PURPLE_CLAY_POT(new SoulClayPot(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSoundGroup.POT.sound).nonOpaque().breakInstantly(), UniformIntProvider.create(2, 6)), itemSettings().group(WHGroups.WH_BLOCKS)),
 
     DEEPSLATE_URN_PLAIN(new UrnBlock(BlockSettings.urn()), itemSettings().group(WHGroups.WH_BLOCKS)),
@@ -1120,7 +1085,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     //ANCIENT_WAGON_WHEEL_TABLE(new WagonWheelTableBlock(Block.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()), itemSettings().group(BOOKS).rarity(Rarity.RARE)),
 
     //lodged and rusty blocks go here
-    //GODDESS_BLADE_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().rarity(Rarity.EPIC).group(BOOKS)),
     HEROES_BLADE_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.EPIC).group(WHGroups.WH_BLOCKS)),
     SWORD_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
     SHOVEL_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
@@ -1128,31 +1092,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     AXE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
     HOE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
     CHAINED_CHEST(new RustedChestBlock(Block.Settings.copy(Blocks.OAK_WOOD).sounds(BlockSoundGroup.CHAIN)), itemSettings().rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
-
-    //RUSTED_CHEST(new RustedChestBlock(Block.Settings.copy(Blocks.OAK_WOOD)), itemSettings().group(BOOKS).rarity(Rarity.RARE)),
-    //BONFIRE(new ModCampfireBlock(true, 1, Block.Settings.copy(Blocks.CAMPFIRE)), itemSettings().rarity(Rarity.RARE)),
-
-    //rare sandstone temple blocks go here
-    //CHISELED_SANDSTONE_PORTAL_COMING(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-    //CHISELED_SANDSTONE_PORTAL_LEAVING(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-    //CHISELED_SANDSTONE_ENDERMAN(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-    //CHISELED_SANDSTONE_REST(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-    //CHISELED_SANDSTONE_TEMPLE(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-
-    //CHISELED_RED_SANDSTONE_PIGLIN(new Block(Block.Settings.copy(Blocks.RED_SANDSTONE)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-    //CHISELED_RED_SANDSTONE_PORTAL_COMING(new Block(Block.Settings.copy(Blocks.RED_SANDSTONE)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-    //CHISELED_RED_SANDSTONE_PORTAL_LEAVING(new Block(Block.Settings.copy(Blocks.RED_SANDSTONE)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-
-    //SCORCHSTONE_CHISELED_FACE_PIGLIN(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings().fireproof().rarity(Rarity.UNCOMMON).group(BOOKS)),
-
-    //CHISELED_ERDSTONE_BRICK_FACE(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings().group(BOOKS)),
-    //CHISELED_ERDSTONE_BRICK_FACE_HAPPY(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings().group(BOOKS)),
-    //MOSSY_PATTERNED_ERDSTONE(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-    //PRIMSTEEL_WINDOW(new GrateBlock(Block.Settings.copy(Blocks.IRON_BLOCK).nonOpaque()), itemSettings().rarity(Rarity.UNCOMMON).group(BOOKS)),
-    //ERDSTONE_TARGET_BLOCK(new TargetBlock(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE).hardness(1).luminance(s ->10)), itemSettings().group(BOOKS)),
-    //ERDSTONE_DISPENSER(new DispenserBlock(Block.Settings.copy(Blocks.DEEPSLATE).sounds(BlockSoundGroup.DEEPSLATE).hardness(1)), itemSettings().group(BOOKS)),
-    //ERDSTONE_SPIRIT_LIT(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1).luminance(s ->16)), itemSettings().group(BOOKS)),
-    //ERDSTONE_LANTERN(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1).luminance(s ->10)), itemSettings().group(BOOKS)),
 
     //last block on the artifacts tab
     DEFECTIVE_SPAWNER(new DefectiveBlock(Block.Settings.copy(Blocks.SPAWNER)), itemSettings().group(WHGroups.WH_BLOCKS).maxCount(64).rarity(Rarity.RARE).fireproof());

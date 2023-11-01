@@ -179,7 +179,7 @@ public class CustomTradeRegistryModdedVillagers {
                             new ItemStack(Items.EMERALD, 1),
                             10, 2, 0.02f)));
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(WHMiscItems.ROTTEN_LEATHER, 8),
+                            new ItemStack(WHMiscItems.BEAST_CLAW, 8),
                             new ItemStack(Items.EMERALD, 1),
                             16, 2, 0.05f)));
                 });
@@ -195,11 +195,7 @@ public class CustomTradeRegistryModdedVillagers {
                             new ItemStack(Items.EMERALD, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(WHMiscItems.ALLAGER_SKULL_SHARD, 4),
-                            new ItemStack(Items.EMERALD, 1),
-                            16, 2, 0.05f)));
-                    factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(WHMiscItems.MIDLANDER_SKULL_SHARD, 4),
+                            new ItemStack(WHMiscItems.SKULL_SHARD, 4),
                             new ItemStack(Items.EMERALD, 1),
                             16, 2, 0.05f)));
                 });

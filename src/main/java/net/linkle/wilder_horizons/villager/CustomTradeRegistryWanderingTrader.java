@@ -184,11 +184,7 @@ public class CustomTradeRegistryWanderingTrader {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHNature.GLOW_MUSHROOM, 1),
-                            16, 2, 0.05f)));
-                    factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHNature.FAN_MOLD, 1),
+                            new ItemStack(WHMiscItems.BEAST_CLAW, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
@@ -236,7 +232,7 @@ public class CustomTradeRegistryWanderingTrader {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHMiscItems.CLAY_JAR, 1),
+                            new ItemStack(WHMiscItems.BOBBER, 1),
                             16, 2, 0.05f)));
                 });
     }

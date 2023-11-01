@@ -2,6 +2,7 @@ package net.linkle.wilder_horizons.entity;
 
 import net.linkle.wilder_horizons.environment.sounds.WHSounds;
 import net.linkle.wilder_horizons.init.init_core.WHEntities;
+import net.linkle.wilder_horizons.init.init_core.WHMiscItems;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.ai.pathing.EntityNavigation;
@@ -81,13 +82,12 @@ public class DuckEntity extends AnimalEntity {
         
         if (!world.isClient && isAlive() && !isBaby()) {
             if (--eggLayTime <= 0) {
-                playSound(SoundEvents.ENTITY_CHICKEN_EGG, 1.0F, (random.nextFloat() - random.nextFloat()) * 0.2F + 1.0F);
                 eggLayTime = getRandomTime();
-                dropItem(Items.EGG); // TODO Duck egg
+                dropItem(WHMiscItems.DUCK_FEATHER); // TODO Duck egg
             }
             if (--dropFeatherTime <= 0) {
                 dropFeatherTime = getRandomTime();
-                dropItem(Items.FEATHER);
+                dropItem(WHMiscItems.DUCK_FEATHER);
             }
         }
     }

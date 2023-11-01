@@ -42,7 +42,6 @@ public enum WHTools implements ItemEnum, ToolConstants {
     //DRIFTWOOD_BRANCH(new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f)),
 
     THROWING_ROCK(new RockItem(new Item.Settings().maxCount(64).group(WHGroups.WH_TOOLS))),
-    TNT_STICK(new RockItem(new Item.Settings().maxCount(16).group(WHGroups.WH_TOOLS))),
 
     // Makeshift Bone
     MAKESHIFT_KNIFE(new KnifeBase(WHToolMaterials.MAKESHIFT_WOOD, MAKESHIFT_BASED_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),
@@ -58,7 +57,8 @@ public enum WHTools implements ItemEnum, ToolConstants {
     WOODEN_STAFF(new StaffBase(WHToolMaterials.PLANK, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
     BAMBOO_STAFF(new StaffBase(WHToolMaterials.BAMBOO, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
     BLAZE_STAFF(new StaffBase(WHToolMaterials.BLAZE, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
-    DRIPSTONE_SPEAR(new StaffBase(WHToolMaterials.BAMBOO, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
+    DRIPSTONE_SPEAR(new StaffBase(WHToolMaterials.DRIPSTONE, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
+    FLINT_SPEAR(new StaffBase(WHToolMaterials.FLINT, STAFF_BASE_DAMAGE, STAFF_BASE_SPEED, BASIC_SETTINGS)),
 
     //ANTHROPOLOGISTS_ROCK_PICK(new AnthroPickaxeItem(new AnthroPickaxeMaterial())),
 

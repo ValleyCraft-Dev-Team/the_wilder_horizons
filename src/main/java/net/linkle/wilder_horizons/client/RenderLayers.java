@@ -44,7 +44,7 @@ public class RenderLayers {
         put(CHAINED_CHEST, cullout);
         //put(DEAD_IRON_GOLEM, cullout);
         put(DEPLETED_CONDUIT, cullout);
-        put(NETHER_CONDUIT, cullout);
+        //put(NETHER_CONDUIT, cullout);
         put(CRAFTING_MAT, cullout);
         //put(WITCH_LADLE, cullout);
         put(FIREGUARD, cullout);
@@ -55,32 +55,32 @@ public class RenderLayers {
         put(CAMPFIRE_POT, cullout);
         put(SOUL_CAMPFIRE_POT, cullout);
 
-        put(GUIDESTONE_BACK, cullout);
-        put(GUIDESTONE_BLANK, cullout);
-        put(GUIDESTONE_CAMPSITE, cullout);
-        put(GUIDESTONE_DUNGEON, cullout);
-        put(GUIDESTONE_FORWARD, cullout);
-        put(GUIDESTONE_HERE, cullout);
-        put(GUIDESTONE_HOMESTEAD, cullout);
-        put(GUIDESTONE_LEFT, cullout);
-        put(GUIDESTONE_PORT, cullout);
-        put(GUIDESTONE_PORTAL, cullout);
-        put(GUIDESTONE_RIGHT, cullout);
-        put(GUIDESTONE_SYMBOL_DEATH, cullout);
-        put(GUIDESTONE_STABLES, cullout);
-        put(GUIDESTONE_SYMBOL_HUNGER, cullout);
-        put(GUIDESTONE_SYMBOL_HEART, cullout);
-        put(GUIDESTONE_TOOL_AXE, cullout);
-        put(GUIDESTONE_TOOL_BOW, cullout);
-        put(GUIDESTONE_TOOL_FISHING_ROD, cullout);
-        put(GUIDESTONE_TOOL_HOE, cullout);
-        put(GUIDESTONE_TOOL_PICKAXE, cullout);
-        put(GUIDESTONE_TOOL_SWORD, cullout);
-        put(GUIDESTONE_TOOL_SHOVEL, cullout);
-        put(GUIDESTONE_TOOL_POTION, cullout);
-        put(GUIDESTONE_TOWER, cullout);
-        put(GUIDESTONE_TRADE, cullout);
-        put(GUIDESTONE_VILLAGE, cullout);
+        //put(GUIDESTONE_BACK, cullout);
+        //put(GUIDESTONE_BLANK, cullout);
+        //put(GUIDESTONE_CAMPSITE, cullout);
+        //put(GUIDESTONE_DUNGEON, cullout);
+        //put(GUIDESTONE_FORWARD, cullout);
+        //put(GUIDESTONE_HERE, cullout);
+        //put(GUIDESTONE_HOMESTEAD, cullout);
+        //put(GUIDESTONE_LEFT, cullout);
+        //put(GUIDESTONE_PORT, cullout);
+        //put(GUIDESTONE_PORTAL, cullout);
+        //put(GUIDESTONE_RIGHT, cullout);
+        //put(GUIDESTONE_SYMBOL_DEATH, cullout);
+        //put(GUIDESTONE_STABLES, cullout);
+        //put(GUIDESTONE_SYMBOL_HUNGER, cullout);
+        //put(GUIDESTONE_SYMBOL_HEART, cullout);
+        //put(GUIDESTONE_TOOL_AXE, cullout);
+        //put(GUIDESTONE_TOOL_BOW, cullout);
+        //put(GUIDESTONE_TOOL_FISHING_ROD, cullout);
+        //put(GUIDESTONE_TOOL_HOE, cullout);
+        //put(GUIDESTONE_TOOL_PICKAXE, cullout);
+        //put(GUIDESTONE_TOOL_SWORD, cullout);
+        //put(GUIDESTONE_TOOL_SHOVEL, cullout);
+        //put(GUIDESTONE_TOOL_POTION, cullout);
+        //put(GUIDESTONE_TOWER, cullout);
+        //put(GUIDESTONE_TRADE, cullout);
+        //put(GUIDESTONE_VILLAGE, cullout);
         //put(MEMBRANE_BLOCK, translucent);
 
         put(BLACK_CUSHION, cullout);
@@ -99,7 +99,7 @@ public class RenderLayers {
         put(YELLOW_CUSHION, cullout);
         put(WHITE_CUSHION, cullout);
         put(RED_CUSHION, cullout);
-        put(DESERT_EMPEROR_THRONE, cullout);
+        //put(DESERT_EMPEROR_THRONE, cullout);
 
         // Flowers and Potted Flowers
         //put(BLACK_DAHLIA, cullout);
@@ -139,11 +139,10 @@ public class RenderLayers {
         put(POTTED_SNOWFLOWER, cullout);
 
         // Fungi and Potted Fungi
-        put(GLOW_MUSHROOM, cullout);
-        put(POTTED_GLOW_MUSHROOM, cullout);
+        //put(POTTED_GLOW_MUSHROOM, cullout);
         put(PURPLE_MUSHROOM, cullout);
         put(POTTED_PURPLE_MUSHROOM, cullout);
-        put(POTTED_FAN_MOLD, translucent);
+        //put(POTTED_FAN_MOLD, translucent);
         put(POTTED_SPORE_SPREADER, cullout);
         put(POTTED_SOUL_ROSE, cullout);
         put(POTTED_BLUE_SOUL_ROSE, cullout);
@@ -228,7 +227,7 @@ public class RenderLayers {
         put(ANTHRACITE_ORE_ROCKS, cullout);
         put(ENDSTONE_ROCKS, cullout);
         put(REDSTONE_CRYSTAL, cullout);
-        put(JELLYCAP, translucent);
+        put(JELLYCAP, cullout);
         //put(GNARLED_ROOTS, cullout);
 
         put(APPLE_LEAVES, cullout);
@@ -276,8 +275,8 @@ public class RenderLayers {
 
         put(IRON_GRATE, cullout);
         put(WATTLE_GRATE, cullout);
-        put(TERRARIUM_GLASS, cullout);
-        put(TERRARIUM_GLASS_PANE, cullout);
+        //put(TERRARIUM_GLASS, cullout);
+        //put(TERRARIUM_GLASS_PANE, cullout);
         put(BEVELED_GLASS, cullout);
         put(BEVELED_GLASS_PANE, cullout);
         put(BEVELED_BRIMSTONE_GLASS, translucent);
@@ -346,9 +345,9 @@ public class RenderLayers {
         put(SWORD_BLOCK, cullout);
         put(SPORE_SPREADER, cullout);
 
-        put(BROWN_CLAY_POT, cullout);
-        put(BLUE_CLAY_POT, cullout);
-        put(GREEN_CLAY_POT, cullout);
+        //put(BROWN_CLAY_POT, cullout);
+        //put(BLUE_CLAY_POT, cullout);
+        //put(GREEN_CLAY_POT, cullout);
         //put(PURPLE_CLAY_POT, cullout);
         put(ROUNDED_CLAY_POT, cullout);
         put(ROUNDED_BLUE_CLAY_POT, cullout);
@@ -356,14 +355,14 @@ public class RenderLayers {
         put(SLUDGE_FLUID, translucent);
 
         put(MEADOW_FLOWERS, cullout);
-        put(BARNACLE_BLOCK, translucent);
+        //put(BARNACLE_BLOCK, translucent);
         put(CLAM_BLOCK, cullout);
         put(URCHIN_BLOCK, cullout);
         put(STARFISH_BLOCK, cullout);
         put(TUBE_WORMS_BLOCK, cullout);
         put(SPIKE_TRAP, cullout);
         put(SPIKE_TRAP_EXTENSION, cullout);
-        put(FAN_MOLD, translucent);
+        //put(FAN_MOLD, translucent);
 
         put(HOLLOW_ACACIA_LOG, cullout);
         put(HOLLOW_APPLE_LOG, cullout);

@@ -36,7 +36,7 @@ public class CustomTradeRegistryVanillaVillagers {
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.CLERIC, 1,
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(WHMiscItems.ROTTEN_LEATHER, 8),
+                            new ItemStack(WHMiscItems.BEAST_CLAW, 8),
                             new ItemStack(Items.EMERALD, 1),
                             10, 2, 0.02f)));
                     factories.add(((entity, random) -> new TradeOffer(

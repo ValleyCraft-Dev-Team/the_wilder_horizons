@@ -31,9 +31,9 @@ public class ModVillagers {
     public static final PointOfInterestType HUNTER_POI = registerPOI("hunter_poi", WHBlocks.HUNTING_STATION.block);
     public static final VillagerProfession HUNTER = registerPro("hunter", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "hunter_poi")));
 
-    //new fletchers
-    public static final PointOfInterestType MARKSMAN_POI = registerPOI("marksman_poi", WHBlocks.MARKSMANS_STATION.block);
-    public static final VillagerProfession MARKSMAN = registerPro("marksman", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "marksman_poi")));
+    ////new fletchers
+    //public static final PointOfInterestType MARKSMAN_POI = registerPOI("marksman_poi", WHBlocks.MARKSMANS_STATION.block);
+    //public static final VillagerProfession MARKSMAN = registerPro("marksman", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "marksman_poi")));
 
     //public static final PointOfInterestType LUMBERJACK_POI = registerPOI("lumberjack_poi", BlocksModded.LUMBERJACK_STATION.block);
     //public static final VillagerProfession LUMBERJACK = registerPro("lumberjack", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "lumberjack_poi")));

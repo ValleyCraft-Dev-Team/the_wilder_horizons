@@ -56,14 +56,9 @@ public enum WHNature implements ItemEnum, BlockEnum {
     BLACK_TULIP(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     BIG_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
     LEATHERLEAF_FERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
-    //FROSTFERN(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
-    SCALDERA_CANE(new ScalderaCaneBlock(), itemSettings()),
 
     LILY_OF_THE_MOUNTAINS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    //POISON_BLOSSOM(new PoisonPlantBlock(FLOWER_SHAPE, OFFSET_FLOWER), itemSettings()),
-    //NIGHT_LILY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings().rarity(Rarity.RARE)),
     LILY_OF_THE_OCEANS(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    //LILY_OF_THE_SKIES(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
 
     KNAPWEED(new ModFlowerBlock(Blocks.OXEYE_DAISY, OFFSET_FLOWER), itemSettings()),
 
@@ -82,15 +77,15 @@ public enum WHNature implements ItemEnum, BlockEnum {
     //mushrooms
     PURPLE_MUSHROOM(new ModMushroomBlockDaySafe(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
     PURPLE_MUSHROOM_BLOCK(new MushroomBlock(Block.Settings.copy(Blocks.RED_MUSHROOM_BLOCK).mapColor(MapColor.PURPLE)), itemSettings()),
-    GLOW_MUSHROOM(new ModGlowingMushroomBlock(), itemSettings()),
+    //GLOW_MUSHROOM(new ModGlowingMushroomBlock(), itemSettings()),
     SPORE_SPREADER(new ModSporeSpreaderBlock().large(), itemSettings()),
-    FAN_MOLD(new FanMoldBlock(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
+    //FAN_MOLD(new FanMoldBlock(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
     //SHIVERCAP(new ShivercapBlock(), itemSettings().group(WH_FOOD)),
     //MOREL(new ModMushroomBlockDaySafe(), itemSettings()),
     //STALWART_SHROOM(new StalwartBlock(), itemSettings().group(WH_FOOD)),
 
     SHORT_GRASS(new GrowablePlantBlock(OFFSET_REPLACEABLE, new Identifier("grass")), itemSettings()),
-    SNOWFLOWER(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
+    SNOWFLOWER(new SnowFlowerBlock(OFFSET_FLOWER), itemSettings()),
     SPROUT(new ModPlantBlock(DEFAULT_PLANT_SHAPE, OFFSET_FLOWER), itemSettings()),
     WEEPING_GHOST_WILLOW(new WeepingGhostWillowBlock(), itemSettings()),
     MEADOW_FLOWERS(new ModPlantBlock(SHORT_FLOWER_SHAPE, OFFSET_FLOWER), itemSettings()),
@@ -154,7 +149,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     ORANGE_KELP_PLANT(new OrangeKelpPlantBlock()),
     ORANGE_SEAGRASS(new SeagrassBlock(Block.Settings.copy(Blocks.SEAGRASS)), itemSettings()),
     GLOW_SEAGRASS(new SeagrassBlock(Block.Settings.copy(Blocks.SEAGRASS).luminance(s -> 8)), itemSettings()),
-    BARNACLE_BLOCK(new BarnacleBlock(), itemSettings()),
+    //BARNACLE_BLOCK(new BarnacleBlock(), itemSettings()),
     TUBE_WORMS_BLOCK(new SeagrassBlock(Block.Settings.copy(Blocks.FIRE_CORAL).sounds(BlockSoundGroup.CORAL).nonOpaque()), itemSettings()),
     STARFISH_BLOCK(new StarfishBlock(Block.Settings.copy(Blocks.FIRE_CORAL).sounds(BlockSoundGroup.CORAL).nonOpaque().noCollision().breakInstantly()), itemSettings()),
     CLAM_BLOCK(new ClamBlock(Block.Settings.copy(Blocks.FIRE_CORAL).sounds(BlockSoundGroup.CORAL).nonOpaque().ticksRandomly().breakInstantly()), itemSettings()),
@@ -269,7 +264,6 @@ public enum WHNature implements ItemEnum, BlockEnum {
     SCULK_BLOSSOM(new SculkBlossomBlock(AbstractBlock.Settings.of(Material.PLANT).breakInstantly().noCollision().sounds(BlockSoundGroup.SPORE_BLOSSOM)), itemSettings()),
 
     SPIDER_EGG(new SpiderEggBlock(), itemSettings()),
-    LUMEN_CRYSTAL(new BrimstoneCrystalClusterBlock(7,3, FabricBlockSettings.copyOf(Blocks.AMETHYST_CLUSTER).nonOpaque().luminance(s -> 12)), itemSettings()),
 
     //nether blocks
     NETHER_SAND(new FallingBlock(Block.Settings.copy(Blocks.SAND)), itemSettings()),
@@ -277,7 +271,6 @@ public enum WHNature implements ItemEnum, BlockEnum {
     NETHER_SALT_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_COAL_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_NETHERITE_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
-    INFECTED_NETHER_WART(new InfectedNetherWartBlock(Block.Settings.copy(Blocks.NETHER_WART).ticksRandomly().luminance(s->3)), itemSettings()),
 
     //soul blocks
     FADED_SOUL_ROSE(new FadedSoulRoseBlock(SoulPlantBlock.settings(0)), itemSettings()),

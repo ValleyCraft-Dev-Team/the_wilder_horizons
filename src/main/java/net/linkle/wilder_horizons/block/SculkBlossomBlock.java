@@ -2,6 +2,7 @@ package net.linkle.wilder_horizons.block;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SporeBlossomBlock;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.random.Random;
@@ -20,14 +21,14 @@ public class SculkBlossomBlock extends SporeBlossomBlock {
         double d = (double)i + random.nextDouble();
         double e = (double)j + 0.7D;
         double f = (double)k + random.nextDouble();
-        world.addParticle(net.linkle.wilder_horizons.init.init_exterior.WHParticles.SCULK_POLLEN, d, e, f, 0.0D, 0.0D, 0.0D);
+        world.addParticle(ParticleTypes.WHITE_ASH, d, e, f, 0.0D, 0.0D, 0.0D);
         BlockPos.Mutable mutable = new BlockPos.Mutable();
 
         for(int l = 0; l < 14; ++l) {
             mutable.set(i + MathHelper.nextInt(random, -10, 10), j - random.nextInt(10), k + MathHelper.nextInt(random, -10, 10));
             BlockState blockState = world.getBlockState(mutable);
             if (!blockState.isFullCube(world, mutable)) {
-                world.addParticle(net.linkle.wilder_horizons.init.init_exterior.WHParticles.SCULK_POLLEN, (double)mutable.getX() + random.nextDouble(), (double)mutable.getY() + random.nextDouble(), (double)mutable.getZ() + random.nextDouble(), 0.0D, 0.0D, 0.0D);
+                world.addParticle(ParticleTypes.WHITE_ASH, (double)mutable.getX() + random.nextDouble(), (double)mutable.getY() + random.nextDouble(), (double)mutable.getZ() + random.nextDouble(), 0.0D, 0.0D, 0.0D);
             }
         }
 

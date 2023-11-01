@@ -63,6 +63,12 @@ public enum WHToolMaterials implements ToolMaterial {
     BAMBOO(2, 220, 7.0F, 1.0F, 15, () -> {
         return Ingredient.ofItems(Items.BAMBOO);
     }),
+    DRIPSTONE(2, 220, 7.0F, 1.0F, 15, () -> {
+        return Ingredient.ofItems(Items.POINTED_DRIPSTONE);
+    }),
+    FLINT(2, 220, 7.0F, 1.0F, 15, () -> {
+        return Ingredient.ofItems(Items.FLINT);
+    }),
     STRONG_IRON(2, 1561, 6.0F, 5.0F, 14, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     }),

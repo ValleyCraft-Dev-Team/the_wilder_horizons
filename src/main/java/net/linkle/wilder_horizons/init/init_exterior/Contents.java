@@ -261,8 +261,8 @@ public class Contents {
         putCompost(WHNature.TALL_AZURE_BLUET, levelHigh);
         putCompost(WHNature.SPORE_SPREADER, levelHigh);
         putCompost(WHNature.LAVENDER, levelHigh);
-        putCompost(WHNature.GLOW_MUSHROOM, levelHigh);
-        putCompost(WHNature.FAN_MOLD, levelMed);
+        //putCompost(WHNature.GLOW_MUSHROOM, levelHigh);
+        //putCompost(WHNature.FAN_MOLD, levelMed);
         putCompost(WHNature.WHITE_POPPY, levelHigh);
         putCompost(WHNature.TALL_CORNFLOWER, levelHigh);
         putCompost(WHNature.TALL_OXEYE_DAISY, levelHigh);
@@ -298,7 +298,7 @@ public class Contents {
     
     private static void fuels() {
         putFuels(WHBlocks.CHARCOAL_BLOCK, 16000);
-        putFuels(WHNature.GLOW_MUSHROOM, 800);
+        //putFuels(WHNature.GLOW_MUSHROOM, 800);
         putFuels(WHNature.CATTAILS, 100);
         putFuels(WHMiscItems.PUFF_BALL, 100);
         putFuels(WHMiscItems.CLOTH, 100);

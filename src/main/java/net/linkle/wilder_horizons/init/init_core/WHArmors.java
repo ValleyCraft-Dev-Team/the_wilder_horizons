@@ -39,7 +39,7 @@ public enum WHArmors implements ItemEnum {
     STRAW_HAT(new ArmorItem(WHArmorMaterials.STRAW_HAT, EquipmentSlot.HEAD, settings())),
     CHEF_HAT(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.HEAD, settings())),
     CHEF_APRON(new ArmorItem(WHArmorMaterials.CHEF_UNIFORM, EquipmentSlot.LEGS, settings())),
-    FORGING_APRON(new ArmorItem(WHArmorMaterials.FORGING_UNIFORM, EquipmentSlot.LEGS, settings())),
+    //FORGING_APRON(new ArmorItem(WHArmorMaterials.FORGING_UNIFORM, EquipmentSlot.LEGS, settings())),
     COWPOKE_HAT(new ArmorItem(WHArmorMaterials.COWPOKE_HAT, EquipmentSlot.HEAD, settings())),
     HUNTERS_CAP(new ArmorItem(WHArmorMaterials.HUNTERS_CAP, EquipmentSlot.HEAD, settings())),
     HEALERS_HOOD(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),

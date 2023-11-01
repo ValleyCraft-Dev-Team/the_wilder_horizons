@@ -66,11 +66,7 @@ public enum WHMiscItems implements ItemEnum {
     SMALL_BONE(new AlphaModItem(settings())),
     HOGLIN_TUSK(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     DRAGON_TOOTH(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
-    MIDLANDER_SKULL_SHARD(new AlphaModItem(settings())),
-    ALLAGER_SKULL_SHARD(new AlphaModItem(settings())),
-    PIGLIN_SKULL_SHARD(new AlphaModItem(settings())),
-    ENDERMAN_SKULL_SHARD(new AlphaModItem(settings())),
-    DAERDRIN_SKULL_SHARD(new AlphaModItem(settings())),
+    SKULL_SHARD(new AlphaModItem(settings())),
     GIANTS_TOOTH(new AlphaModItem(settings())),
 
     SMALL_WITHER_BONE(new AlphaModItem(settings())),
@@ -91,12 +87,8 @@ public enum WHMiscItems implements ItemEnum {
     ELDER_GUARDIAN_SPIKE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     PIG_HIDE(new AlphaModItem(settings())),
     HIDE(new AlphaModItem(settings())),
-    ROTTEN_LEATHER(new AlphaModItem(settings())),
+    //ROTTEN_LEATHER(new AlphaModItem(settings())),
     //BEETLE_CARAPACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
-
-    CLAY_JAR(new ClayJarItemEmpty(settings().maxCount(8))),
-    WATER_FILLED_CLAY_JAR(new ClayJarItemWater(settings().maxCount(8), 0,0)),
-    PURIFIED_WATER_FILLED_CLAY_JAR(new ClayJarItemPurifiedWater(settings().maxCount(8), 0,0)),
 
     BEAST_CLAW(new AlphaModItem(settings())),
     BONEFIN_SKELETON(new AlphaModItem(settings())),
@@ -112,15 +104,15 @@ public enum WHMiscItems implements ItemEnum {
     SOUL_OF_A_LICH(new LifeGemItem(settings().rarity(Rarity.EPIC))),
 
     //STRONG_SOUL_GEM(new AlphaModItem(settings())),
+    BOBBER(new AlphaModItem(settings())),
     BEAST_CLAW_FISHING_HOOK(new AlphaModItem(settings())),
     IRON_FISHING_HOOK(new AlphaModItem(settings())),
     LUCKY_HOOK(new AlphaModItem(settings().maxCount(1).rarity(Rarity.UNCOMMON))),
-    BAITED_LUCKY_HOOK(new AlphaModItem(settings().maxCount(1).rarity(Rarity.UNCOMMON))),
+    //BAITED_LUCKY_HOOK(new AlphaModItem(settings().maxCount(1).rarity(Rarity.UNCOMMON))),
 
     GEODE_CORE_CRACKED(new AlphaModItem(settings())),
     GEODE_CORE_ENRICHED(new AlphaModItem(settings())),
     BRIMSTONE_CRYSTAL_ITEM(new AlphaModItem(settings())),
-    LUMEN_CRYSTAL_ITEM(new AlphaModItem(settings())),
     SALT(new AlphaModItem(settings())),
     SALTPETER(new AlphaModItem(settings())),
     CHARCOAL_NUGGET(new AlphaModItem(settings())),
@@ -179,11 +171,10 @@ public enum WHMiscItems implements ItemEnum {
     //        new AlphaModItem(settings())),
     TREATED_LEATHER_STRAP(new AlphaModItem(settings())),
 
-    TOTEM_OF_KNOWLEDGE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
-    TOTEM_OF_PEACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    //TOTEM_OF_KNOWLEDGE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    //TOTEM_OF_PEACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
 
-    SLUDGE_BUCKET(new BucketItem(WHFluids.SLUDGE_STILL.fluid, settings().maxCount(1).recipeRemainder(Items.BUCKET))),
-    CLOTH_DYE_REMOVER(new AlphaModItem(settings().maxCount(1).recipeRemainder(Items.BUCKET)));
+    SLUDGE_BUCKET(new BucketItem(WHFluids.SLUDGE_STILL.fluid, settings().maxCount(1).recipeRemainder(Items.BUCKET)));
 
     private static FabricItemSettings settings() {
         return new FabricItemSettings().group(WHGroups.WH_MISCELLANEOUS);
