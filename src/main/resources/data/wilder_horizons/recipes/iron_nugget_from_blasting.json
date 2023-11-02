@@ -10,6 +10,9 @@
       "item": "minecraft:chain"
     },
     {
+      "item": "wilder_horizons:iron_rail"
+    },
+    {
       "item": "wilder_horizons:iron_chain"
     }
   ],

@@ -11,6 +11,9 @@
     },
     {
       "item": "wilder_horizons:iron_chain"
+    },
+    {
+      "item": "wilder_horizons:iron_rail"
     }
   ],
   "result": "minecraft:iron_nugget"

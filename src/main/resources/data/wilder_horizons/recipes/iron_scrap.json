@@ -1,19 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " #",
-    "i "
+    "ii",
+    "ii"
   ],
   "key": {
-    "#": {
-      "tag": "c:plank_items"
-    },
     "i": {
       "item": "minecraft:iron_ingot"
     }
   },
   "result": {
-    "item": "wilder_horizons:trigger_mechanism",
-    "count": 1
+    "item": "wilder_horizons:iron_scrap",
+    "count": 8
   }
 }

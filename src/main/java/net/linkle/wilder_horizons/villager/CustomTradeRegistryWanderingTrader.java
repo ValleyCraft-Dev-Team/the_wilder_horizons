@@ -232,7 +232,7 @@ public class CustomTradeRegistryWanderingTrader {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHMiscItems.BOBBER, 1),
+                            new ItemStack(WHMiscItems.BOBBING_LURE, 1),
                             16, 2, 0.05f)));
                 });
     }

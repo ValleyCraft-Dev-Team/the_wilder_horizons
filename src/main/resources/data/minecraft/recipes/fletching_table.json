@@ -1,23 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#V",
-    "OO",
-    "OO"
-  ],
   "key": {
     "#": {
-      "item": "wilder_horizons:arrow_bundle"
+      "item": "minecraft:barrier"
     },
-    "V": {
-      "item": "wilder_horizons:knife_iron"
-    },
-    "O": {
-      "tag": "c:plank_items"
+    "-": {
+      "item": "minecraft:arrow"
     }
   },
+  "pattern": [
+    "-",
+    "#",
+    "-"
+  ],
   "result": {
-    "item": "minecraft:fletching_table",
-    "count": 1
+    "item": "minecraft:fletching_table"
   }
 }
