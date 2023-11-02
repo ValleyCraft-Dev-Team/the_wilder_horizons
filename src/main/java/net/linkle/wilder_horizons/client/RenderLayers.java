@@ -234,6 +234,7 @@ public class RenderLayers {
         put(APPLE_LEAVES_EMPTY, cullout);
         put(ALGAE, cullout);
         put(KNAPWEED, cullout);
+        put(DEPTH_WATCHER, cullout);
         put(GLOW_KELP, cullout);
         put(GLOW_KELP_PLANT, cullout);
         put(ORANGE_KELP, cullout);

@@ -79,7 +79,7 @@ public enum WHFoodIngredients implements ItemEnum {
 
     //RAW_LOBSTER(new NegativeFoodItem_3_Effects(settings(), 3, Nourishment.POOR, StatusEffects.HUNGER, StatusEffects.POISON, StatusEffects.NAUSEA).hideTooltip()),
     //RAW_MOSSY_CRAB(new NegativeFoodItem_3_Effects(settings(), 3, Nourishment.POOR, StatusEffects.HUNGER, StatusEffects.POISON, StatusEffects.NAUSEA).hideTooltip()),
-    RAW_WORM(new FoodItem(settings(), 1, Nourishment.POOR)),
+    //RAW_WORM(new FoodItem(settings(), 1, Nourishment.POOR)),
 
     RAW_BACON(new FoodItem(settings(), 2, Nourishment.POOR, true)),
     
@@ -89,7 +89,7 @@ public enum WHFoodIngredients implements ItemEnum {
     RAW_CANID(new FoodItem(settings(), 3, Nourishment.LOW, true)),
     RAW_TENDERLOIN(new FoodItem(settings(), 4, Nourishment.LOW, true)),
     RAW_BAT_WING(new FoodItem(settings(), 2, Nourishment.POOR, true)),
-    RAW_CAVE_MAGGOT(new FoodItem(settings(), 1, Nourishment.POOR, true)),
+    //RAW_CAVE_MAGGOT(new FoodItem(settings(), 1, Nourishment.POOR, true)),
     RAW_SILVERFISH(new FoodItem(settings(), 1, Nourishment.POOR, true)),
     RAW_PHANTOM_EYE(new NegativeFoodItem_2_Effects(settings(), 3, Nourishment.POOR, StatusEffects.NAUSEA, StatusEffects.NIGHT_VISION).hideTooltip()),
     RAW_TRIPE(new NegativeFoodItem_2_Effects(settings(), 6, Nourishment.LOW, StatusEffects.HUNGER, StatusEffects.NAUSEA).hideTooltip()),

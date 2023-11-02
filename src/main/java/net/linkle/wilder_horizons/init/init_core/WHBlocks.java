@@ -184,7 +184,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     PINK_SLIME_BLOCK(new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)), itemSettings()),
     CAUTION_STRIPES(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).sounds(BlockSoundGroup.STONE))),
-    
+
     //guidestones
     //GUIDESTONE_BLANK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
 //

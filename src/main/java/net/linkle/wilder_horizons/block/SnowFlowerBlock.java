@@ -43,10 +43,10 @@ public class SnowFlowerBlock extends ModPlantBlock{
     }
 
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-        if (entity instanceof LivingEntity && entity.getType() != EntityType.MAGMA_CUBE && entity.getType() != EntityType.BLAZE) {
+        if (entity instanceof LivingEntity && entity.getType() != EntityType.STRAY && entity.getType() != EntityType.POLAR_BEAR && entity.getType() != EntityType.FOX && entity.getType() != EntityType.WOLF) {
             entity.slowMovement(state, new Vec3d(0.8, 0.75D, 0.8));
             if (!world.isClient) {
-            	entity.damage(DamageSource.IN_FIRE, 1.0F);
+            	entity.damage(DamageSource.FREEZE, 1.0F);
             }
         }
     }

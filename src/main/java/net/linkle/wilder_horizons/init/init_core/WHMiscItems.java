@@ -96,7 +96,7 @@ public enum WHMiscItems implements ItemEnum {
     SOUL_POWDER(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
     CRACKING_SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
     SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.RARE))),
-    GOLEM_SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.RARE))),
+    //GOLEM_SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.RARE))),
     SOUL_OF_AN_ELDER_GUARDIAN(new LifeGemItem(settings().rarity(Rarity.EPIC))),
     SOUL_OF_A_WARDEN(new LifeGemItem(settings().rarity(Rarity.EPIC))),
     SOUL_OF_A_WITHER(new LifeGemItem(settings().rarity(Rarity.EPIC))),
