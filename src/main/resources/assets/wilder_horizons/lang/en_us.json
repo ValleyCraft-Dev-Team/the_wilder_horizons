@@ -7,9 +7,10 @@
   "itemGroup.wilder_horizons.wh_armors": "Attire & Armor",
   "itemGroup.wilder_horizons.wh_tools": "Tools & Weapons",
   "itemGroup.wilder_horizons.wh_blocks": "Blocks & Decor",
+  "itemGroup.wilder_horizons.wh_relics": "Relics & Artifacts",
 
   "effect.wilder_horizons.cleansed": "Holy Cleansing",
-  "effect.wilder_horizons.rot_blight": "Rot Blighted",
+  "effect.wilder_horizons.rot_blight": "Rot-Blight Infection",
   "effect.wilder_horizons.soul_fading": "Slow Soul-Fading",
 
   "item.wilder_horizons.healing_salve": "Healing Poultice",
@@ -66,6 +67,7 @@
   "item.wilder_horizons.golem_soul_gem": "Soul-Core of a Golem",
   "item.wilder_horizons.soul_of_an_elder_guardian": "Soul-Core of an Elder Guardian",
   "item.wilder_horizons.soul_of_a_wither": "Amalgamated Soul of a Wither",
-  "item.wilder_horizons.soul_of_an_ender_dragon": "Soul of an Ender Dragon",
+  "item.wilder_horizons.soul_of_a_warden": "Soul of a Lost Warden",
+  "item.wilder_horizons.soul_of_an_ender_dragon": "Soul of a Dragon",
   "item.wilder_horizons.soul_of_a_lich": "Soul of a Lich"
 }

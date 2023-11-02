@@ -208,7 +208,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
     //    return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.TREATED_LEATHER});
     //}),
     COPPER("copper_glasses", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{Items.COPPER_INGOT});
+        return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
     }),
     ANCIENT_BOOTS("ancient_boots", 15, new int[]{2, 2, 2, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});

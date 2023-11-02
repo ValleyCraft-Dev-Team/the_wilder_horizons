@@ -54,6 +54,9 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     /**hunter poi**/
     HUNTING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
 
+    ///**clothier poi**/
+    //CLOTHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+
     PLANTER(new Block(Block.Settings.copy(Blocks.TERRACOTTA)), itemSettings()),
     RAIN_COLLECTOR(new RainCollectorBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque()), itemSettings()),
     LEVELED_RAIN_COLLECTOR(new LeveledRainCollectorBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque())),
@@ -180,7 +183,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     NAUTILUS_SHELL_BLOCK(new NautilusShellBlock(), itemSettings()),
 
     PINK_SLIME_BLOCK(new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)), itemSettings()),
-
+    CAUTION_STRIPES(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).sounds(BlockSoundGroup.STONE))),
+    
     //guidestones
     //GUIDESTONE_BLANK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
 //
@@ -983,24 +987,24 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     SMOOTH_STONE_CAPPED(new Block(Block.Settings.copy(Blocks.SMOOTH_STONE)), itemSettings()),
 
-    //cairnstone
-    CAIRNSTONE_STAIRS(new StairsBlock(POLISHED_STONE.getState(), Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    CAIRNSTONE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    CAIRNSTONE_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    ////cairnstone
+    //CAIRNSTONE_STAIRS(new StairsBlock(POLISHED_STONE.getState(), Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //CAIRNSTONE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //CAIRNSTONE_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
 
-    POLISHED_CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    POLISHED_CAIRNSTONE_STAIRS(new StairsBlock(POLISHED_STONE.getState(), Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    POLISHED_CAIRNSTONE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    POLISHED_CAIRNSTONE_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //POLISHED_CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //POLISHED_CAIRNSTONE_STAIRS(new StairsBlock(POLISHED_STONE.getState(), Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //POLISHED_CAIRNSTONE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //POLISHED_CAIRNSTONE_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
 
-    CAIRNSTONE_BRICKS(new Block(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    CAIRNSTONE_BRICK_STAIRS(new StairsBlock(POLISHED_STONE.getState(), Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    CAIRNSTONE_BRICK_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    CAIRNSTONE_BRICK_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //CAIRNSTONE_BRICKS(new Block(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //CAIRNSTONE_BRICK_STAIRS(new StairsBlock(POLISHED_STONE.getState(), Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //CAIRNSTONE_BRICK_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //CAIRNSTONE_BRICK_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
 
-    CHISELED_CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
-    MAGMA_FILLED_CHISELED_CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f).luminance(s -> 6)), itemSettings()),
-    CAIRNSTONE_PILLAR(new PillarBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //CHISELED_CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
+    //MAGMA_FILLED_CHISELED_CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f).luminance(s -> 6)), itemSettings()),
+    //CAIRNSTONE_PILLAR(new PillarBlock(Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),
 
     //INDUSTRIAL_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.SMOOTH_BASALT).nonOpaque()), itemSettings()),
     COBBLESTONE_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.COBBLESTONE).nonOpaque()), itemSettings()),
@@ -1033,8 +1037,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     DEEPSLATE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.DEEPSLATE).nonOpaque()), itemSettings()),
     NETHER_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.NETHER_BRICKS).nonOpaque()), itemSettings()),
     RED_NETHER_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.RED_NETHER_BRICKS).nonOpaque()), itemSettings()),
-    END_STONE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.RED_NETHER_BRICKS).nonOpaque()), itemSettings()),
-    PURPUR_BLOCK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.RED_NETHER_BRICKS).nonOpaque()), itemSettings()),
+    //END_STONE_BRICK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.RED_NETHER_BRICKS).nonOpaque()), itemSettings()),
+    //PURPUR_BLOCK_CHIMNEY(new ChimneyBlock(Block.Settings.copy(Blocks.RED_NETHER_BRICKS).nonOpaque()), itemSettings()),
     // leathers are last
 
     //TANNED_LEATHER_BLOCK(new Block(Block.Settings.copy(Blocks.BROWN_WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL)), itemSettings()),
@@ -1059,20 +1063,20 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     //TRANSLATION_CANVAS(new TranslationCanvasBlock(Block.Settings.copy(Blocks.OAK_PLANKS).breakInstantly().sounds(BlockSoundGroup.CANDLE).nonOpaque()), itemSettings().group(BOOKS)),
 
     // clay pots go here (not the baking item one)
-    ROUNDED_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
-    ROUNDED_BLUE_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
+    ROUNDED_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemRelicSettings()),
+    ROUNDED_BLUE_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemRelicSettings()),
 
     //BROWN_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
     //BLUE_CLAY_POT(new ClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).nonOpaque().breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
     //GREEN_CLAY_POT(new ExplosiveClayPotBlock(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSounds.POT.sound).nonOpaque().breakInstantly()), itemSettings().group(WHGroups.WH_BLOCKS)),
     //PURPLE_CLAY_POT(new SoulClayPot(Block.Settings.of(BlockMats.POT).strength(0.3f).sounds(BlockSoundGroup.POT.sound).nonOpaque().breakInstantly(), UniformIntProvider.create(2, 6)), itemSettings().group(WHGroups.WH_BLOCKS)),
 
-    DEEPSLATE_URN_PLAIN(new UrnBlock(BlockSettings.urn()), itemSettings().group(WHGroups.WH_BLOCKS)),
-    DEEPSLATE_URN_ANGRY(new ExplosiveUrnBlock(BlockSettings.urn()), itemSettings().group(WHGroups.WH_BLOCKS)),
+    DEEPSLATE_URN_PLAIN(new UrnBlock(BlockSettings.urn()), itemRelicSettings()),
+    DEEPSLATE_URN_ANGRY(new ExplosiveUrnBlock(BlockSettings.urn()), itemRelicSettings()),
     //DEEPSLATE_URN_CREEPER(new ExplosiveUrnBlock(BlockSettings.urn()), itemSettings().group(BOOKS)),
     //DEEPSLATE_URN_EARTH(new UrnBlock(BlockSettings.urn()), itemSettings().group(BOOKS)),
     //DEEPSLATE_URN_ERDIS(new UrnBlock(BlockSettings.urn()), itemSettings().group(BOOKS)),
-    DEEPSLATE_URN_SOUL(new UrnBlock(BlockSettings.urn(), UniformIntProvider.create(2, 6)), itemSettings().group(WHGroups.WH_BLOCKS)),
+    DEEPSLATE_URN_SOUL(new UrnBlock(BlockSettings.urn(), UniformIntProvider.create(2, 6)), itemRelicSettings()),
     //DEEPSLATE_URN_SYMBOL(new UrnBlock(BlockSettings.urn()), itemSettings().group(BOOKS)),
     
     //cobblestone statues
@@ -1085,16 +1089,16 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     //ANCIENT_WAGON_WHEEL_TABLE(new WagonWheelTableBlock(Block.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()), itemSettings().group(BOOKS).rarity(Rarity.RARE)),
 
     //lodged and rusty blocks go here
-    HEROES_BLADE_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.EPIC).group(WHGroups.WH_BLOCKS)),
-    SWORD_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
-    SHOVEL_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
-    PICKAXE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
-    AXE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
-    HOE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemSettings().maxCount(1).rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
-    CHAINED_CHEST(new RustedChestBlock(Block.Settings.copy(Blocks.OAK_WOOD).sounds(BlockSoundGroup.CHAIN)), itemSettings().rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
+    HEROES_BLADE_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemRelicSettings().maxCount(1).rarity(Rarity.EPIC)),
+    SWORD_BLOCK(new SwordBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemRelicSettings().maxCount(1).rarity(Rarity.UNCOMMON)),
+    SHOVEL_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemRelicSettings().maxCount(1).rarity(Rarity.UNCOMMON)),
+    PICKAXE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemRelicSettings().maxCount(1).rarity(Rarity.UNCOMMON)),
+    AXE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemRelicSettings().maxCount(1).rarity(Rarity.UNCOMMON)),
+    HOE_BLOCK(new PickaxeBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.CHAIN)), itemRelicSettings().maxCount(1).rarity(Rarity.UNCOMMON)),
+    //CHAINED_CHEST(new RustedChestBlock(Block.Settings.copy(Blocks.OAK_WOOD).sounds(BlockSoundGroup.CHAIN)), itemSettings().rarity(Rarity.UNCOMMON).group(WHGroups.WH_BLOCKS)),
 
     //last block on the artifacts tab
-    DEFECTIVE_SPAWNER(new DefectiveBlock(Block.Settings.copy(Blocks.SPAWNER)), itemSettings().group(WHGroups.WH_BLOCKS).maxCount(64).rarity(Rarity.RARE).fireproof());
+    DEFECTIVE_SPAWNER(new DefectiveBlock(Block.Settings.copy(Blocks.SPAWNER)), itemRelicSettings().maxCount(64).rarity(Rarity.RARE).fireproof());
 
     public static void initialize() {
         
@@ -1102,6 +1106,10 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     private static FabricItemSettings itemSettings() {
         return new FabricItemSettings().group(WHGroups.WH_BLOCKS);
+    }
+
+    private static FabricItemSettings itemRelicSettings() {
+        return new FabricItemSettings().group(WHGroups.WH_RELICS);
     }
 
     private static FabricItemSettings toolItemSettings() {

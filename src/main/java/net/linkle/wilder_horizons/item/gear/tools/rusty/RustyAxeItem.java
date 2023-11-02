@@ -9,6 +9,6 @@ public class RustyAxeItem
 extends AxeItem
 implements EnchantmentHandler {
     public RustyAxeItem(ToolMaterial material, int attackDamage, float attackSpeed) {
-        super(material, attackDamage, attackSpeed, new Settings().group(WHGroups.WH_TOOLS));
+        super(material, attackDamage, attackSpeed, new Settings().group(WHGroups.WH_RELICS));
     }
 }

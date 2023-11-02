@@ -9,6 +9,6 @@ public class RustySwordItem
 extends SwordItem
 implements EnchantmentHandler {
     public RustySwordItem(ToolMaterial material, int attackDamage, float attackSpeed) {
-        super(material, attackDamage, attackSpeed, new Settings().group(WHGroups.WH_TOOLS));
+        super(material, attackDamage, attackSpeed, new Settings().group(WHGroups.WH_RELICS));
     }
 }

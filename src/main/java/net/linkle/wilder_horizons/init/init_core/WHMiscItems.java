@@ -45,7 +45,7 @@ public enum WHMiscItems implements ItemEnum {
     ROPE(new RopeItem(settings())),
     ARROW_FLETCHING(new AlphaModItem(settings())),
     ARROW_BUNDLE(new AlphaModItem(settings())),
-    BOMB_BAG(new AlphaModItem(settings())),
+    BOMB_BAG(new AlphaModItem(relicSettings())),
 
     PUFF_BALL(new AlphaModItem(settings())),
     CLOTH(new AlphaModItem(settings())),
@@ -67,7 +67,7 @@ public enum WHMiscItems implements ItemEnum {
     HOGLIN_TUSK(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     DRAGON_TOOTH(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     SKULL_SHARD(new AlphaModItem(settings())),
-    GIANTS_TOOTH(new AlphaModItem(settings())),
+    //GIANTS_TOOTH(new AlphaModItem(settings())),
 
     SMALL_WITHER_BONE(new AlphaModItem(settings())),
     WITHER_BONE(new AlphaModItem(settings())),
@@ -82,9 +82,9 @@ public enum WHMiscItems implements ItemEnum {
     CROW_FEATHER(new AlphaModItem(settings())),
     SEAGULL_FEATHER(new AlphaModItem(settings())),
     DUCK_FEATHER(new AlphaModItem(settings())),
-    IRON_FEATHER(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    IRON_FEATHER(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
     //GUARDIAN_SPIKE(new AlphaModItem(settings())),
-    ELDER_GUARDIAN_SPIKE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    ELDER_GUARDIAN_SPIKE(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
     PIG_HIDE(new AlphaModItem(settings())),
     HIDE(new AlphaModItem(settings())),
     //ROTTEN_LEATHER(new AlphaModItem(settings())),
@@ -93,7 +93,7 @@ public enum WHMiscItems implements ItemEnum {
     BEAST_CLAW(new AlphaModItem(settings())),
     BONEFIN_SKELETON(new AlphaModItem(settings())),
     //SOUL_GEM(new LifeGemItem(settings())),
-    SOUL_POWDER(new LifeGemItem(settings().rarity(Rarity.COMMON))),
+    SOUL_POWDER(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
     CRACKING_SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.UNCOMMON))),
     SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.RARE))),
     GOLEM_SOUL_GEM(new LifeGemItem(settings().rarity(Rarity.RARE))),
@@ -107,7 +107,7 @@ public enum WHMiscItems implements ItemEnum {
     BOBBER(new AlphaModItem(settings())),
     BEAST_CLAW_FISHING_HOOK(new AlphaModItem(settings())),
     IRON_FISHING_HOOK(new AlphaModItem(settings())),
-    LUCKY_HOOK(new AlphaModItem(settings().maxCount(1).rarity(Rarity.UNCOMMON))),
+    LUCKY_HOOK(new AlphaModItem(relicSettings().maxCount(1).rarity(Rarity.UNCOMMON))),
     //BAITED_LUCKY_HOOK(new AlphaModItem(settings().maxCount(1).rarity(Rarity.UNCOMMON))),
 
     GEODE_CORE_CRACKED(new AlphaModItem(settings())),
@@ -141,14 +141,14 @@ public enum WHMiscItems implements ItemEnum {
     ECHOCHALCUM_INGOT(new AlphaModItem(settings())),
     RAW_NETHERITE_NUGGET(new AlphaModItem(settings())),
 
-    SEED_BAG(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    SEED_BAG(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
     SPOOL_OF_PLANT_FIBER_STRING(new AlphaModItem(settings())),
     SPOOL_OF_STRING(new AlphaModItem(settings())),
     SPOOL_OF_BOW_STRING(new AlphaModItem(settings())),
 
-    BOTTLE_OF_GHAST_TEARS(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    BOTTLE_OF_GHAST_TEARS(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
     //BOTTLE_OF_LIVING_SLIME(new AlphaModItem(settings().rarity(Rarity.EPIC))),
-    BOTTLE_OF_ALLAY(new AlphaModItem(settings().rarity(Rarity.EPIC))),
+    BOTTLE_OF_ALLAY(new AlphaModItem(relicSettings().rarity(Rarity.EPIC))),
     BOTTLE_OF_INK(new AlphaModItem(settings())),
     QUILL(new AlphaModItem(settings())),
     EMPTY_BOOK(new AlphaModItem(settings())),
@@ -178,6 +178,10 @@ public enum WHMiscItems implements ItemEnum {
 
     private static FabricItemSettings settings() {
         return new FabricItemSettings().group(WHGroups.WH_MISCELLANEOUS);
+    }
+
+    private static FabricItemSettings relicSettings() {
+        return new FabricItemSettings().group(WHGroups.WH_RELICS);
     }
     
     public static void registerItems() {

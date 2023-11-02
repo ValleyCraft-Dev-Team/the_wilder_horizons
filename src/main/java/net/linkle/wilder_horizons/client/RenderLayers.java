@@ -41,7 +41,7 @@ public class RenderLayers {
         //put(PRIMSTEEL_DOOR, cullout);
         //put(PRIMSTEEL_TRAPDOOR, cullout);
         put(SCULK_BLOSSOM, cullout);
-        put(CHAINED_CHEST, cullout);
+        //put(CHAINED_CHEST, cullout);
         //put(DEAD_IRON_GOLEM, cullout);
         put(DEPLETED_CONDUIT, cullout);
         //put(NETHER_CONDUIT, cullout);
@@ -440,8 +440,8 @@ public class RenderLayers {
         put(SALT_BRICK_CHIMNEY, cullout);
         put(SERPENTINITE_BRICK_CHIMNEY, cullout);
         put(BASALT_BRICK_CHIMNEY, cullout);
-        put(PURPUR_BLOCK_CHIMNEY, cullout);
-        put(END_STONE_BRICK_CHIMNEY, cullout);
+        //put(PURPUR_BLOCK_CHIMNEY, cullout);
+        //put(END_STONE_BRICK_CHIMNEY, cullout);
         put(MARBLE_BRICK_CHIMNEY, cullout);
         put(CARMINE_BRICK_CHIMNEY, cullout);
 

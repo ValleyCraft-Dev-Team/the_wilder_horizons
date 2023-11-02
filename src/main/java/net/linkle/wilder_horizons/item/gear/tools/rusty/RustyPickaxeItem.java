@@ -9,6 +9,6 @@ public class RustyPickaxeItem
 extends PickaxeItem
 implements EnchantmentHandler {
     public RustyPickaxeItem(ToolMaterial material, int attackDamage, float attackSpeed) {
-        super(material, attackDamage, attackSpeed, new Settings().group(WHGroups.WH_TOOLS));
+        super(material, attackDamage, attackSpeed, new Settings().group(WHGroups.WH_RELICS));
     }
 }
