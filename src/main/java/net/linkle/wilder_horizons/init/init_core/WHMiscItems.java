@@ -64,7 +64,7 @@ public enum WHMiscItems implements ItemEnum {
     DAUB(new AlphaModItem(settings())),
 
     SMALL_BONE(new AlphaModItem(settings())),
-    HOGLIN_TUSK(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    //HOGLIN_TUSK(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     DRAGON_TOOTH(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     SKULL_SHARD(new AlphaModItem(settings())),
     //GIANTS_TOOTH(new AlphaModItem(settings())),
@@ -74,7 +74,7 @@ public enum WHMiscItems implements ItemEnum {
     WITHER_SKULL_SHARD(new AlphaModItem(settings())),
     JELLY_BLOB(new AlphaModItem(settings())),
     SLIME_SPORE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
-    PINK_SLIME_BALL(new AlphaModItem(settings())),
+    //PINK_SLIME_BALL(new AlphaModItem(settings())),
     GLOW_BALL(new GlowBallItem(settings().group(WHGroups.WH_TOOLS))),
 
     OVER_SNAIL_SHELL(new AlphaModItem(settings())),
@@ -101,12 +101,11 @@ public enum WHMiscItems implements ItemEnum {
     SOUL_OF_A_WARDEN(new LifeGemItem(settings().rarity(Rarity.EPIC))),
     SOUL_OF_A_WITHER(new LifeGemItem(settings().rarity(Rarity.EPIC))),
     SOUL_OF_AN_ENDER_DRAGON(new LifeGemItem(settings().rarity(Rarity.EPIC))),
-    SOUL_OF_A_LICH(new LifeGemItem(settings().rarity(Rarity.EPIC))),
+    //SOUL_OF_A_LICH(new LifeGemItem(settings().rarity(Rarity.EPIC))),
 
     //STRONG_SOUL_GEM(new AlphaModItem(settings())),
-    BOBBER(new AlphaModItem(settings())),
-    BEAST_CLAW_FISHING_HOOK(new AlphaModItem(settings())),
-    IRON_FISHING_HOOK(new AlphaModItem(settings())),
+    BOBBING_LURE(new AlphaModItem(settings())),
+    COPPER_FISHING_HOOK(new AlphaModItem(settings())),
     LUCKY_HOOK(new AlphaModItem(relicSettings().maxCount(1).rarity(Rarity.UNCOMMON))),
     //BAITED_LUCKY_HOOK(new AlphaModItem(settings().maxCount(1).rarity(Rarity.UNCOMMON))),
 

@@ -1,6 +1,6 @@
 {
 	"parent": "wilder_horizons:block/brazier_off",
 	"textures": {
-		"pot": "minecraft:block/polished_andesite"
+		"pot": "wilder_horizons:block/brazier"
 	}
 }

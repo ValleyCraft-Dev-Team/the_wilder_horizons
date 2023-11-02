@@ -207,7 +207,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     SERPENTINITE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
     MARBLE(new Block(Block.Settings.copy(Blocks.CALCITE)), itemSettings()),
 
-    DIRT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
+    //DIRT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     FLINT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
 

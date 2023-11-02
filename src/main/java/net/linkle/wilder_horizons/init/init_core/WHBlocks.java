@@ -177,13 +177,14 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     ROPE_BRIDGE_ANCHOR(new RopeBridgeBlock(Block.Settings.of(Material.WOOD).nonOpaque().sounds(BlockSoundGroup.WOOD).strength(1).noCollision()), itemSettings(), BridgeItem::new),
     ROPE_BRIDGE(new RopeBridgeBlock(Block.Settings.of(Material.WOOD).nonOpaque().sounds(BlockSoundGroup.WOOD).strength(1)), itemSettings(), BridgeItem::new),
     SPIKE_TRAP(new SpikeTrapBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).nonOpaque().strength(0.5f, 1.0f)), itemSettings()),
-    SPIKE_TRAP_EXTENSION(new SpikeTrapExtensionBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).nonOpaque().strength(0.5f, 1.0f)), itemSettings()),
+    //SPIKE_TRAP_EXTENSION(new SpikeTrapExtensionBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).nonOpaque().strength(0.5f, 1.0f)), itemSettings()),
     //FIRE_TRAP(new FireTrapBlock(Block.Settings.copy(Blocks.COBBLESTONE)), itemSettings()),
 
     NAUTILUS_SHELL_BLOCK(new NautilusShellBlock(), itemSettings()),
 
-    PINK_SLIME_BLOCK(new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)), itemSettings()),
+    //PINK_SLIME_BLOCK(new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)), itemSettings()),
     CAUTION_STRIPES(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).sounds(BlockSoundGroup.STONE))),
+    CAUTION_STRIPES_GLOWING(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).luminance(s->8).sounds(BlockSoundGroup.STONE))),
 
     //guidestones
     //GUIDESTONE_BLANK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
@@ -303,7 +304,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     //QUARTZ_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(state -> 16)), itemSettings()),
     SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
     LAVA_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
-    PINK_SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
+    //PINK_SLIME_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN)), itemSettings()),
     GLOW_BERRY_LANTERN(new LanternBlock(Block.Settings.of(Material.WOOD).strength(1.5f).sounds(BlockSoundGroup.WOOD).luminance(state -> 15).nonOpaque()), itemSettings()),
 
     DEAD_LANTERN(new LanternBlock(Block.Settings.copy(Blocks.LANTERN).luminance(s->0)), itemSettings()),

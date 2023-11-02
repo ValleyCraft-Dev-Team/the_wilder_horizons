@@ -219,7 +219,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
     GOLD_REINFORCED("reinforced_gold", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
     }),
-    GOLDEN_CROWN("golden_crown", 7, new int[]{3, 3, 3, 3}, 33, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
+    GOLDEN_CROWN("golden_crown", 7, new int[]{3, 3, 3, 3}, 33, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 3.0F, 3.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
     }),
     DIAMOND_REINFORCED("reinforced_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {

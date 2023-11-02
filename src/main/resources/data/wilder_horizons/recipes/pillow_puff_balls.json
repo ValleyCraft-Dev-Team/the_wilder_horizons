@@ -1,16 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:puff_ball"
-        },
-        {
-            "item": "minecraft:puff_ball"
-        },
-        {
-            "item": "wilder_horizons:cloth"
-        }
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "SPS",
+        " # "
     ],
+    "key": {
+        "#": {
+            "item": "wilder_horizons:cloth"
+        },
+        "S": {
+            "item": "c:string_items"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        }
+    },
     "result": {
         "item": "wilder_horizons:pillow",
         "count": 1

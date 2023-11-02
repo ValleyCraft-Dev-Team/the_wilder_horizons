@@ -125,12 +125,12 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, Items.PRISMARINE_SHARD, Potions.MUNDANE);
         registerRecipe(Potions.AWKWARD, WHMiscItems.SALTPETER.item, NAUSEA_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHMiscItems.SALT.item, NAUSEA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_WORM.item, NAUSEA_WEAK.potion);
+        //registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_WORM.item, NAUSEA_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_BEAST_HEART.item, FERAL_STRENGTH.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_BEAST_LIVER.item, Potions.STRENGTH);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_PHANTOM_EYE.item, Potions.INVISIBILITY);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_TRIPE.item, Potions.POISON);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_CAVE_MAGGOT.item, WEAKNESS_WEAK.potion);
+        //registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_CAVE_MAGGOT.item, WEAKNESS_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_ENDERMITE.item, ROT_BLIGHT_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_ENDERMAN_EYE.item, NAUSEA_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_SILVERFISH.item, HASTE_WEAK.potion);

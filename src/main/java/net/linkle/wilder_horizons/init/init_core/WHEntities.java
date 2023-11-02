@@ -45,8 +45,8 @@ import static net.linkle.wilder_horizons.enums.EntityEnum.*;
 public enum WHEntities implements EntityEnum {
     
     // Others
-    FRIENDLY_SLIME(createMob(SpawnGroup.CREATURE, TameableSlimeEntity::new).dimensions(new EntityDimensions(2.04F, 0.8F, false)).trackRangeChunks(6)
-            .spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, TameableSlimeEntity::canMobSpawn)),
+    //FRIENDLY_SLIME(createMob(SpawnGroup.CREATURE, TameableSlimeEntity::new).dimensions(new EntityDimensions(2.04F, 0.8F, false)).trackRangeChunks(6)
+    //        .spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, TameableSlimeEntity::canMobSpawn)),
 
     PUPKIN(createMob(SpawnGroup.CREATURE, PupkinEntity::new).dimensions(new EntityDimensions(0.6F, 0.8F, false)).trackRangeChunks(6)
             .spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, AnimalEntity::isValidNaturalSpawn)),
@@ -126,7 +126,7 @@ public enum WHEntities implements EntityEnum {
         registerAttribute(SARDINE, FishEntity.createFishAttributes());
         registerAttribute(RED_PORGY, FishEntity.createFishAttributes());
         registerAttribute(PERCH, FishEntity.createFishAttributes());
-        registerAttribute(FRIENDLY_SLIME, TameableSlimeEntity.createMobAttributes());
+        //registerAttribute(FRIENDLY_SLIME, TameableSlimeEntity.createMobAttributes());
 
         registerAttribute(CROW, CrowEntity.createCrowAttributes());
     }

@@ -47,11 +47,11 @@ public enum WHArmors implements ItemEnum {
     // wraith
     RIBCAGE(new ArmorItem(WHArmorMaterials.RIBCAGE, EquipmentSlot.CHEST, relicSettings())),
     WITHER_RIBCAGE(new ArmorItem(WHArmorMaterials.WITHER_RIBCAGE, EquipmentSlot.CHEST, relicSettings())),
-    WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
-    WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.RARE))),
+    //WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
+    //WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.RARE))),
     LICH_HOOD(new ArmorItem(WHArmorMaterials.LICH_CLOAK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
     LICH_CLOAK(new ArmorItem(WHArmorMaterials.LICH_CLOAK, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.RARE))),
-    ANCIENT_BOOTS(new ArmorItem(WHArmorMaterials.ANCIENT_BOOTS, EquipmentSlot.FEET, relicSettings().rarity(Rarity.COMMON))),
+    ANCIENT_BOOTS(new AncientBoots(WHArmorMaterials.ANCIENT_BOOTS, EquipmentSlot.FEET, relicSettings().rarity(Rarity.COMMON))),
 
     // shroomleather items
     HOOD(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, settings())),
