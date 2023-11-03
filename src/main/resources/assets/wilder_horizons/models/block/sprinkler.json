@@ -5,7 +5,7 @@
 		"2": "wilder_horizons:block/water_flowing_pipe",
 		"3": "wilder_horizons:block/sprinkler_new_shell",
 		"4": "wilder_horizons:block/sprinkler_new",
-		"particle": "wilder_horizons:block/shower_block_side"
+		"particle": "minecraft:block/barrel_side"
 	},
 	"elements": [
 		{

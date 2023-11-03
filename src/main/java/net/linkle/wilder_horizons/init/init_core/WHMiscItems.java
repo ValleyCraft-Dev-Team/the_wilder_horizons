@@ -139,6 +139,8 @@ public enum WHMiscItems implements ItemEnum {
     //DIAMOND_FRAGMENTS(new AlphaModItem(settings())),
     ECHOCHALCUM_INGOT(new AlphaModItem(settings())),
     RAW_NETHERITE_NUGGET(new AlphaModItem(settings())),
+    FLINT_ARROWHEAD(new AlphaModItem(settings())),
+    OBSIDIAN_ARROWHEAD(new AlphaModItem(settings())),
 
     SEED_BAG(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
     SPOOL_OF_PLANT_FIBER_STRING(new AlphaModItem(settings())),

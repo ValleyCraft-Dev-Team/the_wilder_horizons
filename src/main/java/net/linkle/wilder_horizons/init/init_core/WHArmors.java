@@ -151,6 +151,17 @@ public enum WHArmors implements ItemEnum {
     DIAMOND_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.LEGS, settings())),
     DIAMOND_SANDALS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.FEET, settings())),
 
+    // emerald
+    //EMERALD_HELMET(new ArmorItem(WHArmorMaterials.EMERALD, EquipmentSlot.HEAD, settings())),
+    //EMERALD_MASKED_HELMET(new ArmorItem(WHArmorMaterials.EMERALD_REINFORCED, EquipmentSlot.HEAD, settings())),
+    //EMERALD_CHESTPLATE(new ArmorItem(WHArmorMaterials.EMERALD, EquipmentSlot.CHEST, settings())),
+    //EMERALD_BREASTPLATE(new ArmorItem(WHArmorMaterials.EMERALD_REINFORCED, EquipmentSlot.CHEST, settings())),
+    //EMERALD_LEGGINGS(new ArmorItem(WHArmorMaterials.EMERALD, EquipmentSlot.LEGS, settings())),
+    //EMERALD_HAUBERK(new ArmorItem(WHArmorMaterials.EMERALD_HAUBERK, EquipmentSlot.LEGS, settings())),
+    //EMERALD_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.EMERALD_REINFORCED, EquipmentSlot.LEGS, settings())),
+    //EMERALD_BOOTS(new ArmorItem(WHArmorMaterials.EMERALD, EquipmentSlot.FEET, settings())),
+    //EMERALD_SANDALS(new ArmorItem(WHArmorMaterials.EMERALD_REINFORCED, EquipmentSlot.FEET, settings())),
+
     // echochalcum
     ECHOCHALCUM_HELMET(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.HEAD, settings())),
     ECHOCHALCUM_MASKED_HELMET(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.HEAD, settings())),

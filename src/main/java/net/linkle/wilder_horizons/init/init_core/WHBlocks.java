@@ -38,6 +38,7 @@ import net.minecraft.world.BlockView;
 public enum WHBlocks implements ItemEnum, BlockEnum {
 
     CRAFTING_MAT(new CraftingMatBlock(Block.Settings.of(Material.DECORATION).sounds(BlockSoundGroup.WOOL).breakInstantly().noCollision().nonOpaque()), toolItemSettings()),
+    IMPROVISED_CRAFTING_TABLE(new ImprovisedCraftingTable(Block.Settings.copy(Blocks.CRAFTING_TABLE)), itemSettings()),
     CRATE(new CrateBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     //MEMORY_BOX(new MemoryBoxBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     DEEPSLATE_CHEST(new DeepslateChestBlock(Block.Settings.copy(Blocks.DEEPSLATE_BRICKS)), itemSettings()),

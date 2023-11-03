@@ -30,5 +30,8 @@ abstract class CraftingScreenHandlerMixin extends AbstractRecipeScreenHandler<Cr
         if (CraftingScreenHandler.canUse(context, player, WHBlocks.CRAFTING_MAT.block)) {
             info.setReturnValue(true);
         }
+        if (CraftingScreenHandler.canUse(context, player, WHBlocks.IMPROVISED_CRAFTING_TABLE.block)) {
+            info.setReturnValue(true);
+        }
     }
 }

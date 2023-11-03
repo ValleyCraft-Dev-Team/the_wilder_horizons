@@ -150,7 +150,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
     VINE_CROWN("vine", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Blocks.VINE});
     }),
-    FRIENDLY_MASK("tree_god_mask", 15, new int[]{1, 2, 3, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.5F, 0.5F, () -> {
+    FRIENDLY_MASK("tree_god_mask", 15, new int[]{1, 2, 3, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2F, 0.5F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Blocks.OAK_LOG});
     }),
     NIGHT_VISION_GOGGLES("night_vision_goggles", 25, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
@@ -219,13 +219,16 @@ public enum WHArmorMaterials implements ArmorMaterial {
     GOLD_REINFORCED("reinforced_gold", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
     }),
-    GOLDEN_CROWN("golden_crown", 7, new int[]{3, 3, 3, 3}, 33, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 3.0F, 3.0F, () -> {
+    GOLDEN_CROWN("golden_crown", 7, new int[]{3, 3, 3, 3}, 33, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.3F, 3.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
     }),
-    DIAMOND_REINFORCED("reinforced_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+    DIAMOND_REINFORCED("reinforced_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.2F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
     }),
-    BRASIUM_REINFORCED("reinforced_brasium", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.75F, 0.0F, () -> {
+    EMERALD_REINFORCED("reinforced_emerald", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 2.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.EMERALD});
+    }),
+    BRASIUM_REINFORCED("reinforced_brasium", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.3F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.BRASIUM_INGOT});
     }),
     //ROSEGOLD_REINFORCED("reinforced_rosegold", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.75F, 0.0F, () -> {
@@ -234,7 +237,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
     ECHOCHALCUM_REINFORCED("reinforced_sculkerite", 37, new int[]{3, 6, 8, 3}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 3.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM_INGOT});
     }),
-    NETHERITE_REINFORCED("reinforced_netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
+    NETHERITE_REINFORCED("reinforced_netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.3F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     }),
     //TREATED_LEATHER_HAUBERK("treated_leather_hauberk", 25, new int[]{2, 3, 4, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
@@ -246,10 +249,16 @@ public enum WHArmorMaterials implements ArmorMaterial {
     GOLD_HAUBERK("gold_hauberk", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.GOLD_INGOT});
     }),
-    DIAMOND_HAUBERK("diamond_hauberk", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+    DIAMOND_HAUBERK("diamond_hauberk", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.2F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.DIAMOND});
     }),
-    BRASIUM_HAUBERK("brasium_hauberk", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.75F, 0.0F, () -> {
+    EMERALD_HAUBERK("emerald_hauberk", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 2.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.EMERALD});
+    }),
+    EMERALD("emerald", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 2.0F, () -> {
+        return Ingredient.ofItems(new ItemConvertible[]{Items.EMERALD});
+    }),
+    BRASIUM_HAUBERK("brasium_hauberk", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.3F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.BRASIUM_INGOT});
     }),
     //ROSEGOLD_HAUBERK("rosegold_hauberk", 25, new int[]{2, 3, 3, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.75F, 0.0F, () -> {
@@ -258,7 +267,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
     ECHOCHALCUM_HAUBERK("sculkerite_hauberk", 37, new int[]{3, 6, 8, 3}, 22, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 3.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.ECHOCHALCUM_INGOT});
     }),
-    NETHERITE_HAUBERK("netherite_hauberk", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
+    NETHERITE_HAUBERK("netherite_hauberk", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.3F, 0.1F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT});
     });
 
