@@ -105,6 +105,7 @@ public enum WHArmors implements ItemEnum {
 
     // glasses
     COPPER_GLASSES(new ArmorItem(WHArmorMaterials.COPPER, EquipmentSlot.HEAD, settings())),
+    COPPER_MONOCLE(new ArmorItem(WHArmorMaterials.COPPER_MONOCLE, EquipmentSlot.HEAD, settings())),
     NIGHT_VISION_GOGGLES(new NightVisionGoggles(WHArmorMaterials.NIGHT_VISION_GOGGLES, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
 
     // plank

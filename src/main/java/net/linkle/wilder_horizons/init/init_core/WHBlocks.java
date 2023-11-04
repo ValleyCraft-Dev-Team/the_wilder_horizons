@@ -95,9 +95,9 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     BOOK_STACK_7(new BookStackBlock(BLOCK_SHAPE_7), itemSettings()),
     BOOK_STACK_8(new BookStackBlock(BLOCK_SHAPE_8), itemSettings()),
 
-    BOWL_BLOCK(new Block(Block.Settings.copy(Blocks.BOOKSHELF)), itemSettings()),
-    BOTTLE_BLOCK(new Block(Block.Settings.copy(Blocks.BOOKSHELF)), itemSettings()),
-    BOWL_AND_BOTTLE_BLOCK(new Block(Block.Settings.copy(Blocks.BOOKSHELF)), itemSettings()),
+    BOWL_BLOCK(new BowlBlock(Block.Settings.copy(Blocks.BOOKSHELF).breakInstantly()), itemSettings()),
+    //MUG_BLOCK(new Block(Block.Settings.copy(Blocks.BOOKSHELF).breakInstantly()), itemSettings()),
+    BOWL_AND_MUG_BLOCK(new BowlAndMugBlock(Block.Settings.copy(Blocks.BOOKSHELF).breakInstantly()), itemSettings()),
 
     //INK_WELL(new InkWellBlock(), itemSettings()),
     //PET_WATER_BOWL(new PetWaterBowlBlock(Block.Settings.copy(Blocks.TERRACOTTA).nonOpaque().breakInstantly()), itemSettings()),
