@@ -1,16 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " # ",
-        "SPS",
-        " # "
+        "S#S",
+        "#P#",
+        "S#S"
     ],
     "key": {
         "#": {
             "item": "wilder_horizons:cloth"
         },
         "S": {
-            "item": "c:string_items"
+            "tag": "c:string_items"
         },
         "P": {
             "item": "minecraft:phantom_membrane"

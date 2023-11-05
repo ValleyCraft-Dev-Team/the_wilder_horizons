@@ -53,7 +53,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     STABLEHAND_STATION(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     //STABLEHAND_COUNTER(new HorizontalBlock(Block.Settings.copy(Blocks.BARREL)), itemSettings()),
     /**hunter poi**/
-    HUNTING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    HUNTING_STATION(new HorizontalBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
 
     ///**clothier poi**/
     //CLOTHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
