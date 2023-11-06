@@ -28,7 +28,6 @@ import net.minecraft.entity.*;
 import net.minecraft.entity.SpawnRestriction.Location;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.FishEntity;
-import net.minecraft.entity.passive.ParrotEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.Heightmap;
@@ -102,7 +101,9 @@ public enum WHEntities implements EntityEnum {
     THROWN_ROCK(createEntity(SpawnGroup.MISC, ThrownRockEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10)),
     GLOW_BALL(createEntity(SpawnGroup.MISC, GlowBallEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10)),
 
-    CROW(createMob(SpawnGroup.CREATURE, CrowEntity::new).dimensions(EntityDimensions.fixed(0.5f, 0.9f)).trackRangeChunks(8).spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, CrowEntity::canSpawn));
+    CROW(createMob(SpawnGroup.CREATURE, CrowEntity::new).dimensions(EntityDimensions.fixed(0.5f, 0.9f)).trackRangeChunks(8).spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, CrowEntity::canSpawn)),
+
+    FRIENDLY_ENDERMAN(EntityEnum.createMob(SpawnGroup.CREATURE, FriendlyEndermanEntity::new).dimensions(EntityDimensions.fixed(0.6f, 2.9f)).trackRangeChunks(8)); // .setDimensions(0.6F, 2.9F).maxTrackingRange(8)
 
     public static void initialize() {
         registerAttribute(SNAIL, SnailEntity.createSnailAttributes());
@@ -129,6 +130,7 @@ public enum WHEntities implements EntityEnum {
         registerAttribute(FRIENDLY_SLIME, TameableSlimeEntity.createMobAttributes());
 
         registerAttribute(CROW, CrowEntity.createCrowAttributes());
+        registerAttribute(FRIENDLY_ENDERMAN, FriendlyEndermanEntity.createFriendlyEndermanAttributes());
     }
 
     @Environment(EnvType.CLIENT)
@@ -163,6 +165,7 @@ public enum WHEntities implements EntityEnum {
         
         registerRenderer(THROWN_ROCK, FlyingItemEntityRenderer::new);
         registerRenderer(GLOW_BALL, FlyingItemEntityRenderer::new);
+        registerRenderer(FRIENDLY_ENDERMAN, FriendlyEndermanRenderer::new);
 
         registerRenderer(CROW, CrowRenderer::new);
     }

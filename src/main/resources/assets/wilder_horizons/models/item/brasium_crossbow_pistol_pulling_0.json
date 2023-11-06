@@ -1,0 +1,6 @@
+{
+  "parent": "wilder_horizons:item/brasium_crossbow_pistol",
+  "textures": {
+    "layer0": "wilder_horizons:item/tools/bows/brasium_crossbow_pistol_pulling_0"
+  }
+}

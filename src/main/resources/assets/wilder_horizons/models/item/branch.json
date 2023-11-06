@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "wilder_horizons:item/tools/environment_unique_weapons/tree_branch"
+    "layer0": "wilder_horizons:item/tools/makeshift/tree_branch"
   }
 }
