@@ -7,11 +7,13 @@ import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.tag.BlockTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.WorldView;
 
 public class RedstoneCrystalBlock extends BlockWithWater {
     protected static final VoxelShape SHAPE = createCuboidShape(1, 0, 1, 15, 15, 15);
@@ -46,5 +48,12 @@ public class RedstoneCrystalBlock extends BlockWithWater {
         if (dropExperience) {
             this.dropExperienceWhenMined(world, pos, stack, this.experienceDropped);
         }
+    }
+
+    @Override
+    public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
+        pos = pos.down();
+        state = world.getBlockState(pos);
+        return state.isSideSolidFullSquare(world, pos, Direction.UP) && !state.isIn(BlockTags.ICE);
     }
 }

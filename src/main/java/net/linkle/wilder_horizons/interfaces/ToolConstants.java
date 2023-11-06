@@ -48,9 +48,16 @@ public interface ToolConstants {
     Float HOE_BASE_SPEED = -3.0f;
     //The item settings for knives made of 'basic' materials- wood, gold, stone, iron, rose gold, diamond, netherite
     Item.Settings BASIC_SETTINGS = new Item.Settings().group(WHGroups.WH_TOOLS);
+    Item.Settings BASIC_SETTINGS_RELIC = new Item.Settings().group(WHGroups.WH_RELICS);
+
     Item.Settings BASIC_SETTINGS_RARE = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.RARE);
+    Item.Settings BASIC_SETTINGS_RARE_RELIC = new Item.Settings().group(WHGroups.WH_RELICS).rarity(Rarity.RARE);
+
     Item.Settings BASIC_SETTINGS_EPIC = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.EPIC);
+    Item.Settings BASIC_SETTINGS_EPIC_RELIC = new Item.Settings().group(WHGroups.WH_RELICS).rarity(Rarity.EPIC);
+
     Item.Settings BASIC_SETTINGS_UNCOMMON = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.UNCOMMON);
+    Item.Settings BASIC_SETTINGS_UNCOMMON_RELIC = new Item.Settings().group(WHGroups.WH_RELICS).rarity(Rarity.UNCOMMON);
     //Item.Settings BASIC_ARTIFACT_SETTINGS_RARE = new Item.Settings().group(BOOKS).rarity(Rarity.RARE);
     //Item.Settings BASIC_ARTIFACT_SETTINGS_EPIC = new Item.Settings().group(BOOKS).rarity(Rarity.EPIC);
     //Item.Settings BASIC_ARTIFACT_SETTINGS_UNCOMMON = new Item.Settings().group(BOOKS).rarity(Rarity.UNCOMMON);

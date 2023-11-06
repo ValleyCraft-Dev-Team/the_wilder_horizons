@@ -79,7 +79,7 @@ public enum WHFoodIngredients implements ItemEnum {
 
     //RAW_LOBSTER(new NegativeFoodItem_3_Effects(settings(), 3, Nourishment.POOR, StatusEffects.HUNGER, StatusEffects.POISON, StatusEffects.NAUSEA).hideTooltip()),
     //RAW_MOSSY_CRAB(new NegativeFoodItem_3_Effects(settings(), 3, Nourishment.POOR, StatusEffects.HUNGER, StatusEffects.POISON, StatusEffects.NAUSEA).hideTooltip()),
-    RAW_WORM(new FoodItem(settings(), 1, Nourishment.POOR)),
+    //RAW_WORM(new FoodItem(settings(), 1, Nourishment.POOR)),
 
     RAW_BACON(new FoodItem(settings(), 2, Nourishment.POOR, true)),
     
@@ -89,13 +89,13 @@ public enum WHFoodIngredients implements ItemEnum {
     RAW_CANID(new FoodItem(settings(), 3, Nourishment.LOW, true)),
     RAW_TENDERLOIN(new FoodItem(settings(), 4, Nourishment.LOW, true)),
     RAW_BAT_WING(new FoodItem(settings(), 2, Nourishment.POOR, true)),
-    RAW_CAVE_MAGGOT(new FoodItem(settings(), 1, Nourishment.POOR, true)),
+    //RAW_CAVE_MAGGOT(new FoodItem(settings(), 1, Nourishment.POOR, true)),
     RAW_SILVERFISH(new FoodItem(settings(), 1, Nourishment.POOR, true)),
     RAW_PHANTOM_EYE(new NegativeFoodItem_2_Effects(settings(), 3, Nourishment.POOR, StatusEffects.NAUSEA, StatusEffects.NIGHT_VISION).hideTooltip()),
     RAW_TRIPE(new NegativeFoodItem_2_Effects(settings(), 6, Nourishment.LOW, StatusEffects.HUNGER, StatusEffects.NAUSEA).hideTooltip()),
-    FETID_FLESH(new NegativeFoodItem_1_Effect(settings(), 4, Nourishment.POOR, WHEffects.ROT_BLIGHT.effect).hideTooltip()),
-    ARID_FLESH(new NegativeFoodItem_1_Effect(settings(), 4, Nourishment.POOR, StatusEffects.HUNGER).hideTooltip()),
-    SOGGY_FLESH(new NegativeFoodItem_1_Effect(settings(), 4, Nourishment.POOR, StatusEffects.SLOWNESS).hideTooltip()),
+    //FETID_FLESH(new NegativeFoodItem_1_Effect(settings(), 4, Nourishment.POOR, WHEffects.ROT_BLIGHT.effect).hideTooltip()),
+    //ARID_FLESH(new NegativeFoodItem_1_Effect(settings(), 4, Nourishment.POOR, StatusEffects.HUNGER).hideTooltip()),
+    //SOGGY_FLESH(new NegativeFoodItem_1_Effect(settings(), 4, Nourishment.POOR, StatusEffects.SLOWNESS).hideTooltip()),
     MONSTER_HEART(new NegativeFoodItem_2_Effects(settings(), 8, Nourishment.LOW, StatusEffects.MINING_FATIGUE, StatusEffects.HUNGER).hideTooltip()),
     //INFECTED_MONSTER_HEART(new NegativeFoodItem_3_Effects(settings(), 6, Nourishment.LOW, StatusEffects.MINING_FATIGUE, StatusEffects.HUNGER, ModEffects.ROT_BLIGHT).hideTooltip()),
     MONSTER_GUTS(new NegativeFoodItem_2_Effects(settings(), 6, Nourishment.LOW, StatusEffects.BLINDNESS, StatusEffects.HUNGER).hideTooltip()),

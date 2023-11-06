@@ -51,9 +51,9 @@ public enum WHFoods implements ItemEnum {
     COOKED_SQUID(new FastFoodItem(settings(), 4, Nourishment.NORMAL)),
     COOKED_FROG_LEGS(new FastFoodItem(settings(), 3, Nourishment.NORMAL)),
 
-    COOKED_WORM(new FoodItem(settings(), 2, Nourishment.LOW)),
+    //COOKED_WORM(new FoodItem(settings(), 2, Nourishment.LOW)),
     COOKED_SILVERFISH(new FoodItem(settings(), 3, Nourishment.NORMAL, true)),
-    COOKED_CAVE_MAGGOT(new FoodItem(settings(), 4, Nourishment.NORMAL, true)),
+    //COOKED_CAVE_MAGGOT(new FoodItem(settings(), 4, Nourishment.NORMAL, true)),
     COOKED_PHANTOM(new FoodItem(settings(), 6, Nourishment.NORMAL)),
     COOKED_BIRD(new FastFoodItem(settings(), 3, Nourishment.NORMAL, true)),
     COOKED_BACON(new FastFoodItem(settings(), 3, Nourishment.NORMAL, true)),

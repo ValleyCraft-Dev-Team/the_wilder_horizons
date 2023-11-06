@@ -16,12 +16,12 @@ import java.util.Locale;
 
 public enum WHArmors implements ItemEnum {
     // warpaint
-    RED_WARPAINT(new ArmorItem(WHArmorMaterials.RED_WARPAINT, EquipmentSlot.HEAD, settings())),
-    BLUE_WARPAINT(new ArmorItem(WHArmorMaterials.BLUE_WARPAINT, EquipmentSlot.HEAD, settings())),
-    GREEN_WARPAINT(new ArmorItem(WHArmorMaterials.GREEN_WARPAINT, EquipmentSlot.HEAD, settings())),
-    YELLOW_WARPAINT(new ArmorItem(WHArmorMaterials.YELLOW_WARPAINT, EquipmentSlot.HEAD, settings())),
-    BLACK_WARPAINT(new ArmorItem(WHArmorMaterials.BLACK_WARPAINT, EquipmentSlot.HEAD, settings())),
-    WHITE_WARPAINT(new ArmorItem(WHArmorMaterials.WHITE_WARPAINT, EquipmentSlot.HEAD, settings())),
+    //RED_WARPAINT(new ArmorItem(WHArmorMaterials.RED_WARPAINT, EquipmentSlot.HEAD, settings())),
+    //BLUE_WARPAINT(new ArmorItem(WHArmorMaterials.BLUE_WARPAINT, EquipmentSlot.HEAD, settings())),
+    //GREEN_WARPAINT(new ArmorItem(WHArmorMaterials.GREEN_WARPAINT, EquipmentSlot.HEAD, settings())),
+    //YELLOW_WARPAINT(new ArmorItem(WHArmorMaterials.YELLOW_WARPAINT, EquipmentSlot.HEAD, settings())),
+    //BLACK_WARPAINT(new ArmorItem(WHArmorMaterials.BLACK_WARPAINT, EquipmentSlot.HEAD, settings())),
+    //WHITE_WARPAINT(new ArmorItem(WHArmorMaterials.WHITE_WARPAINT, EquipmentSlot.HEAD, settings())),
 
     // starter armor
     BELT(new ArmorItem(WHArmorMaterials.BELT, EquipmentSlot.LEGS, settings())),
@@ -31,7 +31,6 @@ public enum WHArmors implements ItemEnum {
     DRIPLEAF_HAT(new ArmorItem(WHArmorMaterials.DRIPLEAF_HAT, EquipmentSlot.HEAD, settings())),
     AZALEA_CROWN(new ArmorItem(WHArmorMaterials.AZALEA_CROWN, EquipmentSlot.HEAD, settings())),
     LILY_PAD_HAT(new ArmorItem(WHArmorMaterials.LILY_PAD_HAT, EquipmentSlot.HEAD, settings())),
-    SAVANNA_LAUREL(new ArmorItem(WHArmorMaterials.ALLAGER_SAVANNA, EquipmentSlot.HEAD, settings().rarity(Rarity.UNCOMMON))),
 
     BLUE_CLAM_SHELL_BREASTPLATE(new ArmorItem(WHArmorMaterials.BLUE_CLAM_SHELL_BREASTPLATE, EquipmentSlot.CHEST, settings())),
     TURTLE_CHESTPLATE(new TurtleChestplate(WHArmorMaterials.TURTLE, EquipmentSlot.CHEST, settings())),
@@ -42,17 +41,17 @@ public enum WHArmors implements ItemEnum {
     //FORGING_APRON(new ArmorItem(WHArmorMaterials.FORGING_UNIFORM, EquipmentSlot.LEGS, settings())),
     COWPOKE_HAT(new ArmorItem(WHArmorMaterials.COWPOKE_HAT, EquipmentSlot.HEAD, settings())),
     HUNTERS_CAP(new ArmorItem(WHArmorMaterials.HUNTERS_CAP, EquipmentSlot.HEAD, settings())),
-    HEALERS_HOOD(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
-    HEALERS_CLOAK(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
+    //HEALERS_HOOD(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
+    //HEALERS_CLOAK(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
 
     // wraith
-    RIBCAGE(new ArmorItem(WHArmorMaterials.RIBCAGE, EquipmentSlot.CHEST, settings())),
-    WITHER_RIBCAGE(new ArmorItem(WHArmorMaterials.WITHER_RIBCAGE, EquipmentSlot.CHEST, settings())),
-    WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
-    WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
-    LICH_HOOD(new ArmorItem(WHArmorMaterials.LICH_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
-    LICH_CLOAK(new ArmorItem(WHArmorMaterials.LICH_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
-    ANCIENT_BOOTS(new ArmorItem(WHArmorMaterials.ANCIENT_BOOTS, EquipmentSlot.FEET, settings().rarity(Rarity.UNCOMMON))),
+    RIBCAGE(new ArmorItem(WHArmorMaterials.RIBCAGE, EquipmentSlot.CHEST, relicSettings())),
+    WITHER_RIBCAGE(new ArmorItem(WHArmorMaterials.WITHER_RIBCAGE, EquipmentSlot.CHEST, relicSettings())),
+    //WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
+    //WRAITH_CLOAK(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.RARE))),
+    LICH_HOOD(new ArmorItem(WHArmorMaterials.LICH_CLOAK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
+    LICH_CLOAK(new ArmorItem(WHArmorMaterials.LICH_CLOAK, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.RARE))),
+    ANCIENT_BOOTS(new AncientBoots(WHArmorMaterials.ANCIENT_BOOTS, EquipmentSlot.FEET, relicSettings().rarity(Rarity.COMMON))),
 
     // shroomleather items
     HOOD(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_CLOAK, EquipmentSlot.HEAD, settings())),
@@ -66,45 +65,47 @@ public enum WHArmors implements ItemEnum {
     REINFORCED_TUNIC(new ArmorItem(WHArmorMaterials.REINFORCED_SHROOMLEATHER_TUNIC, EquipmentSlot.LEGS, settings())),
 
     //tunics
-    PIGLIN_TUNIC(new ArmorItem(WHArmorMaterials.PIGLIN_TUNIC, EquipmentSlot.LEGS, settings())),
-    ILLAGER_TUNIC(new ArmorItem(WHArmorMaterials.ILLAGER_TUNIC, EquipmentSlot.LEGS, settings())),
-    DAERDRIN_COVERINGS(new ArmorItem(WHArmorMaterials.DAERDRIN_COVERINGS, EquipmentSlot.LEGS, settings().rarity(Rarity.RARE))),
+    PIGLIN_TUNIC(new ArmorItem(WHArmorMaterials.PIGLIN_TUNIC, EquipmentSlot.LEGS, relicSettings())),
+    ILLAGER_TUNIC(new ArmorItem(WHArmorMaterials.ILLAGER_TUNIC, EquipmentSlot.LEGS, relicSettings())),
+    DAERDRIN_COVERINGS(new ArmorItem(WHArmorMaterials.DAERDRIN_COVERINGS, EquipmentSlot.LEGS, relicSettings().rarity(Rarity.RARE))),
 
     // divine
-    FRIENDLY_MASK(new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
-    GOLDEN_CROWN(new ArmorItem(WHArmorMaterials.GOLDEN_CROWN, EquipmentSlot.HEAD, settings().rarity(Rarity.EPIC))),
-    BRASIUM_PAULDRONS(new ArmorItem(WHArmorMaterials.BRASIUM_PAULDRONS, EquipmentSlot.CHEST, settings().rarity(Rarity.UNCOMMON))),
-    MINING_HELMET(new ArmorItem(WHArmorMaterials.MINING_HELMET, EquipmentSlot.HEAD, settings().rarity(Rarity.UNCOMMON))),
-    HEADSCARF(new ArmorItem(WHArmorMaterials.HEADSCARF, EquipmentSlot.HEAD, settings().rarity(Rarity.UNCOMMON))),
+    FRIENDLY_MASK(new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
+    GOLDEN_CROWN(new ArmorItem(WHArmorMaterials.GOLDEN_CROWN, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.EPIC))),
+    BRASIUM_PAULDRONS(new ArmorItem(WHArmorMaterials.BRASIUM_PAULDRONS, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.UNCOMMON))),
+    MINING_HELMET(new ArmorItem(WHArmorMaterials.MINING_HELMET, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.UNCOMMON))),
+    HEADSCARF(new ArmorItem(WHArmorMaterials.HEADSCARF, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.UNCOMMON))),
 
     //garments
     NEUTRAL_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_NEUTRAL, EquipmentSlot.LEGS, settings())),
     FEMME_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_FEMME, EquipmentSlot.LEGS, settings())),
     MASC_GARMENTS(new ArmorItem(WHArmorMaterials.SHROOMLEATHER_GARMENTS_MASC, EquipmentSlot.LEGS, settings())),
-    PIGLIN_GARMENTS(new ArmorItem(WHArmorMaterials.PIGLIN_GARMENTS, EquipmentSlot.LEGS, settings())),
-    ALLAGER_GARMENTS(new ArmorItem(WHArmorMaterials.ALLAGER_GARMENTS, EquipmentSlot.LEGS, settings())),
-    ILLAGER_GARMENTS(new ArmorItem(WHArmorMaterials.ILLAGER_GARMENTS, EquipmentSlot.LEGS, settings())),
+    PIGLIN_GARMENTS(new ArmorItem(WHArmorMaterials.PIGLIN_GARMENTS, EquipmentSlot.LEGS, relicSettings())),
 
-    DESERT_HAT(new ArmorItem(WHArmorMaterials.ALLAGER_DESERT, EquipmentSlot.HEAD, settings().rarity(Rarity.UNCOMMON))),
-    PLAINS_SHOES(new ArmorItem(WHArmorMaterials.ALLAGER_PLAINS, EquipmentSlot.FEET, settings().rarity(Rarity.UNCOMMON))),
-    SNOWY_CAP(new ArmorItem(WHArmorMaterials.ALLAGER_SNOW, EquipmentSlot.HEAD, settings().rarity(Rarity.UNCOMMON))),
-    TAIGA_BOOTS(new ArmorItem(WHArmorMaterials.ALLAGER_TAIGA, EquipmentSlot.FEET, settings().rarity(Rarity.UNCOMMON))),
-    ILLAGER_BOOTS(new ArmorItem(WHArmorMaterials.ILLAGER_TUNIC, EquipmentSlot.FEET, settings())),
+    DESERT_HAT(new ArmorItem(WHArmorMaterials.ALLAGER_DESERT, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.UNCOMMON))),
+    PLAINS_SHOES(new ArmorItem(WHArmorMaterials.ALLAGER_PLAINS, EquipmentSlot.FEET, relicSettings().rarity(Rarity.UNCOMMON))),
+    SAVANNA_LAUREL(new ArmorItem(WHArmorMaterials.ALLAGER_SAVANNA, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.UNCOMMON))),
+    SNOWY_CAP(new ArmorItem(WHArmorMaterials.ALLAGER_SNOW, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.UNCOMMON))),
+    TAIGA_BOOTS(new ArmorItem(WHArmorMaterials.ALLAGER_TAIGA, EquipmentSlot.FEET, relicSettings().rarity(Rarity.UNCOMMON))),
+    ALLAGER_GARMENTS(new ArmorItem(WHArmorMaterials.ALLAGER_GARMENTS, EquipmentSlot.LEGS, relicSettings())),
+    ILLAGER_GARMENTS(new ArmorItem(WHArmorMaterials.ILLAGER_GARMENTS, EquipmentSlot.LEGS, relicSettings())),
+    ILLAGER_BOOTS(new ArmorItem(WHArmorMaterials.ILLAGER_TUNIC, EquipmentSlot.FEET, relicSettings())),
 
     // talismans
-    UNDYING_TALISMAN(new ArmorItem(WHArmorMaterials.UNDYING_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
-    LUCKY_FISHING_HOOK_TALISMAN(new FishingHookNecklace(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
-    FROSTED_IRON_TALISMAN(new FrostedIronTalisman(WHArmorMaterials.FROSTED_IRON_TALISMAN, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
+    UNDYING_TALISMAN(new ArmorItem(WHArmorMaterials.UNDYING_TALISMAN, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.RARE))),
+    LUCKY_FISHING_HOOK_TALISMAN(new FishingHookNecklace(WHArmorMaterials.LUCKY_FISHING_HOOK_TALISMAN, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.RARE))),
+    FROSTED_IRON_TALISMAN(new FrostedIronTalisman(WHArmorMaterials.FROSTED_IRON_TALISMAN, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.RARE))),
 
     // fur
-    FUR_HOOD(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.HEAD, settings())),
-    FUR_CLOAK(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.CHEST, settings())),
-    FUR_KILT(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.LEGS, settings())),
+    FUR_HOOD(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.UNCOMMON))),
+    FUR_CLOAK(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.UNCOMMON))),
+    FUR_KILT(new ArmorItem(WHArmorMaterials.FUR, EquipmentSlot.LEGS, relicSettings().rarity(Rarity.UNCOMMON))),
 
     WARM_BOOTS(new WarmBoots(WHArmorMaterials.WARM_BOOTS, EquipmentSlot.FEET, settings())),
 
     // glasses
     COPPER_GLASSES(new ArmorItem(WHArmorMaterials.COPPER, EquipmentSlot.HEAD, settings())),
+    COPPER_MONOCLE(new ArmorItem(WHArmorMaterials.COPPER_MONOCLE, EquipmentSlot.HEAD, settings())),
     NIGHT_VISION_GOGGLES(new NightVisionGoggles(WHArmorMaterials.NIGHT_VISION_GOGGLES, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
 
     // plank
@@ -151,6 +152,17 @@ public enum WHArmors implements ItemEnum {
     DIAMOND_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.LEGS, settings())),
     DIAMOND_SANDALS(new ArmorItem(WHArmorMaterials.DIAMOND_REINFORCED, EquipmentSlot.FEET, settings())),
 
+    // emerald
+    //EMERALD_HELMET(new ArmorItem(WHArmorMaterials.EMERALD, EquipmentSlot.HEAD, settings())),
+    //EMERALD_MASKED_HELMET(new ArmorItem(WHArmorMaterials.EMERALD_REINFORCED, EquipmentSlot.HEAD, settings())),
+    //EMERALD_CHESTPLATE(new ArmorItem(WHArmorMaterials.EMERALD, EquipmentSlot.CHEST, settings())),
+    //EMERALD_BREASTPLATE(new ArmorItem(WHArmorMaterials.EMERALD_REINFORCED, EquipmentSlot.CHEST, settings())),
+    //EMERALD_LEGGINGS(new ArmorItem(WHArmorMaterials.EMERALD, EquipmentSlot.LEGS, settings())),
+    //EMERALD_HAUBERK(new ArmorItem(WHArmorMaterials.EMERALD_HAUBERK, EquipmentSlot.LEGS, settings())),
+    //EMERALD_THIGH_GUARDS(new ArmorItem(WHArmorMaterials.EMERALD_REINFORCED, EquipmentSlot.LEGS, settings())),
+    //EMERALD_BOOTS(new ArmorItem(WHArmorMaterials.EMERALD, EquipmentSlot.FEET, settings())),
+    //EMERALD_SANDALS(new ArmorItem(WHArmorMaterials.EMERALD_REINFORCED, EquipmentSlot.FEET, settings())),
+
     // echochalcum
     ECHOCHALCUM_HELMET(new ArmorItem(WHArmorMaterials.ECHOCHALCUM, EquipmentSlot.HEAD, settings())),
     ECHOCHALCUM_MASKED_HELMET(new ArmorItem(WHArmorMaterials.ECHOCHALCUM_REINFORCED, EquipmentSlot.HEAD, settings())),
@@ -172,7 +184,10 @@ public enum WHArmors implements ItemEnum {
     public static FabricItemSettings settings() {
         return new FabricItemSettings().maxCount(1).group(WHGroups.WH_ARMORS);
     }
-    
+
+    public static FabricItemSettings relicSettings() {
+        return new FabricItemSettings().maxCount(1).group(WHGroups.WH_RELICS);
+    }
     public static void initialize() {
         
     }

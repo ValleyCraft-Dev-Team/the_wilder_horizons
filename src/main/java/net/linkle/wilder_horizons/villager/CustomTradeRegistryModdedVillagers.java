@@ -177,7 +177,7 @@ public class CustomTradeRegistryModdedVillagers {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.ROTTEN_FLESH, 32),
                             new ItemStack(Items.EMERALD, 1),
-                            10, 2, 0.02f)));
+                            16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(WHMiscItems.BEAST_CLAW, 8),
                             new ItemStack(Items.EMERALD, 1),
@@ -189,15 +189,15 @@ public class CustomTradeRegistryModdedVillagers {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.BONE, 16),
                             new ItemStack(Items.EMERALD, 1),
-                            16, 2, 0.05f)));
+                            16, 5, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(WHMiscItems.SMALL_BONE, 32),
                             new ItemStack(Items.EMERALD, 1),
-                            16, 2, 0.05f)));
+                            16, 5, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(WHMiscItems.SKULL_SHARD, 4),
                             new ItemStack(Items.EMERALD, 1),
-                            16, 2, 0.05f)));
+                            16, 10, 0.05f)));
                 });
 
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HUNTER, 3,
@@ -206,11 +206,11 @@ public class CustomTradeRegistryModdedVillagers {
                             new ItemStack(Items.EMERALD, 4),
                             new ItemStack(WHMiscItems.SOUL_GEM),
                             new ItemStack(WHMiscItems.ENCHANTED_EMERALD, 1),
-                            16, 2, 0.05f)));
+                            16, 20, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(WHMiscItems.SOUL_GEM, 1),
                             new ItemStack(Items.EMERALD, 2),
-                            16, 2, 0.05f)));
+                            16, 20, 0.05f)));
                 });
 
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HUNTER, 4,
@@ -218,30 +218,30 @@ public class CustomTradeRegistryModdedVillagers {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 3),
                             new ItemStack(WHTools.KNIFE_IRON, 1),
-                            16, 2, 0.05f)));
+                            16, 15, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 3),
                             new ItemStack(Items.EXPERIENCE_BOTTLE, 1),
-                            16, 2, 0.05f)));
+                            16, 15, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 16),
                             new ItemStack(Items.SKELETON_SKULL, 1),
-                            16, 2, 0.05f)));
+                            16, 30, 0.05f)));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HUNTER, 5,
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 8),
                             new ItemStack(WHTools.KNIFE_DIAMOND, 1),
-                            16, 2, 0.05f)));
+                            16, 30, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 16),
                             new ItemStack(WHNature.VILLAGER_SKULL, 1),
-                            16, 2, 0.05f)));
+                            16, 30, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 20),
                             new ItemStack(WHNature.PIGLIN_SKULL, 1),
-                            16, 2, 0.05f)));
+                            16, 30, 0.05f)));
                 });
     }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/armor/reinforced_echochalcum_helmet"
+    "layer0": "wilder_horizons:item/armor/reinforced_sculkerite_helmet"
   }
 }

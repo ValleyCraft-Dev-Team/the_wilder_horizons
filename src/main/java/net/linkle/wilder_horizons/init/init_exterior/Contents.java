@@ -112,7 +112,7 @@ public class Contents {
         putCompost(WHArmors.BLUE_CLAM_SHELL_BREASTPLATE, levelHigh);
         putCompost(WHArmors.LILY_PAD_HAT, levelMed);
 
-        putCompost(WHFoodIngredients.RAW_WORM, levelHigher);
+        //putCompost(WHFoodIngredients.RAW_WORM, levelHigher);
         putCompost(WHMiscItems.OVER_SNAIL_SHELL, levelHigher);
         putCompost(WHMiscItems.CAVE_SNAIL_SHELL, levelHigher);
         //putCompost(WHMiscItems.SCULK_SNAIL_SHELL, levelHigher);

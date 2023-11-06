@@ -3,7 +3,7 @@
     "pattern": [
         "  #",
         " #I",
-        "VW "
+        "VWB"
     ],
     "key": {
         "#": {
@@ -17,6 +17,9 @@
         },
         "W": {
             "tag": "c:string_spools"
+        },
+        "B": {
+            "item": "wilder_horizons:bobbing_lure"
         }
     },
     "result": {

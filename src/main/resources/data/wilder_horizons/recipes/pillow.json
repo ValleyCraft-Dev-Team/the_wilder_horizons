@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S#S",
+        "#P#",
+        "S#S"
+    ],
+    "key": {
+        "#": {
+            "item": "wilder_horizons:cloth"
+        },
+        "S": {
+            "tag": "c:string_items"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        }
+    },
+    "result": {
+        "item": "wilder_horizons:pillow",
+        "count": 1
+    }
+}

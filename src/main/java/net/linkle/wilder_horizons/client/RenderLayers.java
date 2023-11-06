@@ -33,15 +33,15 @@ public class RenderLayers {
         put(GLASS_TRAPDOOR, cullout);
         put(SLIME_LANTERN, cullout);
         put(LAVA_LANTERN, cullout);
-        put(PINK_SLIME_LANTERN, cullout);
+        //put(PINK_SLIME_LANTERN, cullout);
         put(GLOW_BERRY_LANTERN, cullout);
         put(TINTED_GLASS_DOOR, translucent);
         put(TINTED_GLASS_TRAPDOOR, translucent);
-        put(PINK_SLIME_BLOCK, translucent);
+        //put(PINK_SLIME_BLOCK, translucent);
         //put(PRIMSTEEL_DOOR, cullout);
         //put(PRIMSTEEL_TRAPDOOR, cullout);
         put(SCULK_BLOSSOM, cullout);
-        put(CHAINED_CHEST, cullout);
+        //put(CHAINED_CHEST, cullout);
         //put(DEAD_IRON_GOLEM, cullout);
         put(DEPLETED_CONDUIT, cullout);
         //put(NETHER_CONDUIT, cullout);
@@ -211,7 +211,7 @@ public class RenderLayers {
 
         put(ROCKS, cullout);
         put(FLINT_ROCKS, cullout);
-        put(DIRT_ROCKS, cullout);
+        //put(DIRT_ROCKS, cullout);
         put(DRIPSTONE_ROCKS, cullout);
         put(SHALE_ROCKS, cullout);
         put(DEEPSLATE_ROCKS, cullout);
@@ -234,6 +234,7 @@ public class RenderLayers {
         put(APPLE_LEAVES_EMPTY, cullout);
         put(ALGAE, cullout);
         put(KNAPWEED, cullout);
+        put(DEPTH_WATCHER, cullout);
         put(GLOW_KELP, cullout);
         put(GLOW_KELP_PLANT, cullout);
         put(ORANGE_KELP, cullout);
@@ -361,7 +362,7 @@ public class RenderLayers {
         put(STARFISH_BLOCK, cullout);
         put(TUBE_WORMS_BLOCK, cullout);
         put(SPIKE_TRAP, cullout);
-        put(SPIKE_TRAP_EXTENSION, cullout);
+        //put(SPIKE_TRAP_EXTENSION, cullout);
         //put(FAN_MOLD, translucent);
 
         put(HOLLOW_ACACIA_LOG, cullout);
@@ -440,8 +441,8 @@ public class RenderLayers {
         put(SALT_BRICK_CHIMNEY, cullout);
         put(SERPENTINITE_BRICK_CHIMNEY, cullout);
         put(BASALT_BRICK_CHIMNEY, cullout);
-        put(PURPUR_BLOCK_CHIMNEY, cullout);
-        put(END_STONE_BRICK_CHIMNEY, cullout);
+        //put(PURPUR_BLOCK_CHIMNEY, cullout);
+        //put(END_STONE_BRICK_CHIMNEY, cullout);
         put(MARBLE_BRICK_CHIMNEY, cullout);
         put(CARMINE_BRICK_CHIMNEY, cullout);
 

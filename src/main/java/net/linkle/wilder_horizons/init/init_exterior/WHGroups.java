@@ -25,4 +25,6 @@ public class WHGroups {
             (new Identifier(Main.ID,"wh_tools"), () -> new ItemStack(Items.IRON_PICKAXE));
     public static final ItemGroup WH_BLOCKS = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_blocks"), () -> new ItemStack(WHBlocks.GLOW_BERRY_LANTERN));
+    public static final ItemGroup WH_RELICS = FabricItemGroupBuilder.build
+            (new Identifier(Main.ID,"wh_relics"), () -> new ItemStack(WHTools.BROKEN_HEROES_BLADE));
 }

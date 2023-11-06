@@ -92,7 +92,7 @@ public class WHLootTables {
         // cave spider
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);
-        builder.with(ItemEntry.builder(WHFoodIngredients.RAW_CAVE_MAGGOT).weight(7));
+        //builder.with(ItemEntry.builder(WHFoodIngredients.RAW_CAVE_MAGGOT).weight(7));
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_SILVERFISH).weight(7));
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_ABYSSWATCHER).weight(5));
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BAT_WING).weight(5));
@@ -653,7 +653,7 @@ public class WHLootTables {
         // spider
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);
-        builder.with(ItemEntry.builder(WHFoodIngredients.RAW_CAVE_MAGGOT).weight(7));
+        //builder.with(ItemEntry.builder(WHFoodIngredients.RAW_CAVE_MAGGOT).weight(7));
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_SILVERFISH).weight(7));
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_ABYSSWATCHER).weight(5));
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BAT_WING).weight(5));

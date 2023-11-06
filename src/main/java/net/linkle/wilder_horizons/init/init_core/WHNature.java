@@ -1,7 +1,6 @@
 package net.linkle.wilder_horizons.init.init_core;
 
-import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_FOOD;
-import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_NATURE;
+import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.*;
 import static net.linkle.wilder_horizons.util.PlantBlockSettings.*;
 import static net.linkle.wilder_horizons.util.PlantGroundPredicates.*;
 import static net.linkle.wilder_horizons.util.PlantVoxelShapes.*;
@@ -197,7 +196,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     FALLEN_STAR_FRAGMENT(new FallenStarBlock(Block.Settings.copy(Blocks.AMETHYST_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK).resistance(1200).hardness(52f).luminance(s -> 15).ticksRandomly()), itemSettings().rarity(Rarity.UNCOMMON)),
 
     SHALE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
-    CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.STONE).resistance(1200).hardness(52f)), itemSettings()),
+    //CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.STONE).resistance(1200).hardness(52f)), itemSettings()),
 
     DRY_DIRT(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
     FINE_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
@@ -208,7 +207,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     SERPENTINITE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
     MARBLE(new Block(Block.Settings.copy(Blocks.CALCITE)), itemSettings()),
 
-    DIRT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
+    //DIRT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     FLINT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
 
@@ -238,13 +237,13 @@ public enum WHNature implements ItemEnum, BlockEnum {
     SALT_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
     MIXED_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
     SALTPETER_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
-    ANCIENT_IRON_DEBRIS(new OreBlock(Block.Settings.copy(Blocks.IRON_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
-    ANCIENT_GOLD_DEBRIS(new OreBlock(Block.Settings.copy(Blocks.GOLD_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
+    ANCIENT_IRON_DEBRIS(new OreBlock(Block.Settings.copy(Blocks.IRON_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemRelicSettings()),
+    ANCIENT_GOLD_DEBRIS(new OreBlock(Block.Settings.copy(Blocks.GOLD_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemRelicSettings()),
 
     ICE_ORE(new IceOreBlock(Block.Settings.copy(Blocks.IRON_ORE).sounds(BlockSoundGroup.GLASS).nonOpaque().slipperiness(0.98f), UniformIntProvider.create(2, 6)), itemSettings()),
     PACKED_SNOW(new Block(Block.Settings.copy(Blocks.SNOW_BLOCK).strength(0.3f).sounds(BlockSoundGroup.SNOW)), itemSettings()),
 
-    QUICKSAND(new QuicksandBlock(AbstractBlock.Settings.copy(Blocks.SAND).sounds(BlockSoundGroup.SAND).noCollision().strength(0.5F)), itemSettings()),
+    //QUICKSAND(new QuicksandBlock(AbstractBlock.Settings.copy(Blocks.SAND).sounds(BlockSoundGroup.SAND).noCollision().strength(0.5F)), itemSettings()),
 
     ROUGH_SANDSTONE(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings()),
     SCALDING_SANDSTONE(new ScaldingBlock(Block.Settings.copy(Blocks.SANDSTONE).ticksRandomly().luminance(s ->3)), itemSettings()),
@@ -284,17 +283,17 @@ public enum WHNature implements ItemEnum, BlockEnum {
     //BONE_JOINT(new Block(Block.Settings.copy(Blocks.BONE_BLOCK)), itemSettings()),
 
     //skulls and skeletons go here
-    HEADLESS_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    VILLAGER_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    VILLAGER_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    PIGLIN_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    PIGLIN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    ENDERMAN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
-    DAERDRI_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.RARE)),
+    HEADLESS_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.UNCOMMON)),
+    VILLAGER_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.UNCOMMON)),
+    VILLAGER_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.UNCOMMON)),
+    PIGLIN_SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.UNCOMMON)),
+    PIGLIN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.UNCOMMON)),
+    SKELETAL_REMAINS(new SkeletalRemainsBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.UNCOMMON)),
+    ENDERMAN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.UNCOMMON)),
+    DAERDRI_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.RARE)),
     //DEAD_IRON_GOLEM(new HorizontalBlock(Block.Settings.copy(Blocks.IRON_BLOCK)), itemSettings().rarity(Rarity.RARE)),
-    GIANT_SKULL(new HorizontalBlock(Block.Settings.copy(Blocks.BONE_BLOCK)), itemSettings()),
-    GIANT_SKULL_LANTERN(new HorizontalBlock(Block.Settings.copy(Blocks.BONE_BLOCK).luminance(s->10)), itemSettings()),
+    GIANT_SKULL(new HorizontalBlock(Block.Settings.copy(Blocks.BONE_BLOCK)), itemRelicSettings()),
+    GIANT_SKULL_LANTERN(new HorizontalBlock(Block.Settings.copy(Blocks.BONE_BLOCK).luminance(s->10)), itemRelicSettings()),
 
     //heads
     HEAD_ZOMBIE_ALEX(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
@@ -310,10 +309,10 @@ public enum WHNature implements ItemEnum, BlockEnum {
     HEAD_ROTTEN_STEVE(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
 
     //cave paintings
-    ERDSTONE_CAVE_PAINTING_PORTRAIT(new CavePainting(Block.Settings.copy(Blocks.STONE), "portrait"), itemSettings().rarity(Rarity.EPIC)),
-    ERDSTONE_CAVE_PAINTING_ZOMBIES(new CavePainting(Block.Settings.copy(Blocks.STONE), "zombie"), itemSettings().rarity(Rarity.EPIC)),
-    ERDSTONE_CAVE_PAINTING_HOME(new CavePainting(Block.Settings.copy(Blocks.STONE), "home"), itemSettings().rarity(Rarity.EPIC)),
-    ERDSTONE_CAVE_PAINTING_FAMILY(new CavePainting(Block.Settings.copy(Blocks.STONE), "family"), itemSettings().rarity(Rarity.EPIC)),
+    ERDSTONE_CAVE_PAINTING_PORTRAIT(new CavePainting(Block.Settings.copy(Blocks.STONE), "portrait"), itemRelicSettings().rarity(Rarity.EPIC)),
+    ERDSTONE_CAVE_PAINTING_ZOMBIES(new CavePainting(Block.Settings.copy(Blocks.STONE), "zombie"), itemRelicSettings().rarity(Rarity.EPIC)),
+    ERDSTONE_CAVE_PAINTING_HOME(new CavePainting(Block.Settings.copy(Blocks.STONE), "home"), itemRelicSettings().rarity(Rarity.EPIC)),
+    ERDSTONE_CAVE_PAINTING_FAMILY(new CavePainting(Block.Settings.copy(Blocks.STONE), "family"), itemRelicSettings().rarity(Rarity.EPIC)),
 
     // Tree Seeds
     //DIVINE_ACORN(new SeedBlock(Blocks.OAK_SAPLING)),
@@ -335,6 +334,9 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     private static FabricItemSettings itemSettings() {
         return new FabricItemSettings().group(WH_NATURE);
+    }
+    private static FabricItemSettings itemRelicSettings() {
+        return new FabricItemSettings().group(WH_RELICS);
     }
 
     private static FabricItemSettings foodBlockSettings() {

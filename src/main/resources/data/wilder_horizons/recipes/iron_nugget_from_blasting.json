@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:stalwart_shroom"
+    },
+    {
+      "item": "minecraft:chain"
+    },
+    {
+      "item": "wilder_horizons:iron_rail"
+    },
+    {
+      "item": "wilder_horizons:iron_chain"
+    }
+  ],
+  "result": "minecraft:iron_nugget"
+}

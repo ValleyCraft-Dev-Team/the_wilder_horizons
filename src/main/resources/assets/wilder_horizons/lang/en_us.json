@@ -7,9 +7,10 @@
   "itemGroup.wilder_horizons.wh_armors": "Attire & Armor",
   "itemGroup.wilder_horizons.wh_tools": "Tools & Weapons",
   "itemGroup.wilder_horizons.wh_blocks": "Blocks & Decor",
+  "itemGroup.wilder_horizons.wh_relics": "Relics & Artifacts",
 
   "effect.wilder_horizons.cleansed": "Holy Cleansing",
-  "effect.wilder_horizons.rot_blight": "Rot Blighted",
+  "effect.wilder_horizons.rot_blight": "Rot-Blight Infection",
   "effect.wilder_horizons.soul_fading": "Slow Soul-Fading",
 
   "item.wilder_horizons.healing_salve": "Healing Poultice",
@@ -59,6 +60,9 @@
   "item.wilder_horizons.plant_fiber_string": "Plant Fiber Cordage",
   "item.wilder_horizons.bow_string": "Bowstring",
   "item.wilder_horizons.jelly_blob": "Sticky Jelly Blob",
+  "item.minecraft.gunpowder": "Black Powder",
+  "item.wilder_horizons.golden_watermelon_juice": "Glistering Melon Tincture",
+  "item.wilder_horizons.apple_juice": "Apple Cider",
 
   "item.wilder_horizons.soul_powder": "Crushed Soul Powder",
   "item.wilder_horizons.soul_gem": "Soul",
@@ -66,6 +70,7 @@
   "item.wilder_horizons.golem_soul_gem": "Soul-Core of a Golem",
   "item.wilder_horizons.soul_of_an_elder_guardian": "Soul-Core of an Elder Guardian",
   "item.wilder_horizons.soul_of_a_wither": "Amalgamated Soul of a Wither",
-  "item.wilder_horizons.soul_of_an_ender_dragon": "Soul of an Ender Dragon",
+  "item.wilder_horizons.soul_of_a_warden": "Soul of a Lost Warden",
+  "item.wilder_horizons.soul_of_an_ender_dragon": "Soul of a Dragon",
   "item.wilder_horizons.soul_of_a_lich": "Soul of a Lich"
 }

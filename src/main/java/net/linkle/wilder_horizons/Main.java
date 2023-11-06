@@ -8,6 +8,7 @@ import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
 import net.linkle.wilder_horizons.villager.CustomTradeRegistryModdedVillagers;
 import net.linkle.wilder_horizons.villager.CustomTradeRegistryWanderingTrader;
 import net.linkle.wilder_horizons.villager.ModVillagers;
+import net.linkle.wilder_horizons.world_modifications.DungeonRemover;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -41,6 +42,7 @@ public class Main implements ModInitializer {
         WHSounds.initialize();
         TreeConfigs.initialize();
         VegetationPlaced.initialize();
+        DungeonRemover.init();
     }
 
     public static Identifier makeId(String id) {
