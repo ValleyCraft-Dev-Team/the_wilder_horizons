@@ -64,7 +64,7 @@ public class SprinklerBlock extends Block {
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
         if (state.get(POWERED)) {
             double x = pos.getX()+0.5;
-            double y = pos.getY()+0.75;
+            double y = pos.getY()+0.93;
             double z = pos.getZ()+0.5;
             if (random.nextFloat() < 0.1f) {
                 world.playSound(x, y, z, WHSounds.SPRINKLER.sound, SoundCategory.BLOCKS, 0.4f, 1.0f, false);
@@ -81,7 +81,7 @@ public class SprinklerBlock extends Block {
     
     static {
         var base = createCuboidShape(0, 0, 0, 16, 8, 16);
-        var head = createCuboidShape(1, 10, 1, 15, 14, 15);
+        var head = createCuboidShape(2, 8, 2, 14, 14, 14);
         SHAPE = VoxelShapes.union(base, head);
     }
 }

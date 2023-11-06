@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "wilder_horizons:item/unique_loot/rusted_pickaxe"
+    "layer0": "wilder_horizons:item/tools/rusted/rusted_pickaxe"
   }
 }

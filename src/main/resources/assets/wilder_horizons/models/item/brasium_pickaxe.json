@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wilder_horizons:item/tools/pickaxes/brasium_pickaxe"
+  }
+}

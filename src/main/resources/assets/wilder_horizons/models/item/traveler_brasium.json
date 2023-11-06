@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wilder_horizons:item/tools/travelers_swords/brasium_travelers_sword"
+  }
+}
