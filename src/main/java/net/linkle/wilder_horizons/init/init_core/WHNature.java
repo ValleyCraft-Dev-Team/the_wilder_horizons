@@ -211,7 +211,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     FLINT_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
 
-    ERDCOBBLESTONE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
+    //ERDCOBBLESTONE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     SHALE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     DRIPSTONE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     DEEPSLATE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
@@ -229,8 +229,8 @@ public enum WHNature implements ItemEnum, BlockEnum {
     ENDSTONE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
 
     //ADVENTURINE(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(2).resistance(2500f).luminance(s ->5)), itemSettings()),
-    ERDSTONE(new Block(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE).hardness(2)), itemSettings()),
-    ERDCOBBLESTONE(new Block(Block.Settings.copy(Blocks.COBBLED_DEEPSLATE).hardness(2)), itemSettings()),
+    //ERDSTONE(new Block(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE).hardness(2)), itemSettings()),
+    //ERDCOBBLESTONE(new Block(Block.Settings.copy(Blocks.COBBLED_DEEPSLATE).hardness(2)), itemSettings()),
 
     LOOSE_ROCKS(new FallingRockBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.NETHER_BRICKS)), itemSettings()),
 

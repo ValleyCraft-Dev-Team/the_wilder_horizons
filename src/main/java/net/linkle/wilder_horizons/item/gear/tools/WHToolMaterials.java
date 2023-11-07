@@ -33,7 +33,7 @@ public enum WHToolMaterials implements ToolMaterial {
     //ROSEGOLD(1, 440, 7.0F, 2.0F, 15, () -> {
     //    return Ingredient.ofItems(ItemsModded.ROSEGOLD_INGOT);
     //}),
-    BRASIUM(1, 440, 7.0F, 2.0F, 15, () -> {
+    BRASIUM(2, 440, 7.0F, 2.0F, 15, () -> {
         return Ingredient.ofItems(WHMiscItems.BRASIUM_INGOT);
     }),
     COPPER(1, 250, 6.0F, 2.0F, 15, () -> {

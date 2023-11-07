@@ -12,20 +12,16 @@ import net.linkle.wilder_horizons.item.gear.tools.WHToolMaterials;
 import net.linkle.wilder_horizons.item.gear.tools.bows.AmethystLeveledBowItem;
 import net.linkle.wilder_horizons.item.gear.tools.bows.BrasiumBowItem;
 import net.linkle.wilder_horizons.item.gear.tools.bows.ChampionsBowItem;
-import net.linkle.wilder_horizons.item.gear.tools.bows.LongBowItem;
 import net.linkle.wilder_horizons.item.gear.tools.environmental.*;
 import net.linkle.wilder_horizons.item.gear.tools.hatchet.HatchetAxeBase;
 import net.linkle.wilder_horizons.item.gear.tools.knife.KnifeBase;
-import net.linkle.wilder_horizons.item.gear.tools.knife.special.GemCuttingTools;
-import net.linkle.wilder_horizons.item.gear.tools.knife.special.GemCuttingToolsMaterial;
-import net.linkle.wilder_horizons.item.gear.tools.knife.special.Scalpel;
+import net.linkle.wilder_horizons.item.gear.tools.knife.special.UnbreakableScalpelBase;
 import net.linkle.wilder_horizons.item.gear.tools.rusty.*;
 import net.linkle.wilder_horizons.item.gear.tools.scythe.ScytheBase;
 import net.linkle.wilder_horizons.item.gear.tools.staff.StaffBase;
 import net.linkle.wilder_horizons.item.gear.tools.throwing.RockItem;
 import net.linkle.wilder_horizons.item.gear.tools.travelers_sword.TravelerBase;
 import net.linkle.wilder_horizons.item.gear.tools.woodcutter_axe.WoodcutterAxeBase;
-import net.linkle.wilder_horizons.item.gear.tools.knife.special.UnbreakableScalpelBase;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -35,8 +31,8 @@ import java.util.Locale;
 
 public enum WHTools implements ItemEnum, ToolConstants {
 
-    BROKEN_HEROES_BLADE(new UnbreakableScalpelBase(WHToolMaterials.GODDESS_BLADE_BROKEN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_EPIC_RELIC)),
-    HEROES_BLADE(new UnbreakableScalpelBase(WHToolMaterials.GODDESS_BLADE, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_EPIC_RELIC)),
+    //BROKEN_HEROES_BLADE(new UnbreakableScalpelBase(WHToolMaterials.GODDESS_BLADE_BROKEN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_EPIC_RELIC)),
+    //HEROES_BLADE(new UnbreakableScalpelBase(WHToolMaterials.GODDESS_BLADE, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_EPIC_RELIC)),
     // Environmental Tools
     BRANCH(new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f)),
     //DRIFTWOOD_BRANCH(new BranchWeaponItem(new BranchToolMaterial(), 3, -2.0f)),
@@ -75,20 +71,20 @@ public enum WHTools implements ItemEnum, ToolConstants {
     //CORAL_KNIFE(new Scalpel(WHToolMaterials.GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_UNCOMMON)),
     CORAL_KNIFE_GUARDIAN(new UnbreakableScalpelBase(WHToolMaterials.ELDER_GUARDIAN, TRAVELER_BASE_DAMAGE, TRAVELER_BASE_SPEED, BASIC_SETTINGS_RARE)),
     BONE_MISERICORDE(new KnifeBase(WHToolMaterials.BONE, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_UNCOMMON_RELIC)),
-    DRAGON_SPEAR(new KnifeBase(WHToolMaterials.DRAGON_TOOTH, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_RARE_RELIC)),
+    //DRAGON_SPEAR(new KnifeBase(WHToolMaterials.DRAGON_TOOTH, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_RARE_RELIC)),
     ILLAGER_AXE(new KnifeBase(WHToolMaterials.IRON_EXTENDED, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_UNCOMMON_RELIC)),
     AMETHYST_SWORD(new KnifeBase(WHToolMaterials.AMETHYST, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_RARE_RELIC)),
     IRON_CUTLASS(new KnifeBase(WHToolMaterials.IRON_EXTENDED, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_UNCOMMON_RELIC)),
     DRUID_SICKLE(new KnifeBase(WHToolMaterials.WOOD_EXTENDED, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_EPIC_RELIC)),
     SCIMITAR(new KnifeBase(WHToolMaterials.GOLD_EXTENDED, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_UNCOMMON_RELIC)),
-    MINING_DRILL(new KnifeBase(WHToolMaterials.COPPER, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS_RARE_RELIC)),
 
     // Bows
-    LONGBOW(new LongBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(385))),
+    //LONGBOW(new LongBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(385))),
     CHAMPIONS_BOW(new ChampionsBowItem(new FabricItemSettings().group(WHGroups.WH_RELICS).maxDamage(578))),
     AMETHYST_LEVELED_BOW(new AmethystLeveledBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(578))),
     BRASIUM_COMPOUND_BOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
-    BRASIUM_CROSSBOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
+    MINING_DRILL(new PickaxeItem(WHToolMaterials.BRASIUM, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),
+    //BRASIUM_CROSSBOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
 
     //wardens roar
     //WARDENS_ROAR(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),

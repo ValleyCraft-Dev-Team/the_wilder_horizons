@@ -72,7 +72,7 @@ public enum WHArmors implements ItemEnum {
     // divine
     FRIENDLY_MASK(new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
     GOLDEN_CROWN(new ArmorItem(WHArmorMaterials.GOLDEN_CROWN, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.EPIC))),
-    BRASIUM_PAULDRONS(new ArmorItem(WHArmorMaterials.BRASIUM_PAULDRONS, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.UNCOMMON))),
+    //BRASIUM_PAULDRONS(new ArmorItem(WHArmorMaterials.BRASIUM_PAULDRONS, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.UNCOMMON))),
     MINING_HELMET(new ArmorItem(WHArmorMaterials.MINING_HELMET, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.UNCOMMON))),
     HEADSCARF(new ArmorItem(WHArmorMaterials.HEADSCARF, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.UNCOMMON))),
 
