@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/block_items/wattle_ladder"
+    "layer0": "wilder_horizons:block/wattle_ladder"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "wilder_horizons:block/gold_leaf_maple_stage_2"
+  }
+}

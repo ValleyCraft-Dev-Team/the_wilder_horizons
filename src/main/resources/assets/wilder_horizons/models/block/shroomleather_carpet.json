@@ -1,0 +1,6 @@
+{
+  "parent": "block/carpet",
+  "textures": {
+    "wool": "wilder_horizons:block/shroomleather_block"
+  }
+}

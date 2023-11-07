@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/gold_leaf_maple_door"
+    "layer0": "wilder_horizons:item/doors/gold_leaf_maple_door"
   }
 }

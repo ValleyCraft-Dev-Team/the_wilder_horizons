@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wilder_horizons:item/doors/brimstone_glass_door"
+  }
+}
