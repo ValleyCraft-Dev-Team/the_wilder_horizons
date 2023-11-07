@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "wilder_horizons:item/doors/tinted_glass_door"
+    "layer0": "wilder_horizons:block/gold_leaf_maple_lattice"
   }
 }

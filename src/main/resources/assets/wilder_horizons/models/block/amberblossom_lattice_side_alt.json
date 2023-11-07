@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_glass_pane_side_alt",
-  "textures": {
-    "edge": "wilder_horizons:block/amberblossom_lattice_top",
-    "pane": "wilder_horizons:block/amberblossom_lattice"
-  }
-}

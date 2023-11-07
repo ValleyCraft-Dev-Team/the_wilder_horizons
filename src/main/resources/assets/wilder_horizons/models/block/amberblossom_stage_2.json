@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "wilder_horizons:block/amberblossom_stage_2"
-  }
-}

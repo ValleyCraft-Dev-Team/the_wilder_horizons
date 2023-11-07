@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_glass_pane_noside_alt",
   "textures": {
-    "pane": "wilder_horizons:block/amberblossom_lattice"
+    "pane": "wilder_horizons:block/gold_leaf_maple_lattice"
   }
 }
