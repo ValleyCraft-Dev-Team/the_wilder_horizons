@@ -234,6 +234,18 @@ public class CustomTradeRegistryWanderingTrader {
                             new ItemStack(Items.EMERALD, 1),
                             new ItemStack(WHMiscItems.BOBBING_LURE, 1),
                             16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 1),
+                            new ItemStack(Items.COCOA_BEANS, 3),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 1),
+                            new ItemStack(Items.BAMBOO, 3),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 1),
+                            new ItemStack(Items.MILK_BUCKET, 1),
+                            16, 2, 0.05f)));
                 });
     }
 }

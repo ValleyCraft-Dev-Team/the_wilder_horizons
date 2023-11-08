@@ -1,7 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "wilder_horizons:block/conduit_dead"
+		"0": "wilder_horizons:block/conduit_dead",
+		"particle": "wilder_horizons:block/conduit_dead"
+
 	},
 	"elements": [
 		{
@@ -41,8 +43,7 @@
 			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"scale": [0.625, 0.625, 0.625]
+			"rotation": [30, 225, 0]
 		},
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]

@@ -185,7 +185,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     //PINK_SLIME_BLOCK(new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)), itemSettings()),
     CAUTION_STRIPES(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).sounds(BlockSoundGroup.STONE)), itemSettings()),
-    CAUTION_STRIPES_GLOWING(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).luminance(s->8).sounds(BlockSoundGroup.STONE)), itemSettings()),
+    CAUTION_STRIPES_GLOWING(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).luminance(s->12).sounds(BlockSoundGroup.STONE)), itemSettings()),
 
     //guidestones
     //GUIDESTONE_BLANK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),
@@ -237,7 +237,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     BLOCK_WATTLE_AND_GLASS_PLUS(new GlassBlock(Block.Settings.copy(net.minecraft.block.Blocks.GLASS)), itemSettings()), // block_wattle_and_glass_plus
     BLOCK_WATTLE_AND_GLASS_PLUS_PANE(new PaneBlock(Block.Settings.copy(net.minecraft.block.Blocks.GLASS_PANE)), itemSettings()),
 
-
+    SOLID_OAK_DOOR(new DoorBlock(Block.Settings.copy(Blocks.OAK_DOOR)), itemSettings()),
     WATTLE_DOOR(new DoorBlock(Block.Settings.copy(Blocks.OAK_DOOR)), itemSettings()),
     WATTLE_TRAPDOOR(new TrapdoorBlock(Block.Settings.copy(Blocks.OAK_TRAPDOOR)), itemSettings()),
     WATTLE_BARS(new PaneBlock(Block.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()), itemSettings()),
@@ -652,9 +652,9 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     MARBLE_BRICK_WALL(new WallBlock(Block.Settings.copy(Blocks.CALCITE)), itemSettings()),
 
     MARBLE_PILLAR(new PillarBlock(Block.Settings.copy(Blocks.CALCITE).sounds(BlockSoundGroup.CALCITE)), itemSettings()),
-    MARBLE_CHISELED(new Block(Block.Settings.copy(Blocks.CALCITE).sounds(BlockSoundGroup.CALCITE)), itemSettings()),
+    //MARBLE_CHISELED(new Block(Block.Settings.copy(Blocks.CALCITE).sounds(BlockSoundGroup.CALCITE)), itemSettings()),
     MARBLE_CHISELED_FACE(new Block(Block.Settings.copy(Blocks.CALCITE).sounds(BlockSoundGroup.CALCITE)), itemSettings()),
-    MARBLE_PATTERNED(new Block(Block.Settings.copy(Blocks.CALCITE).sounds(BlockSoundGroup.CALCITE)), itemSettings()),
+    //MARBLE_PATTERNED(new Block(Block.Settings.copy(Blocks.CALCITE).sounds(BlockSoundGroup.CALCITE)), itemSettings()),
     MARBLE_AIR(new Block(Block.Settings.copy(Blocks.CALCITE).sounds(BlockSoundGroup.CALCITE)), itemSettings()),
 
     //POLISHED_JASPER(new WarmBlock(Block.Settings.copy(Blocks.DIORITE).ticksRandomly().slipperiness(0.6f)), itemSettings()),

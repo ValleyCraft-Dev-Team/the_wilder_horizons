@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "top": "wilder_horizons:block/ghost_pumpkin_top",
-    "front": "wilder_horizons:block/ghost_jack_o_lantern",
-    "side": "wilder_horizons:block/ghost_pumpkin_side"
-  }
-}

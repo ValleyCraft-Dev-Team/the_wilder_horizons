@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "wilder_horizons:block/sky_lantern"
+    "all": "wilder_horizons:block/earth_lantern"
   }
 }

@@ -2,7 +2,7 @@
     "parent": "minecraft:block/iron_bars_post_ends",
     "ambientocclusion": false,
     "textures": {
-        "particle": "wilder_horizons:block/link",
-        "edge": "wilder_horizons:block/link"
+        "particle": "wilder_horizons:block/link_fence",
+        "edge": "wilder_horizons:block/link_fence"
     }
 }

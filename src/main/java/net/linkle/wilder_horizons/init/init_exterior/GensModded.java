@@ -52,8 +52,8 @@ public class GensModded {
         BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.FOREST, ConventionalBiomeTags.PLAINS), vegetal, placed.getKey().get());
         
         placed = registerPlant(createConfig("foxtail_fern", 60, WHNature.FOXTAIL_FERN), 20);
-        BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.TAIGA), vegetal, placed.getKey().get());
-        
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA, BiomeKeys.OLD_GROWTH_PINE_TAIGA, BiomeKeys.FOREST, BiomeKeys.DARK_FOREST, BiomeKeys.OLD_GROWTH_BIRCH_FOREST), vegetal, placed.getKey().get());
+
         placed = registerPlant(createConfig("jungle_bush", 60, WHNature.JUNGLE_BUSH), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.JUNGLE), vegetal, placed.getKey().get());
         

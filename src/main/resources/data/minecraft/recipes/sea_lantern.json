@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "PLP",
+    "#P#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "L": {
+      "item": "wilder_horizons:jelly_blob"
+    }
+  },
+  "result": {
+    "item": "minecraft:sea_lantern",
+    "count": 1
+  }
+}

@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_column",
   "textures": {
     "end": "wilder_horizons:block/gold_leaf_maple_stripped_log_top",
-    "side": "wilder_horizons:block/bracketed_gold_leaf_maple_stripped_log"
+    "side": "wilder_horizons:block/bracketed_stripped_goldleaf_maple_log"
   }
 }

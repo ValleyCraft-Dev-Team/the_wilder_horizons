@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "PLP",
+    "#P#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "L": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:sky_lantern",
+    "count": 1
+  }
+}
