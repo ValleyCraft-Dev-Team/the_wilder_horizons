@@ -37,6 +37,8 @@ public class RenderLayers {
         put(GLOW_BERRY_LANTERN, cullout);
         put(TINTED_GLASS_DOOR, translucent);
         put(TINTED_GLASS_TRAPDOOR, translucent);
+        put(BRIMSTONE_GLASS_DOOR, translucent);
+        put(BRIMSTONE_GLASS_TRAPDOOR, translucent);
         //put(PINK_SLIME_BLOCK, translucent);
         //put(PRIMSTEEL_DOOR, cullout);
         //put(PRIMSTEEL_TRAPDOOR, cullout);
@@ -215,7 +217,7 @@ public class RenderLayers {
         put(DRIPSTONE_ROCKS, cullout);
         put(SHALE_ROCKS, cullout);
         put(DEEPSLATE_ROCKS, cullout);
-        put(ERDCOBBLESTONE_ROCKS, cullout);
+        //put(ERDCOBBLESTONE_ROCKS, cullout);
 
         put(COAL_ORE_ROCKS, cullout);
         //put(RAW_PRIMSTEEL_ORE_ROCKS, cullout);
@@ -292,6 +294,7 @@ public class RenderLayers {
         put(ARID_VINES, cullout);
         put(ARID_VINES_PLANT, cullout);
         put(MIMIC_FLOWER, cullout);
+        put(IRON_CHAIN_LINK_FENCE, cullout);
 
         // lattices
         put(ACACIA_LATTICE, cullout);
@@ -351,7 +354,7 @@ public class RenderLayers {
         //put(GREEN_CLAY_POT, cullout);
         //put(PURPLE_CLAY_POT, cullout);
         put(ROUNDED_CLAY_POT, cullout);
-        put(ROUNDED_BLUE_CLAY_POT, cullout);
+        //put(ROUNDED_BLUE_CLAY_POT, cullout);
 
         put(SLUDGE_FLUID, translucent);
 
@@ -455,8 +458,8 @@ public class RenderLayers {
         put(STONE_BRICK_CHIMNEY, cullout);
         put(BRICK_CHIMNEY, cullout);
         put(MUD_BRICK_CHIMNEY, cullout);
-        put(ERDCOBBLESTONE_CHIMNEY, cullout);
-        put(ERDSTONE_BRICK_CHIMNEY, cullout);
+        //put(ERDCOBBLESTONE_CHIMNEY, cullout);
+        //put(ERDSTONE_BRICK_CHIMNEY, cullout);
         put(SANDSTONE_CHIMNEY, cullout);
         put(RED_SANDSTONE_CHIMNEY, cullout);
         put(CARMINE_COBBLESTONE_CHIMNEY, cullout);

@@ -184,8 +184,8 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     NAUTILUS_SHELL_BLOCK(new NautilusShellBlock(), itemSettings()),
 
     //PINK_SLIME_BLOCK(new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK)), itemSettings()),
-    CAUTION_STRIPES(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).sounds(BlockSoundGroup.STONE))),
-    CAUTION_STRIPES_GLOWING(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).luminance(s->8).sounds(BlockSoundGroup.STONE))),
+    CAUTION_STRIPES(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).sounds(BlockSoundGroup.STONE)), itemSettings()),
+    CAUTION_STRIPES_GLOWING(new CautionStripesBlock(AbstractBlock.Settings.of(Material.METAL).luminance(s->8).sounds(BlockSoundGroup.STONE)), itemSettings()),
 
     //guidestones
     //GUIDESTONE_BLANK(new GuidestoneBlock(Block.Settings.copy(Blocks.STONE).strength(1, 5).nonOpaque()), itemSettings()),

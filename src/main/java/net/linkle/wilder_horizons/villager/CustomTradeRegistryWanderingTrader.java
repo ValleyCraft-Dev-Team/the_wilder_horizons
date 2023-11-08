@@ -135,7 +135,7 @@ public class CustomTradeRegistryWanderingTrader {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 4),
-                            new ItemStack(WHTools.LONGBOW, 1),
+                            new ItemStack(WHTools.CHAMPIONS_BOW, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 4),

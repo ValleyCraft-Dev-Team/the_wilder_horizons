@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/iron_bars_post",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "wilder_horizons:block/link_fence",
+        "bars": "wilder_horizons:block/link_fence"
+    }
+}
