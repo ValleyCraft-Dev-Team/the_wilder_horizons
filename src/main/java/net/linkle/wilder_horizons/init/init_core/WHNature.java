@@ -1,35 +1,33 @@
 package net.linkle.wilder_horizons.init.init_core;
 
-import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.*;
-import static net.linkle.wilder_horizons.util.PlantBlockSettings.*;
-import static net.linkle.wilder_horizons.util.PlantGroundPredicates.*;
-import static net.linkle.wilder_horizons.util.PlantVoxelShapes.*;
-
-import java.util.Locale;
-import java.util.function.BiFunction;
-
-import net.linkle.wilder_horizons.block.SkullBlock;
-import net.linkle.wilder_horizons.init.init_core.WHFluids;
-import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
-import net.minecraft.util.math.intprovider.UniformIntProvider;
-import org.jetbrains.annotations.Nullable;
-
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.linkle.wilder_horizons.Main;
+import net.linkle.wilder_horizons.block.SkullBlock;
 import net.linkle.wilder_horizons.block.*;
 import net.linkle.wilder_horizons.block.sapling.AmberSaplingGen;
 import net.linkle.wilder_horizons.block.sapling.AppleSaplingGen;
 import net.linkle.wilder_horizons.block.sapling.WarmBirchSaplingGen;
 import net.linkle.wilder_horizons.enums.BlockEnum;
 import net.linkle.wilder_horizons.enums.ItemEnum;
+import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
 import net.minecraft.block.*;
 import net.minecraft.item.*;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.tag.BlockTags;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.Locale;
+import java.util.function.BiFunction;
+
+import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.*;
+import static net.linkle.wilder_horizons.util.PlantBlockSettings.*;
+import static net.linkle.wilder_horizons.util.PlantGroundPredicates.*;
+import static net.linkle.wilder_horizons.util.PlantVoxelShapes.*;
 
 public enum WHNature implements ItemEnum, BlockEnum {
     CHOCOLATE_CAKE(new ModCakeBlock(Block.Settings.copy(Blocks.CAKE)), foodBlockSettings()),
@@ -199,6 +197,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     //CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.STONE).resistance(1200).hardness(52f)), itemSettings()),
 
     DRY_DIRT(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
+    MINERAL_RICH_DEBRIS(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     FINE_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     SANDY_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     MINERAL_RICH_SAND(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
@@ -222,6 +221,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     RAW_IRON_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
     RAW_GOLD_ORE_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
 
+    BRIMSTONE_CRYSTAL(new BrimstoneCrystalClusterBlock(7,3, FabricBlockSettings.copyOf(Blocks.AMETHYST_CLUSTER).nonOpaque().luminance(s -> 12)), itemSettings()),
     REDSTONE_CRYSTAL(new RedstoneCrystalBlock(), itemSettings().group(WH_NATURE)),
 
     NETHERACK_ROCKS(new RockBlock(), itemSettings().group(WH_NATURE)),
@@ -237,6 +237,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     SALT_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
     MIXED_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
     SALTPETER_ORE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemSettings()),
+    LIVING_STONE(new OreBlock(Block.Settings.copy(Blocks.COAL_ORE).requiresTool(), UniformIntProvider.create(6, 12)), itemSettings()),
     ANCIENT_IRON_DEBRIS(new OreBlock(Block.Settings.copy(Blocks.IRON_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemRelicSettings()),
     ANCIENT_GOLD_DEBRIS(new OreBlock(Block.Settings.copy(Blocks.GOLD_ORE).requiresTool(), UniformIntProvider.create(2, 6)), itemRelicSettings()),
 
@@ -266,10 +267,10 @@ public enum WHNature implements ItemEnum, BlockEnum {
 
     //nether blocks
     NETHER_SAND(new FallingBlock(Block.Settings.copy(Blocks.SAND)), itemSettings()),
-    BRIMSTONE_CRYSTAL(new BrimstoneCrystalClusterBlock(7,3, FabricBlockSettings.copyOf(Blocks.AMETHYST_CLUSTER).nonOpaque().luminance(s -> 8)), itemSettings()),
     NETHER_SALT_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_COAL_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     NETHER_NETHERITE_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
+    NETHER_PIG_IRON_ORE(new OreBlock(Block.Settings.copy(Blocks.NETHER_QUARTZ_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
 
     //soul blocks
     FADED_SOUL_ROSE(new FadedSoulRoseBlock(SoulPlantBlock.settings(0)), itemSettings()),
@@ -292,8 +293,9 @@ public enum WHNature implements ItemEnum, BlockEnum {
     ENDERMAN_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.UNCOMMON)),
     DAERDRI_SKULL(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemRelicSettings().rarity(Rarity.RARE)),
     //DEAD_IRON_GOLEM(new HorizontalBlock(Block.Settings.copy(Blocks.IRON_BLOCK)), itemSettings().rarity(Rarity.RARE)),
-    GIANT_SKULL(new GiantSkullBlock(Block.Settings.copy(Blocks.BONE_BLOCK)), itemRelicSettings()),
-    GIANT_SKULL_LANTERN(new GiantSkullBlock(Block.Settings.copy(Blocks.BONE_BLOCK).luminance(s->10)), itemRelicSettings()),
+    GIANT_SKULL(new CarvedPumpkinBlock(Block.Settings.copy(Blocks.BONE_BLOCK)), itemRelicSettings()),
+    GIANT_SKULL_LANTERN(new CarvedPumpkinBlock(Block.Settings.copy(Blocks.BONE_BLOCK).luminance(s->10)), itemRelicSettings()),
+    BONE_TOOTH(new BrimstoneCrystalClusterBlock(7,3, FabricBlockSettings.copyOf(Blocks.AMETHYST_CLUSTER).nonOpaque().luminance(s -> 0)), itemRelicSettings()),
 
     //heads
     HEAD_ZOMBIE_ALEX(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),

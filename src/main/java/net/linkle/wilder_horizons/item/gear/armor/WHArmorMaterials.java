@@ -123,10 +123,10 @@ public enum WHArmorMaterials implements ArmorMaterial {
     TURTLE("turtle", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.SCUTE});
     }),
-    UNDYING_TALISMAN("undying_talisman", 25, new int[]{2, 5, 6, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    UNDYING_TALISMAN("undying_talisman", 25, new int[]{0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.TOTEM_OF_UNDYING});
     }),
-    LUCKY_FISHING_HOOK_TALISMAN("lucky_fishing_hook_talisman", 25, new int[]{2, 5, 6, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
+    LUCKY_FISHING_HOOK_TALISMAN("lucky_fishing_hook_talisman", 25, new int[]{0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.LUCKY_HOOK});
     }),
     FROSTED_IRON_TALISMAN("frost_talisman", 25, new int[]{0, 0, 0, 0}, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F, 0.0F, () -> {
