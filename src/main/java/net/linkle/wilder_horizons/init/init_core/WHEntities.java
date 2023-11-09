@@ -18,7 +18,6 @@ import net.linkle.wilder_horizons.entity.fish.*;
 import net.linkle.wilder_horizons.entity.projectiles.GlowBallEntity;
 import net.linkle.wilder_horizons.entity.projectiles.ThrownRockEntity;
 import net.linkle.wilder_horizons.entity.pupkins.PupkinEntity;
-import net.linkle.wilder_horizons.entity.slimes.TameableSlimeEntity;
 import net.linkle.wilder_horizons.entity.snails.CaveSnailEntity;
 import net.linkle.wilder_horizons.entity.snails.SnailEntity;
 import net.linkle.wilder_horizons.enums.EntityEnum;
@@ -103,12 +102,19 @@ public enum WHEntities implements EntityEnum {
 
     CROW(createMob(SpawnGroup.CREATURE, CrowEntity::new).dimensions(EntityDimensions.fixed(0.5f, 0.9f)).trackRangeChunks(8).spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, CrowEntity::canSpawn)),
 
-    FRIENDLY_ENDERMAN(EntityEnum.createMob(SpawnGroup.CREATURE, FriendlyEndermanEntity::new).dimensions(EntityDimensions.fixed(0.6f, 2.9f)).trackRangeChunks(8)); // .setDimensions(0.6F, 2.9F).maxTrackingRange(8)
+    FRIENDLY_ENDERMAN(EntityEnum.createMob(SpawnGroup.CREATURE, FriendlyEndermanEntity::new).dimensions(EntityDimensions.fixed(0.6f, 2.9f)).trackRangeChunks(8)), // .setDimensions(0.6F, 2.9F).maxTrackingRange(8)
+
+    ZOMBIFIED_PIG(EntityEnum.createMob(SpawnGroup.MONSTER, ZombifiedPigEntity::new).dimensions(EntityDimensions.fixed(0.9f, 0.9f)).trackRangeChunks(8)),
+
+    CAVE_SLIME(EntityEnum.createMob(SpawnGroup.MONSTER, CaveSlimeEntity::new).dimensions(EntityDimensions.changing(2.04f, 2.04f)).trackRangeChunks(10));
 
     public static void initialize() {
         registerAttribute(SNAIL, SnailEntity.createSnailAttributes());
         registerAttribute(CAVE_SNAIL, CaveSnailEntity.createSnailAttributes());
         //registerAttribute(SCULK_SNAIL, SculkSnailEntity.createSnailAttributes());
+
+        registerAttribute(ZOMBIFIED_PIG, ZombifiedPigEntity.createZombifiedPigAttributes());
+        registerAttribute(CAVE_SLIME, CaveSlimeEntity.createCaveSlimeAttributes());
         
         registerAttribute(PUPKIN, PupkinEntity.createPupkinAttributes());
         registerAttribute(DAIRY_COW, DairyCowEntity.createCowAttributes());
@@ -142,6 +148,9 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(SNAIL, SnailEntityRenderer.create("snail"));
         registerRenderer(CAVE_SNAIL, SnailEntityRenderer.create("cave_snail"));
         //registerRenderer(SCULK_SNAIL, SnailEntityRenderer.create("sculk_snail"));
+
+        registerRenderer(ZOMBIFIED_PIG, PigRenderer.create("zombified_pig"));
+        registerRenderer(CAVE_SLIME, SlimeRenderer.create("cave_slime"));
 
         // Friendly Slime WIP
         //registerRenderer(FRIENDLY_SLIME, TameableSlimeEntityRenderer.create("friendly_slime"));

@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class CowRenderer extends CowEntityRenderer {
 
     private final Identifier texture;
-    
+
     public CowRenderer(Context context, Identifier texture) {
         super(context);
         this.texture = texture;
@@ -23,7 +23,7 @@ public class CowRenderer extends CowEntityRenderer {
     public Identifier getTexture(CowEntity entity) {
         return texture;
     }
-    
+
     /** @param texture file name of the cow texture. */
     public static EntityRendererFactory<CowEntity> create(String texture) {
         var id = Main.makeId("textures/entity/cows/" + texture + ".png");
