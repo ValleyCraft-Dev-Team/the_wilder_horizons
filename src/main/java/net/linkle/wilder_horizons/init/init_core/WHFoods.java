@@ -1,13 +1,9 @@
 package net.linkle.wilder_horizons.init.init_core;
 
-import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_FOOD;
-import static net.minecraft.util.Rarity.EPIC;
-
 import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.enums.ItemEnum;
 import net.linkle.wilder_horizons.interfaces.Nourishment;
 import net.linkle.wilder_horizons.item.*;
-import net.linkle.wilder_horizons.util.FoodStatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -15,6 +11,9 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
+
+import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_FOOD;
+import static net.minecraft.util.Rarity.EPIC;
 
 public enum WHFoods implements ItemEnum {
 
@@ -43,7 +42,7 @@ public enum WHFoods implements ItemEnum {
     COOKED_SARDINE(new FoodItem(settings(), 3, Nourishment.GOOD)),
     COOKED_RED_PORGY(new FoodItem(settings(), 4, Nourishment.GOOD)),
     COOKED_PERCH(new FoodItem(settings(), 4, Nourishment.GOOD)),
-    COOKED_GOLDFIN(new FoodItem(settings(), 2, Nourishment.POOR)),
+    //COOKED_GOLDFIN(new FoodItem(settings(), 2, Nourishment.POOR)),
     COOKED_TRANSLUCENT_LIONFISH(new FoodItem(settings(), 4, Nourishment.EXCELLENT)),
 
     COOKED_CLAM(new FoodItem(settings(), 4, Nourishment.NORMAL)),
@@ -111,7 +110,7 @@ public enum WHFoods implements ItemEnum {
     SLIME_SOUP(new BowlItem(settings().maxCount(1), 5, Nourishment.NORMAL)),
     BEEF_STEW(new BowlItem(settings().maxCount(1), 10, Nourishment.NORMAL)),
     KELP_SALAD(new BowlItem(settings().maxCount(1), 5, Nourishment.LOW)),
-    BEETROOT_REDUCTION(new FoodItem(settings(), 5, Nourishment.NORMAL)),
+    //BEETROOT_REDUCTION(new FoodItem(settings(), 5, Nourishment.NORMAL)),
     CHEESE_SLICE(new FoodItem(settings(), 2, Nourishment.POOR)),
     //BROWN_MUSHROOM_SALAD(new BowlItem(settings().maxCount(1), 4, Nourishment.NORMAL)),
     //ORANGE_MUSHROOM_SALAD(new BowlItem(settings().maxCount(1), 4, Nourishment.NORMAL)),

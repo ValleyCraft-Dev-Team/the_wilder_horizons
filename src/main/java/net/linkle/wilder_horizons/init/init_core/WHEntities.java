@@ -92,7 +92,7 @@ public enum WHEntities implements EntityEnum {
     
     RED_PORGY(createMob(SpawnGroup.WATER_CREATURE, RedPorgyEntity::new).trackRangeChunks(5).dimensions(EntityDimensions.fixed(0.5f, 0.3f))
             .spawnRestriction(SpawnRestriction.Location.IN_WATER, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, RedPorgyEntity::canSpawn).trackRangeChunks(5)),
-    
+
     PERCH(createMob(SpawnGroup.WATER_CREATURE, PerchEntity::new).trackRangeChunks(5).dimensions(EntityDimensions.fixed(0.5f, 0.3f))
             .spawnRestriction(SpawnRestriction.Location.IN_WATER, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, PerchEntity::canSpawn)),
     
@@ -171,7 +171,7 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(PERCH, CodEntityRenderer.create("perch"));
         registerRenderer(RED_PORGY, CodEntityRenderer.create("red_porgy"));
         registerRenderer(SARDINE, CodEntityRenderer.create("sardine"));
-        
+
         registerRenderer(THROWN_ROCK, FlyingItemEntityRenderer::new);
         registerRenderer(GLOW_BALL, FlyingItemEntityRenderer::new);
         registerRenderer(FRIENDLY_ENDERMAN, FriendlyEndermanRenderer::new);

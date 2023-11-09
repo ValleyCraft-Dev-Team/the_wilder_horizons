@@ -154,7 +154,7 @@ public enum WHMiscItems implements ItemEnum {
     BOTTLE_OF_ALLAY(new SpawnEggItem(EntityType.ALLAY,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
     WITCH_SCROLL_CAT(new SpawnEggItem(EntityType.CAT,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
     SCROLL_CHICKEN(new SpawnEggItem(EntityType.CHICKEN,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
-    VINDICATOR_SCROLL_VEX(new SpawnEggItem(EntityType.VEX,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
+    EVOKER_SCROLL_VEX(new SpawnEggItem(EntityType.VEX,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
     BOTTLE_OF_INK(new AlphaModItem(settings())),
     QUILL(new AlphaModItem(settings())),
     EMPTY_BOOK(new AlphaModItem(settings())),
@@ -172,7 +172,7 @@ public enum WHMiscItems implements ItemEnum {
     //NETHER_CORE(new AlphaModItem(settings())),
 
     SHROOMLEATHER(new AlphaModItem(settings())),
-    DRIED_SHROOMLEATHER(new AlphaModItem(settings())),
+    //DRIED_SHROOMLEATHER(new AlphaModItem(settings())),
     //TREATED_LEATHER = registerItem("treated_leather",
     //        new AlphaModItem(settings())),
     TREATED_LEATHER_STRAP(new AlphaModItem(settings())),

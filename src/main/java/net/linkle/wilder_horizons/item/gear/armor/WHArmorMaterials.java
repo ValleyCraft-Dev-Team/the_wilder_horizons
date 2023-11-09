@@ -79,31 +79,31 @@ public enum WHArmorMaterials implements ArmorMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
     }),
     ALLAGER_DESERT("villager_desert", 10, new int[]{2, 2, 2, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
+        return Ingredient.ofItems(new ItemConvertible[]{});
     }),
     ALLAGER_PLAINS("villager_plains", 10, new int[]{2, 2, 2, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
+        return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     }),
     ALLAGER_SAVANNA("villager_savanna", 10, new int[]{2, 2, 2, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
     }),
     ALLAGER_SNOW("villager_snow", 10, new int[]{2, 2, 2, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
+        return Ingredient.ofItems(new ItemConvertible[]{Items.RABBIT_HIDE});
     }),
     ALLAGER_TAIGA("villager_taiga", 10, new int[]{2, 2, 2, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
+        return Ingredient.ofItems(new ItemConvertible[]{});
     }),
     MINING_HELMET("mining_helmet", 10, new int[]{3, 3, 3, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.DRIED_SHROOMLEATHER});
+        return Ingredient.ofItems(new ItemConvertible[]{Items.LEATHER});
     }),
     SHROOMLEATHER_GARMENTS_NEUTRAL("neutral", 10, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SHROOMLEATHER});
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
     }),
     SHROOMLEATHER_GARMENTS_FEMME("femme", 10, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SHROOMLEATHER});
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
     }),
     SHROOMLEATHER_GARMENTS_MASC("masc", 10, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.SHROOMLEATHER});
+        return Ingredient.ofItems(new ItemConvertible[]{WHMiscItems.CLOTH});
     }),
     PIGLIN_GARMENTS("piglin_small_garments", 10, new int[]{1, 1, 1, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.LEATHER});
@@ -133,7 +133,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT});
     }),
     BLUE_CLAM_SHELL_BREASTPLATE("blue_breastplate", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{Items.SCUTE});
+        return Ingredient.ofItems(new ItemConvertible[]{});
     }),
     //GRASS_DRESS("grass_dress", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
     //    return Ingredient.ofItems(new ItemConvertible[]{Blocks.GRASS});
@@ -151,7 +151,7 @@ public enum WHArmorMaterials implements ArmorMaterial {
         return Ingredient.ofItems(new ItemConvertible[]{Blocks.VINE});
     }),
     FRIENDLY_MASK("tree_god_mask", 15, new int[]{1, 2, 3, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.2F, 0.1F, () -> {
-        return Ingredient.ofItems(new ItemConvertible[]{Blocks.OAK_LOG});
+        return Ingredient.ofItems(new ItemConvertible[]{});
     }),
     NIGHT_VISION_GOGGLES("night_vision_goggles", 25, new int[]{2, 2, 2, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{Items.ECHO_SHARD});

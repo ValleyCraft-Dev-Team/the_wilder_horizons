@@ -64,7 +64,7 @@ public class WHLootTables {
         
         // allay
         builder = LootBuilder.create().rolls(1);
-        lifeGem(builder, 0.25f);
+        lifeGemPowder(builder, 0.25f);
         LootTableHelper.appendLoot(EntityType.ALLAY.getLootTableId(), builder);
         
         // bat
@@ -74,7 +74,17 @@ public class WHLootTables {
             .apply(FurnaceSmeltLootFunction.builder().conditionally(EntityPropertiesLootCondition.builder(EntityTarget.THIS, NEEDS_ENTITY_ON_FIRE)))
         );
         LootTableHelper.appendLoot(EntityType.BAT.getLootTableId(), builder);
-        
+
+        // slime
+        builder = LootBuilder.create().rolls(1);
+        builder.with(ItemEntry.builder(WHMiscItems.SLIME_SPORE).conditionally(RandomChanceLootCondition.builder(0.09f))
+        );
+        LootTableHelper.appendLoot(EntityType.SLIME.getLootTableId(), builder);
+
+        builder = LootBuilder.create().rolls(1);
+        lifeGem(builder, 0.15f);
+        LootTableHelper.appendLoot(EntityType.SLIME.getLootTableId(), builder);
+
         // blaze
         builder = LootBuilder.create().rolls(1);
         lifeGem(builder, 0.15f);
@@ -107,7 +117,7 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.IRON_FEATHER)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
             .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
-            .conditionally(RandomChanceLootCondition.builder(0.25f))
+            .conditionally(RandomChanceLootCondition.builder(0.1f))
         );
         LootTableHelper.appendLoot(EntityType.CHICKEN.getLootTableId(), builder);
         
@@ -134,7 +144,13 @@ public class WHLootTables {
         builder.conditionally(KilledByPlayerLootCondition.builder());
         builder.conditionally(RandomChanceWithLootingLootCondition.builder(0.075f, 0.01f));
         LootTableHelper.appendLoot(EntityType.CREEPER.getLootTableId(), builder);
-        
+
+        builder = LootBuilder.create().rolls(1);
+        builder.with(ItemEntry.builder(Items.MOSS_BLOCK)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        LootTableHelper.appendLoot(EntityType.CREEPER.getLootTableId(), builder);
+
         // cow
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);
@@ -160,9 +176,31 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         monster(builder);
+        builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_HEART).weight(5)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+        );
+        builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_GUTS).weight(8)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1), false))
+        );
+        builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_LIVER).weight(5)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+        );
         builder.with(ItemEntry.builder(Items.SEAGRASS).weight(5)
-            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(2), false))
-            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+                .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(Items.BONE).weight(5));
+        builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(8)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.ANCIENT_BOOTS).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         bones(builder);
         LootTableHelper.appendLoot(EntityType.DROWNED.getLootTableId(), builder);
@@ -184,10 +222,17 @@ public class WHLootTables {
         LootTableHelper.appendLoot(EntityType.DROWNED.getLootTableId(), builder);
         
         // elder guardian
-        builder = LootBuilder.create().rolls(1);
-        lifeGem(builder, 0.25f);
         LootTableHelper.appendLoot(EntityType.ELDER_GUARDIAN.getLootTableId(), builder);
-        
+        builder = LootBuilder.create().rolls(1);
+        builder.rolls(1).with(ItemEntry.builder(WHMiscItems.SOUL_OF_AN_ELDER_GUARDIAN)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        LootTableHelper.appendLoot(EntityType.ELDER_GUARDIAN.getLootTableId(), builder);
+
+        builder.with(ItemEntry.builder(WHMiscItems.ELDER_GUARDIAN_SPIKE).weight(3)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 3)))
+        );
+
         // enderman
         builder = LootBuilder.create().rolls(1);
         lifeGem(builder, 0.35f);
@@ -227,6 +272,12 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
+        builder.with(ItemEntry.builder(WHMiscItems.EVOKER_SCROLL_VEX).weight(3)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 3)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.ILLAGER_GARMENTS).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
         builder.with(ItemEntry.builder(Items.BONE).weight(5));
         LootTableHelper.appendLoot(EntityType.EVOKER.getLootTableId(), builder);
         
@@ -253,7 +304,12 @@ public class WHLootTables {
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2, 4), false)) 
         );
         LootTableHelper.appendLoot(EntityType.FROG.getLootTableId(), builder);
-        
+        builder = LootBuilder.create().rolls(1);
+        builder.with(ItemEntry.builder(WHFoodIngredients.RAW_FROG_LEGS)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+        );
+        LootTableHelper.appendLoot(EntityType.FROG.getLootTableId(), builder);
+
         // glow squid
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_GLOWSQUID_TENTACLE)
@@ -321,9 +377,31 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         monster(builder);
+        builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_HEART).weight(5)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+        );
+        builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_GUTS).weight(8)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1), false))
+        );
+        builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_LIVER).weight(5)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+        );
         builder.with(ItemEntry.builder(Items.SAND).weight(5)
-            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
-            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+                .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(Items.BONE).weight(5));
+        builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(8)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.ANCIENT_BOOTS).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.HUSK.getLootTableId(), builder);
         
@@ -347,7 +425,14 @@ public class WHLootTables {
         builder.conditionally(KilledByPlayerLootCondition.builder());
         builder.conditionally(RandomChanceWithLootingLootCondition.builder(0.075f, 0.01f));
         LootTableHelper.appendLoot(EntityType.HUSK.getLootTableId(), builder);
-        
+
+
+        builder = LootBuilder.create().rolls(1);
+        builder.with(ItemEntry.builder(WHMiscItems.CLOTH)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        LootTableHelper.appendLoot(EntityType.HUSK.getLootTableId(), builder);
+
         // illusioner
         builder = LootBuilder.create().rolls(1);
         lifeGem(builder, 0.35f);
@@ -466,8 +551,20 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         bones(builder);
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
+        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(2)
+            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(6)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 3)))
+        );
+        builder.with(ItemEntry.builder(Items.BONE).weight(5)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.PIGLIN_GARMENTS).weight(2)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.PIGLIN_TUNIC).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.PIGLIN_BRUTE.getLootTableId(), builder);
         
@@ -491,8 +588,20 @@ public class WHLootTables {
         
         builder = LootBuilder.create().rolls(1);
         bones(builder);
-        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
+        builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(2)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(6)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 3)))
+        );
+        builder.with(ItemEntry.builder(Items.BONE).weight(5)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.PIGLIN_GARMENTS).weight(2)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.PIGLIN_TUNIC).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.PIGLIN.getLootTableId(), builder);
         
@@ -509,7 +618,7 @@ public class WHLootTables {
             .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
         );
         LootTableHelper.appendLoot(EntityType.PIGLIN.getLootTableId(), builder);
-        
+
         builder = LootBuilder.create().rolls(1);
         builder.with(Items.GOLD_INGOT);
         builder.conditionally(KilledByPlayerLootCondition.builder());
@@ -537,6 +646,15 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(Items.ARROW).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
             .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.ILLAGER_GARMENTS).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.ILLAGER_BOOTS).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.ILLAGER_TUNIC).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.PILLAGER.getLootTableId(), builder);
         
@@ -621,16 +739,21 @@ public class WHLootTables {
         
         // skeleton
         builder = LootBuilder.create().rolls(1);
-        lifeGem(builder, 0.15f);
+        lifeGemFading(builder, 0.15f);
         LootTableHelper.appendLoot(EntityType.SKELETON.getLootTableId(), builder);
         
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(8));
+        builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(10)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 5)))
+        );
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(10)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 5)))
         );
         builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(4)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.RIBCAGE).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.SKELETON.getLootTableId(), builder);
         
@@ -674,22 +797,36 @@ public class WHLootTables {
         
         // stray
         builder = LootBuilder.create().rolls(1);
-        lifeGem(builder, 0.15f);
+        lifeGemFading(builder, 0.15f);
         LootTableHelper.appendLoot(EntityType.STRAY.getLootTableId(), builder);
-        
+
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(8));
+        builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(10)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 5)))
+        );
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(10)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 5)))
         );
         builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(4)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
         );
-        LootTableHelper.appendLoot(EntityType.STRAY.getLootTableId(), builder);
-        
+        builder.with(ItemEntry.builder(WHArmors.RIBCAGE).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.FROSTED_IRON_TALISMAN).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        LootTableHelper.appendLoot(EntityType.SKELETON.getLootTableId(), builder);
+
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHMiscItems.ARROW_BUNDLE).weight(7));
         builder.conditionally(RandomChanceWithLootingLootCondition.builder(0.02f, 0.01f));
+        LootTableHelper.appendLoot(EntityType.STRAY.getLootTableId(), builder);
+
+        builder = LootBuilder.create().rolls(1);
+        builder.with(Items.SKELETON_SKULL);
+        builder.conditionally(KilledByPlayerLootCondition.builder());
+        builder.conditionally(RandomChanceWithLootingLootCondition.builder(0.1f, 0.1f));
         LootTableHelper.appendLoot(EntityType.STRAY.getLootTableId(), builder);
         
         // strider
@@ -721,7 +858,7 @@ public class WHLootTables {
         
         // vex
         builder = LootBuilder.create().rolls(1);
-        lifeGem(builder, 0.25f);
+        lifeGemPowder(builder, 0.15f);
         LootTableHelper.appendLoot(EntityType.VEX.getLootTableId(), builder);
         
         builder = LootBuilder.create().rolls(1);
@@ -754,6 +891,9 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(Items.BONE).weight(5)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1)))   
         );
+        builder.with(ItemEntry.builder(WHArmors.ALLAGER_GARMENTS).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
         LootTableHelper.appendLoot(EntityType.VILLAGER.getLootTableId(), builder);
         
         // vindicator
@@ -769,6 +909,9 @@ public class WHLootTables {
         );
         builder.with(ItemEntry.builder(Items.BONE).weight(5)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1)))   
+        );
+        builder.with(ItemEntry.builder(WHArmors.ILLAGER_GARMENTS).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.VINDICATOR.getLootTableId(), builder);
         
@@ -812,18 +955,24 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         lifeGem(builder, 0.35f);
         LootTableHelper.appendLoot(EntityType.WITCH.getLootTableId(), builder);
-        builder = LootBuilder.create().rolls(1);
+        builder = LootBuilder.create().rolls(2);
         builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
         );
         builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
         );
+        builder.with(ItemEntry.builder(WHMiscItems.WITCH_SCROLL_CAT).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.SCROLL_CHICKEN).weight(3)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 3)))
+        );
         builder.with(ItemEntry.builder(Items.BONE).weight(5)
-            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))   
+            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
         );
         builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(8)
-            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))   
+            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2, 3)))
         );
         LootTableHelper.appendLoot(EntityType.WITCH.getLootTableId(), builder);
         
@@ -858,20 +1007,29 @@ public class WHLootTables {
         
         // wither skeleton
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(WHMiscItems.COAL_NUGGET).weight(5)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
-            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+        builder.with(ItemEntry.builder(WHMiscItems.COAL_NUGGET).weight(4)
+            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
         );
-        builder.with(ItemEntry.builder(WHMiscItems.COAL_NUGGET).weight(1)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
-            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+        builder.with(ItemEntry.builder(WHMiscItems.SMALL_WITHER_BONE).weight(6)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+                .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.WITHER_BONE).weight(8)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.WITHER_SKULL_SHARD).weight(3)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.WITHER_RIBCAGE).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.WITHER_SKELETON.getLootTableId(), builder);
         
         // wither
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(WHMiscItems.SOUL_GEM)
-            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(3)))
+        builder.with(ItemEntry.builder(WHMiscItems.SOUL_OF_A_WITHER)
+            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.WITHER.getLootTableId(), builder);
         
@@ -970,15 +1128,6 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_LIVER).weight(5)
             .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
         );
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_LIVER).weight(3)
-        //    .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
-        //);
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_HEART).weight(3)
-        //    .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
-        //);
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_GUTS).weight(5)
-        //    .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1), false))
-        //);
         builder.with(ItemEntry.builder(Items.DIRT).weight(5)
             .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
             .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
@@ -1023,15 +1172,6 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_LIVER).weight(5)
             .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
         );
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_LIVER).weight(3)
-        //    .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
-        //);
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_HEART).weight(3)
-        //    .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
-        //);
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_GUTS).weight(5)
-        //    .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1), false))
-        //);
         builder.with(ItemEntry.builder(Items.DIRT).weight(5)
             .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
             .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
@@ -1045,6 +1185,9 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(Items.BONE).weight(5));
         builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
+        );
+        builder.with(ItemEntry.builder(WHArmors.ANCIENT_BOOTS).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         
         builder = LootBuilder.create().rolls(1);
@@ -1101,6 +1244,12 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(8)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
         );
+        builder.with(ItemEntry.builder(WHArmors.PIGLIN_GARMENTS).weight(2)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
+        builder.with(ItemEntry.builder(WHArmors.PIGLIN_TUNIC).weight(1)
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
+        );
         LootTableHelper.appendLoot(EntityType.ZOMBIFIED_PIGLIN.getLootTableId(), builder);
         
         builder.with(ItemEntry.builder(WHFoods.NETHER_WART_STIR_FRY));
@@ -1121,14 +1270,13 @@ public class WHLootTables {
         // warden
         LootTableHelper.appendLoot(EntityType.WARDEN.getLootTableId(), builder);
         builder = LootBuilder.create().rolls(1);
-        builder.rolls(1).with(ItemEntry.builder(WHMiscItems.SOUL_GEM)
-            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(3)))
+        builder.rolls(1).with(ItemEntry.builder(WHMiscItems.SOUL_OF_A_WARDEN)
+            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
         LootTableHelper.appendLoot(EntityType.WARDEN.getLootTableId(), builder);
-        
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(WHMiscItems.DRAGON_TOOTH)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        builder.rolls(1).with(ItemEntry.builder(WHMiscItems.BRASIUM_COIN)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 5)))
         );
         
         // ender dragon
@@ -1366,7 +1514,19 @@ public class WHLootTables {
             .conditionally(RandomChanceLootCondition.builder(chance))
         );
     }
-    
+
+    private static void lifeGemFading(LootBuilder builder, float chance) {
+        builder.with(ItemEntry.builder(WHMiscItems.CRACKING_SOUL_GEM)
+                .conditionally(RandomChanceLootCondition.builder(chance))
+        );
+    }
+
+    private static void lifeGemPowder(LootBuilder builder, float chance) {
+        builder.with(ItemEntry.builder(WHMiscItems.SOUL_POWDER)
+                .conditionally(RandomChanceLootCondition.builder(chance))
+        );
+    }
+
     private static void bones(LootBuilder builder) {
         builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(10)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))            
