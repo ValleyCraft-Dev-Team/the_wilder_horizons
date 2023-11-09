@@ -437,6 +437,7 @@ public class RenderLayers {
 
         put(ICE_ORE, translucent);
         put(DEEPSLATE_ICE_ORE, translucent);
+        put(BONE_TOOTH, cullout);
 
         put(DAUB_CHIMNEY, cullout);
         put(SANDSTONE_BRICK_CHIMNEY, cullout);

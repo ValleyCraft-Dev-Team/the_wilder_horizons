@@ -19,7 +19,7 @@ public class FrostedIronTalisman extends ArmorItem {
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         if (slot == EquipmentSlot.CHEST.getEntitySlotId() && entity instanceof LivingEntity living) {
-            living.addStatusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 3 * 20, 0, true, false, true));
+            living.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 3 * 20, 0, true, false, true));
         }
     }
 }

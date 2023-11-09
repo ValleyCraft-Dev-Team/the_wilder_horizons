@@ -5,15 +5,16 @@ import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.enums.ItemEnum;
 import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.linkle.wilder_horizons.item.*;
-import net.minecraft.item.AliasedBlockItem;
-import net.minecraft.item.BucketItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
+import net.minecraft.entity.EntityType;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
+
+import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_MISCELLANEOUS;
+import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_RELICS;
 
 
 public enum WHMiscItems implements ItemEnum {
@@ -73,7 +74,7 @@ public enum WHMiscItems implements ItemEnum {
     WITHER_BONE(new AlphaModItem(settings())),
     WITHER_SKULL_SHARD(new AlphaModItem(settings())),
     JELLY_BLOB(new AlphaModItem(settings())),
-    SLIME_SPORE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    SLIME_SPORE(new SpawnEggItem(EntityType.SLIME,16777215,16777215, (new Item.Settings().group(WH_MISCELLANEOUS).rarity(Rarity.UNCOMMON)))),
     //PINK_SLIME_BALL(new AlphaModItem(settings())),
     GLOW_BALL(new GlowBallItem(settings().group(WHGroups.WH_TOOLS))),
 
@@ -133,6 +134,7 @@ public enum WHMiscItems implements ItemEnum {
     //ROSEGOLD_ALLOY = registerItem("rosegold_alloy",
     //        new AlphaModItem(settings())),
     //BRASIUM_ALLOY(new AlphaModItem(settings())),
+    BRASIUM_COIN(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     ROUGH_EMERALD(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     ENCHANTED_EMERALD(new EnchantedEmeraldItem(settings().rarity(Rarity.UNCOMMON))),
     ROUGH_DIAMOND(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
@@ -149,7 +151,10 @@ public enum WHMiscItems implements ItemEnum {
 
     BOTTLE_OF_GHAST_TEARS(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
     //BOTTLE_OF_LIVING_SLIME(new AlphaModItem(settings().rarity(Rarity.EPIC))),
-    BOTTLE_OF_ALLAY(new AlphaModItem(relicSettings().rarity(Rarity.EPIC))),
+    BOTTLE_OF_ALLAY(new SpawnEggItem(EntityType.ALLAY,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
+    WITCH_SCROLL_CAT(new SpawnEggItem(EntityType.CAT,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
+    SCROLL_CHICKEN(new SpawnEggItem(EntityType.CHICKEN,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
+    VINDICATOR_SCROLL_VEX(new SpawnEggItem(EntityType.VEX,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
     BOTTLE_OF_INK(new AlphaModItem(settings())),
     QUILL(new AlphaModItem(settings())),
     EMPTY_BOOK(new AlphaModItem(settings())),
@@ -182,7 +187,7 @@ public enum WHMiscItems implements ItemEnum {
     }
 
     private static FabricItemSettings relicSettings() {
-        return new FabricItemSettings().group(WHGroups.WH_RELICS);
+        return new FabricItemSettings().group(WH_RELICS);
     }
     
     public static void registerItems() {
