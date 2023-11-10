@@ -74,7 +74,7 @@ public enum WHMiscItems implements ItemEnum {
     WITHER_BONE(new AlphaModItem(settings())),
     WITHER_SKULL_SHARD(new AlphaModItem(settings())),
     JELLY_BLOB(new AlphaModItem(settings())),
-    SLIME_SPORE(new SpawnEggItem(EntityType.SLIME,16777215,16777215, (new Item.Settings().group(WH_MISCELLANEOUS).rarity(Rarity.UNCOMMON)))),
+    SLIME_SPORE(new SummonerItem(()->Items.SLIME_SPAWN_EGG, settings().rarity(Rarity.UNCOMMON))),
     //PINK_SLIME_BALL(new AlphaModItem(settings())),
     GLOW_BALL(new GlowBallItem(settings().group(WHGroups.WH_TOOLS))),
 
@@ -151,10 +151,10 @@ public enum WHMiscItems implements ItemEnum {
 
     BOTTLE_OF_GHAST_TEARS(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
     //BOTTLE_OF_LIVING_SLIME(new AlphaModItem(settings().rarity(Rarity.EPIC))),
-    BOTTLE_OF_ALLAY(new SpawnEggItem(EntityType.ALLAY,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
-    WITCH_SCROLL_CAT(new SpawnEggItem(EntityType.CAT,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
-    SCROLL_CHICKEN(new SpawnEggItem(EntityType.CHICKEN,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
-    EVOKER_SCROLL_VEX(new SpawnEggItem(EntityType.VEX,16777215,16777215, (new Item.Settings().group(WH_RELICS).rarity(Rarity.EPIC)))),
+    BOTTLE_OF_ALLAY(new SummonerItem(()->Items.ALLAY_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
+    WITCH_SCROLL_CAT(new SummonerItem(()->Items.CAT_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
+    SCROLL_CHICKEN(new SummonerItem(()->Items.CHICKEN_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
+    EVOKER_SCROLL_VEX(new SummonerItem(()->Items.VEX_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
     BOTTLE_OF_INK(new AlphaModItem(settings())),
     QUILL(new AlphaModItem(settings())),
     EMPTY_BOOK(new AlphaModItem(settings())),
@@ -180,7 +180,32 @@ public enum WHMiscItems implements ItemEnum {
     //TOTEM_OF_KNOWLEDGE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     //TOTEM_OF_PEACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
 
+    PUPKIN_SPAWN_EGG(new SpawnEggItem(WHEntities.PUPKIN.type(), 0xe38a1d, 0x603607, settings().rarity(Rarity.EPIC))),
+    DAIRY_COW_SPAWN_EGG(new SpawnEggItem(WHEntities.DAIRY_COW.type(), 0xf2f2f2, 0x202020, settings().rarity(Rarity.EPIC))),
+    DUCK_SPAWN_EGG(new SpawnEggItem(WHEntities.DUCK.type(), 0x553100, 0x405821, settings().rarity(Rarity.EPIC))),
+    CHICKEN_SPAWN_EGG(new SpawnEggItem(WHEntities.CHICKEN.type(), 0xf5deab, 0xfd1010, settings().rarity(Rarity.EPIC))),
+    MOSSY_SHEEP_SPAWN_EGG(new SpawnEggItem(WHEntities.MOSSY_SHEEP.type(), 0x71872f, 0x6a5227, settings().rarity(Rarity.EPIC))),
+    COLLIE_SPAWN_EGG(new SpawnEggItem(WHEntities.COLLIE.type(), 0x18181c, 0xe6e6e6, settings().rarity(Rarity.EPIC))),
+    RETRIEVER_SPAWN_EGG(new SpawnEggItem(WHEntities.RETRIEVER.type(), 0xe6d081, 0xb38650, settings().rarity(Rarity.EPIC))),
+    BROWN_BEAR_SPAWN_EGG(new SpawnEggItem(WHEntities.BROWN_BEAR.type(), 0x492f17, 0x301e0e, settings().rarity(Rarity.EPIC))),
+    SNAIL_SPAWN_EGG(new SpawnEggItem(WHEntities.SNAIL.type(), 0x8c7461, 0xd9a757, settings().rarity(Rarity.EPIC))),
+    CAVE_SNAIL_SPAWN_EGG(new SpawnEggItem(WHEntities.CAVE_SNAIL.type(), 0x836356, 0x6b4e4b, settings().rarity(Rarity.EPIC))),
+    BONEFIN_SPAWN_EGG(new SpawnEggItem(WHEntities.BONEFIN.type(), 0xe8e6d8, 0x999173, settings().rarity(Rarity.EPIC))),
+    STONEROLLER_MINNOW_SPAWN_EGG(new SpawnEggItem(WHEntities.STONEROLLER_MINNOW.type(), 0x70a39b, 0xcccccc, settings().rarity(Rarity.EPIC))),
+    ABYSSWATCHER_SPAWN_EGG(new SpawnEggItem(WHEntities.ABYSSWATCHER.type(), 0x08505e, 0x2dedf7, settings().rarity(Rarity.EPIC))),
+    SARDINE_SPAWN_EGG(new SpawnEggItem(WHEntities.SARDINE.type(), 0x2e4359, 0xa1b2cc, settings().rarity(Rarity.EPIC))),
+    PERCH_SPAWN_EGG(new SpawnEggItem(WHEntities.PERCH.type(), 0xb58a1f, 0x523500, settings().rarity(Rarity.EPIC))),
+    RED_PORGY(new SpawnEggItem(WHEntities.RED_PORGY.type(), 0xf689ac, 0xe6dadd, settings().rarity(Rarity.EPIC))),
+    GOLDFISH_SPAWN_EGG(new SpawnEggItem(WHEntities.GOLDFISH.type(), 0xeccb45, 0xb36619, settings().rarity(Rarity.EPIC))),
+    GUARDIAN_SENTRY_SPAWN_EGG(new SpawnEggItem(WHEntities.GUARDIAN_SENTRY.type(), 0xff00ff, 0x000000, settings().rarity(Rarity.EPIC))),
+    CROW_SPAWN_EGG(new SpawnEggItem(WHEntities.CROW.type(), 0x090d12, 0x27272e, settings().rarity(Rarity.EPIC))),
+    SEAGULL_SPAWN_EGG(new SpawnEggItem(WHEntities.SEAGULL.type(), 0xe9eaea, 0x4d5155, settings().rarity(Rarity.EPIC))),
+    ZOMBIFIED_PIG_SPAWN_EGG(new SpawnEggItem(WHEntities.ZOMBIFIED_PIG.type(), 0xea9a99, 0x5c6b28, settings().rarity(Rarity.EPIC))),
+    CAVE_SLIME_SPAWN_EGG(new SpawnEggItem(WHEntities.CAVE_SLIME.type(), 0x494a4c, 0x322d36, settings().rarity(Rarity.EPIC))),
+
     SLUDGE_BUCKET(new BucketItem(WHFluids.SLUDGE_STILL.fluid, settings().maxCount(1).recipeRemainder(Items.BUCKET)));
+
+
 
     private static FabricItemSettings settings() {
         return new FabricItemSettings().group(WHGroups.WH_MISCELLANEOUS);

@@ -4,7 +4,10 @@ import net.linkle.wilder_horizons.environment.gen.feature.TreeConfigs;
 import net.linkle.wilder_horizons.environment.gen.feature.VegetationPlaced;
 import net.linkle.wilder_horizons.environment.sounds.WHSounds;
 import net.linkle.wilder_horizons.init.init_core.*;
+import net.linkle.wilder_horizons.init.init_exterior.WHLootTables;
 import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
+import net.linkle.wilder_horizons.tags.ModBlockTags;
+import net.linkle.wilder_horizons.tags.ModItemTags;
 import net.linkle.wilder_horizons.villager.CustomTradeRegistryModdedVillagers;
 import net.linkle.wilder_horizons.villager.CustomTradeRegistryWanderingTrader;
 import net.linkle.wilder_horizons.villager.ModVillagers;
@@ -43,6 +46,8 @@ public class Main implements ModInitializer {
         TreeConfigs.initialize();
         VegetationPlaced.initialize();
         DungeonRemover.init();
+        ModBlockTags.initialize();
+        ModItemTags.initialize();
     }
 
     public static Identifier makeId(String id) {

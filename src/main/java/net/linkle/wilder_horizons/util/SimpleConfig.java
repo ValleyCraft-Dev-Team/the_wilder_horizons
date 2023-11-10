@@ -139,8 +139,8 @@ public class SimpleConfig {
     }
     
     /** An integer getter with default value. 
-    * @param min - if it below min, use the default value.
-    * @param max - if it above max, use the default value. */
+    * @param min - if it's below min, use the default value.
+    * @param max - if it's above max, use the default value. */
     public int getInt(String key, int defValue, int min, int max) {
         var config = get(key);
         if (config.valueType.isEmpty())
@@ -195,8 +195,8 @@ public class SimpleConfig {
     }
 
     /** A float getter with default value.
-    * @param min - if it below min, use the default value.
-    * @param max - if it above max, use the default value. */
+    * @param min - if it's below min, use the default value.
+    * @param max - if it's above max, use the default value. */
     public float getFloat(String key, double defValue, double min, double max) {
         return (float)getDouble(key, defValue, min, max);
     }
@@ -209,8 +209,8 @@ public class SimpleConfig {
     }
 
     /** A double getter with default value. It can be casted to Float.
-    * @param min - if it below min, use the default value.
-    * @param max - if it above max, use the default value. */
+    * @param min - if it's below min, use the default value.
+    * @param max - if it's above max, use the default value. */
     public double getDouble(String key, double defValue, double min, double max) {
         var config = get(key);
         if (config.valueType.isEmpty())

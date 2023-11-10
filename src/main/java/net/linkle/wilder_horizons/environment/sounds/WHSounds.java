@@ -13,6 +13,7 @@ public enum WHSounds implements IdProvider {
     SPRINKLER,
 
     CROW,
+    SEAGULL,
     
     CURTAIN_OPEN,
     CURTAIN_CLOSE,

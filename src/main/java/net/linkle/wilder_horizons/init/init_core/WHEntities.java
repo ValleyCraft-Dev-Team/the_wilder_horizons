@@ -11,6 +11,7 @@ import net.linkle.wilder_horizons.client.entity.model.snails.SnailEntityModel;
 import net.linkle.wilder_horizons.client.entity.renderer.*;
 import net.linkle.wilder_horizons.client.entity.renderer.fish.CodEntityRenderer;
 import net.linkle.wilder_horizons.client.entity.renderer.fish.SalmonEntityRenderer;
+import net.linkle.wilder_horizons.client.entity.renderer.fish.SmallTropicalFishEntityRenderer;
 import net.linkle.wilder_horizons.client.entity.renderer.pupkins.PupkinEntityRenderer;
 import net.linkle.wilder_horizons.client.entity.renderer.snails.SnailEntityRenderer;
 import net.linkle.wilder_horizons.entity.*;
@@ -92,15 +93,22 @@ public enum WHEntities implements EntityEnum {
     
     RED_PORGY(createMob(SpawnGroup.WATER_CREATURE, RedPorgyEntity::new).trackRangeChunks(5).dimensions(EntityDimensions.fixed(0.5f, 0.3f))
             .spawnRestriction(SpawnRestriction.Location.IN_WATER, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, RedPorgyEntity::canSpawn).trackRangeChunks(5)),
-
+    
     PERCH(createMob(SpawnGroup.WATER_CREATURE, PerchEntity::new).trackRangeChunks(5).dimensions(EntityDimensions.fixed(0.5f, 0.3f))
             .spawnRestriction(SpawnRestriction.Location.IN_WATER, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, PerchEntity::canSpawn)),
+    GOLDFISH(createMob(SpawnGroup.WATER_CREATURE, GoldfishEntity::new).trackRangeChunks(5).dimensions(EntityDimensions.fixed(0.5f, 0.4f))
+            .spawnRestriction(SpawnRestriction.Location.IN_WATER, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, GoldfishEntity::canSpawn)),
+
+
+    GUARDIAN_SENTRY(createMob(SpawnGroup.WATER_CREATURE, GuardianSentryEntity::new).trackRangeChunks(8).dimensions(EntityDimensions.fixed(0.85f, 0.85f))
+            .spawnRestriction(SpawnRestriction.Location.IN_WATER, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, GuardianSentryEntity::canSpawnSentry)),
     
     // Misc
     THROWN_ROCK(createEntity(SpawnGroup.MISC, ThrownRockEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10)),
     GLOW_BALL(createEntity(SpawnGroup.MISC, GlowBallEntity::new).dimensions(EntityDimensions.fixed(0.25F, 0.25F)).trackRangeBlocks(4).trackedUpdateRate(10)),
 
     CROW(createMob(SpawnGroup.CREATURE, CrowEntity::new).dimensions(EntityDimensions.fixed(0.5f, 0.9f)).trackRangeChunks(8).spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, CrowEntity::canSpawn)),
+    SEAGULL(createMob(SpawnGroup.CREATURE, SeagullEntity::new).dimensions(EntityDimensions.fixed(0.5f, 0.9f)).trackRangeChunks(8).spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING, SeagullEntity::canSpawn)),
 
     FRIENDLY_ENDERMAN(EntityEnum.createMob(SpawnGroup.CREATURE, FriendlyEndermanEntity::new).dimensions(EntityDimensions.fixed(0.6f, 2.9f)).trackRangeChunks(8)), // .setDimensions(0.6F, 2.9F).maxTrackingRange(8)
 
@@ -133,10 +141,14 @@ public enum WHEntities implements EntityEnum {
         registerAttribute(SARDINE, FishEntity.createFishAttributes());
         registerAttribute(RED_PORGY, FishEntity.createFishAttributes());
         registerAttribute(PERCH, FishEntity.createFishAttributes());
+        registerAttribute(GOLDFISH, FishEntity.createFishAttributes());
         //registerAttribute(FRIENDLY_SLIME, TameableSlimeEntity.createMobAttributes());
 
         registerAttribute(CROW, CrowEntity.createCrowAttributes());
+        registerAttribute(SEAGULL, CrowEntity.createCrowAttributes());
         registerAttribute(FRIENDLY_ENDERMAN, FriendlyEndermanEntity.createFriendlyEndermanAttributes());
+
+        registerAttribute(GUARDIAN_SENTRY, GuardianSentryEntity.createGuardianSentryAttributes());
     }
 
     @Environment(EnvType.CLIENT)
@@ -161,7 +173,7 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(DUCK, DuckRenderer::new);
         registerRenderer(MOSSY_SHEEP, MossySheepRenderer::new);
         registerRenderer(COLLIE, DogRenderer.create("collie"));
-        registerRenderer(RETRIEVER, DogRenderer.create("retriever"));
+        registerRenderer(RETRIEVER, DogRenderer.create("golden_retriever"));
         registerRenderer(BROWN_BEAR, BrownBearRenderer::new);
         
         //registerRenderer(ZOD, CodEntityRenderer.create("zod"));
@@ -171,12 +183,15 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(PERCH, CodEntityRenderer.create("perch"));
         registerRenderer(RED_PORGY, CodEntityRenderer.create("red_porgy"));
         registerRenderer(SARDINE, CodEntityRenderer.create("sardine"));
-
+        registerRenderer(GOLDFISH, SmallTropicalFishEntityRenderer.create("goldfish"));
+        
         registerRenderer(THROWN_ROCK, FlyingItemEntityRenderer::new);
         registerRenderer(GLOW_BALL, FlyingItemEntityRenderer::new);
         registerRenderer(FRIENDLY_ENDERMAN, FriendlyEndermanRenderer::new);
 
-        registerRenderer(CROW, CrowRenderer::new);
+        registerRenderer(CROW, BirdRenderer.create("crow"));
+        registerRenderer(SEAGULL, BirdRenderer.create("seagull"));
+        registerRenderer(GUARDIAN_SENTRY, GuardianRenderer.create("sentry"));
     }
 
     // ### Enum Codes ###

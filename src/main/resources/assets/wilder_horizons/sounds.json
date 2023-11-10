@@ -42,6 +42,12 @@
     ]
   },
 
+  "seagull": {
+    "sounds": [
+      "wilder_horizons:seagull"
+    ]
+  },
+
   "ancient": {
     "sounds": [
       {

@@ -30,21 +30,21 @@
       "predicate": {
         "pulling": 1
       },
-      "model": "wilder_horizons:item/tools/bows/amethyst_leveled_bow_pulling_0"
+      "model": "wilder_horizons:item/amethyst_leveled_bow_pulling_0"
     },
     {
       "predicate": {
         "pulling": 1,
         "pull": 0.65
       },
-      "model": "wilder_horizons:item/tools/bows/amethyst_leveled_bow_pulling_1"
+      "model": "wilder_horizons:item/amethyst_leveled_bow_pulling_1"
     },
     {
       "predicate": {
         "pulling": 1,
         "pull": 0.9
       },
-      "model": "wilder_horizons:item/tools/bows/amethyst_leveled_bow_pulling_2"
+      "model": "wilder_horizons:item/amethyst_leveled_bow_pulling_2"
     }
   ]
 }
