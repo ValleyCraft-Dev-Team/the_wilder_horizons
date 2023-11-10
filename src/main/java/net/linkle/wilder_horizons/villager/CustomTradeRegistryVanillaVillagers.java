@@ -16,6 +16,49 @@ public class CustomTradeRegistryVanillaVillagers {
     private static void RegisterCustomTrades() {
         /**yes the fletcher trades are repeated an insane amount of times for a reason dw about it**/
 
+        /**librarian**/
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.LIBRARIAN, 1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.BOOK, 3),
+                            new ItemStack(Items.EMERALD, 1),
+                            9999, 3, 0.02f)));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.LIBRARIAN, 2,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.WRITTEN_BOOK, 1),
+                            new ItemStack(Items.EMERALD, 4),
+                            new ItemStack(Items.BOOK, 2),
+                            99, 3, 0.02f)));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.LIBRARIAN, 3,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 3),
+                            new ItemStack(WHArmors.COPPER_MONOCLE, 1),
+                            10, 3, 0.02f)));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.LIBRARIAN, 3,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 3),
+                            new ItemStack(WHArmors.COPPER_GLASSES, 1),
+                            10, 3, 0.02f)));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.LIBRARIAN, 5,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.WRITTEN_BOOK, 1),
+                            new ItemStack(Items.EMERALD, 4),
+                            new ItemStack(Items.BOOK, 2),
+                            99, 3, 0.02f)));
+                });
+
         /**cartographer**/
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.CARTOGRAPHER, 2,
                 factories -> {
@@ -45,14 +88,14 @@ public class CustomTradeRegistryVanillaVillagers {
                             16, 2, 0.05f)));
                 });
 
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.CLERIC, 2,
-                factories -> {
-                    factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 4),
-                            new ItemStack(WHMiscItems.SOUL_GEM),
-                            new ItemStack(WHMiscItems.ENCHANTED_EMERALD, 1),
-                            16, 2, 0.05f)));
-                });
+        //TradeOfferHelper.registerVillagerOffers(VillagerProfession.CLERIC, 2,
+        //        factories -> {
+        //            factories.add(((entity, random) -> new TradeOffer(
+        //                    new ItemStack(Items.EMERALD, 4),
+        //                    new ItemStack(WHMiscItems.SOUL_GEM),
+        //                    new ItemStack(WHMiscItems.ENCHANTED_EMERALD, 1),
+        //                    16, 2, 0.05f)));
+        //        });
 
         /**fletcher**/
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.FLETCHER, 1,

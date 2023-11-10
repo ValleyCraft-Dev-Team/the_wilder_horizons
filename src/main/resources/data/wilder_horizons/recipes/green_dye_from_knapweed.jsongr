@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "blue_dye",
+  "group": "black_dye",
   "ingredients": [
     {
-      "item": "wilder_horizons:goddess_lily"
+      "item": "wilder_horizons:black_dahlia"
     }
   ],
   "result": {
-    "item": "minecraft:blue_dye",
+    "item": "minecraft:black_dye",
     "count": 1
   }
 }

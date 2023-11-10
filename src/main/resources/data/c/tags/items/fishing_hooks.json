@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "wilder_horizons:lucky_hook",
-    "wilder_horizons:fishing_hook"
+    "wilder_horizons:copper_fishing_hook",
+    "wilder_horizons:lucky_fishing_hook_talisman"
   ]
 }
