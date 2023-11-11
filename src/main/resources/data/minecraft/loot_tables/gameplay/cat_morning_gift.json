@@ -87,7 +87,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:phantom_membrane",
-          "weight": 2
+          "weight": 5
         }
       ],
       "rolls": 1.0
