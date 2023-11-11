@@ -1,5 +1,5 @@
 {
-  "parent": "wilder_horizons:item/champions_bow",
+  "parent": "item/generated",
   "textures": {
     "layer0": "wilder_horizons:item/tools/bows/champions_bow_pulling_2"
   }

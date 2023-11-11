@@ -1,5 +1,5 @@
 {
-  "parent": "wilder_horizons:item/brasium_compound_bow",
+  "parent": "item/generated",
   "textures": {
     "layer0": "wilder_horizons:item/tools/bows/brasium_bow_pulling_1"
   }

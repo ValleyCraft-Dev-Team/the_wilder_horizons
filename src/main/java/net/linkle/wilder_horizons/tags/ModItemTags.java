@@ -9,6 +9,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItemTags {
     public static final TagKey<Item> CORAL_KNIFE = registerC("coral_knife");
     public static final TagKey<Item> LARGE_SOULS = registerC("large_souls");
+    public static final TagKey<Item> SEEDS = registerC("seeds");
 
     public static void initialize() {
     }

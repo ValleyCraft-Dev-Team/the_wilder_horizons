@@ -34,7 +34,7 @@ public enum TreeConfigs implements ConfigFeature {
     private final Identifier id;
     
     TreeConfigs(TreeFeatureConfig config) {
-        this.config = new ConfiguredFeature<TreeFeatureConfig, Feature<TreeFeatureConfig>>(Feature.TREE, config);
+        this.config = new ConfiguredFeature<>(Feature.TREE, config);
         entry = BuiltinRegistries.add(BuiltinRegistries.CONFIGURED_FEATURE, id = Main.makeId(name().toLowerCase(Locale.ROOT)), this.config);
     }
 

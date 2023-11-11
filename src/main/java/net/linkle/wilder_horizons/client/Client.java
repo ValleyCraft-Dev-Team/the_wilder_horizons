@@ -24,7 +24,6 @@ public class Client implements ClientModInitializer {
         WHBlockEntities.initializeClient();
         ArmorRenderers.initialize();
         ClientNetwork.initialize();
-
         ModModelPredicateProvider.registerModModels();
     }
 }

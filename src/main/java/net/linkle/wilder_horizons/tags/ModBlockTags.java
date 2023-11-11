@@ -8,6 +8,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlockTags {
     public static final TagKey<Block> BIG_FLOWER_POTS = registerMod("big_flower_pots");
     public static final TagKey<Block> DIRT_STONE = registerMod("dirt_stone");
+    public static final TagKey<Block> SCARECROWS = registerMod("scarecrows");
 
     public static void initialize() {
     }

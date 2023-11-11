@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:scarecrow",
+    "wilder_horizons:scarecrow_glowing",
+    "wilder_horizons:scarecrow_target",
+    "wilder_horizons:scarecrow_hat",
+    "wilder_horizons:scarecrow_hat_glowing"
+  ]
+}
