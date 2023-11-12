@@ -12,7 +12,7 @@
       "item": "minecraft:tripwire_hook"
     },
     "S": {
-      "tag": "c:strings"
+      "item": "minecraft:string"
     }
   },
   "result": {

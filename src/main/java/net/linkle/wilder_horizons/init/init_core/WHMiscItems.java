@@ -134,7 +134,11 @@ public enum WHMiscItems implements ItemEnum {
     //ROSEGOLD_ALLOY = registerItem("rosegold_alloy",
     //        new AlphaModItem(settings())),
     //BRASIUM_ALLOY(new AlphaModItem(settings())),
-    BRASIUM_COIN(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    BRASIUM_COIN(new AlphaModItem(settings().rarity(Rarity.RARE))),
+    GOLDEN_COIN(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    PILVER_COIN(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    DEEPSLATE_COIN(new AlphaModItem(settings().rarity(Rarity.RARE))),
+
     ROUGH_EMERALD(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     ENCHANTED_EMERALD(new EnchantedEmeraldItem(settings().rarity(Rarity.UNCOMMON))),
     ROUGH_DIAMOND(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),

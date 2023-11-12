@@ -34,7 +34,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Patchouli mod for books.
-	modImplementation "vazkii.patchouli:Patchouli:${minecraft_version}-${project.patchouli_version}"
+	//modImplementation "vazkii.patchouli:Patchouli:${minecraft_version}-${project.patchouli_version}"
 
 	// Trinkets API
 	//modImplementation "dev.emi:trinkets:${trinkets_version}"

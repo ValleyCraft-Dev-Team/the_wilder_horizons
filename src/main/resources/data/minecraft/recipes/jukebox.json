@@ -1,26 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#i#",
-    "VDV",
-    "#i#"
-  ],
   "key": {
     "#": {
       "tag": "c:plank_items"
     },
-    "i": {
-      "item": "minecraft:iron_ingot"
+    "X": {
+      "item": "minecraft:quartz"
     },
     "V": {
       "item": "wilder_horizons:plant_fiber_canvas"
     },
-    "D": {
-      "item": "wilder_horizons:diamond_fragments"
+    "Z": {
+      "item": "minecraft:copper_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
     }
   },
+  "pattern": [
+    "#X#",
+    "VZV",
+    "#R#"
+  ],
   "result": {
-    "item": "minecraft:jukebox",
-    "count": 1
+    "item": "minecraft:jukebox"
   }
 }

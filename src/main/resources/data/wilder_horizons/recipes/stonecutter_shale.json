@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "#c:cobbling_shale"
+  },
+  "result": "wilder_horizons:cobbled_shale",
+  "count": 1
+}

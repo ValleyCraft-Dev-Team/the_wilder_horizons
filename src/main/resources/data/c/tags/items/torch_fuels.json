@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:firefern",
+    "minecraft:coal",
+    "minecraft:charcoal",
+    "minecraft:blaze_powder",
+    "minecraft:fire_charge",
+    "minecraft:magma_cream"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:shale",
+    "wilder_horizons:polished_shale",
+    "wilder_horizons:shale_bricks",
+    "wilder_horizons:shale_rune_bricks",
+    "wilder_horizons:shale_pillar"
+  ]
+}

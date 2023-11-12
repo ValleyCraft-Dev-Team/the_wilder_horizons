@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:cloth",
+    "wilder_horizons:puff_ball",
+    "wilder_horizons:plant_fiber_canvas",
+    "wilder_horizons:shroomleather",
+    "wilder_horizons:treated_leather_strap",
+    "wilder_horizons:arid_vines",
+    "minecraft:vine"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deepslate",
+    "minecraft:chiseled_deepslate",
+    "minecraft:polished_deepslate",
+    "minecraft:deepslate_bricks",
+    "minecraft:cracked_deepslate_bricks",
+    "minecraft:deepslate_tiles",
+    "minecraft:infested_deepslate",
+    "wilder_horizons:deepslate_pillar",
+    "wilder_horizons:deepslate_chest"
+  ]
+}

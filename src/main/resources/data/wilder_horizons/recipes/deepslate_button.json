@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:apple_planks"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "wilder_horizons:apple_pressure_button"
+  }
+}

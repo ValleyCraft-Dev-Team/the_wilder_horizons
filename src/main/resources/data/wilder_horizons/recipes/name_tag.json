@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:strings"
+      "tag": "c:string_items"
     },
     {
       "item": "minecraft:paper"

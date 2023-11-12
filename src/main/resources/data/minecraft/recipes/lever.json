@@ -10,7 +10,7 @@
             "tag": "c:dowel_items"
         },
         "I": {
-            "item": "minecraft:iron_nugget"
+            "item": "wilder_horizons:iron_scrap"
         },
         "_": {
             "item": "minecraft:cobblestone_slab"
@@ -18,6 +18,6 @@
     },
     "result": {
             "item": "minecraft:lever",
-            "count": 1
+            "count": 3
             }
 }

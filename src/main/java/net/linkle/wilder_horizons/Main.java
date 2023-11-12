@@ -48,6 +48,7 @@ public class Main implements ModInitializer {
         DungeonRemover.init();
         ModBlockTags.initialize();
         ModItemTags.initialize();
+        WHLootTables.initialize();
     }
 
     public static Identifier makeId(String id) {

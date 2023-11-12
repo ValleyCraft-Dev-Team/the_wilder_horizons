@@ -5,11 +5,15 @@
       "item": "minecraft:stick"
     },
     "S": {
-      "tag": "c:soul_torch_fuels"
+      "tag": "c:torch_fuels_soul"
+    },
+    "W": {
+      "tag": "c:torch_wraps"
     }
   },
   "pattern": [
     "S",
+    "W",
     "#"
   ],
   "result": {

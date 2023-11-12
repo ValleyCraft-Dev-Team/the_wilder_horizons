@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "#c:cobbling_carmine"
+  },
+  "result": "wilder_horizons:carmine_cobblestone",
+  "count": 1
+}

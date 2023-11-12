@@ -146,11 +146,14 @@ public class WHLootTables {
         LootTableHelper.appendLoot(EntityType.CREEPER.getLootTableId(), builder);
 
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(Items.MOSS_BLOCK)
+        builder.with(ItemEntry.builder(WHNature.MOSS_SPROUTLET)
                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
         );
         LootTableHelper.appendLoot(EntityType.CREEPER.getLootTableId(), builder);
 
+        builder = LootBuilder.create().rolls(1);
+        lifeGem(builder, 0.25f);
+        LootTableHelper.appendLoot(EntityType.CREEPER.getLootTableId(), builder);
         // cow
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);

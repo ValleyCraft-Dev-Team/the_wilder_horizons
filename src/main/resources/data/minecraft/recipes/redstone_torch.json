@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "tag": "c:torch_wraps"
+    }
+  },
+  "pattern": [
+    "S",
+    "W",
+    "#"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:torch"
+  }
+}
