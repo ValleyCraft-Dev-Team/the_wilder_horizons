@@ -12,14 +12,14 @@
       "item": "minecraft:glow_ink_sac"
     },
     "H": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:honey_bottle"
     },
     "R": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:brown_mushroom"
     }
   },
   "result": {
-    "item": "wilder_horizons:extinguishing_ointment",
+    "item": "wilder_horizons:protecting_ointment",
     "count": 1
   }
 }

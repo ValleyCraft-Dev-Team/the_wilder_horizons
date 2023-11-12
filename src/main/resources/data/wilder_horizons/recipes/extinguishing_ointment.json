@@ -12,10 +12,10 @@
       "item": "minecraft:glow_berries"
     },
     "H": {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:honey_bottle"
     },
     "R": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:brown_mushroom"
     }
   },
   "result": {

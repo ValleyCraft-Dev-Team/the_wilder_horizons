@@ -42,7 +42,7 @@ public enum WHFoods implements ItemEnum {
     COOKED_SARDINE(new FoodItem(settings(), 3, Nourishment.GOOD)),
     COOKED_RED_PORGY(new FoodItem(settings(), 4, Nourishment.GOOD)),
     COOKED_PERCH(new FoodItem(settings(), 4, Nourishment.GOOD)),
-    //COOKED_GOLDFIN(new FoodItem(settings(), 2, Nourishment.POOR)),
+    COOKED_GOLDFIN(new FoodItem(settings(), 2, Nourishment.POOR)),
     COOKED_TRANSLUCENT_LIONFISH(new FoodItem(settings(), 4, Nourishment.EXCELLENT)),
 
     COOKED_CLAM(new FoodItem(settings(), 4, Nourishment.NORMAL)),

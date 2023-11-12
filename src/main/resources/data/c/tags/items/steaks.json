@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:cooked_tenderloin",
+    "minecraft:cooked_beef",
+    "minecraft:cooked_mutton",
+    "wilder_horizons:cooked_canid"
+  ]
+}

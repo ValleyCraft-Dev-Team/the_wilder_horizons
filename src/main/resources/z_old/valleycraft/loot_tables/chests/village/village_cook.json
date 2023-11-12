@@ -202,7 +202,7 @@
         {
           "type": "minecraft:item",
           "weight": 4,
-          "name": "wilder_horizons:morel_oil",
+          "name": "wilder_horizons:purple_mushroom_oil",
           "functions": [
             {
               "function": "minecraft:set_count",
