@@ -575,7 +575,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "wilder_horizons:leather_strap",
+          "name": "wilder_horizons:treated_leather_strap",
           "functions": [
             {
               "function": "minecraft:set_count",

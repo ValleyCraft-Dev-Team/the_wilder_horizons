@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#S#"
+    "#t#"
   ],
   "key": {
     "#": {
       "item": "minecraft:iron_ingot"
     },
-    "S": {
-      "item": "wilder_horizons:leather_strap"
+    "t": {
+      "item": "wilder_horizons:treated_leather_strap"
     }
   },
   "result": {
