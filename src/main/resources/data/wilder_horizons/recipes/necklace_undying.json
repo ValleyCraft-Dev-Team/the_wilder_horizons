@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "wilder_horizons:leather_necklace"
+    "item": "wilder_horizons:treated_leather_strap"
   },
   "addition": {
     "item": "minecraft:totem_of_undying"
   },
   "result": {
-    "item": "wilder_horizons:undying_necklace"
+    "item": "wilder_horizons:undying_talisman"
   }
 }

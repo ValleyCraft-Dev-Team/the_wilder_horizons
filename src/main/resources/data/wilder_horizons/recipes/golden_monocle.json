@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C ",
+    " V"
+  ],
+  "key": {
+    "C": {
+      "item": "wilder_horizons:gold_scrap"
+    },
+    "V": {
+      "item": "minecraft:amethyst"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:copper_monocle",
+    "count": 1
+  }
+}

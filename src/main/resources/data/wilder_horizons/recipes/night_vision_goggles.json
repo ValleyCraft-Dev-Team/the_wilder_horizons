@@ -13,11 +13,11 @@
       "item": "wilder_horizons:thermal_blaze_core"
     },
     "V": {
-      "item": "wilder_horizons:echo_shard_lense"
+      "item": "wilder_horizons:amethyst_lense"
     }
   },
   "result": {
-    "item": "wilder_horizons:nightvision_goggles",
+    "item": "wilder_horizons:night_vision_goggles",
     "count": 1
   }
 }

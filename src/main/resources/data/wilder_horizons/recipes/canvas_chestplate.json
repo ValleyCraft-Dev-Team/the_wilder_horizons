@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "c:plank_items"
+      "item": "wilder_horizons:plant_fiber_canvas"
     }
   },
   "result": {
-    "item": "wilder_horizons:plank_chestplate",
+    "item": "wilder_horizons:canvas_chestplate",
     "count": 1
   }
 }

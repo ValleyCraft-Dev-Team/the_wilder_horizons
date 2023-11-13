@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LSL",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "L": {
+      "tag": "wilder_horizons:treated_leather_strap"
+    },
+    "S": {
+      "tag": "wilder_horizons:small_bone"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:fur_kilt",
+    "count": 1
+  }
+}

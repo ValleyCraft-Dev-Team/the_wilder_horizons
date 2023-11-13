@@ -1,16 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
     "#"
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:leathers"
     }
   },
   "result": {
-    "item": "wilder_horizons:iron_necklace",
-    "count": 1
+    "item": "wilder_horizons:treated_leather_strap",
+    "count": 2
   }
 }

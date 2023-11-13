@@ -1,19 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# #",
-    "L L"
+    "#L#",
+    "###",
+    " # "
   ],
   "key": {
     "#": {
       "item": "minecraft:rabbit_hide"
     },
     "L": {
-      "tag": "c:leathers"
+      "tag": "wilder_horizons:treated_leather_strap"
     }
   },
   "result": {
-    "item": "wilder_horizons:warm_boots",
+    "item": "wilder_horizons:fur_cloak",
     "count": 1
   }
 }

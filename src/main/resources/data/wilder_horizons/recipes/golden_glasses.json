@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "C V",
+    " V "
+  ],
+  "key": {
+    "C": {
+      "item": "wilder_horizons:gold_scrap"
+    },
+    "V": {
+      "item": "minecraft:amethyst"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:copper_glasses",
+    "count": 1
+  }
+}

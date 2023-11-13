@@ -8,13 +8,13 @@
       "item": "minecraft:blaze_powder"
     },
     {
-      "item": "wilder_horizons:slime_blob"
+      "item": "wilder_horizons:jelly_blob"
     },
     {
       "item": "wilder_horizons:brimstone_shard"
     },
     {
-      "tag": "c:dragon_parts"
+      "item": "wilder_horizons:dragon_tooth"
     }
   ],
   "result": {
