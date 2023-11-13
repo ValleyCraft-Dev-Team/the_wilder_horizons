@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#c:feathers"
+    "#c:feathers",
     "wilder_horizons:plant_fiber_canvas"
   ]
 }

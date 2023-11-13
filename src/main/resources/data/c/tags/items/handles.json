@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "wilder_horizons:handle",
-    "wilder_horizons:reinforced_handle",
-    "wilder_horizons:specialized_handle"
+    "wilder_horizons:reinforced_handle"
   ]
 }

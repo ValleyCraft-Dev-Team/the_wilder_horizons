@@ -10,7 +10,7 @@
             "tag": "c:glues"
         },
         "S": {
-            "tag": "c:string_items"
+            "tag": "c:strings"
         }
     },
     "result": {

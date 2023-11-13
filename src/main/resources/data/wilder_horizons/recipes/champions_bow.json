@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "wilder_horizons:bow_string"
+    },
+    "#": {
+      "item": "wilder_horizons:wooden_dowel"
+    },
+    "G": {
+      "item": "wilder_horizons:reinforced_handle"
+    },
+    "B": {
+      "item": "wilder_horizons:small_bone"
+    }
+  },
+  "pattern": [
+    "B#X",
+    "G X",
+    "B#X"
+  ],
+  "result": {
+    "item": "wilder_horizons:champions_bow"
+  }
+}

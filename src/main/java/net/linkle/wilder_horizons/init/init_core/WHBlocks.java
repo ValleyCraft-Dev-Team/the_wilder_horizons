@@ -817,7 +817,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     SALT_BRICK_WALL(new WallBlock(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings()),
 
     CHISELED_SALT_BRICKS(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings()),
-    SALT_BRICKS_CAPPED(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings()),
+    //SALT_BRICKS_CAPPED(new Block(Block.Settings.copy(Blocks.SANDSTONE)), itemSettings()),
 
     //basalt bricks
     POLISHED_BASALT(new Block(Block.Settings.copy(Blocks.BASALT)), itemSettings()),
@@ -987,7 +987,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     SMOOTH_STONE_TILE_STAIRS(new StairsBlock(SMOOTH_STONE_TILES.getState(), Block.Settings.copy(Blocks.STONE_BRICKS)), itemSettings()),
     SMOOTH_STONE_TILE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE_BRICKS)), itemSettings()),
 
-    SMOOTH_STONE_CAPPED(new Block(Block.Settings.copy(Blocks.SMOOTH_STONE)), itemSettings()),
+    //SMOOTH_STONE_CAPPED(new Block(Block.Settings.copy(Blocks.SMOOTH_STONE)), itemSettings()),
 
     ////cairnstone
     //CAIRNSTONE_STAIRS(new StairsBlock(POLISHED_STONE.getState(), Block.Settings.copy(Blocks.STONE_BRICKS).resistance(1200).hardness(52f)), itemSettings()),

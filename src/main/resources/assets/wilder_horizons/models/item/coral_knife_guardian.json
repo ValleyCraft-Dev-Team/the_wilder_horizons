@@ -1,14 +1,14 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "wilder_horizons:item/diving_gear/coral_knife"
+    "layer0": "wilder_horizons:item/tools/scalpels/blue_coral_scalpel"
   },
   "overrides": [
     {
       "predicate": {
         "broken": 1
       },
-      "model": "wilder_horizons:item/coral_knife_broken"
+      "model": "wilder_horizons:item/coral_knife_guardian_broken"
     }
   ]
 }

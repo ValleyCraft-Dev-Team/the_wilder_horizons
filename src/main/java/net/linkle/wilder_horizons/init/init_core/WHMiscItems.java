@@ -5,7 +5,6 @@ import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.enums.ItemEnum;
 import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.linkle.wilder_horizons.item.*;
-import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
@@ -13,7 +12,6 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
 
-import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_MISCELLANEOUS;
 import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_RELICS;
 
 
@@ -56,7 +54,7 @@ public enum WHMiscItems implements ItemEnum {
     WOODEN_DOWEL(new AlphaModItem(settings())),
     HANDLE(new AlphaModItem(settings())),
     REINFORCED_HANDLE(new AlphaModItem(settings())),
-    SPECIALIZED_HANDLE(new AlphaModItem(settings())),
+    //SPECIALIZED_HANDLE(new AlphaModItem(settings())),
     CRAFTING_TOOLS(new AlphaModItem(settings())),
     SMITHING_TOOLS(new AlphaModItem(settings())),
     GEM_CUTTING_TOOLS(new AlphaModItem(settings())),
@@ -65,6 +63,7 @@ public enum WHMiscItems implements ItemEnum {
     DAUB(new AlphaModItem(settings())),
 
     SMALL_BONE(new AlphaModItem(settings())),
+    WISH_BONE(new AlphaModItem(settings().rarity(Rarity.RARE))),
     //HOGLIN_TUSK(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     DRAGON_TOOTH(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     SKULL_SHARD(new AlphaModItem(settings())),
@@ -135,9 +134,9 @@ public enum WHMiscItems implements ItemEnum {
     //        new AlphaModItem(settings())),
     //BRASIUM_ALLOY(new AlphaModItem(settings())),
     BRASIUM_COIN(new AlphaModItem(settings().rarity(Rarity.RARE))),
-    GOLDEN_COIN(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
-    PILVER_COIN(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
-    DEEPSLATE_COIN(new AlphaModItem(settings().rarity(Rarity.RARE))),
+    COPPER_COIN(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
+    PILVER_COIN(new AlphaModItem(settings().rarity(Rarity.COMMON))),
+    //DRIPSTONE_COIN(new AlphaModItem(settings().rarity(Rarity.RARE))),
 
     ROUGH_EMERALD(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     ENCHANTED_EMERALD(new EnchantedEmeraldItem(settings().rarity(Rarity.UNCOMMON))),
@@ -163,7 +162,7 @@ public enum WHMiscItems implements ItemEnum {
     QUILL(new AlphaModItem(settings())),
     EMPTY_BOOK(new AlphaModItem(settings())),
     //RUNECASTING_QUILL(new AlphaModItem(settings())),
-    BOOK_OF_RUNECALLING(new AlphaModItem(settings().rarity(Rarity.RARE))),
+    BOOK_OF_RUNECALLING(new AlphaModItem(settings().rarity(Rarity.RARE).fireproof())),
 
     BOW_STRING(new AlphaModItem(settings())),
     TRIGGER_MECHANISM(new AlphaModItem(settings())),

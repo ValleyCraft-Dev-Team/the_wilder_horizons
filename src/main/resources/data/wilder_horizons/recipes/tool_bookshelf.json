@@ -5,13 +5,10 @@
       "item": "wilder_horizons:empty_bookshelf"
     },
     {
-      "item": "minecraft:shears"
+      "item": "wilder_horizons:crafting_tools"
     },
     {
-      "item": "minecraft:iron_ingot"
-    },
-    {
-      "tag": "c:plank_items"
+      "item": "wilder_horizons:smithing_tools"
     }
   ],
   "result": {

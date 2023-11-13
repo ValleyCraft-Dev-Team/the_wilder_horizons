@@ -310,7 +310,6 @@ public class Contents {
         putFuels(WHFoodIngredients.FIRE_PEPPER, 50);
         putFuels(WHMiscItems.HANDLE, 250);
         putFuels(WHMiscItems.REINFORCED_HANDLE, 250);
-        putFuels(WHMiscItems.SPECIALIZED_HANDLE, 250);
         putFuels(WHMiscItems.COAL_NUGGET, 400);
         putFuels(WHMiscItems.ANTHRACITE, 1600);
         putFuels(WHBlocks.ANTHRACITE_BLOCK, 16000);

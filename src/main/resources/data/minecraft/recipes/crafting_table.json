@@ -1,23 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#O#",
-    "OVO",
-    "#O#"
+    "L",
+    "#"
   ],
   "key": {
     "#": {
       "tag": "c:plank_items"
     },
-    "V": {
-      "tag": "c:crafting_table_key_ingredients"
-    },
-    "O": {
-      "tag": "minecraft:planks"
+    "L": {
+      "tag": "c:leathers"
     }
   },
   "result": {
-    "item": "minecraft:crafting_table",
+    "item": "wilder_horizons:improvised_crafting_table",
     "count": 1
   }
 }

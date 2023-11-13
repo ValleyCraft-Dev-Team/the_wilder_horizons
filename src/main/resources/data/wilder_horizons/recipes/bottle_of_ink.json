@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "G  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_dye"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:bottle_of_ink",
+    "count": 1
+  }
+}

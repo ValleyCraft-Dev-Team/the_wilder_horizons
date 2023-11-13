@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iai",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "wilder_horizons:brasium_nugget"
+    },
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:amethyst_lens",
+    "count": 1
+  }
+}

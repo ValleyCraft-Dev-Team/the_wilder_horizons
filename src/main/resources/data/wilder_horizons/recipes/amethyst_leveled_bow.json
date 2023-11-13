@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "wilder_horizons:bow_string"
+    },
+    "#": {
+      "item": "wilder_horizons:wooden_dowel"
+    },
+    "G": {
+      "tag": "c:handles"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "A#X",
+    "G X",
+    "I#X"
+  ],
+  "result": {
+    "item": "wilder_horizons:amethyst_leveled_bow"
+  }
+}

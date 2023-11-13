@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ai",
+    "s/"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "s": {
+      "item": "wilder_horizons:reinforced_handle"
+    },
+    "/": {
+      "item": "wilder_horizons:wooden_dowel"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:gem_cutting_tools",
+    "count": 1
+  }
+}

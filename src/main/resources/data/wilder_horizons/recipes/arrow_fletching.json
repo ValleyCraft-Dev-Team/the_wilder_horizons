@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:arrow_fletching_ingredients"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:arrow_fletching",
+    "count": 3
+  }
+}

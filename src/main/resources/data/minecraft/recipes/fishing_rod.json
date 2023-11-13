@@ -2,12 +2,12 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "  #",
-        " #I",
-        "VWB"
+        " #B",
+        "VWI"
     ],
     "key": {
         "#": {
-            "item": "wilder_horizons:plank_item"
+            "item": "wilder_horizons:wooden_dowel"
         },
         "I": {
             "tag": "c:fishing_hooks"

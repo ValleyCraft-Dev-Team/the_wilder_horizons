@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "tag": "c:plank_items"
+      "item": "wilder_horizons:wooden_dowel"
     },
     "$": {
       "item": "wilder_horizons:trigger_mechanism"

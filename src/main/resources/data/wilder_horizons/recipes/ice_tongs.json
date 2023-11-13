@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "wilder_horizons:brasium_ingot"
+      "item": "minecraft:iron_ingot"
     },
     "H": {
-      "tag": "c:handles"
+      "item": "wilder_horizons:reinforced_handle"
     }
   },
   "result": {

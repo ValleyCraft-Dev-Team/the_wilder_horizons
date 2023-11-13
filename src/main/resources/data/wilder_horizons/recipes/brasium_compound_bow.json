@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "wilder_horizons:bow_string"
+    },
+    "#": {
+      "item": "wilder_horizons:wooden_dowel"
+    },
+    "G": {
+      "tag": "c:handles"
+    },
+    "B": {
+      "item": "wilder_horizons:brasium_ingot"
+    }
+  },
+  "pattern": [
+    "B#X",
+    "G X",
+    "B#X"
+  ],
+  "result": {
+    "item": "wilder_horizons:brasium_compound_bow"
+  }
+}

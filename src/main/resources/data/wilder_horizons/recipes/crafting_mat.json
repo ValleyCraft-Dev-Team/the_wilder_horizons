@@ -3,20 +3,20 @@
   "group": "crafting_mats",
   "pattern": [
     "#L",
-    "VF"
+    "VI"
   ],
   "key": {
     "#": {
-      "tag": "c:string_spools"
+      "item": "wilder_horizons:rope"
     },
     "L": {
-      "tag": "c:leather_alternatives"
+      "tag": "c:leathers"
     },
     "V": {
-      "tag": "c:plank_items"
+      "item": "wilder_horizons:crafting_tools"
     },
-    "F": {
-      "item": "minecraft:flint"
+    "I": {
+      "item": "wilder_horizons:iron_scrap"
     }
   },
   "result": {

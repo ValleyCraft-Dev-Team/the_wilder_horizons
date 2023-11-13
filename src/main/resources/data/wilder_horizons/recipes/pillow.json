@@ -10,7 +10,7 @@
             "item": "wilder_horizons:cloth"
         },
         "S": {
-            "tag": "c:string_items"
+            "tag": "c:strings"
         },
         "P": {
             "item": "minecraft:phantom_membrane"

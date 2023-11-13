@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:leather",
-    "wilder_horizons:dried_shroomleather",
-    "wilder_horizons:pig_hide",
-    "wilder_horizons:sheepskin"
+    "minecraft:leather"
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s  ",
+    "s i",
+    "/ /"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "wilder_horizons:iron_scrap"
+    },
+    "/": {
+      "item": "wilder_horizons:wooden_dowel"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:crafting_tools",
+    "count": 1
+  }
+}

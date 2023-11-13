@@ -1,19 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#c#",
     "cAc",
-    "#c#"
+    "BcB",
+    "RwR"
   ],
   "key": {
-    "#": {
-      "tag": "c:plank_items"
+    "B": {
+      "item": "minecraft:water_bucket"
     },
     "c": {
       "item": "minecraft:copper_ingot"
     },
     "A": {
       "item": "minecraft:amethyst_shard"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "w": {
+      "item": "minecraft:barrel"
     }
   },
   "result": {

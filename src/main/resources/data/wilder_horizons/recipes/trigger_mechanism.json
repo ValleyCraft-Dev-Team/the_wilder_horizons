@@ -1,15 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#C",
+    "# ",
     "i#"
   ],
   "key": {
     "#": {
       "tag": "c:plank_items"
-    },
-    "C": {
-      "item": "wilder_horizons:wooden_dowel"
     },
     "i": {
       "item": "wilder_horizons:iron_rail"
