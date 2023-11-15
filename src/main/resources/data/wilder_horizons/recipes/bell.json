@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "///",
+    "_G_"
+  ],
+  "key": {
+    "/": {
+      "item": "wilder_horizons:wooden_dowel"
+    },
+    "_": {
+      "item": "minecraft:stone_slab"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:bell",
+    "count": 1
+  }
+}

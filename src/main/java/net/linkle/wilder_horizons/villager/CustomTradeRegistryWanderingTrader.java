@@ -69,16 +69,40 @@ public class CustomTradeRegistryWanderingTrader {
                             new ItemStack(Items.BONE, 8),
                             new ItemStack(Items.EMERALD, 1),
                             16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.IRON_INGOT, 5),
+                            new ItemStack(Items.EMERALD, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.COAL, 20),
+                            new ItemStack(Items.EMERALD, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.COPPER_INGOT, 15),
+                            new ItemStack(Items.EMERALD, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.LAPIS_LAZULI, 20),
+                            new ItemStack(Items.EMERALD, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.CARVED_PUMPKIN, 8),
+                            new ItemStack(Items.EMERALD, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.GRAY_WOOL, 18),
+                            new ItemStack(Items.EMERALD, 1),
+                            16, 2, 0.05f)));
 
                     /**items for currency exchanges**/
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(WHMiscItems.BRASIUM_COIN, 1),
                             new ItemStack(Items.EMERALD, 5),
-                            16, 2, 0.05f)));
+                            99, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(WHMiscItems.PILVER_COIN, 1),
                             new ItemStack(Items.EMERALD, 1),
-                            16, 2, 0.05f)));
+                            99, 2, 0.05f)));
 
                     /**items for emeralds**/
                     factories.add(((entity, random) -> new TradeOffer(
@@ -111,7 +135,7 @@ public class CustomTradeRegistryWanderingTrader {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 2),
-                            new ItemStack(WHMiscItems.SHROOMLEATHER, 4),
+                            new ItemStack(WHMiscItems.SHROOMLEATHER, 6),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 3),
@@ -213,7 +237,6 @@ public class CustomTradeRegistryWanderingTrader {
                             new ItemStack(Items.EMERALD, 3),
                             new ItemStack(WHArmors.COPPER_MONOCLE, 1),
                             16, 2, 0.05f)));
-
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
                             new ItemStack(WHNature.PURPLE_MUSHROOM, 1),
@@ -341,6 +364,14 @@ public class CustomTradeRegistryWanderingTrader {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 5),
                             new ItemStack(WHArmors.ALLAGER_GARMENTS, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 2),
+                            new ItemStack(WHArmors.SANDALS, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 5),
+                            new ItemStack(WHArmors.STRAW_HAT, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),

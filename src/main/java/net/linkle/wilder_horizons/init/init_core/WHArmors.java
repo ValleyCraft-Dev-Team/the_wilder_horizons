@@ -44,7 +44,6 @@ public enum WHArmors implements ItemEnum {
     //HEALERS_HOOD(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.HEAD, settings().rarity(Rarity.RARE))),
     //HEALERS_CLOAK(new ArmorItem(WHArmorMaterials.HEALER_CLOAK, EquipmentSlot.CHEST, settings().rarity(Rarity.RARE))),
 
-    // wraith
     RIBCAGE(new ArmorItem(WHArmorMaterials.RIBCAGE, EquipmentSlot.CHEST, relicSettings())),
     WITHER_RIBCAGE(new ArmorItem(WHArmorMaterials.WITHER_RIBCAGE, EquipmentSlot.CHEST, relicSettings())),
     //WRAITH_HOOD(new ArmorItem(WHArmorMaterials.WRAITH_CLOAK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
@@ -69,7 +68,6 @@ public enum WHArmors implements ItemEnum {
     ILLAGER_TUNIC(new ArmorItem(WHArmorMaterials.ILLAGER_TUNIC, EquipmentSlot.LEGS, relicSettings())),
     DAERDRIN_COVERINGS(new ArmorItem(WHArmorMaterials.DAERDRIN_COVERINGS, EquipmentSlot.LEGS, relicSettings().rarity(Rarity.RARE))),
 
-    // divine
     FRIENDLY_MASK(new ArmorItem(WHArmorMaterials.FRIENDLY_MASK, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.RARE))),
     GOLDEN_CROWN(new ArmorItem(WHArmorMaterials.GOLDEN_CROWN, EquipmentSlot.HEAD, relicSettings().rarity(Rarity.EPIC))),
     //BRASIUM_PAULDRONS(new ArmorItem(WHArmorMaterials.BRASIUM_PAULDRONS, EquipmentSlot.CHEST, relicSettings().rarity(Rarity.UNCOMMON))),
