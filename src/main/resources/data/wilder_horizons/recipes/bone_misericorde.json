@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #",
+    "V "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bone"
+    },
+    "V": {
+      "item": "wilder_horizons:reinforced_handle"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:bone_misericorde",
+    "count": 1
+  }
+}

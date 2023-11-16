@@ -1,19 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "VD ",
+    "##s",
+    "VVw",
     " D "
   ],
   "key": {
     "#": {
       "item": "wilder_horizons:brasium_ingot"
     },
+    "s": {
+      "item": "wilder_horizons:brasium_scrap"
+    },
     "V": {
-      "item": "wilder_horizons:monster_claw"
+      "item": "wilder_horizons:beast_claw"
     },
     "D": {
       "item": "wilder_horizons:reinforced_handle"
+    },
+    "w": {
+      "item": "wilder_horizons:wooden_dowel"
     }
   },
   "result": {

@@ -21,9 +21,9 @@
   "subtitle.wilder_horizons:sprinkler": "Sprinkler ticks and hisses",
 
   "death.attack.jellycap": "%1$s was stung to death",
-  "death.attack.jellycap.player": "%1$s walked into a Jellycap whilst trying to escape %2$s",
+  "death.attack.jellycap.player": "%1$s walked into a stingy Jellycap whilst trying to escape %2$s",
   "death.attack.glowcap": "%1$s was seared to death",
-  "death.attack.glowcap.player": "%1$s walked into a Glowcap whilst trying to escape %2$s",
+  "death.attack.glowcap.player": "%1$s walked into a scalding Glowcap whilst trying to escape %2$s",
 
   "item.wilder_horizons.allay_bottle": "Bottle o' Allay",
 

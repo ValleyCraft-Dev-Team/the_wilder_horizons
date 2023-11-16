@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C",
+    "BC"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:plank_item"
+    },
+    "B": {
+      "item": "wilder_horizons:wooden_dowel"
+    },
+    "C": {
+      "tag": "c:strings"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:prismarine_handle",
+    "count": 1
+  }
+}

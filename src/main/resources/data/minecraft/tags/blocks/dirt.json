@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:dry_dirt"
+    "wilder_horizons:dry_dirt",
+    "wilder_horizons:mineral_rich_debris",
+    "wilder_horizons:fine_gravel",
+    "wilder_horizons:planter",
+    "wilder_horizons:rotten_flesh_block",
+    "wilder_horizons:dirt_road"
   ]
 }
