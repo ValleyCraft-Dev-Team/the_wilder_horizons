@@ -69,6 +69,7 @@ public enum WHFoods implements ItemEnum {
     CORN_BREAD(new FoodItem(settings(), 3, Nourishment.NORMAL)),
     CHOCOLATE(new FastFoodItem(settings(), 2, Nourishment.LOW)),
     CRYSTALLIZED_HONEYDROP(new FastFoodItem(settings(), 2, Nourishment.POOR)),
+    MINERS_DELIGHT(new NegativeFoodItem_1_Effect(settings(), 2, Nourishment.POOR, StatusEffects.HASTE)),
     CAKE_SLICE(new FastFoodItem(settings(), 2, Nourishment.POOR)),
     CHOCOLATE_CAKE_SLICE(new FastFoodItem(settings(), 2, Nourishment.POOR)),
     SUGAR_COOKIE(new FastFoodItem(settings().maxCount(16), 1, Nourishment.POOR)),
