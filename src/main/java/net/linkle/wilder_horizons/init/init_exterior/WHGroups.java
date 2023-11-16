@@ -15,8 +15,8 @@ public class WHGroups {
             (new Identifier(Main.ID,"wh_food"), () -> new ItemStack(WHFoods.VEGETABLE_MIX));
     public static final ItemGroup WH_FOOD_SPECIAL = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_food_special"), () -> new ItemStack(WHFoodsSpecial.COD_CHOWDER));
-    public static final ItemGroup WH_MEDICINAL = FabricItemGroupBuilder.build
-            (new Identifier(Main.ID,"wh_medicinal"), () -> new ItemStack(WHMedicines.SOAP));
+    //public static final ItemGroup WH_MEDICINAL = FabricItemGroupBuilder.build
+    //        (new Identifier(Main.ID,"wh_medicinal"), () -> new ItemStack(WHMedicines.SOAP));
     public static final ItemGroup WH_MISCELLANEOUS = FabricItemGroupBuilder.build
             (new Identifier(Main.ID,"wh_miscellaneous"), () -> new ItemStack(WHMiscItems.JELLY_BLOB));
     public static final ItemGroup WH_ARMORS = FabricItemGroupBuilder.build

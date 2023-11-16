@@ -3,25 +3,16 @@ package net.linkle.wilder_horizons.item.gear.tools.knife.special;
 import net.linkle.wilder_horizons.api.EnchantmentHandler;
 import net.linkle.wilder_horizons.interfaces.PreventDestroy;
 import net.linkle.wilder_horizons.item.gear.tools.WeaponItem;
-import net.linkle.wilder_horizons.util.WHItemUsageContext;
 import net.minecraft.block.BlockState;
-import net.minecraft.client.item.TooltipContext;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.text.Text;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 import java.util.List;
-
-import static net.minecraft.item.Items.BONE_MEAL;
 
 public class UnbreakableScalpelBase
         extends WeaponItem
@@ -45,10 +36,10 @@ public class UnbreakableScalpelBase
     //    return result;
     //}
 
-    @Override
-    public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add( Text.translatable("item.valley.scalpel.tooltip").formatted(Formatting.GRAY));
-    }
+    //@Override
+    //public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
+    //    tooltip.add( Text.translatable("item.valley.scalpel.tooltip").formatted(Formatting.GRAY));
+    //}
 
     @Override
     public List<EnchantmentTarget> getEnchantmentTypes() {

@@ -40,7 +40,7 @@ public enum WHMedicines implements ItemEnum {
     SOAP(new SoapItem(settings(), 0, 0, true, WHEffects.CLEANSED.effect));
 
     private static FabricItemSettings settings() {
-        return new FabricItemSettings().group(WHGroups.WH_MEDICINAL);
+        return new FabricItemSettings().group(WHGroups.WH_FOOD_SPECIAL);
     }
     
     private static Item registerItem(String name, Item item) {
