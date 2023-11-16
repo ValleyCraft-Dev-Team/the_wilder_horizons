@@ -8,11 +8,13 @@ import net.linkle.wilder_horizons.Main;
 import net.linkle.wilder_horizons.client.entity.model.BearEntityModel;
 import net.linkle.wilder_horizons.client.entity.model.pupkins.PupkinEntityModel;
 import net.linkle.wilder_horizons.client.entity.model.snails.SnailEntityModel;
+import net.linkle.wilder_horizons.client.entity.model.snails.LargeSnailEntityModel;
 import net.linkle.wilder_horizons.client.entity.renderer.*;
 import net.linkle.wilder_horizons.client.entity.renderer.fish.CodEntityRenderer;
 import net.linkle.wilder_horizons.client.entity.renderer.fish.SalmonEntityRenderer;
 import net.linkle.wilder_horizons.client.entity.renderer.fish.SmallTropicalFishEntityRenderer;
 import net.linkle.wilder_horizons.client.entity.renderer.pupkins.PupkinEntityRenderer;
+import net.linkle.wilder_horizons.client.entity.renderer.snails.LargeSnailEntityRenderer;
 import net.linkle.wilder_horizons.client.entity.renderer.snails.SnailEntityRenderer;
 import net.linkle.wilder_horizons.entity.*;
 import net.linkle.wilder_horizons.entity.fish.*;
@@ -154,10 +156,11 @@ public enum WHEntities implements EntityEnum {
     @Environment(EnvType.CLIENT)
     public static void initializeClient() {
         EntityModelLayerRegistry.registerModelLayer(SnailEntityModel.LAYER, SnailEntityModel::getTexturedModelData);
+        EntityModelLayerRegistry.registerModelLayer(LargeSnailEntityModel.LAYER, LargeSnailEntityModel::getTexturedModelData);
         EntityModelLayerRegistry.registerModelLayer(PupkinEntityModel.LAYER, PupkinEntityModel::getTexturedModelData);
         EntityModelLayerRegistry.registerModelLayer(BearEntityModel.LAYER, BearEntityModel::getTexturedModelData);
         
-        registerRenderer(SNAIL, SnailEntityRenderer.create("snail"));
+        registerRenderer(SNAIL, LargeSnailEntityRenderer.create("snail_large"));
         registerRenderer(CAVE_SNAIL, SnailEntityRenderer.create("cave_snail"));
         //registerRenderer(SCULK_SNAIL, SnailEntityRenderer.create("sculk_snail"));
 
@@ -191,7 +194,7 @@ public enum WHEntities implements EntityEnum {
 
         registerRenderer(CROW, BirdRenderer.create("crow"));
         registerRenderer(SEAGULL, BirdRenderer.create("seagull"));
-        registerRenderer(GUARDIAN_SENTRY, GuardianRenderer.create("sentry"));
+        registerRenderer(GUARDIAN_SENTRY, GuardianRenderer.create("guardian_sentry"));
     }
 
     // ### Enum Codes ###

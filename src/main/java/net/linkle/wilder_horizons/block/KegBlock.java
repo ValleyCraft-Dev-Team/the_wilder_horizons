@@ -34,24 +34,46 @@ import net.minecraft.world.World;
 import java.util.List;
 import java.util.Locale;
 
-public class KegBlock extends HorizontalWithWaterBlock {
-    
-    public static final VoxelShape SHAPE = Block.createCuboidShape(1, 0, 1, 15, 13, 15);
+public class KegBlock extends BlockWithWater {
+
+    public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
+    public static final EnumProperty<Attachment> ATTACHMENT = EnumProperty.of("attachment", Attachment.class);
+
+    public static final VoxelShape SHAPE_VERTICAL = Block.createCuboidShape(3, 0, 3, 13, 14, 13);
+    public static final VoxelShape SHAPE_FLOOR    = Block.createCuboidShape(1, 0, 1, 15, 13, 15);
 
     public KegBlock() {
         super(Settings.of(Material.WOOD).nonOpaque().sounds(BlockSoundGroup.WOOD).strength(1.0f, 2.0f));
     }
 
     @Override
-    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return SHAPE;
+    protected BlockState newDefaultState() {
+        return stateManager.getDefaultState().with(FACING, Direction.NORTH).with(ATTACHMENT, Attachment.FLOOR);
     }
 
     @Override
-    protected Direction getFacing(ItemPlacementContext ctx) {
-        return super.getFacing(ctx).getOpposite();
+    public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        return switch (state.get(ATTACHMENT)) {
+            case VERTICAL -> SHAPE_VERTICAL;
+            default -> SHAPE_FLOOR;
+        };
     }
-    
+
+    @Override
+    public BlockState getPlacementState(ItemPlacementContext ctx) {
+        var state = super.getPlacementState(ctx);
+        var player = ctx.getPlayer();
+        if (player != null && player.getPitch() > 75f) {
+            state = state.with(ATTACHMENT, Attachment.VERTICAL);
+        }
+        return state.with(FACING, ctx.getPlayerFacing().getOpposite());
+    }
+
+    @Override
+    protected void appendProperties(Builder<Block, BlockState> builder) {
+        super.appendProperties(builder.add(FACING, ATTACHMENT));
+    }
+
     @Override
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
         return false;
@@ -86,4 +108,21 @@ public class KegBlock extends HorizontalWithWaterBlock {
         tooltip.add( Text.translatable("block.wilder_horizons.keg.tooltip").formatted(Formatting.AQUA) );
         tooltip.add( Text.translatable("block.wilder_horizons.keg.tooltip_2").formatted(Formatting.AQUA) );
     }
+
+    public static enum Attachment implements StringIdentifiable
+    {
+        VERTICAL, FLOOR;
+
+        private final String name;
+
+        private Attachment() {
+            this.name = name().toLowerCase(Locale.ROOT);
+        }
+
+        @Override
+        public String asString() {
+            return this.name;
+        }
+    }
+
 }
