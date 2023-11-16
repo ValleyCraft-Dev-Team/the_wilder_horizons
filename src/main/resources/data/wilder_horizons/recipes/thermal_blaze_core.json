@@ -1,19 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#V#",
-    "#/#",
-    "#V#"
+    "i#i",
+    "iVi",
+    "i/i"
   ],
   "key": {
     "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "i": {
       "item": "minecraft:iron_nugget"
     },
     "V": {
-      "item": "wilder_horizons:brimstone_shard"
+      "item": "wilder_horizons:brimstone_crystal_item"
     },
     "/": {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:blaze_powder"
     }
   },
   "result": {

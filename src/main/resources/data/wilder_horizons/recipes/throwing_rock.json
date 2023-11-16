@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:rocks"
+      "item": "minecraft:cobblestone"
     }
   ],
   "result": {
     "item": "wilder_horizons:throwing_rock",
-    "count": 1
+    "count": 8
   }
 }

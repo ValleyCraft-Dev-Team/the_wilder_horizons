@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "wilder_horizons:rope"
     },
     "X": {
-      "tag": "c:arrowheads"
+      "item": "minecraft:flint"
     },
     "Y": {
-      "tag": "c:arrow_fletching"
+      "item": "wilder_horizons:wooden_staff"
     }
   },
   "pattern": [
@@ -17,7 +17,7 @@
     "Y  "
   ],
   "result": {
-    "count": 4,
-    "item": "minecraft:arrow"
+    "count": 1,
+    "item": "wilder_horizons:flint_spear"
   }
 }

@@ -5,7 +5,7 @@
       "tag": "c:handles"
     },
     "X": {
-      "tag": "minecraft:stone_tool_materials"
+      "item": "minecraft:stone"
     }
   },
   "pattern": [

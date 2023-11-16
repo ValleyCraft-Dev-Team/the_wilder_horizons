@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "wilder_horizons:rope"
+    },
+    "X": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "Y": {
+      "item": "wilder_horizons:wooden_staff"
+    }
+  },
+  "pattern": [
+    "  X",
+    " # ",
+    "Y  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "wilder_horizons:dripstone_spear"
+  }
+}

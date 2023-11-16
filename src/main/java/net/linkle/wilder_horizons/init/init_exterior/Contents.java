@@ -337,6 +337,8 @@ public class Contents {
         putFuels(WHNature.APPLE_SEED, 100);
         putFuels(WHNature.GOLD_LEAF_MAPLE_SEED, 100);
         putFuels(WHNature.WARM_BIRCH_SEED, 100);
+
+        putFuels(Items.BLAZE_POWDER, 800);
     }
     
     private static void putStrip(BlockConvertible input, BlockConvertible stripped) {

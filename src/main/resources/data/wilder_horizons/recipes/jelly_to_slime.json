@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wilder_horizons:slime_blob"
+      "item": "wilder_horizons:jelly_blob"
     },
     {
       "item": "minecraft:glow_lichen"

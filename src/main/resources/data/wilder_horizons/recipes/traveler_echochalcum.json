@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:traveler_diamond"
+  },
+  "addition": {
+    "item": "wilder_horizons:echochalcum_ingot"
+  },
+  "result": {
+    "item": "wilder_horizons:traveler_echochalcum"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "db ",
+    "bri",
+    "tiw"
+  ],
+  "key": {
+    "i": {
+      "item": "wilder_horizons:iron_scrap"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "b": {
+      "item": "wilder_horizons:brasium_ingot"
+    },
+    "t": {
+      "item": "wilder_horizons:trigger_mechanism"
+    },
+    "w": {
+      "item": "wilder_horizons:wooden_dowel"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:mining_drill",
+    "count": 1
+  }
+}

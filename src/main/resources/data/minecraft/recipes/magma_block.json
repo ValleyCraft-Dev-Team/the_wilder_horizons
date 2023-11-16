@@ -2,15 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:netherrack"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:magma_cream"
     }
   ],
   "result": {
-    "item": "wilder_horizons:jelly_blob",
+    "item": "minecraft:magma_block",
     "count": 1
   }
 }
-

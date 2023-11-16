@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:small_wither_bone"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:coal_nugget",
+    "count": 1
+  }
+}

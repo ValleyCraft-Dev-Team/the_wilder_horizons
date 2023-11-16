@@ -1,18 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#V#",
-    "WVW"
+    "VVV",
+    "VVV",
+    "V V"
   ],
   "key": {
-    "#": {
-      "item": "wilder_horizons:string_spool_normal"
-    },
     "V": {
       "item": "wilder_horizons:cloth"
-    },
-    "W": {
-      "item": "minecraft:white_dye"
     }
   },
   "result": {

@@ -2,15 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "wilder_horizons:throwing_rock"
     }
   ],
   "result": {
-    "item": "wilder_horizons:jelly_blob",
+    "item": "wilder_horizons:flint_arrowhead",
     "count": 1
   }
 }
-

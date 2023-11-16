@@ -4,7 +4,7 @@
     "item": "minecraft:stone_axe"
   },
   "addition": {
-    "tag": "minecraft:stone_crafting_materials"
+    "item": "minecraft:stone"
   },
   "result": {
     "item": "wilder_horizons:woodcutter_axe_stone"

@@ -4,7 +4,7 @@
     "item": "wilder_horizons:knife_stone"
   },
   "addition": {
-    "tag": "minecraft:stone_crafting_materials"
+    "item": "minecraft:stone"
   },
   "result": {
     "item": "wilder_horizons:traveler_stone"

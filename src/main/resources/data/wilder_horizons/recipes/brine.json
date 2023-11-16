@@ -11,8 +11,7 @@
       "item": "minecraft:kelp"
     },
     {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:water\"}"
+      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {
