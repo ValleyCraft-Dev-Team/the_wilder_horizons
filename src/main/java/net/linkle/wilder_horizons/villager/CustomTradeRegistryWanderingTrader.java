@@ -150,7 +150,7 @@ public class CustomTradeRegistryWanderingTrader {
                             new ItemStack(Items.GLOBE_BANNER_PATTERN, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 8),
+                            new ItemStack(Items.EMERALD, 2),
                             new ItemStack(Items.CLOCK, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
@@ -174,7 +174,7 @@ public class CustomTradeRegistryWanderingTrader {
                             new ItemStack(Items.GLASS_BOTTLE, 6),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 2),
+                            new ItemStack(Items.EMERALD, 1),
                             new ItemStack(Items.REDSTONE, 4),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
@@ -287,19 +287,19 @@ public class CustomTradeRegistryWanderingTrader {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHFishItems.SARDINE_BUCKET, 3),
+                            new ItemStack(WHFishItems.SARDINE_BUCKET, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHFishItems.PERCH_BUCKET, 3),
+                            new ItemStack(WHFishItems.PERCH_BUCKET, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHFishItems.RED_PORGY_BUCKET, 3),
+                            new ItemStack(WHFishItems.RED_PORGY_BUCKET, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHFishItems.STONEROLLER_MINNOW_BUCKET, 3),
+                            new ItemStack(WHFishItems.STONEROLLER_MINNOW_BUCKET, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 2),
@@ -358,6 +358,10 @@ public class CustomTradeRegistryWanderingTrader {
                             new ItemStack(Items.BAMBOO, 3),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 5),
+                            new ItemStack(WHMiscItems.SEED_BAG, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
                             new ItemStack(Items.MILK_BUCKET, 1),
                             16, 2, 0.05f)));
@@ -372,6 +376,10 @@ public class CustomTradeRegistryWanderingTrader {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 5),
                             new ItemStack(WHArmors.STRAW_HAT, 1),
+                            16, 2, 0.05f)));
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 8),
+                            new ItemStack(WHArmors.HUNTERS_CAP, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),

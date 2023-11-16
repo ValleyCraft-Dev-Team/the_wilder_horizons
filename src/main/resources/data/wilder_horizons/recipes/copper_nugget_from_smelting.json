@@ -4,8 +4,8 @@
   "experience": 0.1,
   "ingredient": [
     {
-      "item": "minecraft:golden_pickaxe"
+      "item": "wilder_horizons:copper_coin"
     }
   ],
-  "result": "wilder_horizons:brasium_scrap"
+  "result": "wilder_horizons:copper_nugget"
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:tunic"
+  },
+  "addition": {
+    "item": "wilder_horizons:salvaged_chainmail"
+  },
+  "result": {
+    "item": "wilder_horizons:reinforced_tunic"
+  }
+}

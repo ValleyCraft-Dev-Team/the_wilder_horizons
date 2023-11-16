@@ -2,18 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#L#"
+    "#t#",
+    " # "
   ],
   "key": {
     "#": {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:iron_ingot"
     },
-    "L": {
+    "t": {
       "item": "wilder_horizons:treated_leather_strap"
     }
   },
   "result": {
-    "item": "wilder_horizons:fur_hood",
+    "item": "wilder_horizons:iron_masked_helmet",
     "count": 1
   }
 }

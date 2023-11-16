@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "wilder_horizons:cracking_soul_gem"
+        },
+        {
+            "item": "wilder_horizons:gem_cutting_tools"
+        }
+    ],
+    "result": {
+        "item": "wilder_horizons:soul_powder",
+        "count": 2
+    }
+}

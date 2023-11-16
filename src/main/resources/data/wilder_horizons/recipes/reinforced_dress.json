@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:dress"
+  },
+  "addition": {
+    "item": "wilder_horizons:salvaged_chainmail"
+  },
+  "result": {
+    "item": "wilder_horizons:reinforced_dress"
+  }
+}

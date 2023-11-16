@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VVV",
+    "XXX",
+    "SSS"
+  ],
+  "key": {
+    "V": {
+      "item": "wilder_horizons:cloth"
+    },
+    "S": {
+      "item": "wilder_horizons:shroomleather"
+    },
+    "X": {
+      "item": "wilder_horizons:treated_leather_strap"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:workwear",
+    "count": 1
+  }
+}

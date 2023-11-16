@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:raw_translucent_lionfish"
+    }
+  ],
+  "result": "wilder_horizons:cooked_translucent_lionfish"
+}

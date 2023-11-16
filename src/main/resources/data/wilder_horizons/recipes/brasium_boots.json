@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "# #",
+    "# #"
   ],
   "key": {
     "#": {
-      "item": "wilder_horizons:netherite_nugget"
+      "item": "wilder_horizons:brasium_ingot"
     }
   },
   "result": {
-    "item": "minecraft:netherite_scrap",
+    "item": "wilder_horizons:brasium_boots",
     "count": 1
   }
 }

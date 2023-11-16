@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:big_dripleaf"
+      "tag": "c:chainmail"
     }
   ],
   "result": {
-    "item": "wilder_horizons:dripleaf_hat",
+    "item": "wilder_horizons:salvaged_chainmail",
     "count": 1
   }
 }

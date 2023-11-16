@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:white_wool"
+      "item": "wilder_horizons:branch"
     }
   ],
   "result": {
-    "item": "wilder_horizons:cloth",
-    "count": 4
+    "item": "minecraft:stick",
+    "count": 3
   }
 }

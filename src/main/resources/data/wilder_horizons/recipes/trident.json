@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " #",
-    "V "
+    " ##",
+    " V#",
+    "V  "
   ],
   "key": {
     "#": {
@@ -13,7 +14,7 @@
     }
   },
   "result": {
-    "item": "wilder_horizons:coral_knife_guardian",
+    "item": "minecraft:trident",
     "count": 1
   }
 }

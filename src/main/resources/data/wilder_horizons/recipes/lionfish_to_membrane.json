@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:cooked_translucent_lionfish"
+    },
+    {
+      "item": "wilder_horizons:salt"
+    }
+  ],
+  "result": {
+    "item": "minecraft:phantom_membrane",
+    "count": 1
+  }
+}

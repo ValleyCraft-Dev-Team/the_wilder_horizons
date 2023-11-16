@@ -3,6 +3,9 @@
     "ingredients": [
         {
             "item": "wilder_horizons:soul_gem"
+        },
+        {
+            "item": "wilder_horizons:gem_cutting_tools"
         }
     ],
     "result": {

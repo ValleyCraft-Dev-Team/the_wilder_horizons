@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:obsidian"
+        },
+        {
+            "item": "wilder_horizons:gem_cutting_tools"
+        }
+    ],
+    "result": {
+        "item": "wilder_horizons:obsidian_arrowhead",
+        "count": 8
+    }
+}

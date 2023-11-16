@@ -2,7 +2,6 @@ package net.linkle.wilder_horizons.villager;
 
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.linkle.wilder_horizons.init.init_core.*;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.village.TradeOffer;
@@ -202,11 +201,6 @@ public class CustomTradeRegistryModdedVillagers {
 
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HUNTER, 3,
                 factories -> {
-                    factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 4),
-                            new ItemStack(WHMiscItems.SOUL_GEM),
-                            new ItemStack(WHMiscItems.ENCHANTED_EMERALD, 1),
-                            16, 20, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(WHMiscItems.SOUL_GEM, 1),
                             new ItemStack(Items.EMERALD, 2),

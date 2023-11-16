@@ -1,19 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "#L#"
+    "S S",
+    "# #",
+    "# #"
   ],
   "key": {
     "#": {
-      "item": "minecraft:rabbit_hide"
+      "item": "wilder_horizons:brasium_ingot"
     },
-    "L": {
+    "S": {
       "item": "wilder_horizons:treated_leather_strap"
     }
   },
   "result": {
-    "item": "wilder_horizons:fur_hood",
+    "item": "wilder_horizons:brasium_thigh_guards",
     "count": 1
   }
 }

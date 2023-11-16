@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:copper_coin"
+    }
+  ],
+  "result": "wilder_horizons:copper_nugget"
+}

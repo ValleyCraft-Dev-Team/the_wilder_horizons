@@ -48,6 +48,7 @@ public enum WHMiscItems implements ItemEnum {
 
     PUFF_BALL(new AlphaModItem(settings())),
     CLOTH(new AlphaModItem(settings())),
+    SALVAGED_CHAINMAIL(new AlphaModItem(settings())),
     PILLOW(new AlphaModItem(settings())),
 
     PLANK_ITEM(new AlphaModItem(settings())),
@@ -139,7 +140,7 @@ public enum WHMiscItems implements ItemEnum {
     //DRIPSTONE_COIN(new AlphaModItem(settings().rarity(Rarity.RARE))),
 
     ROUGH_EMERALD(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
-    ENCHANTED_EMERALD(new EnchantedEmeraldItem(settings().rarity(Rarity.UNCOMMON))),
+    //ENCHANTED_EMERALD(new EnchantedEmeraldItem(settings().rarity(Rarity.UNCOMMON))),
     ROUGH_DIAMOND(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     //DIAMOND_FRAGMENTS(new AlphaModItem(settings())),
     ECHOCHALCUM_INGOT(new AlphaModItem(settings())),
