@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "oVo",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:blaze_rod"
+    },
+    "V": {
+      "item": "wilder_horizons:reinforced_handle"
+    },
+    "o": {
+      "item": "wilder_horizons:extinguishing_ointment"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:blaze_staff",
+    "count": 1
+  }
+}

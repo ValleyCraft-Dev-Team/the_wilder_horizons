@@ -1,15 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " Q",
-    "VQ"
+    "V#",
+    "QV"
   ],
   "key": {
+    "#": {
+      "tag": "c:plank_items"
+    },
     "V": {
-      "item": "wilder_horizons:fiber"
+      "item": "wilder_horizons:plant_fiber"
     },
     "Q": {
-      "tag": "c:plank_items"
+      "item": "minecraft:stick"
     }
   },
   "result": {

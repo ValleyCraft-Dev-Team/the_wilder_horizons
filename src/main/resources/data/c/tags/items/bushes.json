@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:thorny_bush",
+    "wilder_horizons:tall_living_bush",
+    "wilder_horizons:tall_dead_bush",
+    "wilder_horizons:bush",
+    "wilder_horizons:large_bush",
+    "wilder_horizons:lush_bush",
+    "minecraft:dead_bush"
+  ]
+}

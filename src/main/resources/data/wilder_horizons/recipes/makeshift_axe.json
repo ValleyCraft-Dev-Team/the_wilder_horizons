@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " #",
-    "VQ"
+    "V#",
+    "QV"
   ],
   "key": {
     "#": {
-      "tag": "c:rocks"
+      "item": "wilder_horizons:throwing_rock"
     },
     "V": {
-      "item": "wilder_horizons:fiber"
+      "item": "wilder_horizons:plant_fiber"
     },
     "Q": {
-      "tag": "c:plank_items"
+      "item": "minecraft:stick"
     }
   },
   "result": {

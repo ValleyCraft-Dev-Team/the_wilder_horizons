@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "tag": "c:plank_items"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:fire_plough",
+    "count": 1
+  }
+}
