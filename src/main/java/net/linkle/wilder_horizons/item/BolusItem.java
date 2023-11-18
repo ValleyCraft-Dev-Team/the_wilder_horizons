@@ -1,16 +1,11 @@
 package net.linkle.wilder_horizons.item;
 
 import net.linkle.wilder_horizons.util.FoodStatusEffect;
-import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.ItemStack;
-import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
-
-import java.util.List;
 
 public class BolusItem extends FoodItem {
 
@@ -29,9 +24,9 @@ public class BolusItem extends FoodItem {
         return 32;
     }
 
-    @Override
-    public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add( Text.translatable("item.soulslikegrit.poison_bolus.tooltip_0").formatted(Formatting.GRAY));
-        tooltip.add( Text.translatable("item.soulslikegrit.poison_bolus.tooltip_1").formatted(Formatting.GRAY));
-    }
+    //@Override
+    //public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
+    //    tooltip.add( Text.translatable("item.soulslikegrit.poison_bolus.tooltip_0").formatted(Formatting.GRAY));
+    //    tooltip.add( Text.translatable("item.soulslikegrit.poison_bolus.tooltip_1").formatted(Formatting.GRAY));
+    //}
 }

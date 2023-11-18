@@ -728,13 +728,7 @@ public class WHLootTables {
             .apply(FurnaceSmeltLootFunction.builder().conditionally(EntityPropertiesLootCondition.builder(EntityTarget.THIS, NEEDS_ENTITY_ON_FIRE)))
         );
         LootTableHelper.appendLoot(EntityType.SILVERFISH.getLootTableId(), builder);
-        
-        builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1)))   
-        );
-        LootTableHelper.appendLoot(EntityType.SILVERFISH.getLootTableId(), builder);
-        
+
         // skeleton horse
         builder = LootBuilder.create().rolls(1);
         bones(builder);

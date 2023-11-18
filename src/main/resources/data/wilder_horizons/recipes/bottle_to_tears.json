@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:bottle_of_ghast_tears"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:ghast_tear",
+    "count": 8
+  }
+}

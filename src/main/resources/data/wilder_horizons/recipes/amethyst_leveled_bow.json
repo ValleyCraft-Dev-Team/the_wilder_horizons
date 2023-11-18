@@ -18,9 +18,9 @@
     }
   },
   "pattern": [
-    "A#X",
+    "I#X",
     "G X",
-    "I#X"
+    "A#X"
   ],
   "result": {
     "item": "wilder_horizons:amethyst_leveled_bow"

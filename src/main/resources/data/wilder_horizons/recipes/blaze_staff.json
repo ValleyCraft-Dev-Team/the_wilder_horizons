@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:blaze_rod"
+      "item": "minecraft:blaze_rod"
     },
     "V": {
       "item": "wilder_horizons:reinforced_handle"

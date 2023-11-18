@@ -25,13 +25,13 @@ public class SpiderEggBlock extends Block {
     private static final VoxelShape SHAPE = Block.createCuboidShape(4, 0, 4, 12, 12, 12);
     
     public SpiderEggBlock() {
-        super(Settings.of(Material.DECORATION).nonOpaque().sounds(BlockSoundGroup.WOOL).breakInstantly().resistance(0.1f));
+        super(Settings.of(Material.DECORATION).nonOpaque().sounds(BlockSoundGroup.SCULK).breakInstantly().resistance(0.1f));
     }
 
     private void spawnSpiders(ServerWorld world, BlockPos pos) {
-        int randomSpiderAmount = MathHelper.nextBetween(world.random, 1, 3);
+        int randomSpiderAmount = MathHelper.nextBetween(world.random, 0, 2);
         for (int i = 0; i < randomSpiderAmount; i++) {
-            var entity = EntityType.CAVE_SPIDER.create(world);
+            var entity = EntityType.SPIDER.create(world);
             entity.refreshPositionAndAngles(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, 0, 0);
             world.spawnEntity(entity);
             entity.playSpawnEffects();
