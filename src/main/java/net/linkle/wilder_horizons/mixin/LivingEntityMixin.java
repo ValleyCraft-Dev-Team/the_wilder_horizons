@@ -81,7 +81,7 @@ abstract class LivingEntityMixin extends Entity implements LivingEntityExt {
     	var living = (LivingEntity)(Object)this;
 
         var stack = living.getEquippedStack(EquipmentSlot.CHEST);
-		if (stack.isOf(WHArmors.FRIENDLY_MASK.item)) {
+		if (stack.isOf(WHArmors.UNDYING_TALISMAN.item)) {
             if (living instanceof ServerPlayerEntity sPlayer) {
                 sPlayer.incrementStat(Stats.USED.getOrCreateStat(Items.TOTEM_OF_UNDYING));
                 Criteria.USED_TOTEM.trigger(sPlayer, stack);
@@ -94,7 +94,6 @@ abstract class LivingEntityMixin extends Entity implements LivingEntityExt {
             world.sendEntityStatus(this, EntityStatuses.USE_TOTEM_OF_UNDYING);
             stack.decrement(1);
             info.setReturnValue(true);
-            return;
 		}
     }
 }
