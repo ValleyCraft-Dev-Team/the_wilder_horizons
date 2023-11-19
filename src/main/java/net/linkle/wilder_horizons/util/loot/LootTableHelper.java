@@ -16,7 +16,8 @@ import net.minecraft.loot.LootTable;
 import net.minecraft.resource.ResourceManager;
 import net.minecraft.util.Identifier;
 
-/** Loot table helper using fabric's loot API. */
+/** Loot table helper using fabric's loot API.
+ * @author andeditor7 */
 public class LootTableHelper {
     private static final ArrayListMultimap<Identifier, LootPool.Builder> APPEND_MAP = ArrayListMultimap.create(64, 5);
     private static final ArrayListMultimap<Identifier, Consumer<LootPool.Builder>> INJECT_MAP = ArrayListMultimap.create(64, 5);
@@ -33,10 +34,10 @@ public class LootTableHelper {
     
     private static void onLootLoad(ResourceManager resourceManager, LootManager lootManager, Identifier id, LootTable.Builder tableBuilder, LootTableSource source) {
         var inject = INJECT_MAP.get(id);
-        if (inject != null) {
-            var pools = ((LootBuilderWidener)tableBuilder).getPools();
+        if (!inject.isEmpty()) {
+            var pools = ((LootBuilderWidener) tableBuilder).getPools();
             if (pools.isEmpty()) {
-                LOGGER.warn("Unable inject loot for {}", id);
+                LOGGER.warn("Unable to inject loot for {}", id);
             } else {
                 var pool = FabricLootPoolBuilder.copyOf(pools.get(0));
                 inject.forEach(c->c.accept(pool));
@@ -44,10 +45,7 @@ public class LootTableHelper {
             }
         }
 
-        var append = APPEND_MAP.get(id);
-        if (append != null) {
-            append.forEach(tableBuilder::pool);
-        }
+        APPEND_MAP.get(id).forEach(tableBuilder::pool);
     }
     
     static {
