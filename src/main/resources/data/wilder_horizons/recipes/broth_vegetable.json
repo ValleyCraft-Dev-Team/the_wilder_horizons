@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:vege_broth_bases"
+      "tag": "c:broth_bases_vege"
     },
     {
       "item": "wilder_horizons:salt"

@@ -278,7 +278,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "wilder_horizons:endura_carrot",
+          "name": "minecraft:carrot",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -85,7 +85,7 @@ public enum WHTools implements ItemEnum, ToolConstants {
     CHAMPIONS_BOW(new ChampionsBowItem(new FabricItemSettings().group(WHGroups.WH_RELICS).maxDamage(578))),
     AMETHYST_LEVELED_BOW(new AmethystLeveledBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(578))),
     BRASIUM_COMPOUND_BOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
-    MINING_DRILL(new PickaxeItem(WHToolMaterials.BRASIUM, SWORD_BASE_DAMAGE, KNIFE_BASE_SPEED, BASIC_SETTINGS)),
+    MINING_DRILL(new PickaxeItem(WHToolMaterials.BRASIUM, SWORD_BASE_DAMAGE, PICKAXE_BASE_SPEED, BASIC_SETTINGS)),
     //BRASIUM_CROSSBOW(new BrasiumBowItem(new FabricItemSettings().group(WHGroups.WH_TOOLS).maxDamage(770))),
 
     //wardens roar

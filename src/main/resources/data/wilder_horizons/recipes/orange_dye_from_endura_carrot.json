@@ -3,7 +3,7 @@
   "group": "orange_dye",
   "ingredients": [
     {
-      "item": "wilder_horizons:endura_carrot"
+      "item": "minecraft:carrot"
     }
   ],
   "result": {

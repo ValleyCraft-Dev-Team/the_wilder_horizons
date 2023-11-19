@@ -1,18 +1,9 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:cooked_bird",
-    "wilder_horizons:cooked_bat",
-    "wilder_horizons:cooked_beast_liver",
-    "wilder_horizons:cooked_beast_heart",
-    "wilder_horizons:cooked_bacon",
     "wilder_horizons:cooked_canid",
-    "wilder_horizons:cooked_tenderloin",
-    "wilder_horizons:cooked_tripe",
-    "minecraft:cooked_porkchop",
     "minecraft:cooked_beef",
     "minecraft:cooked_mutton",
-    "minecraft:cooked_chicken",
     "minecraft:cooked_rabbit"
   ]
 }

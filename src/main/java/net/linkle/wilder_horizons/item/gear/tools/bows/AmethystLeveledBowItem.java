@@ -12,6 +12,7 @@ import net.minecraft.item.Items;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
+import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
 public class AmethystLeveledBowItem extends BowItem {
@@ -95,5 +96,9 @@ public class AmethystLeveledBowItem extends BowItem {
             f = 1.0F;
         }
         return f;
+    }
+
+    public UseAction getUseAction(ItemStack stack) {
+        return UseAction.BOW;
     }
 }

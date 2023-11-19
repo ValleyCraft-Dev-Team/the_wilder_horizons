@@ -3,7 +3,7 @@
   "group": "red_dye",
   "ingredients": [
     {
-      "item": "wilder_horizons:hearty_beetroot"
+      "item": "minecraft:beetroot"
     }
   ],
   "result": {

@@ -69,8 +69,8 @@ public enum WHEntities implements EntityEnum {
     RETRIEVER(createMob(SpawnGroup.CREATURE, DogEntity::new).dimensions(new EntityDimensions(0.6f, 0.85f, false)).trackRangeChunks(10)
             .spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, DogEntity::isValidNaturalSpawn)),
     
-    BROWN_BEAR(createMob(SpawnGroup.CREATURE, BearEntity::new).dimensions(new EntityDimensions(1.3f, 1.25f, false)).trackRangeChunks(10)
-            .spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, AnimalEntity::isValidNaturalSpawn)),
+    //BROWN_BEAR(createMob(SpawnGroup.CREATURE, BearEntity::new).dimensions(new EntityDimensions(1.3f, 1.25f, false)).trackRangeChunks(10)
+    //        .spawnRestriction(Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, AnimalEntity::isValidNaturalSpawn)),
 
     // Snails
     SNAIL(createMob(SpawnGroup.AMBIENT, SnailEntity::new).dimensions(new EntityDimensions(0.5F, 0.4F, true)).trackRangeChunks(5)),
@@ -133,7 +133,7 @@ public enum WHEntities implements EntityEnum {
         registerAttribute(MOSSY_SHEEP, MossySheepEntity.createSheepAttributes());
         registerAttribute(COLLIE, DogEntity.createDogAttributes());
         registerAttribute(RETRIEVER, DogEntity.createDogAttributes());
-        registerAttribute(BROWN_BEAR, BearEntity.createBearAttributes());
+        //registerAttribute(BROWN_BEAR, BearEntity.createBearAttributes());
         
         //registerAttribute(ZOD, UndeadFishEntity.createUndeadFishAttributes());
         registerAttribute(BONEFIN, UndeadFishEntity.createUndeadFishAttributes());
@@ -177,7 +177,7 @@ public enum WHEntities implements EntityEnum {
         registerRenderer(MOSSY_SHEEP, MossySheepRenderer::new);
         registerRenderer(COLLIE, DogRenderer.create("collie"));
         registerRenderer(RETRIEVER, DogRenderer.create("golden_retriever"));
-        registerRenderer(BROWN_BEAR, BrownBearRenderer::new);
+        //registerRenderer(BROWN_BEAR, BrownBearRenderer::new);
         
         //registerRenderer(ZOD, CodEntityRenderer.create("zod"));
         registerRenderer(ABYSSWATCHER, CodEntityRenderer.create("abysswatcher"));

@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wilder_horizons:shivercap"
+      "item": "wilder_horizons:dried_glow_kelp"
     },
     {
-      "item": "wilder_horizons:jungle_cap"
+      "item": "wilder_horizons:cooked_rice"
     },
     {
-      "item": "minecraft:brown_mushroom"
+        "item": "minecraft:brown_mushroom"
     },
     {
       "tag": "c:olive_oils"
@@ -21,7 +21,7 @@
     }
   ],
   "result": {
-    "item": "wilder_horizons:shivercap_stir_fry",
+    "item": "wilder_horizons:dried_glow_kelp_stir_fry",
     "count": 1
   }
 }

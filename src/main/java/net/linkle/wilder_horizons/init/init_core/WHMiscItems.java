@@ -191,7 +191,7 @@ public enum WHMiscItems implements ItemEnum {
     MOSSY_SHEEP_SPAWN_EGG(new SpawnEggItem(WHEntities.MOSSY_SHEEP.type(), 0x71872f, 0x6a5227, settings().rarity(Rarity.EPIC))),
     COLLIE_SPAWN_EGG(new SpawnEggItem(WHEntities.COLLIE.type(), 0x18181c, 0xe6e6e6, settings().rarity(Rarity.EPIC))),
     RETRIEVER_SPAWN_EGG(new SpawnEggItem(WHEntities.RETRIEVER.type(), 0xe6d081, 0xb38650, settings().rarity(Rarity.EPIC))),
-    BROWN_BEAR_SPAWN_EGG(new SpawnEggItem(WHEntities.BROWN_BEAR.type(), 0x492f17, 0x301e0e, settings().rarity(Rarity.EPIC))),
+    //BROWN_BEAR_SPAWN_EGG(new SpawnEggItem(WHEntities.BROWN_BEAR.type(), 0x492f17, 0x301e0e, settings().rarity(Rarity.EPIC))),
     SNAIL_SPAWN_EGG(new SpawnEggItem(WHEntities.SNAIL.type(), 0x8c7461, 0xd9a757, settings().rarity(Rarity.EPIC))),
     CAVE_SNAIL_SPAWN_EGG(new SpawnEggItem(WHEntities.CAVE_SNAIL.type(), 0x836356, 0x6b4e4b, settings().rarity(Rarity.EPIC))),
     BONEFIN_SPAWN_EGG(new SpawnEggItem(WHEntities.BONEFIN.type(), 0xe8e6d8, 0x999173, settings().rarity(Rarity.EPIC))),

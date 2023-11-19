@@ -87,7 +87,7 @@ public enum WHFoodIngredients implements ItemEnum {
     RAW_BEAST_LIVER(new FoodItem(settings(), 4, Nourishment.LOW, true)),
     RAW_BEAST_HEART(new FoodItem(settings(), 4, Nourishment.LOW, true)),
     RAW_CANID(new FoodItem(settings(), 3, Nourishment.LOW, true)),
-    RAW_TENDERLOIN(new FoodItem(settings(), 4, Nourishment.LOW, true)),
+    //RAW_TENDERLOIN(new FoodItem(settings(), 4, Nourishment.LOW, true)),
     RAW_BAT_WING(new FoodItem(settings(), 2, Nourishment.POOR, true)),
     //RAW_CAVE_MAGGOT(new FoodItem(settings(), 1, Nourishment.POOR, true)),
     RAW_SILVERFISH(new FoodItem(settings(), 1, Nourishment.POOR, true)),

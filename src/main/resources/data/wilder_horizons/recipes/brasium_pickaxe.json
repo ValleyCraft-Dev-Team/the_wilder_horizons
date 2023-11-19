@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:handles"
+    },
+    "X": {
+      "item": "wilder_horizons:brasium_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "wilder_horizons:brasium_pickaxe"
+  }
+}

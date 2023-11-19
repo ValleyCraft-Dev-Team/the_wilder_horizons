@@ -1,22 +1,20 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:raw_squid_tentacle",
     "wilder_horizons:raw_abysswatcher",
     "wilder_horizons:raw_stoneroller_minnow",
     "wilder_horizons:raw_red_porgy",
     "wilder_horizons:raw_perch",
+    "wilder_horizons:raw_goldfin",
+    "wilder_horizons:raw_translucent_lionfish",
+    "wilder_horizons:cooked_goldfin",
+    "wilder_horizons:cooked_translucent_lionfish",
     "wilder_horizons:raw_sardine",
     "wilder_horizons:cooked_sardine",
-    "wilder_horizons:raw_glowsquid_tentacle",
     "wilder_horizons:cooked_tropical_fish",
-    "wilder_horizons:cooked_squid",
     "wilder_horizons:cooked_abysswatcher",
     "wilder_horizons:cooked_stoneroller_minnow",
     "wilder_horizons:cooked_red_porgy",
-    "wilder_horizons:cooked_perch",
-    "wilder_horizons:cooked_sea_urchin",
-    "wilder_horizons:cooked_clam",
-    "wilder_horizons:clam_block"
+    "wilder_horizons:cooked_perch"
   ]
 }

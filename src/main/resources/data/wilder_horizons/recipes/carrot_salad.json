@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wilder_horizons:endura_carrot"
+      "item": "minecraft:carrot"
     },
     {
       "item": "minecraft:kelp"

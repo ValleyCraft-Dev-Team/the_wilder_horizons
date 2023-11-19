@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#B",
-    "D "
+    "DB",
+    "#D"
   ],
   "key": {
     "#": {
@@ -16,7 +16,7 @@
     }
   },
   "result": {
-    "item": "wilder_horizons:healing_salve",
-    "count": 1
+    "item": "wilder_horizons:salve_healing",
+    "count": 3
   }
 }

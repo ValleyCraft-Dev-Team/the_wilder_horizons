@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:baked_apple",
+    "wilder_horizons:baked_beetroot",
+    "wilder_horizons:baked_carrot",
+    "wilder_horizons:baked_fire_pepper",
+    "wilder_horizons:baked_pumpkin_slice",
+    "wilder_horizons:baked_melon_slice",
+    "wilder_horizons:baked_onion",
+    "wilder_horizons:baked_seeds",
+    "wilder_horizons:baked_bamboo",
+    "wilder_horizons:baked_sweet_berries",
+    "wilder_horizons:baked_glow_berries",
+    "wilder_horizons:cooked_rice",
+    "wilder_horizons:cooked_cave_root",
+    "minecraft:baked_potato"
+  ]
+}

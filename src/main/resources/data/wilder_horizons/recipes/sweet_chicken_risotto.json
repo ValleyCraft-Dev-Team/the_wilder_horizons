@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wilder_horizons:syrupy_honeycomb"
+      "item": "minecraft:honeycomb"
     },
     {
       "item": "wilder_horizons:cooked_rice"

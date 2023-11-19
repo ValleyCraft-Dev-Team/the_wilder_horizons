@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "wilder_horizons:brasium_hoe"
+  },
+  "addition": {
+    "item": "wilder_horizons:brasium_ingot"
+  },
+  "result": {
+    "item": "wilder_horizons:scythe_brasium"
+  }
+}

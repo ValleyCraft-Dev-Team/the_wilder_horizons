@@ -4,8 +4,8 @@
   "experience": 0.1,
   "ingredient": [
     {
-      "item": "wilder_horizons:hearty_beetroot"
+      "item": "minecraft:beetroot"
     }
   ],
-  "result": "wilder_horizons:baked_hearty_beetroot"
+  "result": "wilder_horizons:baked_beetroot"
 }

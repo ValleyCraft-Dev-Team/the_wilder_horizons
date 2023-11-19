@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wilder_horizons:stalwart_shroom"
+      "item": "minecraft:brown_mushroom"
     },
     {
       "item": "minecraft:cooked_cod"

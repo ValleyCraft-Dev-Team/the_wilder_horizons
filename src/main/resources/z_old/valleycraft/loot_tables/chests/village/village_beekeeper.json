@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "wilder_horizons:syrupy_honeycomb",
+          "name": "minecraft:honeycomb",
           "functions": [
             {
               "function": "minecraft:set_count",

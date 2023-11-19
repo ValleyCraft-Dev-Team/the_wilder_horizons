@@ -62,7 +62,7 @@ public enum WHFoods implements ItemEnum {
     COOKED_BEAST_LIVER(new FoodItem(settings(), 8, Nourishment.GOOD, true)),
     COOKED_BEAST_HEART(new FoodItem(settings(), 10, Nourishment.GOOD, true)),
     COOKED_CANID(new FoodItem(settings(), 6, Nourishment.GOOD, true)),
-    COOKED_TENDERLOIN(new FoodItem(settings(), 8, Nourishment.GOOD, true)),
+    //COOKED_TENDERLOIN(new FoodItem(settings(), 8, Nourishment.GOOD, true)),
     COOKED_TRIPE(new FoodItem(settings(), 8, Nourishment.GOOD, true)),
     DOG_BISCUIT(new FoodItem(settings().group(WH_FOOD), 2, Nourishment.NORMAL, true)),
     HARDTACK(new FastFoodItem(settings(), 3, Nourishment.POOR)),

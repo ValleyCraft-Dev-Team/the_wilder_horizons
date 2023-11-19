@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "wilder_horizons:purple_mushroom",
+    "wilder_horizons:jellycap"
+  ]
+}

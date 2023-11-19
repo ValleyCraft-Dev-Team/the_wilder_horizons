@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:campfire_cooking",
+  "type": "minecraft:smoking",
   "cookingtime": 100,
   "experience": 0.1,
   "ingredient": [
