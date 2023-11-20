@@ -143,6 +143,7 @@ public enum WHMiscItems implements ItemEnum {
     //ENCHANTED_EMERALD(new EnchantedEmeraldItem(settings().rarity(Rarity.UNCOMMON))),
     ROUGH_DIAMOND(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     //DIAMOND_FRAGMENTS(new AlphaModItem(settings())),
+    DIAMOND_PLATE(new AlphaModItem(settings().recipeRemainder(GEM_CUTTING_TOOLS.asItem()))),
     ECHOCHALCUM_INGOT(new AlphaModItem(settings())),
     RAW_NETHERITE_NUGGET(new AlphaModItem(settings())),
     FLINT_ARROWHEAD(new AlphaModItem(settings())),

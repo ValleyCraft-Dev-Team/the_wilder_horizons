@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "dda",
+    "daa",
+    " l "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:diamond"
+    },
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "l": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:diamond_plate",
+    "count": 1
+  }
+}

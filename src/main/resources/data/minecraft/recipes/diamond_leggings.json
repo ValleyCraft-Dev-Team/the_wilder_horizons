@@ -1,19 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "#": {
-      "tag": "c:handles"
-    },
     "X": {
       "tag": "c:diamond_plates"
     }
   },
   "pattern": [
-    "XX",
-    "X#",
-    " #"
+    "XXX",
+    "X X",
+    "X X"
   ],
   "result": {
-    "item": "minecraft:diamond_axe"
+    "item": "minecraft:diamond_leggings"
   }
 }
