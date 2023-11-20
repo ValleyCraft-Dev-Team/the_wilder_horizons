@@ -19,7 +19,6 @@ import java.util.Locale;
 public enum VegetationConfigs implements ConfigFeature {
     
     PATCH_PUMPKIN(Feature.RANDOM_PATCH, cratePatch(50, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, simpleBlock(Blocks.PUMPKIN), BlockPredicate.bothOf(BlockPredicate.replaceable(), BlockPredicate.matchingBlockTag(Direction.DOWN.getVector(), BlockTags.DIRT)))));
-
     
     public static void initialize() {}
     
@@ -36,15 +35,15 @@ public enum VegetationConfigs implements ConfigFeature {
     private static SimpleBlockFeatureConfig simpleBlock(BlockState state) {
         return new SimpleBlockFeatureConfig(BlockStateProvider.of(state));
     }
-    
-    // Enum
+
+    // ### Enum Codes ###
     
     private final ConfiguredFeature<?, ?> config;
     private final RegistryEntry<ConfiguredFeature<?, ?>> entry;
     private final Identifier id;
 
     <T extends FeatureConfig> VegetationConfigs(Feature<T> feature, T config) {
-        this.config = new ConfiguredFeature<T, Feature<T>>(feature, config);
+        this.config = new ConfiguredFeature<>(feature, config);
         entry = BuiltinRegistries.add(BuiltinRegistries.CONFIGURED_FEATURE, id = Main.makeId(name().toLowerCase(Locale.ROOT)), this.config);
     }
 

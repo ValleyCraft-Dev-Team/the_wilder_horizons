@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons;
 
+import net.linkle.wilder_horizons.environment.gen.feature.Features;
 import net.linkle.wilder_horizons.environment.gen.feature.TreeConfigs;
 import net.linkle.wilder_horizons.environment.gen.feature.VegetationPlaced;
 import net.linkle.wilder_horizons.environment.sounds.WHSounds;
@@ -43,6 +44,7 @@ public class Main implements ModInitializer {
         CustomTradeRegistryModdedVillagers.setupTrades();
         CustomTradeRegistryWanderingTrader.setupTrades();
         WHSounds.initialize();
+        Features.initialize();
         TreeConfigs.initialize();
         VegetationPlaced.initialize();
         DungeonRemover.init();
