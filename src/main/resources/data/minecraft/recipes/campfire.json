@@ -4,20 +4,13 @@
     "C": {
       "tag": "c:campfire_fuels"
     },
-    "L": {
-      "tag": "minecraft:logs"
-    },
-    "X": {
-      "item": "minecraft:stick"
-    },
     "S": {
       "tag": "c:plank_items"
     }
   },
   "pattern": [
-    "XSX",
-    "SCS",
-    "LLL"
+    "SS",
+    "CS"
   ],
   "result": {
     "item": "minecraft:campfire"

@@ -1,16 +1,13 @@
 package net.linkle.wilder_horizons.villager;
 
-import net.fabricmc.fabric.api.object.builder.v1.villager.VillagerProfessionBuilder;
-import net.linkle.wilder_horizons.init.init_core.WHBlocks;
-import net.minecraft.block.Blocks;
-import net.minecraft.util.Identifier;
-
 import com.google.common.collect.ImmutableSet;
-
+import net.fabricmc.fabric.api.object.builder.v1.villager.VillagerProfessionBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.linkle.wilder_horizons.Main;
+import net.linkle.wilder_horizons.init.init_core.WHBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.village.VillagerProfession;
@@ -24,7 +21,7 @@ public class ModVillagers {
     public static final VillagerProfession STABLEHAND = registerPro("stablehand", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY,
             new Identifier(Main.ID, "stablehand_poi")));
 
-    public static final PointOfInterestType INNKEEPER_POI = registerPOI("innkeeper_poi", WHBlocks.KEG.block);
+    public static final PointOfInterestType INNKEEPER_POI = registerPOI("innkeeper_poi", WHBlocks.BRICK_STOVE.block);
     public static final VillagerProfession INNKEEPER = registerPro("innkeeper", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "innkeeper_poi")));
 
     //can generate alone

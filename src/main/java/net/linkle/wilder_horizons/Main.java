@@ -10,6 +10,7 @@ import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
 import net.linkle.wilder_horizons.tags.ModBlockTags;
 import net.linkle.wilder_horizons.tags.ModItemTags;
 import net.linkle.wilder_horizons.villager.CustomTradeRegistryModdedVillagers;
+import net.linkle.wilder_horizons.villager.CustomTradeRegistryVanillaVillagers;
 import net.linkle.wilder_horizons.villager.CustomTradeRegistryWanderingTrader;
 import net.linkle.wilder_horizons.villager.ModVillagers;
 import net.linkle.wilder_horizons.world_modifications.DungeonRemover;
@@ -43,6 +44,7 @@ public class Main implements ModInitializer {
         ModVillagers.registerVillagers();
         CustomTradeRegistryModdedVillagers.setupTrades();
         CustomTradeRegistryWanderingTrader.setupTrades();
+        CustomTradeRegistryVanillaVillagers.setupTrades();
         WHSounds.initialize();
         Features.initialize();
         TreeConfigs.initialize();

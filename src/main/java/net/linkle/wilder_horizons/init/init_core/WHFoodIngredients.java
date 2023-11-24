@@ -116,6 +116,7 @@ public enum WHFoodIngredients implements ItemEnum {
     CHOCOLATE_CHUNK_COOKIE_DOUGH(new FoodItem(settings(), 1, Nourishment.POOR)),
     PUMPKIN_SPICE_COOKIE_DOUGH(new FoodItem(settings(), 1, Nourishment.POOR)),
     SALMON_PIE_DOUGH(new FoodItem(settings(), 3, Nourishment.POOR)),
+    CHICKEN_POT_PIE_DOUGH(new FoodItem(settings(), 3, Nourishment.POOR)),
     PUMPKIN_PIE_DOUGH(new FoodItem(settings(), 3, Nourishment.POOR)),
     CHOCOLATE_PIE_DOUGH(new FoodItem(settings(), 3, Nourishment.POOR)),
     APPLE_PIE_DOUGH(new FoodItem(settings(), 3, Nourishment.POOR)),

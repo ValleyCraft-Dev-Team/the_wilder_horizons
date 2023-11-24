@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "wilder_horizons:chicken_pot_pie_dough"
+    }
+  ],
+  "result": "wilder_horizons:chicken_pot_pie"
+}

@@ -78,6 +78,7 @@ public enum WHFoods implements ItemEnum {
     VANILLA_PUMPKIN_SPICE_COOKIE(new FastFoodItem(settings().maxCount(16), 2, Nourishment.POOR)),
     CHOCOLATE_PUMPKIN_SPICE_COOKIE(new FastFoodItem(settings().maxCount(16), 2, Nourishment.POOR)),
     SALMON_PIE(new FoodItem(settings(), 10, Nourishment.NORMAL)),
+    CHICKEN_POT_PIE(new FoodItem(settings(), 10, Nourishment.NORMAL)),
     PUMPKIN_PIE_SLICE(new FastFoodItem(settings().maxCount(16), 2, Nourishment.LOW)),
     APPLE_PIE(new FoodItem(settings(), 8, Nourishment.LOW)),
     APPLE_PIE_SLICE(new FastFoodItem(settings().maxCount(16), 2, Nourishment.LOW)),
