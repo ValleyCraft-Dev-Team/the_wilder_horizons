@@ -1,21 +1,5 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:cairnstone",
-    "wilder_horizons:cairnstone_stairs",
-    "wilder_horizons:cairnstone_slab",
-    "wilder_horizons:cairnstone_wall",
-    "wilder_horizons:polished_cairnstone",
-    "wilder_horizons:polished_cairnstone_stairs",
-    "wilder_horizons:polished_cairnstone_slab",
-    "wilder_horizons:polished_cairnstone_wall",
-    "wilder_horizons:cairnstone_bricks",
-    "wilder_horizons:cairnstone_brick_stairs",
-    "wilder_horizons:cairnstone_brick_slab",
-    "wilder_horizons:cairnstone_brick_wall",
-    "wilder_horizons:chiseled_cairnstone",
-    "wilder_horizons:magma_filled_chiseled_cairnstone",
-    "wilder_horizons:cairnstone_pillar"
-
   ]
 }

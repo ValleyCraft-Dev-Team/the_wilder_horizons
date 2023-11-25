@@ -4,6 +4,12 @@
   "experience": 0.1,
   "ingredient": [
     {
+      "item": "minecraft:powered_rail"
+    },
+    {
+      "item": "wilder_horizons:raw_copper_nugget"
+    },
+    {
       "item": "wilder_horizons:copper_coin"
     }
   ],

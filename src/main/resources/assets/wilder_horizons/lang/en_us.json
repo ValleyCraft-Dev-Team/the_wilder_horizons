@@ -26,6 +26,8 @@
   "subtitles.entity.wandering_trader.reappeared": "Wandering Allager Trader appears",
   "subtitles.entity.wandering_trader.trade": "Wandering Allager Trader trades",
   "subtitles.entity.wandering_trader.yes": "Wandering Allager Trader agrees",
+  "entity.minecraft.villager.clothier": "Clothier",
+  "block.wilder_horizons.clothing_station": "Clothier Workbench",
 
   "item.wilder_horizons.healing_salve": "Healing Poultice",
 
@@ -185,8 +187,8 @@
   "block.wilder_horizons.fireguard.tooltip_2": "and sparks getting out.",
   "block.wilder_horizons.defective_spawner.tooltip": "Broken beyond repair. It's only",
   "block.wilder_horizons.defective_spawner.tooltip_2": "use now is purely decorative.",
-  "block.wilder_horizons.keg.tooltip": "Refills buckets, clay pots,",
-  "block.wilder_horizons.keg.tooltip_2": "and bottles with water.",
+  "block.wilder_horizons.keg.tooltip": "Refills buckets and",
+  "block.wilder_horizons.keg.tooltip_2": "glass bottles with water.",
   "block.wilder_horizons.dishes.tooltip": "Used in special dishes to",
   "item.wilder_horizons.dishes.tooltip": "Used in special dishes to",
   "block.wilder_horizons.dishes.tooltip_2": "give fire resistance.",

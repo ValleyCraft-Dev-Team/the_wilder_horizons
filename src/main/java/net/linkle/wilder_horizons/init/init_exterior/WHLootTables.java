@@ -1540,6 +1540,15 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BEAST_HEART).weight(3));
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BEAST_LIVER).weight(5));
     }
+
+    private static void smallBeastBones(LootBuilder builder) {
+        builder.with(ItemEntry.builder(Items.BONE_MEAL).weight(10)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))
+        );
+        builder.with(ItemEntry.builder(WHMiscItems.SMALL_BONE).weight(8)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+        );
+    }
     
     private static void monster(LootBuilder builder) {
         builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_HEART).weight(5)

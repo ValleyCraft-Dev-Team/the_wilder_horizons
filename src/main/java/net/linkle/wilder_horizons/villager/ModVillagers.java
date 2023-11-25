@@ -28,6 +28,9 @@ public class ModVillagers {
     public static final PointOfInterestType HUNTER_POI = registerPOI("hunter_poi", WHBlocks.HUNTING_STATION.block);
     public static final VillagerProfession HUNTER = registerPro("hunter", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "hunter_poi")));
 
+    public static final PointOfInterestType CLOTHIER_POI = registerPOI("clothier_poi", WHBlocks.CLOTHING_STATION.block);
+    public static final VillagerProfession CLOTHIER = registerPro("clothier", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "clothier_poi")));
+
     //public static final PointOfInterestType CLOTHIER_POI = registerPOI("clothier_poi", WHBlocks.CLOTHING_STATION.block);
     //public static final VillagerProfession CLOTHIER = registerPro("clothier", RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(Main.ID, "hunter_poi")));
 

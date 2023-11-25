@@ -13,8 +13,11 @@
       "item": "minecraft:golden_apple"
     },
     {
-      "item": "minecraft:enchanted_golden_apple"
+      "item": "minecraft:golden_horse_armor"
     },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
   ],
   "result": "minecraft:gold_ingot"
 }

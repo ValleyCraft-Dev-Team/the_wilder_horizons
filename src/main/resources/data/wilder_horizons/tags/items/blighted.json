@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "wilder_horizons:raw_endermite",
-    "wilder_horizons:ender_dragon_gland",
-    "wilder_horizons:ender_dragon_eye"
+    "wilder_horizons:dragon_tooth",
+    "minecraft:dragon_head"
   ]
 }

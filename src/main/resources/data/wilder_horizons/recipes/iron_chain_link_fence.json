@@ -7,11 +7,11 @@
   ],
   "key": {
     "/": {
-      "item": "wilder_horizons:plank_item"
+      "item": "minecraft:chain"
     }
   },
   "result": {
-    "item": "wilder_horizons:wattle_bars",
+    "item": "wilder_horizons:iron_chain_link_fence",
     "count": 16
   }
 }

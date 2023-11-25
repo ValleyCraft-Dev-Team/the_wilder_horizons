@@ -34,14 +34,11 @@
     "wilder_horizons:stone_brick_chimney",
     "wilder_horizons:brick_chimney",
     "wilder_horizons:mud_brick_chimney",
-    "wilder_horizons:erdcobblestone_chimney",
-    "wilder_horizons:erdstone_brick_chimney",
     "wilder_horizons:daub_chimney",
     "wilder_horizons:sandstone_chimney",
     "wilder_horizons:red_sandstone_chimney",
     "wilder_horizons:sandstone_brick_chimney",
     "wilder_horizons:red_sandstone_brick_chimney",
-    "wilder_horizons:scorchstone_brick_chimney",
     "wilder_horizons:salt_brick_chimney",
     "wilder_horizons:carmine_cobblestone_chimney",
     "wilder_horizons:carmine_brick_chimney",
@@ -54,12 +51,9 @@
     "wilder_horizons:basalt_brick_chimney",
     "wilder_horizons:marble_brick_chimney",
     "wilder_horizons:shale_brick_chimney",
-    "wilder_horizons:adventurine_brick_chimney",
     "wilder_horizons:deepslate_tile_chimney",
     "wilder_horizons:deepslate_brick_chimney",
     "wilder_horizons:nether_brick_chimney",
-    "wilder_horizons:red_nether_brick_chimney",
-    "wilder_horizons:end_stone_brick_chimney",
-    "wilder_horizons:purpur_block_chimney"
+    "wilder_horizons:red_nether_brick_chimney"
   ]
 }

@@ -56,7 +56,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     HUNTING_STATION(new HorizontalBlock(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
 
     ///**clothier poi**/
-    //CLOTHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
+    CLOTHING_STATION(new Block(AbstractBlock.Settings.copy(Blocks.FLETCHING_TABLE)), itemSettings()),
 
     PLANTER(new Block(Block.Settings.copy(Blocks.TERRACOTTA)), itemSettings()),
     RAIN_COLLECTOR(new RainCollectorBlock(Block.Settings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque()), itemSettings()),

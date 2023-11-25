@@ -1,12 +1,10 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:brick_stove",
-    "wilder_horizons:spike_trap",
-    "wilder_horizons:mimic_flower",
     "wilder_horizons:brazier",
     "wilder_horizons:soul_brazier",
-    "wilder_horizons:iron_brazier",
+    "wilder_horizons:firefern",
+    "wilder_horizons:brimstone_crystal",
     "wilder_horizons:campfire_pot",
     "wilder_horizons:soul_campfire_pot"
   ]

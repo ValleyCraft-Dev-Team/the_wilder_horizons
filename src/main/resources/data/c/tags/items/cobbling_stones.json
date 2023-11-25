@@ -13,14 +13,12 @@
     "minecraft:infested_cobblestone",
     "minecraft:mossy_cobblestone",
     "wilder_horizons:mossy_cobblestone_bricks",
-    "wilder_horizons:cracked_cobblestone_bricks",
     "wilder_horizons:cobblestone_bricks",
     "wilder_horizons:chiseled_cobblestone_bricks",
     "wilder_horizons:stone_tiles",
     "wilder_horizons:stone_pillar",
     "wilder_horizons:stone_capped",
     "wilder_horizons:polished_stone",
-    "wilder_horizons:smooth_stone_tiles",
-    "wilder_horizons:smooth_stone_capped"
+    "wilder_horizons:smooth_stone_tiles"
   ]
 }

@@ -4,13 +4,13 @@
   "experience": 0.1,
   "ingredient": [
     {
-      "item": "minecraft:brown_mushroom"
-    },
-    {
       "item": "minecraft:chain"
     },
     {
       "item": "wilder_horizons:iron_rail"
+    },
+    {
+      "item": "wilder_horizons:raw_iron_nugget"
     },
     {
       "item": "wilder_horizons:iron_chain"
