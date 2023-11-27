@@ -1,3 +1,4 @@
+
 package net.linkle.wilder_horizons.init.init_core;
 
 import net.linkle.wilder_horizons.Main;
@@ -18,7 +19,6 @@ import java.util.Locale;
 public enum WHPotions implements IdProvider {
 
     ROT_BLIGHT_POTION(new StatusEffectInstance(WHEffects.ROT_BLIGHT.effect, 45 * 20)),
-    ROT_BLIGHT_WEAK(new StatusEffectInstance(WHEffects.ROT_BLIGHT.effect, 23 * 20)),
 
     LEVITATION_POTION(new StatusEffectInstance(StatusEffects.LEVITATION, 45 * 20)),
     LEVITATION_POTION_LONG(new StatusEffectInstance(StatusEffects.LEVITATION, 90 * 20)),
@@ -40,6 +40,8 @@ public enum WHPotions implements IdProvider {
     FERAL_STRENGTH(new StatusEffectInstance(StatusEffects.STRENGTH, 45 * 20, 2), new StatusEffectInstance(StatusEffects.NAUSEA, 45 *20, 2)),
     FERAL_STRENGTH_LONG(new StatusEffectInstance(StatusEffects.STRENGTH, 90 * 20, 2), new StatusEffectInstance(StatusEffects.NAUSEA, 90 *20, 2)),
     FERAL_STRENGTH_WEAK(new StatusEffectInstance(StatusEffects.STRENGTH, 12 * 20, 2), new StatusEffectInstance(StatusEffects.NAUSEA, 45 *20, 2)),
+
+    ABYSSAL_FORTITUDE(new StatusEffectInstance(StatusEffects.STRENGTH, 120 * 20, 0), new StatusEffectInstance(StatusEffects.SPEED, 120 * 20, 0)),
 
     INVISIBILITY_WEAK(new StatusEffectInstance(StatusEffects.INVISIBILITY, 12 * 20)),
     DRAGONHEARTED(new StatusEffectInstance(StatusEffects.STRENGTH, 45 * 20, 3), new StatusEffectInstance(StatusEffects.POISON, 21 *20, 1)),
@@ -69,8 +71,7 @@ public enum WHPotions implements IdProvider {
     STRENGTH_WEAK(new StatusEffectInstance(StatusEffects.STRENGTH, 18 * 20)),
     WEAKNESS_WEAK(new StatusEffectInstance(StatusEffects.WEAKNESS, 18 * 20)),
     ABSORPTION_WEAK(new StatusEffectInstance(StatusEffects.ABSORPTION, 18 * 20)),
-    WATER_BREATHING_ULTRA_WEAK(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 12 * 20)),
-    WATER_BREATHING_WEAK(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 24 * 20));
+    WATER_BREATHING_WEAK(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 18 * 20));
 
     public static void initialize() {
         registerRecipe(Potions.WATER, WHMiscItems.BEAST_CLAW.item, Potions.AWKWARD);
@@ -86,7 +87,7 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, WHNature.STARFISH_BLOCK.item, WATER_BREATHING_WEAK.potion);
         registerRecipe(ABSORPTION_POTION.potion, Items.REDSTONE, ABSORPTION_POTION_LONG.potion);
         registerRecipe(ABSORPTION_POTION.potion, Items.GLOWSTONE_DUST, ABSORPTION_POTION_FAST.potion);
-        registerRecipe(Potions.AWKWARD, Items.NAUTILUS_SHELL, Potions.STRENGTH);
+        registerRecipe(Potions.AWKWARD, Items.NAUTILUS_SHELL, ABYSSAL_FORTITUDE.potion);
         registerRecipe(Potions.AWKWARD, Items.AMETHYST_SHARD, HASTE_POTION.potion);
         registerRecipe(HASTE_POTION.potion, Items.REDSTONE, HASTE_POTION_LONG.potion);
         registerRecipe(HASTE_POTION.potion, Items.GLOWSTONE_DUST, HASTE_POTION_FAST.potion);
@@ -98,8 +99,11 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, Items.HONEYCOMB, REGENERATION_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.HONEY_BOTTLE, Potions.REGENERATION);
         registerRecipe(Potions.AWKWARD, WHMiscItems.DRAGON_TOOTH.item, RADIANT_HEALING.potion);
-        registerRecipe(Potions.AWKWARD, Items.PHANTOM_MEMBRANE, Potions.SLOW_FALLING);
-        registerRecipe(Potions.LUCK, Items.GLOWSTONE_DUST, Potions.LONG_SLOW_FALLING);
+        registerRecipe(Potions.AWKWARD, Items.PHANTOM_MEMBRANE, INVISIBILITY_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_TRANSLUCENT_LIONFISH.item, Potions.INVISIBILITY);
+        registerRecipe(Potions.LUCK, Items.GLOWSTONE_DUST, LUCK_LONG.potion);
+        registerRecipe(Potions.LUCK, Items.REDSTONE, LUCK_FAST.potion);
+        registerRecipe(Potions.AWKWARD, WHMiscItems.WISH_BONE.item, Potions.LUCK);
         registerRecipe(Potions.AWKWARD, Items.FEATHER, SLOW_FALLING_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHMiscItems.CROW_FEATHER.item, SLOW_FALLING_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHMiscItems.DUCK_FEATHER.item, SLOW_FALLING_WEAK.potion);
@@ -118,7 +122,6 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_SQUID_TENTACLE.item, BLINDNESS.potion);
         registerRecipe(Potions.AWKWARD, Items.FLINT, Potions.MUNDANE);
         registerRecipe(Potions.AWKWARD, Items.AMETHYST_CLUSTER, HASTE_POTION.potion);
-        registerRecipe(Potions.AWKWARD, Items.LAPIS_LAZULI, SOUL_FADING.potion);
         registerRecipe(Potions.AWKWARD, Items.ECHO_SHARD, Potions.NIGHT_VISION);
         registerRecipe(Potions.AWKWARD, Items.QUARTZ, ABSORPTION_POTION.potion);
         registerRecipe(Potions.AWKWARD, Items.PRISMARINE_CRYSTALS, Potions.SWIFTNESS);
@@ -131,7 +134,7 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_PHANTOM_EYE.item, Potions.INVISIBILITY);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_TRIPE.item, Potions.POISON);
         //registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_CAVE_MAGGOT.item, WEAKNESS_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_ENDERMITE.item, ROT_BLIGHT_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_ENDERMITE.item, ROT_BLIGHT_POTION.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_ENDERMAN_EYE.item, NAUSEA_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_SILVERFISH.item, HASTE_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.SEA_PICKLE, WATER_BREATHING_WEAK.potion);
@@ -140,14 +143,14 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_CANID.item, FERAL_STRENGTH_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_BIRD_THIGH.item, SLOW_FALLING_WEAK.potion);
         registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_BACON.item, NAUSEA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_STONEROLLER_MINNOW.item, WATER_BREATHING_ULTRA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_RED_PORGY.item, WATER_BREATHING_ULTRA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_ABYSSWATCHER.item, WATER_BREATHING_ULTRA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_SARDINE.item, WATER_BREATHING_ULTRA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_PERCH.item, WATER_BREATHING_ULTRA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, Items.SALMON, WATER_BREATHING_ULTRA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, Items.COD, WATER_BREATHING_ULTRA_WEAK.potion);
-        registerRecipe(Potions.AWKWARD, Items.TROPICAL_FISH, WATER_BREATHING_ULTRA_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_STONEROLLER_MINNOW.item, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_RED_PORGY.item, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_ABYSSWATCHER.item, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_SARDINE.item, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, WHFoodIngredients.RAW_PERCH.item, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, Items.SALMON, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, Items.COD, WATER_BREATHING_WEAK.potion);
+        registerRecipe(Potions.AWKWARD, Items.TROPICAL_FISH, WATER_BREATHING_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.WHEAT, REGENERATION_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.PORKCHOP, NAUSEA_WEAK.potion);
         registerRecipe(Potions.AWKWARD, Items.BEEF, NAUSEA_WEAK.potion);
@@ -299,7 +302,6 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.THICK, Blocks.FERN.asItem(), STRENGTH_WEAK.potion);
         registerRecipe(Potions.THICK, Blocks.LARGE_FERN.asItem(), STRENGTH_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.JUNGLE_BUSH.asItem(), SPEED_WEAK.potion);
-        registerRecipe(Potions.THICK, WHNature.CLOVER.asItem(), LUCK_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.HONEYCLUSTER.asItem(), REGENERATION_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.LAVENDER.asItem(), REGENERATION_WEAK.potion);
         registerRecipe(Potions.THICK, WHNature.TALL_LAVENDER.asItem(), REGENERATION_WEAK.potion);
@@ -339,7 +341,7 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.THICK, WHNature.YELLOW_TULIP.asItem(), NIGHT_VISION_WEAK.potion);
         registerRecipe(Potions.THICK, Blocks.WITHER_ROSE.asItem(), WITHER_STRONG.potion);
         registerRecipe(Potions.AWKWARD, WHNature.SOUL_ROSE.asItem(), ABSORPTION_POTION.potion);
-        registerRecipe(Potions.AWKWARD, WHNature.BLUE_SOUL_ROSE.asItem(), ABSORPTION_POTION_II.potion);
+        registerRecipe(Potions.AWKWARD, WHNature.BLUE_SOUL_ROSE.asItem(), RADIANT_HEALING.potion);
         registerRecipe(Potions.THICK, WHNature.FADED_SOUL_ROSE.asItem(), SOUL_FADING.potion);
         registerRecipe(Potions.THICK, Items.ROTTEN_FLESH, HUNGER.potion);
         registerRecipe(Potions.THICK, Items.ZOMBIE_HEAD, HUNGER.potion);
