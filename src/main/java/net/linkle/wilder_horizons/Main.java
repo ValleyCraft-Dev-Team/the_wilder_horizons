@@ -41,6 +41,7 @@ public class Main implements ModInitializer {
         WHFluids.initialize();
         WHNature.initialize();
         WHBlocks.initialize();
+        WHPotions.initialize();
         ModVillagers.registerVillagers();
         CustomTradeRegistryModdedVillagers.setupTrades();
         CustomTradeRegistryWanderingTrader.setupTrades();
