@@ -150,11 +150,11 @@ public enum WHMiscItems implements ItemEnum {
     OBSIDIAN_ARROWHEAD(new AlphaModItem(settings())),
 
     SEED_BAG(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
-    SPOOL_OF_PLANT_FIBER_STRING(new AlphaModItem(settings())),
-    SPOOL_OF_STRING(new AlphaModItem(settings())),
-    SPOOL_OF_BOW_STRING(new AlphaModItem(settings())),
+    SPOOL_OF_PLANT_FIBER_STRING(new AlphaModItem(settings().recipeRemainder(Items.STICK))),
+    SPOOL_OF_STRING(new AlphaModItem(settings().recipeRemainder(Items.STICK))),
+    SPOOL_OF_BOW_STRING(new AlphaModItem(settings().recipeRemainder(Items.STICK))),
 
-    BOTTLE_OF_GHAST_TEARS(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
+    BOTTLE_OF_GHAST_TEARS(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON).recipeRemainder(Items.GLASS_BOTTLE))),
     //BOTTLE_OF_LIVING_SLIME(new AlphaModItem(settings().rarity(Rarity.EPIC))),
     BOTTLE_OF_ALLAY(new SummonerItem(()->Items.ALLAY_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
     WITCH_SCROLL_CAT(new SummonerItem(()->Items.CAT_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),

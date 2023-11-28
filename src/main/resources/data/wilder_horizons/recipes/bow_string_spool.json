@@ -5,17 +5,17 @@
       "item": "minecraft:stick"
     },
     {
-      "item": "minecraft:string"
+      "item": "wilder_horizons:bow_string"
     },
     {
-      "item": "minecraft:string"
+      "item": "wilder_horizons:bow_string"
     },
     {
-      "item": "minecraft:string"
+      "item": "wilder_horizons:bow_string"
     }
   ],
   "result": {
-    "item": "wilder_horizons:spool_of_string",
+    "item": "wilder_horizons:spool_of_bow_string",
     "count": 1
   }
 }

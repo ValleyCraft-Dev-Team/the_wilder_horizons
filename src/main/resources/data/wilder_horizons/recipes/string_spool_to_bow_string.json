@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wilder_horizons:spool_of_string"
+      "item": "wilder_horizons:spool_of_bow_string"
     }
   ],
   "result": {
-    "item": "minecraft:string",
+    "item": "wilder_horizons:bow_string",
     "count": 3
   }
 }

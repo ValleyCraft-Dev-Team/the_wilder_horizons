@@ -5,22 +5,19 @@
       "tag": "c:plank_items"
     },
     "X": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:amethyst_shard"
     },
     "V": {
       "item": "wilder_horizons:plant_fiber_canvas"
     },
     "Z": {
       "item": "minecraft:copper_ingot"
-    },
-    "R": {
-      "item": "minecraft:redstone_torch"
     }
   },
   "pattern": [
     "#X#",
     "VZV",
-    "#R#"
+    "#V#"
   ],
   "result": {
     "item": "minecraft:jukebox"

@@ -5,20 +5,12 @@
             "tag": "c:strings"
         },
         {
-            "item": "minecraft:iron_ingot"
+            "item": "wilder_horizons:copper_scrap"
         }
-        {
-            "tag": "c:worm_bait"
-        }
-        {
-            "item": "minecraft:red_dye"
-        }
-        {
-            "item": "minecraft:white_dye"
-        }
+
     ],
     "result": {
-        "item": "wilder_horizons:iron_fishing_hook",
+        "item": "wilder_horizons:copper_fishing_hook",
         "count": 1
     }
 }

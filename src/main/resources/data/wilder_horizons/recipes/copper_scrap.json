@@ -5,11 +5,11 @@
   ],
   "key": {
     "i": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:copper_ingot"
     }
   },
   "result": {
-    "item": "wilder_horizons:iron_scrap",
+    "item": "wilder_horizons:copper_scrap",
     "count": 4
   }
 }

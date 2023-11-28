@@ -1233,13 +1233,13 @@
   "item.minecraft.potion.effect.absorption_potion_fast": "Potion of Absorption",
   "item.minecraft.splash_potion.effect.absorption_potion": "Splash Potion of Absorption",
   "item.minecraft.lingering_potion.effect.absorption_potion": "Lingering Potion of Absorption",
-  "item.minecraft.tipped_arrow.effect.absorption_potion": "Arrow of Absorption",
   "item.minecraft.splash_potion.effect.absorption_potion_long": "Splash Potion of Absorption",
   "item.minecraft.splash_potion.effect.absorption_potion_fast": "Splash Potion of Absorption",
-  "item.minecraft.tipped_arrow.effect.absorption_potion_long": "Splash Potion of Absorption",
-  "item.minecraft.tipped_arrow.effect.absorption_potion_fast": "Splash Potion of Absorption",
-  "item.minecraft.lingering_potion.effect.absorption_potion_long": "Splash Potion of Absorption",
-  "item.minecraft.lingering_potion.effect.absorption_potion_fast": "Splash Potion of Absorption",
+  "item.minecraft.tipped_arrow.effect.absorption_potion_long": "Arrow of Absorption",
+  "item.minecraft.tipped_arrow.effect.absorption_potion_fast": "Arrow of Absorption",
+  "item.minecraft.lingering_potion.effect.absorption_potion_long": "Lingering Potion of Absorption",
+  "item.minecraft.lingering_potion.effect.absorption_potion_fast": "Lingering Potion of Absorption",
+  "item.minecraft.tipped_arrow.effect.absorption_potion": "Arrow of Absorption",
 
   "item.minecraft.potion.effect.luck_potion": "Potion of Luck",
   "item.minecraft.potion.effect.luck_potion_long": "Potion of Luck",
@@ -1266,6 +1266,7 @@
   "item.minecraft.tipped_arrow.effect.haste_potion_fast": "Splash Potion of Haste",
   "item.minecraft.lingering_potion.effect.haste_potion_long": "Splash Potion of Haste",
   "item.minecraft.lingering_potion.effect.haste_potion_fast": "Splash Potion of Haste",
+  "item.minecraft.lingering_potion.effect.haste_weak": "Weak Lingering Potion of Haste",
 
 
   "item.minecraft.potion.effect.dragonhearted_potion": "Potion of The Dragonhearted",

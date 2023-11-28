@@ -1,29 +1,29 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "glg",
-        "rQr",
+        "grg",
+        "lQl",
         "gfg"
     ],
     "key": {
         "g": {
-            "item": "wilder_horizons:gold_scrap"
+            "item": "wilder_horizons:iron_scrap"
         },
         "Q": {
-            "item": "minecraft:quartz"
+            "item": "minecraft:stick"
         },
         "r": {
             "item": "minecraft:redstone"
         },
         "l": {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:red_dye"
         },
         "f": {
-            "item": "minecraft:flint"
+            "item": "minecraft:water_bucket"
         }
     },
     "result": {
-        "item": "minecraft:clock",
+        "item": "minecraft:compass",
         "count": 1
     }
 }

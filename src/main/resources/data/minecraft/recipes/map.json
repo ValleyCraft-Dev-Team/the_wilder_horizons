@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##",
+        "QB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:paper"
+        },
+        "Q": {
+            "item": "wilder_horizons:quill"
+        },
+        "B": {
+            "item": "wilder_horizons:bottle_of_ink"
+        }
+    },
+    "result": {
+        "item": "minecraft:tnt",
+        "count": 1
+    }
+}

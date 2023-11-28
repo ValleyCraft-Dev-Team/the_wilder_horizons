@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "tag": "c:diamond_plates"
     },
     "S": {
       "item": "wilder_horizons:treated_leather_strap"

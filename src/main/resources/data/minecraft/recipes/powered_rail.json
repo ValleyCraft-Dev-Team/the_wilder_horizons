@@ -8,10 +8,10 @@
       "item": "minecraft:redstone"
     },
     "C": {
-      "item": "minecraft:copper_ingot"
+      "item": "wilder_horizons:copper_scrap"
     },
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "wilder_horizons:iron_rail"
     }
   },
   "pattern": [

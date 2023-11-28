@@ -16,7 +16,7 @@
             "tag": "c:handles"
         },
         "W": {
-            "tag": "c:string_spools"
+            "item": "wilder_horizons:spool_of_bow_string"
         },
         "B": {
             "item": "wilder_horizons:bobbing_lure"

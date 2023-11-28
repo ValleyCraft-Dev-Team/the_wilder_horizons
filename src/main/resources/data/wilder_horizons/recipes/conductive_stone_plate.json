@@ -10,7 +10,7 @@
             "item": "minecraft:redstone"
         },
         "c": {
-            "item": "minecraft:copper_ingot"
+            "item": "wilder_horizons:copper_scrap"
         },
         "_": {
             "item": "minecraft:smooth_stone_slab"
