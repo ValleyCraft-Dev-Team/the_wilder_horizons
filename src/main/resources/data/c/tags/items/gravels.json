@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wilder_horizons:fine_gravel",
+    "wilder_horizons:sandy_gravel",
+    "wilder_horizons:mineral_rich_sand",
+    "wilder_horizons:mineral_rich_dirt",
+    "minecraft:gravel"
+  ]
+}

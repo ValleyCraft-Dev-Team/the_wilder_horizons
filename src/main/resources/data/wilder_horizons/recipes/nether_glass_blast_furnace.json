@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wilder_horizons:nether_sand"
+  },
+  "result": "minecraft:glass",
+  "experience": 0.1,
+  "cookingtime": 100
+}

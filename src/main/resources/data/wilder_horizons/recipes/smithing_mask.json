@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C ",
+    "C V",
+    " V "
+  ],
+  "key": {
+    "C": {
+      "item": "wilder_horizons:iron_scrap"
+    },
+    "V": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "#": {
+      "item": "wilder_horizons:treated_leather_strap"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:smithing_mask",
+    "count": 1
+  }
+}

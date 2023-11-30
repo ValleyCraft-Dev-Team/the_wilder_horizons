@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "wilder_horizons:arrow_fletching"
+    "wilder_horizons:daerdri_skull",
+    "minecraft:skeleton_skull",
+    "minecraft:wither_skeleton_skull"
   ]
 }
