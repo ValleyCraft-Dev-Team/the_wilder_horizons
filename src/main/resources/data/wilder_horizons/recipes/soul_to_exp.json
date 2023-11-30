@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "wilder_horizons:glass_soul_bottle"
+        },
+        {
+            "item": "wilder_horizons:soul_powder"
+        }
+    ],
+    "result": {
+        "item": "wilder_horizons:experience_bottle",
+        "count": 1
+    }
+}

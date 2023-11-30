@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "G"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:lapis_lazuli"
+    },
+    "G": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:glass_soul_bottle",
+    "count": 3
+  }
+}

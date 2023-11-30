@@ -154,6 +154,7 @@ public enum WHMiscItems implements ItemEnum {
     SPOOL_OF_STRING(new AlphaModItem(settings().recipeRemainder(Items.STICK))),
     SPOOL_OF_BOW_STRING(new AlphaModItem(settings().recipeRemainder(Items.STICK))),
 
+    GLASS_SOUL_BOTTLE(new AlphaModItem(settings())),
     BOTTLE_OF_GHAST_TEARS(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON).recipeRemainder(Items.GLASS_BOTTLE))),
     //BOTTLE_OF_LIVING_SLIME(new AlphaModItem(settings().rarity(Rarity.EPIC))),
     BOTTLE_OF_ALLAY(new SummonerItem(()->Items.ALLAY_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
