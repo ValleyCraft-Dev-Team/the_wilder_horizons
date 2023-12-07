@@ -598,7 +598,7 @@
   "item.wilder_horizons.elder_guardian_spike": "Elder Guardian's Spike",
   "item.wilder_horizons.pig_hide": "Pig Hide",
   "item.wilder_horizons.hide": "Hide",
-  "item.wilder_horizons.beast_claw": "Small Claw",
+  "item.wilder_horizons.beast_claw": "Spider Tarsal Claw",
   "item.wilder_horizons.bonefin_skeleton": "Bonefin Skeleton",
   "item.wilder_horizons.bobbing_lure": "Bobbing Lure",
   "item.wilder_horizons.geode_core_cracked": "Amethyst Geode Core",
@@ -670,6 +670,7 @@
   "item.wilder_horizons.cave_slime_spawn_egg": "Cave Slime Spawn Egg",
   "item.wilder_horizons.brown_bear_spawn_egg": "Brown Bear Spawn Egg",
 
+  "block.wilder_horizons.sludge_fluid": "Rotten Sludge",
   "item.wilder_horizons.sludge_bucket": "Rotten Sludge Bucket",
   "item.wilder_horizons.stoneroller_minnow_bucket": "Bucket of Stoneroller Minnow",
   "item.wilder_horizons.abysswatcher_bucket": "Bucket of Abysswatcher",

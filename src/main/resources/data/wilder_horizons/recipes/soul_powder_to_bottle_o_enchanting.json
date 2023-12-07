@@ -2,13 +2,16 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "wilder_horizons:soul_powder",
+            "item": "wilder_horizons:soul_powder"
         },
         {
-            "item": "minecraft:glass_bottle"
+            "item": "wilder_horizons:soul_powder"
         },
         {
-            "item": "minecraft:lapis_lazuli"
+            "item": "wilder_horizons:soul_powder"
+        },
+        {
+            "item": "wilder_horizons:glass_soul_bottle"
         }
     ],
     "result": {

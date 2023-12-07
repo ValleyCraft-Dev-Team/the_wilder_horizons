@@ -45,7 +45,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     CLOVER(new ModPlantBlock(DEFAULT_PLANT_SHAPE, FLOWER), itemSettings()),
 
     HONEYCLUSTER(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
-    MOSS_SPROUTLET(new ModMushroomBlockDaySafe(), itemSettings()),
+    MOSS_SPROUTLET(new MossweedBlock(), itemSettings()),
     ORANGE_BEAUTY(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     PURPLE_TULIP(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),
     YELLOW_TULIP(new ModFlowerBlock(OFFSET_FLOWER), itemSettings()),

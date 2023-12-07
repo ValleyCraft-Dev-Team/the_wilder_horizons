@@ -9,7 +9,7 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
-public class ModSporeSpreaderBlock extends ModMushroomBlockDaySafe {
+public class ModSporeSpreaderBlock extends MossweedBlock {
 
     public ModSporeSpreaderBlock() {
         this(Settings.copy(Blocks.RED_MUSHROOM).ticksRandomly());

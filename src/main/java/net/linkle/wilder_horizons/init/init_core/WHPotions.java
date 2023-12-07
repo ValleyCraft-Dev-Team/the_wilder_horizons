@@ -123,6 +123,7 @@ public enum WHPotions implements IdProvider {
         registerRecipe(Potions.AWKWARD, Items.FLINT, Potions.MUNDANE);
         registerRecipe(Potions.AWKWARD, Items.AMETHYST_CLUSTER, HASTE_POTION.potion);
         registerRecipe(Potions.AWKWARD, Items.ECHO_SHARD, Potions.NIGHT_VISION);
+        registerRecipe(Potions.AWKWARD, WHNature.DEPTH_WATCHER.item, Potions.NIGHT_VISION);
         registerRecipe(Potions.AWKWARD, Items.QUARTZ, ABSORPTION_POTION.potion);
         registerRecipe(Potions.AWKWARD, Items.PRISMARINE_CRYSTALS, Potions.SWIFTNESS);
         registerRecipe(Potions.AWKWARD, Items.PRISMARINE_SHARD, Potions.MUNDANE);

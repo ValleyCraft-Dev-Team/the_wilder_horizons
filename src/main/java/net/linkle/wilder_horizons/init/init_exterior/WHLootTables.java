@@ -111,7 +111,16 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_TRIPE));
         LootTableHelper.appendLoot(EntityType.CAVE_SPIDER.getLootTableId(), builder);
-        
+
+        builder = LootBuilder.create().rolls(0, 2);
+        builder.with(ItemEntry.builder(WHMiscItems.BEAST_CLAW));
+        LootTableHelper.appendLoot(EntityType.CAVE_SPIDER.getLootTableId(), builder);
+
+
+        builder = LootBuilder.create().rolls(0, 2);
+        builder.with(ItemEntry.builder(WHMiscItems.BEAST_CLAW));
+        LootTableHelper.appendLoot(EntityType.SPIDER.getLootTableId(), builder);
+
         // chicken
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHMiscItems.IRON_FEATHER)
