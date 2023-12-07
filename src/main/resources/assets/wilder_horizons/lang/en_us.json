@@ -669,6 +669,9 @@
   "item.wilder_horizons.zombified_pig_spawn_egg": "Zig Spawn Egg",
   "item.wilder_horizons.cave_slime_spawn_egg": "Cave Slime Spawn Egg",
   "item.wilder_horizons.brown_bear_spawn_egg": "Brown Bear Spawn Egg",
+  "block.wilder_horizons.bowl_and_mug_block": "Bowl and Mug",
+
+  "block.wilder_horizons.redstone_crystal": "Redstone Cluster",
 
   "block.wilder_horizons.sludge_fluid": "Rotten Sludge",
   "item.wilder_horizons.sludge_bucket": "Rotten Sludge Bucket",

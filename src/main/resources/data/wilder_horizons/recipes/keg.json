@@ -10,7 +10,7 @@
       "tag": "c:plank_items"
     },
     "W": {
-      "tag": "c:purified_water"
+      "item": "minecraft:water_bucket"
     },
     "/": {
       "item": "minecraft:stick"

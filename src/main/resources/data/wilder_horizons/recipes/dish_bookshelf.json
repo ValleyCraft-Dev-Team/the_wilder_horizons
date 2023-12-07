@@ -5,26 +5,26 @@
       "item": "wilder_horizons:empty_bookshelf"
     },
     {
-      "tag": "c:broth_bases"
+      "item": "minecraft:bowl"
     },
     {
-      "tag": "c:broth_bases"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:book"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:book"
+      "item": "minecraft:glass_bottle"
     },
     {
-      "item": "minecraft:book"
+      "item": "minecraft:glass_bottle"
     },
     {
       "item": "minecraft:glass_bottle"
     }
   ],
   "result": {
-    "item": "wilder_horizons:anthro_bookshelf",
+    "item": "wilder_horizons:dish_bookshelf",
     "count": 1
   }
 }

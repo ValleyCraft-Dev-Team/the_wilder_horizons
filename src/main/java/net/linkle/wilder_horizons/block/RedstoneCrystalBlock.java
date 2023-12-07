@@ -22,7 +22,7 @@ public class RedstoneCrystalBlock extends BlockWithWater {
 
     public RedstoneCrystalBlock() {
         super(Settings.of(Material.DECORATION, MapColor.RED)
-                .requiresTool().sounds(BlockSoundGroup.AMETHYST_CLUSTER)
+                .requiresTool().sounds(BlockSoundGroup.AMETHYST_CLUSTER).ticksRandomly()
                 .strength(1.5f,2.0f).luminance(s->7));
         setDefaultState();
         experienceDropped = UniformIntProvider.create(3, 5);
