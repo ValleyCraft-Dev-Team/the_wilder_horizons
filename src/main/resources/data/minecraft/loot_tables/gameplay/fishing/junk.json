@@ -317,6 +317,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
+          "name": "wilder_horizons:trash"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 7,
           "name": "minecraft:dead_bush"
         },

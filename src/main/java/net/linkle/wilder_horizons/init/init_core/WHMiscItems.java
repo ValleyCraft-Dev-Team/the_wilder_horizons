@@ -16,6 +16,7 @@ import static net.linkle.wilder_horizons.init.init_exterior.WHGroups.WH_RELICS;
 
 
 public enum WHMiscItems implements ItemEnum {
+    TRASH(new AlphaModItem(settings().group(WHGroups.WH_MISCELLANEOUS))),
 
     OAK_SEED(new AliasedBlockItem(WHNature.OAK_SEED.block, settings().group(WHGroups.WH_NATURE))),
     APPLE_SEED(new AliasedBlockItem(WHNature.APPLE_SEED.block, settings().group(WHGroups.WH_NATURE))),
@@ -73,6 +74,7 @@ public enum WHMiscItems implements ItemEnum {
     SMALL_WITHER_BONE(new AlphaModItem(settings())),
     WITHER_BONE(new AlphaModItem(settings())),
     WITHER_SKULL_SHARD(new AlphaModItem(settings())),
+
     JELLY_BLOB(new AlphaModItem(settings())),
     SLIME_SPORE(new SummonerItem(()->Items.SLIME_SPAWN_EGG, settings().rarity(Rarity.UNCOMMON))),
     //PINK_SLIME_BALL(new AlphaModItem(settings())),

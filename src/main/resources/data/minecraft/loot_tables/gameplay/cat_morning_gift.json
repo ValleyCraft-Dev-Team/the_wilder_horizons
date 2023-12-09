@@ -87,7 +87,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:phantom_membrane",
-          "weight": 5
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wilder_horizons:trash",
+          "weight": 2
         }
       ],
       "rolls": 1.0
