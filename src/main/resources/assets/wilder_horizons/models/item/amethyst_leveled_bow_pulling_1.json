@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "wilder_horizons:item/amethyst_leveled_bow",
   "textures": {
     "layer0": "wilder_horizons:item/tools/bows/amethyst_leveled_bow_pulling_1"
   }

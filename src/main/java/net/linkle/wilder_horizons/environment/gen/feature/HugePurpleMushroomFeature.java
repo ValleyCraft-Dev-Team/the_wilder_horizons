@@ -30,7 +30,7 @@ public class HugePurpleMushroomFeature extends HugeMushroomFeature {
         setBlock(world, start.down().west(), blockProvider.getBlockState(random, start));
         for (var pos : BlockPos.iterate(start.add(-1, -4, -1), start.add(1, -2, 1))) {
             if ((pos.getY() <= start.getY()-3) && Math.abs(pos.getX() - start.getX()) != Math.abs(pos.getZ() - start.getZ())) continue; // +
-            if ((pos.getY() <= start.getY()-4) && (Math.abs(pos.getX() - start.getX()) == 2) == (Math.abs(pos.getZ() - start.getZ()) == 2)) continue; // corners
+            if ((pos.getY() <= start.getY()-4) && (Math.abs(pos.getX() - start.getX())== 2) == (Math.abs(pos.getZ() - start.getZ()) == 2)) continue; // corners
             if ((pos.getY() <= start.getY()-3) && pos.getX() == start.getX() && pos.getZ() == start.getZ()) continue; // center
             setBlock(world, pos, blockProvider.getBlockState(random, start));
         }

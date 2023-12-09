@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons.interfaces;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.linkle.wilder_horizons.init.init_exterior.WHGroups;
 import net.minecraft.item.Item;
 import net.minecraft.util.Rarity;
@@ -47,20 +48,13 @@ public interface ToolConstants {
     Integer HOE_BASE_DAMAGE = 0;
     Float HOE_BASE_SPEED = -3.0f;
     //The item settings for knives made of 'basic' materials- wood, gold, stone, iron, rose gold, diamond, netherite
-    Item.Settings BASIC_SETTINGS = new Item.Settings().group(WHGroups.WH_TOOLS);
-    Item.Settings BASIC_SETTINGS_RELIC = new Item.Settings().group(WHGroups.WH_RELICS);
 
-    Item.Settings BASIC_SETTINGS_RARE = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.RARE);
-    Item.Settings BASIC_SETTINGS_RARE_RELIC = new Item.Settings().group(WHGroups.WH_RELICS).rarity(Rarity.RARE);
 
-    Item.Settings BASIC_SETTINGS_EPIC = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.EPIC);
-    Item.Settings BASIC_SETTINGS_EPIC_RELIC = new Item.Settings().group(WHGroups.WH_RELICS).rarity(Rarity.EPIC);
+    static FabricItemSettings basicSettings() {
+        return new FabricItemSettings().group(WHGroups.WH_TOOLS);
+    }
 
-    Item.Settings BASIC_SETTINGS_UNCOMMON = new Item.Settings().group(WHGroups.WH_TOOLS).rarity(Rarity.UNCOMMON);
-    Item.Settings BASIC_SETTINGS_UNCOMMON_RELIC = new Item.Settings().group(WHGroups.WH_RELICS).rarity(Rarity.UNCOMMON);
-    //Item.Settings BASIC_ARTIFACT_SETTINGS_RARE = new Item.Settings().group(BOOKS).rarity(Rarity.RARE);
-    //Item.Settings BASIC_ARTIFACT_SETTINGS_EPIC = new Item.Settings().group(BOOKS).rarity(Rarity.EPIC);
-    //Item.Settings BASIC_ARTIFACT_SETTINGS_UNCOMMON = new Item.Settings().group(BOOKS).rarity(Rarity.UNCOMMON);
-    //Item.Settings UNBREAKABLE_ARTIFACT_SETTINGS_EPIC_1561 = new Item.Settings().maxDamage(1561).fireproof().group(BOOKS).rarity(Rarity.EPIC);
-    //Item.Settings UNBREAKABLE_ARTIFACT_SETTINGS_EPIC_780 = new Item.Settings().maxDamage(780).fireproof().group(BOOKS).rarity(Rarity.EPIC);
+    static FabricItemSettings settingsRelic() {
+        return new FabricItemSettings().group(WHGroups.WH_RELICS);
+    }
 }

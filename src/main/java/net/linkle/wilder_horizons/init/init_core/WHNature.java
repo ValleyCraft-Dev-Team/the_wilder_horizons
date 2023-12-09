@@ -10,6 +10,7 @@ import net.linkle.wilder_horizons.block.sapling.AppleSaplingGen;
 import net.linkle.wilder_horizons.block.sapling.WarmBirchSaplingGen;
 import net.linkle.wilder_horizons.enums.BlockEnum;
 import net.linkle.wilder_horizons.enums.ItemEnum;
+import net.linkle.wilder_horizons.environment.gen.feature.TreeConfigs;
 import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
 import net.minecraft.block.*;
 import net.minecraft.item.*;
@@ -72,7 +73,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     TALL_AZURE_BLUET(new ModTallFlowerBlock(), itemSettings(), TallBlockItem::new),
 
     //mushrooms
-    PURPLE_MUSHROOM(new ModMushroomBlockDaySafe(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision()), itemSettings()),
+    PURPLE_MUSHROOM(new MushroomPlantBlock(Block.Settings.copy(Blocks.BROWN_MUSHROOM).ticksRandomly().luminance(s -> 4).nonOpaque().noCollision(), () -> TreeConfigs.HUGE_PURPLE_MUSHROOM.getEntry()), itemSettings()),
     PURPLE_MUSHROOM_BLOCK(new MushroomBlock(Block.Settings.copy(Blocks.RED_MUSHROOM_BLOCK).mapColor(MapColor.PURPLE)), itemSettings()),
     //GLOW_MUSHROOM(new ModGlowingMushroomBlock(), itemSettings()),
     SPORE_SPREADER(new ModSporeSpreaderBlock().large(), itemSettings()),
