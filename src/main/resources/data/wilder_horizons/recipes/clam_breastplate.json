@@ -8,7 +8,7 @@
       "item": "wilder_horizons:clam_block"
     },
     "V": {
-      "item": "wilder_horizons:string_spool"
+      "tag": "c:string_spools"
     }
   },
   "result": {

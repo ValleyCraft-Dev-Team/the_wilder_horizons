@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#wilder_horizons:water_holding_items",
+    "#wilder_horizons:cooking_waters",
     "#c:water_bottles"
   ]
 }

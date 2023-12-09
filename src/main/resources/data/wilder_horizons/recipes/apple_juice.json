@@ -8,10 +8,22 @@
       "item": "minecraft:apple"
     },
     {
-      "item": "wilder_horizons:salt"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "wilder_horizons:purified_water"
+    },
+    {
+      "item": "wilder_horizons:purified_water"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:glass_bottle"
     },
     {
       "item": "minecraft:glass_bottle"
@@ -19,6 +31,6 @@
   ],
   "result": {
     "item": "wilder_horizons:apple_juice",
-    "count": 1
+    "count": 3
   }
 }
