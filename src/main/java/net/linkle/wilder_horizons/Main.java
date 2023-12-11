@@ -1,5 +1,6 @@
 package net.linkle.wilder_horizons;
 
+import net.fabricmc.api.ModInitializer;
 import net.linkle.wilder_horizons.environment.gen.feature.Features;
 import net.linkle.wilder_horizons.environment.gen.feature.TreeConfigs;
 import net.linkle.wilder_horizons.environment.gen.feature.VegetationPlaced;
@@ -13,12 +14,9 @@ import net.linkle.wilder_horizons.villager.CustomTradeRegistryModdedVillagers;
 import net.linkle.wilder_horizons.villager.CustomTradeRegistryVanillaVillagers;
 import net.linkle.wilder_horizons.villager.CustomTradeRegistryWanderingTrader;
 import net.linkle.wilder_horizons.villager.ModVillagers;
-import net.linkle.wilder_horizons.world_modifications.DungeonRemover;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.Identifier;
 
 public class Main implements ModInitializer {
     public static final String ID = "wilder_horizons";
@@ -50,7 +48,7 @@ public class Main implements ModInitializer {
         Features.initialize();
         TreeConfigs.initialize();
         VegetationPlaced.initialize();
-        DungeonRemover.init();
+        //DungeonRemover.init();
         ModBlockTags.initialize();
         ModItemTags.initialize();
         WHLootTables.initialize();
