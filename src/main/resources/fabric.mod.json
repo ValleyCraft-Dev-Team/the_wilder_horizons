@@ -22,6 +22,9 @@
     "main": [
       "net.linkle.wilder_horizons.Main"
     ],
+    "fabric-datagen": [
+      "net.linkle.wilder_horizons.datagen.DataGen"
+    ],
     "client": [
       "net.linkle.wilder_horizons.client.Client"
     ]
