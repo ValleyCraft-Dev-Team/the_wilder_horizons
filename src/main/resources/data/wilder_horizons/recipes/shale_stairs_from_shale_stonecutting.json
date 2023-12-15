@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:shale"
+  },
+  "result": "wilder_horizons:shale_stairs"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:marble"
+  },
+  "result": "wilder_horizons:marble_wall"
+}

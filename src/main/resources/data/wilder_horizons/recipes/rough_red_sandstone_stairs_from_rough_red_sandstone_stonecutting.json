@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:rough_red_sandstone"
+  },
+  "result": "wilder_horizons:rough_red_sandstone_stairs"
+}

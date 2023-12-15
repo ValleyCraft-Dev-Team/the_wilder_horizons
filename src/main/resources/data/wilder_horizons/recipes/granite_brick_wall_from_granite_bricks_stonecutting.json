@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:granite_bricks"
+  },
+  "result": "wilder_horizons:granite_brick_wall"
+}

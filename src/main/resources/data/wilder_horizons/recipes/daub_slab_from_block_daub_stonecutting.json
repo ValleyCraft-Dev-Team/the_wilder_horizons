@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "wilder_horizons:block_daub"
+  },
+  "result": "wilder_horizons:daub_slab"
+}

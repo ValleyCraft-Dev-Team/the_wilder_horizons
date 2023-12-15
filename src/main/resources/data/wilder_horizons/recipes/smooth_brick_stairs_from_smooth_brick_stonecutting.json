@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:smooth_brick"
+  },
+  "result": "wilder_horizons:smooth_brick_stairs"
+}
