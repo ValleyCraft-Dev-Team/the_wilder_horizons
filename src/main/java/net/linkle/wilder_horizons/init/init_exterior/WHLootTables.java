@@ -13,19 +13,11 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Items;
-import net.minecraft.loot.condition.EntityPropertiesLootCondition;
-import net.minecraft.loot.condition.KilledByPlayerLootCondition;
-import net.minecraft.loot.condition.MatchToolLootCondition;
-import net.minecraft.loot.condition.RandomChanceLootCondition;
-import net.minecraft.loot.condition.RandomChanceWithLootingLootCondition;
-import net.minecraft.loot.condition.SurvivesExplosionLootCondition;
+import net.minecraft.loot.LootTables;
+import net.minecraft.loot.condition.*;
 import net.minecraft.loot.context.LootContext.EntityTarget;
 import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.loot.function.FurnaceSmeltLootFunction;
-import net.minecraft.loot.function.LootingEnchantLootFunction;
-import net.minecraft.loot.function.SetCountLootFunction;
-import net.minecraft.loot.function.SetPotionLootFunction;
-import net.minecraft.loot.function.SetStewEffectLootFunction;
+import net.minecraft.loot.function.*;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.potion.Potions;
@@ -61,12 +53,7 @@ public class WHLootTables {
         */
         
         LootBuilder builder;
-        
-        // allay
-        builder = LootBuilder.create().rolls(1);
-        lifeGemPowder(builder, 0.25f);
-        LootTableHelper.appendLoot(EntityType.ALLAY.getLootTableId(), builder);
-        
+
         // bat
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BAT_WING)
@@ -284,9 +271,6 @@ public class WHLootTables {
         builder.with(ItemEntry.builder(WHMiscItems.SKULL_SHARD).weight(3)
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2)))   
         );
-        builder.with(ItemEntry.builder(WHMiscItems.EVOKER_SCROLL_VEX).weight(3)
-                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 3)))
-        );
         builder.with(ItemEntry.builder(WHArmors.ILLAGER_GARMENTS).weight(1)
                 .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1)))
         );
@@ -339,8 +323,12 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.GOAT.getLootTableId(), builder);
-        
-        builder = LootBuilder.create().rolls(0, 1);
+
+        builder = LootBuilder.create().rolls(1);
+        hide(builder);
+        LootTableHelper.appendLoot(EntityType.GOAT.getLootTableId(), builder);
+
+        builder = LootBuilder.create().rolls(1);
         builder.with(Items.WHITE_WOOL);
         LootTableHelper.appendLoot(EntityType.GOAT.getLootTableId(), builder);
         
@@ -476,7 +464,11 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.LLAMA.getLootTableId(), builder);
-        
+
+        builder = LootBuilder.create().rolls(1);
+        leather(builder);
+        LootTableHelper.appendLoot(EntityType.GOAT.getLootTableId(), builder);
+
         // mooshroom
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);
@@ -544,18 +536,15 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);
         LootTableHelper.appendLoot(EntityType.PIG.getLootTableId(), builder);
-        
-        builder = LootBuilder.create().rolls(0, 1);
-        builder.with(ItemEntry.builder(WHMiscItems.PIG_HIDE)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 2), false))
-            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
-        );
+
+        builder = LootBuilder.create().rolls(1);
+        pigHide(builder);
         LootTableHelper.appendLoot(EntityType.PIG.getLootTableId(), builder);
-        
+
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.PIG.getLootTableId(), builder);
-        
+
         // piglin brute
         builder = LootBuilder.create().rolls(1);
         lifeGem(builder, 0.35f);
@@ -730,7 +719,11 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.SHEEP.getLootTableId(), builder);
-        
+
+        builder = LootBuilder.create().rolls(1);
+        hide(builder);
+        LootTableHelper.appendLoot(EntityType.SHEEP.getLootTableId(), builder);
+
         // silverfish
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_SILVERFISH)
@@ -843,16 +836,20 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.STRIDER.getLootTableId(), builder);
-        
-        // trader llama
+
+        //trader llama
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);
         LootTableHelper.appendLoot(EntityType.TRADER_LLAMA.getLootTableId(), builder);
-        
+
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.TRADER_LLAMA.getLootTableId(), builder);
-        
+
+        builder = LootBuilder.create().rolls(1);
+        leather(builder);
+        LootTableHelper.appendLoot(EntityType.TRADER_LLAMA.getLootTableId(), builder);
+
         // turtle
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);
@@ -861,20 +858,7 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.TURTLE.getLootTableId(), builder);
-        
-        // vex
-        builder = LootBuilder.create().rolls(1);
-        lifeGemPowder(builder, 0.15f);
-        LootTableHelper.appendLoot(EntityType.VEX.getLootTableId(), builder);
-        
-        builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(Items.PHANTOM_MEMBRANE)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1), false))
-            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
-        );
-        builder.conditionally(KilledByPlayerLootCondition.builder());
-        LootTableHelper.appendLoot(EntityType.VEX.getLootTableId(), builder);
-        
+
         // villager
         builder = LootBuilder.create().rolls(1);
         lifeGem(builder, 0.35f);
@@ -1055,7 +1039,11 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.WOLF.getLootTableId(), builder);
-        
+
+        builder = LootBuilder.create().rolls(1);
+        wolfHide(builder);
+        LootTableHelper.appendLoot(EntityType.WOLF.getLootTableId(), builder);
+
         // hoglin
         builder = LootBuilder.create().rolls(0, 1);
         rawBeasts(builder);
@@ -1064,35 +1052,35 @@ public class WHLootTables {
         builder = LootBuilder.create().rolls(1);
         bones(builder);
         LootTableHelper.appendLoot(EntityType.HOGLIN.getLootTableId(), builder);
-        
+
         builder = LootBuilder.create().rolls(1);
-        builder.with(ItemEntry.builder(WHMiscItems.PIG_HIDE)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 3), false))
-            .apply(LootingEnchantLootFunction.builder(UniformLootNumberProvider.create(0, 1)))
+        builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BEAST_HEART).weight(5)
+            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+        );
+        builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BEAST_LIVER).weight(5)
+            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
         );
         LootTableHelper.appendLoot(EntityType.HOGLIN.getLootTableId(), builder);
-        
+
+        // zoglin
+        builder = LootBuilder.create().rolls(0, 1);
+        rawBeasts(builder);
+        LootTableHelper.appendLoot(EntityType.ZOGLIN.getLootTableId(), builder);
+
+        builder = LootBuilder.create().rolls(1);
+        bones(builder);
+        LootTableHelper.appendLoot(EntityType.ZOGLIN.getLootTableId(), builder);
+
         builder = LootBuilder.create().rolls(1);
         builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_HEART).weight(5)
-            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
-        );
-        builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_GUTS).weight(8)
-            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2), false))
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
         );
         builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_LIVER).weight(5)
-            .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
+                .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
         );
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_LIVER).weight(3)
-        //    .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
-        //);
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_HEART).weight(3)
-        //    .apply(SetCountLootFunction.builder(ConstantLootNumberProvider.create(1), false))
-        //);
-        //builder.with(ItemEntry.builder(WHFoodIngredients.INFECTED_MONSTER_GUTS).weight(5)
-        //    .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2), false))
-        //);
-        LootTableHelper.appendLoot(EntityType.HOGLIN.getLootTableId(), builder);
-        
+        LootTableHelper.appendLoot(EntityType.ZOGLIN.getLootTableId(), builder);
+
+
         // zombie horse
         builder = LootBuilder.create().rolls(0, 1);
         builder.with(ItemEntry.builder(WHFoodIngredients.MONSTER_HEART).weight(3)
@@ -1329,6 +1317,16 @@ public class WHLootTables {
             //Only 9 in 10 large ocean ruin chests will contain a mermaid weapon
             .conditionally(RandomChanceLootCondition.builder(0.91f))
         ); */
+        LootTableHelper.appendLoot(LootTables.ANCIENT_CITY_CHEST,
+                LootBuilder.create().rolls(1)
+                        .with(Items.TOTEM_OF_UNDYING)
+                        .conditionally(RandomChanceLootCondition.builder(0.25f))
+        );
+        LootTableHelper.appendLoot(LootTables.WOODLAND_MANSION_CHEST,
+                LootBuilder.create().rolls(1)
+                        .with(Items.TOTEM_OF_UNDYING)
+                        .conditionally(RandomChanceLootCondition.builder(0.20f))
+        );
     }
 
     /** {@link BlockLootTableGenerator} for codes. */
@@ -1544,7 +1542,31 @@ public class WHLootTables {
             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(0, 1)))   
         );
     }
-    
+
+    private static void hide(LootBuilder builder) {
+        builder.with(ItemEntry.builder(WHMiscItems.HIDE).weight(1)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+        );
+    }
+
+    private static void wolfHide(LootBuilder builder) {
+        builder.with(ItemEntry.builder(WHMiscItems.HIDE).weight(1)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+        );
+    }
+
+    private static void pigHide(LootBuilder builder) {
+        builder.with(ItemEntry.builder(WHMiscItems.HIDE).weight(1)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+        );
+    }
+
+    private static void leather(LootBuilder builder) {
+        builder.with(ItemEntry.builder(Items.LEATHER).weight(1)
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1, 2)))
+        );
+    }
+
     private static void rawBeasts(LootBuilder builder) {
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BEAST_HEART).weight(3));
         builder.with(ItemEntry.builder(WHFoodIngredients.RAW_BEAST_LIVER).weight(5));

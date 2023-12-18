@@ -7,13 +7,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "wilder_horizons:evoker_scroll_vex",
+          "name": "minecraft:rotten_flesh",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
               }
             }
           ]
@@ -26,14 +36,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
+          "name": "wilder_horizons:pig_hide",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,
-                "max": 3
+                "max": 1
               },
               "add": false
             },
