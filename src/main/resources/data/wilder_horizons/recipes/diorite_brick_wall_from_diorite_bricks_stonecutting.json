@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:diorite_bricks"
+  },
+  "result": "wilder_horizons:diorite_brick_wall"
+}

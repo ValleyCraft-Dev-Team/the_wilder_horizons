@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:andesite_bricks"
+  },
+  "result": "wilder_horizons:andesite_brick_stairs"
+}

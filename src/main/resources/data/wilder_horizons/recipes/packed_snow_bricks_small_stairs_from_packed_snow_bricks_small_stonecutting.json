@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:packed_snow_bricks_small"
+  },
+  "result": "wilder_horizons:packed_snow_bricks_small_stairs"
+}

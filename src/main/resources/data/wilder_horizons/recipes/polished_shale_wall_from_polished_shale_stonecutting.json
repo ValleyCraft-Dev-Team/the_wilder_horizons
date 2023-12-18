@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:polished_shale"
+  },
+  "result": "wilder_horizons:polished_shale_wall"
+}

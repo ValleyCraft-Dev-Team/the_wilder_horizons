@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "wilder_horizons:polished_prismarine"
+  },
+  "result": "wilder_horizons:polished_prismarine_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:polished_basalt_patterned"
+  },
+  "result": "wilder_horizons:polished_basalt_patterned_stairs"
+}
