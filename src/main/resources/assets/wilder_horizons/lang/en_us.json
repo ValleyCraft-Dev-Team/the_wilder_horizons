@@ -442,6 +442,7 @@
   "block.minecraft.mud_brick_stairs": "Packed Mud Brick Stairs",
   "block.minecraft.mud_brick_wall": "Packed Mud Brick Wall",
   "block.minecraft.mud_brick_slab": "Packed Mud Brick Slab",
+  "item.minecraft.scute": "Sea Turtle Scute",
 
   "item.wilder_horizons.fire_plough": "Fire Starting Plough",
   "item.wilder_horizons.miners_delight": "Miners' Delight",
@@ -1722,7 +1723,7 @@
   "block.wilder_horizons.waxed_wall_candelabra_oxidized": "Waxed Oxidized Copper Wall Candelabra",
 
   "block.wilder_horizons.cabinet": "Cabinet",
-  "block.wilder_horizons.dirt_road": "Dirt Road",
+  "block.wilder_horizons.dirt_road": "Rocky Dirt",
   "block.wilder_horizons.rope": "Rope",
   "block.wilder_horizons.rope_ladder": "Rope Ladder",
   "block.wilder_horizons.bamboo_ladder": "Bamboo Rope Ladder",
