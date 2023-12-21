@@ -738,7 +738,7 @@ public class WHLootTables {
         
         // skeleton
         builder = LootBuilder.create().rolls(1);
-        lifeGemFading(builder, 0.15f);
+        lifeGem(builder, 0.15f);
         LootTableHelper.appendLoot(EntityType.SKELETON.getLootTableId(), builder);
         
         builder = LootBuilder.create().rolls(1);
@@ -796,7 +796,7 @@ public class WHLootTables {
         
         // stray
         builder = LootBuilder.create().rolls(1);
-        lifeGemFading(builder, 0.15f);
+        lifeGem(builder, 0.15f);
         LootTableHelper.appendLoot(EntityType.STRAY.getLootTableId(), builder);
 
         builder = LootBuilder.create().rolls(1);
@@ -1516,12 +1516,6 @@ public class WHLootTables {
     private static void lifeGem(LootBuilder builder, float chance) {
         builder.with(ItemEntry.builder(WHMiscItems.SOUL_GEM)
             .conditionally(RandomChanceLootCondition.builder(chance))
-        );
-    }
-
-    private static void lifeGemFading(LootBuilder builder, float chance) {
-        builder.with(ItemEntry.builder(WHMiscItems.CRACKING_SOUL_GEM)
-                .conditionally(RandomChanceLootCondition.builder(chance))
         );
     }
 
