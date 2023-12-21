@@ -132,8 +132,6 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     WHITE_CUSHION(new CushionBlock(DyeColor.WHITE), itemSettings()),
     RED_CUSHION(new CushionBlock(DyeColor.RED), itemSettings()),
 
-    DIRT_ROAD(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
-
     CANVAS_BLOCK(new Block(Block.Settings.copy(Blocks.BROWN_WOOL).sounds(BlockSoundGroup.MOSS_CARPET)), itemSettings()),
     CANVAS_STAIRS(new StairsBlock(CANVAS_BLOCK.getState(), Block.Settings.copy(Blocks.BROWN_WOOL).sounds(BlockSoundGroup.MOSS_CARPET)), itemSettings()),
     CANVAS_SLAB(new SlabBlock(Block.Settings.copy(Blocks.BROWN_WOOL).sounds(BlockSoundGroup.MOSS_BLOCK)), itemSettings()),
@@ -592,7 +590,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
 
     //PATTERNED_ERDSTONE(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings()),
 
-    //ERDSTONE_CAPPED(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings()),
+    //ERDSTONE_`CAPPED`(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings()),
     //ERDSTONE_SPIRIT(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings()),
     //ERDSTONE_MOSAIC(new Block(Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings()),
     //ERDSTONE_MOSAIC_STAIRS(new StairsBlock(ERDSTONE_MOSAIC.getState(), Block.Settings.copy(Blocks.DEEPSLATE).hardness(1)), itemSettings()),
@@ -618,10 +616,10 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     SHALE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
     SHALE_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
 
-    COBBLED_SHALE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
-    COBBLED_SHALE_STAIRS(new StairsBlock(COBBLED_SHALE.getState(), Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
-    COBBLED_SHALE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
-    COBBLED_SHALE_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
+    //COBBLED_SHALE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
+    //COBBLED_SHALE_STAIRS(new StairsBlock(COBBLED_SHALE.getState(), Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
+    //COBBLED_SHALE_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
+    //COBBLED_SHALE_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
 
     POLISHED_SHALE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
     POLISHED_SHALE_STAIRS(new StairsBlock(POLISHED_SHALE.getState(), Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
@@ -799,7 +797,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     DRIPSTONE_MOSAIC_STAIRS(new StairsBlock(DRIPSTONE_MOSAIC.getState(), Block.Settings.copy(POLISHED_DRIPSTONE.block)), itemSettings()),
     DRIPSTONE_MOSAIC_SLAB(new SlabBlock(Block.Settings.copy(POLISHED_DRIPSTONE.block)), itemSettings()),
 
-    DRIPSTONE_CAPPED(new PillarBlock(Block.Settings.copy(Blocks.DRIPSTONE_BLOCK)), itemSettings()),
+    //DRIPSTONE_CAPPED(new PillarBlock(Block.Settings.copy(Blocks.DRIPSTONE_BLOCK)), itemSettings()),
 
     //industrial basalt blocks
     //INDUSTRIAL_BRICKS(new Block(Block.Settings.copy(Blocks.SMOOTH_BASALT)), itemSettings()),
@@ -939,7 +937,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     POLISHED_PACKED_MUD_SLAB(new SlabBlock(Block.Settings.copy(Blocks.PACKED_MUD)), itemSettings()),
     POLISHED_PACKED_MUD_WALL(new WallBlock(Block.Settings.copy(Blocks.PACKED_MUD)), itemSettings()),
 
-    PACKED_MUD_CAPPED(new Block(Block.Settings.copy(Blocks.MUD_BRICKS)), itemSettings()),
+    //PACKED_MUD_CAPPED(new Block(Block.Settings.copy(Blocks.MUD_BRICKS)), itemSettings()),
 
     //red bricks
     SMOOTH_BRICK(new Block(Block.Settings.copy(Blocks.BRICKS)), itemSettings()),

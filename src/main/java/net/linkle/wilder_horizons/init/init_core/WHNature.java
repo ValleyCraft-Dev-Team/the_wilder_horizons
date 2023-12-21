@@ -198,6 +198,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     //CAIRNSTONE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.STONE).resistance(1200).hardness(52f)), itemSettings()),
 
     DRY_DIRT(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
+    DIRT_ROAD(new Block(Block.Settings.copy(Blocks.COARSE_DIRT)), itemSettings()),
     MINERAL_RICH_DEBRIS(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     FINE_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
     SANDY_GRAVEL(new FallingBlock(Block.Settings.copy(Blocks.GRAVEL)), itemSettings()),
@@ -260,7 +261,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     DEEPSLATE_ICE_ORE(new IceOreBlock(Block.Settings.copy(Blocks.DEEPSLATE_IRON_ORE).sounds(BlockSoundGroup.GLASS).nonOpaque().slipperiness(0.98f), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_MIXED_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
     DEEPSLATE_SALTPETER_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE), UniformIntProvider.create(2, 6)), itemSettings()),
-    DEEPSLATE_GEODE_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE).luminance(s->3), UniformIntProvider.create(2, 6)), itemSettings()),
+    //DEEPSLATE_GEODE_ORE(new OreBlock(Block.Settings.copy(Blocks.DEEPSLATE_COAL_ORE).luminance(s->3), UniformIntProvider.create(2, 6)), itemSettings()),
 
     SCULK_BLOSSOM(new SculkBlossomBlock(AbstractBlock.Settings.of(Material.PLANT).breakInstantly().noCollision().sounds(BlockSoundGroup.SPORE_BLOSSOM)), itemSettings()),
 
