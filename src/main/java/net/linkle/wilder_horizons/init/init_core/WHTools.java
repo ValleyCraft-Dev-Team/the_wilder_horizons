@@ -30,7 +30,8 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.Locale;
 
-import static net.linkle.wilder_horizons.interfaces.ToolConstants.*;
+import static net.linkle.wilder_horizons.interfaces.ToolConstants.basicSettings;
+import static net.linkle.wilder_horizons.interfaces.ToolConstants.settingsRelic;
 
 public enum WHTools implements ItemEnum, ToolConstants {
 
