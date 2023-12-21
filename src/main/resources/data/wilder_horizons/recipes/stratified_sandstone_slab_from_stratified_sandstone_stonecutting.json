@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "wilder_horizons:stratified_sandstone"
+  },
+  "result": "wilder_horizons:stratified_sandstone_slab"
+}

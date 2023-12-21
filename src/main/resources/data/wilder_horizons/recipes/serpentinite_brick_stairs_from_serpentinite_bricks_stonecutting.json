@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:serpentinite_bricks"
+  },
+  "result": "wilder_horizons:serpentinite_brick_stairs"
+}

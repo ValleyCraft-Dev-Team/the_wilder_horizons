@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:carmine_bricks"
+  },
+  "result": "wilder_horizons:carmine_brick_wall"
+}

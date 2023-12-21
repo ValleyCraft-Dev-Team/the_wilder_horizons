@@ -22,6 +22,27 @@ repositories {
 		url = "https://ladysnake.jfrog.io/artifactory/mods"
 	}
 	maven { url 'https://maven.blamejared.com' }
+
+	maven { url 'https://api.modrinth.com/maven' }
+}
+
+loom {
+
+	// ... (Whatever exists here)
+
+	runs {
+		// This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
+		datagenClient {
+			inherit client
+			name "Data Generation"
+			vmArg "-Dfabric-api.datagen"
+			vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
+			vmArg "-Dfabric-api.datagen.modid=wilder_horizons"
+
+			ideConfigGenerated = true
+			runDir "build/datagen"
+		}
+	}
 }
 
 dependencies {
@@ -29,6 +50,8 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	modImplementation "maven.modrinth:better-combat:1.7.1+1.19-fabric"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"

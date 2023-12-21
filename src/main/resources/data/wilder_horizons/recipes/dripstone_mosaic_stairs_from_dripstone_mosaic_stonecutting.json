@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wilder_horizons:dripstone_mosaic"
+  },
+  "result": "wilder_horizons:dripstone_mosaic_stairs"
+}

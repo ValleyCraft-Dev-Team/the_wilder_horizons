@@ -7,8 +7,7 @@
   "description": "",
   "authors": [
     "GoblinGrowl",
-    "AndEditor7",
-    "SaltySeaDoggo"
+    "AndEditor7"
   ],
   "contact": {
     "homepage": "https://github.com/wilder_horizons-Dev-Team"
@@ -21,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.linkle.wilder_horizons.Main"
+    ],
+    "fabric-datagen": [
+      "net.linkle.wilder_horizons.datagen.DataGen"
     ],
     "client": [
       "net.linkle.wilder_horizons.client.Client"
