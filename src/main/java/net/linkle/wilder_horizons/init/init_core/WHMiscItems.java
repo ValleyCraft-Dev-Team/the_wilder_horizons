@@ -184,6 +184,7 @@ public enum WHMiscItems implements ItemEnum {
     //TREATED_LEATHER = registerItem("treated_leather",
     //        new AlphaModItem(settings())),
     TREATED_LEATHER_STRAP(new AlphaModItem(settings())),
+    HORSE_SHOES(new AlphaModItem(settings())),
 
     //TOTEM_OF_KNOWLEDGE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),
     //TOTEM_OF_PEACE(new AlphaModItem(settings().rarity(Rarity.UNCOMMON))),

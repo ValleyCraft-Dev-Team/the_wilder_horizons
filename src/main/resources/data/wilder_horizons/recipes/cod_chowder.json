@@ -2,13 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_mushroom"
-    },
-    {
       "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:potato"
+      "item": "wilder_horizons:butter"
     },
     {
       "item": "wilder_horizons:onion"

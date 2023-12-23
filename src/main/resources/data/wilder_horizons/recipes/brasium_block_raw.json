@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "wilder_horizons:raw_brasium"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:brasium_block",
+    "count": 1
+  }
+}

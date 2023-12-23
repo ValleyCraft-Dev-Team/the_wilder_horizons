@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cauldron"
+    },
+    "X": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:campfire_pot",
+    "count": 1
+  }
+}

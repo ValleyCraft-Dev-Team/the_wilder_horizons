@@ -5,10 +5,13 @@
       "item": "wilder_horizons:dried_glow_kelp"
     },
     {
-      "item": "wilder_horizons:miners_lettuce"
+      "item": "wilder_horizons:dried_glow_kelp"
     },
     {
       "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "item": "wilder_horizons:purple_mushroom"
     },
     {
       "tag": "c:olive_oils"

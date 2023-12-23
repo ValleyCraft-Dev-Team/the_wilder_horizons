@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bed",
+  "key": {
+    "#": {
+      "item": "minecraft:brown_wool"
+    },
+    "Y": {
+      "item": "wilder_horizons:pillow"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "##Y",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:brown_bed"
+  }
+}

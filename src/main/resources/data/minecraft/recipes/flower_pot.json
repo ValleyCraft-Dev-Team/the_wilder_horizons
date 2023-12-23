@@ -3,11 +3,14 @@
   "key": {
     "#": {
       "item": "minecraft:brick"
+    },
+    "X": {
+      "item": "minecraft:dirt"
     }
   },
   "pattern": [
-    "#",
-    "#"
+    "#X#",
+    " # "
   ],
   "result": {
     "item": "minecraft:flower_pot"

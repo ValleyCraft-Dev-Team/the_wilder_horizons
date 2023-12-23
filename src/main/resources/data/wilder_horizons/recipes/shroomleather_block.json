@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "wilder_horizons:plant_fiber_canvas"
+      "item": "wilder_horizons:shroomleather"
     }
   },
   "pattern": [
@@ -10,6 +10,6 @@
     "##"
   ],
   "result": {
-    "item": "wilder_horizons:canvas_block"
+    "item": "wilder_horizons:shroomleather_block"
   }
 }

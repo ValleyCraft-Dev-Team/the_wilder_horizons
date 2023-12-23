@@ -8,13 +8,10 @@
       "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:fermented_spider_eye"
+      "tag": "c:fermented_eyes"
     },
     {
-      "item": "minecraft:fermented_spider_eye"
-    },
-    {
-      "item": "minecraft:kelp"
+      "tag": "c:fermented_eyes"
     },
     {
       "item": "minecraft:kelp"

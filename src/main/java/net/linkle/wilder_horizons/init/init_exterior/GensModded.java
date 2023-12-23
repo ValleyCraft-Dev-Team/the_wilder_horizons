@@ -10,10 +10,12 @@ import net.linkle.wilder_horizons.tags.ModBlockTags;
 import net.linkle.wilder_horizons.util.MoreBiomeSelectors;
 import net.linkle.wilder_horizons.util.Reg;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.collection.DataPool;
 import net.minecraft.util.registry.RegistryEntry;
+import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.biome.BiomeKeys;
 import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.YOffset;
@@ -167,11 +169,16 @@ public class GensModded {
         //config = createOreConfig("primsteel_rich_dirt", BASE_STONE_OVERWORLD, 33, BlocksNatural.IRON_RICH_DIRT.getState());
         //placed = registerOre(config, modifiersWithCount(14, HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.getTop())));
         //BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), ores, placed.getKey().get());
-        
-        config = createOreConfig("arid_dirt", DIRT_STONE, 33, WHNature.DRY_DIRT.getState());
+
+        config = createOreConfig("silverfish_blobs_stone", BASE_STONE_OVERWORLD, 5, Blocks.INFESTED_STONE.getDefaultState());
         placed = registerOre(config, modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.getTop())));
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld().and(BiomeSelectors.tag(ConventionalBiomeTags.CLIMATE_DRY).negate()), ores, placed.getKey().get());
-        
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld().and(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.IN_OVERWORLD)), ores, placed.getKey().get());
+
+        config = createOreConfig("silverfish_blobs_deepslate", DEEPSLATE_ORE_REPLACEABLES, 5, Blocks.INFESTED_DEEPSLATE.getDefaultState());
+        placed = registerOre(config, modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.getBottom())));
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld().and(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.IN_OVERWORLD)), ores, placed.getKey().get());
+
+
         config = createOreConfig("arid_dirt", DIRT_STONE, 33, WHNature.DRY_DIRT.getState());
         placed = registerOre(config, modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.getTop())));
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld().and(BiomeSelectors.tag(ConventionalBiomeTags.CLIMATE_DRY).negate()), ores, placed.getKey().get());

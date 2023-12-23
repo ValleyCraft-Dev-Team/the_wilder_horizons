@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot"
+      "item": "wilder_horizons:baked_beetroot"
     },
     {
       "item": "minecraft:baked_potato"
@@ -12,6 +12,9 @@
     },
     {
       "item": "wilder_horizons:butter"
+    },
+    {
+      "item": "wilder_horizons:salt"
     },
     {
       "item": "minecraft:bowl"

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wilder_horizons:bowl_block"
+    },
+    {
+      "item": "wilder_horizons:plank_item"
+    }
+  ],
+  "result": {
+    "item": "wilder_horizons:bowl_and_mug_block",
+    "count": 1
+  }
+}

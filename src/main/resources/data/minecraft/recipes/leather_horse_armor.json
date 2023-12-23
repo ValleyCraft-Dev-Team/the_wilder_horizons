@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#V#",
     "###",
-    "#V#"
+    "#V#",
+    " X "
   ],
   "key": {
     "#": {
@@ -11,6 +11,9 @@
     },
     "V": {
       "item": "wilder_horizons:treated_leather_strap"
+    },
+    "X": {
+      "item": "wilder_horizons:horse_shoes"
     }
   },
   "result": {

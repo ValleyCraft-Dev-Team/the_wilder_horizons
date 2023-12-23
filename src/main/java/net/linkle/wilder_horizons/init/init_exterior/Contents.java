@@ -311,6 +311,13 @@ public class Contents {
         putFuels(WHMiscItems.HANDLE, 250);
         putFuels(WHMiscItems.REINFORCED_HANDLE, 250);
         putFuels(WHMiscItems.COAL_NUGGET, 400);
+        putFuels(WHMiscItems.CHARCOAL_NUGGET, 400);
+        putFuels(WHMiscItems.ANTHRACITE_NUGGET, 400);
+        putFuels(WHMiscItems.WITHER_BONE, 400);
+        putFuels(WHMiscItems.WITHER_SKULL_SHARD, 400);
+        putFuels(Items.WITHER_SKELETON_SKULL, 3200);
+        putFuels(WHArmors.WITHER_RIBCAGE, 1600);
+
         putFuels(WHMiscItems.ANTHRACITE, 1600);
         putFuels(WHBlocks.ANTHRACITE_BLOCK, 16000);
         putFuels(WHMiscItems.BRIMSTONE_CRYSTAL_ITEM, 800);
@@ -327,6 +334,8 @@ public class Contents {
         putFuels(WHTools.BRANCH, 400);
         putFuels(WHTools.WOODEN_STAFF, 300);
         putFuels(WHTools.BAMBOO_STAFF, 300);
+        putFuels(WHTools.MAKESHIFT_CLUB, 200);
+        putFuels(WHTools.FIRE_PLOUGH, 300);
 
         putFuels(WHNature.OAK_SEED, 100);
         putFuels(WHNature.BIRCH_SEED, 100);

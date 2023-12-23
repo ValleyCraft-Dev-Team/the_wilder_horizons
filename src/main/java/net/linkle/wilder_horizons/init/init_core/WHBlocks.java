@@ -631,6 +631,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     SHALE_BRICK_SLAB(new SlabBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
     SHALE_BRICK_WALL(new WallBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
 
+    CHISELED_SHALE(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
     SHALE_RUNE_BRICKS(new Block(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).resistance(6).hardness(2.25f)), itemSettings()),
     SHALE_PILLAR(new PillarBlock(Block.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.BASALT).hardness(6).hardness(2.25f)), itemSettings()),
 
@@ -717,6 +718,7 @@ public enum WHBlocks implements ItemEnum, BlockEnum {
     CARMINE_BRICK_STAIRS(new StairsBlock(CARMINE_BRICKS.getState(), Block.Settings.copy(CARMINE_SMOOTH.block)), itemSettings()),
     CARMINE_BRICK_SLAB(new SlabBlock(Block.Settings.copy(CARMINE_SMOOTH.block)), itemSettings()),
     CARMINE_BRICK_WALL(new WallBlock(Block.Settings.copy(CARMINE_SMOOTH.block)), itemSettings()),
+    CHISELED_CARMINE(new Block(Block.Settings.copy(Blocks.STONE)), itemSettings()),
 
     //ice and snows blocks
     PACKED_SNOW_STAIRS(new StairsBlock(WHNature.PACKED_SNOW.getState(), Block.Settings.copy(WHNature.PACKED_SNOW.block)), itemSettings()),

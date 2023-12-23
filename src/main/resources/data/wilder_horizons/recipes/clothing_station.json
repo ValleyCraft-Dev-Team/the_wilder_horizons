@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "B"
+  ],
+  "key": {
+    "#": {
+      "item": "wilder_horizons:smithing_tools"
+    },
+    "B": {
+      "item": "wilder_horizons:crate"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:clothier_station",
+    "count": 1
+  }
+}

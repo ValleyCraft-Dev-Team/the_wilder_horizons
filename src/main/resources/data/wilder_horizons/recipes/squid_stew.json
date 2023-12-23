@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "wilder_horizons:cooked_squid"
+      "tag": "c:broths"
     },
     {
-      "tag": "c:broths"
+      "item": "wilder_horizons:cooked_squid"
     },
     {
       "item": "wilder_horizons:salt"

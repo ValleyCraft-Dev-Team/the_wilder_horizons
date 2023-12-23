@@ -1,0 +1,17 @@
+{
+"type": "minecraft:smelting",
+"cookingtime": 200,
+"experience": 0.1,
+"ingredient": [
+    {
+    "item": "wilder_horizons:copper_glasses"
+    },
+    {
+    "item": "wilder_horizons:copper_monocle"
+    },
+    {
+      "item": "wilder_horizons:raw_gold_nugget"
+    }
+  ],
+  "result": "minecraft:gold_nugget"
+}

@@ -24,7 +24,7 @@ public class LootTable extends FabricBlockLootTableProvider {
         addDrop(CARMINE_BRICK_SLAB.block, slabDrops(CARMINE_BRICK_SLAB.block));
         addDrop(CARMINE_COBBLESTONE_SLAB.block, slabDrops(CARMINE_COBBLESTONE_SLAB.block));
         addDrop(CARMINE_SMOOTH_SLAB.block, slabDrops(CARMINE_SMOOTH_SLAB.block));
-        addDrop(COBBLED_SHALE_SLAB.block, slabDrops(COBBLED_SHALE_SLAB.block));
+        //addDrop(COBBLED_SHALE_SLAB.block, slabDrops(COBBLED_SHALE_SLAB.block));
         addDrop(COBBLESTONE_BRICK_SLAB.block, slabDrops(COBBLESTONE_BRICK_SLAB.block));
         addDrop(CRACKED_SANDSTONE_BRICK_SLAB.block, slabDrops(CRACKED_SANDSTONE_BRICK_SLAB.block));
         addDrop(CRACKED_RED_SANDSTONE_BRICK_SLAB.block, slabDrops(CRACKED_RED_SANDSTONE_BRICK_SLAB.block));
@@ -86,7 +86,7 @@ public class LootTable extends FabricBlockLootTableProvider {
         addDrop(CARMINE_BRICK_STAIRS.block, CARMINE_BRICK_STAIRS.block);
         addDrop(CARMINE_COBBLESTONE_STAIRS.block, CARMINE_COBBLESTONE_STAIRS.block);
         addDrop(CARMINE_SMOOTH_STAIRS.block, CARMINE_SMOOTH_STAIRS.block);
-        addDrop(COBBLED_SHALE_STAIRS.block, COBBLED_SHALE_STAIRS.block);
+        //addDrop(COBBLED_SHALE_STAIRS.block, COBBLED_SHALE_STAIRS.block);
         addDrop(COBBLESTONE_BRICK_STAIRS.block, COBBLESTONE_BRICK_STAIRS.block);
         addDrop(CRACKED_SANDSTONE_BRICK_STAIRS.block, CRACKED_SANDSTONE_BRICK_STAIRS.block);
         addDrop(CRACKED_RED_SANDSTONE_BRICK_STAIRS.block, CRACKED_RED_SANDSTONE_BRICK_STAIRS.block);
@@ -143,7 +143,7 @@ public class LootTable extends FabricBlockLootTableProvider {
         addDrop(CARMINE_BRICK_WALL.block, CARMINE_BRICK_WALL.block);
         addDrop(CARMINE_COBBLESTONE_WALL.block, CARMINE_COBBLESTONE_WALL.block);
         addDrop(CARMINE_SMOOTH_WALL.block, CARMINE_SMOOTH_WALL.block);
-        addDrop(COBBLED_SHALE_WALL.block, COBBLED_SHALE_WALL.block);
+        //addDrop(COBBLED_SHALE_WALL.block, COBBLED_SHALE_WALL.block);
         addDrop(COBBLESTONE_BRICK_WALL.block, COBBLESTONE_BRICK_WALL.block);
         addDrop(CRACKED_SANDSTONE_BRICK_WALL.block, CRACKED_SANDSTONE_BRICK_WALL.block);
         addDrop(CRACKED_RED_SANDSTONE_BRICK_WALL.block, CRACKED_RED_SANDSTONE_BRICK_WALL.block);

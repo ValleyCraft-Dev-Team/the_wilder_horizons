@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "  #",
-    " O ",
-    "/  "
-  ],
-  "key": {
-    "#": {
-      "item": "wilder_horizons:baked_beetroot"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot"
     },
-    "O": {
-      "item": "wilder_horizons:baked_onion"
+    {
+      "item": "wilder_horizons:miners_lettuce"
     },
-    "/": {
-      "item": "minecraft:stick"
+    {
+      "item": "minecraft:bowl"
     }
-  },
+  ],
   "result": {
     "item": "wilder_horizons:hearty_skewer",
     "count": 1

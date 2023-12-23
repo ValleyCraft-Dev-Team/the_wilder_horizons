@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#SL",
+    "BFW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:candle"
+    },
+    "W": {
+      "item": "minecraft:writable_book"
+    },
+    "L": {
+      "item": "wilder_horizons:iron_knife"
+    },
+    "B": {
+      "item": "minecraft:experience_bottle"
+    },
+    "F": {
+      "item": "wilder_horizons:crate"
+    },
+    "S": {
+      "item": "minecraft:red_carpet"
+    }
+  },
+  "result": {
+    "item": "wilder_horizons:hunting_station",
+    "count": 1
+  }
+}

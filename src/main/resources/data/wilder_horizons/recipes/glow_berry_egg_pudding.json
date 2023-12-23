@@ -5,7 +5,10 @@
       "item": "wilder_horizons:glow_berry_juice"
     },
     {
-      "item": "minecraft:egg"
+      "item": "wilder_horizons:hard_boiled_egg"
+    },
+    {
+      "item": "wilder_horizons:jelly_blob"
     },
     {
       "tag": "c:milk_bottles"

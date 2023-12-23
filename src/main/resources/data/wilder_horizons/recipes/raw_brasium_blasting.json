@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wilder_horizons:raw_brasium"
+  },
+  "result": "wilder_horizons:brasium_ingot",
+  "experience": 0.4,
+  "cookingtime": 100
+}

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    " t ",
     "iii",
-    "iOi",
     "iOi"
   ],
   "key": {
@@ -11,6 +11,9 @@
     },
     "O": {
       "tag": "minecraft:planks"
+    },
+    "t": {
+      "tag": "wilder_horizons:smithing_tools"
     }
   },
   "result": {

@@ -2,13 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "wilder_horizons:dried_fiber"
+      "item": "wilder_horizons:plant_fiber_canvas"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "##"
   ],
   "result": {
     "item": "wilder_horizons:thatch_block"

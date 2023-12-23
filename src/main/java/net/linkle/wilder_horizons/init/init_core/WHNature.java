@@ -297,7 +297,7 @@ public enum WHNature implements ItemEnum, BlockEnum {
     //DEAD_IRON_GOLEM(new HorizontalBlock(Block.Settings.copy(Blocks.IRON_BLOCK)), itemSettings().rarity(Rarity.RARE)),
     GIANT_SKULL(new CarvedPumpkinBlock(Block.Settings.copy(Blocks.BONE_BLOCK)), itemRelicSettings()),
     GIANT_SKULL_LANTERN(new CarvedPumpkinBlock(Block.Settings.copy(Blocks.BONE_BLOCK).luminance(s->10)), itemRelicSettings()),
-    BONE_TOOTH(new BrimstoneCrystalClusterBlock(7,3, FabricBlockSettings.copyOf(Blocks.AMETHYST_CLUSTER).sounds(BlockSoundGroup.BONE).nonOpaque().luminance(s -> 0)), itemRelicSettings()),
+    BONE_TOOTH(new BoneToothBlock(7,3, FabricBlockSettings.copyOf(Blocks.AMETHYST_CLUSTER).sounds(BlockSoundGroup.BONE).nonOpaque().luminance(s -> 0)), itemRelicSettings()),
 
     //heads
     HEAD_ZOMBIE_ALEX(new SkullBlock(Block.Settings.of(Material.DECORATION).nonOpaque().breakInstantly().sounds(BlockSoundGroup.STONE)), itemSettings().rarity(Rarity.UNCOMMON)),
