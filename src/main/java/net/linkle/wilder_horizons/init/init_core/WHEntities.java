@@ -25,7 +25,10 @@ import net.linkle.wilder_horizons.entity.snails.CaveSnailEntity;
 import net.linkle.wilder_horizons.entity.snails.SnailEntity;
 import net.linkle.wilder_horizons.enums.EntityEnum;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.model.Dilation;
+import net.minecraft.client.model.TexturedModelData;
 import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
+import net.minecraft.client.render.entity.model.BipedEntityModel;
 import net.minecraft.entity.*;
 import net.minecraft.entity.SpawnRestriction.Location;
 import net.minecraft.entity.passive.AnimalEntity;
@@ -116,7 +119,9 @@ public enum WHEntities implements EntityEnum {
 
     ZOMBIFIED_PIG(EntityEnum.createMob(SpawnGroup.MONSTER, ZombifiedPigEntity::new).dimensions(EntityDimensions.fixed(0.9f, 0.9f)).trackRangeChunks(8)),
 
-    CAVE_SLIME(EntityEnum.createMob(SpawnGroup.MONSTER, CaveSlimeEntity::new).dimensions(EntityDimensions.changing(2.04f, 2.04f)).trackRangeChunks(10));
+    CAVE_SLIME(EntityEnum.createMob(SpawnGroup.MONSTER, CaveSlimeEntity::new).dimensions(EntityDimensions.changing(2.04f, 2.04f)).trackRangeChunks(10)),
+
+    BRASIUM_GOLEM(EntityEnum.createMob(SpawnGroup.MISC, BrasiumGolemEntity::new).dimensions(EntityDimensions.fixed(0.6f, 1.95f)).trackRangeChunks(8));
 
     public static void initialize() {
         registerAttribute(SNAIL, SnailEntity.createSnailAttributes());
@@ -151,6 +156,8 @@ public enum WHEntities implements EntityEnum {
         registerAttribute(FRIENDLY_ENDERMAN, FriendlyEndermanEntity.createFriendlyEndermanAttributes());
 
         registerAttribute(GUARDIAN_SENTRY, GuardianSentryEntity.createGuardianSentryAttributes());
+
+        registerAttribute(BRASIUM_GOLEM, BrasiumGolemEntity.createBrasiumGolemAttributes());
     }
 
     @Environment(EnvType.CLIENT)
@@ -159,7 +166,10 @@ public enum WHEntities implements EntityEnum {
         EntityModelLayerRegistry.registerModelLayer(LargeSnailEntityModel.LAYER, LargeSnailEntityModel::getTexturedModelData);
         EntityModelLayerRegistry.registerModelLayer(PupkinEntityModel.LAYER, PupkinEntityModel::getTexturedModelData);
         EntityModelLayerRegistry.registerModelLayer(BearEntityModel.LAYER, BearEntityModel::getTexturedModelData);
-        
+        EntityModelLayerRegistry.registerModelLayer(BipedEntityRenderer.LAYER, () -> TexturedModelData.of(BipedEntityModel.getModelData(Dilation.NONE, 0f), 64, 64) );
+
+        registerRenderer(BRASIUM_GOLEM, BipedEntityRenderer.create("golems/brasium_golem_steve"));
+
         registerRenderer(SNAIL, LargeSnailEntityRenderer.create("snail_large"));
         registerRenderer(CAVE_SNAIL, SnailEntityRenderer.create("cave_snail"));
         //registerRenderer(SCULK_SNAIL, SnailEntityRenderer.create("sculk_snail"));
