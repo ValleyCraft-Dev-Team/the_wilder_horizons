@@ -4,8 +4,10 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.tag.BlockTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
+import net.minecraft.world.BlockView;
 
 import java.util.Iterator;
 
@@ -50,5 +52,10 @@ public class MossweedBlock extends ModMushroomBlockDaySafe {
             }
         }
 
+    }
+
+    @Override
+    public boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
+        return floor.isIn(BlockTags.DIRT) || floor.isOf(Blocks.FARMLAND);
     }
 }
