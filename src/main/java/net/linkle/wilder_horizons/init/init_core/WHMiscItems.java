@@ -44,8 +44,8 @@ public enum WHMiscItems implements ItemEnum {
     PLANT_FIBER_CANVAS(new AlphaModItem(settings())),
     ROPE(new RopeItem(settings())),
     ARROW_FLETCHING(new AlphaModItem(settings())),
-    ARROW_BUNDLE(new AlphaModItem(settings())),
-    BOMB_BAG(new AlphaModItem(relicSettings())),
+    ARROW_BUNDLE(new ArrowBundleItem(settings())),
+    BOMB_BAG(new BombBagItem(relicSettings())),
 
     PUFF_BALL(new AlphaModItem(settings())),
     CLOTH(new AlphaModItem(settings())),
@@ -151,7 +151,7 @@ public enum WHMiscItems implements ItemEnum {
     FLINT_ARROWHEAD(new AlphaModItem(settings())),
     OBSIDIAN_ARROWHEAD(new AlphaModItem(settings())),
 
-    SEED_BAG(new AlphaModItem(relicSettings().rarity(Rarity.UNCOMMON))),
+    SEED_BAG(new SeedBagItem(relicSettings().rarity(Rarity.UNCOMMON))),
     SPOOL_OF_PLANT_FIBER_STRING(new AlphaModItem(settings().recipeRemainder(Items.STICK))),
     SPOOL_OF_STRING(new AlphaModItem(settings().recipeRemainder(Items.STICK))),
     SPOOL_OF_BOW_STRING(new AlphaModItem(settings().recipeRemainder(Items.STICK))),

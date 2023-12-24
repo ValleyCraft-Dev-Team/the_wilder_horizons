@@ -6,6 +6,7 @@ import net.linkle.wilder_horizons.environment.gen.feature.TreeConfigs;
 import net.linkle.wilder_horizons.environment.gen.feature.VegetationPlaced;
 import net.linkle.wilder_horizons.environment.sounds.WHSounds;
 import net.linkle.wilder_horizons.init.init_core.*;
+import net.linkle.wilder_horizons.init.init_exterior.GensModded;
 import net.linkle.wilder_horizons.init.init_exterior.WHLootTables;
 import net.linkle.wilder_horizons.init.init_exterior.WHParticles;
 import net.linkle.wilder_horizons.tags.ModBlockTags;

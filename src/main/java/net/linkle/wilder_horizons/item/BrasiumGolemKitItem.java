@@ -29,11 +29,11 @@ public class BrasiumGolemKitItem extends AlphaModItem {
             var inventory = player.getInventory();
 
             if (stack.isEmpty()) {
-                inventory.insertStack(new ItemStack(WHBlocks.BRASIUM_BLOCK, 2));
+                inventory.insertStack(new ItemStack(WHBlocks.BRASIUM_BLOCK.asItem(), 2));
                 return new ItemStack(Items.CARVED_PUMPKIN, 1);
             }
 
-            inventory.insertStack(new ItemStack(WHBlocks.BRASIUM_BLOCK,2));
+            inventory.insertStack(new ItemStack(WHBlocks.BRASIUM_BLOCK.asItem(),2));
             inventory.insertStack(new ItemStack(Items.CARVED_PUMPKIN, 1));
             return stack;
         }

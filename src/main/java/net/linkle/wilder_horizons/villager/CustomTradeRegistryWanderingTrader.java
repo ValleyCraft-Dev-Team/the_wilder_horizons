@@ -319,10 +319,6 @@ public class CustomTradeRegistryWanderingTrader {
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 1),
-                            new ItemStack(WHMedicines.SOAP, 3),
-                            16, 2, 0.05f)));
-                    factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 1),
                             new ItemStack(WHMedicines.BOLUS_POISON, 1),
                             16, 2, 0.05f)));
                     factories.add(((entity, random) -> new TradeOffer(
