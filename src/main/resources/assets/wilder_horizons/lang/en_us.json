@@ -1008,6 +1008,10 @@
   "block.wilder_horizons.shale_pillar": "Shale Pillar",
   "block.wilder_horizons.chiseled_shale": "Chiseled Shale",
 
+  "item.wilder_horizons.iron_golem_creation_kit": "Iron Golem Creation Kit",
+  "item.wilder_horizons.snow_golem_creation_kit": "Snow Golem Creation Kit",
+  "item.wilder_horizons.brasium_golem_creation_kit": "Brasium Golem Creation Kit",
+
   "entity.minecraft.boat": "Raft",
   "item.minecraft.oak_boat": "Makeshift Oak Raft",
   "item.minecraft.oak_chest_boat": "Makeshift Oak Raft with Chest",

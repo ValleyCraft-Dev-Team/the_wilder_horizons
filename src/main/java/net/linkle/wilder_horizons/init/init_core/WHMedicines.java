@@ -32,12 +32,13 @@ public enum WHMedicines implements ItemEnum {
     // ointment base - slime
     EXTINGUISHING_OINTMENT(new SalveItem(settings().maxCount(16), 0, 0, true, StatusEffects.FIRE_RESISTANCE)),
 
-    PROTECTING_OINTMENT(new OintmentItem(settings().maxCount(16), 0, 0, true, StatusEffects.RESISTANCE)),
+    PROTECTING_OINTMENT(new OintmentItem(settings().maxCount(16), 0, 0, true, StatusEffects.RESISTANCE));
 
     //CONCEALING_OINTMENT(new OintmentItem(settings().maxCount(16), 0, 0, true, StatusEffects.INVISIBILITY)),
 
     // soap base - clay
-    SOAP(new SoapItem(settings(), 0, 0, true, WHEffects.CLEANSED.effect));
+    //SOAP(new SoapItem(settings(), 0, 0, true, WHEffects.CLEANSED.effect));
+    /**save for different mod**/
 
     private static FabricItemSettings settings() {
         return new FabricItemSettings().group(WHGroups.WH_FOOD_SPECIAL);

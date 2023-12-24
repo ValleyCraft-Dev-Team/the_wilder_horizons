@@ -163,6 +163,10 @@ public enum WHMiscItems implements ItemEnum {
     WITCH_SCROLL_CAT(new SummonerItem(()->Items.CAT_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
     SCROLL_CHICKEN(new SummonerItem(()->Items.CHICKEN_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
     EVOKER_SCROLL_VEX(new SummonerItem(()->Items.VEX_SPAWN_EGG, relicSettings().rarity(Rarity.EPIC))),
+    IRON_GOLEM_CREATION_KIT(new IronGolemKitItem(relicSettings().rarity(Rarity.RARE))),
+    SNOW_GOLEM_CREATION_KIT(new SnowGolemKitItem(relicSettings().rarity(Rarity.RARE))),
+    BRASIUM_GOLEM_CREATION_KIT(new BrasiumGolemKitItem(relicSettings().rarity(Rarity.RARE))),
+
     BOTTLE_OF_INK(new AlphaModItem(settings())),
     QUILL(new AlphaModItem(settings())),
     EMPTY_BOOK(new AlphaModItem(settings())),

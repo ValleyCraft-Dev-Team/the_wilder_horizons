@@ -11,7 +11,7 @@ import java.util.Locale;
 
 public enum WHEffects implements IdProvider {
 
-    CLEANSED(new Cleansed()),
+    //CLEANSED(new Cleansed()),
     ROT_BLIGHT(new RotBlight()),
     SOUL_FADING(new SoulFading()),
     RADIANT_HEALING(new RadiantHealing());

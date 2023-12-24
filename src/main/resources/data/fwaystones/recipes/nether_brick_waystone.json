@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sas",
+    "sGs",
+    "sCs"
+  ],
+  "key": {
+    "a": {
+      "item": "fwaystones:abyss_watcher"
+    },
+    "s": {
+      "tag": "c:nether_bricks"
+    },
+    "G": {
+      "item": "wilder_horizons:soul_gem"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "fwaystones:nether_brick_waystone",
+    "count": 1
+  }
+}
