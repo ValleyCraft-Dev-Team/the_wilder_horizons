@@ -53,6 +53,8 @@ public class Main implements ModInitializer {
         ModBlockTags.initialize();
         ModItemTags.initialize();
         WHLootTables.initialize();
+
+        GensModded.initialize();
     }
 
     public static Identifier makeId(String id) {

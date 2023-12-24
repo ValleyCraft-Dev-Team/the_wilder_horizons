@@ -103,10 +103,7 @@ public class GensModded {
         
         placed = registerPlant(createConfig("lush_creosote_bush_tall", 60, WHNature.TALL_LIVING_BUSH), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.SAVANNA, ConventionalBiomeTags.BADLANDS), vegetal, placed.getKey().get());
-        
-        placed = registerPlant(createConfig("lush_creosote_bush_tall", 60, WHNature.TALL_LIVING_BUSH), 20);
-        BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.SAVANNA, ConventionalBiomeTags.BADLANDS), vegetal, placed.getKey().get());
-    
+
         placed = registerPlant(createConfig("tall_cornflower", 60, WHNature.TALL_CORNFLOWER), 20);
         BiomeModifications.addFeature(MoreBiomeSelectors.includeByTag(ConventionalBiomeTags.FOREST, ConventionalBiomeTags.FLOWER_FORESTS, ConventionalBiomeTags.PLAINS), vegetal, placed.getKey().get());
     
@@ -133,10 +130,7 @@ public class GensModded {
         
         placed = registerPlant(createConfig("wild_onion", 60, WHNature.WILD_ONION), 20);
         BiomeModifications.addFeature(BiomeSelectors.tag(ConventionalBiomeTags.FOREST), vegetal, placed.getKey().get());
-        
-        placed = registerPlant(createConfig("wild_onion", 60, WHNature.WILD_ONION), 20);
-        BiomeModifications.addFeature(BiomeSelectors.tag(ConventionalBiomeTags.FOREST), vegetal, placed.getKey().get());
-        
+
         placed = registerPlant(createConfig("wild_wheat", 60, WHNature.WILD_WHEAT), 20);
         BiomeModifications.addFeature(BiomeSelectors.tag(ConventionalBiomeTags.PLAINS), vegetal, placed.getKey().get());
         
